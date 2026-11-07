@@ -392,6 +392,9 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   clean master without text: media_id 5d3de2af-12f7-43d4-adc2-2c2e8f14d4ea. Higgsfield project "HBX – Outrigger Canoe" (folder 6f533c69-8a0f-4734-8c9d-cb3f40f12e49).
   Fell back to a still: B9 (lake-bed aside; the kling clip invented a mannequin swimmer). Known edit candidates: B9 still push-in; B10 hard hat
   blurs for a moment; the outrigger float sits on the sand side; LAKEBED is tropical shallows rather than a murky lake.
+  Covers (1080×1920, free, `pipeline/02-thumbnail.py`): **A "LOG → CANOE" split (recommended)** media_id f3fd1ad4-eae4-4908-b2c7-c8bd27ba7699;
+  B "NOT THE CROC" curiosity c10b2919-3e9c-4f9d-bd51-12da30eb996a; C storm hero + log inset bebf2e3d-db45-4501-8f84-b7427180b965
+  (each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.png).
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -423,7 +426,12 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   script's rare words, plus proportional alignment for "10,000"/"800", matched 235/235 words.
 - **Gate D preview:** `02-build.py B1,B2,B3` renders the first beats with narration and captions; upload it (`media_upload`, PUT with headers
   `Content-Type: video/mp4` and `If-None-Match: *`, then `media_confirm`) so the user can watch the pilot in context.
-- **Scripts for video 02** (in the repo's `pipeline/` and attached to the memory artifact under `pipeline/`): `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
+- **Cover / thumbnail (Step 13, free, after delivery):** build it in the sandbox from the video's own frames (2K minimax frames are sharpest) with
+  `02-thumbnail.py`: 0–4 words in Montserrat ExtraBold, yellow + white with a black stroke and drop shadow, one yellow arrow. Keep words and the
+  subject inside the 3:4 profile-grid crop (y 240–1680 of 1920), clear of TikTok's right-hand buttons (x > 940 below y ≈ 950) and the caption
+  zone (y > 1560). Make 3 concepts that each test a different reason to click (transformation split, the twist as curiosity, single action hero),
+  check them as a 3:4 grid tile and at feed size, and recommend the transformation split as the main cover. Covers must show what the video shows.
+- **Scripts for video 02** (in the repo's `pipeline/` and attached to the memory artifact under `pipeline/`): `02-thumbnail.py` (covers), `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
   `02-build.py` (assembly; preview mode), `02-jobs.tsv` (all job ids). Copy these as the starting point for video 03.
 
 ### 3.5 Things that will go wrong, and the fix
