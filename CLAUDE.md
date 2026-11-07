@@ -98,7 +98,7 @@ climax and payoff. Facts marked ⚠ must be verified before scripting.
 
 ### Survival / primitive builds (closest to the 7.2M hit)
 
-**1. How Mud Can Become A House In The Desert**
+**1. How Mud Can Become A House In The Desert** — ✅ USED: video 01 (7 Nov 2026)
 - Set: rocky desert flat, one cactus, dry riverbed.
 - Hook: You stack rocks in a circle and you have a wall.
 - Chain: rocks bake like a frying pan -> mud, straw and water pressed into bricks (ADOBE) -> wet bricks crumble ->
@@ -109,7 +109,8 @@ climax and payoff. Facts marked ⚠ must be verified before scripting.
 - Climax/payoff: flash flood down the dry riverbed. The house was built on a rise and stays dry.
 - Cozy: clay oven, small deep windows, wooden door.
 
-**2. How A Fallen Tree Can Become A Canoe**
+**2. How A Fallen Tree Can Become A Canoe** — ✅ USED: video 02 (7 Nov 2026). As made: jungle river mouth that opens to the sea;
+  storm waves instead of rapids (an outrigger float would snag in rapids); script in `pipeline/02-script.txt`.
 - Set: tropical riverbank, one huge fallen log.
 - Hook: You lie on a log and float, and you have a boat.
 - Chain: log rolls and dumps you -> hollow it with fire and scraping (DUGOUT) -> water pours over the low sides ->
@@ -384,6 +385,13 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - **01 Desert Adobe** (Lite) — DELIVERED v1, 7 Nov 2026. 74.3 s, 1080×1920, 24 fps. Higgsfield spend **106.25 cr** (quote 122): 19 stills 23.75 + clips 82.5 (net of refunds). ElevenLabs ≈ $0.13.
   Final in Higgsfield storage: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/11972224-4d3b-45ee-947f-b84b88b1f651.mp4 (media_id 11972224-4d3b-45ee-947f-b84b88b1f651).
   Known edit candidates: ending blanket floats above the roof; bricks clip pushes in tight; "cutaway" is a heat-glow view; thick-walls and lime beats are free wipes.
+- **02 Fallen Tree → Outrigger Canoe** (Full, idea #2) — DELIVERED v1, 7 Nov 2026. 67.96 s, 1080×1920, 24 fps, −15 LUFS, 17 beats, 235 words.
+  Higgsfield spend **202.00 cr** (quote 214.5): 20 stills 25.00 (18 + 2 redos) + clips 177.00 net (8 minimax_h3 clips 96; 9 kling4_0 retries 81;
+  72 cr of failed minimax jobs refunded). ElevenLabs ≈ $0.25 (2 takes; take A used at 1.07×).
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/7adc5a84-79d3-41f5-9ca0-d19b7e607510.mp4 (media_id 7adc5a84-79d3-41f5-9ca0-d19b7e607510);
+  clean master without text: media_id 5d3de2af-12f7-43d4-adc2-2c2e8f14d4ea. Higgsfield project "HBX – Outrigger Canoe" (folder 6f533c69-8a0f-4734-8c9d-cb3f40f12e49).
+  Fell back to a still: B9 (lake-bed aside; the kling clip invented a mannequin swimmer). Known edit candidates: B9 still push-in; B10 hard hat
+  blurs for a moment; the outrigger float sits on the sand side; LAKEBED is tropical shallows rather than a murky lake.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -394,6 +402,29 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - Fonts: `npm pack @fontsource/fredoka @fontsource/montserrat`, convert woff2 to TTF with fontTools, rename families to "HBX Caption" / "HBX Label". libass sizes at 1080×1920: caption 116 (y=1000), label 104 (y=560), labels start at "This is…" and stay ≥1.6 s.
 - Loudness: loudnorm −14 + 2.6 dB + limiter gives about −15 LUFS.
 - **Reusable scripts** are attached to the memory artifact as files (`pipeline/prompts.py`, `mk.py`, `fetch.py`, `timing.py`, `build.py`). Read them with Artifact `read` + `path`, copy them into the new video folder, and edit the beat list, labels and prompts.
+
+### 3.4d Lessons from video 02 (apply next time)
+- **minimax_h3 queue:** the account accepts about 11 active video jobs; more submissions are refused with `429 rate_limit_reached` (no job, no charge).
+  Only ~3 run at once, and **every job left queued failed** (9 of 9, all refunded), while every job that started right away succeeded (8 of 8,
+  pilots included). Next time: submit minimax in groups of **≤3**, wait until they finish, then send the next group. Kling has the same 429
+  behaviour, so feed retries in groups of 2–4.
+- **kling4_0 retries** (image-to-video, 720p, start frame only, 9 cr per 4 s) worked 9 of 9, but one (B9, a scenery-only underwater shot) invented a
+  faceless mannequin swimmer. For shots with no mascot, put "No people, no swimmers, no characters" in the motion prompt, and drop the
+  "The character only gestures" tail.
+- **Still drift fixes:** a boat came out tub-shaped until the prompt said "seen side-on so the whole canoe is visible from end to end"; a single
+  outrigger came out double until it said "ONE float … nothing on the other side". A big change in a ladder still (log → dugout) can reframe the
+  camera slightly; later stills inherit it, which is fine.
+- **This session could not reach the Higgsfield CDN** (`*.cloudfront.net` blocked by the network policy). Inspect stills and clips inside
+  `sandbox_exec` with `image_paths`; build contact sheets locally from the tool-result preview JPEGs; give the user CDN links (their browser can open them).
+- **pip in the Higgsfield sandbox fails** (`PermissionError: '/root'`). Get fontTools by curling its `py3-none-any` wheel from the PyPI JSON API,
+  unzip into `/home/user/pylib`, run with `PYTHONPATH=/home/user/pylib`, and convert the fontsource **.woff** (WOFF1) files; WOFF2 needs brotli.
+- **Narration pace varies by take:** this time 3.02 w/s raw (3.28 after pause tightening). Picked the faster of 2 takes and applied a pitch-preserving
+  `atempo` 1.07 (limit 1.1) to reach 3.50 w/s, matching video 01. `02-timing.py` takes the speed as its 2nd argument. Whisper `initial_prompt` with the
+  script's rare words, plus proportional alignment for "10,000"/"800", matched 235/235 words.
+- **Gate D preview:** `02-build.py B1,B2,B3` renders the first beats with narration and captions; upload it (`media_upload`, PUT with headers
+  `Content-Type: video/mp4` and `If-None-Match: *`, then `media_confirm`) so the user can watch the pilot in context.
+- **Scripts for video 02** (in the repo): `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
+  `02-build.py` (assembly; preview mode), `02-jobs.tsv` (all job ids). Copy these as the starting point for video 03.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.

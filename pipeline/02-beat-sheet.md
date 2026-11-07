@@ -53,3 +53,10 @@ Mascot: reuse the locked reference job f97004b9-f63f-4971-ab16-e0519314a404 (no 
 - Subtotal 186.50; 15% reserve 27.98; quoted total ≈ 214.5
 - Kling fallback costs 9 (4 s) / 13.5 (6 s) per clip; failed minimax jobs are refunded, so a fallback adds 1–1.5 cr per clip (covered by the reserve)
 - Narration: ElevenLabs connector, locked voice (0 Higgsfield credits)
+
+## As made (7 Nov 2026)
+- Narration: ElevenLabs take A, pauses tightened to ~0.15 s, then atempo 1.07 → 67.05 s of speech (3.50 w/s); video 67.96 s with a 0.9 s tail.
+- Measured clip lengths: B1 6, B2 4, B3 5, B4 6, B5 4, B6 6, B7 4, B8 4, B9 4, B10 4, B11 5, B12 4, B13 4, B14 6, B15 6, B16 4, B17 8 (84 s).
+- minimax_h3 (2K): B1, B3, B4, B6, B11, B14, B15, B17. kling4_0 (720p, start frame, retry after minimax failure): B2, B5, B7, B8, B10, B12, B13, B16.
+- B9: kling retry invented a mannequin swimmer → rejected; the beat uses the LAKEBED still with a push-in.
+- Labels: DUGOUT, 10,000 YEARS (B4), WASHSTRAKES (B11), 800 A DAY (B13), OUTRIGGER (B14).
