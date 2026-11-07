@@ -423,7 +423,7 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   script's rare words, plus proportional alignment for "10,000"/"800", matched 235/235 words.
 - **Gate D preview:** `02-build.py B1,B2,B3` renders the first beats with narration and captions; upload it (`media_upload`, PUT with headers
   `Content-Type: video/mp4` and `If-None-Match: *`, then `media_confirm`) so the user can watch the pilot in context.
-- **Scripts for video 02** (in the repo): `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
+- **Scripts for video 02** (in the repo's `pipeline/` and attached to the memory artifact under `pipeline/`): `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
   `02-build.py` (assembly; preview mode), `02-jobs.tsv` (all job ids). Copy these as the starting point for video 03.
 
 ### 3.5 Things that will go wrong, and the fix
