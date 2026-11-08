@@ -24,3 +24,9 @@ FLAG	c5d1d53b-d0ca-4cb7-b900-f04403430280	B19
 DOG	316d2782-5c1b-403c-908a-3da550b64713	B20
 ROAR	51de0fc7-ff0c-474a-bbab-73d35e048390	REJECTED (came out in daylight)
 ROAR2	45ef84f3-c713-4e5a-91fb-7c3d783dcbbd	B23; C8 start
+# clips (minimax_h3 2K 9:16, 2 cr/s; retries on kling4_0 image-to-video 720p, 9 cr per 4 s)
+C1-minimax	45e06898-e1ea-444e-8dad-fad783b2cd09	FAILED after sitting queued (refunded)
+C1-kling	469a9222-8c57-45d6-b49c-76729b2a3cfa	B1 hook (pilot), 4 s, 9 cr
+C3	5aa80f2f-f385-45c0-ac61-1933371fbf47	B3 dry barrel build S0F -> S1 (pilot), 5 s, 10 cr
+# narration: ElevenLabs flow CYpPB16lwgg8FD4u7zzI, eleven_v4, Daniel's Voice. Take A x4B6fV4I6AG82Lehd4ol used (88.56 s raw -> 76.98 s tight at 1.07x, 3.49 w/s); take B e26sYWgzKBtVv7Fey17h (91.44 s) unused. 1,451 ElevenLabs credits per take.
+# Gate D preview B1-B4 (12.62 s): media_id b32f66a6-bc3e-4bf8-9f30-83a536f04847
