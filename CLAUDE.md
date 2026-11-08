@@ -497,8 +497,9 @@ Snapshot 8 Nov 2026, 21:30 UTC. Hashtags on every post: #HowItWorks #Engineering
 5. **Fast first problem.** The first "But" lands at 2.5–3.5 s on the top videos and at 4.6–6.5 s on the weaker ones.
 6. **The top three end on a loop.** All three close on a three-beat imperative that flows back into the hook, with no "Congratulations" and
    no CTA: "...Bury the pipes, pave the road, and let it rain." → "If you cut a hole in your street, the rain has somewhere to go."
-   Every video that ended on "Congratulations" or the creator CTA did worse (small sample, and several are newer).
-7. **One continuous camera.** 7 of 9 videos have 0–2 hard cuts in ~75 s. The gas station had 27 cuts and close-up montages, and it flopped.
+   So far every video that ends on "Congratulations" or the creator CTA has fewer views than these three (small sample; the landfill
+   video has the CTA and is climbing fast).
+7. **One continuous camera.** 8 of 9 videos have 0–2 hard cuts in ~75 s. The gas station had 27 cuts and close-up montages, and it flopped.
 8. **Length.** The three best run 74–76 s; both 88 s videos underperformed. All run over 60 s (TikTok's Creator Rewards only pays on
    videos over a minute, which may be why).
 9. **One small human joke per video:** "somebody's missing tennis ball", "your street becomes a swimming pool", "your drain becomes a
