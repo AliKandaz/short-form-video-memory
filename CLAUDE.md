@@ -447,13 +447,6 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - **Narration runs long:** cut words from the script; don't speed it up.
 - **Balance too low for the quoted tier:** offer Lite, or fewer animated beats. Never start a run you can't finish.
 
-### 3.6 Kickoff prompt for a new session (copy this)
-```
-Read CLAUDE.md. Make idea #<N> from section 2 using the section 3 runbook,
-<Lite|Full> tier. Stop at Gate A (script), Gate B (credit quote), Gate C (stills)
-and Gate D (pilot clips) for my approval.
-```
-
 ---
 
 ## 4. Second reference account: @1hidden_by_design ("Hidden By Design")
@@ -746,3 +739,46 @@ Effort: **single set** = one cutaway set and one hero angle (cheapest with the s
 - Link stage stills with continuous camera moves (start and end keyframes on neighbouring stages) instead of hard-cut close-up montages.
 - End on a three-beat imperative that loops into the hook. Put any CTA after it, or leave it out.
 - Cover: a mid-video cutaway frame, or the split cover from 3.4d.
+
+---
+
+## 5. Kickoff prompt (paste this to make a video)
+Fill in the four lines in angle brackets and paste the whole block into a new session.
+```
+Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
+artifact) first, all sections. Then make a video with the section 3 runbook.
+
+IDEA:   <#N from section 2 | H<N> from section 4 | new topic: "...">
+TIER:   <Lite | Full>
+LOOK:   <Hidden By Design | Classic>
+          Hidden By Design (4.4, production notes in 4.9): photoreal cutaway cross-section of
+          one set, no mascot, one continuous camera that follows the flow (start and end
+          keyframes between stage stills, no hard-cut montages), one-word ALL CAPS captions
+          with a black stroke at ~75% of frame height.
+          Classic (section 1): our locked mascot (3.4), centred Title Case captions,
+          ALL CAPS term labels.
+ENDING: <loop | congratulations>
+          loop (recommended): a three-beat imperative line that flows back into the hook (4.3).
+
+Script rules, on top of section 1:
+- Open with "If you..." and land the first "But" by ~3 s.
+- Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
+- 7-8 But/So beats that escalate. Name the real term after the key fixes.
+- One small human joke, one "that's why" viewers can check on their next walk, and water
+  as the payload or the enemy where it fits.
+- Fact-check every ⚠ claim before Gate A and cut anything unverifiable. Never reuse either
+  reference account's wording.
+- For a new topic, first check it against the avoid lists (section 1 ground rules and 4.6)
+  and the tests in 4.2.
+
+Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills)
+and Gate D (pilot clips). Spend no credits before I approve Gate B.
+
+When the video is done, give me:
+- the final MP4 link
+- 3 cover options (3.4d), one of them a plain mid-video cutaway frame with no text
+- the post copy: a "How X Can Become Y" title for a section 2 idea, or a question title
+  with one emoji for an H idea or new topic, plus the hashtags from section 1 or 4.1
+Then log the video in 3.4b, mark the idea ✅ USED, add any new lessons, and update both
+copies of the memory.
+```
