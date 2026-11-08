@@ -30,3 +30,15 @@ C1-kling	469a9222-8c57-45d6-b49c-76729b2a3cfa	B1 hook (pilot), 4 s, 9 cr
 C3	5aa80f2f-f385-45c0-ac61-1933371fbf47	B3 dry barrel build S0F -> S1 (pilot), 5 s, 10 cr
 # narration: ElevenLabs flow CYpPB16lwgg8FD4u7zzI, eleven_v4, Daniel's Voice. Take A x4B6fV4I6AG82Lehd4ol used (88.56 s raw -> 76.98 s tight at 1.07x, 3.49 w/s); take B e26sYWgzKBtVv7Fey17h (91.44 s) unused. 1,451 ElevenLabs credits per take.
 # Gate D preview B1-B4 (12.62 s): media_id b32f66a6-bc3e-4bf8-9f30-83a536f04847
+C2-minimax	e3027066-fce1-4cb5-87d0-a138a009c05b	FAILED after sitting queued (refunded); minimax ran one job at a time today, so every later clip went to kling4_0
+C2	3e10a45b-259d-4d49-9446-b75c34ce5cc0	B2 freeze S0 -> S0F, kling4_0 start+end frames, 4 s, 9 cr
+C4	c1f76f39-4d82-46ed-a236-337b20560491	B6 drain S1W -> S2, kling4_0 start+end frames, 4 s, 9 cr
+C5	8a53bd11-f2a2-49c6-90b9-a536d3fd76c0	B11 water hammer from HAMMER, kling4_0, 4 s, 9 cr
+C6	5635708f-f160-4c95-aebc-27436e935ae6	B15 crash CAR -> SNAP, kling4_0 start+end frames, 4 s, 9 cr (only the first 1.35 s used: it puffed water at the valve later)
+C7	10a8af22-a84b-466e-b169-2aa36be58833	REJECTED: B21 fire, kling filled the barrel with water before the valve opened (9 cr)
+C7r	0d6a1566-3b9b-4e3b-b87d-59e54e25052e	B21 fire redo ("the barrel stays dark, dry and empty"), kling4_0, 4 s, 9 cr
+C8	622a78ed-19c3-41a6-9fc8-e811be19858a	B23 payoff from ROAR, kling4_0, 5 s, 11.25 cr
+C9	98d4f44c-079f-4560-911a-386f3b676aae	B24 loop ending from END, kling4_0, 4 s, 9 cr
+# delivered: final cd23a38c-d887-48ff-8a32-df82dcb2a270 (77.88 s), clean master (narration, no captions) 30f6f773-5ead-4cec-a367-bf6dd936839d
+# covers: A split b4c1143d-538b-4533-8e6b-9688d81df52a, B "MOVIES LIED" bd99655f-79e3-42f4-83e1-8506bb8b0c2b, C plain ace9d4c0-c734-4945-a6e9-f281d544f02c
+# spend (transactions): stills 30.00 + minimax 10.00 net + kling 83.25 = 123.25 cr against a 119.0 quote

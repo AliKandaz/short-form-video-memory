@@ -401,6 +401,17 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   B "NOT THE CROC" curiosity c10b2919-3e9c-4f9d-bd51-12da30eb996a; C storm hero + log inset bebf2e3d-db45-4501-8f84-b7427180b965
   (each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.png).
 
+- **03 Fire Hydrant** (Lite, idea H1, Hidden By Design look, loop ending) — DELIVERED v1, 8 Nov 2026. 77.88 s, 1080×1920, 24 fps, −15.3 LUFS, 24 beats, 269 words.
+  Higgsfield spend **123.25 cr** (quote 119.0, +3.6%): 24 stills 30.00 (22 + 2 redos) + clips 93.25 net (1 minimax_h3 clip 10; 8 kling4_0 clips 83.25,
+  including one fire-clip redo; 2 failed minimax jobs refunded). ElevenLabs: 2 takes × 1,451 credits (≈ $0.29); take A used at 1.07×.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/cd23a38c-d887-48ff-8a32-df82dcb2a270.mp4 (media_id cd23a38c-d887-48ff-8a32-df82dcb2a270);
+  clean master with narration and no captions: media_id 30f6f773-5ead-4cec-a367-bf6dd936839d. Higgsfield project "HBX – Fire Hydrant" (folder d37f9156-5d12-45fc-941c-157590560a13).
+  Covers (`pipeline/03-thumbnail.py`): **A "FREEZES / DOESN'T" split (recommended)** b4c1143d-538b-4533-8e6b-9688d81df52a; B "MOVIES LIED" curiosity
+  bd99655f-79e3-42f4-83e1-8506bb8b0c2b; C plain mid-video cutaway, no text ace9d4c0-c734-4945-a6e9-f281d544f02c (each at
+  https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.png).
+  Known edit candidates: B15 shows only the first 1.35 s of the crash clip, then dissolves into the SNAP still (Kling puffed water at the valve later);
+  in END the underground barrel is a solid red pipe rather than a see-through one; the movie geyser comes from an intact hydrant (letterboxed in post).
+
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
 - Kling returns 724×1284; it upscales to 1080×1920 fine. Minimax returns 1440×2560, 24 fps, ~0.17 s longer than asked.
@@ -438,6 +449,30 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   check them as a 3:4 grid tile and at feed size, and recommend the transformation split as the main cover. Covers must show what the video shows.
 - **Scripts for video 02** (in the repo's `pipeline/` and attached to the memory artifact under `pipeline/`): `02-thumbnail.py` (covers), `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
   `02-build.py` (assembly; preview mode), `02-jobs.tsv` (all job ids). Copy these as the starting point for video 03.
+
+### 3.4e Lessons from video 03 (apply next time)
+- **minimax_h3 ran only one job at a time today**, and 2 of its 3 jobs sat "queued" and failed (refunded). **kling4_0 ran up to 6 jobs at once with
+  no failures (9 of 9) and accepts `start_image` + `end_image` keyframes** (`models_explore` get kling4_0), so it handles build beats too. Next time: send
+  one minimax job; if it is still "queued" on its first poll, expect it to fail and put the remaining clips on kling4_0 (720p, 9 cr per 4 s, 11.25 per 5 s).
+  Kling instead of minimax cost +4.25 cr over the quote.
+- **Kling leaks state between beats.** In the fire shot it filled the hydrant barrel with water before the valve opened; in the crash shot it puffed
+  water at the valve. Say what must NOT change ("the barrel stays dark, dry and empty with no water inside it, and the valve stays closed"); that fixed
+  the fire redo. Free fix in the edit: `CUT` in `03-build.py` keeps only the first N s of a clip, then dissolves into the beat's still.
+- **Still drift fixes:** a "buried" hydrant stayed visible until the prompt said "completely buried: above the surface there is only smooth white snow,
+  no red visible at all"; a night still came out in daylight until it said "IT IS NIGHT, exactly like the reference ... no daylight at all".
+- **Hidden By Design assembly (`03-build.py`):** 0.3 s xfade dissolves between beats; one-word captions in ALL CAPS Montserrat ExtraBold (preinstalled at
+  `/usr/share/fonts/truetype/higgsfield/`), white with a 7 px black stroke and shadow, at y=1300 (~68%) instead of 75% so the cutaway's valve stays
+  visible; long words auto-fit to 840 px; white rings, flow chevrons and movie letterbox bars are drawn as ASS shapes. **Draw ASS vector shapes from a
+  top-left origin with `\an7`**: libass misplaces shapes drawn around negative coordinates.
+- **Stills:** 22 stills in 5 rounds (S0 → S1 → the rest), each referencing the hydrant still so its design stays locked. seedream refused 1 of 9 in one
+  batch with `429` (no job, no charge); resubmit it with the next round.
+- **This environment reaches the Higgsfield generation CDN** (`d8j0ntlcm91z4.cloudfront.net`), so stills and clips can be downloaded and inspected
+  locally. `media_upload` links (`d2ol7oe51mr4n9.cloudfront.net`) still can't be opened here; give those to the user.
+- **Narration:** take A 3.04 w/s raw → 3.27 after pause tightening → `atempo` 1.07 → 3.49 w/s, the same as video 02. Whisper matched 269/269 words with
+  the `initial_prompt`.
+- **Scripts for video 03** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `03-script.txt`, `03-beat-sheet.md`, `03-whisper.py`,
+  `03-timing.py`, `03-build.py` (Hidden By Design look, `CUT`, preview mode), `03-thumbnail.py` (covers), `03-jobs.tsv` (all job ids). Copy these as the
+  starting point for the next Hidden By Design video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -552,7 +587,7 @@ To make one: "Make idea H<N> from section 4 using the section 3 runbook." Decide
 captions, or go mascot-free with lower-third ALL CAPS captions like this account. Facts marked ⚠ must be verified before scripting.
 Effort: **single set** = one cutaway set and one hero angle (cheapest with the stage ladder); **journey** = several locations, more stills.
 
-**H1. Why Don't Fire Hydrants Freeze? 🚒❄️** (single set · water · winter)
+**H1. Why Don't Fire Hydrants Freeze? 🚒❄️** (single set · water · winter) — ✅ USED: video 03 (8 Nov 2026). As made: script in `pipeline/03-script.txt`, Hidden By Design look, loop ending.
 - Set: snowy suburban street corner; the sidewalk sliced open down to the water main below the frost line. Hero prop: a hydrant with a blue cap.
 - Hook: If you stick a pipe up from the water main, firefighters have water on every street.
 - Chain: the water inside freezes and splits the pipe -> keep the valve down at the main, below the frost line, and the pipe above it empty

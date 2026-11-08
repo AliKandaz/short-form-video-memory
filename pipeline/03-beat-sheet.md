@@ -76,3 +76,9 @@ surging up into the hose, fire engine, flames turning to steam).
 
 ## Quote (Gate B, 8 Nov 2026; prices checked with get_cost)
 22 stills 27.50 + 9 clips (7 × 4 s, 2 × 5 s = 38 s) 76.00 = 103.50; +15% retry reserve = 119.0 credits. Narration on ElevenLabs (0 Higgsfield).
+
+## As made (8 Nov 2026)
+- Narration: take A at 1.07x, 77.88 s, 3.49 w/s. Real beat lengths are in the sandbox timeline (03-timing.py output); every animated beat fit its planned clip length.
+- Clips: only B3 rendered on minimax_h3. Minimax ran one job at a time and its queued jobs failed (refunded), so B1, B2, B6, B11, B15, B21, B23 and B24 ran on kling4_0 (720p, start + end frames where planned).
+  B21 was regenerated once (the first take filled the barrel with water). B15 uses the first 1.35 s of its clip, then dissolves into the SNAP still.
+- Captions sit at y=1300 (~68%) instead of 75% so the valve stays visible. Spend 123.25 cr against the 119.0 quote.

@@ -20,14 +20,23 @@ STILL = {'B1':'S0','B2':'S0F','B3':'S1','B4':'S1','B5':'S1W','B6':'S2','B7':'STR
          'B21':'FIRE','B22':'HOOKUP','B23':'ROAR','B24':'END'}
 ZOOM = 0.06
 def seglen(b): return B[b]['len'] + (0 if b == SEL[-1] else D)   # every beat but the last carries the dissolve tail
-def seg_still(b, L):
+def seg_still(b, L, out=None):
     n = max(1, round(L * FPS))
     vf = (f"scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
           f"zoompan=z='1.0+{ZOOM}*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},trim=duration={L:.3f},setsar=1")
-    run(['-loop','1','-framerate',str(FPS),'-t',f'{L+0.2:.3f}','-i',f'stills/{STILL[b]}.png','-vf',vf] + ENC + [f'seg/{b}.mp4'])
+    run(['-loop','1','-framerate',str(FPS),'-t',f'{L+0.2:.3f}','-i',f'stills/{STILL[b]}.png','-vf',vf] + ENC + [out or f'seg/{b}.mp4'])
+CUT = {'B15': 1.35}   # B15: Kling puffed water at the valve after ~1.4 s, so keep the impact and snap, then dissolve into the dry SNAP still
+def seg_cut(b, L, p, c0, X=0.25):
+    run(['-i', p, '-vf', f"trim=duration={c0:.3f},setpts=PTS-STARTPTS,scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1"]
+        + ENC + [f'seg/{b}_a.mp4'])
+    seg_still(b, L - c0 + X, f'seg/{b}_b.mp4')
+    run(['-i', f'seg/{b}_a.mp4', '-i', f'seg/{b}_b.mp4', '-filter_complex', f"[0:v][1:v]xfade=transition=fade:duration={X}:offset={c0-X:.3f}[v]",
+         '-map', '[v]'] + ENC + [f'seg/{b}.mp4'])
+    print(f'  {b}: first {c0:.2f}s of the clip, then the {STILL[b]} still ({L:.2f}s)')
 def seg(b):
     L = seglen(b); p = f'clips/{b}.mp4'
     if not os.path.exists(p): print(f'  {b}: still {STILL[b]} ({L:.2f}s)'); return seg_still(b, L)
+    if b in CUT: return seg_cut(b, L, p, CUT[b])
     c = dur(p); r = c / L; speed = min(r, 1.25) if r >= 1 else max(r, 0.8); pad = max(0.0, L - c / speed)
     vf = f"setpts=PTS/{speed:.4f},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
     if pad > 0.02:   # hold the last frame with a slow push-in so it never looks frozen
