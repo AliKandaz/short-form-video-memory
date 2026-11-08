@@ -1,0 +1,26 @@
+# video 03 Fire Hydrant: seedream_v5_pro 1k 9:16 stills (1.25 cr each), Higgsfield project "HBX – Fire Hydrant" folder d37f9156-5d12-45fc-941c-157590560a13
+key	job_id	use
+S0	c34ce7cb-1280-4f71-88b9-e20cfb78837b	B1 hook start; C1, C2 start
+S0F	468179e4-29d7-48cb-92aa-7ba3d69c4aaa	B2; C2 end, C3 start
+S1	beb2f354-3329-48b5-9582-17fa07c6c89e	B3 end, B4
+STREET	e960e700-9763-4658-ab00-e9b4e5194ee5	B7
+HAMMER	7ea52fdd-4dbe-4790-acfc-899f0b8161b0	B11; C5 start
+S1W	76e79a5a-cea2-46ac-9856-c4e769947f0e	B5; C4 start
+S2	acda0d6b-f468-43f8-8f3b-7f3c8034d3d1	B6; C4 end
+S3	a033d4e9-648e-4abb-b56a-4d9b1f21890c	B10 (also the hydrant reference)
+RING	085c2c4a-3a1d-455d-b838-8773e4ac4a9f	B14
+TURNS	9e873a4e-a120-4aec-ae7c-83e4ca1d965f	B12
+CAR	d4011856-1ad1-4192-8849-2bc2e4f58734	B13; C6 start
+BURIED	46115198-1dfb-4e5f-84c8-3e7efe9353c2	REJECTED (hydrant still visible, no blizzard)
+COLORS	66774c31-2a12-4c2c-9de4-3406c3924fe1	B9
+TUB	7f89c109-5937-4ecb-af0f-a98701f3a080	B8
+BURIED2	76c989b6-71e4-4f51-95e4-f6c335a34803	B18
+SNAP	51f73844-2763-450c-9df1-420266b58382	B15 end, B17; C6 end
+GEYSER	ed8acf91-b987-4b8a-8b06-2d18673e5232	B16
+FIRE	90ca628a-a170-413d-94af-89a5e427b214	B21; C7 start
+HOOKUP	c9bfc382-ca9e-4cbc-bb42-da17c733d6e1	B22
+END	e84197e8-e6fd-45d6-825b-ab29d0cb0229	B24; C9 start
+FLAG	c5d1d53b-d0ca-4cb7-b900-f04403430280	B19
+DOG	316d2782-5c1b-403c-908a-3da550b64713	B20
+ROAR	51de0fc7-ff0c-474a-bbab-73d35e048390	REJECTED (came out in daylight)
+ROAR2	45ef84f3-c713-4e5a-91fb-7c3d783dcbbd	B23; C8 start
