@@ -7,6 +7,9 @@ storyboard or animation brief.
 Full visual reference (frames, beat sheet, both reconstructed scripts):
 https://claude.ai/artifact/MPEu5jqcnUDLSsz3fiBc8N (private "How Building Explained Style Bible" artifact; open it with the Artifact tool's read action)
 
+A second reference account, **@1hidden_by_design** ("Hidden By Design": the same narration formula, aimed at the hidden engineering
+behind everyday things), was studied on 8 Nov 2026. Its learnings and 15 more ideas (H1–H15) are in section 4.
+
 ---
 
 ## 1. What we learned from the source video
@@ -85,6 +88,8 @@ and sound effects still need a listen.
 - Copy the **formula**, never the content. Write new topics and new scripts. Don't reuse their wording,
   character design or "How Building Explained" branding.
 - Pick topics with danger or fame built in. Avoid mundane utilities and "X-proof house" topics.
+  Exception (section 4): an everyday thing works when its workings are hidden and it moves something the camera can follow
+  (storm drain, 9.2M on @1hidden_by_design). Still avoid things whose workings are visible; the gas station flopped on both accounts.
 - Avoid topics the account has already done: nipa hut, Amazon floating house, igloo, levee, nuclear bunker,
   nuclear plant, Chernobyl, White House, Kremlin, particle accelerator, armored truck, gas station, car wash,
   oil well, septic, drive-thru, slot machine, car engine, fire/volcano/earthquake-proof house, Halloween station.
@@ -449,3 +454,294 @@ Read CLAUDE.md. Make idea #<N> from section 2 using the section 3 runbook,
 and Gate D (pilot clips) for my approval.
 ```
 
+---
+
+## 4. Second reference account: @1hidden_by_design ("Hidden By Design")
+
+Studied 8 Nov 2026 (https://www.tiktok.com/@1hidden_by_design). All 9 videos were downloaded with yt-dlp (pin a format ending in `-0`,
+served from the allowed `v16-webapp-prime.us.tiktok.com`; the `-1` mirror on v19 is blocked), transcribed with faster-whisper in the
+Higgsfield sandbox, and sampled as contact sheets. The comment sections and the bio's Payhip guide (payhip.com is outside the network
+policy) could not be read.
+
+### 4.1 The account
+- 9 videos, 25 Oct to 8 Nov 2026, now 2 a day. 33.9K followers, 509K likes. The profile was created in May 2025, but these are its only posts.
+- Bio: "Learn how I create these animations 🎬 Get the step-by-step guide below ↓", linking to a paid Payhip guide. 4 of the last 5 videos end
+  with "If you wanna make videos like this, check out the link in my bio." The channel's business is selling the method.
+- Same narration formula as @howbuildingexplained (and our videos), aimed at a different subject: **the hidden engineering behind everyday
+  things you use or walk past.** The cutaway is the brand.
+
+| Video (title as posted, abridged) | Posted (UTC) | Length | Views | Likes | Shares | Saves |
+|---|---|---|---|---|---|---|
+| Where Does the Water Go When Your Street Floods? 🌧️ | 25 Oct | 74.7 s | **9.2M** | 402.8K | 16.7K | 32.8K |
+| You Drill a Hole… Now the Whole Neighborhood Has Water 💧 | 30 Oct | 75.9 s | 926K | 43.5K | 2,903 | 8,165 |
+| How do you dig under a river without letting the water in? 🌊 | 6 Nov | 74.2 s | 494K | 13.7K | 319 | 1,187 |
+| How Do You Turn a Garbage Dump Into a Park? 🗑️ | 8 Nov | 78.2 s | 431K **in 4 h** | 11.7K | 561 | 1,011 |
+| How Do You Build a Bridge When the Foundation Is Underwater? 🌉 | 26 Oct | 64.6 s | 380K | 14.4K | 681 | 1,343 |
+| You flush. It disappears. Here's where it actually goes. 🚽 | 28 Oct | 68.2 s | 236K | 11.0K | 864 | 1,470 |
+| How Do Those Giant Power Lines Get Electricity to Your House? ⚡ | 7 Nov | 87.7 s | 159K in 23 h | 10.0K | 471 | 1,611 |
+| You Fill Up Here Every Week… But How Does It Work? ⛽ | 7 Nov | 87.9 s | 37K in 25 h | 1,553 | 48 | 223 |
+| Why Doesn't Rain Leak Through Your Roof? 🌧️🏠 | 8 Nov | 77.2 s | 19K in 1.5 h (too new) | 579 | 23 | 34 |
+
+Snapshot 8 Nov 2026, 21:30 UTC. Hashtags on every post: #HowItWorks #Engineering #LearnOnTikTok, often #3DAnimation, plus 1–2 topic tags.
+
+### 4.2 Why it works
+1. **Universal, hidden, and moving.** Everyone sees a storm drain, a tap or a manhole; nobody sees what's underneath. Each topic moves
+   something (water, sewage, power, trash) along a path the camera can follow, so the title can ask "where does it go?" or "how does it get here?"
+2. **Water is the star.** The five best mature videos all have water as the payload or the enemy (drain, well and tower, under-river tunnel,
+   underwater foundation, sewer). Translucent water in a cutaway is satisfying to watch, and it hands the script its problems (floods, leaks,
+   seepage, backflow).
+3. **This refines our "avoid mundane utilities" rule.** Mundane works when the workings are hidden (storm drain, 9.2M). It still flops when
+   the workings are already visible: the gas station flopped on both accounts (37K here, 41K on HBE).
+4. **Titles name one concrete mystery the viewer owns:** "your street", "your house"; a paradox ("dig under a river without letting the
+   water in"); or a transformation ("turn a garbage dump into a park"). The flop had the vaguest title ("...But How Does It Work?").
+5. **Fast first problem.** The first "But" lands at 2.5–3.5 s on the top videos and at 4.6–6.5 s on the weaker ones.
+6. **The top three end on a loop.** All three close on a three-beat imperative that flows back into the hook, with no "Congratulations" and
+   no CTA: "...Bury the pipes, pave the road, and let it rain." → "If you cut a hole in your street, the rain has somewhere to go."
+   Every video that ended on "Congratulations" or the creator CTA did worse (small sample, and several are newer).
+7. **One continuous camera.** 7 of 9 videos have 0–2 hard cuts in ~75 s. The gas station had 27 cuts and close-up montages, and it flopped.
+8. **Length.** The three best run 74–76 s; both 88 s videos underperformed. All run over 60 s (TikTok's Creator Rewards only pays on
+   videos over a minute, which may be why).
+9. **One small human joke per video:** "somebody's missing tennis ball", "your street becomes a swimming pool", "your drain becomes a
+   fountain", "stroll over the same trash they left at the curb".
+10. **A "that's why" viewers can check on their next walk:** "Those are the manholes you drive over every day." "That's why the handle
+    clicks when your tank is full."
+
+### 4.3 Script formula as they use it
+```
+HOOK (0-3s)  If you [naive action], [it sort of works].
+             "If you cut a hole in your street, the rain has somewhere to go."
+             (or a question: "You flush your toilet, and everything disappears. But where does it actually go?")
+LOOP x7-8    But [problem]. So [fix]. (This is a [TERM].)        first "But" by ~3 s
+THAT'S WHY   "Those are the manholes you drive over every day."
+END          three-beat imperative that loops into the hook: "Bury the pipes, pave the road, and let it rain."
+             (weaker variant: "Congratulations, you've built a [X]." + "If you wanna make videos like this, check out the link in my bio.")
+```
+- 235–326 words in 64–88 s, 3.4–4.0 words/s (top three: 269–302 words in ~75 s).
+- Fixes are often bare imperatives ("So line the hole with compacted clay...", "Push a giant steel shield into the ground").
+- Real terms are named only 0–4 times per video ("This is a catch basin."), and never shown as on-screen labels.
+- Stakes are everyday disasters (flooding, sewage in the yard, collapse, fire, contamination, blackout), not the HBE "deadliest X" twist.
+
+### 4.4 Animation style
+- **Look:** bright, clean, photoreal-leaning 3D render: soft sunny daylight, warm tones, soft shadows, mild depth of field, clean materials
+  (concrete, grey PVC, steel, terracotta roof tiles) and translucent cyan water. Almost certainly AI image-to-video, not hand animation
+  (two long videos a day, morphing details, and they sell a "how I make these" guide). The landfill, roof and gas videos switch to an
+  overcast, drone-documentary look with real-looking workers.
+- **The cutaway is the signature:** the ground is sliced like a cake to show soil layers (topsoil, gravel, sand, clay, a blue groundwater
+  band) with the pipes, chambers and tanks inside. Machines and fittings get see-through housings (check valve, fuel nozzle, transformer coils).
+- **The world:** the same idyllic suburb every time (cream houses, terracotta roofs, blue shutters, lawns, a curving road, a creek), with a
+  yellow excavator, a blue drill truck, and white or blue sedans.
+- **No mascot.** "You" is the viewer. People appear only as hands at a tap, a woman flipping a light switch, small figures walking, or workers.
+- **Camera:** one continuous, slowly moving camera. Transitions are fly-throughs that follow the flow: down the grate into the pipe, up the
+  well to the kitchen tap, along the wires from the plant to the house. The camera path is the story.
+- **Build moments:** each fix appears on the same cutaway set (pipe slides in, chamber grows, tank fills). This is our stage-ladder method.
+- **Explainer devices:** small flat white arrows for flow and force, a white highlight circle, and a final labelled cutaway "summary
+  diagram" (landfill: Cap, Gas Wells, Subsurface Waste, Bottom Liner System).
+- **Captions:** one word at a time at ~72–78% of frame height (just above TikTok's caption area). Video 1 used lowercase white rounded sans
+  with a soft shadow; from video 2 on, ALL CAPS heavy sans, white with a black stroke and drop shadow. No other on-screen text.
+- **Covers:** a mid-video frame showing the most satisfying cutaway (the catch basin with grit, leaves and the tennis ball). No headline text.
+- **End overlays:** an animated TikTok "FOLLOW" button with a cursor click, or a red YouTube "SUBSCRIBE 🔔" button, in the last ~3 s
+  (they probably cross-post to YouTube Shorts).
+- **Format:** 9:16, 30 fps, uploaded at 1080×1920.
+
+### 4.5 Audio (measured, not listened to)
+- The same narrator in all nine: fast, even and lively, almost certainly an AI voice. Median pitch ~150 Hz with a wide 118–239 Hz range,
+  which suggests a male voice with lively intonation.
+- A quiet, low, non-melodic stereo bed (ambient or cinematic pad) under the mono voice: pauses sit only 12–14 dB below speech. Integrated
+  loudness about −23 LUFS. The gas station had a steadier, more tonal bed.
+
+### 4.6 Topics @1hidden_by_design has already done (avoid)
+Storm drain, water well and water tower, road tunnel under a river, landfill into a park, bridge foundation in a river (cofferdam), sewer
+and wastewater treatment, power grid, gas station, roof.
+
+### 4.7 Fifteen ideas in this style (H1–H15)
+To make one: "Make idea H<N> from section 4 using the section 3 runbook." Decide at Gate A whether to keep our locked mascot and centred
+captions, or go mascot-free with lower-third ALL CAPS captions like this account. Facts marked ⚠ must be verified before scripting.
+Effort: **single set** = one cutaway set and one hero angle (cheapest with the stage ladder); **journey** = several locations, more stills.
+
+**H1. Why Don't Fire Hydrants Freeze? 🚒❄️** (single set · water · winter)
+- Set: snowy suburban street corner; the sidewalk sliced open down to the water main below the frost line. Hero prop: a hydrant with a blue cap.
+- Hook: If you stick a pipe up from the water main, firefighters have water on every street.
+- Chain: the water inside freezes and splits the pipe -> keep the valve down at the main, below the frost line, and the pipe above it empty
+  (DRY BARREL) -> leftover water still freezes -> a small hole at the bottom drains it when the valve closes (DRAIN VALVE) -> slamming it
+  shut sends a shock wave that bursts pipes -> a long stem that opens and closes slowly (WATER HAMMER) -> cars knock hydrants over -> a weak
+  ring at ground level snaps while the valve stays shut underground (BREAKAWAY FLANGE) -> firefighters need to know which hydrant gives the
+  most water -> paint the cap blue, green, orange or red (FLOW COLOR CODE ⚠ NFPA 291) -> snow buries it -> a tall marker flag.
+- That's why: in movies a car hits a hydrant and water shoots up; in cold cities the water stays deep underground. And the cap colors are on every street.
+- Climax/end: a house fire on the coldest night of the year; the valve opens deep underground and water roars up the dry pipe.
+  "Clear the snow, paint the cap, and wait for the fire."
+
+**H2. Why Don't All the Sprinklers Go Off at Once? 🔥💧** (single set · water and fire · myth-buster)
+- Set: dollhouse cutaway of an office floor: the ceiling space with red pipes, and the outside wall facing the street.
+- Hook: If you run a water pipe across the ceiling, you can fight a fire from above.
+- Chain: open holes spray the whole building -> plug each hole with a little glass bulb of liquid that bursts at about 68 °C, so only the
+  head above the fire opens (SPRINKLER HEAD) ⚠ -> city pressure is too weak on the top floors -> a pump that starts when the pressure drops
+  (FIRE PUMP) -> old water in the pipes could flow back into the drinking water -> a one-way valve (BACKFLOW PREVENTER) -> pipes freeze in the
+  unheated garage -> fill them with air and hold the water back until a head opens (DRY PIPE) -> the pump fails -> firefighters plug their
+  hoses into a Y-shaped pipe on the outside wall (FIRE DEPARTMENT CONNECTION) -> nobody knows water is flowing -> a flow switch rings the
+  alarm bell outside.
+- Twist: in movies one sprinkler soaks the whole building. In real life each head is its own trigger, and most fires are stopped by one or
+  two heads ⚠ NFPA stat.
+- That's why: the two-headed pipe on the wall of every big building.
+- Climax/end: a bin catches fire at night; one bulb pops; the rest of the office stays dry.
+
+**H3. Why Don't Elevators Fall? 🛗** (single set · fear)
+- Set: glass-walled cutaway of a 10-floor shaft with the machine room on top and the pit below; a cup of coffee on the car floor.
+- Hook: If you hang a box from a rope and pull it up, you have an elevator.
+- Chain: lifting it takes a huge motor -> hang a heavy weight on the other end of the rope (COUNTERWEIGHT) -> a rope snaps -> several steel
+  ropes, each strong enough to hold the car alone ⚠ -> every rope snaps -> spring-loaded wedges grab the rails (SAFETY BRAKE) -> what
+  triggers them? a spinning wheel that trips when the car goes too fast (GOVERNOR) -> the car overshoots the bottom floor -> springs or oil
+  pistons in the pit (BUFFER) -> a door opens onto an empty shaft -> landing doors stay locked unless the car is there (INTERLOCK) -> a fire
+  -> every car returns to the ground floor and parks ("In case of fire, use the stairs").
+- Twist: in 1945 a bomber hit the Empire State Building, the cables snapped, and an elevator operator survived a 75-floor fall ⚠ (Betty Lou
+  Oliver). Or Otis cutting his own rope in front of a crowd in 1854 ⚠.
+- Climax/end: every cable cut; the car drops a few feet; the wedges bite; the coffee doesn't spill. "Press the button, ride the box, and trust the brakes."
+
+**H4. How Does a Traffic Light Know You're Waiting? 🚦** (single set · everyday mystery)
+- Set: four-way suburban intersection from above; the asphalt sliced open to show the wire loops, conduits and the controller cabinet.
+- Hook: If you hang a light over a crossroads, cars take turns.
+- Chain: a plain timer makes you sit at red with nobody coming -> a loop of wire in the road senses the metal of your car (INDUCTION LOOP) ->
+  bikes barely trigger it -> a bike symbol painted on the sweet spot ⚠ -> lights along the road fight each other -> time them to turn green
+  one after another (GREEN WAVE) -> pedestrians need a turn -> a push button -> ambulances get stuck at red -> a signal from the ambulance
+  turns its lights green (PREEMPTION) ⚠ -> a fault could show green both ways -> a separate box watches for that and flips the intersection
+  to flashing red (CONFLICT MONITOR) -> a blackout -> battery backup ⚠.
+- Twist: in some cities many crosswalk buttons don't change anything at busy times ⚠ (New York, 2004 report).
+- That's why: the rectangles cut into the asphalt at every stop line.
+- End: "Cut the loops, time the greens, and let it change."
+
+**H5. Why Do Potholes Keep Coming Back? 🕳️🚗** (single set · water villain · winter)
+- Set: a slice through a small-town street that runs through the seasons: summer, rain, freeze, thaw.
+- Hook: If you drive on packed dirt, you have a road.
+- Chain: rain turns it to mud -> layers of crushed rock packed hard (BASE COURSE) -> stones kick loose -> glue them together with hot tar
+  (ASPHALT) -> rain sits on top and soaks in -> make the middle higher so water runs off to drains at the sides (CROWN) -> water still seeps
+  into cracks, freezes, grows about 9% and lifts the asphalt; the thaw leaves a hollow and a tyre smashes through (FREEZE-THAW) -> seal
+  cracks early with hot rubbery tar (CRACK SEAL) -> a winter cold patch pops straight back out -> cut a clean square, glue it and pack in
+  hot asphalt (SAW-CUT PATCH).
+- Twist: the real enemy isn't the traffic. It's water. ⚠ add one pothole-damage cost stat.
+- That's why: the black squiggly lines on every road.
+- End: "Seal the cracks, drain the water, and drive."
+
+**H6. Why Is There a U-Shaped Pipe Under Every Sink? 🚰** (single set · house)
+- Set: dollhouse cutaway of a two-storey house showing the pipes in the walls and floors, the sewer pipe below and a vent pipe through the
+  roof. Hero prop: a wedding ring.
+- Hook: If you connect your sink straight to the sewer, the water drains away.
+- Chain: sewer gas drifts back up into the bathroom -> bend the pipe so a plug of water always sits in it (P-TRAP) -> (the dropped ring stops
+  in the bend) -> a big flush sucks the trap dry and the smell comes back -> a pipe that lets air into the drains through the roof (VENT
+  STACK) -> flat drains clog -> slope them about a quarter inch per foot ⚠ -> they clog anyway -> screw caps where a plumber can get in
+  (CLEANOUT) -> a storm makes the sewer flow backwards into the basement -> a flap that only opens outward (BACKWATER VALVE) -> the guest
+  bathroom nobody uses starts to stink because its trap dried out -> run the tap.
+- Twist: the only thing between your bathroom and the sewer is a few inches of water.
+- That's why: the pipe sticking out of your roof.
+- End: "Fill the trap, vent the roof, and flush."
+
+**H7. Why Does Gas Smell Like Rotten Eggs? 🔥👃** (journey · fear · true story)
+- Set: cutaway from the gas main under the street to the meter on the wall and the stove; a pot boiling.
+- Hook: If you run a pipe from a gas field to your kitchen, you can cook with fire.
+- Chain: the gas arrives at crushing pressure -> lower it at a station and again at your meter (REGULATOR) -> diggers hit the pipe -> yellow
+  plastic pipe with a tracer wire and marker posts ("call before you dig") -> natural gas has no smell, so a leak fills a room silently ->
+  add a chemical that smells like rotten eggs (MERCAPTAN) -> a broken pipe keeps pouring gas -> a valve that slams shut when gas rushes
+  through too fast (EXCESS FLOW VALVE) -> the oven flame blows out -> a sensor shuts the gas when there's no flame (FLAME SAFETY).
+- Twist: the smell wasn't always there. In 1937 a school in New London, Texas exploded and about 300 people died ⚠; laws requiring the smell
+  followed. Handle it respectfully.
+- End: "Light the burner, boil the water, and trust your nose."
+
+**H8. Why Are Train Tracks Covered in Rocks? 🚂** (single set · classic curiosity)
+- Set: countryside embankment slice; a freight train crossing.
+- Hook: If you lay steel rails on the ground, a train can roll on them.
+- Chain: the rails sink under the weight -> beams across the track to spread the load (SLEEPERS) -> rain turns the ground to mud -> a deep
+  bed of sharp crushed stone that drains and locks the sleepers in place (BALLAST) -> why sharp? round pebbles roll like marbles -> the
+  joints go clickety-clack and shake loose -> weld the rails into one long piece (CONTINUOUS WELDED RAIL) -> summer heat makes the steel grow
+  and the track bends sideways (SUN KINK) -> lay the rail stretched at the right temperature and pile stone shoulders beside the sleepers ⚠
+  -> snow jams the switches -> heaters at every switch.
+- That's why: the fires you sometimes see beside winter tracks are switch heaters ⚠ (Chicago).
+- End: "Tamp the stones, weld the rails, and let it roll."
+
+**H9. Where Does Your Suitcase Go After Check-In? 🧳✈️** (journey · follow the object)
+- Set: airport cutaway: the check-in hall on top, the hidden baggage hall below, planes outside. Hero prop: a yellow suitcase (our tennis ball).
+- Hook: If you drop your bag on the belt, it disappears behind the wall.
+- Chain: thousands of bags -> belts that carry them under the terminal (CONVEYOR) -> which flight is it on? -> a barcode tag read by scanners
+  along the way (BAG TAG) -> a bag could hide a bomb -> every bag goes through a CT scanner and suspicious ones go to a person (EXPLOSIVES
+  SCREENING) ⚠ -> getting it to the right gate -> trays that tip each bag down its flight's chute (TILT-TRAY SORTER) -> you checked in four
+  hours early -> a giant rack parks your bag until the flight opens (EARLY BAG STORE) -> into a container, onto a cart, up a belt into the hold.
+- Twist: Denver's fully automatic system in the 1990s chewed up suitcases, delayed the airport's opening and was eventually scrapped ⚠.
+- End: "Tag the bag, trust the belts, and meet it at the carousel."
+
+**H10. Where Does It Go When You Flush on a Plane? ✈️🚽** (single set plus the gate · gross-funny)
+- Set: side cutaway of an airliner above the clouds: the toilet, a pipe along the belly, a tank in the tail; later a service truck at the gate.
+- Hook: If you put a normal toilet on a plane, it works... until the turbulence.
+- Chain: the bowl sloshes, and carrying all that water is heavy -> suck the waste away instead (VACUUM TOILET) -> what makes the suction? up
+  high the thin air outside pulls; on the ground a pump does it ⚠ -> it needs somewhere to go -> a tank in the tail (WASTE TANK) -> smell and
+  germs -> blue disinfectant ⚠ -> the tank fills -> a truck drains it at the gate (LAV SERVICE TRUCK) -> a leaky valve drips outside the plane.
+- Twist: leaks freeze into "blue ice" that has crashed through roofs ⚠.
+- That's why: the flush is so loud.
+- End: "Press flush, hear the whoosh, and let the truck do the rest."
+
+**H11. How Does the Internet Cross the Ocean? 🌐🌊** (journey · global and hidden)
+- Set: one long ocean cross-section from a beach landing station, across the shelf and the deep sea floor, to the other continent. Hero: a
+  pulse of light (your video).
+- Hook: If you lay a cable across the sea floor, two continents can talk.
+- Chain: signals in copper fade -> send light through glass strands (FIBER OPTIC) -> light fades too -> boosters every 50–100 km, powered
+  through the cable from shore (REPEATERS) ⚠ -> trawlers and anchors snag it near shore -> steel armour and a sea plough that buries it
+  (CABLE PLOW) -> in the deep it's about as thick as a garden hose ⚠ -> sharks bite it ⚠ -> extra wrapping -> an earthquake snaps it -> a
+  repair ship hooks it up and splices it (CABLE SHIP) -> one cable isn't enough -> many routes, so traffic reroutes.
+- Twist: almost all data between continents goes through these cables, not satellites ⚠ (~99%).
+- End: "Bury it, light it, and hit play."
+
+**H12. How Does an Ice Rink Stay Frozen? ⛸️** (single set · paradox · winter)
+- Set: arena floor slice: ice, a concrete slab with pipes, insulation, heating pipes, soil. Hero: a puck and the resurfacing machine.
+- Hook: If you flood a floor with water on a freezing night, you have an ice rink.
+- Chain: it only works in winter -> pipes in a concrete floor carrying freezing salt water (BRINE) -> pour it all at once and it freezes
+  rough -> spray thin layers ⚠ -> you can see the grey concrete -> paint the ice white, paint the lines, and seal them under more ice -> skates
+  carve grooves -> a machine shaves the top and lays down hot water that fills the cuts (RESURFACER) -> the cold seeps into the ground, the
+  soil freezes and swells, and the floor cracks (FROST HEAVE) -> insulation, and heating pipes under the cold pipes.
+- Twist: to keep the ice frozen, you heat the ground under it.
+- End: "Freeze it, paint it, flood it, and drop the puck."
+
+**H13. How Does a Crane Get on Top of a Skyscraper? 🏗️** (single set · paradox)
+- Set: a city block with a tower rising from the hole to 60 floors; the crane's mast and climbing frame in cutaway. Hero: the operator's cab.
+- Hook: If you want to lift steel 60 floors up, you need a crane taller than the building.
+- Chain: a truck crane can't reach -> a tower crane made of stacked lattice sections (MAST) -> heavy loads tip it -> concrete blocks on the
+  back arm (COUNTERWEIGHT) -> the building outgrows it -> the crane lifts its own next section and a hydraulic collar jacks the top up so it
+  slides in (CLIMBING FRAME) -> too tall to stand alone -> steel arms tie it to the building (TIE-INS) -> storm winds hit the long arm ->
+  release the brake at night so it turns freely like a weathervane -> the operator can't see the load 60 floors down -> a signaller on the
+  radio -> the building is finished, so how does the crane come down?
+- Twist: it climbs back down; then a smaller crane on the roof takes it apart, then an even smaller one, and the last pieces ride down in
+  the elevator ⚠.
+- That's why: cranes spin around on their own at night.
+- End: "Top out the tower, take down the crane, and switch on the lights."
+
+**H14. How Does Water Get to the 100th Floor? 🏙️💧** (single set · sequel to their 926K water tower)
+- Set: super-tall tower cutaway: the street main, basement pumps, tanks and pumps on mechanical floors, a shower on floor 100.
+- Hook: If you connect a skyscraper to the city water pipe, every tap has water... up to about the sixth floor ⚠.
+- Chain: city pressure runs out -> basement pumps (BOOSTER PUMP) -> pump straight to the top and the bottom floors get crushing pressure, so
+  taps blast and pipes burst -> split the tower into stacked zones with their own pumps (PRESSURE ZONES) -> pumps can't run every second -> a
+  tank at the top of each zone feeds the floors below by gravity, like a water tower -> too much pressure at the bottom of each zone ->
+  valves that lower it (PRESSURE REDUCING VALVE) -> pumps and tanks need room -> whole floors with no offices (MECHANICAL FLOOR) -> a power
+  cut -> the tanks keep the water running while generators restart the pumps.
+- That's why: the floors with louvres instead of windows on every skyscraper.
+- End: "Fill the tanks, split the zones, and shower a hundred floors up."
+
+**H15. How Do You Turn Seawater Into Drinking Water? 🌊🚰** (journey · transformation, like their landfill video)
+- Set: coastal plant cutaway: intake pipe under the seabed, filters, pump hall, membrane tubes, brine outfall, a city on the hill. Hero: a
+  fish near the intake.
+- Hook: If you pump the ocean into a tank, you have a tank of... salt water.
+- Chain: boil it and catch the steam (DISTILLATION), but it burns huge amounts of energy -> push it through a membrane so fine that salt
+  can't pass (REVERSE OSMOSIS), at about 60 times normal air pressure ⚠ -> the intake sucks in fish -> slow intakes far offshore with a cap
+  on top ⚠ -> sand and algae clog the membranes -> filter first (PRETREATMENT) -> the pumps eat power -> the leftover salty water is still
+  under pressure, so use it to push the new water in (PRESSURE EXCHANGER) ⚠ -> the water is too pure, so it eats pipes and tastes flat ->
+  add minerals back -> the leftover brine sinks and smothers the sea floor -> spray it out through many nozzles so it mixes fast (DIFFUSERS).
+- Twist: for every glass you drink, about one and a half glasses of brine go back into the sea ⚠.
+- End: "Pump it, press it, and drink the sea."
+
+### 4.8 Suggested first three
+1. **H1 Fire hydrant:** the closest twin of the 9.2M storm drain (same street cutaway, water, a "that's why" viewers can check on their next
+   walk), and it's timely for winter.
+2. **H3 Elevator:** everyone rides one, the fear is built in, it's one tall set, and it has a true-story twist.
+3. **H5 Potholes:** everyone hates them, water is the villain, and freeze-thaw season is starting.
+
+### 4.9 Production notes for this look (the section 3 runbook still applies)
+- The stage ladder fits this look: one cutaway set, one hero angle, one fix added per stage. Add a cutaway line to the STYLE FORMULA, e.g.
+  "photoreal 3D cutaway cross-section, the ground sliced open to show soil layers and the pipes inside, bright sunny daylight, clean
+  materials, translucent cyan water".
+- Link stage stills with continuous camera moves (start and end keyframes on neighbouring stages) instead of hard-cut close-up montages.
+- End on a three-beat imperative that loops into the hook. Put any CTA after it, or leave it out.
+- Cover: a mid-video cutaway frame, or the split cover from 3.4d.
