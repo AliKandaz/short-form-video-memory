@@ -406,9 +406,11 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   including one fire-clip redo; 2 failed minimax jobs refunded). ElevenLabs: 2 takes × 1,451 credits (≈ $0.29); take A used at 1.07×.
   Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/cd23a38c-d887-48ff-8a32-df82dcb2a270.mp4 (media_id cd23a38c-d887-48ff-8a32-df82dcb2a270);
   clean master with narration and no captions: media_id 30f6f773-5ead-4cec-a367-bf6dd936839d. Higgsfield project "HBX – Fire Hydrant" (folder d37f9156-5d12-45fc-941c-157590560a13).
-  Covers (`pipeline/03-thumbnail.py`): **A "FREEZES / DOESN'T" split (recommended)** b4c1143d-538b-4533-8e6b-9688d81df52a; B "MOVIES LIED" curiosity
-  bd99655f-79e3-42f4-83e1-8506bb8b0c2b; C plain mid-video cutaway, no text ace9d4c0-c734-4945-a6e9-f281d544f02c (each at
-  https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.png).
+  Covers (`pipeline/03-thumbnail.py`): **D "IT'S EMPTY" (final, recommended for both TikTok and YouTube Shorts, made 9 Nov 2026)**: the B21 night-fire
+  still (the house burns while the barrel is still dry). YouTube Shorts 1080×1920 media_id 011c136f-9f03-4f42-b77c-bc17b9d52981; TikTok 3:4 upload
+  1080×1440 f154d4f5-2e07-4ba0-8817-4031a6aac368 (each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg).
+  Earlier options (each <media_id>.png at the same path): A "FREEZES / DOESN'T" split b4c1143d-538b-4533-8e6b-9688d81df52a (the hydrant itself is out
+  of frame); B "MOVIES LIED" curiosity bd99655f-79e3-42f4-83e1-8506bb8b0c2b; C plain mid-video cutaway, no text ace9d4c0-c734-4945-a6e9-f281d544f02c.
   Known edit candidates: B15 shows only the first 1.35 s of the crash clip, then dissolves into the SNAP still (Kling puffed water at the valve later);
   in END the underground barrel is a solid red pipe rather than a see-through one; the movie geyser comes from an intact hydrant (letterboxed in post).
 
@@ -446,7 +448,8 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   `02-thumbnail.py`: 0–4 words in Montserrat ExtraBold, yellow + white with a black stroke and drop shadow, one yellow arrow. Keep words and the
   subject inside the 3:4 profile-grid crop (y 240–1680 of 1920), clear of TikTok's right-hand buttons (x > 940 below y ≈ 950) and the caption
   zone (y > 1560). Make 3 concepts that each test a different reason to click (transformation split, the twist as curiosity, single action hero),
-  check them as a 3:4 grid tile and at feed size, and recommend the transformation split as the main cover. Covers must show what the video shows.
+  check them as a 3:4 grid tile and at feed size. Covers must show what the video shows. Video 03 replaced the split with a stakes cover in two
+  upload sizes; see "Covers for TikTok and YouTube Shorts" in 3.4e.
 - **Scripts for video 02** (in the repo's `pipeline/` and attached to the memory artifact under `pipeline/`): `02-thumbnail.py` (covers), `02-prompts.py` (stills), `02-clips.py` (motion prompts + request builder), `02-whisper.py`, `02-timing.py`,
   `02-build.py` (assembly; preview mode), `02-jobs.tsv` (all job ids). Copy these as the starting point for video 03.
 
@@ -470,9 +473,26 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   locally. `media_upload` links (`d2ol7oe51mr4n9.cloudfront.net`) still can't be opened here; give those to the user.
 - **Narration:** take A 3.04 w/s raw → 3.27 after pause tightening → `atempo` 1.07 → 3.49 w/s, the same as video 02. Whisper matched 269/269 words with
   the `initial_prompt`.
+- **Covers for TikTok and YouTube Shorts (9 Nov 2026).** One design, two upload files (`03-thumbnail.py D`):
+  - **Upload paths** (from third-party guides, not the platforms' own help pages; re-check): TikTok Studio on desktop → Edit cover → Upload cover,
+    which crops the image to 3:4, so upload the 1080×1440 crop (y 240–1680 of the 9:16 master); the phone app may only let you pick a frame.
+    YouTube Shorts custom thumbnails reached Partner Program channels in 2026 and are uploaded in YouTube Studio on desktop (the phone app may only
+    offer a frame, during upload); Test & Compare does not cover Shorts. Upload the 1080×1920 JPG, kept under 2 MB.
+  - **Overlays on a cover** (not on the playing video): TikTok's grid shows the 3:4 centre with the view count bottom-left; the YouTube app's Shorts
+    shelf lays the title and view count over the bottom ~25% of the card, with a ⋮ menu top-right. Keep the headline between y ≈ 300 and 1440.
+    TikTok's right-hand buttons and caption zone only cover the video while it plays.
+  - **What goes on it:** the hero object, recognisable at tile size (cover A had no hydrant in frame), plus stakes the video pays off. Cover D uses
+    the frame that sets up the climax (house on fire, barrel still dry) with two words: "IT'S EMPTY". It is the default now but unmeasured: compare
+    profile taps and Shorts click-through with earlier videos once there is data.
+  - **Typesetting:** one line, "IT'S" white + "EMPTY" yellow, Montserrat ExtraBold 165 px (~995 px wide) with a 16 px black stroke and shadow, a soft
+    dark backdrop behind it on busy soil, and one curved yellow arrow to the detail.
+  - **Check the claim against the pixels:** a cyan glint at the foot of the dry barrel read as water at thumbnail size; `neutralise()` greys it out
+    so the picture matches the narration ("the empty barrel").
+  - The script also writes phone-size mock-ups of the TikTok grid and the YouTube Shorts shelf (`thumb/mock_*.jpg`); look at both before delivering.
+    Upload with `media_upload`, PUT (`Content-Type: image/jpeg`, `If-None-Match: *`), then `media_confirm`.
 - **Scripts for video 03** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `03-script.txt`, `03-beat-sheet.md`, `03-whisper.py`,
-  `03-timing.py`, `03-build.py` (Hidden By Design look, `CUT`, preview mode), `03-thumbnail.py` (covers), `03-jobs.tsv` (all job ids). Copy these as the
-  starting point for the next Hidden By Design video.
+  `03-timing.py`, `03-build.py` (Hidden By Design look, `CUT`, preview mode), `03-thumbnail.py` (covers A–D; `D` also writes both upload sizes and the
+  platform mock-ups), `03-jobs.tsv` (all job ids). Copy these as the starting point for the next Hidden By Design video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
