@@ -36,3 +36,11 @@ DIFFUSER	014e9c2f-48b5-462c-926d-a08d60f10f73	B22; C7 start
 GAUGE2	6dd96b2c-4ec8-4807-9bd1-e0e8956e33f3	B7 (redo, close-up)
 # DROUGHT2 787ff17d: good street, but it added a pool of water with a tap in the foreground; fixed by editing it (DROUGHT3)
 DROUGHT3	8d6fe81d-59cc-4d78-a3b7-94d14d7d2fcb	B23 (DROUGHT2 with the pool removed)
+# clips (C1 pilot on minimax_h3 2K 2 cr/s; others kling4_0 image-to-video 720p 2.25 cr/s)
+C1-minimax	00db1310-3329-458c-ac85-3b0c5dd21d5a	B1 hook pilot from S0, 4 s, 8 cr
+C2	61862b51-c5ff-4e15-a97d-9d59e9fdde81	B3 boil pilot from BOIL, kling4_0 4 s, 9 cr
+# narration: ElevenLabs flow pa5cYjHNAzP42QHUDcJZ, eleven_v4, Daniel voice rFhx8PVgXxOyaeAGq9fq. Take B 9w900XDqIYdJ1s9ZQOSg used (92.72 s raw -> 84.76 s tight -> x1.09 = 77.76 s, 3.49 w/s); take A bIsiIrXNNIP2BdKYOHYy (93.68 s) unused. 1,475 ElevenLabs credits per take.
+C1	7bf1a00b-3721-4bff-8cb7-4097b90fa277	B1 hook pilot from S0, kling4_0 4 s, 9 cr (sent because the minimax job sat queued)
+# C1-minimax 00db1310: sat queued, then FAILED (refunded) - lesson 3.4e confirmed again
+# overlays (frame px): B19 ring x425 y1025 rx85 ry95 on the bottle fine print; B15 chevrons (330,760)->(760,950) rot -113 along the PX rotor
+# Gate D preview B1-B4 (12.88 s): media_id d311f93c-8955-4497-a467-e67c327ab78e
