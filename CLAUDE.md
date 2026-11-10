@@ -392,6 +392,9 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - Higgsfield project / folder naming: `HBX – [video title]`
 - Channels: YouTube **@overthinkingyearly** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025) and TikTok **@overthinkingyearly**
   (nickname "OT"). A rename was recommended on 10 Nov 2026 and the user has not chosen yet (shortlist in 6.5). Update this line when they do.
+- Channel branding (made 10 Nov 2026, details in 6.8): profile picture = the mascot's head and shoulders on blueprint blue; banner =
+  blueprint grid, "ONE PROBLEM / AT A TIME", tiles of the finished builds. Files in `branding/`. Brand colours: blueprint blue `#1F4E8C`,
+  hard-hat yellow `#FFC83D`; type: Barlow Condensed. Reuse `branding/mascot-cutout.png` (transparent PNG) for covers and thumbnails.
 
 ### 3.4b Video log
 YouTube ids, view counts and comments for the posted videos are in 6.1.
@@ -884,9 +887,9 @@ interpretation of the data, not measured facts.
    settings). Only Studio shows whether the user picked it or YouTube's classifier set it. If the video stays flat after the fix,
    re-upload it with the 6.4 title and delete the old copy.
 2. **Three channels in one:** a handle that reads like a journaling channel, a history-channel bio, AI ASMR clips, and build explainers.
-   Fix: make the three ASMR Shorts private, rewrite the bio, rename (6.5), replace the avatar with the locked mascot (head and
-   shoulders, yellow hard hat, flat dark background, 800×800, not pre-rounded) and make a real banner (2560×1440, text inside the
-   centre 1235×338). Generating those costs a few credits, so it needs the user's go-ahead.
+   Fix: make the three ASMR Shorts private, rewrite the bio, rename (6.5), replace the avatar with the locked mascot and make a real
+   banner. The avatar and banner were made on 10 Nov 2026 from existing renders at no credit cost (6.8). (The audit message gave the
+   banner's text area as 1235×338; that is the area for the 2048×1152 minimum upload. On a 2560×1440 upload it is 1546×423.)
 3. **Packaging:** calls to action and four hashtags inside titles, empty descriptions. Fix: the 6.4 checklist. Suggested retitles:
    "How Mud Becomes a House in the Desert", "How a Fallen Tree Becomes a Canoe", "How a Pipe in the Street Becomes a Fire Hydrant".
 4. **Three videos, two looks:** videos 01–02 use the centred Title Case caption and the "Congratulations, you have built…" sign-off,
@@ -966,6 +969,11 @@ for its own reasons.
 - **Custom Shorts covers:** since July 2026 for Partner Program channels, in Studio on desktop. Everyone else picks a frame.
 - **Made for kids** turns off comments, the notification bell, and saving to playlists or Watch Later.
 - **Handles:** two changes per 14 days; the old handle is held for 14 days.
+- **Banner:** upload 2560×1440 (minimum 2048×1152, 16:9, at most 6 MB). TVs show all of it; desktop shows the full-width strip
+  y 508–931 (desktop serves the banner with crop parameters for the middle 29.4% of the height, read from the channel page); phones show
+  the centre 1546×423 (x 507–2053), which is the 1235×338 text-and-logo area YouTube publishes for the minimum size, scaled up.
+  Third-party guides, 9–10 Nov 2026. **Profile picture:** square, 800×800 is the usual recommendation, shown as a circle as small as
+  ~24 px (not verified on YouTube's help pages).
 
 ### 6.7 Reading YouTube from a session
 - The Default environment allows `www.youtube.com`, `i.ytimg.com`, `yt3.ggpht.com` and `yt3.googleusercontent.com` (added 9 Nov 2026).
@@ -978,3 +986,22 @@ for its own reasons.
   directory as their first argument): `yt_snapshot.py @handle` (channel facts, per-Short stats, comments, made-for-kids check),
   `yt_channels.py <dir> handle:@name shorts:<id>` (a channel's latest and most popular Shorts; who posted a given Short),
   `yt_search.py <dir> "<query>"` (saturation check), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
+
+### 6.8 Channel branding (made 10 Nov 2026, no credits)
+The user asked for "an updated profile picture and something I can put in my banner that will fit". Delivered on 10 Nov 2026;
+**whether they uploaded them is unknown**: check the channel page (`yt_snapshot.py` prints the avatar and banner URLs).
+- **Files** (repo `branding/`): `avatar-800.png` (800×800), `banner-2560x1440.png` (1.6 MB), `fit-check.png` (TV, desktop and phone
+  mock-ups, the avatar at 160–24 px), `mascot-cutout.png` (the locked mascot as a transparent PNG, 424×858).
+- **Profile picture:** head and shoulders from the mascot reference (job f97004b9-…), scaled 1.95×, hat top at 11.5% of the height;
+  background a radial glow `#3870B6` → `#133463` with a faint 8×8 grid and a soft shadow. Hat yellow on blue stays readable at 24 px.
+- **Banner:** blueprint blue `#1F4E8C` with a 32/160 px grid. Phone box: eyebrow "3D BUILD EXPLAINERS" (Barlow Semi Condensed 600,
+  `#C9DAF0`), headline "ONE PROBLEM" white / "AT A TIME" yellow `#FFC83D` (Barlow Condensed 800, fitted to the space), and three 3:4
+  tiles of the finished builds (the END stills of videos 01–03) captioned MUD → HOUSE, LOG → CANOE, PIPE → HYDRANT. Desktop-only
+  wings: the full-body mascot on the left, a dashed "NEXT BUILD?" tile on the right. The channel name is left off on purpose
+  (YouTube prints it under the banner, and the rename is undecided).
+- **Rebuild** (free, ~1 min): `pipeline/branding/cutout.py` (mascot cutout: OpenCV GrabCut, then edge pixels that match the
+  backdrop right beside them are dropped; `pip install opencv-python-headless`), `make_brand.py <src> <fonts> <out>`
+  (`--eyebrow/--line1/--line2`; the tiles are the `TILES` list) and `render.js` (Playwright Chromium screenshot). Fonts: `npm pack
+  @fontsource/barlow-condensed@5.1.0 @fontsource/barlow-semi-condensed@5.1.0`. Stills: `jobs_wait` with `timeout_seconds: 0` on
+  the job ids returns their CDN URLs. Swap in new END stills as the channel grows (keep 3 tiles; the phone box has no room for 4).
+- `remove_background` and `upscale_image` were not used: `remove_background` has no cost preflight, so it would need a quote.
