@@ -288,20 +288,23 @@ climax and payoff. Facts marked ⚠ must be verified before scripting.
 |---|---|---|---|
 | Style key, character, stage stills | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"` (character sheet 2:3) | **1.25 / image** |
 | Cheap draft image (optional exploration only) | `gpt_image_2_6` | 9:16 | 0.25 / image |
-| Animated shots | `generate_video_batch`, **`minimax_h3`** | `resolution:"2K"`, `aspect_ratio:"9:16"`, `duration` 4–15 s | **2 / second** (4 s = 8, 5 s = 10, 10 s = 20) |
+| Animated shots (default since video 04) | `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `resolution:"720p"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` (+ `end_image` for build beats) | **2.25 / second** (3 s = 6.75, 4 s = 9, 5 s = 11.25) |
+| Animated shots (optional) | `minimax_h3` | `resolution:"2K"`, `aspect_ratio:"9:16"`, `duration` 4–15 s | **2 / second** (4 s = 8, 5 s = 10); every queued job failed in videos 01–04 (3.4f) |
 | Narration (preferred) | ElevenLabs connector `creative_generate_speech` | voice from `creative_list_voices` | ElevenLabs credits (0 Higgsfield) |
 | Narration (fallback) | Higgsfield `generate_audio`, `text2speech_v2`, `variant:"elevenlabs"` | locked `voice_id` + `voice_type` | ~0.45 / line |
 | Word timing, labels, captions, assembly | Higgsfield `sandbox_exec` (ffmpeg, faster-whisper, Pillow preinstalled; `$HF_WORKFLOWS/video-montage/scripts/audio_to_captions.py`) | — | no generation credits (confirm in `transactions` after the first run) |
 | Optional | `virality_predictor`, `tiktok_prepare_publish` (UPLOAD_TO_DRAFT) | — | ask before using |
 
 Rejected alternatives at 10 s / 9:16: seedance_2_5 720p = 70, seedance_2_5 480p = 30, kling_4_0_flash = 30, kling4_0 720p = 22.5, seedance_2_0 720p = 45, grok_video_v15 = 45. `minimax_h3` is the cheapest and supports `start_image` + `end_image` keyframes, which is how we animate "the structure upgrades on screen".
+Since video 04 the default is `kling4_0`: it also takes `start_image` + `end_image`, accepts 3 s clips, and has not failed a job, while every queued
+minimax job has failed (3.4f). Prices re-checked 10 Nov 2026 with `get_cost`: unchanged.
 
 Balance when this runbook was written: **604 credits (Plus plan)**. Always call `balance` at the start of a run.
 
 ### 3.1 Budget tiers (pick one at Gate B; default = Lite for the first video)
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
-| **Lite** | 8 key beats animated with `minimax_h3` (4–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~90–110** |
+| **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** |
 Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
@@ -311,7 +314,7 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 3. Images before video. Fix look, consistency and drift in stills (1.25 cr), never by re-rolling clips (8–20 cr).
 4. Pilot first: render only 2 clips (the hook and one build beat) and show them before the batch.
 5. `count: 1` always. No variants. Regenerate a failed or bad clip **once**, with a corrected prompt. If it fails again, fall back to the still with ffmpeg motion and say so.
-6. Clip `duration` = beat length rounded up to whole seconds (min 4). Never generate 10 s for a 4 s beat.
+6. Clip `duration` = beat length rounded up to whole seconds (min 3 on kling4_0, 4 on minimax_h3). Never generate 10 s for a 4 s beat.
 7. Never use `use_unlim` unless the user asks. Never auto-retry after a transport timeout; check the job id first.
 8. After the run, call `transactions` and report the actual spend against the quote.
 
@@ -351,7 +354,7 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - Get word timestamps in the Higgsfield sandbox: download the audio with curl, then run faster-whisper (or `audio_to_captions.py --script <manifest> --max-words 1`) so the authored words supply the text and Whisper only supplies the timing. Derive each beat's real start and end. **These timings replace the estimates from Step 2.**
 
 **Step 7: Pilot clips. GATE D.**
-- Render 2 clips with `minimax_h3`: the hook beat and the first build beat.
+- Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
 - Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. The character only gestures and does not talk. No text, no captions.`
 - Problem beat: `start_image` = current stage still (night or storm version if needed). Prompt describes the threat moving (rain falling, water rising, snake crawling).
 - `duration` = the beat's measured length rounded up (min 4). Show both. If the look fails, fix the stills or prompt, not by re-rolling.
@@ -424,6 +427,20 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   of frame); B "MOVIES LIED" curiosity bd99655f-79e3-42f4-83e1-8506bb8b0c2b; C plain mid-video cutaway, no text ace9d4c0-c734-4945-a6e9-f281d544f02c.
   Known edit candidates: B15 shows only the first 1.35 s of the crash clip, then dissolves into the SNAP still (Kling puffed water at the valve later);
   in END the underground barrel is a solid red pipe rather than a see-through one; the movie geyser comes from an intact hydrant (letterboxed in post).
+
+- **04 Seawater to Tap Water** (Lite, idea H15, Hidden By Design look, loop ending) — DELIVERED v1, 10 Nov 2026. 78.67 s, 1080×1920, 24 fps, −15.4 LUFS, 27 beats, 271 words.
+  Higgsfield spend **111.75 cr** (quote 121.3, −8%): 30 stills 37.50 (25 on screen + 1 base kitchen + 4 rejected) + 8 kling4_0 clips 74.25 (the one
+  minimax_h3 pilot sat queued and failed, refunded). ElevenLabs: 2 takes × 1,475 credits (≈ $0.30); take B used at 1.09×.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/09f4ea3f-150f-4f02-a067-39b09fa5f366.mp4 (media_id 09f4ea3f-150f-4f02-a067-39b09fa5f366);
+  clean master with narration and no captions: media_id 2bdc92ec-03d6-4c0e-a517-a72234807e71; Gate D preview (B1–B4): d311f93c-8955-4497-a467-e67c327ab78e.
+  Higgsfield project "HBX – Seawater to Tap Water" (folder 95b78d03-a34b-4999-b679-1c8f5371f9de).
+  Titles: TikTok "How Do You Turn Seawater Into Drinking Water? 🌊"; YouTube Shorts "How the Ocean Becomes Your Tap Water".
+  Covers (`pipeline/04-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **B "THEY ADD ROCKS"
+  (recommended for TikTok; the curiosity is paid off at B18)** 1080×1920 d5310788-302e-4054-a10f-56456f6e1629, TikTok 3:4 upload 1080×1440
+  5f543776-e159-44bd-afe9-efc54646e480; A "SEA / TAP" split dfdb17dd-a334-4778-99c9-be0e6d525952; C plain cutaway of the finished plant, no text
+  b222091e-36dd-4898-a032-af879b37616f (the frame to pick on YouTube until the channel can upload covers).
+  Known edit candidates: the intake clip ends with the yellow hero fish sucked into the pipe (it reappears at the cap); clips play 1.12–1.17× faster to
+  fit their beats; stray blue valves from the cutaway style sit under the GLASSES counter and beside the intake pipe.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -504,6 +521,35 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **Scripts for video 03** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `03-script.txt`, `03-beat-sheet.md`, `03-whisper.py`,
   `03-timing.py`, `03-build.py` (Hidden By Design look, `CUT`, preview mode), `03-thumbnail.py` (covers A–D; `D` also writes both upload sizes and the
   platform mock-ups), `03-jobs.tsv` (all job ids). Copy these as the starting point for the next Hidden By Design video.
+
+### 3.4f Lessons from video 04 (apply next time)
+- **kling4_0 is now the default video model** (3.0). The single minimax_h3 pilot sat queued and failed again: every queued minimax job in videos 01–04
+  has failed. Kling ran 6 jobs at once, 8 of 8 succeeded in about 4–6 minutes, and it now takes **3 s** clips (3–30 s), so a beat of 2.7 s or less costs
+  6.75 instead of 9. Quote clips on Kling prices.
+- **seedream_v5_pro accepts about 8 jobs at once**; the rest of a batch is refused with `429 rate_limit_reached` (no job, no charge). Send stills in
+  groups of 8 and resend the refused ones when slots free up.
+- **The cutaway STYLE formula leaks into every shot:** seedream sliced open a water bottle (granules and a filter inside), added a pool with a tap to a
+  drought street, and put blue pumps under a kitchen counter. For shots that must look ordinary, say "NOT cut open", "an ordinary street view, not a
+  cutaway", "no water anywhere". If the stray thing survives, **edit it out**: pass the still as the reference with "Change only this: remove …
+  Everything else identical" (worked first time for the drought pool).
+- **References copy the layout:** passing the hero wide (S0) as a reference for a different location (the drought street) reproduced the whole S0 scene.
+  Use a reference only for "same scene, change X" edits or the same location; describe a new location in text only.
+- **Make matching shots by editing one base still:** a fresh "salt-crusted tap" came out with no salt; editing a clean kitchen still into a salty one
+  worked, and the same base gave the payoff shot (clean tap, drought hills outside the window). Two matching shots for 2.5 cr.
+- **Close-ups:** "close-up of a gauge" gave a wide pump shot with a tiny gauge; "Extreme close-up: the gauge fills most of the frame" worked.
+- **Journey ideas need more stills:** 27 beats and 25 distinct stills (30 generated) cost 37.5 cr; a single-set ladder idea needs fewer.
+- **Narration:** Daniel's eleven_v4 takes ran slower this time (2.89–2.92 w/s raw, 3.20 after pause tightening), so the faster take needed `atempo`
+  1.09 to reach 3.49 w/s. Whisper with the `initial_prompt` matched 271/271 words ("sixty" came back as "60" and was aligned by length).
+- **`sandbox_exec` foreground calls time out at about 60 s in the MCP layer**, whatever `timeout_seconds` says. Keep foreground commands under ~50 s
+  (no long `sleep`); run Whisper and renders with `background:true`. The full 27-beat render on `size:"xl"` took about 4 minutes.
+- **Overlays on stills:** measure positions on a 100 px grid drawn over the still scaled to 1080×1920. `04-build.py` reads ring and chevron positions
+  from `overlays.json` (each chevron path takes a `rot`; the stock chevron points up, so `rot -113` points it down-right along a rotor).
+- **Saturation check before Gate A (6.3) changed the idea:** H13 (crane) was dropped for H15 after the search found 20+ near-identical Shorts.
+- **Network:** this session reached the generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai` from the sandbox and `www.youtube.com`,
+  but not `pw-cdn.watercorporation.com.au` or `www.wa.gov.au`; search-result summaries were used for the Perth figure instead.
+- **Scripts for video 04** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `04-script.txt`, `04-beat-sheet.md`,
+  `04-prompts.py` (stills + `REFS`), `04-mk.py` (still requests), `04-clips.py` (motion prompts + request builder), `04-whisper.py`, `04-timing.py`,
+  `04-build.py` (reads `overlays.json` and `cut.json`), `04-thumbnail.py` (covers A–C, upload sizes, mock-ups), `04-jobs.tsv`. Copy these for the next video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -780,7 +826,9 @@ Effort: **single set** = one cutaway set and one hero angle (cheapest with the s
 - That's why: the floors with louvres instead of windows on every skyscraper.
 - End: "Fill the tanks, split the zones, and shower a hundred floors up."
 
-**H15. How Do You Turn Seawater Into Drinking Water? 🌊🚰** (journey · transformation, like their landfill video)
+**H15. How Do You Turn Seawater Into Drinking Water? 🌊🚰** (journey · transformation, like their landfill video) — ✅ USED: video 04 (10 Nov 2026).
+As made: script in `pipeline/04-script.txt`, Hidden By Design look, loop ending; the fixes were distillation, reverse osmosis, velocity cap, sand
+filters, pressure exchanger, limestone and diffusers, with Perth (about half its water from desalination) as the real place.
 - Set: coastal plant cutaway: intake pipe under the seabed, filters, pump hall, membrane tubes, brine outfall, a city on the hill. Hero: a
   fish near the intake.
 - Hook: If you pump the ocean into a tank, you have a tank of... salt water.
@@ -927,6 +975,10 @@ What it shows:
   From section 4: crane (Jeff, 74K), elevator, traffic light, P-trap, sprinkler and water tower are all done. A search for an Alaska
   log cabin found no Short under that title (You Built It has Fallen Tree → Log Cabin, 2M). Not searched: the underground town
   (You Made It did Derinkuyu, 1.1M), the Alps tunnel, the space station (Mildly Elsewhere has "Turn Your House Into a Space Station", 71K).
+  Searched 10 Nov: H13 crane, 20+ near-identical Shorts (best "How Do They Get Cranes Down From Skyscrapers?" 932K, "How cranes get on top of the
+  building" 892K, "How Tower Cranes Build Themselves Taller!" 747K in 8 days), so it was dropped. H15 seawater: survival distillation Shorts are huge
+  (Zack D Films' Roman sailors 13.5M, real-footage distillation clips 3.5M and 1.1M, a cartoon 1.0M), while city-plant explainers stay small (Sydney Water 139K,
+  Nexus Digest 52K, recent 3D ones 1.2–1.5K); the exact title "How Seawater Becomes Drinking Water" is taken.
   **Before Gate A, run `pipeline/youtube/yt_search.py "<title>"` and report how many near-identical Shorts exist and the best view
   count.** A crowded topic can still win in the Shorts feed, but bring something the others lack: a true story, a named place, "your yard".
 - **Look (my read from four frames per video):** the leaders render real 3D scenes as a block of ground sliced open, usually from one

@@ -67,3 +67,12 @@ POWER, PX, SAND, LIME, CORRODE, CAP, PLUME, DIFFUSER, PAYOFF.
 25 stills 31.25 + 8 clips on kling4_0 720p (1 × 3 s 6.75, 5 × 4 s 45.00, 2 × 5 s 22.50 = 74.25) = 105.50; +15% retry reserve = 121.3 credits.
 If minimax_h3 (2K) takes the clips: 68.00 for clips, 99.25 before reserve. Narration on ElevenLabs (0 Higgsfield). Balance 172.88.
 Pilot (Gate D): C1 hook and C2 boil (first build beat).
+
+## As made (10 Nov 2026)
+- Narration: take B at 1.09x (92.72 s raw -> 84.76 s with pauses tightened -> 77.76 s), 3.49 w/s; video 78.67 s with the 0.9 s tail.
+  Every animated beat fit its planned clip length (B1 3.18 s, B3 3.31, B6 4.36, B9 2.28, B11 4.79, B21 3.25, B22 3.15, B25 3.20).
+- Stills: 30 generated for 25 on screen. Redos: TAPSALT (an edit of the clean TAP base; the fresh still had no salt), DROUGHT3 (an edit of DROUGHT2 to
+  remove a pool of water; DROUGHT1 copied the S0 layout), BOTTLE2 (the first bottle was sliced open), GAUGE2 (the first was a wide shot).
+- Clips: all 8 on kling4_0, no redos. The minimax_h3 hook pilot sat queued and failed (refunded). Clips play 1.12-1.17x to fit their beats.
+- Overlays (`overlays.json`): white ring on the bottle's fine print (B19, x425 y1025); white chevrons along the pressure exchanger rotor (B15).
+- Captions at y=1400 (~73%); 271 caption cues for 271 words; -15.4 LUFS. Spend 111.75 cr against the 121.3 quote.
