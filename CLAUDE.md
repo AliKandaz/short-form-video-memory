@@ -10,6 +10,9 @@ https://claude.ai/artifact/MPEu5jqcnUDLSsz3fiBc8N (private "How Building Explain
 A second reference account, **@1hidden_by_design** ("Hidden By Design": the same narration formula, aimed at the hidden engineering
 behind everyday things), was studied on 8 Nov 2026. Its learnings and 15 more ideas (H1–H15) are in section 4.
 
+The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the audit, the YouTube channels that lead this
+format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist.
+
 ---
 
 ## 1. What we learned from the source video
@@ -378,6 +381,8 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 
 **Step 12: Post copy (free).**
 - Title in the account formula: `How [humble thing] Can Become [X] (in the [setting])` + `#engineering #HowItWorks #Science #LearnOnTikTok` + 1–2 topic tags. The `social-media-skills:caption-writer` and `hook-writer` skills can help with alternates.
+- **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a plain `How a ___ Becomes ___` title with no hashtags or
+  call to action, a written description, audience set to "not made for kids").
 
 ### 3.4 Locked choices (fill in after the first video and keep them for every video)
 - Narration voice (LOCKED): ElevenLabs connector, model `eleven_v4`, voice "Daniel's Voice - Warm, Low, Confident" voice_id `rFhx8PVgXxOyaeAGq9fq`. Raw take runs ~3.2 words/s; tighten pauses to 0.15 s (timing.py) to reach ~3.5 words/s.
@@ -385,8 +390,11 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - End-card signboard: NONE (user chose no sign). End on the mascot waving at the finished build.
 - Default tier: Lite
 - Higgsfield project / folder naming: `HBX – [video title]`
+- Channels: YouTube **@overthinkingyearly** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025) and TikTok **@overthinkingyearly**
+  (nickname "OT"). A rename was recommended on 10 Nov 2026 and the user has not chosen yet (shortlist in 6.5). Update this line when they do.
 
 ### 3.4b Video log
+YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **01 Desert Adobe** (Lite) — DELIVERED v1, 7 Nov 2026. 74.3 s, 1080×1920, 24 fps. Higgsfield spend **106.25 cr** (quote 122): 19 stills 23.75 + clips 82.5 (net of refunds). ElevenLabs ≈ $0.13.
   Final in Higgsfield storage: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/11972224-4d3b-45ee-947f-b84b88b1f651.mp4 (media_id 11972224-4d3b-45ee-947f-b84b88b1f651).
   Known edit candidates: ending blanket floats above the roof; bricks clip pushes in tight; "cutaway" is a heat-glow view; thick-walls and lime beats are free wipes.
@@ -837,3 +845,136 @@ When the video is done, give me:
 Then log the video in 3.4b, mark the idea ✅ USED, add any new lessons, and update both
 copies of the memory.
 ```
+
+---
+
+## 6. YouTube channel audit and the format on YouTube (9–10 Nov 2026)
+
+The user asked for a channel review ("username? profile pic? what can I do better to blow the channel up"). The channel was read from
+public pages with `pipeline/youtube/yt_snapshot.py` (how-to in 6.7). The audit was delivered in chat on 10 Nov 2026. **Whether the user
+applied the fixes in 6.2 is unknown: re-run the snapshot before relying on 6.1.** Conclusions marked "my read" are Claude's
+interpretation of the data, not measured facts.
+
+### 6.1 Channel snapshot (10 Nov 2026, 08:54 UTC)
+- **@overthinkingyearly**: 13 subscribers (9 the evening before), 6 Shorts, about 4.3K total views, only a Shorts tab.
+- Bio left over from an older concept: "Welcome to The Empire Outpost — where history meets fun for an educational and entertaining
+  journey." No channel keywords, country or links.
+- Avatar: a cartoon portrait (curly-haired person, teal hoodie, orange-purple background) with no link to the videos. Banner: the same
+  picture, so the desktop banner shows a strip of forehead and eyes.
+- TikTok @overthinkingyearly: 7 followers, 6 videos, 65 likes.
+
+| Short | YouTube id | Posted | Views | Likes | Notes |
+|---|---|---|---|---|---|
+| 03 Fire hydrant | `CHSiOhYhCx0` | 9 Nov | 1,857 after 9.5 h | 143 | 2 comments: a hydrant installer agreeing about the movie myth; "Not true on paint" (the NFPA 291 cap colours are a recommendation that many towns don't follow) |
+| 02 Canoe | `VFxSJ_sCHEg` | 7 Nov | 7 | 1 | **served in made-for-kids mode** (6.2) |
+| 01 Mud house | `FRwZoiwTwJY` | 6 Nov | 1,795 | 86 | 1 hostile comment about bricks drying "for weeks" (NMSU: adobe bricks cure 3–4 weeks, so the script is right) |
+| ASMR marble run | `PnFGPBCMRKc` | 5 Nov | 5 | 0 | off-niche AI clip |
+| bubble wrap ×2 | `1C52H0poplc`, `Ly1sETBBq34` | 3 Nov | 1,356 / 1,249 | 3 / 9 | off-niche AI clips; one viewer commented "Ai!!!!!" |
+
+- Titles as posted: "How Mud Can Become A House In The Desert | comment below what you would like next"; "How A Fallen Tree Can Become A
+  Canoe In The Jungle #engineering #HowItWorks #Science #learnonyoutube"; "Why Don't Fire Hydrants Freeze? ❄️🚗 #HowItWorks #Engineering
+  #Learn #3DAnimation". Every description is empty.
+- Covers are mid-video frames carrying one caption word ("Dry", "The", "COLORS"). The channel is not in the Partner Program, so the
+  designed covers (3.4d, 3.4e) can't be uploaded on YouTube yet; only a frame can be picked.
+
+### 6.2 Problems found, and the fix recommended to the user
+1. **Video 02 is served in made-for-kids mode**, which is why it has 7 views: comments are off, "Save to playlist" is missing, there is
+   no "Original Sound" pivot, and the hashtags in its title are not links. The other five Shorts have none of this. Fix: Studio →
+   Content → the video → Details → Audience → "No, it's not made for kids", and set the channel default (Settings → Channel → Advanced
+   settings). Only Studio shows whether the user picked it or YouTube's classifier set it. If the video stays flat after the fix,
+   re-upload it with the 6.4 title and delete the old copy.
+2. **Three channels in one:** a handle that reads like a journaling channel, a history-channel bio, AI ASMR clips, and build explainers.
+   Fix: make the three ASMR Shorts private, rewrite the bio, rename (6.5), replace the avatar with the locked mascot (head and
+   shoulders, yellow hard hat, flat dark background, 800×800, not pre-rounded) and make a real banner (2560×1440, text inside the
+   centre 1235×338). Generating those costs a few credits, so it needs the user's go-ahead.
+3. **Packaging:** calls to action and four hashtags inside titles, empty descriptions. Fix: the 6.4 checklist. Suggested retitles:
+   "How Mud Becomes a House in the Desert", "How a Fallen Tree Becomes a Canoe", "How a Pipe in the Street Becomes a Fire Hydrant".
+4. **Three videos, two looks:** videos 01–02 use the centred Title Case caption and the "Congratulations, you have built…" sign-off,
+   which are How Building Explained's look and signature line; video 03 uses ALL CAPS captions, no mascot and a loop ending. Fix: one
+   caption style, the mascot in the first and last shot of every video, and our own closing line.
+5. **Comments:** reply to all of them in the first day and pin a question. The hydrant comments are worth answering with facts.
+
+### 6.3 The format on YouTube Shorts (benchmarks, 9–10 Nov 2026)
+"How a ___ Becomes ___" took off on YouTube around mid-October 2026 and is now copied by hundreds of channels.
+
+| Channel | Subscribers | Videos | Best Shorts | Notes |
+|---|---|---|---|---|
+| **You Made It** (@youmadeit3d) | 128K | 13 | Jungle Hole → Cu Chi Tunnels 36M (24 Oct), Cave → Home 23.5M (23 Oct), Crate → Plane 12M, Hole in Your Yard → Basement 8.8M, Spoon → Escape from Alcatraz 4.8M, Log → Raft 3.7M (21 Oct), Bunker 2.8M, Rented House → $70 Million Bank Heist 2.1M, Coffin → Your Way Out of the Grave 1.6M; lowest 94K | bio: two creators, real 3D scenes, about 12 hours a video, "new videos every week", "no reused clips" |
+| **You Built It** (@youbuilt_it) | 64.7K | 60 | Hole in Your Yard → Swimming Pool 8.3M (11 Oct), Strip of Dirt → Road 5.6M, Stack of Boards → Roof 3.4M, Hole in Your Roof → Fireplace 3M, Septic Tank 2.7M, Fallen Tree → Log Cabin 2M, Running Water 1.7M, Field → Colosseum 1.1M; recent ones 6.5K–422K | a small in-scene "YOU BUILT IT" yard sign |
+| How Building Explained (@HowBuildingExplained) | 31.8K | 24 | Nipa Hut 7.4M, Levee 5.3M, White House 5.1M, Nuclear Power Plant 1.4M | description is "4665465", no banner |
+| Mildly Elsewhere (@MildlyElsewhere) | 31.2K | 137 | Why Guardrail Ends Peel Away 9.4M (mostly crash mechanics); Hole Under Your House → Basement 1.2M, Hole in the Desert → House 868K (7 Nov) | phrase captions, corner watermark |
+| How Things Were Built (@HowThingsWereBuilt) | 12.3K | 118 | Canoe → Submarine 1.9M, Sign on a Stick → Traffic Light 590K, Hole in the Ground → Well 199K; recent ones 2K–31K | |
+| Low Poly Films (@LowPolyFilmss) | 11K | 28 | Big Hole in the Backyard → Swimming Pool 6.4M, Nuclear Test Shaft 1.3M; most 20K–50K | |
+| Jeff (@Jeff-Labs) | 953 | 180 | Why Wipers Used to Stop at Full Throttle 990K, Ship's Anchor 354K; most 1K–2K | daily "why" mechanics |
+| How Things Hold Up / But Then, So | 68 / 17 | 11 / 20 | best 2.3K / every video about 1.2K | "why" cutaways with tidy branding |
+
+What it shows:
+- **About 1–2K views is the default test batch** for a new channel (ours: 1.8K and 1.9K; But Then, So: twenty videos at ~1.2K). Branding
+  doesn't move it: How Building Explained has three 5M+ Shorts with a junk description and no banner. The video has to hold viewers.
+- **Quality beats volume.** The biggest channel has 13 videos; the daily one has 180 videos and 953 subscribers.
+- **"Becomes" beats "why" on YouTube right now** (my read; channel size confounds it). Same topics, both framings: Sign on a Stick →
+  Traffic Light 590K vs "The Hidden Wire That Turns Your Red Light Green" 1.3K; Garden Hose on the Ceiling → Fire Sprinkler 61K vs
+  fifteen-plus "Why Fire Hydrants Don't Freeze" Shorts in a month whose best is 14.5K.
+- **What the multi-million titles promise:** something you'd want in *your yard* (pool, basement, bunker, running water), survival (cave,
+  raft, log cabin), or a true escape, heist or war story (Cu Chi, Alcatraz, the bank heist). Landmarks do less (Colosseum 1.1M,
+  Hoover Dam 171K, pyramid 82K, castle 56K).
+- **Our idea lists are everyone's idea lists.** Searched 9 Nov: castle 14 near-identical Shorts (best 56K), Panama Canal 10+ (43K),
+  well 14 (1.7M), cave home 14 (23.5M), lighthouse 9 (127K), Hoover Dam 8+ (171K), bank vault 8 (29K), pyramid 9 (82K), Antarctic
+  base 1 (26K in two days). "How a Ditch Becomes the Panama Canal" and "How a Wooden Box Becomes a Bank Vault" exist word for word.
+  From section 4: crane (Jeff, 74K), elevator, traffic light, P-trap, sprinkler and water tower are all done. A search for an Alaska
+  log cabin found no Short under that title (You Built It has Fallen Tree → Log Cabin, 2M). Not searched: the underground town
+  (You Made It did Derinkuyu, 1.1M), the Alps tunnel, the space station (Mildly Elsewhere has "Turn Your House Into a Space Station", 71K).
+  **Before Gate A, run `pipeline/youtube/yt_search.py "<title>"` and report how many near-identical Shorts exist and the best view
+  count.** A crowded topic can still win in the Shorts feed, but bring something the others lack: a true story, a named place, "your yard".
+- **Look (my read from four frames per video):** the leaders render real 3D scenes as a block of ground sliced open, usually from one
+  camera angle, and the build changes in place. Our videos 01–02 cut between separate, better-looking shots with no sliced ground.
+  Their first frames are calm and use the same one-word "If" caption as ours, so our opening words and caption style are not the
+  problem. The 23.5M cave video does move between views, so the single angle is a tendency, not a rule.
+- **Like rates:** ours are 4.8% and 7.7% of views at test-batch scale; the leaders sit at 2–3% at millions of views. Viewers who stay
+  like the videos. What we can't see from outside is how many swipe away. **Ask the user for "Viewed vs swiped away" and average
+  percentage viewed from Studio for videos 01 and 03** before changing the script formula.
+
+### 6.4 YouTube upload checklist (apply from video 04)
+1. Audience: "No, it's not made for kids", on the upload and as the channel default. After publishing, run `yt_snapshot.py`; it flags
+   made-for-kids mode.
+2. Title: `How a [humble thing] Becomes [Y]`, under about 60 characters. No hashtags, no call to action, no "| …" suffix.
+3. Description: two or three sentences that retell the premise with the named problems, one question for the comments, then at most
+   three hashtags.
+4. Pin a comment that asks what to build next. Reply to every comment in the first day.
+5. "Altered content" disclosure: tick it when the scenes look photoreal (the Hidden By Design look). Re-check YouTube's help page for
+   the current rule.
+6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
+7. Raise at Gate A and Gate C: sliced-ground block and one hero angle for the whole video, the mascot in the first and last shot,
+   one caption style, and a closing line that is ours rather than "Congratulations, you have built…".
+
+### 6.5 Rename shortlist (the user has not chosen)
+Free on both YouTube and TikTok on 9 Nov 2026, by handle lookup (`pipeline/youtube/handles.py`); YouTube can still refuse a handle
+for its own reasons.
+- **Seven Problems Later** (@sevenproblemslater): recommended. It describes the format, could become the closing line ("Seven problems
+  later, you have a…") and an on-screen problem counter. **Just Add Problems** (@justaddproblems), **A Few Problems Later**
+  (@afewproblemslater), **First You Dig** (@firstyoudig), **Starts With Mud** (@startswithmud).
+- Taken, or too close to an existing channel: You Built It, You Made It, But Then So, How Things Hold Up, Fix By Fix, Built That Way,
+  Looks Simple, OverBuilt, One Fix Later, Problem Fix Repeat (TikTok, same niche), Sounds Simple, Minute Builds, Pocket Engineering.
+
+### 6.6 Platform facts (from web searches on 9 Nov 2026; re-check before quoting)
+- **Partner Program:** 1,000 subscribers plus 4,000 watch hours in a year or 10M Shorts views in 90 days. From **1 Feb 2027** new
+  applicants need 8,000 hours or 20M Shorts views (announced 10 Aug 2026). The fan-funding tier stays at 500 subscribers plus 3,000
+  hours or 3M Shorts views.
+- **Inauthentic content** (the monetisation rule, renamed in July 2025): guidance of 16 Jul 2026 lists generic or template-based
+  videos, unsatisfying content, and AI personas giving advice as not eligible for ads. YouTube reviews whole channels. This is one
+  more reason to keep the AI ASMR clips off the channel and to keep scripts researched and original.
+- **Custom Shorts covers:** since July 2026 for Partner Program channels, in Studio on desktop. Everyone else picks a frame.
+- **Made for kids** turns off comments, the notification bell, and saving to playlists or Watch Later.
+- **Handles:** two changes per 14 days; the old handle is held for 14 days.
+
+### 6.7 Reading YouTube from a session
+- The Default environment allows `www.youtube.com`, `i.ytimg.com`, `yt3.ggpht.com` and `yt3.googleusercontent.com` (added 9 Nov 2026).
+- `/watch?v=<id>` redirects cloud IPs to a Google bot check on a blocked host; `/shorts/<id>` and channel pages work. The player
+  response is bot-gated, so there are no captions, storyboards, durations or downloads. Views, likes, dates and comments come from
+  `ytInitialData` and the `youtubei/v1/browse` continuation.
+- Frames without downloading video: `https://i.ytimg.com/vi/<id>/frame0.jpg` (first frame) and `oar1.jpg`, `oar2.jpg`, `oar3.jpg`
+  (about 25%, 50% and 75%; `oar2` is the default cover).
+- Pace requests about 2–3 s apart. Scripts in `pipeline/youtube/` (exact usage is in each docstring; all but the first take a work
+  directory as their first argument): `yt_snapshot.py @handle` (channel facts, per-Short stats, comments, made-for-kids check),
+  `yt_channels.py <dir> handle:@name shorts:<id>` (a channel's latest and most popular Shorts; who posted a given Short),
+  `yt_search.py <dir> "<query>"` (saturation check), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
