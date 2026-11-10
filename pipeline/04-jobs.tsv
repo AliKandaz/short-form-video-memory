@@ -1,0 +1,38 @@
+# video 04 Seawater to Tap Water: seedream_v5_pro 1k 9:16 stills (1.25 cr each), Higgsfield project "HBX – Seawater to Tap Water" folder 95b78d03-a34b-4999-b679-1c8f5371f9de
+key	job_id	use
+S0	82478fc2-8ac2-4c87-b172-1b5a4155e2ad	B1 hook; C1 start (style key)
+END	5397da6f-0e96-4f38-8404-55f61db67fdd	B27 end/loop (hero angle, finished plant)
+BOIL	fa21e0e4-712e-4c4a-9843-a2b6faba300c	B3; C2 start
+INTAKE	28792af6-7d96-480c-aa21-6c0df981f897	B9; C4 start
+GLASSES	6b376c5f-11f1-4a68-869c-dd33bd5e3f46	B20
+PEBBLE	f30934fb-9118-48cf-91ac-76f2a554d662	B18
+DROUGHT	ac575495-19ee-483c-8bdd-0cb88892a95d	B23
+RESERVOIR	5bd72db2-50b0-488a-8bf2-cdb0fcf6312e	B24
+PERTH	e4078549-952f-43eb-826d-9e06dfab25a1	B26
+# TAP, HALL, MEMBRANE, BOTTLE: first submission refused with 429 rate_limit_reached (no job, no charge)
+TAP	52bacea4-7a69-429e-a05f-59542387c265	B2
+HALL	1b200df3-a9f9-4b38-bce1-cc37458bb694	B5, B8 (plant interior reference)
+MEMBRANE	96c2cc09-b3e8-4183-853f-a76a5f27ebf4	B6; C3 start
+BOTTLE	eda2bbc1-4b4f-4611-bab4-796a8efb8d81	B19
+TAP	52bacea4-7a69-429e-a05f-59542387c265	(note) base kitchen, clean: reference for TAPSALT and PAYOFF, not used on screen
+MEMBRANE-ok	96c2cc09-b3e8-4183-853f-a76a5f27ebf4	checked ok
+# REJECTED: DROUGHT ac575495 (copied the S0 pipe and sea), BOTTLE eda2bbc1 (bottle sliced open with granules and a filter inside), TAP has no salt (kept as base)
+FUEL	5b45e817-aaf0-4ca6-ad90-c1008564e054	B4
+GAUGE	a538fc8a-c0bd-43ea-99a9-4f848b086185	B7
+CLOG	7639d59b-9ca0-422b-ba20-0fdf016e44ea	B12
+CAP	eb4662c6-7b7c-4ee8-9084-6edcae9e3f2a	B10, B11; C5 start
+SAND	2d72d8d2-f12c-450b-8039-256bac8972b7	B13
+POWER	e2431acf-c5ba-487e-9f7e-80a4f71df013	B14
+PX	62d12c84-8005-4afa-9fd8-1a53cf2dd3dd	B15
+LIME	e84fd38e-d493-4a48-93f4-eac73017cda4	B17
+CORRODE	b51a67f5-b245-4508-8ad2-056eecd26faa	B16
+PLUME	1e5f8253-4891-4e10-8f64-bc05dc285e1a	B21; C6 start
+PAYOFF	26ec03a5-8ae9-47aa-9713-bf897623d3a2	B25; C8 start
+DROUGHT2	787ff17d-c6ff-49d1-a6aa-b18ff1dcb583	B23 (redo, no reference)
+TAPSALT	0c3ce7c3-06e9-4162-b107-d37794880c3b	B2
+BOTTLE2	359adc5f-11c2-4437-b5e5-d1a00433288d	B19 (redo, sealed bottle)
+# REJECTED: GAUGE a538fc8a (wide pump shot, the gauge is too small to push in on)
+DIFFUSER	014e9c2f-48b5-462c-926d-a08d60f10f73	B22; C7 start
+GAUGE2	6dd96b2c-4ec8-4807-9bd1-e0e8956e33f3	B7 (redo, close-up)
+# DROUGHT2 787ff17d: good street, but it added a pool of water with a tap in the foreground; fixed by editing it (DROUGHT3)
+DROUGHT3	8d6fe81d-59cc-4d78-a3b7-94d14d7d2fcb	B23 (DROUGHT2 with the pool removed)
