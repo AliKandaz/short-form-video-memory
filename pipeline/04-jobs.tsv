@@ -44,3 +44,12 @@ C1	7bf1a00b-3721-4bff-8cb7-4097b90fa277	B1 hook pilot from S0, kling4_0 4 s, 9 c
 # C1-minimax 00db1310: sat queued, then FAILED (refunded) - lesson 3.4e confirmed again
 # overlays (frame px): B19 ring x425 y1025 rx85 ry95 on the bottle fine print; B15 chevrons (330,760)->(760,950) rot -113 along the PX rotor
 # Gate D preview B1-B4 (12.88 s): media_id d311f93c-8955-4497-a467-e67c327ab78e
+C3	e6982225-f240-45cc-8a7c-c7bf2683f9d6	B6 membrane from MEMBRANE, kling4_0 5 s, 11.25 cr
+C4	a4bd31ef-4f9b-48c2-8c5d-6cc85a94b441	B9 fish sucked in from INTAKE, kling4_0 3 s, 6.75 cr
+C5	4ee1e7f1-adb5-4cb4-a105-1010b6f71161	B11 velocity cap from CAP, kling4_0 5 s, 11.25 cr
+C6	f8522629-6e97-40ee-be08-ab34f1468d8f	B21 brine plume from PLUME, kling4_0 4 s, 9 cr
+C7	1a793917-b94d-4e0d-93f1-bbab7c374cc2	B22 nozzles from DIFFUSER, kling4_0 4 s, 9 cr
+C8	b8784d39-c5f7-468e-a230-882031b3617f	B25 payoff tap from PAYOFF, kling4_0 4 s, 9 cr
+# FINAL 78.67 s: media_id 09f4ea3f-150f-4f02-a067-39b09fa5f366; clean master (narration, no captions) 2bdc92ec-03d6-4c0e-a517-a72234807e71
+# covers: A sea/tap dfdb17dd-a334-4778-99c9-be0e6d525952; B rocks 9:16 d5310788-302e-4054-a10f-56456f6e1629, B 3:4 TikTok 5f543776-e159-44bd-afe9-efc54646e480; C plain b222091e-36dd-4898-a032-af879b37616f
+# spend: 30 stills 37.50 + 8 kling4_0 clips 74.25 = 111.75 cr (minimax pilot refunded); quote 121.3
