@@ -6,9 +6,10 @@
 #   A  transformation split: the sea and the pipe mouth (S0) -> the clean running tap (PAYOFF): "SEA" / "TAP"
 #   B  curiosity the video pays off (B18): the limestone pebble splashing into a glass: "THEY ADD ROCKS"
 #   C  plain cutaway frame with no text: the finished plant on the coast (END)
-# Also writes the upload sizes of the recommended cover (B) and phone-size mock-ups:
-#   thumb/cover_B_9x16.jpg  1080x1920 (YouTube Shorts custom thumbnail, once the channel can upload one; JPG under 2 MB)
-#   thumb/cover_B_3x4.jpg   1080x1440 (TikTok Studio "Upload cover" crops to 3:4)
+#   D  FINAL (11 Nov 2026): the payoff glass of clear tap water with the plant and the sea in the window: "THIS WAS THE OCEAN"
+# `python3 04-thumbnail.py D` also writes the upload sizes of the final cover and phone-size mock-ups:
+#   thumb/cover_D_9x16.jpg  1080x1920 (YouTube Shorts custom thumbnail, once the channel can upload one; JPG under 2 MB)
+#   thumb/cover_D_3x4.jpg   1080x1440 (TikTok Studio "Upload cover" crops to 3:4)
 #   thumb/mock_tiktok_grid.jpg, thumb/mock_youtube_shelf.jpg
 import os, sys, math
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
@@ -97,7 +98,15 @@ def concept_B():   # curiosity: they put rocks back in the water (limestone pebb
 def concept_C():   # plain cutaway frame, no text: the finished plant on the coast
     cv = grade(place('stills/END.png', W, H, fx=0.50, fy=0.50, ty=0.50, zoom=1.04), c=1.10, s=1.12)
     return vignette(cv, 0.28).convert('RGBA')
-CONCEPTS = {'A': concept_A, 'B': concept_B, 'C': concept_C}
+def concept_D():   # FINAL: a surprising claim on the payoff glass; the plant and the sea stay visible in the window
+    cv = grade(place('stills/PAYOFF.png', W, H, fx=0.60, fy=0.40, ty=0.42, zoom=1.12), c=1.10, s=1.14)
+    cv = vignette(cv, 0.36).convert('RGBA')
+    backdrop(cv, (30, 1030, 1050, 1395), 125)
+    word(cv, 540, 1130, 'THIS WAS', 150, WHT)
+    word(cv, 540, 1295, 'THE OCEAN', 158, YEL)    # bottom edge ~1371, above YouTube's title overlay (y > ~1440)
+    arrow(cv, bez((900, 1040), (980, 880), (835, 760)))
+    return cv
+CONCEPTS = {'A': concept_A, 'B': concept_B, 'C': concept_C, 'D': concept_D}
 
 def rounded(im, r):
     m = Image.new('L', im.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, im.width - 1, im.height - 1), radius=r, fill=255)
@@ -140,13 +149,14 @@ if __name__ == '__main__':
     for name in todo:
         im = CONCEPTS[name]().convert('RGB'); im.save(f'thumb/cover_{name}.png'); im.save(f'thumb/cover_{name}.jpg', quality=90)
         im.resize((360, 640), Image.LANCZOS).save(f'thumb/prev_{name}.jpg', quality=85)
-    if set('ABC') <= set(todo):
-        im = Image.open('thumb/cover_B.png').convert('RGB')
+    if 'D' in todo:
+        im = Image.open('thumb/cover_D.png').convert('RGB')
         for q in (92, 88, 84):
-            im.save('thumb/cover_B_9x16.jpg', quality=q, optimize=True, progressive=True)
-            if os.path.getsize('thumb/cover_B_9x16.jpg') < 1_900_000: break
-        im.crop((0, GRID[0], W, GRID[1])).save('thumb/cover_B_3x4.jpg', quality=92, optimize=True, progressive=True)
-        mock_tiktok_grid(['B', 'A', 'C'], 'thumb/mock_tiktok_grid.jpg')
-        mock_youtube_shelf(['A', 'C'], [['How the Ocean Becomes', 'Your Tap Water'], ['(another Short)']], 'thumb/mock_youtube_shelf.jpg')
-        print({p: os.path.getsize('thumb/' + p) for p in ('cover_B_9x16.jpg', 'cover_B_3x4.jpg')})
+            im.save('thumb/cover_D_9x16.jpg', quality=q, optimize=True, progressive=True)
+            if os.path.getsize('thumb/cover_D_9x16.jpg') < 1_900_000: break
+        im.crop((0, GRID[0], W, GRID[1])).save('thumb/cover_D_3x4.jpg', quality=92, optimize=True, progressive=True)
+        if all(os.path.exists(f'thumb/cover_{n}.png') for n in 'ABC'):
+            mock_tiktok_grid(['D', 'B', 'A', 'C', 'D', 'B'], 'thumb/mock_tiktok_grid.jpg')
+            mock_youtube_shelf(['D', 'C'], [['How Seawater Becomes Drinking', 'Water (Without Boiling It)'], ['(another Short)']], 'thumb/mock_youtube_shelf.jpg')
+        print({p: os.path.getsize('thumb/' + p) for p in ('cover_D_9x16.jpg', 'cover_D_3x4.jpg')})
     print('ok')

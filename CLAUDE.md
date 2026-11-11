@@ -434,10 +434,13 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/09f4ea3f-150f-4f02-a067-39b09fa5f366.mp4 (media_id 09f4ea3f-150f-4f02-a067-39b09fa5f366);
   clean master with narration and no captions: media_id 2bdc92ec-03d6-4c0e-a517-a72234807e71; Gate D preview (B1–B4): d311f93c-8955-4497-a467-e67c327ab78e.
   Higgsfield project "HBX – Seawater to Tap Water" (folder 95b78d03-a34b-4999-b679-1c8f5371f9de).
-  Titles: TikTok "How Do You Turn Seawater Into Drinking Water? 🌊"; YouTube Shorts "How the Ocean Becomes Your Tap Water".
-  Covers (`pipeline/04-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **B "THEY ADD ROCKS"
-  (recommended for TikTok; the curiosity is paid off at B18)** 1080×1920 d5310788-302e-4054-a10f-56456f6e1629, TikTok 3:4 upload 1080×1440
-  5f543776-e159-44bd-afe9-efc54646e480; A "SEA / TAP" split dfdb17dd-a334-4778-99c9-be0e6d525952; C plain cutaway of the finished plant, no text
+  Final packaging (11 Nov 2026, the user asked for "high converting"): YouTube title "How Seawater Becomes Drinking Water (Without Boiling It)";
+  TikTok caption "How do you turn seawater into drinking water without boiling it? 🌊" + #HowItWorks #Engineering #LearnOnTikTok #3DAnimation
+  #Desalination. (First drafts: TikTok "How Do You Turn Seawater Into Drinking Water? 🌊"; YouTube "How the Ocean Becomes Your Tap Water".)
+  Covers (`pipeline/04-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **D "THIS WAS THE
+  OCEAN" (final, both platforms)**: the payoff glass of clear tap water with the plant and the sea in the window. 1080×1920 022bdfce-42de-4a40-a43b-3b94f97817e4,
+  TikTok 3:4 upload 1080×1440 31722592-1c35-4179-936f-de976c0bac41. Earlier options: B "THEY ADD ROCKS" 1080×1920 d5310788-302e-4054-a10f-56456f6e1629
+  (3:4 5f543776-e159-44bd-afe9-efc54646e480); A "SEA / TAP" split dfdb17dd-a334-4778-99c9-be0e6d525952; C plain cutaway of the finished plant, no text
   b222091e-36dd-4898-a032-af879b37616f (the frame to pick on YouTube until the channel can upload covers).
   Known edit candidates: the intake clip ends with the yellow hero fish sucked into the pipe (it reappears at the cap); clips play 1.12–1.17× faster to
   fit their beats; stray blue valves from the cutaway style sit under the GLASSES counter and beside the intake pipe.
@@ -545,6 +548,11 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **Overlays on stills:** measure positions on a 100 px grid drawn over the still scaled to 1080×1920. `04-build.py` reads ring and chevron positions
   from `overlays.json` (each chevron path takes a `rot`; the stock chevron points up, so `rot -113` points it down-right along a rotor).
 - **Saturation check before Gate A (6.3) changed the idea:** H13 (crane) was dropped for H15 after the search found 20+ near-identical Shorts.
+- **Packaging pattern for the final cover and title (my read, unmeasured):** the cover puts a claim that sounds wrong on the payoff object ("THIS WAS
+  THE OCEAN" over a glass of tap water) and keeps the context that makes it believable in frame (the plant and the sea through the window); the
+  title front-loads the search words the topic's biggest Shorts use ("seawater", "drinking water") and adds a second hook the video pays off early
+  ("(Without Boiling It)") instead of repeating the cover. I judged the curiosity cover with no topic cue (B "THEY ADD ROCKS") weaker at tile size,
+  because nothing in it says "ocean". Compare D's click-through with video 03's "IT'S EMPTY" once there is data.
 - **Network:** this session reached the generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai` from the sandbox and `www.youtube.com`,
   but not `pw-cdn.watercorporation.com.au` or `www.wa.gov.au`; search-result summaries were used for the Perth figure instead.
 - **Scripts for video 04** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `04-script.txt`, `04-beat-sheet.md`,
