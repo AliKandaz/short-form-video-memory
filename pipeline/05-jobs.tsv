@@ -33,3 +33,24 @@ ESCAPE2	04ddfa68-a551-47f6-8e63-32954255d5b6	round 5 (redo of ESCAPE)
 PAYOFF	d0c64dee-b6fe-4c62-9723-9ee1f73b163f	round 6
 C1	b5d15057-1496-412f-ab54-862b3f9ca8c1	pilot clip B1 hook, kling4_0 3 s (S0)
 C3	b2fda10b-fa94-47e2-96df-4069ca8a19dd	pilot clip B3 legs, kling4_0 4 s (S0 -> S2)
+C2	8003588c-7b86-47d9-9224-759971ddc849	clip B2 float, 3 s
+C4	1402a6d6-7c7e-4030-9cc9-59fd4f365fa5	clip B4 door, 3 s
+C5	aaf2863e-925f-4ea7-8945-1ba9167c1b99	clip B5 moon pool, 4 s
+C6	b5fc9978-a320-485f-9d3c-2c7e3880fffd	clip B9 buoy build, 5 s (S2 -> S3b)
+C7	28cfdf64-a31f-4dfc-be8a-02632c3bf29a	clip B10 sponge, 4 s
+C8	aeb4217e-909d-4093-b4de-0f94607efddf	clip B14 shark, 4 s
+C9	4bcf38a7-c009-4ff8-82b6-365f9b28d9d1	clip B15 rush, 5 s
+C10	1b1d13ad-ebfa-4f96-9c10-7fd914fdd917	clip B20 aquanauts, 4 s
+C11	66e4dd90-740c-425d-8331-169bc01bbef5	clip B21 storm, 3 s, REJECTED: breakers crash onto the deep tank and the sea calms (redo C11b)
+C12	d833c913-b461-42a9-b9e7-e4fbbb408dd7	clip B22 escape, 3 s
+C13	3692fd03-75fa-4a23-8c2b-f1073d321ab3	clip B23 buoy ripped, 5 s
+C14	e7a050fa-fef7-4ea1-914c-f15e05e742fc	clip B24 payoff, 3 s
+C15	037f2b46-f0b4-46a5-bd88-2a81ed2f6ad6	clip B25 end wave, 5 s
+C11b	935e29e4-c7d2-434d-9747-60ffe568ce3a	clip B21 storm redo, 3 s, REJECTED: foam still hits the tank and the sea calms; B21 falls back to the STORM still with a push-in
+FINAL	bb9b3915-8070-4405-bb10-ad4f2ad8be39	media_id: final MP4 78.83 s (https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/bb9b3915-8070-4405-bb10-ad4f2ad8be39.mp4)
+CLEAN	b061a807-0316-43e6-9fac-8f31374a03fa	media_id: clean master with narration, no captions or labels
+COVER_A_9x16	b27d1a52-48ea-4d87-97bd-ea161787c859	media_id: cover A "17 HOURS / TO LEAVE" 1080x1920 (recommended)
+COVER_A_3x4	47ac6544-ee17-42bd-a8be-cb2fc8e0a038	media_id: cover A TikTok 3:4 upload 1080x1440
+COVER_B	2e733e44-722d-4b41-8683-7d097cd86aec	media_id: cover B "DON'T SWIM UP" 1080x1920
+COVER_C	1cce6c8d-5506-4d0e-a54f-db2c4bfb5268	media_id: cover C plain storm frame, no text
+NARRATION	zkTwApM30LKPD4O79xg2	ElevenLabs flow; take A = generation 836E3oxmNh0QgALitrVI (used, x1.00), take B = UAVODCnm3lYL0g6upZEh

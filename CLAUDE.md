@@ -16,7 +16,8 @@ format (You Made It, You Built It), a topic-saturation check of the idea lists, 
 
 **Latest direction from the user (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4), and the ideas
 are the ten approved in section 2: famous real places and true extreme stories in the "how to / if you" format. Section 7 has the
-details and the account the user likes (@thewhatifstudio). To make a video, paste the section 5 prompt.
+details and the account the user likes (@thewhatifstudio). To make a video, paste the section 5 prompt. Video 05 (idea #1, Aquarius)
+was made on 11 Nov 2026 in the new **Middle** tier, which is now the default (3.1, 3.4).
 
 ---
 
@@ -107,14 +108,14 @@ and sound effects still need a listen.
 ## 2. Video ideas (approved 11 Nov 2026)
 
 The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring" and approved this
-list on 11 Nov 2026 ("I like the ideas"). No first pick yet. It replaces the old lists (#1–15 here and H1–H15 in section 4), which
+list on 11 Nov 2026 ("I like the ideas"). #1 was made first (video 05, 11 Nov 2026). It replaces the old lists (#1–15 here and H1–H15 in section 4), which
 were removed the same day; the four ideas already made are in the video log (3.4b).
 - **Why these:** the account the user likes wins with famous real places and true extreme stories, while its builds of ordinary
   things stall (7.1). Every idea was checked on YouTube Shorts on 11 Nov 2026 ("Shorts" below).
 - **Look:** Classic (3.4); the mascot is "you". **Ranked** strongest first (my estimate).
 - **Chains are drafts:** fact-check every ⚠ before Gate A, cut what doesn't hold up, and rerun the saturation check (6.7).
 
-**1. How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, off Key Largo, Florida)
+**1. ✅ USED (video 05, 11 Nov 2026). How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, off Key Largo, Florida)
 - Set: a sandy patch beside a coral reef ~19 m down ⚠, sun rays from above, a yellow buoy at the surface. One set.
 - Hook: "If you want to live under the ocean, sink a steel tank 20 meters down, and you have a house."
 - Chain: the tank floats up -> bolt it to a heavy base on legs ⚠ -> opening the door floods the room -> put the door in the floor and
@@ -125,7 +126,13 @@ were removed the same day; the four ideas already made are in the video log (3.4
 - Twist: living down there is easy; leaving is the dangerous part.
 - Climax: pick one that's true ⚠: a storm passing overhead (check how Aquarius and its crews ride out hurricanes), or the end of a
   mission and the swim up.
-- Shorts: almost nothing on topic (the moon-pool clips are from games); the long-form tour has 27M views.
+- Shorts: the first check missed three near-identical builds that the exact-title search found at Gate A: "How a Shipping Container Becomes an
+  Underwater Base" (Built Inside Out, 339K, 31 Oct; ballast plate, air buoy, moon pool, names Aquarius), "How a Glass Box Becomes An Underwater
+  House" (Build It Up, 36K) and an upside-down bucket version (1.4K). Aquarius itself peaks at 7K on Shorts; the long-form tour has 27M.
+- As made (fact-checked): about 60 ft deep; four legs with 25 tons of lead each; 17 h of decompression (FIU, CSA); NEEMO 15 left early for
+  Hurricane Rina (2011); Irma (2017) dragged the 94,000-lb buoy 14 miles while the habitat stayed put; Artemis II's Reid Wiseman (NEEMO 21) and
+  Jeremy Hansen (NEEMO 19) lived there. It is no longer "the only undersea lab": DEEP's Vanguard habitat went down off the Keys in Sep 2026.
+  Script, beats, prompts and builds: `pipeline/05-*`.
 
 **2. How Concrete Becomes an Oil Rig in Iceberg Alley** (Hibernia platform, Grand Banks, off Newfoundland). The user's oil-rig idea.
 - Set: grey North Atlantic with fog and drifting icebergs; the platform rises from the seabed, with a cutaway below the waterline.
@@ -260,16 +267,18 @@ Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), 
 
 Rejected alternatives at 10 s / 9:16: seedance_2_5 720p = 70, seedance_2_5 480p = 30, kling_4_0_flash = 30, kling4_0 720p = 22.5, seedance_2_0 720p = 45, grok_video_v15 = 45. `minimax_h3` is the cheapest and supports `start_image` + `end_image` keyframes, which is how we animate "the structure upgrades on screen".
 Since video 04 the default is `kling4_0`: it also takes `start_image` + `end_image`, accepts 3 s clips, and has not failed a job, while every queued
-minimax job has failed (3.4f). Prices re-checked 10 Nov 2026 with `get_cost`: unchanged.
+minimax job has failed (3.4f). Prices re-checked 10 and 11 Nov 2026 with `get_cost`: unchanged.
 
-Balance when this runbook was written: **604 credits (Plus plan)**. Always call `balance` at the start of a run.
+Balance when this runbook was written: **604 credits (Plus plan)**. On 11 Nov 2026 the account moved to the **Ultra plan**: 3,000 subscription
+credits (the 61.13 left were reset). Always call `balance` at the start of a run.
 
-### 3.1 Budget tiers (pick one at Gate B; default = Lite for the first video)
+### 3.1 Budget tiers (pick one at Gate B; default = Middle since video 05)
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** |
-Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). Short inserts (analogies, asides, stats) stay stills with free camera moves. | **~165–200** (video 05: 176 for 31 stills + 16 clips) |
+| **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 for 25 beats |
+All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
 ### 3.2 Credit rules (hard)
 1. Script, beat sheet, prompts and the cost quote are free. Do them all first.
@@ -297,6 +306,8 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 
 **Step 3: Cost quote. GATE B.**
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
+- Price the narration too: `creative_generate_speech` with `estimate_only:true` shows the ElevenLabs cost and any quota block. In video 05 one
+  take of a 272-word script cost 1,368 ElevenLabs credits, the plan had 354 left, and the first try failed until the user upgraded.
 - Present: tier, number of stills, number and length of clips, total credits, remaining balance after.
 - **Wait for approval.** Nothing below this line runs without it.
 
@@ -354,10 +365,12 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
   `If You…`, with no hashtags or call to action; a written description; audience set to "not made for kids").
 
 ### 3.4 Locked choices (fill in after the first video and keep them for every video)
-- Narration voice (LOCKED): ElevenLabs connector, model `eleven_v4`, voice "Daniel's Voice - Warm, Low, Confident" voice_id `rFhx8PVgXxOyaeAGq9fq`. Raw take runs ~3.2 words/s; tighten pauses to 0.15 s (timing.py) to reach ~3.5 words/s.
+- Narration voice (LOCKED): ElevenLabs connector, model `eleven_v4`, voice "Daniel's Voice - Warm, Low, Confident" voice_id `rFhx8PVgXxOyaeAGq9fq`. Raw take runs ~3.2 words/s; tighten pauses to 0.15 s (timing.py) to reach ~3.5 words/s. The user upgraded the ElevenLabs plan on
+  11 Nov 2026 after the 10,000-credit quota ran out mid-run.
 - Mascot description (LOCKED): "a stocky man in a yellow hard hat, navy blue work overalls over a white t-shirt, brown work boots, short dark beard, simple friendly face, game-character proportions". Reusable Higgsfield reference image: job_id `f97004b9-f63f-4971-ab16-e0519314a404` (seedream_v5_pro, 2:3). Pass it as an `image_references` media on every still that shows him.
 - End-card signboard: NONE (user chose no sign). End on the mascot waving at the finished build.
-- Default tier: Lite
+- Default tier: **Middle** (the user, 11 Nov 2026: "lite isn't enough animation and full is too much"; they picked Middle B, 15 clips,
+  ~170–200 credits). Offer Lite or Full when the balance or the beat count calls for it.
 - Look (LOCKED by the user, 11 Nov 2026): **Classic**, the look of videos 01–02. The locked mascot (reference job f97004b9-…) stands in a
   small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight and mild depth of field, seen from a slightly raised
   three-quarter view. Use the base STYLE string in `pipeline/02-prompts.py` plus one palette line per setting. Captions are centred,
@@ -414,6 +427,24 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   b222091e-36dd-4898-a032-af879b37616f (the frame to pick on YouTube until the channel can upload covers).
   Known edit candidates: the intake clip ends with the yellow hero fish sucked into the pipe (it reappears at the cap); clips play 1.12–1.17× faster to
   fit their beats; stray blue valves from the cutaway style sit under the GLASSES counter and beside the intake pipe.
+
+- **05 Steel Tank → House at the Bottom of the Sea** (Middle, idea #1 Aquarius, Classic look, loop ending) — DELIVERED v1, 11 Nov 2026. 78.83 s,
+  1080×1920, 24 fps, −15.2 LUFS, 26 shots (25 beats), 272 words. Higgsfield spend **176.00 cr** (quote 196.4, −10%): 31 seedream stills 38.75
+  (24 on screen + the DIVER reference + 6 redos) + 16 kling4_0 clips 137.25 (15 planned 130.50 + one storm redo 6.75). ElevenLabs: 2 takes × 1,368
+  credits (after the plan upgrade); take A used at 1.00× (no speed-up needed).
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/bb9b3915-8070-4405-bb10-ad4f2ad8be39.mp4 (media_id bb9b3915-8070-4405-bb10-ad4f2ad8be39);
+  clean master with narration and no captions: media_id b061a807-0316-43e6-9fac-8f31374a03fa. Higgsfield project "HBX – House at the Bottom of the Sea"
+  (folder 696a691c-e24b-415f-96a3-427d896b05e2). ElevenLabs flow zkTwApM30LKPD4O79xg2. Gate D preview (B1–B5) was sent as a file, not uploaded.
+  Post copy: YouTube "How a Steel Tank Becomes a House at the Bottom of the Sea"; TikTok "Why does it take 17 hours to leave a house 60 feet
+  underwater? 🌊" + #HowItWorks #Engineering #LearnOnTikTok #3DAnimation #Underwater #ScubaDiving.
+  Covers (`pipeline/05-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **A "17 HOURS /
+  TO LEAVE" (recommended)** over the finished house with the buoy above: 1080×1920 b27d1a52-48ea-4d87-97bd-ea161787c859, TikTok 3:4
+  47ac6544-ee17-42bd-a8be-cb2fc8e0a038; B "DON'T SWIM UP" on the bends rush 2e733e44-722d-4b41-8683-7d097cd86aec; C plain storm frame, no text
+  1cce6c8d-5506-4d0e-a54f-db2c4bfb5268.
+  Fell back to a still: B21 (the storm; both Kling versions crashed the breakers onto the deep tank and calmed the sea). Trimmed clips: B4 keeps the
+  first 2.0 s (later the foam pours out of the cutaway), B15 the first 2.9 s (later he breaks the surface and flies at the sun), then a held frame.
+  Known edit candidates: the tank is ~2.5× the mascot's length (not bus-sized); a toy island under the plane; the payoff sky is lighter than the
+  storm's; the door shot shows the tank floating without legs; during "This is the bends" he is half out of the water.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -528,6 +559,53 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **Scripts for video 04** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `04-script.txt`, `04-beat-sheet.md`,
   `04-prompts.py` (stills + `REFS`), `04-mk.py` (still requests), `04-clips.py` (motion prompts + request builder), `04-whisper.py`, `04-timing.py`,
   `04-build.py` (reads `overlays.json` and `cut.json`), `04-thumbnail.py` (covers A–C, upload sizes, mock-ups), `04-jobs.tsv`. Copy these for the next video.
+
+### 3.4g Lessons from video 05 (apply next time)
+- **Middle tier is the new default** (3.1): the user found Lite too still and Full too much. Animate the opening (first ~20 s), every build, the
+  twist and the finale; keep analogies, asides and stat inserts as stills.
+- **Saturation check: search the exact title first.** The 11 Nov idea check searched topic words (Aquarius, moon pool) and missed three
+  near-identical "X Becomes an Underwater House/Base" Shorts from the previous two weeks (best 339K) that `yt_saturation.py` found at once on the
+  exact title. The script then spent its first ~27 s on the shared basics and the rest on what they lacked (saturation, the bends, the 17-hour
+  exit, NASA, real hurricanes).
+- **ElevenLabs quota:** price the narration with `estimate_only:true` at Gate B (3.3 Step 3). eleven_v4 costs about 1 credit per character:
+  1,368 per take of a 272-word script.
+- **Daniel ran faster this time:** 3.16 w/s raw, 3.49 after pause tightening, so no `atempo` was needed (videos 02–04 needed 1.07–1.09×). Whisper
+  matched 268/268 words; it splits hyphenated words ("forty -seven -ton") and the aligner spreads them.
+- **Local assembly works in this environment:** the container has ffmpeg with libass, zoompan and xfade, plus Python, npm and pip. Fonts:
+  `npm pack @fontsource/fredoka@5.1.0 @fontsource/montserrat@5.1.0`, then fontTools (`pip install --target <dir> fonttools brotli`) converts the
+  700/800 woff2 files to TTF named "HBX Caption" / "HBX Label". The 26-shot render took under 2 minutes on 4 cores, with no 60 s tool limit.
+  Reachable from here: the generation CDN, `upload.higgsfield.ai` (PUT with `Content-Type` and `If-None-Match: *`, then `media_confirm`) and
+  `elevenlabsusercontent.com`. Not reachable: `huggingface.co`, so Whisper still runs in the Higgsfield sandbox (background job, ~1 min a take).
+- **Stills:**
+  - The Classic STYLE says "small diorama-like outdoor set" and "bright blue sky", so interior cutaways came out above water on a beach. For
+    interiors and underwater shots add one line: "The tank is deep underwater: everything seen outside it is deep blue sea ...; no sky, no clouds,
+    no beach and no waterline anywhere in the frame." (`UNDER` in `05-prompts.py`).
+  - Name colours, not objects, in the palette line. Even so it added a toy island under the plane and a beach outside the kitchen window.
+  - Stage edits can zoom in: adding the buoy reframed the shot until the prompt said "Keep exactly the same camera position, zoom and framing as
+    the reference image ... stay exactly where they are and the same size" and sized the new part ("small in the frame, about the size the barge was").
+  - "A towering wall of hurricane clouds" came out as a black smoke column rising off an island (a volcano). Write "the whole sky is dark grey with
+    low, heavy storm clouds, and grey curtains of rain ...; no island, no land, no smoke, no volcano, no fire".
+  - A dive-gear version of the mascot works: a 2:3 reference (`DIVER`) made from the locked reference keeps the yellow hard hat with a mask,
+    regulator, tank and fins. Pass it on every underwater still.
+  - "Edit it out" (3.4f) worked again: the sky at the end of a corridor became a closed hatch.
+- **Clips:**
+  - Kling accepted 13 jobs at once on Ultra (two batch calls of 8 and 5, no 429) and finished them in ~7–9 minutes.
+  - Kling reads a diorama with the habitat close under the waterline as shallow water: in both storm versions the breakers crashed onto the tank
+    and the sea calmed by the end, even with "no wave ever reaches the tank". Next time frame storm shots with much more water between the surface
+    and the structure, or show the surface storm and the calm structure as separate shots.
+  - Kling runs past the action: the door flood ended with foam pouring out of the cutaway, and the rush ended with the mascot flying out of the water
+    at the sun. `CLIPWIN` in `05-build.py` keeps a window of a source clip (retimed 0.8–1.25×, then a held last frame with a push-in).
+  - Start and end keyframe builds worked well (legs rising out of the sand; barge out, buoy in).
+  - Clip lengths from the real timings: `ceil(len − 0.06)`, so a 3.02 s beat gets a 3 s clip played 1% slow (58 s of clips instead of 62 quoted).
+- **Captions:** `02-build.py`'s 0.12 s minimum let short words overlap the next word for a frame ("Rush" + "Up" read as "RUph"). `05-build.py`
+  pushes the next word back instead (no overlaps; at most 0.10 s behind the voice).
+- **Composite story beats:** the user approved telling two real storms as one in the "you" story (the Rina early exit in 2011 and the Irma buoy loss
+  in 2017). Flag composites like this at Gate A.
+- **Network:** WebFetch could not reach `en.wikipedia.org` or `environment.fiu.edu`; WebSearch summaries were used for the fact-check.
+- **Scripts for video 05** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `05-script.txt`, `05-beat-sheet.md` (with "As
+  made"), `05-prompts.py` (STYLE, DIVER, UNDER, REFS, AR), `05-mk.py`, `05-clips.py`, `05-jobs.tsv` (all job and media ids), `05-whisper.py`,
+  `05-timing.py` (sub-beat split B16b), `05-timeline.json`, `05-build.py` (camera move per still, WIPE fallback, CLIPWIN, label heights, depth line
+  from `05-overlays.json`), `05-thumbnail.py`. Copy these for the next Classic video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -654,7 +732,7 @@ Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Me
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
 IDEA:   <#N from section 2>
-TIER:   <Lite | Full>   (Lite unless I say otherwise)
+TIER:   <Lite | Middle | Full>   (Middle unless I say otherwise)
 
 Fixed choices (3.4):
 - Look: Classic. Our locked mascot is "you", in a small sunny 3D diorama, and he is in
@@ -889,8 +967,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   By Design look.
 - **Format and ideas:** second-person "how to" / "if you…" videos about famous real places and true extreme stories, nothing boring.
   The approved ideas are in section 2; the old lists were removed the same day.
-- **Credits:** 61.13 on 11 Nov 2026 (172.88 on 10 Nov; video 04 spent 111.75). A Lite video in this look has cost 106–125, so the next
-  one needs a top-up or a smaller plan (fewer animated shots).
+- **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176.
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
 - 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes

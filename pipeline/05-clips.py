@@ -35,10 +35,12 @@ C = {
         f"bright surface; streams of tiny fizzing white bubbles keep bursting out from his arms and legs. {GUY}"),
  "C10": ("B20", "AQUANAUTS", None, f"The two divers in white suits bounce slowly across the sand in big floaty moonwalk steps, raising "
          f"small puffs of sand at each step; small fish drift past; the tank behind them does not move."),
- "C11": ("B21", "STORM", None, f"Black clouds race across the sky, huge grey waves roll and break along the surface, rain lashes down "
-         f"and the yellow buoy pitches violently; far below, the tank on its legs stays perfectly still, its portholes glowing. {NOBODY}"),
- "C12": ("B22", "ESCAPE2", None, f"Tracking shot: the small boat speeds toward the island throwing white spray, bouncing over the waves, "
-         f"while the black storm wall rolls closer behind it. {GUY}"),
+ "C11": ("B21", "STORM", None, f"Static camera. Huge grey waves roll and break only along the surface at the top of the frame, "
+         f"under black clouds and slanting rain, and the yellow buoy pitches violently on them. The waves stay up at the surface the whole "
+         f"time: no wave, splash or foam ever reaches down to the tank. Far below, the water around the tank stays calm, and the tank on "
+         f"its legs stays perfectly still with its portholes glowing. The storm keeps raging until the very end. {NOBODY}"),
+ "C12": ("B22", "ESCAPE2", None, f"Tracking shot: the small boat speeds across the waves to the right, throwing white spray and bouncing "
+         f"over the swell, while the dark storm clouds and rain roll closer behind it. No island, no land. {GUY}"),
  "C13": ("B23", "BUOYRIP", None, f"A huge grey wave slams into the yellow buoy; the chain and hose snap and the buoy tumbles away across "
          f"the foaming sea; rain and spray fly sideways. {NOBODY}"),
  "C14": ("B24", "PAYOFF", None, f"Above, the storm churns the surface with crashing waves and foam; below, the tank sits perfectly still "

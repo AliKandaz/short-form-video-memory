@@ -17,6 +17,9 @@ STILL = {'B1':'S0','B2':'FLOAT','B3':'S2','B4':'DOOR2','B5':'MOONPOOL2','B6':'CU
 # camera move for beats shown as stills: in = push-in, out = pull-back, up = tilt up, pan = left-to-right, hold = barely moving
 MOVE = {'B2':'up','B7':'out','B11':'up','B13':'pan','B15':'up','B17':'pan','B18':'hold'}
 WIPE = {'B9': 'S2'}   # build beats with no clip: wipe down from the previous stage into the new still
+# use only part of a clip (start s, end s of the source), retimed to fill the beat; e.g. drop a clip's odd ending
+CLIPWIN = {'B4': (0.0, 2.0),    # B4: keep the flood coming in, drop the foam pouring out of the cutaway at the end
+           'B15': (0.0, 2.9)}   # B15: keep the rush underwater; Kling had him break the surface and fly at the sun after ~3 s
 
 def still_chain(secs, move='in'):
     n = max(1, round(secs * FPS)); base = f"scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
@@ -43,7 +46,7 @@ def seg_clip(beat):
     if not os.path.exists(p):
         if beat in WIPE: print(f'  {beat}: no clip -> wipe {WIPE[beat]} -> {STILL[beat]}'); return seg_wipe(beat, WIPE[beat], STILL[beat])
         print(f'  {beat}: still {STILL[beat]} ({MOVE.get(beat, "in")})'); return seg_still(beat, STILL[beat], MOVE.get(beat, 'in'))
-    c = dur(p); r = c / L
+    win = CLIPWIN.get(beat); c = (win[1] - win[0]) if win else dur(p); r = c / L
     speed = min(r, 1.25) if r >= 1 else max(r, 0.8)       # retime within 0.8x..1.25x
     played = c / speed; pad = max(0.0, L - played)
     vf = f"setpts=PTS/{speed:.4f},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
@@ -53,7 +56,8 @@ def seg_clip(beat):
                f"zoompan=z='1+0.05*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS}")
     vf += f",trim=duration={L:.3f},setpts=PTS-STARTPTS,setsar=1"
     print(f'  {beat}: clip {c:.2f}s -> beat {L:.2f}s (speed {speed:.2f}x, hold {pad:.2f}s)')
-    run(['-i', p, '-vf', vf] + ENC + [f'seg/{beat}.mp4'])
+    pre = ['-ss', f'{win[0]:.3f}', '-t', f'{c:.3f}'] if win else []
+    run(pre + ['-i', p, '-vf', vf] + ENC + [f'seg/{beat}.mp4'])
 
 ALL = [b['beat'] for b in TL['beats']]
 SEL = sys.argv[1].split(',') if len(sys.argv) > 1 else ALL
@@ -74,11 +78,12 @@ def ts(t):
     return f"{h}:{m:02d}:{s:05.2f}"
 def clean(w):
     w = re.sub(r"[^A-Za-z0-9'’\-]", "", w); return w[:1].upper() + w[1:]
-ev = []
+ev = []; prev_end = 0.0
 for i, (s, e, w) in enumerate(words):
-    nxt = words[i+1][0] if i+1 < len(words) else None
+    s = max(s, prev_end)   # every word shows >= 0.12 s and never overlaps the previous one: a short word pushes the next one back a
+    nxt = words[i+1][0] if i+1 < len(words) else None   # little, and the drift resets at the next pause (02-build overlapped: 'Rush'+'Up')
     end = nxt if (nxt is not None and nxt - e <= 0.35) else e + 0.18
-    end = min(max(end, s + 0.12), T1)
+    end = min(max(end, s + 0.12), T1); prev_end = end
     ev.append(f"Dialogue: 1,{ts(s)},{ts(end)},Caption,,0,0,0,,{{\\an5\\pos(540,1000)\\fscx90\\fscy90\\t(0,70,\\fscx100\\fscy100)}}{clean(w)}")
 allw = json.load(open('audio/words_tight.json'))
 norm = [re.sub(r"[^a-z0-9']", "", w.lower()) for _, _, w in allw]

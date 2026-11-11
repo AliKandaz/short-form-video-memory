@@ -82,3 +82,20 @@ reference only.
 - Subtotal 170.75; 15% retry reserve 25.61; quoted total ≈ 196.4 credits. Balance 3,000.00 (Ultra plan).
 - Narration: ElevenLabs connector, locked voice Daniel (0 Higgsfield credits; ~2 × 1,450 ElevenLabs credits for two takes).
 - Pilot (Gate D): C1 hook and C3 legs (the first build beat).
+
+## As made (11 Nov 2026)
+- Narration: Daniel (eleven_v4), take A of two (the first attempt failed on the ElevenLabs quota; the user upgraded the plan). 86.00 s raw ->
+  77.95 s with pauses tightened to ~0.15 s, no atempo (3.49 w/s); video 78.83 s with the 0.9 s tail. Whisper matched 268/268 script words.
+  B16 is split at "Seventeen" (DECOMP -> NAP, label 17 HOURS), so the timeline has 26 shots (`05-timeline.json`).
+- Clip lengths from the real timings (ceil(len - 0.06)): C1 3, C2 3, C3 4, C4 3, C5 4, C6 5, C7 4, C8 4, C9 5, C10 4, C11 3, C12 3, C13 5, C14 3,
+  C15 5 = 58 s (130.50) instead of 62 s quoted; all 16 Kling jobs (15 + one redo) succeeded.
+- Stills: 31 generated for 24 on screen + the DIVER reference. Redos: DOOR2 and MOONPOOL2 (first versions sat above water on a beach), CUP2 (no
+  air pocket), WINDOW2 (an edit: sky at the end of the corridor became a hatch), S3b (the buoy stage zoomed in; framing locked to S2), ESCAPE2 (the
+  storm wall looked like a volcano).
+- B21 storm: both Kling versions (C11, C11b) crashed the breakers onto the deep tank and calmed the sea, so B21 is the STORM still with a push-in.
+- CLIPWIN: B4 uses the first 2.0 s (later the foam pours out of the cutaway), B15 the first 2.9 s (later he breaks the surface and flies at the
+  sun), then a held last frame with a slow push-in.
+- Labels: 100 TONS OF LEAD (by the legs), MOON POOL, LIFE SUPPORT BUOY, 1 HOUR, SATURATION, THE BENDS, 17 HOURS, 14-HOUR FLIGHT, DECOMPRESSION,
+  ARTEMIS II CREW, 47 TONS, 14 MILES; dashed depth line "60 FT" on B24 (`05-overlays.json`). 268 caption cues, no overlaps, -15.2 LUFS.
+- Spend: 176.00 Higgsfield credits (quote 196.4): stills 38.75 + clips 137.25. ElevenLabs 2 x 1,368 credits.
+- Covers (`05-thumbnail.py`): A "17 HOURS / TO LEAVE" (recommended), B "DON'T SWIM UP", C plain storm frame; media ids in `05-jobs.tsv`.
