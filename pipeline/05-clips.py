@@ -19,13 +19,13 @@ C = {
  "C3": ("B3", "S0", "S2", f"Four thick steel legs and a heavy dark steel base frame rise up out of the sand under the tank and lock onto "
         f"it as the tank settles down onto them; puffs of sand burst out around the legs; the crane cable goes slack; the man in the "
         f"yellow hard hat gives a thumbs-up. The tank keeps its shape and size. {GUY}"),
- "C4": ("B4", "DOOR", None, f"The sea blasts in through the open door as a thick foaming jet, and the water spreads fast across the "
+ "C4": ("B4", "DOOR2", None, f"The sea blasts in through the open door as a thick foaming jet, and the water spreads fast across the "
         f"floor; the man in the yellow hard hat stumbles backward with his arms up. {GUY}"),
- "C5": ("B5", "MOONPOOL", None, f"The man in the yellow hard hat climbs up the ladder out of the square pool of water and steps onto "
+ "C5": ("B5", "MOONPOOL2", None, f"The man in the yellow hard hat climbs up the ladder out of the square pool of water and steps onto "
         f"the dry floor, water dripping off him. Gentle ripples spread across the water in the opening, but the water stays exactly "
         f"level with the floor and never spills into the room; the floor stays dry. {GUY}"),
- "C6": ("B9", "S2", "S3", f"The crane barge drifts away out of the frame and a big round yellow buoy floats into place on the "
-        f"surface right above the tank; a thick black hose unrolls down from the buoy and connects to the top of the tank. The tank "
+ "C6": ("B9", "S2", "S3b", f"The crane barge drifts away out of the frame and a round yellow buoy floats into place on the "
+        f"surface right above the tank; a long thin black hose unrolls down from the buoy and connects to the top of the tank. The tank "
         f"and its legs do not move. {GUY}"),
  "C7": ("B10", "SPONGE", None, f"Very slow push-in. The man in the yellow hard hat breathes in slowly; more and more tiny glowing blue "
         f"bubbles drift from the air into his chest and fade into the soft blue glow. {GUY}"),
@@ -37,7 +37,7 @@ C = {
          f"small puffs of sand at each step; small fish drift past; the tank behind them does not move."),
  "C11": ("B21", "STORM", None, f"Black clouds race across the sky, huge grey waves roll and break along the surface, rain lashes down "
          f"and the yellow buoy pitches violently; far below, the tank on its legs stays perfectly still, its portholes glowing. {NOBODY}"),
- "C12": ("B22", "ESCAPE", None, f"Tracking shot: the small boat speeds toward the island throwing white spray, bouncing over the waves, "
+ "C12": ("B22", "ESCAPE2", None, f"Tracking shot: the small boat speeds toward the island throwing white spray, bouncing over the waves, "
          f"while the black storm wall rolls closer behind it. {GUY}"),
  "C13": ("B23", "BUOYRIP", None, f"A huge grey wave slams into the yellow buoy; the chain and hose snap and the buoy tumbles away across "
          f"the foaming sea; rain and spray fly sideways. {NOBODY}"),
