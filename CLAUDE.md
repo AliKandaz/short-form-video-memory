@@ -13,6 +13,9 @@ behind everyday things), was studied on 8 Nov 2026. Its learnings and 15 more id
 The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the audit, the YouTube channels that lead this
 format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist.
 
+**Latest direction from the user (11 Nov 2026), section 7:** the look is back to Classic (the mascot look of videos 01–02), and new
+ideas must be more creative and attention-grabbing than the lists in sections 2 and 4.
+
 ---
 
 ## 1. What we learned from the source video
@@ -392,6 +395,10 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - Mascot description (LOCKED): "a stocky man in a yellow hard hat, navy blue work overalls over a white t-shirt, brown work boots, short dark beard, simple friendly face, game-character proportions". Reusable Higgsfield reference image: job_id `f97004b9-f63f-4971-ab16-e0519314a404` (seedream_v5_pro, 2:3). Pass it as an `image_references` media on every still that shows him.
 - End-card signboard: NONE (user chose no sign). End on the mascot waving at the finished build.
 - Default tier: Lite
+- Look (LOCKED by the user, 11 Nov 2026): **Classic**, the look of videos 01–02. The locked mascot (reference job f97004b9-…) stands in a
+  small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight and mild depth of field, seen from a slightly raised
+  three-quarter view. Use the base STYLE string in `pipeline/02-prompts.py` plus one palette line per setting. Captions are centred,
+  one word at a time, in Title Case, with ALL CAPS term labels (`pipeline/02-build.py`). Hidden By Design (videos 03–04) is retired.
 - Higgsfield project / folder naming: `HBX – [video title]`
 - Channels: YouTube **@overthinkingyearly** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025) and TikTok **@overthinkingyearly**
   (nickname "OT"). A rename was recommended on 10 Nov 2026 and the user has not chosen yet (shortlist in 6.5). Update this line when they do.
@@ -872,13 +879,8 @@ artifact) first, all sections. Then make a video with the section 3 runbook.
 
 IDEA:   <#N from section 2 | H<N> from section 4 | new topic: "...">
 TIER:   <Lite | Full>
-LOOK:   <Hidden By Design | Classic>
-          Hidden By Design (4.4, production notes in 4.9): photoreal cutaway cross-section of
-          one set, no mascot, one continuous camera that follows the flow (start and end
-          keyframes between stage stills, no hard-cut montages), one-word ALL CAPS captions
-          with a black stroke at ~75% of frame height.
-          Classic (section 1): our locked mascot (3.4), centred Title Case captions,
-          ALL CAPS term labels.
+LOOK:   Classic (locked 11 Nov 2026, see 3.4): our locked mascot in a sunny 3D diorama,
+          centred Title Case captions, ALL CAPS term labels. Hidden By Design is retired.
 ENDING: <loop | congratulations>
           loop (recommended): a three-beat imperative line that flows back into the hook (4.3).
 
@@ -1007,8 +1009,9 @@ What it shows:
 5. "Altered content" disclosure: tick it when the scenes look photoreal (the Hidden By Design look). Re-check YouTube's help page for
    the current rule.
 6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
-7. Raise at Gate A and Gate C: sliced-ground block and one hero angle for the whole video, the mascot in the first and last shot,
-   one caption style, and a closing line that is ours rather than "Congratulations, you have built…".
+7. Raise at Gate A and Gate C: the Classic look (locked by the user on 11 Nov 2026, see 3.4), the mascot in the first and last shot,
+   one caption style, and a closing line that is ours rather than "Congratulations, you have built…". (The audit's sliced-ground,
+   single-angle suggestion is superseded by the user's choice of look.)
 
 ### 6.5 Rename shortlist (the user has not chosen)
 Free on both YouTube and TikTok on 9 Nov 2026, by handle lookup (`pipeline/youtube/handles.py`); YouTube can still refuse a handle
@@ -1065,3 +1068,19 @@ The user asked for "an updated profile picture and something I can put in my ban
   @fontsource/barlow-condensed@5.1.0 @fontsource/barlow-semi-condensed@5.1.0`. Stills: `jobs_wait` with `timeout_seconds: 0` on
   the job ids returns their CDN URLs. Swap in new END stills as the channel grows (keep 3 tiles; the phone box has no room for 4).
 - `remove_background` and `upscale_image` were not used: `remove_background` has no cost preflight, so it would need a quote.
+
+---
+
+## 7. User direction, 11 Nov 2026 (read before pitching ideas or starting a video)
+- **Look:** back to Classic, the mascot look of videos 01–02 (locked in 3.4), after video 04 was made in the Hidden By Design look. The
+  user asked only whether that is possible. The answer
+  was yes (the mascot reference, the style prompt, the caption setup and the video 02 scripts are all saved), and nothing was produced.
+- **Content style they like:** second-person "how to" / "if you…" videos, for example
+  https://www.tiktok.com/@thewhatifstudio/video/7703514583532604686 (@thewhatifstudio, not studied yet). Copy the formula only,
+  never the content.
+- **Ideas must be more creative and attention-grabbing,** from varied topics: things that haven't been done yet, or unusual enough to
+  keep people watching. The user's examples: surviving a tsunami, and how oil rigs at sea are built. The section 2 and 4 lists don't
+  meet this bar, and most of their topics are crowded on YouTube (6.3). When asked, pitch fresh ideas across topics and run the 6.3
+  saturation check on each one.
+- **Credits:** 61.13 on 11 Nov 2026 (172.88 on 10 Nov; video 04 spent 111.75). Classic videos have cost 106 (Lite) and 202 (Full)
+  credits, so the next video needs a top-up or a smaller plan (fewer animated shots).
