@@ -11,7 +11,8 @@ A second reference account, **@1hidden_by_design** ("Hidden By Design": the same
 behind everyday things), was studied on 8 Nov 2026. Its learnings are in section 4.
 
 The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the audit, the YouTube channels that lead this
-format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist.
+format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist. Section 6.9
+(11 Nov 2026) has what the views are worth in money on Shorts, TikTok and long videos.
 
 **Latest direction from the user (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4), and the ideas
 are the ten approved in section 2: famous real places and true extreme stories in the "how to / if you" format. Section 7 has the
@@ -812,6 +813,9 @@ for its own reasons.
 - **Partner Program:** 1,000 subscribers plus 4,000 watch hours in a year or 10M Shorts views in 90 days. From **1 Feb 2027** new
   applicants need 8,000 hours or 20M Shorts views (announced 10 Aug 2026). The fan-funding tier stays at 500 subscribers plus 3,000
   hours or 3M Shorts views.
+  Also from 1 Feb 2027 (YouTube's Shorts monetisation policy page as summarised by web search, 11 Nov 2026): Shorts ad money is paid
+  only for months in which the channel has 10M qualified Shorts views in the 90 days ending on the 15th of the month before. Sources
+  disagree on whether channels already in the program are exempt.
 - **Inauthentic content** (the monetisation rule, renamed in July 2025): guidance of 16 Jul 2026 lists generic or template-based
   videos, unsatisfying content, and AI personas giving advice as not eligible for ads. YouTube reviews whole channels. This is one
   more reason to keep the AI ASMR clips off the channel and to keep scripts researched and original.
@@ -855,6 +859,28 @@ The user asked for "an updated profile picture and something I can put in my ban
   @fontsource/barlow-condensed@5.1.0 @fontsource/barlow-semi-condensed@5.1.0`. Stills: `jobs_wait` with `timeout_seconds: 0` on
   the job ids returns their CDN URLs. Swap in new END stills as the channel grows (keep 3 tiles; the phone box has no room for 4).
 - `remove_background` and `upscale_image` were not used: `remove_background` has no cost preflight, so it would need a quote.
+
+### 6.9 What the views are worth (11 Nov 2026)
+The user asked whether $3,000 a month is realistic from faceless AI Shorts "once I'm monetized". Answer given: not from Shorts ads
+alone (that is the top channel of this format, every month); realistic only as a mix led by TikTok Creator Rewards and longer
+videos, at the stage where one or two videos a month reach several million views. The figures below are creator-blog and
+calculator numbers from web-search summaries, not the platforms' own pages: **re-check before quoting.**
+- **Shorts pay:** usually quoted at $0.03–0.07 per 1,000 views; mostly-US audiences more (reports of $0.10–0.30). YouTube pools the
+  Shorts feed's ad money per country and splits it by engaged views (the creator keeps 45% of their share, per secondary sources).
+  Studio's Shorts RPM is per 1,000 engaged views, which run below the public view counter.
+- **$3,000 a month from Shorts ads** = about 43–100M views a month (60M at $0.05). Scale check with the 6.3 snapshot: You Made It's
+  nine best Shorts total ~95M views (about $2.9–6.7K) and You Built It's eight best ~28M (about $0.8–1.9K). The Partner Program's
+  entry pace, 10M views per 90 days, is worth about $100–230 a month.
+- **TikTok Creator Rewards:** 10K followers, 100K views in the last 30 days, age 18+, an eligible country, videos of 60 s or more,
+  and only posts made after joining earn. Quoted at about $0.40–1.00 per 1,000 qualified views (some US figures up to $2), roughly
+  ten times Shorts, so $3,000 = about 3–7.5M qualified views a month. Our ~75 s videos already qualify on length. **The user's
+  country is not known**, so eligibility is unconfirmed: ask before planning around it.
+- **Long videos on YouTube:** quoted at $1–10 per 1,000 views, so $3,000 = about 0.3–3M views a month.
+- **Cost side:** third-party pricing pages put Higgsfield at about $5 per 100 top-up credits (Plus $49–59 a month for 1,000–1,200
+  credits; not checked against the user's own plan), so a Lite video costs roughly $5–7 and needs about 80–190K Shorts views to pay
+  for itself from Shorts ads alone.
+- **Reading the sources:** www.tubefilter.com, ppc.land and searchenginejournal.com are outside the Default environment's network
+  policy (WebFetch can't resolve them); WebSearch summaries were used instead.
 
 ---
 
