@@ -8,13 +8,14 @@ Full visual reference (frames, beat sheet, both reconstructed scripts):
 https://claude.ai/artifact/MPEu5jqcnUDLSsz3fiBc8N (private "How Building Explained Style Bible" artifact; open it with the Artifact tool's read action)
 
 A second reference account, **@1hidden_by_design** ("Hidden By Design": the same narration formula, aimed at the hidden engineering
-behind everyday things), was studied on 8 Nov 2026. Its learnings and 15 more ideas (H1–H15) are in section 4.
+behind everyday things), was studied on 8 Nov 2026. Its learnings are in section 4.
 
 The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the audit, the YouTube channels that lead this
 format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist.
 
-**Latest direction from the user (11 Nov 2026), section 7:** the look is back to Classic (the mascot look of videos 01–02), and new
-ideas must be more creative and attention-grabbing than the lists in sections 2 and 4.
+**Latest direction from the user (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4), and the ideas
+are the ten approved in section 2: famous real places and true extreme stories in the "how to / if you" format. Section 7 has the
+details and the account the user likes (@thewhatifstudio). To make a video, paste the section 5 prompt.
 
 ---
 
@@ -46,7 +47,7 @@ ASIDE        And [fun fact]  /  That's why [thing viewers have seen in real life
 CLIMAX       But then [worst-case disaster] hits. [Everything around you is destroyed.]
 PAYOFF       But yours [stands / stays] [safe] while [disaster happens right next to you].
 COZY         (You) add [prop 1], [prop 2] and [prop 3].
-SIGN-OFF     Congratulations, you have built a [X].      <- always this exact line
+SIGN-OFF     Congratulations, you have built a [X].      <- their signature line; we never use it (our ending: section 5)
 ```
 
 ### Writing rules
@@ -102,182 +103,140 @@ and sound effects still need a listen.
 
 ---
 
-## 2. Video ideas (15)
+## 2. Video ideas (approved 11 Nov 2026)
 
-Each idea lists the hero set, the hook, the escalation chain (problem -> fix -> LABEL), the twist, and the
-climax and payoff. Facts marked ⚠ must be verified before scripting.
+The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring" and approved this
+list on 11 Nov 2026 ("I like the ideas"). No first pick yet. It replaces the old lists (#1–15 here and H1–H15 in section 4), which
+were removed the same day; the four ideas already made are in the video log (3.4b).
+- **Why these:** the account the user likes wins with famous real places and true extreme stories, while its builds of ordinary
+  things stall (7.1). Every idea was checked on YouTube Shorts on 11 Nov 2026 ("Shorts" below).
+- **Look:** Classic (3.4); the mascot is "you". **Ranked** strongest first (my estimate).
+- **Chains are drafts:** fact-check every ⚠ before Gate A, cut what doesn't hold up, and rerun the saturation check (6.7).
 
-### Survival / primitive builds (closest to the 7.2M hit)
+**1. How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, off Key Largo, Florida)
+- Set: a sandy patch beside a coral reef ~19 m down ⚠, sun rays from above, a yellow buoy at the surface. One set.
+- Hook: "If you want to live under the ocean, sink a steel tank 20 meters down, and you have a house."
+- Chain: the tank floats up -> bolt it to a heavy base on legs ⚠ -> opening the door floods the room -> put the door in the floor and
+  keep the air at the same pressure as the water, so the sea stays out (MOON POOL) -> the air goes stale -> a buoy on the surface sends
+  air and power down hoses (LIFE SUPPORT BUOY) ⚠ -> at this pressure your body soaks up gas, so you can stay for weeks (SATURATION) ⚠ ->
+  a fast trip up would fizz that gas in your blood like a shaken soda (THE BENDS) -> lower the pressure inside for about 17 hours
+  before you leave (DECOMPRESSION) ⚠.
+- Twist: living down there is easy; leaving is the dangerous part.
+- Climax: pick one that's true ⚠: a storm passing overhead (check how Aquarius and its crews ride out hurricanes), or the end of a
+  mission and the swim up.
+- Shorts: almost nothing on topic (the moon-pool clips are from games); the long-form tour has 27M views.
 
-**1. How Mud Can Become A House In The Desert** — ✅ USED: video 01 (7 Nov 2026)
-- Set: rocky desert flat, one cactus, dry riverbed.
-- Hook: You stack rocks in a circle and you have a wall.
-- Chain: rocks bake like a frying pan -> mud, straw and water pressed into bricks (ADOBE) -> wet bricks crumble ->
-  sun-dried for weeks -> heat passes through thin walls -> walls two feet thick (THERMAL MASS) -> flat roof cooks you
-  -> beams, branches and packed mud -> rain pools and melts the roof -> slight tilt and a clay spout (CANALE) ->
-  whitewash with lime to reflect the sun.
-- Twist: the desert's real killer at night is cold, not heat. The same thick walls give the day's heat back after dark.
-- Climax/payoff: flash flood down the dry riverbed. The house was built on a rise and stays dry.
-- Cozy: clay oven, small deep windows, wooden door.
+**2. How Concrete Becomes an Oil Rig in Iceberg Alley** (Hibernia platform, Grand Banks, off Newfoundland). The user's oil-rig idea.
+- Set: grey North Atlantic with fog and drifting icebergs; the platform rises from the seabed, with a cutaway below the waterline.
+  One set (the tow-out from the dry dock could be a second).
+- Hook: "If you want oil from under the North Atlantic, you have to build where the icebergs drift."
+- Chain: a drill ship gets pushed off the well by storms -> stand a platform on steel legs -> an iceberg snaps the legs -> one giant
+  concrete base that sits on the seabed and holds by its own weight (GRAVITY BASE) ⚠ -> icebergs still crash into it -> a wall of 16
+  concrete teeth that splits the ice (ICE WALL) -> too heavy to build at sea -> build it in a dry dock, flood the dock and tow it out ⚠
+  -> bergs bigger than the platform -> supply ships lasso them with ropes and tow them off course (ICE MANAGEMENT) -> small ones get
+  pushed aside with water cannons ⚠.
+- Twist: ⚠ the iceberg that sank the Titanic drifted down the same Iceberg Alley.
+- Shorts: generic oil-rig Shorts reach 34M; Hibernia itself only 15K ("Why This Offshore Platform Has 16 Concrete Teeth") and 28K
+  ("How the Ocean Floor Becomes an Offshore Oil Rig").
 
-**2. How A Fallen Tree Can Become A Canoe** — ✅ USED: video 02 (7 Nov 2026). As made: jungle river mouth that opens to the sea;
-  storm waves instead of rapids (an outrigger float would snag in rapids); script in `pipeline/02-script.txt`.
-- Set: tropical riverbank, one huge fallen log.
-- Hook: You lie on a log and float, and you have a boat.
-- Chain: log rolls and dumps you -> hollow it with fire and scraping (DUGOUT) -> water pours over the low sides ->
-  carve a raised bow so it cuts the waves -> it still tips -> lash a second float on poles beside it (OUTRIGGER) ->
-  hands as paddles are too slow -> carve paddles -> sun splits the wood -> keep it wet and oiled.
-- Twist: the deadliest thing on the river isn't the crocodile. It's capsizing in the current. ⚠ need a solid stat.
-- Climax/payoff: rapids. The outrigger keeps you upright.
-- Cozy: woven sail, fishing spear, gourd of water.
+**3. How a Town Fought a Volcano With the Ocean** (Heimaey, Westman Islands, Iceland, 1973)
+- Set: a fishing town and harbour on a small island, and a field behind it that splits open. One set.
+- Hook: "If lava is pouring toward your town, you can't outrun it… so you turn the sea on it."
+- Chain: a crack opens at night and lava fountains shoot up -> everyone must leave; the fishing fleet is in harbour because of a storm
+  the day before, so about 5,000 people sail away by morning ⚠ -> ash buries the town -> shovel the roofs before they cave in ⚠ ->
+  lava creeps toward the harbour, the town's only lifeline -> fire hoses are too weak -> pump the ocean from boats, then from big pumps
+  on shore through pipes laid on top of the lava, which don't melt while water runs through them ⚠ -> the cooled lava front turns to
+  stone and piles into a wall (about 6 million tonnes of seawater over five months ⚠).
+- Twist: the lava wall they fought made the harbour narrower and more sheltered: a better harbour than before ⚠.
+- Shorts: best 42K ("They Laid Plastic Pipe on Moving Lava and It Didn't Melt").
 
-**3. How A Cave Can Become A Home In The Mountains**
-- Set: mountain cliff face, pine forest, snow line above.
-- Hook: You walk into a cave out of the rain and you have a roof.
-- Chain: cave is freezing -> fire at the back -> smoke fills the cave -> fire moved near the mouth, and a hole chipped up
-  for the smoke (FLUE) -> drips everywhere -> raised log floor and a hide awning -> wind howls in -> stone wall across
-  the entrance with a small door -> loose rock overhead -> tap the ceiling and pry down loose slabs (SCALING).
-- Twist: the deadliest thing in the cave isn't the bear. It's the smoke. Carbon monoxide has no smell. ⚠
-- Climax/payoff: blizzard and avalanche. The rock above protects you while snow buries the valley.
-- Cozy: fur bed, drying rack of fish, firewood stack.
+**4. If You Lived on the Sea When the 2004 Tsunami Came** (the Moken sea nomads, Surin Islands, Thailand). The user's tsunami idea,
+from an angle nobody has covered.
+- Set: an Andaman Sea bay with wooden houseboats, stilt houses over the shallows and a forested hill behind. One set.
+- Hook: "If you live your whole life on a boat, the sea is your house, your food and your road."
+- Chain: monsoon storms make the open sea deadly -> move into stilt houses over the bay for the rainy months ⚠ -> food -> dive for
+  shellfish; Moken children see unusually sharply underwater ⚠ -> on 26 Dec 2004 the sea pulls back far past the reef and fish flap on
+  the sand -> elsewhere people walk out to look -> the elders remember the legend of the wave that eats people ⚠ and send everyone up
+  the hill; families at sea steer into deep water, where a tsunami is only a swell ⚠ -> the wave flattens the village.
+- Payoff: almost the whole village is alive on the hill ⚠. The tsunami killed about 230,000 people around the Indian Ocean ⚠, so keep
+  it respectful: no bodies or victims on screen.
+- Shorts: a 2004 tsunami POV has 17M; the Moken angle is untouched. Plain tsunami builds are taken (see the list below).
 
-**4. How Logs Can Become A Cabin In Alaska**
-- Set: snowy spruce clearing, frozen lake.
-- Hook: You lean logs against a tree and you have a shelter.
-- Chain: wind blows through -> stack logs and notch the corners so they lock (SADDLE NOTCH) -> gaps whistle -> stuff them
-  with moss and mud (CHINKING) -> snow piles up and the flat roof sags -> steep roof so snow slides off -> open fire smokes
-  you out -> iron wood stove with a chimney -> bears smell your food -> a tiny food hut on tall stilts (CACHE).
-- Twist: the deadliest thing in Alaska isn't the bear, it's the cold. Wet clothes steal heat far faster than dry air. ⚠
-- Climax/payoff: −40° night. Everything freezes but your cabin glows.
-- Cozy: snowshoes on the wall, kettle on the stove, sled dog.
+**5. If Your Border Is Guarded, Build a Balloon** (East Germany, 16 Sep 1979, the Strelzyk and Wetzel families)
+- Set: a house and garden in a small East German town, the attic workshop, and the fenced border with watchtowers beyond the forest.
+  One or two sets.
+- Hook: "If your country fences its border with mines and guns, you can't walk out… so you fly."
+- Chain: fences, mines and guards -> fly over in a hot-air balloon -> you can't buy one -> sew it yourself -> buying that much fabric
+  looks suspicious -> buy a few meters at a time in different towns ⚠ -> hand sewing takes forever -> put a motor on the sewing
+  machine ⚠ -> the first cloth lets the hot air leak through -> test the fabric and switch ⚠ -> a burner fed from propane bottles ⚠ ->
+  the first balloon comes down just short of the border ⚠ -> the police find it, so build a bigger one fast ⚠.
+- Payoff: the second balloon carries all eight of them (four adults, four children) over the border in about 28 minutes ⚠; they land
+  in a field and ask a police car whether they are in the West ⚠.
+- Shorts: best 2.6K; a look-alike build ("How a Sewing Machine Becomes an Escape Balloon") has 1.4K.
 
-**5. How A Hole In The Sand Can Become An Underground Town**
-(based on Coober Pedy, Australia)
-- Set: red outback desert, opal mine spoil heaps.
-- Hook: You dig a hole to hide from the sun and you have a shade.
-- Chain: 50°C at noon ⚠ -> dig sideways into the hill (DUGOUT) -> stays about 24°C all year ⚠ -> air goes stale ->
-  vertical shaft to the surface (VENT SHAFT) -> darkness -> skylight shaft -> sand walls collapse -> carve into
-  sandstone that holds itself up -> neighbours dig next to you -> a whole town underground with a church and a hotel.
-- Twist: people here also dig for opal, so digging a new room can pay for itself. ⚠
-- Climax/payoff: dust storm and record heatwave on the surface. Underground you're cool.
-- Cozy: carved shelves, pool table, opal glinting in the wall.
+**6. How a Block of Ice Becomes an Aircraft Carrier** (Project Habakkuk, WWII)
+- Set: a frozen lake in the Canadian Rockies (Patricia Lake, Jasper ⚠) with a boathouse, then the ice ship at sea. One or two sets.
+- Hook: "If your country runs out of steel in the middle of a war, you build your warship out of ice."
+- Chain: submarines sink convoys in mid-ocean, where planes can't reach ⚠ -> you need a floating runway -> steel is short -> make it
+  from ice: it floats, and the sea has endless water -> ice cracks and shatters -> mix in sawdust; the mix is far tougher and melts
+  slower (PYKRETE) ⚠ -> summer melts it anyway -> run cold pipes through the walls and wrap them in insulation ⚠ -> test a small ship
+  on a lake.
+- Twist: at a meeting of war chiefs someone fired a pistol at a block of it and the bullet bounced off ⚠ (a famous story; check it).
+- Ending: the war moved on and the project was dropped; the test ship took three summers to melt, and its remains are still on the
+  bottom of the lake ⚠.
+- Shorts: best 45K.
 
-**6. How A Hole In The Ground Can Become A Well**
-- Set: dry village clearing, cracked earth.
-- Hook: You dig a hole until it's muddy and you have water.
-- Chain: water is brown -> dig past the water table into gravel -> walls cave in -> line with stone rings (CASING) ->
-  rain washes dirt and animal waste in -> raised wall and sloped concrete ring (APRON) -> latrine nearby leaks in ->
-  keep it far away, uphill or not at all ⚠ distance -> buckets are heavy -> crank and rope (WINDLASS) -> lid.
-- Twist: the deadliest animal here isn't the lion, it's the germ in dirty water. ⚠ WHO stat on unsafe water deaths.
-- Climax/payoff: drought. Shallow holes dry up but yours goes below the water table.
-- Cozy: bucket, clay jars, shade tree.
+**7. How a Swamp Island Becomes the Biggest City in the Americas** (Tenochtitlan, founded 1325 ⚠)
+- Set: a muddy island in a wide lake ringed by volcanoes (Lake Texcoco); the city grows on it. One set.
+- Hook: "If your enemies chase you into a swamp, you build a city on it."
+- Chain: no farmland -> stake reed mats in the lake and pile mud and plants on them (CHINAMPAS, floating gardens) ⚠ -> no way to the
+  shore -> raised stone roads across the water (CAUSEWAYS) -> salty water from the east kills the crops -> a ~16 km dike across the
+  lake (the dike of Nezahualcoyotl) ⚠ -> the lake water is dirty -> a stone aqueduct from the springs of Chapultepec ⚠ -> floods ->
+  canals and gates.
+- Twist: the eagle on a cactus that told them where to build is on Mexico's flag today (the founding legend) ⚠.
+- Payoff and "that's why": maybe 200,000 people, bigger than any city in Spain at the time ⚠; after the conquest the lake was drained,
+  and Mexico City still sinks up to ~50 cm a year in places ⚠.
+- Shorts: history clips (best 452K), no build.
 
-### Famous / high-stakes structures
+**8. How a Hole in an Arctic Mountain Becomes the Doomsday Vault** (Svalbard Global Seed Vault, Norway)
+- Set: a snowy mountainside near Longyearbyen with the vault's concrete entrance, and a cutaway into the frozen rock. One set.
+- Hook: "If every farm on Earth were wiped out, where would you keep the seeds?"
+- Chain: seeds die in warm, damp air -> keep them in a freezer -> the power goes out -> dig into a mountain where the ground never
+  thaws, so it stays cold without power (PERMAFROST) ⚠ -> seas could rise -> build it high on the slope ⚠ -> damp -> seal the seeds in
+  foil packets in boxes, cooled to −18 °C ⚠ -> wars and thieves -> a remote island, thick doors, and every country keeps owning its
+  own seeds ⚠.
+- Twist: in 2016–17 meltwater got into the entrance tunnel; the ground that was supposed to stay frozen didn't ⚠.
+- Payoff: the war in Syria cut off a seed bank near Aleppo, and in 2015 the vault made its first withdrawal to regrow those seeds ⚠.
+- Shorts: tour clips up to 130K, no build.
 
-**7. How A Pile Of Rocks Can Become A Castle**
-- Set: grassy hill above a river.
-- Hook: You pile rocks in a ring and you have a wall.
-- Chain: enemies climb it -> taller wall with a walkway (CURTAIN WALL) -> they ram the gate -> drop-down iron grid
-  (PORTCULLIS) -> they shoot your archers -> narrow slots (ARROW SLITS) -> they tunnel under the wall -> water ditch
-  (MOAT) -> square towers crack at the corners -> round towers -> attackers in the gatehouse -> holes in the ceiling
-  (MURDER HOLES).
-- Twist: the deadliest weapon in a siege isn't the catapult. It's hunger and disease, so you add a well and a granary. ⚠
-- Climax/payoff: army surrounds you for months. Walls hold, water flows.
-- Cozy: banners, a cat in the granary, torch sconces.
+**9. How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan)
+- Set: a narrow red sandstone gorge (the Siq) that opens onto a cliff; the city is carved as the video goes. One set.
+- Hook: "If you want a city nobody can find, you carve it into a canyon."
+- Chain: months without rain -> carve channels along the gorge walls and lay clay pipes from the springs ⚠ -> store the water in carved
+  cisterns ⚠ -> you need houses -> carve them into the cliff -> no scaffolding reaches up a cliff face -> carve from the top down ⚠ ->
+  traders bring incense and spices through the gorge ⚠.
+- Twist: Europe lost track of it for about 600 years, until a Swiss explorer slipped in disguised as a pilgrim in 1812 ⚠.
+- Ending: not a flash flood (video 01 already used one). "That's why": the Treasury from Indiana Jones and the Last Crusade.
+- Shorts: best 6.8K.
 
-**8. How A Bucket Of Stone Can Become A Lighthouse**
-- Set: lone rock reef in a stormy sea.
-- Hook: You light a fire on a rock and ships can see you.
-- Chain: waves wash the fire away -> stone tower -> waves knock the stones loose -> interlocking dovetailed granite
-  (DOVETAIL) -> straight tower still topples -> wide curved base like a tree trunk ⚠ Smeaton's Eddystone -> fire is too
-  dim -> glass rings that bend the light into a beam (FRESNEL LENS) -> ships can't tell lighthouses apart -> each one
-  flashes its own pattern -> fog hides the light -> fog horn.
-- Twist: one lens can throw light 20+ miles. ⚠
-- Climax/payoff: giant storm wave hits the top. The tower stands, and the ship misses the reef.
-- Cozy: keeper's lamp, stairs, logbook, seagull.
+**10. How a 7,600-Ton School Learned to Walk** (Lagena Primary School, Shanghai, 2020 ⚠)
+- Set: a city block with the 1935 school ⚠ and the building site that needs its spot. One set.
+- Hook: "If a new road needs the spot where your school stands, you don't knock it down… you make it walk."
+- Chain: too heavy for any crane -> cut it off its foundations -> slide steel beams under it ⚠ -> rollers can't make it turn -> put it
+  on 198 robotic legs in two groups that lift and step in turns ⚠ -> turn it as it goes ⚠ -> walk it 62 m in 18 days ⚠ to a new
+  foundation.
+- Payoff: the whole building walks to its new spot in one piece ⚠. The calmest of the ten (no danger), so it needs the strongest
+  visuals.
+- Shorts: real-footage clips up to 124K, no build.
 
-**9. How A Wooden Box Can Become A Bank Vault**
-- Set: small-town bank interior, night.
-- Hook: You lock your money in a wooden box and you have a safe.
-- Chain: robber smashes it -> steel walls -> they drill the lock -> hardened plate in front of the lock -> they cut
-  through steel -> concrete with steel mesh inside (REBAR) -> they come at night -> lock that won't open until morning
-  even with the code (TIME LOCK) -> they force the lock -> a hidden backup bolt fires (RELOCKER) -> they dig in from
-  next door -> sensors in the walls.
-- Twist: most bank robberies never touch the vault. ⚠
-- Climax/payoff: heist crew with thermal lance at night. Alarm, vault holds.
-- Cozy: safe-deposit boxes, round door, gold bars.
-
-**10. How A Ditch Can Become The Panama Canal**
-- Set: jungle isthmus diorama with ocean on both sides.
-- Hook: You dig a ditch from one ocean to the other and you have a shortcut.
-- Chain: mountains in the way -> dig through (CULEBRA CUT) -> landslides refill it -> wider, gentler slopes -> too much
-  rock to dig to sea level -> dam a river into a giant lake high above the sea (GATUN LAKE) -> ships can't climb ->
-  water elevators (LOCKS) -> lifting 85 feet ⚠.
-- Twist: the deadliest thing on the canal wasn't the landslides. It was the mosquito. ⚠ ~22,000 deaths during the French
-  attempt; tie back to mosquitoes from the nipa hut hit.
-- Climax/payoff: the first giant ship crosses continents in a day.
-- Cozy: tugboat, mule locomotives, flags.
-
-**11. How A Stack Of Bricks Can Become A Pyramid**
-- Set: desert plateau with the Nile in the distance.
-- Hook: You stack blocks in a square and you have a pyramid.
-- Chain: blocks too heavy to lift -> drag them on wooden sleds -> sleds dig into the sand -> pour water in front so the sand
-  firms up ⚠ the 2014 wet-sand study -> pile is getting too high -> a ramp up the side (RAMP) -> rough steps look ugly ->
-  polished white casing stones -> king's room crushed by the weight above -> stacked empty rooms above it
-  (RELIEVING CHAMBERS) -> robbers -> granite plug blocks.
-- Twist: the workers weren't slaves. They were paid crews with their own village and bakeries. ⚠
-- Climax/payoff: thousands of years later, it's still standing.
-- Cozy: sphinx, boats on the Nile, sunset glint off the casing.
-
-**12. How A Pile Of Dirt Can Become The Hoover Dam**
-- Set: deep red-rock canyon with a river.
-- Hook: You pile dirt across a river and you have a dam.
-- Chain: river washes it away -> blast tunnels to send the river around (DIVERSION TUNNELS) -> dirt is too weak -> concrete
-  -> concrete gets hot as it hardens and would take 100+ years to cool ⚠ -> pipes of cold water through it (COOLING PIPES)
-  -> pour it in blocks -> curved like a bow so the water presses it into the canyon walls (ARCH-GRAVITY) -> lake overflows
-  -> side channels (SPILLWAYS) -> falling water spins turbines.
-- Twist: a fact about the workers or the sheer amount of concrete. ⚠ pick one verified stat.
-- Climax/payoff: record flood. The lake rises and the spillways roar, but the dam holds.
-- Cozy: lit power station, observation deck, tiny cars on top.
-
-**13. How A Hole In A Mountain Can Become A Tunnel Through The Alps**
-- Set: snowy alpine valley cut away to show the mountain's insides.
-- Hook: You dig into a mountain and you have a cave.
-- Chain: it's too slow by hand -> giant spinning drill (TUNNEL BORING MACHINE) -> ceiling crumbles -> spray concrete
-  (SHOTCRETE) and steel bolts into the rock (ROCK BOLTS) -> water floods in -> waterproof liner and drains -> deep inside
-  the rock is hot ⚠ ~45°C at Gotthard -> chillers -> a train fire would trap everyone -> two tubes joined by escape
-  passages (CROSS PASSAGES).
-- Twist: the tunnel is longer than the mountain is tall. ⚠ use the Gotthard Base Tunnel at 57 km.
-- Climax/payoff: blizzard closes every mountain pass. Your train runs under it all.
-- Cozy: train headlights, glowing exit signs, cows at the portal.
-
-### Extreme environments
-
-**14. How A Tent Can Become A Research Station In Antarctica**
-- Set: flat white ice shelf, endless horizon.
-- Hook: You pitch a tent on the ice and you have a base.
-- Chain: wind shreds it -> rounded pods that wind slides around -> heat melts the ice under you and you sink -> legs lift it
-  off the ice -> snow buries it every year -> legs that jack themselves up (HYDRAULIC LEGS) -> the ice shelf cracks ->
-  skis on the legs so you can tow the whole base inland ⚠ Halley VI -> six months of darkness -> one bright social pod.
-- Twist: the deadliest thing here isn't the cold, it's fire. The air is dry and all the water is frozen. ⚠
-- Climax/payoff: polar winter storm. The base sits above the snow, warm and lit.
-- Cozy: penguins outside, greenhouse pod, flag.
-
-**15. How A Tin Can Can Become A Space Station**
-- Set: Earth curve below, black space, sun glare.
-- Hook: You seal yourself in a can and launch it, and you have a spaceship.
-- Chain: air leaks out -> airtight walls -> space dust at bullet speed -> thin outer bumper that shatters it first
-  (WHIPPLE SHIELD) -> sun side bakes and shadow side freezes -> folding panels that dump heat (RADIATORS) -> no
-  power -> wings of solar panels -> water runs out -> machines that recycle your sweat and urine into drinking water ⚠ ->
-  bones weaken -> treadmill with bungee straps.
-- Twist: the deadliest thing up here isn't the vacuum. It's fire. ⚠
-- Climax/payoff: solar storm. You shelter in the most shielded module while the station glows past the aurora.
-- Cozy: cupola window, floating snacks, a plant growing in a pouch.
-
-### Suggested first three to produce
-1. **#4 Alaska cabin** or **#1 Desert adobe**: same survival-build energy as the 7.2M hit, simple single-set animation.
-2. **#10 Panama Canal**: famous and high-stakes, and reuses the proven mosquito twist.
-3. **#7 Castle**: famous structure with a very visual escalation chain.
+### Checked and left out (crowded on Shorts, 11 Nov 2026)
+Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
+survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
+(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
+(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
+Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
+a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
+Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
 
 ---
 
@@ -324,7 +283,9 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 ### 3.3 Step-by-step
 
 **Step 1: Topic and script (free).**
-- Pick the idea from section 2. Write the script with the formula and writing rules in section 1. Target length: 60–70 s, ~230–260 words.
+- Pick the idea from section 2. Write the script with the formula and writing rules in section 1 and the script rules in the section 5
+  prompt. Target ~75 s, ~260–280 words; never under 60 s.
+- Run the saturation check on the title (`pipeline/youtube/yt_saturation.py`, 6.7) and report near-identical Shorts and the best views.
 - Fact-check every ⚠ claim with web search before locking. Remove anything unverifiable.
 - Show the script. **GATE A: user approves the script.**
 
@@ -386,9 +347,10 @@ Both include ~18 stills (~23 cr), narration (~0–7 cr) and a **15% retry reserv
 - Only if asked: `virality_predictor` (ask about cost first), then `tiktok_prepare_publish` with `mode:"UPLOAD_TO_DRAFT"` (the user always reviews and submits).
 
 **Step 12: Post copy (free).**
-- Title in the account formula: `How [humble thing] Can Become [X] (in the [setting])` + `#engineering #HowItWorks #Science #LearnOnTikTok` + 1–2 topic tags. The `social-media-skills:caption-writer` and `hook-writer` skills can help with alternates.
-- **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a plain `How a ___ Becomes ___` title with no hashtags or
-  call to action, a written description, audience set to "not made for kids").
+- TikTok: the idea's title or a hook question with one emoji, then `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and 1–2 topic
+  tags (video 04's pattern, 3.4f). The `social-media-skills:caption-writer` and `hook-writer` skills can help with alternates.
+- **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a title in the idea's form, `How a ___ Becomes ___` or
+  `If You…`, with no hashtags or call to action; a written description; audience set to "not made for kids").
 
 ### 3.4 Locked choices (fill in after the first video and keep them for every video)
 - Narration voice (LOCKED): ElevenLabs connector, model `eleven_v4`, voice "Daniel's Voice - Warm, Low, Confident" voice_id `rFhx8PVgXxOyaeAGq9fq`. Raw take runs ~3.2 words/s; tighten pauses to 0.15 s (timing.py) to reach ~3.5 words/s.
@@ -674,194 +636,7 @@ END          three-beat imperative that loops into the hook: "Bury the pipes, pa
 Storm drain, water well and water tower, road tunnel under a river, landfill into a park, bridge foundation in a river (cofferdam), sewer
 and wastewater treatment, power grid, gas station, roof.
 
-### 4.7 Fifteen ideas in this style (H1–H15)
-To make one: "Make idea H<N> from section 4 using the section 3 runbook." Decide at Gate A whether to keep our locked mascot and centred
-captions, or go mascot-free with lower-third ALL CAPS captions like this account. Facts marked ⚠ must be verified before scripting.
-Effort: **single set** = one cutaway set and one hero angle (cheapest with the stage ladder); **journey** = several locations, more stills.
-
-**H1. Why Don't Fire Hydrants Freeze? 🚒❄️** (single set · water · winter) — ✅ USED: video 03 (8 Nov 2026). As made: script in `pipeline/03-script.txt`, Hidden By Design look, loop ending.
-- Set: snowy suburban street corner; the sidewalk sliced open down to the water main below the frost line. Hero prop: a hydrant with a blue cap.
-- Hook: If you stick a pipe up from the water main, firefighters have water on every street.
-- Chain: the water inside freezes and splits the pipe -> keep the valve down at the main, below the frost line, and the pipe above it empty
-  (DRY BARREL) -> leftover water still freezes -> a small hole at the bottom drains it when the valve closes (DRAIN VALVE) -> slamming it
-  shut sends a shock wave that bursts pipes -> a long stem that opens and closes slowly (WATER HAMMER) -> cars knock hydrants over -> a weak
-  ring at ground level snaps while the valve stays shut underground (BREAKAWAY FLANGE) -> firefighters need to know which hydrant gives the
-  most water -> paint the cap blue, green, orange or red (FLOW COLOR CODE ⚠ NFPA 291) -> snow buries it -> a tall marker flag.
-- That's why: in movies a car hits a hydrant and water shoots up; in cold cities the water stays deep underground. And the cap colors are on every street.
-- Climax/end: a house fire on the coldest night of the year; the valve opens deep underground and water roars up the dry pipe.
-  "Clear the snow, paint the cap, and wait for the fire."
-
-**H2. Why Don't All the Sprinklers Go Off at Once? 🔥💧** (single set · water and fire · myth-buster)
-- Set: dollhouse cutaway of an office floor: the ceiling space with red pipes, and the outside wall facing the street.
-- Hook: If you run a water pipe across the ceiling, you can fight a fire from above.
-- Chain: open holes spray the whole building -> plug each hole with a little glass bulb of liquid that bursts at about 68 °C, so only the
-  head above the fire opens (SPRINKLER HEAD) ⚠ -> city pressure is too weak on the top floors -> a pump that starts when the pressure drops
-  (FIRE PUMP) -> old water in the pipes could flow back into the drinking water -> a one-way valve (BACKFLOW PREVENTER) -> pipes freeze in the
-  unheated garage -> fill them with air and hold the water back until a head opens (DRY PIPE) -> the pump fails -> firefighters plug their
-  hoses into a Y-shaped pipe on the outside wall (FIRE DEPARTMENT CONNECTION) -> nobody knows water is flowing -> a flow switch rings the
-  alarm bell outside.
-- Twist: in movies one sprinkler soaks the whole building. In real life each head is its own trigger, and most fires are stopped by one or
-  two heads ⚠ NFPA stat.
-- That's why: the two-headed pipe on the wall of every big building.
-- Climax/end: a bin catches fire at night; one bulb pops; the rest of the office stays dry.
-
-**H3. Why Don't Elevators Fall? 🛗** (single set · fear)
-- Set: glass-walled cutaway of a 10-floor shaft with the machine room on top and the pit below; a cup of coffee on the car floor.
-- Hook: If you hang a box from a rope and pull it up, you have an elevator.
-- Chain: lifting it takes a huge motor -> hang a heavy weight on the other end of the rope (COUNTERWEIGHT) -> a rope snaps -> several steel
-  ropes, each strong enough to hold the car alone ⚠ -> every rope snaps -> spring-loaded wedges grab the rails (SAFETY BRAKE) -> what
-  triggers them? a spinning wheel that trips when the car goes too fast (GOVERNOR) -> the car overshoots the bottom floor -> springs or oil
-  pistons in the pit (BUFFER) -> a door opens onto an empty shaft -> landing doors stay locked unless the car is there (INTERLOCK) -> a fire
-  -> every car returns to the ground floor and parks ("In case of fire, use the stairs").
-- Twist: in 1945 a bomber hit the Empire State Building, the cables snapped, and an elevator operator survived a 75-floor fall ⚠ (Betty Lou
-  Oliver). Or Otis cutting his own rope in front of a crowd in 1854 ⚠.
-- Climax/end: every cable cut; the car drops a few feet; the wedges bite; the coffee doesn't spill. "Press the button, ride the box, and trust the brakes."
-
-**H4. How Does a Traffic Light Know You're Waiting? 🚦** (single set · everyday mystery)
-- Set: four-way suburban intersection from above; the asphalt sliced open to show the wire loops, conduits and the controller cabinet.
-- Hook: If you hang a light over a crossroads, cars take turns.
-- Chain: a plain timer makes you sit at red with nobody coming -> a loop of wire in the road senses the metal of your car (INDUCTION LOOP) ->
-  bikes barely trigger it -> a bike symbol painted on the sweet spot ⚠ -> lights along the road fight each other -> time them to turn green
-  one after another (GREEN WAVE) -> pedestrians need a turn -> a push button -> ambulances get stuck at red -> a signal from the ambulance
-  turns its lights green (PREEMPTION) ⚠ -> a fault could show green both ways -> a separate box watches for that and flips the intersection
-  to flashing red (CONFLICT MONITOR) -> a blackout -> battery backup ⚠.
-- Twist: in some cities many crosswalk buttons don't change anything at busy times ⚠ (New York, 2004 report).
-- That's why: the rectangles cut into the asphalt at every stop line.
-- End: "Cut the loops, time the greens, and let it change."
-
-**H5. Why Do Potholes Keep Coming Back? 🕳️🚗** (single set · water villain · winter)
-- Set: a slice through a small-town street that runs through the seasons: summer, rain, freeze, thaw.
-- Hook: If you drive on packed dirt, you have a road.
-- Chain: rain turns it to mud -> layers of crushed rock packed hard (BASE COURSE) -> stones kick loose -> glue them together with hot tar
-  (ASPHALT) -> rain sits on top and soaks in -> make the middle higher so water runs off to drains at the sides (CROWN) -> water still seeps
-  into cracks, freezes, grows about 9% and lifts the asphalt; the thaw leaves a hollow and a tyre smashes through (FREEZE-THAW) -> seal
-  cracks early with hot rubbery tar (CRACK SEAL) -> a winter cold patch pops straight back out -> cut a clean square, glue it and pack in
-  hot asphalt (SAW-CUT PATCH).
-- Twist: the real enemy isn't the traffic. It's water. ⚠ add one pothole-damage cost stat.
-- That's why: the black squiggly lines on every road.
-- End: "Seal the cracks, drain the water, and drive."
-
-**H6. Why Is There a U-Shaped Pipe Under Every Sink? 🚰** (single set · house)
-- Set: dollhouse cutaway of a two-storey house showing the pipes in the walls and floors, the sewer pipe below and a vent pipe through the
-  roof. Hero prop: a wedding ring.
-- Hook: If you connect your sink straight to the sewer, the water drains away.
-- Chain: sewer gas drifts back up into the bathroom -> bend the pipe so a plug of water always sits in it (P-TRAP) -> (the dropped ring stops
-  in the bend) -> a big flush sucks the trap dry and the smell comes back -> a pipe that lets air into the drains through the roof (VENT
-  STACK) -> flat drains clog -> slope them about a quarter inch per foot ⚠ -> they clog anyway -> screw caps where a plumber can get in
-  (CLEANOUT) -> a storm makes the sewer flow backwards into the basement -> a flap that only opens outward (BACKWATER VALVE) -> the guest
-  bathroom nobody uses starts to stink because its trap dried out -> run the tap.
-- Twist: the only thing between your bathroom and the sewer is a few inches of water.
-- That's why: the pipe sticking out of your roof.
-- End: "Fill the trap, vent the roof, and flush."
-
-**H7. Why Does Gas Smell Like Rotten Eggs? 🔥👃** (journey · fear · true story)
-- Set: cutaway from the gas main under the street to the meter on the wall and the stove; a pot boiling.
-- Hook: If you run a pipe from a gas field to your kitchen, you can cook with fire.
-- Chain: the gas arrives at crushing pressure -> lower it at a station and again at your meter (REGULATOR) -> diggers hit the pipe -> yellow
-  plastic pipe with a tracer wire and marker posts ("call before you dig") -> natural gas has no smell, so a leak fills a room silently ->
-  add a chemical that smells like rotten eggs (MERCAPTAN) -> a broken pipe keeps pouring gas -> a valve that slams shut when gas rushes
-  through too fast (EXCESS FLOW VALVE) -> the oven flame blows out -> a sensor shuts the gas when there's no flame (FLAME SAFETY).
-- Twist: the smell wasn't always there. In 1937 a school in New London, Texas exploded and about 300 people died ⚠; laws requiring the smell
-  followed. Handle it respectfully.
-- End: "Light the burner, boil the water, and trust your nose."
-
-**H8. Why Are Train Tracks Covered in Rocks? 🚂** (single set · classic curiosity)
-- Set: countryside embankment slice; a freight train crossing.
-- Hook: If you lay steel rails on the ground, a train can roll on them.
-- Chain: the rails sink under the weight -> beams across the track to spread the load (SLEEPERS) -> rain turns the ground to mud -> a deep
-  bed of sharp crushed stone that drains and locks the sleepers in place (BALLAST) -> why sharp? round pebbles roll like marbles -> the
-  joints go clickety-clack and shake loose -> weld the rails into one long piece (CONTINUOUS WELDED RAIL) -> summer heat makes the steel grow
-  and the track bends sideways (SUN KINK) -> lay the rail stretched at the right temperature and pile stone shoulders beside the sleepers ⚠
-  -> snow jams the switches -> heaters at every switch.
-- That's why: the fires you sometimes see beside winter tracks are switch heaters ⚠ (Chicago).
-- End: "Tamp the stones, weld the rails, and let it roll."
-
-**H9. Where Does Your Suitcase Go After Check-In? 🧳✈️** (journey · follow the object)
-- Set: airport cutaway: the check-in hall on top, the hidden baggage hall below, planes outside. Hero prop: a yellow suitcase (our tennis ball).
-- Hook: If you drop your bag on the belt, it disappears behind the wall.
-- Chain: thousands of bags -> belts that carry them under the terminal (CONVEYOR) -> which flight is it on? -> a barcode tag read by scanners
-  along the way (BAG TAG) -> a bag could hide a bomb -> every bag goes through a CT scanner and suspicious ones go to a person (EXPLOSIVES
-  SCREENING) ⚠ -> getting it to the right gate -> trays that tip each bag down its flight's chute (TILT-TRAY SORTER) -> you checked in four
-  hours early -> a giant rack parks your bag until the flight opens (EARLY BAG STORE) -> into a container, onto a cart, up a belt into the hold.
-- Twist: Denver's fully automatic system in the 1990s chewed up suitcases, delayed the airport's opening and was eventually scrapped ⚠.
-- End: "Tag the bag, trust the belts, and meet it at the carousel."
-
-**H10. Where Does It Go When You Flush on a Plane? ✈️🚽** (single set plus the gate · gross-funny)
-- Set: side cutaway of an airliner above the clouds: the toilet, a pipe along the belly, a tank in the tail; later a service truck at the gate.
-- Hook: If you put a normal toilet on a plane, it works... until the turbulence.
-- Chain: the bowl sloshes, and carrying all that water is heavy -> suck the waste away instead (VACUUM TOILET) -> what makes the suction? up
-  high the thin air outside pulls; on the ground a pump does it ⚠ -> it needs somewhere to go -> a tank in the tail (WASTE TANK) -> smell and
-  germs -> blue disinfectant ⚠ -> the tank fills -> a truck drains it at the gate (LAV SERVICE TRUCK) -> a leaky valve drips outside the plane.
-- Twist: leaks freeze into "blue ice" that has crashed through roofs ⚠.
-- That's why: the flush is so loud.
-- End: "Press flush, hear the whoosh, and let the truck do the rest."
-
-**H11. How Does the Internet Cross the Ocean? 🌐🌊** (journey · global and hidden)
-- Set: one long ocean cross-section from a beach landing station, across the shelf and the deep sea floor, to the other continent. Hero: a
-  pulse of light (your video).
-- Hook: If you lay a cable across the sea floor, two continents can talk.
-- Chain: signals in copper fade -> send light through glass strands (FIBER OPTIC) -> light fades too -> boosters every 50–100 km, powered
-  through the cable from shore (REPEATERS) ⚠ -> trawlers and anchors snag it near shore -> steel armour and a sea plough that buries it
-  (CABLE PLOW) -> in the deep it's about as thick as a garden hose ⚠ -> sharks bite it ⚠ -> extra wrapping -> an earthquake snaps it -> a
-  repair ship hooks it up and splices it (CABLE SHIP) -> one cable isn't enough -> many routes, so traffic reroutes.
-- Twist: almost all data between continents goes through these cables, not satellites ⚠ (~99%).
-- End: "Bury it, light it, and hit play."
-
-**H12. How Does an Ice Rink Stay Frozen? ⛸️** (single set · paradox · winter)
-- Set: arena floor slice: ice, a concrete slab with pipes, insulation, heating pipes, soil. Hero: a puck and the resurfacing machine.
-- Hook: If you flood a floor with water on a freezing night, you have an ice rink.
-- Chain: it only works in winter -> pipes in a concrete floor carrying freezing salt water (BRINE) -> pour it all at once and it freezes
-  rough -> spray thin layers ⚠ -> you can see the grey concrete -> paint the ice white, paint the lines, and seal them under more ice -> skates
-  carve grooves -> a machine shaves the top and lays down hot water that fills the cuts (RESURFACER) -> the cold seeps into the ground, the
-  soil freezes and swells, and the floor cracks (FROST HEAVE) -> insulation, and heating pipes under the cold pipes.
-- Twist: to keep the ice frozen, you heat the ground under it.
-- End: "Freeze it, paint it, flood it, and drop the puck."
-
-**H13. How Does a Crane Get on Top of a Skyscraper? 🏗️** (single set · paradox)
-- Set: a city block with a tower rising from the hole to 60 floors; the crane's mast and climbing frame in cutaway. Hero: the operator's cab.
-- Hook: If you want to lift steel 60 floors up, you need a crane taller than the building.
-- Chain: a truck crane can't reach -> a tower crane made of stacked lattice sections (MAST) -> heavy loads tip it -> concrete blocks on the
-  back arm (COUNTERWEIGHT) -> the building outgrows it -> the crane lifts its own next section and a hydraulic collar jacks the top up so it
-  slides in (CLIMBING FRAME) -> too tall to stand alone -> steel arms tie it to the building (TIE-INS) -> storm winds hit the long arm ->
-  release the brake at night so it turns freely like a weathervane -> the operator can't see the load 60 floors down -> a signaller on the
-  radio -> the building is finished, so how does the crane come down?
-- Twist: it climbs back down; then a smaller crane on the roof takes it apart, then an even smaller one, and the last pieces ride down in
-  the elevator ⚠.
-- That's why: cranes spin around on their own at night.
-- End: "Top out the tower, take down the crane, and switch on the lights."
-
-**H14. How Does Water Get to the 100th Floor? 🏙️💧** (single set · sequel to their 926K water tower)
-- Set: super-tall tower cutaway: the street main, basement pumps, tanks and pumps on mechanical floors, a shower on floor 100.
-- Hook: If you connect a skyscraper to the city water pipe, every tap has water... up to about the sixth floor ⚠.
-- Chain: city pressure runs out -> basement pumps (BOOSTER PUMP) -> pump straight to the top and the bottom floors get crushing pressure, so
-  taps blast and pipes burst -> split the tower into stacked zones with their own pumps (PRESSURE ZONES) -> pumps can't run every second -> a
-  tank at the top of each zone feeds the floors below by gravity, like a water tower -> too much pressure at the bottom of each zone ->
-  valves that lower it (PRESSURE REDUCING VALVE) -> pumps and tanks need room -> whole floors with no offices (MECHANICAL FLOOR) -> a power
-  cut -> the tanks keep the water running while generators restart the pumps.
-- That's why: the floors with louvres instead of windows on every skyscraper.
-- End: "Fill the tanks, split the zones, and shower a hundred floors up."
-
-**H15. How Do You Turn Seawater Into Drinking Water? 🌊🚰** (journey · transformation, like their landfill video) — ✅ USED: video 04 (10 Nov 2026).
-As made: script in `pipeline/04-script.txt`, Hidden By Design look, loop ending; the fixes were distillation, reverse osmosis, velocity cap, sand
-filters, pressure exchanger, limestone and diffusers, with Perth (about half its water from desalination) as the real place.
-- Set: coastal plant cutaway: intake pipe under the seabed, filters, pump hall, membrane tubes, brine outfall, a city on the hill. Hero: a
-  fish near the intake.
-- Hook: If you pump the ocean into a tank, you have a tank of... salt water.
-- Chain: boil it and catch the steam (DISTILLATION), but it burns huge amounts of energy -> push it through a membrane so fine that salt
-  can't pass (REVERSE OSMOSIS), at about 60 times normal air pressure ⚠ -> the intake sucks in fish -> slow intakes far offshore with a cap
-  on top ⚠ -> sand and algae clog the membranes -> filter first (PRETREATMENT) -> the pumps eat power -> the leftover salty water is still
-  under pressure, so use it to push the new water in (PRESSURE EXCHANGER) ⚠ -> the water is too pure, so it eats pipes and tastes flat ->
-  add minerals back -> the leftover brine sinks and smothers the sea floor -> spray it out through many nozzles so it mixes fast (DIFFUSERS).
-- Twist: for every glass you drink, about one and a half glasses of brine go back into the sea ⚠.
-- End: "Pump it, press it, and drink the sea."
-
-### 4.8 Suggested first three
-1. **H1 Fire hydrant:** the closest twin of the 9.2M storm drain (same street cutaway, water, a "that's why" viewers can check on their next
-   walk), and it's timely for winter.
-2. **H3 Elevator:** everyone rides one, the fear is built in, it's one tall set, and it has a true-story twist.
-3. **H5 Potholes:** everyone hates them, water is the villain, and freeze-thaw season is starting.
-
-### 4.9 Production notes for this look (the section 3 runbook still applies)
+### 4.7 Production notes for this look (retired 11 Nov 2026; kept for reference)
 - The stage ladder fits this look: one cutaway set, one hero angle, one fix added per stage. Add a cutaway line to the STYLE FORMULA, e.g.
   "photoreal 3D cutaway cross-section, the ground sliced open to show soil layers and the pipes inside, bright sunny daylight, clean
   materials, translucent cyan water".
@@ -872,39 +647,49 @@ filters, pressure exchanger, limestone and diffusers, with Perth (about half its
 ---
 
 ## 5. Kickoff prompt (paste this to make a video)
-Fill in the four lines in angle brackets and paste the whole block into a new session.
+Fill in the two lines in angle brackets and paste the whole block into a new session.
 ```
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <#N from section 2 | H<N> from section 4 | new topic: "...">
-TIER:   <Lite | Full>
-LOOK:   Classic (locked 11 Nov 2026, see 3.4): our locked mascot in a sunny 3D diorama,
-          centred Title Case captions, ALL CAPS term labels. Hidden By Design is retired.
-ENDING: <loop | congratulations>
-          loop (recommended): a three-beat imperative line that flows back into the hook (4.3).
+IDEA:   <#N from section 2>
+TIER:   <Lite | Full>   (Lite unless I say otherwise)
+
+Fixed choices (3.4):
+- Look: Classic. Our locked mascot is "you", in a small sunny 3D diorama, and he is in
+  the first and last shot. Base STYLE string from pipeline/02-prompts.py plus one
+  palette line for the setting.
+- Captions: one word at a time, centred, Title Case; real terms as ALL CAPS labels.
+- Narrator: Daniel (3.4). Video model: kling4_0 (3.0).
 
 Script rules, on top of section 1:
 - Open with "If you..." and land the first "But" by ~3 s.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
 - 7-8 But/So beats that escalate. Name the real term after the key fixes.
-- One small human joke, one "that's why" viewers can check on their next walk, and water
-  as the payload or the enemy where it fits.
-- Fact-check every ⚠ claim before Gate A and cut anything unverifiable. Never reuse either
+- Build in the idea's twist and one "that's why" viewers can check in real life.
+- End on our own line: a three-beat imperative that loops back into the hook (4.3).
+  Never "Congratulations, you have built..." (How Building Explained's signature line).
+- Fact-check every ⚠ claim before Gate A and cut anything unverifiable. Never reuse any
   reference account's wording.
-- For a new topic, first check it against the avoid lists (section 1 ground rules and 4.6)
-  and the tests in 4.2.
+- Before Gate A, run pipeline/youtube/yt_saturation.py on the title and tell me how many
+  near-identical Shorts exist and the best view count.
+
+Credits: check the balance first. If it's below the quote, offer a smaller plan (fewer
+animated shots) instead of starting.
 
 Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills)
 and Gate D (pilot clips). Spend no credits before I approve Gate B.
 
 When the video is done, give me:
 - the final MP4 link
-- 3 cover options (3.4d), one of them a plain mid-video cutaway frame with no text
-- the post copy: a "How X Can Become Y" title for a section 2 idea, or a question title
-  with one emoji for an H idea or new topic, plus the hashtags from section 1 or 4.1
-Then log the video in 3.4b, mark the idea ✅ USED, add any new lessons, and update both
-copies of the memory.
+- 3 cover options (3.4d), one of them a plain mid-video frame with no text
+- TikTok post copy: the title or a hook question with one emoji, then #HowItWorks
+  #Engineering #LearnOnTikTok #3DAnimation and 1-2 topic tags
+- YouTube post copy per 6.4: a title under ~60 characters in the idea's form ("How a ___
+  Becomes ___" or "If You..."), no hashtags in it; a 2-3 sentence description with one
+  question and at most 3 hashtags; audience "not made for kids"
+Then log the video in 3.4b, mark the idea ✅ USED in section 2, add any new lessons, and
+update both copies of the memory.
 ```
 
 ---
@@ -979,7 +764,7 @@ What it shows:
 - **What the multi-million titles promise:** something you'd want in *your yard* (pool, basement, bunker, running water), survival (cave,
   raft, log cabin), or a true escape, heist or war story (Cu Chi, Alcatraz, the bank heist). Landmarks do less (Colosseum 1.1M,
   Hoover Dam 171K, pyramid 82K, castle 56K).
-- **Our idea lists are everyone's idea lists.** Searched 9 Nov: castle 14 near-identical Shorts (best 56K), Panama Canal 10+ (43K),
+- **Our old idea lists were everyone's idea lists** (both removed 11 Nov 2026). Searched 9 Nov: castle 14 near-identical Shorts (best 56K), Panama Canal 10+ (43K),
   well 14 (1.7M), cave home 14 (23.5M), lighthouse 9 (127K), Hoover Dam 8+ (171K), bank vault 8 (29K), pyramid 9 (82K), Antarctic
   base 1 (26K in two days). "How a Ditch Becomes the Panama Canal" and "How a Wooden Box Becomes a Bank Vault" exist word for word.
   From section 4: crane (Jeff, 74K), elevator, traffic light, P-trap, sprinkler and water tower are all done. A search for an Alaska
@@ -1002,7 +787,8 @@ What it shows:
 ### 6.4 YouTube upload checklist (apply from video 04)
 1. Audience: "No, it's not made for kids", on the upload and as the channel default. After publishing, run `yt_snapshot.py`; it flags
    made-for-kids mode.
-2. Title: `How a [humble thing] Becomes [Y]`, under about 60 characters. No hashtags, no call to action, no "| …" suffix.
+2. Title: `How a [humble thing] Becomes [Y]` (or the idea's `If You…` form), under about 60 characters. No hashtags, no call to
+   action, no "| …" suffix.
 3. Description: two or three sentences that retell the premise with the named problems, one question for the comments, then at most
    three hashtags.
 4. Pin a comment that asks what to build next. Reply to every comment in the first day.
@@ -1072,68 +858,19 @@ The user asked for "an updated profile picture and something I can put in my ban
 
 ---
 
-## 7. User direction, 11 Nov 2026 (read before pitching ideas or starting a video)
-- **Look:** back to Classic, the mascot look of videos 01–02 (locked in 3.4), after video 04 was made in the Hidden By Design look. The
-  user asked only whether that is possible. The answer
-  was yes (the mascot reference, the style prompt, the caption setup and the video 02 scripts are all saved), and nothing was produced.
-- **Content style they like:** second-person "how to" / "if you…" videos, for example
-  https://www.tiktok.com/@thewhatifstudio/video/7703514583532604686 (@thewhatifstudio, not studied yet). Copy the formula only,
-  never the content.
-- **Ideas must be more creative and attention-grabbing,** from varied topics: things that haven't been done yet, or unusual enough to
-  keep people watching. The user's examples: surviving a tsunami, and how oil rigs at sea are built. The section 2 and 4 lists don't
-  meet this bar, and most of their topics are crowded on YouTube (6.3). When asked, pitch fresh ideas across topics and run the 6.3
-  saturation check on each one.
-- **Credits:** 61.13 on 11 Nov 2026 (172.88 on 10 Nov; video 04 spent 111.75). Classic videos have cost 106 (Lite) and 202 (Full)
-  credits, so the next video needs a top-up or a smaller plan (fewer animated shots).
+## 7. User direction and the account the user likes (11 Nov 2026)
+- **Look:** Classic, locked in 3.4. The user asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden
+  By Design look.
+- **Format and ideas:** second-person "how to" / "if you…" videos about famous real places and true extreme stories, nothing boring.
+  The approved ideas are in section 2; the old lists were removed the same day.
+- **Credits:** 61.13 on 11 Nov 2026 (172.88 on 10 Nov; video 04 spent 111.75). A Lite video in this look has cost 106–125, so the next
+  one needs a top-up or a smaller plan (fewer animated shots).
 
----
-
-## 8. Fresh ideas pitched on 11 Nov 2026 (awaiting the user's approval)
-The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring", to be approved before
-anything is made. All are for the Classic look (3.4). Facts marked ⚠ must be verified before Gate A. "Shorts" = YouTube search on 11 Nov 2026.
-
-### 8.1 The reference account the user likes: @thewhatifstudio (TikTok), checked 11 Nov 2026
+### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
 - 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes
   the underground city of Derinkuyu" (70 s, 1.2M plays, 133K likes; You Made It did the same topic on YouTube, 1.1M).
 - Their winners are "what if every human… at the same time" and "what if X disappeared for 5 seconds" simulations (clapped 2.5M, tsunamis
   gone 2.1M, jumped 2.0M, deep breath 1.6M, friction 1.1M), disaster POVs (sea pulls back 1.7M, Krakatoa 935K) and the Derinkuyu build.
   Their builds of ordinary things stall: bamboo jungle house 28K, closet → panic room 15K, backyard → stadium 13K, tornado shelter 143K.
 - My read: what wins in this format is a famous real place or a true extreme story with jaw-dropping numbers, not an everyday object.
-  That's the filter used for the ten below. `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
-
-### 8.2 The ten (ranked strongest first)
-1. **How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, Florida Keys, ~19 m deep ⚠). Hook: sink a tank and
-   you have a house. The door is a hole in the floor (moon pool) and the sea stays out because of the air pressure; leaving takes ~17 h of
-   decompression ⚠. Shorts: almost none on topic; the long-form tour has 27M. One set.
-2. **How Concrete Becomes an Oil Rig in Iceberg Alley** (Hibernia GBS, off Newfoundland). User's oil-rig example. 16 concrete teeth on the
-   ice wall; supply ships lasso icebergs and tow them off course. Shorts: generic oil-rig builds up to 34M; Hibernia itself 15K–28K
-   ("Why This Offshore Platform Has 16 Concrete Teeth", "How the Ocean Floor Becomes an Offshore Oil Rig" 28K).
-3. **How a Town Fought a Volcano With the Ocean** (Heimaey, Iceland, 1973, Eldfell). Pumped seawater onto the lava for ~5 months ⚠; the
-   harbour survived, and the new lava wall made it more sheltered. Shorts: best 42K.
-4. **If You Lived on the Sea When the 2004 Tsunami Came** (Moken sea nomads, Surin Islands, Thailand). User's tsunami example from a fresh
-   angle: when the sea pulled back, their legend of the wave that eats people sent them uphill; almost the whole village survived ⚠.
-   Shorts: a 2004 tsunami POV has 17M; the Moken angle is untouched. Handle the 230,000 deaths respectfully.
-5. **If Your Border Is Guarded, Build a Balloon** (East Germany, 16 Sep 1979, the Strelzyk and Wetzel families). Fabric bought a few metres at
-   a time; the first balloon came down just short of the border; the second flew 8 people over it in 28 minutes ⚠. Shorts: best 2.6K; a
-   look-alike "How a Sewing Machine Becomes an Escape Balloon" has 1.4K.
-6. **How a Block of Ice Becomes an Aircraft Carrier** (Project Habakkuk, WWII). Ice + sawdust (pykrete); a bullet famously bounced off it ⚠;
-   the Patricia Lake (Jasper) prototype took three summers to melt and its remains lie on the lake bed ⚠. Shorts: best 45K.
-7. **How a Swamp Island Becomes the Biggest City in the Americas** (Tenochtitlan, founded 1325). Chinampas, a ~16 km dike ⚠, the eagle on a
-   cactus that's on Mexico's flag; Mexico City still sinks up to ~50 cm a year in places ⚠. Shorts: history clips (best 452K); no build.
-8. **How a Hole in an Arctic Mountain Becomes the Doomsday Vault** (Svalbard Global Seed Vault). Permafrost keeps it cold without power;
-   meltwater got into the entrance tunnel in 2016–17 ⚠; first withdrawal in 2015 because of the war in Syria ⚠. Shorts: tour clips up to
-   130K; no build.
-9. **How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan). Carved top-down; water piped through the desert; Europe lost it until
-   Burckhardt slipped in disguised in 1812 ⚠. Shorts: best 6.8K. Its natural climax is a flash flood, which video 01 already used, so end on
-   something else (the disguised explorer).
-10. **How a 7,600-Ton School Learned to Walk** (Lagena Primary School, Shanghai, 2020). 198 robotic legs, 62 m in 18 days ⚠. Shorts: real
-    footage up to 124K; no build. The calmest of the ten (no danger).
-
-### 8.3 Checked and left out (crowded on Shorts, 11 Nov 2026)
-Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
-survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
-(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
-(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
-Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
-a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
-Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
+  That's the filter used for the ten ideas in section 2. `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
