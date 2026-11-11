@@ -1,0 +1,33 @@
+key	job_id	note
+MASCOT	f97004b9-f63f-4971-ab16-e0519314a404	locked mascot reference (3.4)
+S0	1d3d2d18-a6a1-45ab-9494-f399b9a379a4	round 1 style key
+DIVER	9e56ed51-4b98-423a-8752-6d75607a0c8d	round 1 dive mascot ref (2:3)
+FLOAT	9c4b48e0-d9dc-4824-b55c-fd6044545929	round 2
+S2	95ce694c-243f-4e0b-b143-f8e6de811b66	round 2
+DOOR	8c0a0640-8d25-43b2-8d55-08441980cf52	round 2, REJECTED: above water on a beach (redo DOOR2)
+MOONPOOL	b6930972-50c2-4687-81b0-89b575b62f2f	round 2, REJECTED: above water (redo MOONPOOL2)
+CUP	c5ae27e2-afc6-4b2d-b776-239999a4d313	round 2, REJECTED: no visible air pocket (redo CUP2)
+WINDOW	4f8517d8-ae6d-4808-9976-38f4736d62e4	round 2, base for WINDOW2 (sky at the far end)
+SPONGE	c00c2510-18a9-4fbb-8274-127995375c94	round 2
+BOAT	a69157dd-2cff-4750-b4fe-3965476d9b32	round 2
+S3	50f06580-a634-414c-96b9-3265dc473c55	round 3, REJECTED: zoomed in, buoy sits right on the tank (redo S3b)
+DOOR2	4de78453-dacb-4fa2-a04c-efd58df8547c	round 3 (redo of DOOR)
+MOONPOOL2	79402e6c-d065-4b27-a93c-a93be431f3ff	round 3 (redo of MOONPOOL)
+CUP2	3a46ea24-c2e1-470e-a75e-aff2ccae70e8	round 3 (redo of CUP)
+WINDOW2	980ed67c-86c7-430d-acb9-2cdef7e7b0d4	round 3 (edit of WINDOW)
+SHARK	032687fc-7e74-443d-97ca-7d301d00eca3	round 3
+DECOMP	84c619d9-b3ea-4b31-8e96-ea0141b9abee	round 3
+RUSH	4ab841dd-3c6a-41fd-98a9-ba7cd2bccaa6	round 3
+S3b	dfa335cb-2d91-44bf-b597-c9eec3302b0e	round 4 (redo of S3, framing locked to S2)
+FULLSPONGE	61c5c2ea-1f27-454c-bb93-a2dac1b48dae	round 4
+WEEKS	2274cfa8-5509-4533-a600-e61a4f270ddc	round 4
+PLANE	7c3acc5b-918c-4e7d-bb9c-7ce6543feb03	round 4
+CAPSULE	3fe39622-a037-43c2-9ccb-05a6718e4dee	round 4
+AQUANAUTS	56fd27e4-adbe-4fd1-ba82-c8b194621c71	round 4
+ESCAPE	47284c27-9f91-4cb6-a03a-5dd094e3ea27	round 4, REJECTED: storm wall rendered as a volcano-like smoke column (redo ESCAPE2)
+NAP	f0fef01c-8f50-42ff-b7b3-ed08d82a016d	round 4
+STORM	6e70d6c4-8007-4c5a-9b37-49a9e78d3288	round 5
+END	0d48c15a-c72b-4683-b303-56db1ca3239a	round 5
+BUOYRIP	71d270bb-3834-4b15-9558-158fa9da7f73	round 5
+ESCAPE2	04ddfa68-a551-47f6-8e63-32954255d5b6	round 5 (redo of ESCAPE)
+PAYOFF	d0c64dee-b6fe-4c62-9723-9ee1f73b163f	round 6
