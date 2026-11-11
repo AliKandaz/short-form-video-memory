@@ -1048,7 +1048,8 @@ for its own reasons.
 - Pace requests about 2–3 s apart. Scripts in `pipeline/youtube/` (exact usage is in each docstring; all but the first take a work
   directory as their first argument): `yt_snapshot.py @handle` (channel facts, per-Short stats, comments, made-for-kids check),
   `yt_channels.py <dir> handle:@name shorts:<id>` (a channel's latest and most popular Shorts; who posted a given Short),
-  `yt_search.py <dir> "<query>"` (saturation check), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
+  `yt_search.py <dir> "<query>"` (saturation check), `yt_saturation.py <dir> "<query>"…` (the same check, summarised to the top
+  Shorts and long videos per query, for vetting many topics at once), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
 
 ### 6.8 Channel branding (made 10 Nov 2026, no credits)
 The user asked for "an updated profile picture and something I can put in my banner that will fit". Delivered on 10 Nov 2026;
@@ -1084,3 +1085,55 @@ The user asked for "an updated profile picture and something I can put in my ban
   saturation check on each one.
 - **Credits:** 61.13 on 11 Nov 2026 (172.88 on 10 Nov; video 04 spent 111.75). Classic videos have cost 106 (Lite) and 202 (Full)
   credits, so the next video needs a top-up or a smaller plan (fewer animated shots).
+
+---
+
+## 8. Fresh ideas pitched on 11 Nov 2026 (awaiting the user's approval)
+The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring", to be approved before
+anything is made. All are for the Classic look (3.4). Facts marked ⚠ must be verified before Gate A. "Shorts" = YouTube search on 11 Nov 2026.
+
+### 8.1 The reference account the user likes: @thewhatifstudio (TikTok), checked 11 Nov 2026
+- 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes
+  the underground city of Derinkuyu" (70 s, 1.2M plays, 133K likes; You Made It did the same topic on YouTube, 1.1M).
+- Their winners are "what if every human… at the same time" and "what if X disappeared for 5 seconds" simulations (clapped 2.5M, tsunamis
+  gone 2.1M, jumped 2.0M, deep breath 1.6M, friction 1.1M), disaster POVs (sea pulls back 1.7M, Krakatoa 935K) and the Derinkuyu build.
+  Their builds of ordinary things stall: bamboo jungle house 28K, closet → panic room 15K, backyard → stadium 13K, tornado shelter 143K.
+- My read: what wins in this format is a famous real place or a true extreme story with jaw-dropping numbers, not an everyday object.
+  That's the filter used for the ten below. `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
+
+### 8.2 The ten (ranked strongest first)
+1. **How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, Florida Keys, ~19 m deep ⚠). Hook: sink a tank and
+   you have a house. The door is a hole in the floor (moon pool) and the sea stays out because of the air pressure; leaving takes ~17 h of
+   decompression ⚠. Shorts: almost none on topic; the long-form tour has 27M. One set.
+2. **How Concrete Becomes an Oil Rig in Iceberg Alley** (Hibernia GBS, off Newfoundland). User's oil-rig example. 16 concrete teeth on the
+   ice wall; supply ships lasso icebergs and tow them off course. Shorts: generic oil-rig builds up to 34M; Hibernia itself 15K–28K
+   ("Why This Offshore Platform Has 16 Concrete Teeth", "How the Ocean Floor Becomes an Offshore Oil Rig" 28K).
+3. **How a Town Fought a Volcano With the Ocean** (Heimaey, Iceland, 1973, Eldfell). Pumped seawater onto the lava for ~5 months ⚠; the
+   harbour survived, and the new lava wall made it more sheltered. Shorts: best 42K.
+4. **If You Lived on the Sea When the 2004 Tsunami Came** (Moken sea nomads, Surin Islands, Thailand). User's tsunami example from a fresh
+   angle: when the sea pulled back, their legend of the wave that eats people sent them uphill; almost the whole village survived ⚠.
+   Shorts: a 2004 tsunami POV has 17M; the Moken angle is untouched. Handle the 230,000 deaths respectfully.
+5. **If Your Border Is Guarded, Build a Balloon** (East Germany, 16 Sep 1979, the Strelzyk and Wetzel families). Fabric bought a few metres at
+   a time; the first balloon came down just short of the border; the second flew 8 people over it in 28 minutes ⚠. Shorts: best 2.6K; a
+   look-alike "How a Sewing Machine Becomes an Escape Balloon" has 1.4K.
+6. **How a Block of Ice Becomes an Aircraft Carrier** (Project Habakkuk, WWII). Ice + sawdust (pykrete); a bullet famously bounced off it ⚠;
+   the Patricia Lake (Jasper) prototype took three summers to melt and its remains lie on the lake bed ⚠. Shorts: best 45K.
+7. **How a Swamp Island Becomes the Biggest City in the Americas** (Tenochtitlan, founded 1325). Chinampas, a ~16 km dike ⚠, the eagle on a
+   cactus that's on Mexico's flag; Mexico City still sinks up to ~50 cm a year in places ⚠. Shorts: history clips (best 452K); no build.
+8. **How a Hole in an Arctic Mountain Becomes the Doomsday Vault** (Svalbard Global Seed Vault). Permafrost keeps it cold without power;
+   meltwater got into the entrance tunnel in 2016–17 ⚠; first withdrawal in 2015 because of the war in Syria ⚠. Shorts: tour clips up to
+   130K; no build.
+9. **How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan). Carved top-down; water piped through the desert; Europe lost it until
+   Burckhardt slipped in disguised in 1812 ⚠. Shorts: best 6.8K. Its natural climax is a flash flood, which video 01 already used, so end on
+   something else (the disguised explorer).
+10. **How a 7,600-Ton School Learned to Walk** (Lagena Primary School, Shanghai, 2020). 198 robotic legs, 62 m in 18 days ⚠. Shorts: real
+    footage up to 124K; no build. The calmest of the ten (no danger).
+
+### 8.3 Checked and left out (crowded on Shorts, 11 Nov 2026)
+Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
+survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
+(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
+(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
+Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
+a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
+Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
