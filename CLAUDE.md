@@ -16,8 +16,13 @@ format (You Made It, You Built It), a topic-saturation check of the idea lists, 
 
 **Latest direction from the user (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4), and the ideas
 are the ten approved in section 2: famous real places and true extreme stories in the "how to / if you" format. Section 7 has the
-details and the account the user likes (@thewhatifstudio). To make a video, paste the section 5 prompt. Video 05 (idea #1, Aquarius)
-was made on 11 Nov 2026 in the new **Middle** tier, which is now the default (3.1, 3.4).
+details and the account the user likes (@thewhatifstudio). Video 05 (idea #1, Aquarius) was made on 11 Nov 2026 in the new **Middle**
+tier, which is now the default (3.1, 3.4).
+
+**Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The camera stays on the thing being built,
+and every line of the script changes something you can see on it. No shots of other things and no separate rooms; comparisons appear
+only as labels on the build. The rules are in 3.4 and the reasons in 7.2. To make a video, paste the section 5 prompt
+(**renewed 11/11/26**).
 
 ---
 
@@ -59,10 +64,11 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
 - After each fix, name the real-world term ("These are stilts." "This is thatch." "This is a rat guard.").
   The term also appears as an ALL-CAPS on-screen label.
 - Use everyday and body-scale comparisons: "to your shoulders", "as high as a basketball hoop",
-  "knee-high by morning", "hard as rock".
+  "knee-high by morning", "hard as rock". **Ours since 11 Nov 2026 (3.4 shot rule):** a comparison is shown only as a label or a
+  measurement line on the build; cut any that would need a picture of something else.
 - At least one shock stat ("kills more people than snakes, sharks and lions combined", "84% fewer").
   **Fact-check every number before production.**
-- One "that's why" tie-in ("That's why levees on the news are wrapped in plastic.").
+- One "that's why" tie-in ("That's why levees on the news are wrapped in plastic."). Ours: shown on the build or as a label (3.4).
 - Pace: about 250 words per 66 s (~3.8 words/s, ~225 wpm). Long versions run ~100 s and ~350 words.
 
 ### Animation style
@@ -75,7 +81,8 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
 - **Mood through grading:** daylight for fixes, dark desaturated for night threats, blue-grey for storms, sunny
   for the ending.
 - **Camera:** about one shot per sentence (2–5 s), hard cuts on "But" and "So", slow push-ins and orbits within shots,
-  macro close-ups of key details and then a pull back to the wide shot.
+  macro close-ups of key details and then a pull back to the wide shot. **We dropped the one-shot-per-sentence part on 11 Nov 2026:**
+  our videos stay on one build in one main view (3.4 shot rule, 7.2).
 - **Build moments:** parts appear, slide or grow into place exactly when the narrator names them.
 - **Problems** are shown with environmental effects: rain particles, a rising water plane, critter models, swarm particles,
   darkness.
@@ -113,6 +120,9 @@ were removed the same day; the four ideas already made are in the video log (3.4
 - **Why these:** the account the user likes wins with famous real places and true extreme stories, while its builds of ordinary
   things stall (7.1). Every idea was checked on YouTube Shorts on 11 Nov 2026 ("Shorts" below).
 - **Look:** Classic (3.4); the mascot is "you". **Ranked** strongest first (my estimate).
+- **Shots:** one build in one main view (3.4 shot rule); each idea's "Set" line describes that view. Rework any chain beat that would
+  need a picture away from the build. A second setting only when the build itself has to move (#2's tow-out from the dry dock, #5's
+  flight over the border, #6's ice ship at sea).
 - **Chains are drafts:** fact-check every ⚠ before Gate A, cut what doesn't hold up, and rerun the saturation check (6.7).
 
 **1. ✅ USED (video 05, 11 Nov 2026). How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, off Key Largo, Florida)
@@ -276,8 +286,8 @@ credits (the 61.13 left were reset). Always call `balance` at the start of a run
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). Short inserts (analogies, asides, stats) stay stills with free camera moves. | **~165–200** (video 05: 176 for 31 stills + 16 clips) |
-| **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 for 25 beats |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **~150–165** expected spend with the shot rule (~20 stills; estimate, 7.2) |
+| **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
 ### 3.2 Credit rules (hard)
@@ -295,6 +305,9 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 **Step 1: Topic and script (free).**
 - Pick the idea from section 2. Write the script with the formula and writing rules in section 1 and the script rules in the section 5
   prompt. Target ~75 s, ~260–280 words; never under 60 s.
+- Write for the build (3.4 shot rule): every line must be something the viewer can see happen on the build. Comparisons, stats and
+  the "that's why" are shown as labels on the build; cut any line that would need a picture of something else. At Gate A, list the
+  lines that became labels and the lines that were cut.
 - Run the saturation check on the title (`pipeline/youtube/yt_saturation.py`, 6.7) and report near-identical Shorts and the best views.
 - Fact-check every ⚠ claim with web search before locking. Remove anything unverifiable.
 - Show the script. **GATE A: user approves the script.**
@@ -303,6 +316,9 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 - Split the script into beats, one sentence or one "But/So" unit each (usually 14–18 beats).
 - For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / cozy / end) | stage still used | camera move | label text (if any) | animate? (Lite: Y on hook, 1st build, twist, 2–3 key builds, climax, payoff, end)`.
 - Define the **stage ladder**: an ordered list of how the structure looks after each fix (Stage 0 = bare ground → Stage N = finished build). Each build beat moves from stage k to k+1.
+- **Every beat shows the build** (3.4 shot rule): the main view at the current stage, a close-up of the build at that stage, or the
+  wall sliced open from the main view. Problems hit the build in the main view (the storm over it, the water pouring in). If the build
+  itself has to move to a new setting, give that setting its own main view and continue the ladder there.
 
 **Step 3: Cost quote. GATE B.**
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
@@ -320,7 +336,12 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 
 **Step 5: Stage stills (~1.25 cr each).**
 - For each stage on the ladder, one 9:16 still of the SAME set from the SAME hero angle, passing the style key and mascot job ids as `medias` role `image_references` (order: location → character → props), plus the previous stage still so only the new part changes. Prompt pattern: `[STYLE FORMULA] Same scene and camera as reference. Now [exact change for this stage]. Everything else identical.`
-- Add extra stills only where a beat needs a different shot: night or storm grade, macro close-up, cutaway, critter or threat.
+- Extra stills are only versions of the current stage in the same view: a night or storm grade, the wall sliced open, the threat
+  arriving. Make each by editing the current stage still ("Keep exactly the same camera position, zoom and framing as the reference
+  image"; "Change only this: …"; 3.4f, 3.4g). A close-up of the build gets its own still only when a push-in on the stage still would
+  be too soft to read (a gauge, a latch); make it by editing the stage still as well. Never make a still of something away from the
+  build. Before Gate C, check that every still is the main view, a close-up of the build or the sliced-open wall, and that the build
+  matches from stage to stage.
 - Submit in batches of ≤12, `jobs_wait` (≤12 per call), one `show_generation_by_ids`. Regenerate drifted stills once. **GATE C: show the still ladder; user approves.**
 
 **Step 6: Narration.**
@@ -333,6 +354,8 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 - Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
 - Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. The character only gestures and does not talk. No text, no captions.`
 - Problem beat: `start_image` = current stage still (night or storm version if needed). Prompt describes the threat moving (rain falling, water rising, snake crawling).
+- Close-ups happen inside the clip ("slow push-in toward the door"), and the next shot is back in the main view. The camera never
+  travels away from the build.
 - `duration` = the beat's measured length rounded up (min 4). Show both. If the look fails, fix the stills or prompt, not by re-rolling.
 
 **Step 8: Remaining clips.**
@@ -341,7 +364,7 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 
 **Step 9: Assembly (Higgsfield sandbox, free).**
 - Download all clips, stills and narration into one working folder in a single `sandbox_exec` (use `background:true` for long renders, `size:"xl"` only for the final encode).
-- For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). For non-animated (Lite) beats, turn the still into a clip with a slow zoompan push-in or pan of that length. Hard cuts only, no transitions.
+- For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). For non-animated beats, hold the last frame of the clip before with a slow push-in (free, and it matches because it is the same view), or turn the current stage still into a clip with a slow zoompan push-in or pan of that length. Hard cuts only, no transitions.
 - Lay the narration on top at full volume. Optional: a quiet ambient bed (rain, jungle, wind) only if the user asked or provided one; never add copyrighted music.
 - Output 1080×1920, 30 fps, H.264 + AAC. Keep this as the **clean master** (no text).
 
@@ -375,6 +398,18 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
   small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight and mild depth of field, seen from a slightly raised
   three-quarter view. Use the base STYLE string in `pipeline/02-prompts.py` plus one palette line per setting. Captions are centred,
   one word at a time, in Title Case, with ALL CAPS term labels (`pipeline/02-build.py`). Hidden By Design (videos 03–04) is retired.
+- **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The reasons and the credit effect are in 7.2.
+  1. The camera stays on the thing being built, in one main view (the hero angle of the stage ladder). Every line of the script
+     changes something you can see on it: a part grows in, a problem hits it, something inside starts working. The mascot is in the
+     scene doing the work.
+  2. Close-ups show only the build, as it is at that moment, and the next shot goes back to the main view. Make them from the same
+     picture where possible: the camera pushes in during the clip, or the edit zooms in on the still (free). Only a detail too small
+     for that (a gauge) gets its own still, made by editing the current stage still so it matches.
+  3. To show how it works inside, slice the wall open from the same view. Never cut to a separate room.
+  4. Comparisons and asides appear only as labels on the build ("17 HOURS", a dashed "60 FT" line). Cut any that would need a picture
+     of something else (like video 05's cup in a bath, kitchen sponge, airliner and space capsule).
+  5. Problems (storms, floods, threats) hit the build in the main view.
+  6. The setting changes only when the build itself has to move (a tow-out, a launch, a flight); the new setting gets its own main view.
 - Higgsfield project / folder naming: `HBX – [video title]`
 - Channels: YouTube **@overthinkingyearly** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025) and TikTok **@overthinkingyearly**
   (nickname "OT"). A rename was recommended on 10 Nov 2026 and the user has not chosen yet (shortlist in 6.5). Update this line when they do.
@@ -725,9 +760,12 @@ and wastewater treatment, power grid, gas station, roof.
 
 ---
 
-## 5. Kickoff prompt (paste this to make a video)
-Fill in the two lines in angle brackets and paste the whole block into a new session.
+## 5. Kickoff prompt, renewed 11/11/26 (paste this to make a video)
+**Renewed 11/11/26:** this is the current version. It adds the one-build, one-view shot rule (3.4, 7.2). Fill in the two lines in
+angle brackets and paste the whole block into a new session.
 ```
+KICKOFF PROMPT (renewed 11/11/26)
+
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
@@ -738,6 +776,14 @@ Fixed choices (3.4):
 - Look: Classic. Our locked mascot is "you", in a small sunny 3D diorama, and he is in
   the first and last shot. Base STYLE string from pipeline/02-prompts.py plus one
   palette line for the setting.
+- Shots: one build, one main view (the 3.4 shot rule). The camera stays on the thing
+  we're building, and every line of the script changes something you can see on it.
+  - Close-ups only of the build as it is at that moment, then back to the main view.
+    Push in on the same picture where you can.
+  - Show how it works inside by slicing the wall open from the same view, never by
+    cutting to a separate room.
+  - Problems hit the build in the main view.
+  - Change the setting only when the build itself has to move.
 - Captions: one word at a time, centred, Title Case; real terms as ALL CAPS labels.
 - Narrator: Daniel (3.4). Video model: kling4_0 (3.0).
 
@@ -745,7 +791,12 @@ Script rules, on top of section 1:
 - Open with "If you..." and land the first "But" by ~3 s.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
 - 7-8 But/So beats that escalate. Name the real term after the key fixes.
-- Build in the idea's twist and one "that's why" viewers can check in real life.
+- Write for the build: every line must be something we can show on it. Comparisons
+  and stats are shown only as labels on the build. Cut any line that would need a
+  picture of something else, and tell me at Gate A which lines you cut or turned
+  into labels.
+- Build in the idea's twist and one "that's why" viewers can check in real life,
+  shown on the build or as a label.
 - End on our own line: a three-beat imperative that loops back into the hook (4.3).
   Never "Congratulations, you have built..." (How Building Explained's signature line).
 - Fact-check every ⚠ claim before Gate A and cut anything unverifiable. Never reuse any
@@ -756,8 +807,9 @@ Script rules, on top of section 1:
 Credits: check the balance first. If it's below the quote, offer a smaller plan (fewer
 animated shots) instead of starting.
 
-Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills)
-and Gate D (pilot clips). Spend no credits before I approve Gate B.
+Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills:
+check they all show the same build from the main view) and Gate D (pilot clips). Spend
+no credits before I approve Gate B.
 
 When the video is done, give me:
 - the final MP4 link
@@ -875,8 +927,8 @@ What it shows:
    the current rule.
 6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
 7. Raise at Gate A and Gate C: the Classic look (locked by the user on 11 Nov 2026, see 3.4), the mascot in the first and last shot,
-   one caption style, and a closing line that is ours rather than "Congratulations, you have built…". (The audit's sliced-ground,
-   single-angle suggestion is superseded by the user's choice of look.)
+   one caption style, and a closing line that is ours rather than "Congratulations, you have built…". (The audit's single-angle,
+   build-in-place suggestion became the user's shot rule on 11 Nov 2026, inside the Classic look: one build, one main view, 3.4 and 7.2.)
 
 ### 6.5 Rename shortlist (the user has not chosen)
 Free on both YouTube and TikTok on 9 Nov 2026, by handle lookup (`pipeline/youtube/handles.py`); YouTube can still refuse a handle
@@ -968,6 +1020,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 - **Format and ideas:** second-person "how to" / "if you…" videos about famous real places and true extreme stories, nothing boring.
   The approved ideas are in section 2; the old lists were removed the same day.
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176.
+- **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2).
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
 - 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes
@@ -977,3 +1030,30 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   Their builds of ordinary things stall: bamboo jungle house 28K, closet → panic room 15K, backyard → stadium 13K, tornado shelter 143K.
 - My read: what wins in this format is a famous real place or a true extreme story with jaw-dropping numbers, not an everyday object.
   That's the filter used for the ten ideas in section 2. `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
+
+### 7.2 One build, one main view (agreed with the user, 11 Nov 2026, after video 05)
+The user, after video 05: "I like the animation visuals and use of the character, but it seems inconsistent at times. too many shots
+of different things in the video. I would like to keep the visuals consistent on the main topic and make changes to the animation as
+the script describes how the topic we are building works." The agreed rules are the 3.4 shot rule; this is the record behind them.
+- **What was wrong in video 05** (counted from `pipeline/05-beat-sheet.md`): 26 shots made from 24 different pictures. Only 7 shots,
+  about a third of the running time by the beat sheet's estimates, showed the house from the main view. 5 shots were not the house at
+  all (a cup in a bath, a kitchen sponge, a dive boat, an airliner and a space capsule); each came from a comparison or side note in
+  the script. The other shots were separate rooms and angles, each a fresh picture, so details drifted: the door shot shows the tank
+  without the legs it got one shot earlier, and the payoff sky is lighter than the storm's a few shots before. The cause was our own
+  rules: about one shot per sentence plus close-ups and inserts (section 1, Step 5), and a script formula that asks for comparisons.
+- **It fits what we saw in the format** (my read, not measured): the leading channels mostly keep one view and change the build in
+  place (6.3).
+- **The user's answers (11 Nov 2026):** close-ups yes ("camera can move close on detail"), with the conditions in rule 2 of the 3.4
+  shot rule; slice the wall open from the same view instead of cutting to a separate room, yes; comparisons only as labels and the
+  rest cut, "I agree completely"; "if the build requires to move the setting can change". They like the visuals and the mascot: keep
+  both.
+- **Credit effect** (my estimate, 11 Nov 2026, from the 3.0 prices; check it against the next video's spend): clips are paid per
+  animated second (kling4_0 2.25 cr/s), and stills are the cheap part (1.25 each). With the same amount of animation as video 05
+  (Middle), a video should cost about 150–165 credits instead of 176, because it needs about 20 stills instead of 31. Animating nearly
+  every second would cost about 210–230. Moments that only add a label hold on the last frame of the clip before, which is free and
+  matches because it is the same view. Problems that hit the build in the main view are harder for Kling (video 05's storm clip came
+  out wrong twice), so expect the odd redo at 7–11 credits; the 15% reserve covers it. At the 2,824 credits left after video 05, that
+  is about 12–17 videos.
+- **How to make it hold together:** make each stage still by editing the one before it, with the framing lock from 3.4g ("Keep exactly
+  the same camera position, zoom and framing as the reference image"). Animate build beats from stage k to k+1 with start and end
+  keyframes, which worked well in video 05 (the legs rising out of the sand; the barge out and the buoy in).
