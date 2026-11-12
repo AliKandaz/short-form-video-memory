@@ -1,0 +1,23 @@
+key	job_id	note
+MASCOT	f97004b9-f63f-4971-ab16-e0519314a404	locked mascot reference (3.4)
+S0	700e1ce7-a915-4ff3-9027-6d0e684a2da7	round 1 style key
+S1	38f299b7-64a2-4e8b-92d5-baf730871a4e	round 2
+STORM	7c622abe-2577-4354-b7ac-11a25239b322	round 3
+S2	4b47e8ad-96ef-470a-a17d-8d1f7bfc8768	round 3
+S3	d31da280-ec5f-4688-93c9-c033490532a7	round 4, REJECTED: the man appears twice (ledge + plaza); fixed in S3b
+S3b	d2f012e9-c237-4dd7-b4e7-335ae02c0c16	round 5, edit of S3: extra man removed
+NARR_A	O5JHui1PBiUYxiRFDo0t	ElevenLabs take A (flow MJ96Xe95SwRqRmdOFjcK), 89.36 s
+NARR_B	JxkGMSRYFq9qTKUUvzVB	ElevenLabs take B (flow MJ96Xe95SwRqRmdOFjcK), 88.00 s
+BOTTOMUP	c04e4433-e44d-4fdf-8800-d9babd88253d	round 6
+S5	c1736720-0523-4ba4-a53d-73ca34489be5	round 6
+S6	b1879f3f-c900-4ae0-9ae6-7f4337a0dca5	round 7
+INSIDE	47972061-17f3-4812-856a-43e949ffcd34	round 8
+BROKE	1821fc06-db60-4952-8557-9695293d8a4b	round 8
+S7	75d009a0-da45-4318-8e3d-32c2d2f3196c	round 8
+END	c3fec657-3a03-435f-b0a6-822c4b401cb5	round 8
+S8	b7284b95-43f7-47a7-8dfd-fb993429b8ef	round 9
+S9	e7daeea1-a638-4ec3-8e8e-f473776db06f	round 10
+EXPLORER	ba430295-378d-4a8b-b29c-ed9c34bfa7d8	round 11
+URN	2a470c7f-e81b-45dd-b74a-1cd8649d0cce	round 11
+URNHOLES	54429f44-7da0-4b47-a64e-77d13418cc71	round 12
+URNSLICE	cbb2bb95-c65c-4bd3-8776-d60ecf514ccb	round 13
