@@ -22,7 +22,8 @@ tier, which is now the default (3.1, 3.4).
 **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The camera stays on the thing being built,
 and every line of the script changes something you can see on it. No shots of other things and no separate rooms; comparisons appear
 only as labels on the build. The rules are in 3.4 and the reasons in 7.2. To make a video, paste the section 5 prompt
-(**renewed 11/11/26**).
+(**renewed 11/11/26**). Video 06 (idea #9, Petra, 12 Nov 2026) was the first made under it: 158.75 credits against a 186.30 quote,
+no clip redos (3.4b, 3.4h).
 
 ---
 
@@ -115,7 +116,7 @@ and sound effects still need a listen.
 ## 2. Video ideas (approved 11 Nov 2026)
 
 The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring" and approved this
-list on 11 Nov 2026 ("I like the ideas"). #1 was made first (video 05, 11 Nov 2026). It replaces the old lists (#1–15 here and H1–H15 in section 4), which
+list on 11 Nov 2026 ("I like the ideas"). #1 was made first (video 05, 11 Nov 2026), then #9 (video 06, 12 Nov 2026). It replaces the old lists (#1–15 here and H1–H15 in section 4), which
 were removed the same day; the four ideas already made are in the video log (3.4b).
 - **Why these:** the account the user likes wins with famous real places and true extreme stories, while its builds of ordinary
   things stall (7.1). Every idea was checked on YouTube Shorts on 11 Nov 2026 ("Shorts" below).
@@ -227,7 +228,7 @@ from an angle nobody has covered.
 - Payoff: the war in Syria cut off a seed bank near Aleppo, and in 2015 the vault made its first withdrawal to regrow those seeds ⚠.
 - Shorts: tour clips up to 130K, no build.
 
-**9. How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan)
+**9. ✅ USED (video 06, 12 Nov 2026). How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan)
 - Set: a narrow red sandstone gorge (the Siq) that opens onto a cliff; the city is carved as the video goes. One set.
 - Hook: "If you want a city nobody can find, you carve it into a canyon."
 - Chain: months without rain -> carve channels along the gorge walls and lay clay pipes from the springs ⚠ -> store the water in carved
@@ -235,7 +236,16 @@ from an angle nobody has covered.
   traders bring incense and spices through the gorge ⚠.
 - Twist: Europe lost track of it for about 600 years, until a Swiss explorer slipped in disguised as a pilgrim in 1812 ⚠.
 - Ending: not a flash flood (video 01 already used one). "That's why": the Treasury from Indiana Jones and the Last Crusade.
-- Shorts: best 6.8K.
+- Shorts: best 6.8K on the 11 Nov check, which missed a near-identical build that the Gate A search found: "How a Cliff Becomes Petra"
+  (Tested & True, 27K, 29 Oct; the same sliced red-rock diorama with clay pipes, flash floods, cisterns and an earthquake that flattens
+  stacked buildings). The most-watched Petra Shorts are about what's inside the Treasury (616K, 219K).
+- As made (fact-checked): a channel and clay pipes from a spring; rain that comes in a few storms, caught in cisterns; the king's tomb
+  carved from the top down, standing on uncut rock so rubble never falls on finished work; 38.77 m to the top of the urn (Archnet, said
+  as 39); plain rooms inside (label: Indiana Jones and the Last Crusade, 1989); caravans paying to pass; the 363 earthquake; trade moving
+  to ships; Europe losing track of it for about 600 years (Crusader period to 1812); Burckhardt in disguise with a goat for Aaron's tomb;
+  the urn shot full of holes over a pharaoh's-gold legend, and solid rock. Cut: the flood dam and tunnel (the rival and video 01 use
+  floods) and "carve your houses" (most carved fronts are tombs). YouTube title: "How a Crack in a Cliff Becomes the Hidden City of
+  Petra". Script, beats, prompts and builds: `pipeline/06-*`.
 
 **10. How a 7,600-Ton School Learned to Walk** (Lagena Primary School, Shanghai, 2020 ⚠)
 - Set: a city block with the 1935 school ⚠ and the building site that needs its spot. One set.
@@ -286,7 +296,7 @@ credits (the 61.13 left were reset). Always call `balance` at the start of a run
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **~150–165** expected spend with the shot rule (~20 stills; estimate, 7.2) |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
@@ -309,6 +319,8 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
   the "that's why" are shown as labels on the build; cut any line that would need a picture of something else. At Gate A, list the
   lines that became labels and the lines that were cut.
 - Run the saturation check on the title (`pipeline/youtube/yt_saturation.py`, 6.7) and report near-identical Shorts and the best views.
+  Search the exact title, "how a [thing] becomes [place]" and "[place] how it was built": in video 06 only the second found the 27K
+  near-identical build (3.4h).
 - Fact-check every ⚠ claim with web search before locking. Remove anything unverifiable.
 - Show the script. **GATE A: user approves the script.**
 
@@ -481,6 +493,23 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   Known edit candidates: the tank is ~2.5× the mascot's length (not bus-sized); a toy island under the plane; the payoff sky is lighter than the
   storm's; the door shot shows the tank floating without legs; during "This is the bends" he is half out of the water.
 
+- **06 Crack in a Cliff → the Hidden City of Petra** (Middle, idea #9, Classic look, first under the 3.4 shot rule, loop ending) — DELIVERED v1,
+  12 Nov 2026. 76.42 s, 1080×1920, 24 fps, −15.6 LUFS, 24 beats, 263 words. Higgsfield spend **158.75 cr** (quote 186.30, −15%): 19 seedream
+  stills 23.75 (18 used + the S3 redo) + 14 kling4_0 clips 135.00 (60 s, no redos). ElevenLabs: 2 takes × 1,409 credits; take A at 1.06×.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/9c3ccf8e-cf8f-43ee-bd71-3cec6ac41aeb.mp4 (media_id 9c3ccf8e-cf8f-43ee-bd71-3cec6ac41aeb);
+  clean master with narration and no captions: media_id 7915ceaa-682a-4760-ae5e-63219d0b551a. Higgsfield project "HBX – Hidden City of Petra"
+  (folder 452e85a7-bd8f-4644-bdab-cb74b076b356). ElevenLabs flow MJ96Xe95SwRqRmdOFjcK. Gate D preview (B1–B3) was sent as a file, not uploaded.
+  Post copy: YouTube title "How a Crack in a Cliff Becomes the Hidden City of Petra", description "A crack in a desert cliff, almost no rain,
+  storms that dump it all at once, and a 39-meter tomb carved from the top down. Here's how Petra was built one problem at a time, and why
+  the urn on its famous Treasury is full of bullet holes. Which lost city should we build next? #Petra #HowItWorks #3DAnimation"; TikTok
+  "How do you carve a 39-meter tomb straight out of a cliff? 🏜️" + #HowItWorks #Engineering #LearnOnTikTok #3DAnimation #Petra #Jordan.
+  Covers (`pipeline/06-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **A "CARVED /
+  TOP DOWN" (recommended)** on the half-carved facade with a down arrow: 1080×1920 6a96ed0c-8f31-4cc9-91c6-3367317bf007, TikTok 3:4
+  01e2573a-58d9-44b1-afde-e32fd0e7f8bf; B "WHY THE / BULLET HOLES?" on the pockmarked urn 37d96132-abc0-4c97-b29b-7aee70a47e3e; C plain END
+  frame, no text 27847837-eda0-4035-b67c-5f75d3a26547.
+  Known edit candidates: the hook pushes in to a close-up of the mascot (Kling read "slow push-in" as a dolly-in); in C5 he leaps up the cliff
+  to the ledge; INSIDE drops the lower storey to show the room; URNSLICE cuts the dome, not the urn on top; the mascot is large next to the facade.
+
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
 - Kling returns 724×1284; it upscales to 1080×1920 fine. Minimax returns 1440×2560, 24 fps, ~0.17 s longer than asked.
@@ -641,6 +670,34 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   made"), `05-prompts.py` (STYLE, DIVER, UNDER, REFS, AR), `05-mk.py`, `05-clips.py`, `05-jobs.tsv` (all job and media ids), `05-whisper.py`,
   `05-timing.py` (sub-beat split B16b), `05-timeline.json`, `05-build.py` (camera move per still, WIPE fallback, CLIPWIN, label heights, depth line
   from `05-overlays.json`), `05-thumbnail.py`. Copy these for the next Classic video.
+
+### 3.4h Lessons from video 06 (apply next time)
+- **The shot rule held and cost less** (7.2): one main view, every still an edit of the one before it with the framing lock; 19 stills for
+  18 used, 14 clips with no redos, 158.75 credits (video 05: 31 stills, 176). Beats without a clip stay in the view for free: `HOLD` repeats
+  the last frame of the clip before with a slow push-in, and `WIPE` from `PREV` wipes or fades from that frame into the next still
+  (`06-build.py`).
+- **Saturation: search the place in the format too.** The exact-title search found nothing close, but "how a crack becomes petra" found
+  "How a Cliff Becomes Petra" (27K, 29 Oct) with nearly our whole chain. Search the exact title, "how a [thing] becomes [place]" and
+  "[place] how it was built" (Step 1). The script then spent ~15 s on the shared water basics and the rest on what it lacked.
+- **Edits that move the mascot copy him:** S3 kept the man in the plaza and added one on the ledge. Add "he is the only person in the whole
+  scene" (or "the ledge is empty") to every edit where he moves; S3b removed the copy with an edit-out (3.4f).
+- **Kling camera words:** "Slow push-in" on the hook became a dolly-in to a close-up of the mascot. Put "The camera stays in the same place
+  looking at the same cliff" (`FIXED` in `06-clips.py`) on every clip that must hold the main view, and always on a clip under an overlay
+  (C8 carried the 39 M line).
+- **Kling on Ultra took 12 jobs at once** (batches of 8 and 4, no 429); the first finished in ~4 minutes, the slowest in ~17.
+- **Labels with the build in frame:** TikTok's top bar covers y < ~200 and the facade fills the upper middle, so labels sat in the clear band
+  above the pool (y 1345) or below the basin (1440), measured on a 100 px grid (`06-labels.json`); two-line labels at 62–80 px.
+- **"Slice the wall open" in seedream:** asked to cut away the rock beside the facade, it replaced the lower storey with the open room; a
+  wipe from the finished facade sells it as a slice. Asked to slice the urn, it sliced the dome and turned the base to sand; a 1.2× crop
+  anchored at the top (`top` move) hid it.
+- **Narration:** Daniel ran slower again (2.95 w/s raw, 3.30 tightened), so atempo 1.06 reached 3.48 w/s. eleven_v4 billed 1,409 ElevenLabs
+  credits per take of 263 words.
+- **Network:** `huggingface.co` is still blocked (403), so Whisper ran in the Higgsfield sandbox (~1 min); one download from the generation
+  CDN reset and worked on retry.
+- **Scripts for video 06** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `06-script.txt`, `06-beat-sheet.md`
+  (with "As made"), `06-prompts.py` (STYLE, SET, CAMERA, LOCK, OUTLINE, REFS), `06-mk.py`, `06-clips.py` (FIXED), `06-jobs.tsv` (all job and
+  media ids), `06-whisper.py`, `06-timing.py`, `06-timeline.json`, `06-build.py` (HOLD, WIPE from PREV, one clip over two beats, labels,
+  height line), `06-labels.json`, `06-overlays.json`, `06-thumbnail.py`. Copy these for the next one-view Classic video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -1019,7 +1076,8 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   By Design look.
 - **Format and ideas:** second-person "how to" / "if you…" videos about famous real places and true extreme stories, nothing boring.
   The approved ideas are in section 2; the old lists were removed the same day.
-- **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176.
+- **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
+  which cost 158.75.
 - **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2).
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
@@ -1053,7 +1111,8 @@ the script describes how the topic we are building works." The agreed rules are 
   every second would cost about 210–230. Moments that only add a label hold on the last frame of the clip before, which is free and
   matches because it is the same view. Problems that hit the build in the main view are harder for Kling (video 05's storm clip came
   out wrong twice), so expect the odd redo at 7–11 credits; the 15% reserve covers it. At the 2,824 credits left after video 05, that
-  is about 12–17 videos.
+  is about 12–17 videos. **Measured on video 06 (12 Nov 2026): 158.75 credits** (19 stills 23.75 + 60 s of clips 135.00), inside the
+  estimate, with no clip redos.
 - **How to make it hold together:** make each stage still by editing the one before it, with the framing lock from 3.4g ("Keep exactly
   the same camera position, zoom and framing as the reference image"). Animate build beats from stage k to k+1 with start and end
   keyframes, which worked well in video 05 (the legs rising out of the sand; the barge out and the buoy in).

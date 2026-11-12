@@ -23,3 +23,21 @@ URNHOLES	54429f44-7da0-4b47-a64e-77d13418cc71	round 12
 URNSLICE	cbb2bb95-c65c-4bd3-8776-d60ecf514ccb	round 13
 C1	232404ac-a3de-43d5-98de-f8b03bd104ba	pilot clip B1-B2, kling4_0 5 s
 C2	3b559dcd-676d-48e5-9ce4-6b11be366e6d	pilot clip B3 (S0 -> S1), kling4_0 4 s
+C3	85446908-b850-4f76-af76-2270f008c390	B4 storm, 3 s
+C4	53043a6d-4982-4a0b-9d16-695daeb4fb1f	B5 STORM -> S2, 4 s
+C5	8056628d-3bfc-4470-9672-f5f1e6c19b43	B8 S2 -> S3b, 3 s
+C6	cb4a4656-dbca-467e-b917-7c33a0b6baef	B9 rubble, 5 s
+C7	2360bec5-f40d-4645-997e-039f335a04d1	B10 S3b -> S5, 5 s
+C8	c0079466-63f7-4842-938e-1f3b18bb2667	B11 S5 -> S6, 3 s
+C9	ef88d50e-b591-43a4-8764-5b9494b0bf03	B15 BROKE -> S7, 4 s
+C10	83c541b3-3c63-4d62-a6ee-a0d8e71b8209	B16 S7 -> S8, 5 s
+C11	4b8271da-93ad-4e67-b7cd-d7198479b225	B17 S8 dust settles, 4 s
+C12	464946e2-c5bb-4431-a2e2-be7ac06ba9d9	B20 explorer, 6 s
+C13	64e026c5-c574-40fb-9257-68a3270bca20	B22 URN -> URNHOLES, 4 s
+C14	f9d33d4f-0594-4e62-9897-de18daa8175b	B24 END wave, 5 s
+FINAL	9c3ccf8e-cf8f-43ee-bd71-3cec6ac41aeb	media_upload: final video 76.42 s (https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/9c3ccf8e-cf8f-43ee-bd71-3cec6ac41aeb.mp4)
+CLEAN	7915ceaa-682a-4760-ae5e-63219d0b551a	media_upload: clean master with narration, no captions or labels
+COVER_A_9x16	6a96ed0c-8f31-4cc9-91c6-3367317bf007	media_upload: cover A "CARVED / TOP DOWN" 1080x1920 (.jpg)
+COVER_A_3x4	01e2573a-58d9-44b1-afde-e32fd0e7f8bf	media_upload: cover A TikTok 3:4 upload 1080x1440 (.jpg)
+COVER_B	37d96132-abc0-4c97-b29b-7aee70a47e3e	media_upload: cover B "WHY THE / BULLET HOLES?" 1080x1920 (.jpg)
+COVER_C	27847837-eda0-4035-b67c-5f75d3a26547	media_upload: cover C plain END frame, no text (.jpg)

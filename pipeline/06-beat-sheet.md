@@ -80,3 +80,20 @@ EXPLORER, END -> (4) URN, URNHOLES, URNSLICE.
 - Narration: ElevenLabs connector, locked voice Daniel, eleven_v4: estimate 2,818 ElevenLabs credits for two takes (~$0.56),
   0 Higgsfield credits; no quota block (flow MJ96Xe95SwRqRmdOFjcK).
 - Pilot (Gate D): C1 hook and C2 channel (the first build beat).
+
+## As made (12 Nov 2026)
+- Narration: Daniel (eleven_v4), take A of two (89.36 s raw, 2.95 w/s) -> pauses tightened to ~0.15 s (80.09 s, 3.30 w/s) -> atempo 1.06
+  -> 75.56 s (3.48 w/s); video 76.42 s with the 0.9 s tail. Whisper (Higgsfield sandbox) matched 263/263 words. ElevenLabs 2 x 1,409 credits.
+- Stills: 19 generated for 18 used. One redo: S3 showed the mascot twice (on the top ledge and still in the plaza); S3b edited the
+  extra one out. INSIDE came out with the lower storey replaced by the open room (reads as the slice); URNSLICE sliced the dome
+  under the urn and turned the base to sand, hidden with a 1.2x top-anchored crop.
+- Clips from the real timings (06-timeline.json): C1 5 (B1+B2, split at 2.95 s), C2 4, C3 3, C4 4, C5 3, C6 5, C7 5, C8 3, C9 4, C10 5,
+  C11 4, C12 6, C13 4, C14 5 = 60 s (135.00). All 14 used as rendered, no redos. C8's prompt was changed from "slow pull-back" to a
+  fixed camera so the 39 M line stays on the facade; C1's "slow push-in" became a strong dolly-in to a close-up (kept).
+- No-clip beats: B6 and B12 hold the last frame of the clip before; B13 wipes from that frame into INSIDE; B18 fades from it into S9;
+  B7, B14, B19, B21 are stills with a push-in; B23 wipes URNHOLES -> URNSLICE with the top crop.
+- Labels (06-labels.json, measured on a 100 px grid): WATER CHANNEL y 1440; CISTERNS, INCENSE ROUTE, 363 AD, 600 YEARS, 1812 y 1345;
+  ROCK-CUT / ARCHITECTURE and AL-KHAZNEH / (THE TREASURY) two lines at 80 px; INDIANA JONES AND THE / LAST CRUSADE (1989) at 62 px;
+  dashed 39 M line at x 395 from y 190 to 1120 on B11-B12 (06-overlays.json). 263 caption cues, identical to the script; -15.6 LUFS.
+- Spend: 158.75 Higgsfield credits (quote 186.30, -15%): 19 stills 23.75 + 14 clips 135.00. Balance 2,824 -> 2,665.25.
+- Covers (06-thumbnail.py): A "CARVED / TOP DOWN" on S5 (recommended), B "WHY THE / BULLET HOLES?" on URNHOLES, C plain END frame.
