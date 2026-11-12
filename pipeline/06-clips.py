@@ -34,7 +34,7 @@ C = {
         f"top, then the half-pediments and the upper columns, while the man in the yellow hard hat steps down from ledge to ledge on the "
         f"uncut rock below them, chiselling as he goes; broken rock falls to the foot of the cliff, away from the finished carving. "
         f"Nothing above him changes once it is carved. {GUY}"),
- "C8": ("B11", "S5", "S6", f"Slow pull-back. The lower storey finishes carving itself: the columns, the pediment and the dark doorway "
+ "C8": ("B11", "S5", "S6", f"{FIXED} The lower storey finishes carving itself: the columns, the pediment and the dark doorway "
         f"appear as the last rough steps disappear; the man in the yellow hard hat hops down to the plaza and puts his hands on his "
         f"hips. The upper storey does not change. {GUY}"),
  "C9": ("B15", "BROKE", "S7", f"{FIXED} A line of camels loaded with bulging sacks walks out of the slot canyon into the plaza; gold "
