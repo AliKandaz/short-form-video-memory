@@ -7,4 +7,6 @@ Project memory for vertical 3D "How [humble thing] Can Become [impressive thing]
 - `branding/`: the channel's profile picture, banner, fit check and a transparent mascot cutout; rebuilt by `pipeline/branding/` (section 6.8 of `CLAUDE.md`).
 - `pipeline/youtube/`: read-only YouTube checks (channel snapshot with a made-for-kids check, competitor benchmarks, topic saturation search, handle availability). See section 6.7 of `CLAUDE.md`.
 
+- `tiktokshop.md`: memory for the sister project, TikTok Shop affiliate (US rules for joining, the plan to reach 1,000 followers, and how realistic $5,000 a month is).
+
 Live copy: the "Short-Form Video Memory" artifact on claude.ai. Keep both in sync.

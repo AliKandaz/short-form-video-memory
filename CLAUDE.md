@@ -25,6 +25,11 @@ only as labels on the build. The rules are in 3.4 and the reasons in 7.2. To mak
 (**renewed 11/11/26**). Video 06 (idea #9, Petra, 12 Nov 2026) was the first made under it: 158.75 credits against a 186.30 quote,
 no clip redos (3.4b, 3.4h).
 
+**Sister project (13 Nov 2026): TikTok Shop affiliate.** Its memory is `tiktokshop.md` in this repo, also attached to the memory
+artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, affiliate videos or TikTok monetisation. It holds the US
+rules for joining (1,000 followers to apply), the plan to get @overthinkingyearly there, and how our videos are doing on TikTok. The
+account is US-based (the user confirmed on 13 Nov 2026).
+
 ---
 
 ## 1. What we learned from the source video
@@ -896,6 +901,10 @@ interpretation of the data, not measured facts.
 - Avatar: a cartoon portrait (curly-haired person, teal hoodie, orange-purple background) with no link to the videos. Banner: the same
   picture, so the desktop banner shows a strip of forehead and eyes.
 - TikTok @overthinkingyearly: 7 followers, 6 videos, 65 likes.
+- **TikTok on 13 Nov 2026 (22:30 UTC):** 44 followers, 485 likes, 6 videos, 34.7K views: seawater 25.5K, hydrant 6.1K, canoe 1.5K,
+  mud house 990, Aquarius 376 (2 days old), Petra 291 (1 day old). About 1.3 followers per 1,000 views. So far the everyday "how does
+  it work" questions beat the famous places on TikTok (small sample, and the last two are young). The bio now reads "Start with
+  something simple. Add problems, A few fixes later it's a project." The plan to reach 1,000 followers is in `tiktokshop.md` section 4.
 
 | Short | YouTube id | Posted | Views | Likes | Notes |
 |---|---|---|---|---|---|
@@ -1060,8 +1069,9 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   entry pace, 10M views per 90 days, is worth about $100–230 a month.
 - **TikTok Creator Rewards:** 10K followers, 100K views in the last 30 days, age 18+, an eligible country, videos of 60 s or more,
   and only posts made after joining earn. Quoted at about $0.40–1.00 per 1,000 qualified views (some US figures up to $2), roughly
-  ten times Shorts, so $3,000 = about 3–7.5M qualified views a month. Our ~75 s videos already qualify on length. **The user's
-  country is not known**, so eligibility is unconfirmed: ask before planning around it.
+  ten times Shorts, so $3,000 = about 3–7.5M qualified views a month. Our ~75 s videos already qualify on length. **The account
+  is US-based** (the user confirmed on 13 Nov 2026), and the US is an eligible country. TikTok's support page gives the same thresholds
+  and adds that the account must be a personal one, not a Business account (search summary, 13 Nov 2026).
 - **Long videos on YouTube:** quoted at $1–10 per 1,000 views, so $3,000 = about 0.3–3M views a month.
 - **Cost side:** third-party pricing pages put Higgsfield at about $5 per 100 top-up credits (Plus $49–59 a month for 1,000–1,200
   credits; not checked against the user's own plan), so a Lite video costs roughly $5–7 and needs about 80–190K Shorts views to pay
