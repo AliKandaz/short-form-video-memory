@@ -30,6 +30,11 @@ artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, af
 rules for joining (1,000 followers to apply), the plan to get @overthinkingyearly there, and how our videos are doing on TikTok. The
 account is US-based (the user confirmed on 13 Nov 2026).
 
+**New brief from the user (14 Nov 2026): more engaging ideas.** They find the section 2 ideas and hooks boring. They want creative
+topics that hold viewers, start arguments in the comments and turn viewers into followers, and not only builds (military, vehicles,
+engineering). Five "Who wins?" matchup ideas are proposed in section 2b and **wait for the user's approval: produce nothing from 2b
+until they approve it.** The brief is in 7.3 and the comment data behind the proposal in 7.4.
+
 ---
 
 ## 1. What we learned from the source video
@@ -270,6 +275,159 @@ survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with ex
 Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
 a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
 Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
+
+### 2b. Proposed 14 Nov 2026: five "Who wins?" ideas (AWAITING THE USER'S APPROVAL)
+
+**Status: proposed, not approved. Do not script or produce any of these until the user approves them.** When they do, move the
+approved ones into the list above and record what they said in section 7. The list above stays as it is until then.
+
+- **The brief** (7.3): ideas that keep people watching, make them comment and argue, and turn them into followers. Not only builds.
+  The user suggested military, vehicles and engineering and asked what I think.
+- **My answer on the topics:** yes, they are good topics. Tanks, warships, jets and cars have large audiences that argue in the
+  comments, and Shorts on these subjects reach millions (figures under each idea). Two cautions. These viewers punish wrong facts,
+  so the fact-check matters more than before. And TikTok restricts weapon content (see "Platform rules" below), so the ideas stay
+  with machines, history and what-ifs: no small arms, no how-to, no current wars, nobody shown getting hurt.
+- **What the data says** (7.4): explainers in this format get almost no comments (0.2–0.3 per 1,000 views). What-ifs get two to
+  four times more, and the most-commented videos put a choice to the viewer or touch something people already argue about. On the
+  one account that posts both, what-ifs also have a median of 457K views against 35K for builds. So a good topic is not enough:
+  each video needs a question the viewer can answer in two words.
+- **The frame: every video is a matchup.** Two sides are on screen from the first frame, a scoreboard label counts through the
+  video, and it ends on a verdict question. A vote is the easiest comment to write, and the scoreboard is a reason to stay.
+- **Rules for these five** (on top of sections 1 and 5):
+  1. Hook: a claim that sounds wrong, with a number, inside the first 3–4 seconds. Both sides are in the first frame, and the labels
+     must make the hook work with the sound off. Second person stays. P2, P3 and P4 open on a cold claim before the first "you";
+     that changes the "Open with If you…" line of the section 5 prompt and needs the user's OK.
+  2. First "But" by about 4 s. Seven or eight But/So beats, as before.
+  3. Scoreboard: one or two labels that change through the video (SHELLS 42 → 0). Labels on the scene fit the 3.4 shot rule.
+  4. One arena, one main view: the 3.4 shot rule applied to a matchup. The camera stays on the arena and every line changes
+     something in it. To show how a machine works, slice it open from the same view.
+  5. Ending: our loop line stays (4.3) and there is no spoken call to action (4.2). The verdict question is the last on-screen
+     label, the caption and the pinned comment.
+  6. Pinned comment: the verdict question plus "Top comment picks the next matchup." @thewhatifstudio's captions say "You asked for
+     it": requests are comments, and waiting for the result is a reason to follow.
+  7. Answer the strongest objection with a short reply video (TikTok's reply-with-video). Likely objections are listed per idea.
+  8. Never plant a mistake to bait corrections. What stays open is the verdict, not the facts.
+- **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
+  for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
+  from TikTok's analytics for the old videos and the new one; we can't see those from outside.
+- **Order I'd make them in:** P4 first (the widest audience and no weapons), then P1, P3, P2, P5.
+- **Chains are drafts**, as in the list above: ✔ was checked by web search on 14 Nov 2026, ⚠ still needs checking before Gate A.
+
+**P1. One Modern Tank vs 100 Tiger Tanks** (a what-if: an M1A2 Abrams in 1944)
+- Arena: a French field with hedgerows from a raised three-quarter view. Our sand-coloured tank sits on a ridge at the left with
+  the mascot in the commander's hatch; grey Tigers fill the field. Labels: SHELLS 42 and TIGERS 100.
+- Hook: "If you take one modern tank back to 1944, nothing on the battlefield can hurt you. But you only have 42 shells, and a
+  hundred Tigers are coming." Alternates: "One modern tank. Forty-two shells. A hundred Tiger tanks. Who wins?"; "A modern tank
+  could fight all of 1944 and still lose."
+- Chain: their 88 mm guns kill anything in 1944 -> your layered front armour breaks their shells up ⚠ -> there are a hundred of
+  them -> you fire first, from about 2.5 miles against their half mile, and the computer makes the first shot count ⚠ (both
+  counters fall) -> night comes -> you see heat and they see nothing (THERMAL SIGHT) ⚠ -> they circle to your thinner sides ⚠ ->
+  you never stop: you shoot on the move (STABILIZER) while they must halt to aim ⚠ -> one hit on a track and you are stuck
+  (MOBILITY KILL) -> SHELLS 0, TIGERS 58: your machine guns only scratch them, and nobody in 1944 makes your ammunition -> your
+  jet engine burns about two gallons a mile ✔ (500 gallons for about 265 road miles) -> it can drink their fuel (MULTI-FUEL) ⚠.
+- Twist: the tank is not the weapon; the supply line is. Without its trucks a modern tank is out of the fight in hours.
+- Ending: "Pick your shots, guard your tracks, and count to forty-two." Verdict: "42 SHELLS vs 100 TIGERS: WHO WINS?"
+- Objections to answer: "just ram them", "the Tigers break down first", "what about their planes".
+- Why it should work: who-would-win is what the tank audience comments on, and the shell count makes the answer truly open.
+- Shorts: "Tanks Lore" 9.1M, "Modern Tank in The Napoleonic Wars?" 1.7M, "Tiger I vs Leopard 2A7" 968K. Closest: "20 WWII Tiger
+  Tanks vs 1 Modern M1 Abrams: Who Would Win?" 215K. Long video "100 MAUS vs 1 ABRAMS" 2.7M.
+- Checked ✔: 42 rounds, 500 gallons, 42 mph on roads and 25 off-road, 265-mile road range. Watch out: machines only, no flags or
+  symbols on the Tigers, nobody shown hit.
+
+**P2. The $100 Million Submarine That "Sank" a $4.5 Billion Aircraft Carrier** (HSwMS Gotland and USS Ronald Reagan, war games, 2005)
+- Arena: a slice of ocean. The carrier and its escorts are on the surface, the small submarine is below, the seabed at the bottom.
+  The mascot is at the periscope inside the sliced-open sub. Labels: $100M and $4.5B, then DISTANCE TO CARRIER counting down.
+- Hook: "In a 2005 war game, a 100-million-dollar submarine sank a 4.5-billion-dollar aircraft carrier. Then the Navy rented the
+  submarine." Alternate: "If you want to sink an aircraft carrier, you don't need a bigger ship. You need a quieter one."
+- Chain: if you want to do it, you have to pass the bodyguards: destroyers, a cruiser, helicopters and a hunting submarine, all
+  listening ⚠ -> a diesel sub must come up for air to run its engines, and radar spots the snorkel ⚠ -> bring your own air: liquid
+  oxygen feeds a STIRLING ENGINE that charges the batteries underwater ✔, for about two weeks ⚠ -> engines are loud -> this one
+  burns steadily with no explosions, and you can switch almost everything else off; a nuclear sub's reactor pumps never stop ⚠ ->
+  aircraft sniff for your steel hull with magnetic detectors -> electromagnets cancel your magnetic field ⚠ -> you are slow, about
+  5 knots ⚠ -> so you don't chase; you wait where the carrier must pass (AMBUSH) -> you slide under the escorts, raise the
+  periscope and photograph the carrier, which in a war game is a kill ⚠.
+- Twist: the US Navy leased the boat and its Swedish crew for a year, then for a second ✔, to learn how to find it.
+- Ending: "Bring your own air, kill the noise, and wait." Verdict: "$100M SUB vs $4.5B CARRIER: ARE CARRIERS OBSOLETE?"
+- Objections to answer: "war games tie the carrier's hands", "a carrier does 30 knots and the sub does 5", "nuclear subs are better".
+- Why it should work: the cheap thing beats the expensive thing, nobody was hurt, and the verdict is a live argument among navy fans.
+- Shorts: best 1M ("How a US aircraft carrier sunk by a Swedish submarine"), then 154K and 12K. Real Engineering's long video has
+  10.1M. A proven story that is thin on Shorts.
+- Checked ✔: the 2005 exercise, the simulated torpedo attack, the 2005–2007 lease with a Swedish crew. The prices are press
+  figures (the carrier is also quoted at $6B). Always say "in a war game" in the same sentence as "sank".
+
+**P3. The Pickup Trucks That Beat a Tank Army** (the Toyota War, Chad against Libya; Battle of Fada, 2 Jan 1987)
+- Arena: a desert base from a raised three-quarter view. Tanks are dug into sand walls facing outward; white pickups circle with
+  dust trails. The mascot drives the lead pickup. Labels: TANKS LOST 0 → 92 and PICKUPS LOST 0 → 3.
+- Hook: "In 1987, an army in pickup trucks destroyed 92 tanks in a single battle. It lost three pickups." Alternate: "If your enemy
+  has tanks and you have pickup trucks, you have one rule: never slow down."
+- Chain: if you fight a tank from a pickup, one shell ends you -> a tank's turret takes about 20 seconds to turn a full circle ⚠, so
+  at 60 mph you cross its sights faster than it can follow (SPEED IS ARMOUR) ⚠ -> your bullets bounce off -> bolt an anti-tank
+  missile launcher in the bed: the French MILAN ✔ reaches about a mile and burns through the armour ⚠ -> minefields ring the base ->
+  reportedly you cross them flat out, so the mines go off behind you ⚠ (verify or cut) -> there are far more tanks than trucks ->
+  they are dug in and face one way; you come from every side at once, two pickups to a tank ✔ (SWARM) -> their jets -> shoulder-
+  fired missiles ride in the trucks too ⚠.
+- Twist: the war is named after the trucks, the Toyota War; about 400 of them came from France ✔.
+- Ending: "Bolt on a missile, floor it, and never slow down." Verdict: "TANK OR TOYOTA?" (pinned: "Was it the trucks or the tactics?")
+- Objections to answer: "the tank crews were badly trained", "try that against a modern tank", "the missiles did it, not the trucks".
+- Why it should work: an underdog with a score nobody believes, and two tribes at once (truck owners and military fans).
+- Shorts: 5.9M ("Why Toyota is the Market Leader of Modern War"), 1.8M, 683K ("This Pickup Truck Beat 300 Tanks").
+- Checked ✔ (Wikipedia's Battle of Fada figures): 92 T-55 tanks and 33 other armoured vehicles destroyed, 3 pickups lost, 784
+  Libyan and 18 Chadian dead. Watch out: a real battle with real dead. Count machines, show nobody hit, draw no badges.
+
+**P4. 1959 Car vs 2009 Car: One Driver Walks Away** (the IIHS crash test of 9 Sep 2009)
+- Arena: a crash-test hall. The two cars face each other on a track, both sliced open along the side so the cabins show. The
+  mascot is "you" as the crash dummy, in his yellow hard hat. Labels: 1959, 2009, 40 MPH, then CABIN PUSHED IN: 62 cm and 7 cm.
+- Hook: "One of these drivers walks away. The other doesn't. Pick your car." Then: "If you picked the old one, you picked nearly
+  two tons of solid steel ⚠. But solid is the problem." Alternates: "They don't build them like they used to. Good."; "If you crash
+  a 1959 car into a 2009 car, you'd bet on the old one. You'd lose."
+- Chain: steel that doesn't bend stops the car in an instant, and you keep going at 40 mph until the steering wheel stops you ⚠ ->
+  so the new car is built to wreck itself: the front folds like an accordion and stretches the stop (CRUMPLE ZONE) -> if the whole
+  car folded it would fold onto you -> a cage of stronger steel around the seats holds its shape (SAFETY CAGE): the old cabin was
+  pushed in 62 cm at the driver's feet, the new one 7 cm ✔ -> you still fly forward -> the belt locks and pulls tight ⚠ and an
+  airbag fills in about 30 thousandths of a second ⚠ -> the steering column is a spear -> it collapses instead ⚠.
+- Twist ("that's why"): a small crash "totals" a modern car because it is built to wreck itself for you. Per mile driven, far fewer
+  Americans die on the road than in 1959 ⚠.
+- Ending: "Fold the front, cage the middle, and catch the driver." Verdict: "STILL THINK THEY DON'T BUILD THEM LIKE THEY USED TO?"
+- Objections to answer: "old cars were real steel", "that old car was rusty", "try it with an old pickup".
+- Why it should work: everyone drives, everyone has heard the saying, and the answer starts a fight between generations. The
+  opening makes the viewer choose a side before the first fact.
+- Shorts: 2.8M ("Crash Test: Classic vs Modern"), 926K ("What Happens When a 1959 Chevy Hits a Modern Car?"), 326K: all real
+  footage. The test videos have 12M and 10.9M. No animated "why" version found.
+- Checked ✔: a 40 mph offset frontal test; the Bel Air's cabin collapsed and the Malibu's stayed intact; 62 cm against 7 cm at the
+  footrest; rated Poor against Good; the Malibu's worst score was the left leg and foot. Watch out: the dummy takes the hit and
+  nobody "dies" on screen; no car badges.
+
+**P5. Race Car vs Gravity: Driving on the Ceiling**
+- Arena: a long tunnel sliced open along its length, with the car on the ceiling and the mascot hanging in the seat. Labels: SPEED
+  in mph, and two bars, DOWNFORCE and WEIGHT.
+- Hook: "If you drive a race car fast enough, it sticks to the ceiling. But the moment you slow down, you fall." Alternates: "A
+  Formula 1 car could drive upside down. So why did nobody do it until 2025?"; "Could you drive a car on the ceiling?"
+- Chain: wings push the car down (DOWNFORCE) -> above about 100–150 mph the push beats the car's weight ✔ -> but then the tyres
+  barely touch, so you go faster still to have grip ⚠ -> the engine expects gravity: the oil pools on the wrong side and it
+  seizes ⚠, and the fuel pick-up runs dry ⚠ -> you can't brake: slow down and you drop -> you need miles of tunnel and a twisting
+  ramp to roll onto the ceiling and off again ⚠ -> so for decades it stayed a bar bet.
+- Twist: in April 2025 a British fan car did it at walking pace ✔. Fans under the car pull it to the surface with about 2,000 kg of
+  force, twice its weight, even standing still (the maker's figure); it drove upside down for about five seconds on a rig ✔.
+- Ending: "Build the wings, hold your speed, and whatever you do, don't lift." Verdict: "DOES THE FAN CAR COUNT? WOULD YOU DRIVE IT?"
+- Objections to answer: "an F1 car has never done it", "the fan car cheated", "the driver would black out".
+- Why it should work: a claim nearly every car fan has heard and argued about, with a new ending most of them haven't seen.
+- Shorts: 4.8M ("The Car I'm Going to DRIVE UPSIDE DOWN"), 1.9M, 1.1M, 387K: talking heads and real footage. No animated tunnel
+  version found.
+- Checked ✔: McMurtry Spéirling, 11 Apr 2025, driven by co-founder Thomas Yates, about 5 s upside down on a purpose-built rotating
+  rig. Watch out: a generic race car, no team colours or logos.
+
+**Checked and not picked (14 Nov 2026):** the A-10 built around its gun (Shorts 1.6M and 945K, and a "How a Water Gun Becomes an A-10
+Warthog" build already exists at 58K; verdict "retire it or keep it?"); one modern aircraft carrier at Pearl Harbor (long videos
+5.8M, 1.6M, 1.5M and no strong Short: the next what-if if P1 works); American long-nose trucks against European flat-nose trucks
+(5.5M, 3.8M, 1.1M: crowded, but a ready-made argument between countries); why the Abrams tank runs on a jet engine (5.4M); five
+Shermans for one Tiger (1.3M, 105K); the Soviet tank with wings (best 175K: little demand shown); the Ghost Army's inflatable tanks
+(best Short 6.4K: no demand shown); escaping a sinking car (31M, 25M, 23M: crowded).
+
+**Platform rules (web search, 14 Nov 2026; TikTok's own page was not readable in full):** TikTok does not allow showing or
+promoting firearms or explosive weapons outside a safe or appropriate setting, and lists fictional settings among the exceptions.
+One third-party reading of the 24 Sep 2026 update says firearm content is age-restricted and kept off the For You feed. Tanks,
+ships and jets in animation are not named either way. So after posting P1, P2 or P3, check the video's analytics for a For You
+restriction before making the next military one. YouTube's rules were not checked.
 
 ---
 
@@ -1126,3 +1284,39 @@ the script describes how the topic we are building works." The agreed rules are 
 - **How to make it hold together:** make each stage still by editing the one before it, with the framing lock from 3.4g ("Keep exactly
   the same camera position, zoom and framing as the reference image"). Animate build beats from stage k to k+1 with start and end
   keyframes, which worked well in video 05 (the legs rising out of the sand; the barge out and the buoy in).
+
+### 7.3 New brief: ideas that start arguments (the user, 14 Nov 2026)
+The user: "I feel like the video ideas aren't good enough the hooks don't keep people watching the ideas are boring. I need ideas that
+are creative that will keep people watching and switch to followers, topics that will get engagement where people will comment there
+opinions on the topic and debate. the video ideas don't necessarily need to be just about building. topics like military, vehicles,
+engineering, etc I feel like are good topics what do you think? if you have better options use those." They asked for five ideas and
+to stop and wait for approval.
+- **Delivered:** the five "Who wins?" matchups in 2b (P1–P5), with hooks, chains, verdict questions and a Shorts check for each.
+- **Waiting on the user:** which of P1–P5 to make (my order: P4, P1, P3, P2, P5); whether a video may open on a cold claim instead
+  of "If you…" (P2, P3, P4); and whether "Who wins?" becomes the running series. The eight unused ideas in section 2 stay approved
+  until they say otherwise.
+- **Still locked:** the Classic look, the mascot as "you", the 3.4 shot rule (as "one arena, one main view"), the loop ending.
+
+### 7.4 What gets comments in this format (TikTok, read 14 Nov 2026)
+Read with `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>`; each entry carries `view_count` and `comment_count`.
+
+| Account | Videos | Views | Comments | Comments per 1,000 views |
+|---|---|---|---|---|
+| @thewhatifstudio (what-ifs, then builds) | 38 | 21.5M | 14,105 | 0.66 |
+| @howbuildingexplained (builds) | 22 | 20.9M | 6,534 | 0.31 |
+| @1hidden_by_design (how it works) | 10 | 20.7M | 3,670 | 0.18 |
+| Ours | 6 | 34.7K | 9 | 0.26 |
+
+- **Most comments per 1,000 views** (videos over 20K views): "What if all wood disappeared for 5 seconds?" 1.7; "every human on Earth
+  sneezed" 1.5; "What if everything went wrong today?" 1.4; "glucose disappeared… What would you lose first?" 1.3; "every man on
+  Earth disappeared" 1.3; How Building Explained's nuclear power plant 1.0 (its Kremlin got 0.1); "a penny doubled every day…
+  Would you take the penny?" 0.8.
+- **My read:** comments come from a choice put to the viewer, from a subject people already argue about (nuclear power, men and
+  women), and from requests (@thewhatifstudio's captions say "You asked for it"). Views and comments are different things:
+  @1hidden_by_design has the steadiest views and the fewest comments per view.
+- **The same account, two formats:** @thewhatifstudio's 28 what-ifs have a median of 457K views (41K to 2.6M) and 0.70 comments per
+  1,000 views. Its 8 builds have a median of 35K (14K to 1.4M, the top one being Derinkuyu) and 0.30. The builds came later (from
+  late October), so timing may play a part. Its copy of the bamboo jungle house got 31K against How Building Explained's 9.7M.
+- **Updates to section 4.1:** @1hidden_by_design now has 10 videos and 20.7M views: storm drain 9.8M, roof 4.1M (it had 19K after
+  1.5 hours on 8 Nov), landfill 3.7M, water well 979K, river tunnel 878K, power lines 339K, gas station 108K, and a new one, "Building
+  a beach is easy… until the ocean takes it back", 42K after five days.
