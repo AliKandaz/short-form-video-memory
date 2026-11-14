@@ -32,8 +32,9 @@ account is US-based (the user confirmed on 13 Nov 2026).
 
 **Ideas (approved by the user, 14 Nov 2026): four "Who wins?" matchups.** The user found the earlier ideas and hooks boring and asked
 for topics that hold viewers, start arguments in the comments and turn viewers into followers (military, vehicles, engineering; not
-only builds). They approved P1–P4, now section 2, rejected P5, and had the ten older ideas removed "for now". Two questions are
-still open and go to Gate A of the first matchup (section 2). The brief is in 7.3 and the comment data in 7.4.
+only builds). They approved P1–P4, now section 2, rejected P5, and had the ten older ideas removed "for now". The brief is in 7.3
+and the comment data in 7.4. **P4 became video 07 the same day**, the first matchup: 157.25 credits against a 177.68 quote, no clip
+redos, opened on a cold claim (3.4b, 3.4i). One question is still open: whether "Who wins?" becomes the running series (section 2).
 
 ---
 
@@ -154,16 +155,17 @@ video log). The removed ideas and the full P5 are in the repo history at commit 
      label and the caption.
   6. Answer the strongest objection with a short reply video (TikTok's reply-with-video). Likely objections are listed per idea.
   7. Never plant a mistake to bait corrections. What stays open is the verdict, not the facts.
-- **Asked on 14 Nov 2026 and not answered yet: raise both at Gate A of the first matchup.**
-  - P2, P3 and P4 open on a cold claim before the first "you", which breaks the "Open with If you…" line of the section 5 prompt.
-    At Gate A, show the opening both ways and let the user pick.
-  - Whether "Who wins?" becomes the running series, with the verdict question and "Top comment picks the next matchup" as the
-    pinned comment. (@thewhatifstudio's captions say "You asked for it": requests are comments, and waiting for the result is a
-    reason to follow.)
+- **The two questions asked on 14 Nov 2026:**
+  - **Opening: answered at video 07's Gate A.** The user picked the cold claim ("Only one of these drivers walks away. Pick your
+    car.") over the "If you…" version; it still landed the first "But" at ~3 s. Show both ways again at Gate A of P1–P3.
+  - **Still open:** whether "Who wins?" becomes the running series, with the verdict question and a pinned comment. Recommended at
+    video 07's Gate A: pin a vote between our checked ideas (P1, P2, P3) rather than "Top comment picks the next matchup", so the
+    next topic stays inside what is fact-checked and inside TikTok's weapon rules. (@thewhatifstudio's captions say "You asked for
+    it": requests are comments, and waiting for the result is a reason to follow.)
 - **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
   for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
   from TikTok's analytics for the old videos and the new one; we can't see those from outside.
-- **Order I'd make them in:** P4 first (the widest audience and no weapons), then P1, P3, P2.
+- **Order:** P4 done (video 07, 14 Nov 2026). Next P1, then P3, P2.
 - **Chains are drafts:** ✔ was checked by web search on 14 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the title before Gate A (6.7).
 
@@ -250,6 +252,20 @@ video log). The removed ideas and the full P5 are in the repo history at commit 
 - Checked ✔: a 40 mph offset frontal test; the Bel Air's cabin collapsed and the Malibu's stayed intact; 62 cm against 7 cm at the
   footrest; rated Poor against Good; the Malibu's worst score was the left leg and foot. Watch out: the dummy takes the hit and
   nobody "dies" on screen; no car badges.
+- **✅ USED: video 07, 14 Nov 2026** (3.4b, 3.4i). As made: opening A (the cold claim), script in `pipeline/07-script.txt`; the arena
+  seen from high above with the 1959 car at the bottom (a plain dummy, no belt) and the 2009 car at the top (the mascot, belted, seen
+  through the windshield); FOOTWELL PUSHED IN 24 IN against 3 IN as the scoreboard; verdict label "STILL THINK THEY DON'T BUILD
+  THEM LIKE THEY USED TO?". Cut from the draft chain: "nearly two tons" (the Bel Air weighed about 3,600 lb, about the same as the
+  Malibu's 3,400–3,650), "steel that doesn't bend" (the old car did bend, into its cabin), "30 thousandths of a second" (sources
+  give 20–50 ms, so "faster than you can blink"), and the per-mile death rate (5.06 per 100M miles in 1960, 1.26 in 2023: true,
+  but nothing on the cars shows it and belt laws, roads and drunk-driving laws share the credit). Verified for the script: no belts
+  or airbags in the test Bel Air; its dummy's head hit the wheel, the roof and the metal dash; the wheel moved up and back; the
+  windshield came out, the driver's door opened and the bench seat tore loose; the Malibu had front belt pretensioners and front
+  airbags as standard; GM brought in collapsible columns for 1967 and every US car needed one from 1 Jan 1968; crumple zones (the
+  Mercedes W111) and the three-point belt (the Volvo PV544) both went on sale in 1959 (the twist). Reply-video answers: the Bel Air
+  had its engine (a straight six; Jalopnik, Sep 2009) and was in good condition with a little engine rust (its former owner, via The
+  Truth About Cars); the two cars weighed about the same. Saturation check of the title: at least 7 near-identical Shorts, best 926K
+  ("What Happens When a 1959 Chevy Hits a Modern Car?", 4 weeks old), the rest 29K–64K, all re-posting the crash footage.
 
 **Not in the list (14 Nov 2026):**
 - **Rejected by the user:** a race car driving on the ceiling (it was P5; "I don't like p5"). Shorts on it reach 4.8M, 1.9M and
@@ -306,7 +322,7 @@ credits (the 61.13 left were reset). Always call `balance` at the start of a run
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s) |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
@@ -520,6 +536,27 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   Known edit candidates: the hook pushes in to a close-up of the mascot (Kling read "slow push-in" as a dolly-in); in C5 he leaps up the cliff
   to the ledge; INSIDE drops the lower storey to show the room; URNSLICE cuts the dome, not the urn on top; the mascot is large next to the facade.
 
+- **07 1959 Car vs 2009 Car: One Driver Walks Away** (Middle, P4, the first "Who wins?" matchup, Classic look, one arena in one main view,
+  loop ending) — DELIVERED v1, 14 Nov 2026. 77.00 s, 1080×1920, 24 fps, −15.2 LUFS, 23 beats, 270 words (272 spoken). Higgsfield spend
+  **157.25 cr** (quote 177.68, −11.5%): 16 seedream stills 20.00 (10 used + the S0T base + 5 tries and fixes) + 11 kling4_0 clips 137.25
+  (61 s, no redos). ElevenLabs: 2 takes × 1,387 credits; take A at 1.03×.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/35f8a478-c94f-4893-a326-552efd58100a.mp4 (media_id 35f8a478-c94f-4893-a326-552efd58100a);
+  clean master with narration and no captions: media_id f898830c-b0e8-4ebd-b3cd-a83ed0569f46. Higgsfield project "HBX – 1959 Car vs 2009 Car"
+  (folder f5ea6596-e005-46f2-a7b0-cd016a6cf293). ElevenLabs flow kOKX6WGXJo1KWbsqBlsK. Gate D preview (B1–B4) was sent as a file, not uploaded.
+  Post copy: YouTube title "1959 Car vs 2009 Car: Only One Driver Walks Away", description "In 2009, crash testers at the Insurance
+  Institute for Highway Safety drove a 1959 Chevrolet Bel Air into a 2009 Chevrolet Malibu, both at 40 mph. Here is that crash slowed
+  right down: the crumple zone, the safety cage, the belt, the airbag and the steering column, and why the old car's footwell was
+  shoved in two feet while the new one moved about three inches. Which car would you rather be sitting in? #CrashTest #CarSafety
+  #HowItWorks"; TikTok "Only one of these drivers walks away. Which car are you picking? 🚗" + #HowItWorks #Engineering #LearnOnTikTok
+  #3DAnimation #CrashTest #CarSafety.
+  Covers (`pipeline/07-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg): **A "PICK YOUR /
+  CAR" (recommended)** on the mid-crash frame with 2009 and 1959 tags: 1080×1920 b671811c-ae4c-48d0-8c8a-c1534e476dfb, TikTok 3:4
+  2472c704-09df-4665-b931-b25d77d5252f; B "BUILT LIKE / A TANK?" on the old car coming apart cca50859-44fe-413f-9ca3-6f6f57fc9383; C plain
+  airbag frame, no text 59c90763-3435-4474-a227-6cf4d2037fea.
+  Known edit candidates: the hook is frozen at the moment of contact (seedream would not leave a gap); a small generic emblem on the red
+  car's grille; the belt clip (C6) barely moves, so the hold after it pushes in on him; the old car is open from above, so line 11's
+  "the roof" has no roof to hit; C3 plays at 1.25× and C11 at 1.19× to fit their lines.
+
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
 - Kling returns 724×1284; it upscales to 1080×1920 fine. Minimax returns 1440×2560, 24 fps, ~0.17 s longer than asked.
@@ -708,6 +745,43 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   (with "As made"), `06-prompts.py` (STYLE, SET, CAMERA, LOCK, OUTLINE, REFS), `06-mk.py`, `06-clips.py` (FIXED), `06-jobs.tsv` (all job and
   media ids), `06-whisper.py`, `06-timing.py`, `06-timeline.json`, `06-build.py` (HOLD, WIPE from PREV, one clip over two beats, labels,
   height line), `06-labels.json`, `06-overlays.json`, `06-thumbnail.py`. Copy these for the next one-view Classic video.
+
+### 3.4i Lessons from video 07 (apply next time)
+- **A two-sided arena in a vertical frame:** two cars side by side come out tiny in 9:16; stacked top to bottom and seen from high above
+  they fill it (the user approved the steeper view at Gate A). The car facing the camera keeps its roof and we see the mascot through
+  its windshield; the car facing away is opened from above so its cabin shows.
+- **S0 took three fresh tries and one edit:** seedream drew the cars touching every time ("about two metres apart; they are not
+  touching" was ignored), so the video opens frozen at the moment of contact. The diorama look needed video 06's wording ("a square
+  block of ground … the front edge cut straight down like a slice of cake … a cross-section of … soil"); without it the pad came out like
+  a photo of a car park. The 1959 batwing fins came only with "seen from above, its back end spreads into two wide, flat, wing-like tail
+  fins that stick out past the sides of the car". In a top view, check which way each figure faces: the base still had the dummy facing
+  backwards, and one edit turned it around.
+- **Edits fixed pose and placement first time:** "no longer waves: grips the steering wheel and braces" (S1b); a crush that was too mild
+  became one that reads when the edit named the distance and its effect ("about two feet back into the cabin, so the dashboard now
+  presses against the dummy's knees", S2b); an airbag drawn beside him moved in front of him ("bursting out of the steering wheel he is
+  holding … covers his chest and the lower half of his face", S4b). Pass the mascot reference again on stills that show him whole (his
+  beard faded in S6).
+- **A glowing part as free motion:** an edit of the same frame with one part glowing (the cage orange, the steering columns red), faded
+  in over the last frame of the clip before, reads as an x-ray reveal at no clip cost.
+- **Kling handled a slow-motion crash between keyframes:** 11 of 11 clips usable as rendered (61 s), including 9 s and 7 s clips that
+  crush the cars from one still to the next. All nine clips of the second batch were accepted at once on Ultra and finished in ~7–17
+  minutes (the 3 s belt clip was the slowest). A small motion (a belt pulling tight) does not read from high above; a free push-in on
+  the hold after it sells the line (`('focus', fx, fy, zoom)` in `07-build.py`).
+- **Text when the subject fills the middle:** the impact point sat at mid-frame, so captions moved to the old car's trunk (y 1330) and
+  labels went into one left-hand column (TikTok's buttons are on the right); long labels sit on the red car's roof. Scoreboard counters
+  roll the number up (`count` in `07-labels.json`); the final question has its own boxed style (`Verdict`).
+- **Narration in parallel:** the voice script is fixed at Gate A, so the two takes can start as soon as Gate B is approved. Pick the take
+  from Whisper's punctuation and pauses: take B read "The question is where?" as a question and ran "holds. Worst case" together. Take A:
+  88.72 s raw (3.07 w/s), 78.44 s with tightened pauses (3.44), atempo 1.03 → 76.16 s (3.55 w/s); Whisper matched 270/270 words.
+- **One clip can carry two lines:** `07-build.py` builds segments of several beats (C2 B2–B3, C4 B6–B7, C5 B10–B11, C7 B14–B15). A clip
+  up to ~4% short of its lines plays slightly slower instead of buying another second.
+- **Fact-check network:** classroom.iihs.org and the blog that reviews the IIHS report are outside the network policy; WebSearch
+  summaries were used for the figures.
+- **Scripts for video 07** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `07-script.txt`, `07-beat-sheet.md`
+  (with the changes after Gate B), `07-prompts.py` (STYLE with the steep view, SET as a cut diorama block, OLD, NEW, DUMMY, CUTAWAY, LOCK,
+  REFS), `07-mk.py`, `07-clips.py` (FIXED, SLOW), `07-jobs.tsv` (all job and media ids), `07-whisper.py`, `07-timing.py`, `07-timeline.json`,
+  `07-build.py` (multi-beat segments, focus moves, counters, the Verdict style), `07-labels.json`, `07-thumbnail.py`, `07-ladder.jpg`.
+  Copy these for the next matchup.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -1092,7 +1166,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 - **Format and ideas:** on 11 Nov the user asked for second-person "how to" / "if you…" videos about famous real places and true
   extreme stories, nothing boring. **Replaced on 14 Nov 2026** by the four "Who wins?" matchups in section 2 (7.3).
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
-  which cost 158.75.
+  which cost 158.75; 2,508 left after video 07, which cost 157.25.
 - **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2).
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
@@ -1142,8 +1216,8 @@ to stop and wait for approval.
 - **The user's decision (14 Nov 2026):** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
   these 4 for now". P1–P4 are now section 2. P5 (a race car on the ceiling) and the ten older ideas were removed; they are in the
   repo history at commit `92a077a`.
-- **Not answered yet** (raise at Gate A of the first matchup): whether P2, P3 and P4 may open on a cold claim instead of "If you…",
-  and whether "Who wins?" becomes the running series with "Top comment picks the next matchup" as the pinned comment.
+- **Answered at video 07's Gate A:** the cold claim, for P4 (show both openings again for P1–P3). **Still open:** whether "Who wins?"
+  becomes the running series, with a pinned vote on the next matchup (section 2).
 - **Still locked:** the Classic look, the mascot as "you", the 3.4 shot rule (as "one arena, one main view"), the loop ending.
 
 ### 7.4 What gets comments in this format (TikTok, read 14 Nov 2026)

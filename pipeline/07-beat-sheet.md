@@ -96,3 +96,16 @@ One spare: FOOT, an extreme close-up of the old car's crushed footwell, only if 
 - Free beats: B4, B13, B16 hold the last frame of the clip before; B8 fades S2b -> CAGE, B9 holds CAGE; B17 fades S4b -> COLUMN,
   B18-B19 push in on COLUMN (old column, then new).
 - Ladder for Gate C: `07-ladder.jpg`.
+
+## As made (14 Nov 2026)
+- Final 77.00 s (target 77.06), 1080x1920, 24 fps, -15.2 LUFS; 270 caption cues identical to the script; captions at y 1330 on the old
+  car's trunk.
+- All 11 clips used as rendered, no redos. Retimes: C1 1.09x, C2 0.97x, C3 1.25x, C4 1.10x, C5 0.99x, C6 0.98x, C7 1.06x, C8 1.02x,
+  C9 1.06x, C10 1.09x, C11 1.19x. C6 (the belt) barely moves, so B13's hold pushes in on him (focus 0.58, 0.24, +18%); B4 and B16 push
+  in on the hood and the airbag.
+- Labels (07-labels.json): year tags and 40 MPH in a left column (B1-B2); CRUMPLE ZONE (B4); LOOKS TOTALED and DRIVER: FINE (B5); the
+  FOOTWELL PUSHED IN counters rolling to 24 IN (old car, B7-B9) and 3 IN (new car, B8-B9); SAFETY CAGE (B9); NO BELT (B11);
+  PRETENSIONER and COLLAPSIBLE COLUMN on the red car's roof (B13, B19); AIRBAG (B16); ON SALE IN 1959 and NOT IN THIS CAR (B20); the
+  boxed verdict question over the old car (B23).
+- Spend: 157.25 Higgsfield credits (quote 177.68, -11.5%): 16 stills 20.00 + 11 clips 137.25. Balance 2,665.25 -> 2,508.
+- Covers (07-thumbnail.py): A "PICK YOUR / CAR" on S2b (recommended), B "BUILT LIKE / A TANK?" on S6, C plain S4b.

@@ -1,3 +1,15 @@
-[["B1","only","B2","{\\fs100}2009\\N{\\fs54}40 MPH",175,420,100,null],
- ["B1","only","B2","{\\fs100}1959\\N{\\fs54}40 MPH",128,1050,100,null],
- ["B4","this","B5","CRUMPLE\\NZONE",170,660,58,null]]
+[["B1", "only", "B2", "{\\fs100}2009\\N{\\fs54}40 MPH", 175, 420, 100, null],
+ ["B1", "only", "B2", "{\\fs100}1959\\N{\\fs54}40 MPH", 128, 1050, 100, null],
+ ["B4", "this", "B4", "CRUMPLE\\NZONE", 170, 660, 58, null],
+ ["B5", "totaled", "B5", "LOOKS\\NTOTALED", 170, 660, 58, null],
+ ["B5", "fine", "B5", "DRIVER:\\NFINE", 175, 420, 58, null],
+ ["B7", "footwell", "B9", "{\\fs38}FOOTWELL\\N{\\fs38}PUSHED IN\\N{\\fs84}#", 128, 1040, 84, [0, 24, "IN"]],
+ ["B8", "footwell", "B9", "{\\fs38}FOOTWELL\\N{\\fs38}PUSHED IN\\N{\\fs84}#", 175, 480, 84, [0, 3, "IN"]],
+ ["B9", "this", "B9", "SAFETY\\NCAGE", 175, 290, 58, null],
+ ["B11", "no", "B11", "NO\\NBELT", 128, 1040, 64, null],
+ ["B13", "this", "B13", "PRETENSIONER", 570, 330, 56, null],
+ ["B16", "this", "B16", "AIRBAG", 175, 480, 64, null],
+ ["B19", "so", "B19", "COLLAPSIBLE\\NCOLUMN", 570, 330, 56, null],
+ ["B20", "1959", "B20", "ON SALE IN 1959", 570, 320, 60, null],
+ ["B20", "just", "B20", "NOT IN THIS CAR", 570, 1180, 60, null],
+ ["B23", "fold", null, "STILL THINK\\NTHEY DON'T BUILD\\NTHEM LIKE THEY\\NUSED TO?", 500, 1100, 62, null, "Verdict"]]

@@ -20,3 +20,18 @@ S7	72bc73ad-1427-4ab3-a3ad-73c06b0df6c6	round 11, edit of S6: the mascot out of 
 END	0148740d-c829-4ccb-be51-f584d78995ed	round 12, edit of S7: the mascot waves (last frame)
 C1	3bb23b49-d8a0-413c-849b-4bf5afefeb8a	pilot clip B1 (S0, the wave), kling4_0 3 s
 C2	25913ddf-30c3-4fcf-9e51-991221c5c064	pilot clip B2-B3 (S0 -> S1b, the crumple), kling4_0 9 s
+C3	ca9b7241-6eda-4d54-84b7-344153885302	B5 thumbs-up (S1b), 4 s
+C4	9c5757a0-a5ef-4e36-9eee-281da00a74db	B6-B7 S1b -> S2b, 7 s
+C5	90cbdefb-49b6-418f-a634-ad49533c1d94	B10-B11 S2b -> S3, 8 s
+C6	51a643f2-0f47-4270-8c4c-3504b3f834dd	B12 belt (S3), 3 s
+C7	411d88d0-8145-4a01-b346-f788555276fb	B14-B15 S3 -> S4b, 5 s
+C8	2c0935ba-bfbe-4c4b-80dd-32d48a63ba26	B20 twist, floating glass (S4b), 6 s
+C9	a592f431-3eaf-4dd7-9458-45feed16540c	B21 S4b -> S6, 7 s
+C10	ea592085-ecc8-4afd-87a9-564667dd2e5a	B22 S6 -> S7, 5 s
+C11	7779324e-c45d-46a7-883d-de87601a09e0	B23 S7 -> END, 4 s
+FINAL	35f8a478-c94f-4893-a326-552efd58100a	final video (media_upload), 77.00 s
+CLEAN	f898830c-b0e8-4ebd-b3cd-a83ed0569f46	clean master with narration, no captions (media_upload)
+COVER_A_9x16	b671811c-ae4c-48d0-8c8a-c1534e476dfb	cover A "PICK YOUR / CAR" 1080x1920 (media_upload)
+COVER_A_3x4	2472c704-09df-4665-b931-b25d77d5252f	cover A TikTok 3:4 1080x1440 (media_upload)
+COVER_B	cca50859-44fe-413f-9ca3-6f6f57fc9383	cover B "BUILT LIKE / A TANK?" (media_upload)
+COVER_C	59c90763-3435-4474-a227-6cf4d2037fea	cover C plain airbag frame (media_upload)

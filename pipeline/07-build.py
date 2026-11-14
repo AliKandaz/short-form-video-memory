@@ -16,12 +16,13 @@ def run(args): subprocess.run(['ffmpeg', '-loglevel', 'error', '-y'] + args, che
 def dur(p): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p],capture_output=True,text=True).stdout)
 
 # (beats, kind, source): clip = kling clip played over the beats (retimed 0.8x-1.25x, then a held last frame with a push-in);
-# hold = the last frame of the segment before with a slow push-in; wipe = (from still or 'PREV', to still, transition, move);
-# still = (still, move). Moves: in, hold, ('focus', fx, fy) = push-in toward a point given as fractions of the frame.
+# hold = the last frame of the segment before with a slow push-in (or a focus move toward the part being named); wipe = (from still or 'PREV', to still, transition, move);
+# still = (still, move). Moves: in, hold, ('focus', fx, fy[, zoom]) = push-in toward a point given as fractions of the frame.
 SEGS = [
- (['B1'], 'clip', 'C1'), (['B2', 'B3'], 'clip', 'C2'), (['B4'], 'hold', None), (['B5'], 'clip', 'C3'),
+ (['B1'], 'clip', 'C1'), (['B2', 'B3'], 'clip', 'C2'), (['B4'], 'hold', ('focus', 0.52, 0.34, 0.15)), (['B5'], 'clip', 'C3'),
  (['B6', 'B7'], 'clip', 'C4'), (['B8', 'B9'], 'wipe', ('PREV', 'CAGE', 'fade', 'hold')), (['B10', 'B11'], 'clip', 'C5'),
- (['B12'], 'clip', 'C6'), (['B13'], 'hold', None), (['B14', 'B15'], 'clip', 'C7'), (['B16'], 'hold', None),
+ (['B12'], 'clip', 'C6'), (['B13'], 'hold', ('focus', 0.58, 0.24, 0.18)), (['B14', 'B15'], 'clip', 'C7'),
+ (['B16'], 'hold', ('focus', 0.58, 0.25, 0.15)),
  (['B17'], 'wipe', ('PREV', 'COLUMN', 'fade', 'hold')), (['B18'], 'still', ('COLUMN', ('focus', 0.45, 0.58))),
  (['B19'], 'still', ('COLUMN', ('focus', 0.55, 0.30))), (['B20'], 'clip', 'C8'), (['B21'], 'clip', 'C9'),
  (['B22'], 'clip', 'C10'), (['B23'], 'clip', 'C11'),
@@ -31,7 +32,7 @@ def span(beats): return B[beats[0]]['start'], B[beats[-1]]['end']
 def still_chain(secs, move='in'):
     n = max(1, round(secs * FPS)); base = f"scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
     if isinstance(move, (tuple, list)) and move[0] == 'focus':
-        fx, fy = move[1], move[2]; z = f"1.0+0.30*on/{n}"
+        fx, fy = move[1], move[2]; zz = move[3] if len(move) > 3 else 0.30; z = f"1.0+{zz}*on/{n}"
         x = f"max(0,min(iw-iw/zoom,{fx}*iw-iw/zoom/2))"; y = f"max(0,min(ih-ih/zoom,{fy}*ih-ih/zoom/2))"
     elif move == 'hold': z, x, y = f"1.0+0.02*on/{n}", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"
     else:                z, x, y = f"1.0+0.06*on/{n}", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"
@@ -76,7 +77,7 @@ for beats, kind, src in SEGS:
     assert all(b in SEL for b in beats), f'preview must end on a segment boundary ({beats})'
     s, e = span(beats); L = e - s; t = beats[0]
     if kind == 'clip': seg_clip(t, L, src)
-    elif kind == 'hold': print(f'  {t}: hold on {prev}'); seg_still(t, L, last_frame(prev), 'hold')
+    elif kind == 'hold': print(f'  {t}: hold on {prev} {src or ""}'); seg_still(t, L, last_frame(prev), src or 'hold')
     elif kind == 'wipe':
         a, b, trans, mv = src; a_path = last_frame(prev) if a == 'PREV' else f'stills/{a}.png'
         print(f'  {t}: {trans} {a} -> {b}'); seg_wipe(t, L, a_path, f'stills/{b}.png', trans, mv)
@@ -105,10 +106,11 @@ allw = json.load(open('audio/words_tight.json'))
 norm = [re.sub(r"[^a-z0-9']", "", w.lower()) for _, _, w in allw]
 def find(beat, word, back=0):
     return next(j for j in range(B[beat]['first_word'], len(norm)) if norm[j] == word) - back
-# labels.json: [beat, start word, end beat (label stays to that beat's end; null = its own beat), text, x, y, size, count]
+# labels.json: [beat, start word, end beat (label stays to that beat's end; null = its own beat), text, x, y, size, count, style?]
 # count: [from, to, unit] rolls the number up over 0.9 s (the scoreboard); text may hold \N line breaks.
 LABELS = json.load(open('labels.json'))
-for beat, trig, endbeat, text, x, y, size, count in LABELS:
+for row in LABELS:
+    beat, trig, endbeat, text, x, y, size, count = row[:8]; style = row[8] if len(row) > 8 else 'Label'
     if beat not in SEL: continue
     ls = allw[find(beat, trig)][0]
     eb = endbeat or beat; le = min(B[eb]['end'] - 0.05 if eb in SEL else T1, T1)
@@ -120,7 +122,7 @@ for beat, trig, endbeat, text, x, y, size, count in LABELS:
             num = f"{v:.0f}" if float(b).is_integer() else f"{v:.1f}"
             ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},Label,,0,0,0,,{{{st}}}{text.replace('#', num + ' ' + unit)}")
     else:
-        ev.append(f"Dialogue: 0,{ts(ls)},{ts(le)},Label,,0,0,0,,{{{st}\\fad(60,120)\\fscx70\\fscy70\\t(0,140,\\fscx100\\fscy100)}}{text}")
+        ev.append(f"Dialogue: 0,{ts(ls)},{ts(le)},{style},,0,0,0,,{{{st}\\fad(60,120)\\fscx70\\fscy70\\t(0,140,\\fscx100\\fscy100)}}{text}")
 ass = """[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
@@ -132,6 +134,7 @@ WrapStyle: 2
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,HBX Caption,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H8C000000,0,0,0,0,100,100,0,0,1,8,5,5,60,60,0,1
 Style: Label,HBX Label,104,&H00FFFFFF,&H00FFFFFF,&H50000000,&H78000000,0,0,0,0,100,100,3,0,1,5,6,5,20,20,0,1
+Style: Verdict,HBX Label,54,&H00FFFFFF,&H00FFFFFF,&H64000000,&H64000000,0,0,0,0,100,100,2,0,3,16,0,5,20,20,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
