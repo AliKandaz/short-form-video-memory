@@ -83,6 +83,10 @@ P = {
  "S4": f"{STYLE} {LOCK} {STAY} Change only this: a big round white airbag has burst out of the red car's steering wheel and is fully "
        f"inflated in front of the man in the yellow hard hat, cushioning his face and chest; his shoulder belt is still tight. The dummy "
        f"in the turquoise car stays exactly as before. {KEEP}",
+ # S4b: S4 inflated the bag beside him (like a passenger bag); move it out of his steering wheel, in front of him
+ "S4b": f"{STYLE} {SAME} Change only this: the white airbag is now directly in front of the man in the yellow hard hat, bursting out "
+        f"of the steering wheel he is holding: it covers his chest and the lower half of his face, so only his yellow hard hat and his "
+        f"eyes show above it. There is no airbag anywhere else in the car. {KEEP}",
  "COLUMN": f"{STYLE} {SAME} Change only this: the steering column of each car glows bright red like an x-ray highlight. In the "
            f"turquoise car it is a long straight steel rod running from the dashboard to the steering wheel, bent up toward the dummy's "
            f"head. In the red car it is a short column hidden behind the white airbag, still straight. Nothing else glows. {KEEP}",
@@ -93,10 +97,13 @@ P = {
        f"sits up in his seat, dazed but unhurt; the red car's cabin is still intact. {KEEP}",
  "S7": f"{STYLE} {LOCK} {STAY} Change only this: the man in the yellow hard hat has unbuckled and climbed out of the red car; he stands "
        f"on the concrete right beside its driver's side, balancing on his right foot and rubbing his left foot with one hand, with a wry "
-       f"smile. The only other figure in the scene is the dummy in the turquoise car. {KEEP}",
+       f"smile; he is the same man as in the second reference image, with his short dark beard, navy overalls and brown boots, and we "
+       f"see all of him. The red car's driver's seat is now empty, with the soft airbag hanging from its wheel. The only other figure "
+       f"in the scene is the dummy in the turquoise car. {KEEP}",
  "END": f"{STYLE} {LOCK} {STAY} Change only this: the man in the yellow hard hat has walked a few steps away from the wrecked cars "
-        f"toward the camera; he stands on the concrete facing the camera, smiling and waving with one arm raised high. The only other "
-        f"figure in the scene is the dummy in the turquoise car. {KEEP}",
+        f"toward the camera; he stands on the concrete facing the camera, smiling and waving with one arm raised high, and we see all of "
+        f"him: the same man as in the second reference image, with his short dark beard. The red car's driver's seat stays empty. The "
+        f"only other figure in the scene is the dummy in the turquoise car. {KEEP}",
  # ---- spare: one close-up of the build, only if a push-in on S2 is too soft to read ----
  "FOOT": f"{STYLE} Extreme close-up from the same high angle as the reference image: the driver's footwell of the same crushed "
          f"turquoise car fills most of the frame: the floor and the bare metal dashboard are shoved back against the dummy's bent "
@@ -104,7 +111,7 @@ P = {
 }
 REFS = {
  "S0T": ["MASCOT"], "S0": ["S0T"], "S1": ["S0", "MASCOT"], "S1b": ["S1"], "S2": ["S1b", "MASCOT"], "S2b": ["S2"], "CAGE": ["S2b"],
- "S3": ["S2b", "MASCOT"], "S4": ["S3", "MASCOT"], "COLUMN": ["S4"], "S6": ["S4", "MASCOT"], "S7": ["S6", "MASCOT"],
+ "S3": ["S2b", "MASCOT"], "S4": ["S3", "MASCOT"], "S4b": ["S4"], "COLUMN": ["S4b"], "S6": ["S4b", "MASCOT"], "S7": ["S6", "MASCOT"],
  "END": ["S7", "MASCOT"], "FOOT": ["S2b"],
 }
 AR = {}

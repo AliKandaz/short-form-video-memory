@@ -10,3 +10,11 @@ S1	fa8e3782-0962-4768-a60a-db23bbec45dc	round 3, edit of S0: fronts crushed, red
 S1b	617131f0-d37a-4717-b189-71cd65f41002	round 4, edit of S1: the mascot grips the wheel and braces
 S2	2bfd2a54-2f8c-4e79-91f9-bd256af5eba4	round 5, edit of S1b: the old cabin caves in
 S2b	bbe2daa6-7619-420a-8d05-b6839100f900	round 6, edit of S2: the old cabin crushed about two feet
+CAGE	040b1e6d-a379-4e0f-beb6-217f6cf774ef	round 7, edit of S2b: the red cabin frame glows orange
+S3	85da6367-eab9-4ee0-be92-9c3eee6b5577	round 7, edit of S2b: the dummy thrown forward, the mascot held by his belt
+S4	23610f62-cc31-4f98-bfe3-3491eddd2611	round 8, edit of S3: the airbag full in front of the mascot
+S4b	75feb7fe-6dfe-4f9b-92d1-6f7910e43e21	round 9, edit of S4: the airbag moved in front of the driver
+COLUMN	6a49f54a-9fcc-4377-a54a-253db99b0c55	round 10, edit of S4b: both steering columns glow red
+S6	b9b00dd5-1024-4997-bf66-be57a82fd592	round 10, edit of S4b: the old car comes apart
+S7	72bc73ad-1427-4ab3-a3ad-73c06b0df6c6	round 11, edit of S6: the mascot out of the car, rubbing his left foot
+END	0148740d-c829-4ccb-be51-f584d78995ed	round 12, edit of S7: the mascot waves (last frame)

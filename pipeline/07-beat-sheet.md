@@ -76,3 +76,23 @@ One spare: FOOT, an extreme close-up of the old car's crushed footwell, only if 
 - Narration: ElevenLabs connector, locked voice Daniel, eleven_v4: estimate 2,774 ElevenLabs credits for two takes (~$0.55),
   0 Higgsfield credits; no quota block (flow kOKX6WGXJo1KWbsqBlsK). "1959" is written "nineteen fifty-nine" for the voice.
 - Pilot (Gate D): C1 hook (S0 -> CONTACT) and C2 crumple zone (CONTACT -> S1), the first build beat.
+
+## Changes after Gate B (14 Nov 2026)
+- Stills (16 generated for 10 used, 20.00 credits; balance 2,665.25 -> 2,645.25):
+  - S0 took three fresh tries. Try 1 put the bumpers together, overlapped the passenger sides and drew a photo-like old car; try 2 parked
+    the cars almost side by side; try 3 (S0T) gave the diorama block with its cut soil edge, the real batwing fins and a head-on line-up,
+    but the cars touched again and the dummy faced backwards. S0 is an edit of S0T: the old car's roof removed and the dummy turned to face
+    the crash on the driver's side. Seedream would not leave a gap, so the video opens frozen at the instant the bumpers meet, and CONTACT
+    was dropped.
+  - S1 kept the waving pose; S1b edits him into bracing. S2 only cracked the windshield; S2b crushes the old cabin about two feet.
+    S4 put the bag beside him; S4b moves it out of his wheel, in front of his face. S7 and END pass the mascot reference again (his
+    beard had faded in S6).
+  - The red car keeps its roof (the mascot is seen through the windshield, facing the camera); only the old car is open from above.
+- Narration: take A of two (88.72 s raw; Whisper 270/270 words); pauses tightened, atempo 1.03 -> 76.16 s (3.55 w/s); video 77.06 s.
+- Clips from the real timings (07-timeline.json); a clip up to ~4% short is played slightly slower:
+  C1 B1 3 s (S0) · C2 B2-B3 9 s (S0 -> S1b) · C3 B5 4 s (S1b) · C4 B6-B7 7 s (S1b -> S2b) · C5 B10-B11 8 s (S2b -> S3) ·
+  C6 B12 3 s (S3) · C7 B14-B15 5 s (S3 -> S4b) · C8 B20 6 s (S4b) · C9 B21 7 s (S4b -> S6) · C10 B22 5 s (S6 -> S7) ·
+  C11 B23 4 s (S7 -> END) = 61 s, 137.25 credits (quote 139.50).
+- Free beats: B4, B13, B16 hold the last frame of the clip before; B8 fades S2b -> CAGE, B9 holds CAGE; B17 fades S4b -> COLUMN,
+  B18-B19 push in on COLUMN (old column, then new).
+- Ladder for Gate C: `07-ladder.jpg`.
