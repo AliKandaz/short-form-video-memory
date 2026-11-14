@@ -1,0 +1,12 @@
+key	job_id	note
+MASCOT	f97004b9-f63f-4971-ab16-e0519314a404	locked mascot reference (3.4)
+S0_rej1	0e2ffd51-d85f-4e6b-b08c-64a8133b4096	round 1, REJECTED: bumpers already touching, passenger sides overlap, no big fins, photo-like old car
+S0_rej2	bf359e31-ec4f-4922-9c95-69c66620ec90	round 1b, REJECTED: the cars sit almost side by side, still no big fins, looks like a car-park photo rather than the diorama look
+NARR_A	wRLhNm1DNjkoJRBwPtkU	ElevenLabs take A (flow kOKX6WGXJo1KWbsqBlsK), 88.72 s
+NARR_B	KUMR5qtbtxqXoehNSpZn	ElevenLabs take B (flow kOKX6WGXJo1KWbsqBlsK), 88.00 s
+S0T	cda887a6-ec49-4dff-b9be-8cf71c95430a	round 1c base: diorama block, batwing fins, head-on; cars touching, dummy faces the camera (fixed in S0)
+S0	5b4b1687-0b52-49d8-94b2-c51a7e3978f3	round 2, edit of S0T: old car open from above, dummy on the left facing the crash (first frame)
+S1	fa8e3782-0962-4768-a60a-db23bbec45dc	round 3, edit of S0: fronts crushed, red hood folded
+S1b	617131f0-d37a-4717-b189-71cd65f41002	round 4, edit of S1: the mascot grips the wheel and braces
+S2	2bfd2a54-2f8c-4e79-91f9-bd256af5eba4	round 5, edit of S1b: the old cabin caves in
+S2b	bbe2daa6-7619-420a-8d05-b6839100f900	round 6, edit of S2: the old cabin crushed about two feet
