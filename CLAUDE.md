@@ -14,15 +14,15 @@ The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the
 format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist. Section 6.9
 (11 Nov 2026) has what the views are worth in money on Shorts, TikTok and long videos.
 
-**Latest direction from the user (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4), and the ideas
-are the ten approved in section 2: famous real places and true extreme stories in the "how to / if you" format. Section 7 has the
-details and the account the user likes (@thewhatifstudio). Video 05 (idea #1, Aquarius) was made on 11 Nov 2026 in the new **Middle**
-tier, which is now the default (3.1, 3.4).
+**Direction from the user on the look (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4). Section 7
+has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in the new **Middle**
+tier, which is now the default (3.1, 3.4). The ten ideas approved that day (famous real places and true extreme stories) were
+replaced on 14 Nov 2026: see "Ideas" below.
 
 **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The camera stays on the thing being built,
 and every line of the script changes something you can see on it. No shots of other things and no separate rooms; comparisons appear
 only as labels on the build. The rules are in 3.4 and the reasons in 7.2. To make a video, paste the section 5 prompt
-(**renewed 11/11/26**). Video 06 (idea #9, Petra, 12 Nov 2026) was the first made under it: 158.75 credits against a 186.30 quote,
+(**renewed 11/11/26**). Video 06 (Petra, 12 Nov 2026) was the first made under it: 158.75 credits against a 186.30 quote,
 no clip redos (3.4b, 3.4h).
 
 **Sister project (13 Nov 2026): TikTok Shop affiliate.** Its memory is `tiktokshop.md` in this repo, also attached to the memory
@@ -30,10 +30,10 @@ artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, af
 rules for joining (1,000 followers to apply), the plan to get @overthinkingyearly there, and how our videos are doing on TikTok. The
 account is US-based (the user confirmed on 13 Nov 2026).
 
-**New brief from the user (14 Nov 2026): more engaging ideas.** They find the section 2 ideas and hooks boring. They want creative
-topics that hold viewers, start arguments in the comments and turn viewers into followers, and not only builds (military, vehicles,
-engineering). Five "Who wins?" matchup ideas are proposed in section 2b and **wait for the user's approval: produce nothing from 2b
-until they approve it.** The brief is in 7.3 and the comment data behind the proposal in 7.4.
+**Ideas (approved by the user, 14 Nov 2026): four "Who wins?" matchups.** The user found the earlier ideas and hooks boring and asked
+for topics that hold viewers, start arguments in the comments and turn viewers into followers (military, vehicles, engineering; not
+only builds). They approved P1–P4, now section 2, rejected P5, and had the ten older ideas removed "for now". Two questions are
+still open and go to Gate A of the first matchup (section 2). The brief is in 7.3 and the comment data in 7.4.
 
 ---
 
@@ -123,195 +123,49 @@ and sound effects still need a listen.
 
 ---
 
-## 2. Video ideas (approved 11 Nov 2026)
+## 2. Video ideas (approved 14 Nov 2026): four "Who wins?" matchups
 
-The user asked for "10 unique and attention grabbing topics in the how to / if you video format… nothing boring" and approved this
-list on 11 Nov 2026 ("I like the ideas"). #1 was made first (video 05, 11 Nov 2026), then #9 (video 06, 12 Nov 2026). It replaces the old lists (#1–15 here and H1–H15 in section 4), which
-were removed the same day; the four ideas already made are in the video log (3.4b).
-- **Why these:** the account the user likes wins with famous real places and true extreme stories, while its builds of ordinary
-  things stall (7.1). Every idea was checked on YouTube Shorts on 11 Nov 2026 ("Shorts" below).
-- **Look:** Classic (3.4); the mascot is "you". **Ranked** strongest first (my estimate).
-- **Shots:** one build in one main view (3.4 shot rule); each idea's "Set" line describes that view. Rework any chain beat that would
-  need a picture away from the build. A second setting only when the build itself has to move (#2's tow-out from the dry dock, #5's
-  flight over the border, #6's ice ship at sea).
-- **Chains are drafts:** fact-check every ⚠ before Gate A, cut what doesn't hold up, and rerun the saturation check (6.7).
-
-**1. ✅ USED (video 05, 11 Nov 2026). How a Steel Tank Becomes a House at the Bottom of the Sea** (Aquarius Reef Base, off Key Largo, Florida)
-- Set: a sandy patch beside a coral reef ~19 m down ⚠, sun rays from above, a yellow buoy at the surface. One set.
-- Hook: "If you want to live under the ocean, sink a steel tank 20 meters down, and you have a house."
-- Chain: the tank floats up -> bolt it to a heavy base on legs ⚠ -> opening the door floods the room -> put the door in the floor and
-  keep the air at the same pressure as the water, so the sea stays out (MOON POOL) -> the air goes stale -> a buoy on the surface sends
-  air and power down hoses (LIFE SUPPORT BUOY) ⚠ -> at this pressure your body soaks up gas, so you can stay for weeks (SATURATION) ⚠ ->
-  a fast trip up would fizz that gas in your blood like a shaken soda (THE BENDS) -> lower the pressure inside for about 17 hours
-  before you leave (DECOMPRESSION) ⚠.
-- Twist: living down there is easy; leaving is the dangerous part.
-- Climax: pick one that's true ⚠: a storm passing overhead (check how Aquarius and its crews ride out hurricanes), or the end of a
-  mission and the swim up.
-- Shorts: the first check missed three near-identical builds that the exact-title search found at Gate A: "How a Shipping Container Becomes an
-  Underwater Base" (Built Inside Out, 339K, 31 Oct; ballast plate, air buoy, moon pool, names Aquarius), "How a Glass Box Becomes An Underwater
-  House" (Build It Up, 36K) and an upside-down bucket version (1.4K). Aquarius itself peaks at 7K on Shorts; the long-form tour has 27M.
-- As made (fact-checked): about 60 ft deep; four legs with 25 tons of lead each; 17 h of decompression (FIU, CSA); NEEMO 15 left early for
-  Hurricane Rina (2011); Irma (2017) dragged the 94,000-lb buoy 14 miles while the habitat stayed put; Artemis II's Reid Wiseman (NEEMO 21) and
-  Jeremy Hansen (NEEMO 19) lived there. It is no longer "the only undersea lab": DEEP's Vanguard habitat went down off the Keys in Sep 2026.
-  Script, beats, prompts and builds: `pipeline/05-*`.
-
-**2. How Concrete Becomes an Oil Rig in Iceberg Alley** (Hibernia platform, Grand Banks, off Newfoundland). The user's oil-rig idea.
-- Set: grey North Atlantic with fog and drifting icebergs; the platform rises from the seabed, with a cutaway below the waterline.
-  One set (the tow-out from the dry dock could be a second).
-- Hook: "If you want oil from under the North Atlantic, you have to build where the icebergs drift."
-- Chain: a drill ship gets pushed off the well by storms -> stand a platform on steel legs -> an iceberg snaps the legs -> one giant
-  concrete base that sits on the seabed and holds by its own weight (GRAVITY BASE) ⚠ -> icebergs still crash into it -> a wall of 16
-  concrete teeth that splits the ice (ICE WALL) -> too heavy to build at sea -> build it in a dry dock, flood the dock and tow it out ⚠
-  -> bergs bigger than the platform -> supply ships lasso them with ropes and tow them off course (ICE MANAGEMENT) -> small ones get
-  pushed aside with water cannons ⚠.
-- Twist: ⚠ the iceberg that sank the Titanic drifted down the same Iceberg Alley.
-- Shorts: generic oil-rig Shorts reach 34M; Hibernia itself only 15K ("Why This Offshore Platform Has 16 Concrete Teeth") and 28K
-  ("How the Ocean Floor Becomes an Offshore Oil Rig").
-
-**3. How a Town Fought a Volcano With the Ocean** (Heimaey, Westman Islands, Iceland, 1973)
-- Set: a fishing town and harbour on a small island, and a field behind it that splits open. One set.
-- Hook: "If lava is pouring toward your town, you can't outrun it… so you turn the sea on it."
-- Chain: a crack opens at night and lava fountains shoot up -> everyone must leave; the fishing fleet is in harbour because of a storm
-  the day before, so about 5,000 people sail away by morning ⚠ -> ash buries the town -> shovel the roofs before they cave in ⚠ ->
-  lava creeps toward the harbour, the town's only lifeline -> fire hoses are too weak -> pump the ocean from boats, then from big pumps
-  on shore through pipes laid on top of the lava, which don't melt while water runs through them ⚠ -> the cooled lava front turns to
-  stone and piles into a wall (about 6 million tonnes of seawater over five months ⚠).
-- Twist: the lava wall they fought made the harbour narrower and more sheltered: a better harbour than before ⚠.
-- Shorts: best 42K ("They Laid Plastic Pipe on Moving Lava and It Didn't Melt").
-
-**4. If You Lived on the Sea When the 2004 Tsunami Came** (the Moken sea nomads, Surin Islands, Thailand). The user's tsunami idea,
-from an angle nobody has covered.
-- Set: an Andaman Sea bay with wooden houseboats, stilt houses over the shallows and a forested hill behind. One set.
-- Hook: "If you live your whole life on a boat, the sea is your house, your food and your road."
-- Chain: monsoon storms make the open sea deadly -> move into stilt houses over the bay for the rainy months ⚠ -> food -> dive for
-  shellfish; Moken children see unusually sharply underwater ⚠ -> on 26 Dec 2004 the sea pulls back far past the reef and fish flap on
-  the sand -> elsewhere people walk out to look -> the elders remember the legend of the wave that eats people ⚠ and send everyone up
-  the hill; families at sea steer into deep water, where a tsunami is only a swell ⚠ -> the wave flattens the village.
-- Payoff: almost the whole village is alive on the hill ⚠. The tsunami killed about 230,000 people around the Indian Ocean ⚠, so keep
-  it respectful: no bodies or victims on screen.
-- Shorts: a 2004 tsunami POV has 17M; the Moken angle is untouched. Plain tsunami builds are taken (see the list below).
-
-**5. If Your Border Is Guarded, Build a Balloon** (East Germany, 16 Sep 1979, the Strelzyk and Wetzel families)
-- Set: a house and garden in a small East German town, the attic workshop, and the fenced border with watchtowers beyond the forest.
-  One or two sets.
-- Hook: "If your country fences its border with mines and guns, you can't walk out… so you fly."
-- Chain: fences, mines and guards -> fly over in a hot-air balloon -> you can't buy one -> sew it yourself -> buying that much fabric
-  looks suspicious -> buy a few meters at a time in different towns ⚠ -> hand sewing takes forever -> put a motor on the sewing
-  machine ⚠ -> the first cloth lets the hot air leak through -> test the fabric and switch ⚠ -> a burner fed from propane bottles ⚠ ->
-  the first balloon comes down just short of the border ⚠ -> the police find it, so build a bigger one fast ⚠.
-- Payoff: the second balloon carries all eight of them (four adults, four children) over the border in about 28 minutes ⚠; they land
-  in a field and ask a police car whether they are in the West ⚠.
-- Shorts: best 2.6K; a look-alike build ("How a Sewing Machine Becomes an Escape Balloon") has 1.4K.
-
-**6. How a Block of Ice Becomes an Aircraft Carrier** (Project Habakkuk, WWII)
-- Set: a frozen lake in the Canadian Rockies (Patricia Lake, Jasper ⚠) with a boathouse, then the ice ship at sea. One or two sets.
-- Hook: "If your country runs out of steel in the middle of a war, you build your warship out of ice."
-- Chain: submarines sink convoys in mid-ocean, where planes can't reach ⚠ -> you need a floating runway -> steel is short -> make it
-  from ice: it floats, and the sea has endless water -> ice cracks and shatters -> mix in sawdust; the mix is far tougher and melts
-  slower (PYKRETE) ⚠ -> summer melts it anyway -> run cold pipes through the walls and wrap them in insulation ⚠ -> test a small ship
-  on a lake.
-- Twist: at a meeting of war chiefs someone fired a pistol at a block of it and the bullet bounced off ⚠ (a famous story; check it).
-- Ending: the war moved on and the project was dropped; the test ship took three summers to melt, and its remains are still on the
-  bottom of the lake ⚠.
-- Shorts: best 45K.
-
-**7. How a Swamp Island Becomes the Biggest City in the Americas** (Tenochtitlan, founded 1325 ⚠)
-- Set: a muddy island in a wide lake ringed by volcanoes (Lake Texcoco); the city grows on it. One set.
-- Hook: "If your enemies chase you into a swamp, you build a city on it."
-- Chain: no farmland -> stake reed mats in the lake and pile mud and plants on them (CHINAMPAS, floating gardens) ⚠ -> no way to the
-  shore -> raised stone roads across the water (CAUSEWAYS) -> salty water from the east kills the crops -> a ~16 km dike across the
-  lake (the dike of Nezahualcoyotl) ⚠ -> the lake water is dirty -> a stone aqueduct from the springs of Chapultepec ⚠ -> floods ->
-  canals and gates.
-- Twist: the eagle on a cactus that told them where to build is on Mexico's flag today (the founding legend) ⚠.
-- Payoff and "that's why": maybe 200,000 people, bigger than any city in Spain at the time ⚠; after the conquest the lake was drained,
-  and Mexico City still sinks up to ~50 cm a year in places ⚠.
-- Shorts: history clips (best 452K), no build.
-
-**8. How a Hole in an Arctic Mountain Becomes the Doomsday Vault** (Svalbard Global Seed Vault, Norway)
-- Set: a snowy mountainside near Longyearbyen with the vault's concrete entrance, and a cutaway into the frozen rock. One set.
-- Hook: "If every farm on Earth were wiped out, where would you keep the seeds?"
-- Chain: seeds die in warm, damp air -> keep them in a freezer -> the power goes out -> dig into a mountain where the ground never
-  thaws, so it stays cold without power (PERMAFROST) ⚠ -> seas could rise -> build it high on the slope ⚠ -> damp -> seal the seeds in
-  foil packets in boxes, cooled to −18 °C ⚠ -> wars and thieves -> a remote island, thick doors, and every country keeps owning its
-  own seeds ⚠.
-- Twist: in 2016–17 meltwater got into the entrance tunnel; the ground that was supposed to stay frozen didn't ⚠.
-- Payoff: the war in Syria cut off a seed bank near Aleppo, and in 2015 the vault made its first withdrawal to regrow those seeds ⚠.
-- Shorts: tour clips up to 130K, no build.
-
-**9. ✅ USED (video 06, 12 Nov 2026). How a Crack in a Cliff Becomes a Hidden City** (Petra, Jordan)
-- Set: a narrow red sandstone gorge (the Siq) that opens onto a cliff; the city is carved as the video goes. One set.
-- Hook: "If you want a city nobody can find, you carve it into a canyon."
-- Chain: months without rain -> carve channels along the gorge walls and lay clay pipes from the springs ⚠ -> store the water in carved
-  cisterns ⚠ -> you need houses -> carve them into the cliff -> no scaffolding reaches up a cliff face -> carve from the top down ⚠ ->
-  traders bring incense and spices through the gorge ⚠.
-- Twist: Europe lost track of it for about 600 years, until a Swiss explorer slipped in disguised as a pilgrim in 1812 ⚠.
-- Ending: not a flash flood (video 01 already used one). "That's why": the Treasury from Indiana Jones and the Last Crusade.
-- Shorts: best 6.8K on the 11 Nov check, which missed a near-identical build that the Gate A search found: "How a Cliff Becomes Petra"
-  (Tested & True, 27K, 29 Oct; the same sliced red-rock diorama with clay pipes, flash floods, cisterns and an earthquake that flattens
-  stacked buildings). The most-watched Petra Shorts are about what's inside the Treasury (616K, 219K).
-- As made (fact-checked): a channel and clay pipes from a spring; rain that comes in a few storms, caught in cisterns; the king's tomb
-  carved from the top down, standing on uncut rock so rubble never falls on finished work; 38.77 m to the top of the urn (Archnet, said
-  as 39); plain rooms inside (label: Indiana Jones and the Last Crusade, 1989); caravans paying to pass; the 363 earthquake; trade moving
-  to ships; Europe losing track of it for about 600 years (Crusader period to 1812); Burckhardt in disguise with a goat for Aaron's tomb;
-  the urn shot full of holes over a pharaoh's-gold legend, and solid rock. Cut: the flood dam and tunnel (the rival and video 01 use
-  floods) and "carve your houses" (most carved fronts are tombs). YouTube title: "How a Crack in a Cliff Becomes the Hidden City of
-  Petra". Script, beats, prompts and builds: `pipeline/06-*`.
-
-**10. How a 7,600-Ton School Learned to Walk** (Lagena Primary School, Shanghai, 2020 ⚠)
-- Set: a city block with the 1935 school ⚠ and the building site that needs its spot. One set.
-- Hook: "If a new road needs the spot where your school stands, you don't knock it down… you make it walk."
-- Chain: too heavy for any crane -> cut it off its foundations -> slide steel beams under it ⚠ -> rollers can't make it turn -> put it
-  on 198 robotic legs in two groups that lift and step in turns ⚠ -> turn it as it goes ⚠ -> walk it 62 m in 18 days ⚠ to a new
-  foundation.
-- Payoff: the whole building walks to its new spot in one piece ⚠. The calmest of the ten (no danger), so it needs the strongest
-  visuals.
-- Shorts: real-footage clips up to 124K, no build.
-
-### Checked and left out (crowded on Shorts, 11 Nov 2026)
-Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
-survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
-(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
-(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
-Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
-a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
-Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
-
-### 2b. Proposed 14 Nov 2026: five "Who wins?" ideas (AWAITING THE USER'S APPROVAL)
-
-**Status: proposed, not approved. Do not script or produce any of these until the user approves them.** When they do, move the
-approved ones into the list above and record what they said in section 7. The list above stays as it is until then.
+**Approved by the user on 14 Nov 2026:** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
+these 4 for now". P1–P4 below are the whole list for now. P5 (a race car on the ceiling) was rejected. The ten ideas approved on
+11 Nov 2026 were removed the same day; videos 05 and 06 came from that list ("idea #1", Aquarius, and "idea #9", Petra, in the
+video log). The removed ideas and the full P5 are in the repo history at commit `92a077a`.
 
 - **The brief** (7.3): ideas that keep people watching, make them comment and argue, and turn them into followers. Not only builds.
-  The user suggested military, vehicles and engineering and asked what I think.
-- **My answer on the topics:** yes, they are good topics. Tanks, warships, jets and cars have large audiences that argue in the
-  comments, and Shorts on these subjects reach millions (figures under each idea). Two cautions. These viewers punish wrong facts,
-  so the fact-check matters more than before. And TikTok restricts weapon content (see "Platform rules" below), so the ideas stay
-  with machines, history and what-ifs: no small arms, no how-to, no current wars, nobody shown getting hurt.
+  The user suggested military, vehicles and engineering.
+- **Why these topics:** tanks, warships and cars have large audiences that argue in the comments, and Shorts on these subjects reach
+  millions (figures under each idea). Two cautions. These viewers punish wrong facts, so the fact-check matters more than before.
+  And TikTok restricts weapon content (see "Platform rules" below), so the ideas stay with machines, history and what-ifs: no small
+  arms, no how-to, no current wars, nobody shown getting hurt.
 - **What the data says** (7.4): explainers in this format get almost no comments (0.2–0.3 per 1,000 views). What-ifs get two to
   four times more, and the most-commented videos put a choice to the viewer or touch something people already argue about. On the
   one account that posts both, what-ifs also have a median of 457K views against 35K for builds. So a good topic is not enough:
   each video needs a question the viewer can answer in two words.
 - **The frame: every video is a matchup.** Two sides are on screen from the first frame, a scoreboard label counts through the
   video, and it ends on a verdict question. A vote is the easiest comment to write, and the scoreboard is a reason to stay.
-- **Rules for these five** (on top of sections 1 and 5):
+- **Look:** Classic (3.4). The mascot is "you", on one of the two sides.
+- **Rules for these ideas** (on top of sections 1 and 5):
   1. Hook: a claim that sounds wrong, with a number, inside the first 3–4 seconds. Both sides are in the first frame, and the labels
-     must make the hook work with the sound off. Second person stays. P2, P3 and P4 open on a cold claim before the first "you";
-     that changes the "Open with If you…" line of the section 5 prompt and needs the user's OK.
+     must make the hook work with the sound off. Second person stays.
   2. First "But" by about 4 s. Seven or eight But/So beats, as before.
   3. Scoreboard: one or two labels that change through the video (SHELLS 42 → 0). Labels on the scene fit the 3.4 shot rule.
   4. One arena, one main view: the 3.4 shot rule applied to a matchup. The camera stays on the arena and every line changes
      something in it. To show how a machine works, slice it open from the same view.
   5. Ending: our loop line stays (4.3) and there is no spoken call to action (4.2). The verdict question is the last on-screen
-     label, the caption and the pinned comment.
-  6. Pinned comment: the verdict question plus "Top comment picks the next matchup." @thewhatifstudio's captions say "You asked for
-     it": requests are comments, and waiting for the result is a reason to follow.
-  7. Answer the strongest objection with a short reply video (TikTok's reply-with-video). Likely objections are listed per idea.
-  8. Never plant a mistake to bait corrections. What stays open is the verdict, not the facts.
+     label and the caption.
+  6. Answer the strongest objection with a short reply video (TikTok's reply-with-video). Likely objections are listed per idea.
+  7. Never plant a mistake to bait corrections. What stays open is the verdict, not the facts.
+- **Asked on 14 Nov 2026 and not answered yet: raise both at Gate A of the first matchup.**
+  - P2, P3 and P4 open on a cold claim before the first "you", which breaks the "Open with If you…" line of the section 5 prompt.
+    At Gate A, show the opening both ways and let the user pick.
+  - Whether "Who wins?" becomes the running series, with the verdict question and "Top comment picks the next matchup" as the
+    pinned comment. (@thewhatifstudio's captions say "You asked for it": requests are comments, and waiting for the result is a
+    reason to follow.)
 - **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
   for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
   from TikTok's analytics for the old videos and the new one; we can't see those from outside.
-- **Order I'd make them in:** P4 first (the widest audience and no weapons), then P1, P3, P2, P5.
-- **Chains are drafts**, as in the list above: ✔ was checked by web search on 14 Nov 2026, ⚠ still needs checking before Gate A.
+- **Order I'd make them in:** P4 first (the widest audience and no weapons), then P1, P3, P2.
+- **Chains are drafts:** ✔ was checked by web search on 14 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
+  check on the title before Gate A (6.7).
 
 **P1. One Modern Tank vs 100 Tiger Tanks** (a what-if: an M1A2 Abrams in 1944)
 - Arena: a French field with hedgerows from a raised three-quarter view. Our sand-coloured tank sits on a ridge at the left with
@@ -397,37 +251,30 @@ approved ones into the list above and record what they said in section 7. The li
   footrest; rated Poor against Good; the Malibu's worst score was the left leg and foot. Watch out: the dummy takes the hit and
   nobody "dies" on screen; no car badges.
 
-**P5. Race Car vs Gravity: Driving on the Ceiling**
-- Arena: a long tunnel sliced open along its length, with the car on the ceiling and the mascot hanging in the seat. Labels: SPEED
-  in mph, and two bars, DOWNFORCE and WEIGHT.
-- Hook: "If you drive a race car fast enough, it sticks to the ceiling. But the moment you slow down, you fall." Alternates: "A
-  Formula 1 car could drive upside down. So why did nobody do it until 2025?"; "Could you drive a car on the ceiling?"
-- Chain: wings push the car down (DOWNFORCE) -> above about 100–150 mph the push beats the car's weight ✔ -> but then the tyres
-  barely touch, so you go faster still to have grip ⚠ -> the engine expects gravity: the oil pools on the wrong side and it
-  seizes ⚠, and the fuel pick-up runs dry ⚠ -> you can't brake: slow down and you drop -> you need miles of tunnel and a twisting
-  ramp to roll onto the ceiling and off again ⚠ -> so for decades it stayed a bar bet.
-- Twist: in April 2025 a British fan car did it at walking pace ✔. Fans under the car pull it to the surface with about 2,000 kg of
-  force, twice its weight, even standing still (the maker's figure); it drove upside down for about five seconds on a rig ✔.
-- Ending: "Build the wings, hold your speed, and whatever you do, don't lift." Verdict: "DOES THE FAN CAR COUNT? WOULD YOU DRIVE IT?"
-- Objections to answer: "an F1 car has never done it", "the fan car cheated", "the driver would black out".
-- Why it should work: a claim nearly every car fan has heard and argued about, with a new ending most of them haven't seen.
-- Shorts: 4.8M ("The Car I'm Going to DRIVE UPSIDE DOWN"), 1.9M, 1.1M, 387K: talking heads and real footage. No animated tunnel
-  version found.
-- Checked ✔: McMurtry Spéirling, 11 Apr 2025, driven by co-founder Thomas Yates, about 5 s upside down on a purpose-built rotating
-  rig. Watch out: a generic race car, no team colours or logos.
-
-**Checked and not picked (14 Nov 2026):** the A-10 built around its gun (Shorts 1.6M and 945K, and a "How a Water Gun Becomes an A-10
-Warthog" build already exists at 58K; verdict "retire it or keep it?"); one modern aircraft carrier at Pearl Harbor (long videos
-5.8M, 1.6M, 1.5M and no strong Short: the next what-if if P1 works); American long-nose trucks against European flat-nose trucks
-(5.5M, 3.8M, 1.1M: crowded, but a ready-made argument between countries); why the Abrams tank runs on a jet engine (5.4M); five
-Shermans for one Tiger (1.3M, 105K); the Soviet tank with wings (best 175K: little demand shown); the Ghost Army's inflatable tanks
-(best Short 6.4K: no demand shown); escaping a sinking car (31M, 25M, 23M: crowded).
+**Not in the list (14 Nov 2026):**
+- **Rejected by the user:** a race car driving on the ceiling (it was P5; "I don't like p5"). Shorts on it reach 4.8M, 1.9M and
+  1.1M. Don't propose it again unless they ask.
+- **Checked and not picked:** the A-10 built around its gun (Shorts 1.6M and 945K, and a "How a Water Gun Becomes an A-10 Warthog"
+  build already exists at 58K; verdict "retire it or keep it?"); one modern aircraft carrier at Pearl Harbor (long videos 5.8M,
+  1.6M, 1.5M and no strong Short: the next what-if if P1 works); American long-nose trucks against European flat-nose trucks (5.5M,
+  3.8M, 1.1M: crowded, but a ready-made argument between countries); why the Abrams tank runs on a jet engine (5.4M); five Shermans
+  for one Tiger (1.3M, 105K); the Soviet tank with wings (best 175K: little demand shown); the Ghost Army's inflatable tanks (best
+  Short 6.4K: no demand shown); escaping a sinking car (31M, 25M, 23M: crowded).
 
 **Platform rules (web search, 14 Nov 2026; TikTok's own page was not readable in full):** TikTok does not allow showing or
 promoting firearms or explosive weapons outside a safe or appropriate setting, and lists fictional settings among the exceptions.
 One third-party reading of the 24 Sep 2026 update says firearm content is age-restricted and kept off the For You feed. Tanks,
 ships and jets in animation are not named either way. So after posting P1, P2 or P3, check the video's analytics for a For You
 restriction before making the next military one. YouTube's rules were not checked.
+
+### Checked and left out earlier (crowded on Shorts, 11 Nov 2026)
+Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
+survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
+(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
+(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
+Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
+a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
+Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
 
 ---
 
@@ -982,14 +829,14 @@ and wastewater treatment, power grid, gas station, roof.
 
 ## 5. Kickoff prompt, renewed 11/11/26 (paste this to make a video)
 **Renewed 11/11/26:** this is the current version. It adds the one-build, one-view shot rule (3.4, 7.2). Fill in the two lines in
-angle brackets and paste the whole block into a new session.
+angle brackets and paste the whole block into a new session. (14 Nov 2026: only the IDEA line changed, to match the P1–P4 list.)
 ```
 KICKOFF PROMPT (renewed 11/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <#N from section 2>
+IDEA:   <P1-P4 from section 2>
 TIER:   <Lite | Middle | Full>   (Middle unless I say otherwise)
 
 Fixed choices (3.4):
@@ -1242,8 +1089,8 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 ## 7. User direction and the account the user likes (11 Nov 2026)
 - **Look:** Classic, locked in 3.4. The user asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden
   By Design look.
-- **Format and ideas:** second-person "how to" / "if you…" videos about famous real places and true extreme stories, nothing boring.
-  The approved ideas are in section 2; the old lists were removed the same day.
+- **Format and ideas:** on 11 Nov the user asked for second-person "how to" / "if you…" videos about famous real places and true
+  extreme stories, nothing boring. **Replaced on 14 Nov 2026** by the four "Who wins?" matchups in section 2 (7.3).
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75.
 - **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2).
@@ -1255,7 +1102,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   gone 2.1M, jumped 2.0M, deep breath 1.6M, friction 1.1M), disaster POVs (sea pulls back 1.7M, Krakatoa 935K) and the Derinkuyu build.
   Their builds of ordinary things stall: bamboo jungle house 28K, closet → panic room 15K, backyard → stadium 13K, tornado shelter 143K.
 - My read: what wins in this format is a famous real place or a true extreme story with jaw-dropping numbers, not an everyday object.
-  That's the filter used for the ten ideas in section 2. `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
+  That was the filter for the ten ideas of 11 Nov (removed on 14 Nov 2026). `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>` lists a TikTok account with stats.
 
 ### 7.2 One build, one main view (agreed with the user, 11 Nov 2026, after video 05)
 The user, after video 05: "I like the animation visuals and use of the character, but it seems inconsistent at times. too many shots
@@ -1291,10 +1138,12 @@ are creative that will keep people watching and switch to followers, topics that
 opinions on the topic and debate. the video ideas don't necessarily need to be just about building. topics like military, vehicles,
 engineering, etc I feel like are good topics what do you think? if you have better options use those." They asked for five ideas and
 to stop and wait for approval.
-- **Delivered:** the five "Who wins?" matchups in 2b (P1–P5), with hooks, chains, verdict questions and a Shorts check for each.
-- **Waiting on the user:** which of P1–P5 to make (my order: P4, P1, P3, P2, P5); whether a video may open on a cold claim instead
-  of "If you…" (P2, P3, P4); and whether "Who wins?" becomes the running series. The eight unused ideas in section 2 stay approved
-  until they say otherwise.
+- **Delivered:** five "Who wins?" matchups (P1–P5), each with hooks, a chain, a verdict question and a Shorts check.
+- **The user's decision (14 Nov 2026):** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
+  these 4 for now". P1–P4 are now section 2. P5 (a race car on the ceiling) and the ten older ideas were removed; they are in the
+  repo history at commit `92a077a`.
+- **Not answered yet** (raise at Gate A of the first matchup): whether P2, P3 and P4 may open on a cold claim instead of "If you…",
+  and whether "Who wins?" becomes the running series with "Top comment picks the next matchup" as the pinned comment.
 - **Still locked:** the Classic look, the mascot as "you", the 3.4 shot rule (as "one arena, one main view"), the loop ending.
 
 ### 7.4 What gets comments in this format (TikTok, read 14 Nov 2026)
