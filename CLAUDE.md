@@ -19,8 +19,9 @@ format (You Made It, You Built It), a topic-saturation check of the idea lists, 
 need to step away from the character figure animation and make similar ones to like the other two." The same day they approved six
 refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
 pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
-and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26**). Two things are open: the idea list (the
-user: "we will do the video ideas later"; section 2) and whether to put sound under the voice (3.4, 7.5).
+and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26**). Later the same day they said "yes on the
+sound": a quiet bed and a few effects under the voice, no music (3.4). One thing is open: the idea list (the user: "we will do the
+video ideas later"; section 2).
 
 **Earlier direction on the look (11 Nov 2026, replaced on 15 Nov 2026):** the look was Classic (the mascot look of videos 01–02 and
 05–07). Section 7 has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in
@@ -192,7 +193,8 @@ video log). The removed ideas and the full P5 are in the repo history at commit 
     it": requests are comments, and waiting for the result is a reason to follow.)
 - **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
   for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
-  from TikTok's analytics for the old videos and the new one; we can't see those from outside.
+  from TikTok's analytics for the old videos and the new one; we can't see those from outside. (15 Nov 2026: the user said "forget
+  about the retention graphs". Don't ask for these; 7.5.)
 - **Order:** P4 done (video 07, 14 Nov 2026). Next P1, then P3, P2. (On hold since 15 Nov 2026.)
 - **Chains are drafts:** ✔ was checked by web search on 14 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the title before Gate A (6.7).
@@ -337,7 +339,7 @@ Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), 
 | Narration (preferred) | ElevenLabs connector `creative_generate_speech` | voice from `creative_list_voices` | ElevenLabs credits (0 Higgsfield) |
 | Narration (fallback) | Higgsfield `generate_audio`, `text2speech_v2`, `variant:"elevenlabs"` | locked `voice_id` + `voice_type` | ~0.45 / line |
 | Word timing, labels, captions, assembly | Higgsfield `sandbox_exec` (ffmpeg, faster-whisper, Pillow preinstalled; `$HF_WORKFLOWS/video-montage/scripts/audio_to_captions.py`) | — | no generation credits (confirm in `transactions` after the first run) |
-| Sound bed and effects (only if the user says yes: 3.4) | ElevenLabs connector `creative_generate_in_flow`, node type `sfx` (`eleven_text_to_sound_v2`) | `duration_seconds` 0.5–30; `loop:true` gives a bed that repeats without a seam | ElevenLabs credits; not yet priced |
+| Sound bed and effects (approved 15 Nov 2026: 3.4, 3.3 Step 6b) | ElevenLabs connector `creative_generate_in_flow`, `node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"` | `estimate_only:true` prices it; `generations_count:1` (the default is 4 and the cost scales). The node also has `duration_seconds` 0.5–30 and `loop` (a bed that repeats without a seam), set on the node, not in this call | ElevenLabs credits; not yet priced or used |
 | Checking a finished video | `pipeline/analysis/check_video.py` (share of seconds that move, caption size, sharpness), `under_the_voice.py`, `contact_sheet.py` | local, needs ffmpeg, numpy and opencv | free |
 | Optional | `virality_predictor`, `tiktok_prepare_publish` (UPLOAD_TO_DRAFT) | — | ask before using |
 
@@ -389,7 +391,7 @@ look a line without its own clip holds the last frame of the clip before it, for
 
 **Step 2: Beat sheet (free).**
 - Split the script into beats, one sentence or one "But/So" unit each (usually 14–18 beats).
-- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / end) | start picture → end picture | what moves | pointer (arrows or ring, if any) | clip or hold`. In the Cutaway look every beat is a clip unless it is a hold on the last frame of the clip before it. Holds run 3 s at most and add up to no more than about 20% of the running time (3.4 rule 1). A beat in which nothing can move is a sign that the line should be cut or merged with its neighbour.
+- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / end) | start picture → end picture | what moves | pointer (arrows or ring, if any) | sound effect (if any) | clip or hold`. In the Cutaway look every beat is a clip unless it is a hold on the last frame of the clip before it. Holds run 3 s at most and add up to no more than about 20% of the running time (3.4 rule 1). A beat in which nothing can move is a sign that the line should be cut or merged with its neighbour.
 - Define the **stage ladder**: an ordered list of how the structure looks after each fix (Stage 0 = bare ground → Stage N = finished build). Each build beat moves from stage k to k+1.
 - **Every beat shows the build** (3.4 shot rule): the main view at the current stage, a close-up of the build at that stage, or the
   wall sliced open from the main view. Problems hit the build in the main view (the storm over it, the water pouring in). If the build
@@ -401,7 +403,8 @@ look a line without its own clip holds the last frame of the clip before it, for
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
 - Price Kling at 720p and at 1080p (`get_cost:true` for each) and show both totals; the user picks. Our 720p clips carry about half
   the fine detail of the stills they sit between (7.5).
-- If the user has said yes to sound under the voice (3.4), price the bed and the effects as well.
+- Price the sound bed and the effects as well (Step 6b): `creative_generate_in_flow` with `estimate_only:true` and
+  `generations_count:1`, one call for the bed and one for a typical effect, multiplied out. They cost ElevenLabs credits.
 - Price the narration too: `creative_generate_speech` with `estimate_only:true` shows the ElevenLabs cost and any quota block. In video 05 one
   take of a 272-word script cost 1,368 ElevenLabs credits, the plan had 354 left, and the first try failed until the user upgraded.
 - Present: tier, number of stills, number and length of clips, total credits, remaining balance after.
@@ -435,6 +438,20 @@ look a line without its own clip holds the last frame of the clip before it, for
 - Pace target: ~3.5–3.8 words/s. If the take is much slower, tighten the script. Never speed-shift audio more than 1.1×.
 - Get word timestamps in the Higgsfield sandbox: download the audio with curl, then run faster-whisper (or `audio_to_captions.py --script <manifest> --max-words 1`) so the authored words supply the text and Whisper only supplies the timing. Derive each beat's real start and end. **These timings replace the estimates from Step 2.**
 
+**Step 6b: Sound bed and effects (approved 15 Nov 2026; never before Gate B).**
+- What it is (3.4): one quiet, steady bed that fits the place, with no tune, and four to eight short effects on the moments where
+  something visibly happens. No music.
+- Make them with the ElevenLabs Sound Effects node: `creative_generate_in_flow`, `node_type:"sfx"`,
+  `model_id:"eleven_text_to_sound_v2"`, `generations_count:1`. One sound per call. Its guide says: short, concrete prompts that name
+  the sound, its texture and the space ("Water rushing up an iron pipe, close, hollow"); no visual words; keep clips short, because
+  long ones loop or drift. Poll `creative_get_flow_run_status` for the result, and never call again to retry: that starts and bills
+  a second generation.
+- The bed: one clip of the place's air (a quiet street in winter, a shoreline, a plant hall humming), with "no music, no voices" in
+  the prompt, looped under the whole video in ffmpeg. The node's `loop` and `duration_seconds` settings are set on the node
+  (`creative_get_model_schema` shows how); not tried yet.
+- The effects: take them from the beat sheet's sound column and place each at its beat's start time from the Step 6 timings.
+- Not used on any video yet: the first one sets the working recipe. Write it into the lessons.
+
 **Step 7: Pilot clips. GATE D.**
 - Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
 - In the Cutaway look the second pilot is a travel clip: it starts on one stage or framing and ends on the next (3.4 rule 3). On the first Cutaway video, also test one clip with a middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`), so that one clip passes through three stages. Keep the method only if the set holds its shape; it is in Kling 4.0's model card but we have not used it.
@@ -452,7 +469,7 @@ look a line without its own clip holds the last frame of the clip before it, for
 - Download all clips, stills and narration into one working folder in a single `sandbox_exec` (use `background:true` for long renders, `size:"xl"` only for the final encode).
 - For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). A beat without its own clip holds the last frame of the clip before it with a slow push-in (free, and it matches because it is the same view), for 3 s at most. Never turn a still of something in motion (a pour, a splash, smoke, a gauge needle) into a shot: it reads as frozen (3.4 rule 1). No cross-fades between different pictures, and a cut only where the setting truly changes (3.4 rule 3).
 - If the clips are 720p, add a light sharpen after the upscale (start from `unsharp=5:5:0.6` and judge it on a frame) so they sit closer to the stills (7.5).
-- Lay the narration on top at full volume. Sound under the voice is an open question (3.4): voice only unless the user has said yes, and never copyrighted music. Keep the voice-only mix either way.
+- Lay the narration on top at full volume, then mix the sound under it (3.4, Step 6b): the bed about 18–20 dB below the voice, with a short fade in and out, and each effect starting about 10–12 dB below the voice. Never copyrighted music. Check the mix with `pipeline/analysis/under_the_voice.py`: the quietest moments should sit about 18–22 dB below the voice (the reference: 19–20 dB; our voice-only videos: 37–42 dB). Keep the voice-only mix as a second master.
 - Output 1080×1920, 30 fps, H.264 + AAC. Keep this as the **clean master** (no text).
 - Run `pipeline/analysis/check_video.py` on the master. Report the share of seconds that move and any stretch without movement longer than about 6 s. Target: 80% or more (the reference's two biggest videos score 84% and 87%; our videos 03 and 04 scored 33%).
 
@@ -469,6 +486,7 @@ look a line without its own clip holds the last frame of the clip before it, for
 - Final beat: the finished cutaway in the framing of the first frame, so the last line loops into the hook. No character and no sign (3.4).
 - Upload the final MP4 to Higgsfield storage (`media_upload` → PUT in the same `sandbox_exec` → `media_confirm`) and give the user the link.
 - Report: final length, credits quoted vs spent (`transactions`), the share of seconds that move (Step 9), and any line that lost its clip.
+- On the first video with sound, deliver the voice-only version too, so the user can compare the two by ear (3.4).
 - Only if asked: `virality_predictor` (ask about cost first), then `tiktok_prepare_publish` with `mode:"UPLOAD_TO_DRAFT"` (the user always reviews and submits).
 
 **Step 12: Post copy (free).**
@@ -511,16 +529,20 @@ look a line without its own clip holds the last frame of the clip before it, for
     the flow, three or four at a time, and a thicker ring that fades in. One device per beat (3.3 Step 10).
   - **Agreed the same day, not rules:** price Kling's 1080p at the next Gate B, because our 720p clips carry about half the fine
     detail of the stills, and add a light sharpen otherwise (3.3 Steps 3 and 9); take the caption timing from `07-build.py`.
-- **Sound under the voice (OPEN since 15 Nov 2026; voice only until the user says yes).** The user asked what the competition does
-  and what I recommend, and has not answered yet. Measured that day, not listened to (7.5): @1hidden_by_design runs a quiet steady
-  bed under the whole video, about 19–20 dB below the voice in the quietest moments, with almost no separate effects;
-  @howbuildingexplained has no bed, only short quiet sounds in the gaps between lines; @thewhatifstudio has full sound design (music
-  or drones and effects, loud in the mix); ours is the only voice-only track. **Recommendation given: yes.** A quiet, steady,
-  non-melodic bed that fits the place, about 18–20 dB under the voice, plus four to eight short effects on the moments where
-  something visibly happens (water rushing, a valve closing, ice cracking), starting about 10–12 dB under the voice. No melodic
-  music, and never a copyrighted or trending track. Keep the voice-only mix, and on the first video export both so the user can
-  choose by ear. Made with the ElevenLabs Sound Effects node (3.0; not yet priced) and mixed in ffmpeg. The section 5 prompt has a
-  SOUND line for it. If the user has not answered by the next video's Gate B, ask there.
+- **Sound under the voice (APPROVED by the user, 15 Nov 2026: "yes on the sound").** The user asked what the competition does and
+  what I recommend, then said yes to the recommendation. What was approved:
+  - A quiet, steady bed that fits the place (street air, the sea, a plant hall humming), with no tune, about 18–20 dB under the
+    voice, running the whole video.
+  - Four to eight short effects on the moments where something visibly happens (water rushing, a valve closing, ice cracking),
+    starting about 10–12 dB under the voice. The effect levels are my starting point, not measured from anyone.
+  - No melodic music, and never a copyrighted or trending track.
+  - The voice-only mix is kept as a second master. On the first video with sound the user gets both, to compare by ear.
+  - How: the ElevenLabs Sound Effects node, mixed in ffmpeg (3.3 Steps 3, 6b and 9). It costs ElevenLabs credits, not yet priced.
+  - Why (7.5): measured on 15 Nov 2026, not listened to. @1hidden_by_design runs a quiet steady bed under the whole video, about
+    19–20 dB below the voice in the quietest moments, with almost no separate effects; @howbuildingexplained has no bed, only short
+    quiet sounds in the gaps between lines; @thewhatifstudio has full sound design, loud in the mix. Ours was the only voice-only
+    track.
+  - The section 5 prompt's SOUND line now defaults to "bed and effects".
 - Earlier look (**Classic**, locked by the user on 11 Nov 2026 and replaced on 15 Nov 2026), for the record: the look of videos
   01–02 and 05–07. The locked mascot stands in a small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight
   and mild depth of field, seen from a slightly raised three-quarter view. Base STYLE string in `pipeline/02-prompts.py` plus one
@@ -899,7 +921,8 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **Check before delivery:** `python3 pipeline/analysis/check_video.py final.mp4` (`pip install numpy opencv-python-headless` first).
   Targets: 80% or more of the seconds moving, no stretch without movement longer than about 6 s, caption letters about 57 px at
   about 75% down, and moving and still seconds about equally sharp. `contact_sheet.py` makes one-frame-a-second sheets for reading
-  a video shot by shot; `under_the_voice.py` shows what sits under a narration.
+  a video shot by shot; `under_the_voice.py` shows what sits under a narration (target for our mix: the quietest moments 18–22 dB
+  below the voice).
 - **Reading TikTok from a session** (a correction to the note at the top of section 4): the `-0` and `-1` format suffixes do not map
   to fixed hosts. On 15 Nov 2026 the allowed host (`v16-webapp-prime.us.tiktok.com`) carried `-0` for some videos and `-1` for
   others, and the mapping changed between two calls. Read the format list with `yt-dlp -J`, pick a format whose URL is on the v16
@@ -917,6 +940,7 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **The same stray object turns up in every shot:** an object word in the shared style line. Move it to the prompt of the shot that needs it (3.4 Rule 4).
 - **The last frame doesn't match the first:** make the END still by editing the last stage still, and compare it with Stage 0 at Gate C.
 - **A night or storm shot changes the render** (glowing water, redrawn pipes; video 03's fire shot): make it by editing the day still and say "the same water colour as the reference; nothing glows; only the light changes".
+- **The sound competes with the voice:** lower the bed until `under_the_voice.py` reports the quietest moments 18–22 dB below the voice, and drop any effect that lands on a stressed word. If in doubt, deliver the voice-only master and say so.
 
 ---
 
@@ -1051,8 +1075,9 @@ and wastewater treatment, power grid, gas station, roof.
 
 ## 5. Kickoff prompt, renewed 15/11/26 (paste this to make a video)
 **Renewed 15/11/26:** this is the current version. It replaces the character look with the Cutaway look and its six rules (3.4,
-7.5). Fill in the three lines in angle brackets and paste the whole block into a new session. Leave SOUND at "voice only" until the
-user has decided about sound (3.4). The 11/11/26 version, for the character look, is in the repo history at commit `f8bf298`.
+7.5). Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and effects"
+since the user approved it later on 15 Nov 2026 (3.4). The 11/11/26 version, for the character look, is in the repo history at
+commit `f8bf298`.
 ```
 KICKOFF PROMPT (renewed 15/11/26)
 
@@ -1061,7 +1086,7 @@ artifact) first, all sections. Then make a video with the section 3 runbook.
 
 IDEA:   <the topic or the title>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
-SOUND:  <voice only | bed and effects>   (voice only unless I say otherwise)
+SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
 Fixed choices (3.4):
 - Look: Cutaway, no character. One place sliced open like a cake, bright and clean,
@@ -1087,6 +1112,9 @@ Fixed choices (3.4):
   6. Pointers: solid white arrows about three times the old size, moving along the
      flow, and a thicker ring. One device per beat.
 - Narrator: Daniel (3.4). Video model: kling4_0 (3.0).
+- Sound: a quiet, steady bed that fits the place and four to eight short effects where
+  something visibly happens, all well under the voice. No music. Keep a voice-only
+  version too.
 
 Script rules, on top of section 1:
 - Open with "If you..." and land the first "But" by ~3 s.
@@ -1107,7 +1135,7 @@ Script rules, on top of section 1:
 
 Credits: check the balance first. If it's below the quote, offer a smaller plan and tell
 me which lines would lose their clip, instead of starting. In the quote, price the clips
-at 720p and at 1080p and show both totals.
+at 720p and at 1080p and show both totals, and price the sound (ElevenLabs credits).
 
 Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills:
 one set from one main view, the subject in the upper 60%, the first and last frames
@@ -1115,7 +1143,8 @@ matching) and Gate D (pilot clips: the hook, and one clip that travels from one 
 the next). Spend no credits before I approve Gate B.
 
 When the video is done, give me:
-- the final MP4 link
+- the final MP4 link, and the voice-only version of the same video so I can compare
+  the two by ear
 - the share of the running time that moves (pipeline/analysis/check_video.py; the target
   is 80% or more) and any line that lost its clip
 - 3 cover options (3.4d), one of them a plain mid-video cutaway frame with no text
@@ -1251,7 +1280,8 @@ What it shows:
   problem. The 23.5M cave video does move between views, so the single angle is a tendency, not a rule.
 - **Like rates:** ours are 4.8% and 7.7% of views at test-batch scale; the leaders sit at 2–3% at millions of views. Viewers who stay
   like the videos. What we can't see from outside is how many swipe away. **Ask the user for "Viewed vs swiped away" and average
-  percentage viewed from Studio for videos 01 and 03** before changing the script formula.
+  percentage viewed from Studio for videos 01 and 03** before changing the script formula. (15 Nov 2026: the user said "forget
+  about the retention graphs". Don't ask for these; use them only if the user offers them. 7.5.)
 
 ### 6.4 YouTube upload checklist (apply from video 04)
 1. Audience: "No, it's not made for kids", on the upload and as the channel default. After publishing, run `yt_snapshot.py`; it flags
@@ -1370,7 +1400,9 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   nothing).
 - **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). It carried over to
   the Cutaway look as its Rule 2.
-- **Sound:** open. The user asked on 15 Nov 2026 what the competition does and what I recommend, and has not decided (3.4, 7.5).
+- **Sound:** approved on 15 Nov 2026 ("yes on the sound"): a quiet bed and a few effects under the voice, no music (3.4, 7.5).
+- **Analytics:** on 15 Nov 2026 the user said "forget about the retention graphs". Don't ask them for retention or watch-time
+  figures; work from what can be seen from outside (7.5).
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
 - 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes
@@ -1454,7 +1486,8 @@ The rules that came out of this are in 3.4. This is the record behind them.
 sea water to drinking) I need to step away from the character figure animation and make similar ones to like the other two. look at
 the two videos with the highest engagement, makes some refinement suggestions to the animation style to improve it." ("Fire
 extinguisher" is video 03, the fire hydrant.) After reading the suggestions: "all 6 refinements are approved". On sound: "I don't
-know, what is the competition doing? what do you recommend?" On ideas: "we will do the video ideas later".
+know, what is the competition doing? what do you recommend?" On ideas: "we will do the video ideas later". Later the same day,
+after the sound comparison below: "forget about the retention graphs, yes on the sound."
 
 **The numbers** (15 Nov 2026; the table is at the end of 6.1). The two videos without the character hold 90% of the TikTok views
 and 98% of the YouTube views. They lead on both platforms, in opposite order: seawater on TikTok (28.7K), the hydrant on YouTube
@@ -1520,9 +1553,12 @@ line); the cyan water; the loop ending; one-word captions.
 | Ours (03, 04) | Voice only: mono, near silence between words |
 
 The YouTube leaders (You Made It, You Built It) could not be checked: YouTube blocks downloads from a session (6.7). The
-recommendation given, and the fact that the user has not decided, are in 3.4 ("Sound under the voice"). The reasons given: all three
-accounts put something under the voice and ours is the only dry one; once nearly everything on screen moves, water that pours in
-silence feels unfinished; it costs ElevenLabs credits, not Higgsfield credits; and keeping the voice-only mix makes it reversible.
+recommendation was to do it the way @1hidden_by_design does: a quiet steady bed, a few effects, no music. **The user approved it
+the same day ("yes on the sound");** what was approved is in 3.4 ("Sound under the voice"). The reasons given: all three accounts
+put something under the voice and ours is the only dry one; once nearly everything on screen moves, water that pours in silence
+feels unfinished; it costs ElevenLabs credits, not Higgsfield credits; and keeping the voice-only mix makes it reversible. The
+ElevenLabs credit balance could not be read from the session (`account_get_usage` needs the connector reconnected with more
+access), so price the sound with `estimate_only` at Gate B.
 
 **Credit effect.** Rule 1 needs the Middle tier's clip seconds: about 160 credits a video at 720p (videos 06 and 07 cost 158.75 and
 157.25 with 60 s and 61 s of clips) against 111.75 and 123.25 for the two Lite videos. With 2,508 credits that is about 15 videos.
@@ -1530,11 +1566,12 @@ silence feels unfinished; it costs ElevenLabs credits, not Higgsfield credits; a
 
 **Open after this session:**
 - The idea list (section 2).
-- Sound under the voice (3.4).
-- TikTok's retention graph for videos 03 and 04, and YouTube's for video 03. The user was asked for them, to see whether viewers
-  leave during the still stretches.
-- The first video under the new rules, which will show whether start-and-end-frame clips can carry the camera from stage to stage
-  (3.4j).
+- The first video under the new rules. It will show whether start-and-end-frame clips can carry the camera from stage to stage
+  (3.4j), and it sets the working recipe for the sound (3.3 Step 6b).
+
+**Closed by the user:** I asked for TikTok's retention graphs for videos 03 and 04 and YouTube's for video 03, to see whether
+viewers leave during the still stretches. The user: "forget about the retention graphs". Don't ask again. (My reading: this covers
+the older asks for watch-time figures in section 2 and 6.3 as well, which now carry the same note.)
 
 **Files.** The scripts are in `pipeline/analysis/`. The two pictures shown to the user (the motion timeline, and captions and
 pointers side by side) were not kept.
