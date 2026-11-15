@@ -1,0 +1,28 @@
+key	job_id	note
+S0A	a304ab2b-bbcb-46b3-8a9c-ae0264ab181d	first generation; good look, sewer pipe too low in the frame
+S0DRAFT	e1135206-89c5-4974-9095-6b695a8736d4	upload: S0A shrunk to 76% and lifted, edges extended locally
+S0	3668f778-edeb-403c-ab68-939aa50e6454	seedream clean-up of S0DRAFT; base of the ladder
+S0H	53859cf1-44af-4843-b726-df1f2b46f0d4	edit of S0: haze out of the kitchen sink
+S1	8d15c679-95d1-458c-bd2c-082c4176f204	edit of S0: kitchen U-bend
+S1D-1	40ebbf81-140d-4319-8323-0e67eb99e2df	rejected: waterfall outside the pipe, toilet emptied
+S2-1	10c4d7ad-0ab6-4c8f-af68-54436614f8d7	rejected: vent pipe far above the roof peak
+S1D	ebb85dcb-c9b2-405b-b3a7-0a2bfbd394e0	edit of S1: kitchen U empty, haze (second try)
+S2	b7ad620e-ccf1-45e5-8645-740b24786b79	edit of S1: short vent stub through the roof (second try)
+S2X	1b88252b-304d-44c0-980b-36d33753ce2d	edit of S2: bathroom traps dry a month later, haze
+S3	f49f9fde-f400-4679-a99f-2f6ee94ea1d4	edit of S2: trap primer pipe to the floor drain
+S2R-1	fdc383ce-b1c9-4845-85ea-2ba893e45a20	edit of S2X: bathroom sink refilled, wisp from the dry floor drain
+S3N	9b660b53-7b5b-4ff3-b0b0-70040729b1e9	edit of S3: night re-grade
+S4-1	2b09fdc1-56bd-4f8b-98ae-88f5a88ed223	rejected: steel plate hanging outside the pipes
+S2R	f1f979e4-ed27-4afc-a302-65df7edffd4a	edit of S2R-1: wisp removed
+S4-2	73feb580-76d8-49f2-a12f-d2d98b38373f	rejected: round disc hanging below the junction, outside the pipes
+S3NC-1	a8e58fd7-39ab-4d9d-a00e-e5698d024a56	rejected: rat sitting on top of the sewer pipe
+S3NT	d97d5365-c84d-43a2-80d7-6acf7c343813	edit of S3N: rat head in the toilet bowl
+S3NC-2	607d7b45-0260-4b58-abcd-8a713be737d4	rejected: rat on the outside of the house pipe, plus a second rat
+S4-3	9b3b0d48-23fb-438a-bbfa-a0c4b81ed88c	rejected: disc on the outside of the junction
+S2HK-1	23ac69bc-cc06-4379-9dbd-8e1ff7b5cad0	rejected: haze also in the kitchen, stream from the toilet
+S3NS	7ca5fd79-ddd5-4912-a646-074a922946d4	edit of S3N: rat swimming in the sewer pipe window
+S4NZ	c0ea9b9d-1c42-4e04-859a-c3b0b8d25182	edit of S3N: night close-up of the junction, flap inside the house pipe
+S2HK-2	908dd328-c430-44ae-a692-0d1f689b82b8	edit of S2R: haze from the floor drain to the fan; plume starts on the kitchen floor below
+S2HK	bc2a220a-feae-4138-be09-3489a2f89c48	edit of S2HK-2: kitchen haze removed
+S4NZR-1	2f162a9a-a131-47f0-8c06-b2285a9bbbf8	edit of S4NZ: rat nose at the flap
+S4NZR	4c032682-8dfc-4669-8b03-eaaf22449672	edit of S4NZR-1: rat moved to the sewer side of the flap
