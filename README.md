@@ -6,6 +6,7 @@ Project memory for vertical 3D "How [humble thing] Can Become [impressive thing]
 - `pipeline/`: reusable scripts from video 01 (prompts, still requests, fetch, narration timing, assembly) plus its script, beat sheet and job ids.
 - `branding/`: the channel's profile picture, banner, fit check and a transparent mascot cutout; rebuilt by `pipeline/branding/` (section 6.8 of `CLAUDE.md`).
 - `pipeline/youtube/`: read-only YouTube checks (channel snapshot with a made-for-kids check, competitor benchmarks, topic saturation search, handle availability). See section 6.7 of `CLAUDE.md`.
+- `pipeline/analysis/`: checks for a finished video or one we study: how much of it really moves, caption size, sharpness (`check_video.py`), what sits under the voice (`under_the_voice.py`), and timestamped contact sheets (`contact_sheet.py`). See sections 3.4j and 7.5 of `CLAUDE.md`.
 
 - `tiktokshop.md`: memory for the sister project, TikTok Shop affiliate (US rules for joining, the plan to reach 1,000 followers, and how realistic $5,000 a month is).
 

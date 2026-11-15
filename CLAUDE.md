@@ -14,16 +14,23 @@ The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the
 format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist. Section 6.9
 (11 Nov 2026) has what the views are worth in money on Shorts, TikTok and long videos.
 
-**Direction from the user on the look (11 Nov 2026):** the look is Classic (the mascot look of videos 01–02, locked in 3.4). Section 7
-has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in the new **Middle**
-tier, which is now the default (3.1, 3.4). The ten ideas approved that day (famous real places and true extreme stories) were
-replaced on 14 Nov 2026: see "Ideas" below.
+**Direction from the user on the look (15 Nov 2026, current): Cutaway, no character.** The two videos made without the character
+(03 fire hydrant, 04 seawater) hold 90% of our TikTok views and 98% of our YouTube views, so the user left the character look: "I
+need to step away from the character figure animation and make similar ones to like the other two." The same day they approved six
+refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
+pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
+and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26**). Two things are open: the idea list (the
+user: "we will do the video ideas later"; section 2) and whether to put sound under the voice (3.4, 7.5).
 
-**Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The camera stays on the thing being built,
-and every line of the script changes something you can see on it. No shots of other things and no separate rooms; comparisons appear
-only as labels on the build. The rules are in 3.4 and the reasons in 7.2. To make a video, paste the section 5 prompt
-(**renewed 11/11/26**). Video 06 (Petra, 12 Nov 2026) was the first made under it: 158.75 credits against a 186.30 quote,
-no clip redos (3.4b, 3.4h).
+**Earlier direction on the look (11 Nov 2026, replaced on 15 Nov 2026):** the look was Classic (the mascot look of videos 01–02 and
+05–07). Section 7 has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in
+the new **Middle** tier, which is still the default (3.1, 3.4). The ten ideas approved that day (famous real places and true extreme
+stories) were replaced on 14 Nov 2026: see "Ideas" below.
+
+**Shot rule (LOCKED by the user, 11 Nov 2026, after video 05; carried over to the Cutaway look on 15 Nov 2026): one build, one main
+view.** The camera stays on the thing being explained, and every line of the script changes something you can see on it. No shots
+of other things and no separate rooms. The rules are in 3.4 and the reasons in 7.2. Video 06 (Petra, 12 Nov 2026) was the first
+made under it: 158.75 credits against a 186.30 quote, no clip redos (3.4b, 3.4h).
 
 **Sister project (13 Nov 2026): TikTok Shop affiliate.** Its memory is `tiktokshop.md` in this repo, also attached to the memory
 artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, affiliate videos or TikTok monetisation. It holds the US
@@ -35,6 +42,8 @@ for topics that hold viewers, start arguments in the comments and turn viewers i
 only builds). They approved P1–P4, now section 2, rejected P5, and had the ten older ideas removed "for now". The brief is in 7.3
 and the comment data in 7.4. **P4 became video 07 the same day**, the first matchup: 157.25 credits against a 177.68 quote, no clip
 redos, opened on a cold claim (3.4b, 3.4i). One question is still open: whether "Who wins?" becomes the running series (section 2).
+**On hold since 15 Nov 2026:** P1–P3 were written around the character, and the user will redo the video ideas later for the
+Cutaway look (section 2).
 
 ---
 
@@ -74,13 +83,15 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
 - One action or one problem per sentence. Short, mostly one-syllable words, no filler, no hedging.
 - Every "But" escalates: nuisance -> weather -> hidden killer -> night threat -> catastrophe.
 - After each fix, name the real-world term ("These are stilts." "This is thatch." "This is a rat guard.").
-  The term also appears as an ALL-CAPS on-screen label.
+  The term also appears as an ALL-CAPS on-screen label. **Ours since 15 Nov 2026 (Cutaway look):** the term is spoken only; the
+  look has no labels (3.4).
 - Use everyday and body-scale comparisons: "to your shoulders", "as high as a basketball hoop",
   "knee-high by morning", "hard as rock". **Ours since 11 Nov 2026 (3.4 shot rule):** a comparison is shown only as a label or a
-  measurement line on the build; cut any that would need a picture of something else.
+  measurement line on the build; cut any that would need a picture of something else. **Since 15 Nov 2026 (Cutaway look, no
+  labels):** it is shown on the set itself (a gauge on the pipe, a tub beside the hydrant) or cut.
 - At least one shock stat ("kills more people than snakes, sharks and lions combined", "84% fewer").
   **Fact-check every number before production.**
-- One "that's why" tie-in ("That's why levees on the news are wrapped in plastic."). Ours: shown on the build or as a label (3.4).
+- One "that's why" tie-in ("That's why levees on the news are wrapped in plastic."). Ours: shown on the set (3.4).
 - Pace: about 250 words per 66 s (~3.8 words/s, ~225 wpm). Long versions run ~100 s and ~350 words.
 
 ### Animation style
@@ -90,27 +101,37 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
   evolves on it.
 - **Character:** one generic stock-rigged man (olive-green jumpsuit, no facial animation) for scale and
   simple poses: lying, standing, arms over head, waving. Machinery (excavator, backhoe, roller) can replace him.
+  **Ours since 15 Nov 2026: no character** (3.4). Hands, small anonymous workers or machines do the work where someone must.
 - **Mood through grading:** daylight for fixes, dark desaturated for night threats, blue-grey for storms, sunny
   for the ending.
 - **Camera:** about one shot per sentence (2–5 s), hard cuts on "But" and "So", slow push-ins and orbits within shots,
   macro close-ups of key details and then a pull back to the wide shot. **We dropped the one-shot-per-sentence part on 11 Nov 2026:**
-  our videos stay on one build in one main view (3.4 shot rule, 7.2).
+  our videos stay on one build in one main view (3.4 shot rule, 7.2). **Since 15 Nov 2026** the camera also travels from one stage
+  to the next inside a clip; we don't fade between different pictures (3.4 rule 3).
 - **Build moments:** parts appear, slide or grow into place exactly when the narrator names them.
 - **Problems** are shown with environmental effects: rain particles, a rising water plane, critter models, swarm particles,
   darkness.
 - **Explainer devices** for invisible mechanisms: cross-section cutaways, magnifying-glass macro, x-ray pipes, blue water
   particles, red and blue force arrows, a yellow highlight ring, dashed measurement lines ("10 FT").
 - **Captions:** ONE word at a time, synced to the voice, centred at ~52% frame height. Title Case, heavy rounded sans
-  (Fredoka-like), white fill, thin black outline, soft drop shadow.
+  (Fredoka-like), white fill, thin black outline, soft drop shadow. **Ours since 15 Nov 2026:** ALL CAPS, larger, about 75% down
+  the frame, over a quiet part of the picture (3.4 rule 5).
 - **Labels:** ALL CAPS bold white sans with shadow, placed by the object, for the term or stat
-  (STILTS, THATCH, DEADLIEST ANIMAL, 84% FEWER, RAT GUARD).
+  (STILTS, THATCH, DEADLIEST ANIMAL, 84% FEWER, RAT GUARD). **Ours since 15 Nov 2026:** none; solid white arrows and one ring
+  point at what matters (3.4 rule 6).
 - **Format:** 9:16, 30 fps, 720×1280 or 1080×1920, 60–110 s.
-- **End card:** final sunny hero wide shot, character waving, small in-scene signboard with social handles.
+- **End card:** final sunny hero wide shot, character waving, small in-scene signboard with social handles. Ours: the finished
+  cutaway in the opening framing, with no character and no sign (3.4).
 
 ### Audio
-Not analysed. The speech-to-text model was blocked in the analysis session, so the scripts were rebuilt from the
-burned-in captions. The caption timing implies one continuous, fast narrator voice-over. Voice character, music
-and sound effects still need a listen.
+Not analysed at first: the speech-to-text model was blocked in the analysis session, so the scripts were rebuilt from the
+burned-in captions. The caption timing implies one continuous, fast narrator voice-over. Voice character and music still need a
+listen.
+
+**Measured on 15 Nov 2026, not listened to** (`pipeline/analysis/under_the_voice.py` on the nipa hut and the levee): there is no
+steady bed under the voice. Short, quiet stereo sounds sit in the gaps between lines: non-voice sound is present about 34–39% of the
+time, in 44 and 91 separate bursts, and the mix falls 28–33 dB below the voice in the quietest moments. TikTok lists both as
+"original sound". What the sounds are (build sounds or whooshes) needs a listen. The comparison with the other accounts is in 7.5.
 
 ### Ground rules
 - Copy the **formula**, never the content. Write new topics and new scripts. Don't reuse their wording,
@@ -125,6 +146,12 @@ and sound effects still need a listen.
 ---
 
 ## 2. Video ideas (approved 14 Nov 2026): four "Who wins?" matchups
+
+> **On hold since 15 Nov 2026.** The user moved to the Cutaway look with no character (3.4) and said: "we will do the video ideas
+> later". P1–P3 below were written for the character look (the mascot is "you" on one side) and for the matchup frame. Don't make
+> them as written, and don't start a new idea list until the user asks. When they do, write the ideas for the Cutaway look: our two
+> best videos are both everyday things with hidden workings that move something the camera can follow (4.2, 7.5). The matchup
+> research below stays for reference.
 
 **Approved by the user on 14 Nov 2026:** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
 these 4 for now". P1–P4 below are the whole list for now. P5 (a race car on the ceiling) was rejected. The ten ideas approved on
@@ -143,7 +170,8 @@ video log). The removed ideas and the full P5 are in the repo history at commit 
   each video needs a question the viewer can answer in two words.
 - **The frame: every video is a matchup.** Two sides are on screen from the first frame, a scoreboard label counts through the
   video, and it ends on a verdict question. A vote is the easiest comment to write, and the scoreboard is a reason to stay.
-- **Look:** Classic (3.4). The mascot is "you", on one of the two sides.
+- **Look:** Classic (3.4). The mascot is "you", on one of the two sides. (Written on 14 Nov 2026. The look has been Cutaway with no
+  character since 15 Nov 2026, which is why this list is on hold.)
 - **Rules for these ideas** (on top of sections 1 and 5):
   1. Hook: a claim that sounds wrong, with a number, inside the first 3–4 seconds. Both sides are in the first frame, and the labels
      must make the hook work with the sound off. Second person stays.
@@ -165,7 +193,7 @@ video log). The removed ideas and the full P5 are in the repo history at commit 
 - **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
   for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
   from TikTok's analytics for the old videos and the new one; we can't see those from outside.
-- **Order:** P4 done (video 07, 14 Nov 2026). Next P1, then P3, P2.
+- **Order:** P4 done (video 07, 14 Nov 2026). Next P1, then P3, P2. (On hold since 15 Nov 2026.)
 - **Chains are drafts:** ✔ was checked by web search on 14 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the title before Gate A (6.7).
 
@@ -302,13 +330,15 @@ Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), 
 ### 3.0 Tools and verified prices (checked 7 Nov 2026 with `get_cost:true`; re-check, prices change)
 | Job | Tool / model | Settings | Credits |
 |---|---|---|---|
-| Style key, character, stage stills | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"` (character sheet 2:3) | **1.25 / image** |
+| Style key and stage stills (no character sheet since 15 Nov 2026) | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"` | **1.25 / image** |
 | Cheap draft image (optional exploration only) | `gpt_image_2_6` | 9:16 | 0.25 / image |
-| Animated shots (default since video 04) | `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `resolution:"720p"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` (+ `end_image` for build beats) | **2.25 / second** (3 s = 6.75, 4 s = 9, 5 s = 11.25) |
+| Animated shots (default since video 04) | `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `resolution:"720p"` (it also offers `"1080p"`, which is its default: price both at Gate B, 3.3 Step 3), `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image` to travel from one picture to the next; ordered middle frames go in `image_references` (untested: 3.3 Step 7) | **2.25 / second at 720p** (3 s = 6.75, 4 s = 9, 5 s = 11.25); 1080p not yet priced |
 | Animated shots (optional) | `minimax_h3` | `resolution:"2K"`, `aspect_ratio:"9:16"`, `duration` 4–15 s | **2 / second** (4 s = 8, 5 s = 10); every queued job failed in videos 01–04 (3.4f) |
 | Narration (preferred) | ElevenLabs connector `creative_generate_speech` | voice from `creative_list_voices` | ElevenLabs credits (0 Higgsfield) |
 | Narration (fallback) | Higgsfield `generate_audio`, `text2speech_v2`, `variant:"elevenlabs"` | locked `voice_id` + `voice_type` | ~0.45 / line |
 | Word timing, labels, captions, assembly | Higgsfield `sandbox_exec` (ffmpeg, faster-whisper, Pillow preinstalled; `$HF_WORKFLOWS/video-montage/scripts/audio_to_captions.py`) | — | no generation credits (confirm in `transactions` after the first run) |
+| Sound bed and effects (only if the user says yes: 3.4) | ElevenLabs connector `creative_generate_in_flow`, node type `sfx` (`eleven_text_to_sound_v2`) | `duration_seconds` 0.5–30; `loop:true` gives a bed that repeats without a seam | ElevenLabs credits; not yet priced |
+| Checking a finished video | `pipeline/analysis/check_video.py` (share of seconds that move, caption size, sharpness), `under_the_voice.py`, `contact_sheet.py` | local, needs ffmpeg, numpy and opencv | free |
 | Optional | `virality_predictor`, `tiktok_prepare_publish` (UPLOAD_TO_DRAFT) | — | ask before using |
 
 Rejected alternatives at 10 s / 9:16: seedance_2_5 720p = 70, seedance_2_5 480p = 30, kling_4_0_flash = 30, kling4_0 720p = 22.5, seedance_2_0 720p = 45, grok_video_v15 = 45. `minimax_h3` is the cheapest and supports `start_image` + `end_image` keyframes, which is how we animate "the structure upgrades on screen".
@@ -316,7 +346,7 @@ Since video 04 the default is `kling4_0`: it also takes `start_image` + `end_ima
 minimax job has failed (3.4f). Prices re-checked 10 and 11 Nov 2026 with `get_cost`: unchanged.
 
 Balance when this runbook was written: **604 credits (Plus plan)**. On 11 Nov 2026 the account moved to the **Ultra plan**: 3,000 subscription
-credits (the 61.13 left were reset). Always call `balance` at the start of a run.
+credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left. Always call `balance` at the start of a run.
 
 ### 3.1 Budget tiers (pick one at Gate B; default = Middle since video 05)
 | Tier | What gets animated | Est. credits per 60–70 s video |
@@ -326,12 +356,18 @@ credits (the 61.13 left were reset). Always call `balance` at the start of a run
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
+**Cutaway look (since 15 Nov 2026): Middle is the floor.** Rule 1 of the look (3.4) asks for animated clips over at least about 80%
+of the running time: about 60 s of a 75 s video, which is what videos 06 and 07 had (60 s and 61 s of clips). Expect about 160
+credits at 720p: the same clip seconds as those two (135–137 credits) plus 15–20 stills. Lite left two thirds of videos 03 and 04
+as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be stills. In this
+look a line without its own clip holds the last frame of the clip before it, for 3 s at most; it never becomes a still of its own.
+
 ### 3.2 Credit rules (hard)
 1. Script, beat sheet, prompts and the cost quote are free. Do them all first.
 2. Before Gate B, add up the exact plan with `get_cost:true` (one call per distinct model/duration combo), multiply out, add 15% reserve, show the total, and wait for approval.
 3. Images before video. Fix look, consistency and drift in stills (1.25 cr), never by re-rolling clips (8–20 cr).
 4. Pilot first: render only 2 clips (the hook and one build beat) and show them before the batch.
-5. `count: 1` always. No variants. Regenerate a failed or bad clip **once**, with a corrected prompt. If it fails again, fall back to the still with ffmpeg motion and say so.
+5. `count: 1` always. No variants. Regenerate a failed or bad clip **once**, with a corrected prompt. If it fails again, fall back to the still with ffmpeg motion and say so. (Cutaway look: fall back to holding the last good frame, 3 s at most, and tell the user which line lost its clip; a still of something in motion is not a fallback.)
 6. Clip `duration` = beat length rounded up to whole seconds (min 3 on kling4_0, 4 on minimax_h3). Never generate 10 s for a 4 s beat.
 7. Never use `use_unlim` unless the user asks. Never auto-retry after a transport timeout; check the job id first.
 8. After the run, call `transactions` and report the actual spend against the quote.
@@ -339,11 +375,12 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 ### 3.3 Step-by-step
 
 **Step 1: Topic and script (free).**
-- Pick the idea from section 2. Write the script with the formula and writing rules in section 1 and the script rules in the section 5
-  prompt. Target ~75 s, ~260–280 words; never under 60 s.
-- Write for the build (3.4 shot rule): every line must be something the viewer can see happen on the build. Comparisons, stats and
-  the "that's why" are shown as labels on the build; cut any line that would need a picture of something else. At Gate A, list the
-  lines that became labels and the lines that were cut.
+- Take the idea the user names (the section 2 list is on hold since 15 Nov 2026). Write the script with the formula and writing rules
+  in section 1 and the script rules in the section 5 prompt. Target ~75 s, ~260–280 words; never under 60 s.
+- Write for the set (3.4 shot rule): every line must be something the viewer can see happen on the one cutaway set, and most lines
+  should describe something moving, because every such line gets an animated clip (3.4 rule 1). Comparisons, stats and the "that's
+  why" are shown on the set itself or cut; the Cutaway look has no labels. Cut any line that would need a picture of another place.
+  At Gate A, list the lines that were cut and the lines that were moved onto the set.
 - Run the saturation check on the title (`pipeline/youtube/yt_saturation.py`, 6.7) and report near-identical Shorts and the best views.
   Search the exact title, "how a [thing] becomes [place]" and "[place] how it was built": in video 06 only the second found the 27K
   near-identical build (3.4h).
@@ -352,14 +389,19 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 
 **Step 2: Beat sheet (free).**
 - Split the script into beats, one sentence or one "But/So" unit each (usually 14–18 beats).
-- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / cozy / end) | stage still used | camera move | label text (if any) | animate? (Lite: Y on hook, 1st build, twist, 2–3 key builds, climax, payoff, end)`.
+- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / end) | start picture → end picture | what moves | pointer (arrows or ring, if any) | clip or hold`. In the Cutaway look every beat is a clip unless it is a hold on the last frame of the clip before it. Holds run 3 s at most and add up to no more than about 20% of the running time (3.4 rule 1). A beat in which nothing can move is a sign that the line should be cut or merged with its neighbour.
 - Define the **stage ladder**: an ordered list of how the structure looks after each fix (Stage 0 = bare ground → Stage N = finished build). Each build beat moves from stage k to k+1.
 - **Every beat shows the build** (3.4 shot rule): the main view at the current stage, a close-up of the build at that stage, or the
   wall sliced open from the main view. Problems hit the build in the main view (the storm over it, the water pouring in). If the build
   itself has to move to a new setting, give that setting its own main view and continue the ladder there.
+- **Plan the travel** (3.4 rule 3): the camera gets from one stage or close-up to the next inside a clip (start picture → end
+  picture), never by a fade. Mark the few places where the setting truly changes; those are the only cuts.
 
 **Step 3: Cost quote. GATE B.**
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
+- Price Kling at 720p and at 1080p (`get_cost:true` for each) and show both totals; the user picks. Our 720p clips carry about half
+  the fine detail of the stills they sit between (7.5).
+- If the user has said yes to sound under the voice (3.4), price the bed and the effects as well.
 - Price the narration too: `creative_generate_speech` with `estimate_only:true` shows the ElevenLabs cost and any quota block. In video 05 one
   take of a 272-word script cost 1,368 ElevenLabs credits, the plan had 354 left, and the first try failed until the user upgraded.
 - Present: tier, number of stills, number and length of clips, total credits, remaining balance after.
@@ -367,19 +409,24 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 
 **Step 4: Project and style lock.**
 - `get_preferences`; if asked or preferred, `create_project` named after the video and reuse its `folder_id` on every generation.
-- Write the **STYLE FORMULA** (80–100 words) once and paste it byte-identical into every image and video prompt. Base it on section 1's animation style. Default:
-  > "3D CG render, real-time game-engine look, semi-realistic PBR textures on simple low-to-mid-poly models, soft natural daylight, soft shadows, mild depth of field, small diorama-like set, natural earthy palette, clean readable shapes, vertical 9:16 composition with the subject in the centre third, no text, no captions, no logos, no watermark."
-- **Our own mascot** (never copy theirs): one stock-style rigged builder, e.g. a "stocky man in a yellow hard hat, navy work overalls, brown boots, simple face, no facial animation". Lock the description and reuse it verbatim.
-- Generate in ONE `generate_image_batch`: (0) style key = a representative wide of the set at Stage 0 with the mascot, 9:16; (1) mascot full-body on a plain backdrop, 2:3. `jobs_wait`, then `show_generation_by_ids`. If off-style, regenerate once.
+- Write the **STYLE FORMULA** once and paste it byte-identical into every image and video prompt. **Cutaway default (15 Nov 2026; a starting point: lock the exact wording on the first video made with it):**
+  > "Photoreal 3D cutaway render: the ground is sliced open like a cake toward the camera, showing clean layers and what is buried in them. Bright soft daylight, warm tones, soft shadows, mild depth of field, clean realistic materials, translucent cyan water, tidy and uncluttered. Vertical 9:16 composition: the subject sits in the upper 60% of the frame, and the lower 40% is plain, calm, low-detail ground. No text, no letters, no numbers, no captions, no logos, no watermark."
+- **The shared line names no objects and no place** (3.4 rule 4). In video 04 the words "blue-painted pumps" in it put pumps under the kitchen sink, under three glasses and on the seabed. One SET line per video carries the place and its colours (name colours, not objects: 3.4g). A prop goes in the prompt of the shot that needs it.
+- **No character** (3.4). Hands, small anonymous workers or machines appear only in the shots that need them and are described in that shot's prompt. Every other still and clip prompt ends "No people, no characters" (Kling invents figures otherwise: 3.4d).
+- Generate the style key: a wide of the set at Stage 0 from the main view, 9:16. `jobs_wait`, then `show_generation_by_ids`. If off-style, regenerate once.
+- (Classic look, videos 01–02 and 05–07, for the record: the game-engine STYLE string in `pipeline/02-prompts.py`, the locked mascot as a second reference image, and a 2:3 mascot sheet generated with the style key.)
 
 **Step 5: Stage stills (~1.25 cr each).**
-- For each stage on the ladder, one 9:16 still of the SAME set from the SAME hero angle, passing the style key and mascot job ids as `medias` role `image_references` (order: location → character → props), plus the previous stage still so only the new part changes. Prompt pattern: `[STYLE FORMULA] Same scene and camera as reference. Now [exact change for this stage]. Everything else identical.`
-- Extra stills are only versions of the current stage in the same view: a night or storm grade, the wall sliced open, the threat
+- For each stage on the ladder, one 9:16 still of the SAME set from the SAME hero angle, made by editing the stage before it: pass the previous stage still (and the style key) as `medias` role `image_references` so only the new part changes (3.4 rule 4). Prompt pattern: `[STYLE FORMULA] Same scene and camera as reference. Now [exact change for this stage]. Everything else identical.`
+- Extra stills are only versions of the current stage in the same view: a night or storm grade (a re-grade of the same picture:
+  say "the same water colour as the reference; nothing glows"), the wall sliced open, the threat
   arriving. Make each by editing the current stage still ("Keep exactly the same camera position, zoom and framing as the reference
   image"; "Change only this: …"; 3.4f, 3.4g). A close-up of the build gets its own still only when a push-in on the stage still would
   be too soft to read (a gauge, a latch); make it by editing the stage still as well. Never make a still of something away from the
   build. Before Gate C, check that every still is the main view, a close-up of the build or the sliced-open wall, and that the build
-  matches from stage to stage.
+  matches from stage to stage. The Cutaway look adds two checks. The first and last stills match part for part: the same pipe, the
+  same slice, the same water colour (in video 03 the last frame lost its see-through barrel). And in every still the subject sits in
+  the upper 60% of the frame with plain ground below it, so nothing the viewer must read lies under the captions (3.4 rule 5).
 - Submit in batches of ≤12, `jobs_wait` (≤12 per call), one `show_generation_by_ids`. Regenerate drifted stills once. **GATE C: show the still ladder; user approves.**
 
 **Step 6: Narration.**
@@ -390,70 +437,121 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 
 **Step 7: Pilot clips. GATE D.**
 - Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
-- Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. The character only gestures and does not talk. No text, no captions.`
+- In the Cutaway look the second pilot is a travel clip: it starts on one stage or framing and ends on the next (3.4 rule 3). On the first Cutaway video, also test one clip with a middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`), so that one clip passes through three stages. Keep the method only if the set holds its shape; it is in Kling 4.0's model card but we have not used it.
+- Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. No people, no characters. No text, no captions.` (Classic look: `The character only gestures and does not talk.` in place of `No people, no characters.`)
 - Problem beat: `start_image` = current stage still (night or storm version if needed). Prompt describes the threat moving (rain falling, water rising, snake crawling).
 - Close-ups happen inside the clip ("slow push-in toward the door"), and the next shot is back in the main view. The camera never
   travels away from the build.
-- `duration` = the beat's measured length rounded up (min 4). Show both. If the look fails, fix the stills or prompt, not by re-rolling.
+- `duration` = the beat's measured length rounded up (min 3 on `kling4_0`). Show both. If the look fails, fix the stills or prompt, not by re-rolling.
 
 **Step 8: Remaining clips.**
-- Batch the rest (Full: all beats; Lite: only beats flagged Y) in `generate_video_batch` chunks of ≤12, `jobs_wait`, then one `show_generation_by_ids`.
-- Check each clip: right stage, no drift, no text artefacts, motion from frame 1. One corrected regeneration max per clip.
+- Batch the rest (every beat marked as a clip in Step 2) in `generate_video_batch` chunks of ≤12, `jobs_wait`, then one `show_generation_by_ids`.
+- Check each clip: right stage, no drift, no text artefacts, motion from frame 1, and the thing the line describes really moves. One corrected regeneration max per clip.
 
 **Step 9: Assembly (Higgsfield sandbox, free).**
 - Download all clips, stills and narration into one working folder in a single `sandbox_exec` (use `background:true` for long renders, `size:"xl"` only for the final encode).
-- For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). For non-animated beats, hold the last frame of the clip before with a slow push-in (free, and it matches because it is the same view), or turn the current stage still into a clip with a slow zoompan push-in or pan of that length. Hard cuts only, no transitions.
-- Lay the narration on top at full volume. Optional: a quiet ambient bed (rain, jungle, wind) only if the user asked or provided one; never add copyrighted music.
+- For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). A beat without its own clip holds the last frame of the clip before it with a slow push-in (free, and it matches because it is the same view), for 3 s at most. Never turn a still of something in motion (a pour, a splash, smoke, a gauge needle) into a shot: it reads as frozen (3.4 rule 1). No cross-fades between different pictures, and a cut only where the setting truly changes (3.4 rule 3).
+- If the clips are 720p, add a light sharpen after the upscale (start from `unsharp=5:5:0.6` and judge it on a frame) so they sit closer to the stills (7.5).
+- Lay the narration on top at full volume. Sound under the voice is an open question (3.4): voice only unless the user has said yes, and never copyrighted music. Keep the voice-only mix either way.
 - Output 1080×1920, 30 fps, H.264 + AAC. Keep this as the **clean master** (no text).
+- Run `pipeline/analysis/check_video.py` on the master. Report the share of seconds that move and any stretch without movement longer than about 6 s. Target: 80% or more (the reference's two biggest videos score 84% and 87%; our videos 03 and 04 scored 33%).
 
-**Step 10: Labels and captions (sandbox, free).**
-- **Labels:** for each beat that names a term or stat, draw the ALL-CAPS label (bold white sans, soft shadow) near the subject for that beat's duration. Dimension lines (dashed line + "10 FT") are drawn the same way.
-- **Captions:** one word per cue, timed from the Whisper word timestamps, text from the authored script. Centred horizontally at ~52% of frame height. Title Case. Heavy rounded font (fetch Fredoka Bold from Google Fonts inside the sandbox; fall back to the preinstalled Montserrat ExtraBold). White fill, ~4 px black outline, soft drop shadow, ~64–72 px at 1080 wide.
-- This centred, one-word look is a deliberate choice for this format. The bundled `subtitle_paper_burn.py` only places captions at the bottom, so render these with an ASS subtitle file through ffmpeg/libass. Use the bundled scripts for transcription only.
-- Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word. Inspect them with `image_paths`.
-- **Fallback:** if the caption burn fails, deliver the clean master plus an `.srt` of one-word cues, and the user captions it in CapCut (one-word preset, centred).
+**Step 10: Pointers and captions (sandbox, free).**
+- **Cutaway look (since 15 Nov 2026): no term labels.** The term is spoken. Nothing is written on the picture except the captions.
+- **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A clip that carries a pointer keeps the camera still (`FIXED` in `06-clips.py`).
+- **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 130 in the Caption style of `04-build.py` (100 gave the 44 px letters of videos 03–04; set `PF` to 130 as well). Centred at about 75% of the frame height (`CAPY` ≈ 1440). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
+- Render with an ASS subtitle file through ffmpeg/libass (the bundled `subtitle_paper_burn.py` only places captions at the bottom). Use the bundled scripts for transcription only.
+- Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word over a quiet part of the picture. Inspect them with `image_paths`. `check_video.py` also prints the caption letter height and position.
+- **Fallback:** if the caption burn fails, deliver the clean master plus an `.srt` of one-word cues, and the user captions it in CapCut (one-word preset).
+- (Classic look, videos 01–02 and 05–07, for the record: ALL CAPS term labels near the subject, dashed dimension lines, and Title Case captions in Fredoka Bold centred at ~52% of the frame height, 64–72 px at 1080 wide.)
 
 **Step 11: End card and delivery.**
-- Final beat: a sunny hero wide of the finished build, mascot waving, with a small in-scene signboard. Put the user's handle on the signboard as a label in post (ask for the handle once and save it in 3.4).
+- Final beat: the finished cutaway in the framing of the first frame, so the last line loops into the hook. No character and no sign (3.4).
 - Upload the final MP4 to Higgsfield storage (`media_upload` → PUT in the same `sandbox_exec` → `media_confirm`) and give the user the link.
-- Report: final length, credits quoted vs spent (`transactions`), any beats that fell back to stills.
+- Report: final length, credits quoted vs spent (`transactions`), the share of seconds that move (Step 9), and any line that lost its clip.
 - Only if asked: `virality_predictor` (ask about cost first), then `tiktok_prepare_publish` with `mode:"UPLOAD_TO_DRAFT"` (the user always reviews and submits).
 
 **Step 12: Post copy (free).**
 - TikTok: the idea's title or a hook question with one emoji, then `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and 1–2 topic
   tags (video 04's pattern, 3.4f). The `social-media-skills:caption-writer` and `hook-writer` skills can help with alternates.
-- **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a title in the idea's form, `How a ___ Becomes ___` or
-  `If You…`, with no hashtags or call to action; a written description; audience set to "not made for kids").
+- **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a title in the idea's form: the question the video
+  answers, `How a ___ Becomes ___` or `If You…`, with no hashtags or call to action; a written description; audience set to "not
+  made for kids").
 
 ### 3.4 Locked choices (fill in after the first video and keep them for every video)
 - Narration voice (LOCKED): ElevenLabs connector, model `eleven_v4`, voice "Daniel's Voice - Warm, Low, Confident" voice_id `rFhx8PVgXxOyaeAGq9fq`. Raw take runs ~3.2 words/s; tighten pauses to 0.15 s (timing.py) to reach ~3.5 words/s. The user upgraded the ElevenLabs plan on
   11 Nov 2026 after the 10,000-credit quota ran out mid-run.
-- Mascot description (LOCKED): "a stocky man in a yellow hard hat, navy blue work overalls over a white t-shirt, brown work boots, short dark beard, simple friendly face, game-character proportions". Reusable Higgsfield reference image: job_id `f97004b9-f63f-4971-ab16-e0519314a404` (seedream_v5_pro, 2:3). Pass it as an `image_references` media on every still that shows him.
-- End-card signboard: NONE (user chose no sign). End on the mascot waving at the finished build.
+- **Mascot (retired from the videos on 15 Nov 2026; kept for the channel artwork and for the record):** "a stocky man in a yellow hard hat, navy blue work overalls over a white t-shirt, brown work boots, short dark beard, simple friendly face, game-character proportions". Higgsfield reference image: job_id `f97004b9-f63f-4971-ab16-e0519314a404` (seedream_v5_pro, 2:3). He is in videos 01–02 and 05–07. Don't put him in a new video unless the user asks.
+- End card: no sign (the user chose none). End on the finished cutaway in the framing of the first frame. (Classic look: the mascot waving at the finished build.)
 - Default tier: **Middle** (the user, 11 Nov 2026: "lite isn't enough animation and full is too much"; they picked Middle B, 15 clips,
-  ~170–200 credits). Offer Lite or Full when the balance or the beat count calls for it.
-- Look (LOCKED by the user, 11 Nov 2026): **Classic**, the look of videos 01–02. The locked mascot (reference job f97004b9-…) stands in a
-  small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight and mild depth of field, seen from a slightly raised
-  three-quarter view. Use the base STYLE string in `pipeline/02-prompts.py` plus one palette line per setting. Captions are centred,
-  one word at a time, in Title Case, with ALL CAPS term labels (`pipeline/02-build.py`). Hidden By Design (videos 03–04) is retired.
-- **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build, one main view.** The reasons and the credit effect are in 7.2.
-  1. The camera stays on the thing being built, in one main view (the hero angle of the stage ladder). Every line of the script
-     changes something you can see on it: a part grows in, a problem hits it, something inside starts working. The mascot is in the
-     scene doing the work.
+  ~170–200 credits). In the Cutaway look Middle is the floor (Rule 1 below, 3.1); offer Full when the beat count calls for it.
+- **Look (LOCKED by the user, 15 Nov 2026): Cutaway, no character.** It is the look of videos 03–04 (then called Hidden By Design)
+  with the six refinements the user approved on 15 Nov 2026 ("all 6 refinements are approved"). The measurements and the reasons are
+  in 7.5. Elsewhere in this file "3.4 rule N" means the rules below.
+  - **What it is:** a bright, clean, photoreal-leaning 3D render of one place sliced open like a cake, in soft daylight, with
+    translucent cyan water. "You" is the viewer and nobody stands in for them: hands, small anonymous workers or machines appear
+    only where the work needs them. One small living thing per video is welcome (the yellow fish, the dog). No on-screen term
+    labels. One-word captions, the loop ending and no spoken call to action stay as they were.
+  - **Rule 1. Animate nearly all of it.** Animated clips cover at least about 80% of the running time. Every line in which something
+    flows, turns, pours, fills, breaks or freezes gets a clip. A hold is only ever the last frame of the clip before it, with a slow
+    push-in, for 3 s at most. Never show a frozen splash, pour, plume of smoke or gauge needle. `pipeline/analysis/check_video.py`
+    measures it on the finished video.
+  - **Rule 2. One cutaway, changed in place.** One sliced-open set from one main view, and each fix is added to it (the shot rule
+    below). Close-ups are push-ins on that set. Anything that needs another place is shown on the set or cut.
+  - **Rule 3. Move the camera instead of fading between pictures.** Stages and close-ups are linked by clips that start on one
+    picture and end on the next (start and end keyframes), so the part grows or the camera travels. No cross-fades between different
+    pictures. Cut only where the setting truly changes, on a "But" or a "So".
+  - **Rule 4. Hold the look steady.** Every still is made by editing the one before it, with the framing lock. The shared style line
+    names no objects and no place. Night and storm are a re-grade of the same picture: the same water colour, and nothing glows. The
+    first and last frames match part for part. All of it is checked at Gate C.
+  - **Rule 5. Bigger captions on a quiet part of the frame.** Every picture is composed with the subject in the upper 60% and plain,
+    calm ground below it. Captions are ALL CAPS, with letters about 57 px tall at 1080×1920 (30% larger than in videos 03–04),
+    centred about 75% down the frame (3.3 Step 10).
+  - **Rule 6. Bolder pointers.** Solid white arrows about three times the size of the old chevrons, with a soft shadow, moving along
+    the flow, three or four at a time, and a thicker ring that fades in. One device per beat (3.3 Step 10).
+  - **Agreed the same day, not rules:** price Kling's 1080p at the next Gate B, because our 720p clips carry about half the fine
+    detail of the stills, and add a light sharpen otherwise (3.3 Steps 3 and 9); take the caption timing from `07-build.py`.
+- **Sound under the voice (OPEN since 15 Nov 2026; voice only until the user says yes).** The user asked what the competition does
+  and what I recommend, and has not answered yet. Measured that day, not listened to (7.5): @1hidden_by_design runs a quiet steady
+  bed under the whole video, about 19–20 dB below the voice in the quietest moments, with almost no separate effects;
+  @howbuildingexplained has no bed, only short quiet sounds in the gaps between lines; @thewhatifstudio has full sound design (music
+  or drones and effects, loud in the mix); ours is the only voice-only track. **Recommendation given: yes.** A quiet, steady,
+  non-melodic bed that fits the place, about 18–20 dB under the voice, plus four to eight short effects on the moments where
+  something visibly happens (water rushing, a valve closing, ice cracking), starting about 10–12 dB under the voice. No melodic
+  music, and never a copyrighted or trending track. Keep the voice-only mix, and on the first video export both so the user can
+  choose by ear. Made with the ElevenLabs Sound Effects node (3.0; not yet priced) and mixed in ffmpeg. The section 5 prompt has a
+  SOUND line for it. If the user has not answered by the next video's Gate B, ask there.
+- Earlier look (**Classic**, locked by the user on 11 Nov 2026 and replaced on 15 Nov 2026), for the record: the look of videos
+  01–02 and 05–07. The locked mascot stands in a small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight
+  and mild depth of field, seen from a slightly raised three-quarter view. Base STYLE string in `pipeline/02-prompts.py` plus one
+  palette line per setting. Captions centred, one word at a time, in Title Case, with ALL CAPS term labels (`pipeline/02-build.py`).
+- **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05; carried over to the Cutaway look on 15 Nov 2026 as its Rule 2): one
+  build, one main view.** The reasons and the credit effect are in 7.2.
+  1. The camera stays on the thing being explained, in one main view (the hero angle of the stage ladder). Every line of the script
+     changes something you can see on it: a part grows in, a problem hits it, something inside starts working. (Classic look: the
+     mascot is in the scene doing the work. Cutaway look: nobody is, unless the work needs hands or a small worker.)
   2. Close-ups show only the build, as it is at that moment, and the next shot goes back to the main view. Make them from the same
-     picture where possible: the camera pushes in during the clip, or the edit zooms in on the still (free). Only a detail too small
-     for that (a gauge) gets its own still, made by editing the current stage still so it matches.
-  3. To show how it works inside, slice the wall open from the same view. Never cut to a separate room.
-  4. Comparisons and asides appear only as labels on the build ("17 HOURS", a dashed "60 FT" line). Cut any that would need a picture
-     of something else (like video 05's cup in a bath, kitchen sponge, airliner and space capsule).
+     picture where possible: the camera pushes in during the clip, or the edit zooms in on the held frame (free). Only a detail too
+     small for that (a gauge) gets its own still, made by editing the current stage still so it matches.
+  3. To show how it works inside, slice the wall open from the same view. Never cut to a separate room. (In the Cutaway look the
+     set is already sliced open.)
+  4. Comparisons and asides stay on the build. Classic look: only as labels ("17 HOURS", a dashed "60 FT" line). Cutaway look, which
+     has no labels: on the set itself (a gauge on the pipe, a tub beside the hydrant). Cut any that would need a picture of
+     something else (like video 05's cup in a bath, kitchen sponge, airliner and space capsule, or video 04's coal heap, three
+     glasses and Perth).
   5. Problems (storms, floods, threats) hit the build in the main view.
-  6. The setting changes only when the build itself has to move (a tow-out, a launch, a flight); the new setting gets its own main view.
+  6. The setting changes only when the build itself has to move (a tow-out, a launch, a flight); the new setting gets its own main
+     view. A journey topic (water from the sea to a tap) is one long section through the whole system that the camera travels
+     along, with three or four stops at most, each a part of the same picture.
 - Higgsfield project / folder naming: `HBX – [video title]`
-- Channels: YouTube **@overthinkingyearly** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025) and TikTok **@overthinkingyearly**
-  (nickname "OT"). A rename was recommended on 10 Nov 2026 and the user has not chosen yet (shortlist in 6.5). Update this line when they do.
+- Channels: YouTube **LetZBuildTogether**, handle **@LetzBuildTogether** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025). The
+  user renamed it from @overthinkingyearly some time between 10 and 15 Nov 2026; the old handle still redirected on 15 Nov 2026.
+  TikTok is still **@overthinkingyearly** (nickname "OT"). The 6.5 shortlist was not used.
 - Channel branding (made 10 Nov 2026, details in 6.8): profile picture = the mascot's head and shoulders on blueprint blue; banner =
   blueprint grid, "ONE PROBLEM / AT A TIME", tiles of the finished builds. Files in `branding/`. Brand colours: blueprint blue `#1F4E8C`,
-  hard-hat yellow `#FFC83D`; type: Barlow Condensed. Reuse `branding/mascot-cutout.png` (transparent PNG) for covers and thumbnails.
+  hard-hat yellow `#FFC83D`; type: Barlow Condensed. Both were live on the YouTube channel on 15 Nov 2026. The mascot is retired from
+  the videos only: the user has not asked to change the artwork, so leave it unless they do. `branding/mascot-cutout.png` was made
+  for covers and thumbnails; Cutaway videos use a frame of the cutaway instead.
 
 ### 3.4b Video log
 YouTube ids, view counts and comments for the posted videos are in 6.1.
@@ -783,13 +881,42 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   `07-build.py` (multi-beat segments, focus moves, counters, the Verdict style), `07-labels.json`, `07-thumbnail.py`, `07-ladder.jpg`.
   Copy these for the next matchup.
 
+### 3.4j Starting point for the first Cutaway video (15 Nov 2026; nothing has been made under the new rules yet)
+- **What changed and why:** the look and its six rules are in 3.4, the measurements behind them in 7.5. Read both before the beat sheet.
+- **Scripts to start from** (repo `pipeline/`): the build from `07-build.py` (segments of several beats, holds on a clip's last
+  frame, focus push-ins, cue timing without overlaps); the caption and shape drawing from `04-build.py` (ALL CAPS Montserrat
+  ExtraBold; the ring and the chevron as ASS shapes drawn from a top-left origin), with `PF` and `Fontsize` 130, `CAPY` 1440 and
+  `MAXW` 900; the still chain from `06-prompts.py` (`LOCK`, `CAMERA`: every still an edit of the one before); the clip wording from
+  `06-clips.py` (`FIXED`) and `07-clips.py` (`SLOW`); the cutaway wording from `04-prompts.py` and `03-beat-sheet.md`, without the
+  object words (3.3 Step 4).
+- **Take out of the 03–04 build:** the 0.3 s `xfade` between beats (Rule 3); the shots made from a still with a push-in (`zoompan`
+  is now only for a hold on a clip's last frame, 3 s at most); and the 0.12 s minimum cue that let two words overlap.
+- **New drawing to write:** a solid arrow in place of the chevron path (`m 0 34 l 34 0 l 68 34 l 68 48 l 34 14 l 0 48`): about
+  200 px long, white fill, a soft shadow (`\shad`), three or four sliding along the flow 0.3 s apart. The ring with `\bord16`.
+- **What the pilot must answer** (Gate D): does a start-and-end-frame clip carry the camera from one stage to the next without the
+  set changing shape? Does a middle keyframe let one clip pass through three stages? Is 1080p worth its price next to 720p with a
+  sharpen?
+- **Check before delivery:** `python3 pipeline/analysis/check_video.py final.mp4` (`pip install numpy opencv-python-headless` first).
+  Targets: 80% or more of the seconds moving, no stretch without movement longer than about 6 s, caption letters about 57 px at
+  about 75% down, and moving and still seconds about equally sharp. `contact_sheet.py` makes one-frame-a-second sheets for reading
+  a video shot by shot; `under_the_voice.py` shows what sits under a narration.
+- **Reading TikTok from a session** (a correction to the note at the top of section 4): the `-0` and `-1` format suffixes do not map
+  to fixed hosts. On 15 Nov 2026 the allowed host (`v16-webapp-prime.us.tiktok.com`) carried `-0` for some videos and `-1` for
+  others, and the mapping changed between two calls. Read the format list with `yt-dlp -J`, pick a format whose URL is on the v16
+  host, and if the download is refused try the other suffix. The profile page (`https://www.tiktok.com/@handle`, fetched with a
+  browser user agent) carries `followerCount`, `heartCount` and `videoCount` in its embedded JSON.
+
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
 - **Video model adds text or subtitles:** add "no text, no captions, no letters" to the prompt and regenerate once.
 - **Clip starts frozen:** add "motion starts on frame 1" and regenerate once.
 - **Character lip-syncs:** add "the character does not talk; mouth closed".
 - **Narration runs long:** cut words from the script; don't speed it up.
-- **Balance too low for the quoted tier:** offer Lite, or fewer animated beats. Never start a run you can't finish.
+- **Balance too low for the quoted tier:** offer Lite, or fewer animated beats. Never start a run you can't finish. (Cutaway look: name the lines that would become holds; 3.1.)
+- **A still of something in motion looks frozen** (a pour, a splash, smoke, a gauge needle; videos 03–04 had many): give the line a clip, or hold the frame before it. Never cut to a new still (3.4 Rule 1).
+- **The same stray object turns up in every shot:** an object word in the shared style line. Move it to the prompt of the shot that needs it (3.4 Rule 4).
+- **The last frame doesn't match the first:** make the END still by editing the last stage still, and compare it with Stage 0 at Gate C.
+- **A night or storm shot changes the render** (glowing water, redrawn pipes; video 03's fire shot): make it by editing the day still and say "the same water colour as the reference; nothing glows; only the light changes".
 
 ---
 
@@ -798,7 +925,10 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 Studied 8 Nov 2026 (https://www.tiktok.com/@1hidden_by_design). All 9 videos were downloaded with yt-dlp (pin a format ending in `-0`,
 served from the allowed `v16-webapp-prime.us.tiktok.com`; the `-1` mirror on v19 is blocked), transcribed with faster-whisper in the
 Higgsfield sandbox, and sampled as contact sheets. The comment sections and the bio's Payhip guide (payhip.com is outside the network
-policy) could not be read.
+policy) could not be read. (15 Nov 2026: the suffix does not map to a fixed host; see 3.4j.)
+
+**This is the account our look comes from.** Since 15 Nov 2026 our videos are made in its look, without a character (3.4). That day
+its storm drain, roof and landfill videos were downloaded again and measured against our two best (4.4, 4.5, 7.5).
 
 ### 4.1 The account
 - 9 videos, 25 Oct to 8 Nov 2026, now 2 a day. 33.9K followers, 509K likes. The profile was created in May 2025, but these are its only posts.
@@ -820,6 +950,9 @@ policy) could not be read.
 | Why Doesn't Rain Leak Through Your Roof? 🌧️🏠 | 8 Nov | 77.2 s | 19K in 1.5 h (too new) | 579 | 23 | 34 |
 
 Snapshot 8 Nov 2026, 21:30 UTC. Hashtags on every post: #HowItWorks #Engineering #LearnOnTikTok, often #3DAnimation, plus 1–2 topic tags.
+
+**15 Nov 2026:** 10 videos, 21.1M views. Storm drain 9.9M, roof 4.2M, landfill 3.9M, water well 991K, river tunnel 900K, bridge
+foundation 423K, power lines 347K, sewer 303K, gas station 112K, beach 44K.
 
 ### 4.2 Why it works
 1. **Universal, hidden, and moving.** Everyone sees a storm drain, a tap or a manhole; nobody sees what's underneath. Each topic moves
@@ -880,18 +1013,33 @@ END          three-beat imperative that loops into the hook: "Bury the pipes, pa
 - **End overlays:** an animated TikTok "FOLLOW" button with a cursor click, or a red YouTube "SUBSCRIBE 🔔" button, in the last ~3 s
   (they probably cross-post to YouTube Shorts).
 - **Format:** 9:16, 30 fps, uploaded at 1080×1920.
+- **Measured on 15 Nov 2026** (the storm drain and the roof, with `pipeline/analysis/check_video.py`; 7.5):
+  - Something in the picture moves in 84% and 87% of the seconds. The longest stretch without movement is 6 s and 4 s.
+  - No hard cuts and no cross-fades were found: the camera travels from one detail to the next.
+  - Each stays in one place from start to finish: one street, one house. The roof video shows small workers and gloved hands
+    doing the work.
+  - Caption letters are about 62 px tall (storm drain, lowercase) and 54 px (roof, ALL CAPS), at 75% and 77% of the frame height.
+    In the storm drain the lower ~40% of most frames is plain dark soil, and the captions sit on it.
+  - Pointers are small solid white arrows with a shadow, three or four at a time (storm drain), or long thin white arrows (roof).
 
 ### 4.5 Audio (measured, not listened to)
 - The same narrator in all nine: fast, even and lively, almost certainly an AI voice. Median pitch ~150 Hz with a wide 118–239 Hz range,
   which suggests a male voice with lively intonation.
 - A quiet, low, non-melodic stereo bed (ambient or cinematic pad) under the mono voice: pauses sit only 12–14 dB below speech. Integrated
   loudness about −23 LUFS. The gas station had a steadier, more tonal bed.
+- **Re-measured on 15 Nov 2026** (storm drain, roof and landfill, with `pipeline/analysis/under_the_voice.py`): the bed is there
+  71–93% of the time, the mix falls only 19–20 dB below the voice in its quietest moments, and the side channel sits 21–22 dB below
+  the whole mix. There are few separate bursts, so no event sound effects to speak of. TikTok lists every video as "original sound".
+  (The 12–14 dB above came from a different window; both measures say the bed is always there.) How this compares with the other
+  accounts, and the recommendation for our videos, is in 7.5.
 
 ### 4.6 Topics @1hidden_by_design has already done (avoid)
 Storm drain, water well and water tower, road tunnel under a river, landfill into a park, bridge foundation in a river (cofferdam), sewer
 and wastewater treatment, power grid, gas station, roof.
 
-### 4.7 Production notes for this look (retired 11 Nov 2026; kept for reference)
+### 4.7 Production notes for this look (retired 11 Nov 2026; current again since 15 Nov 2026)
+- **15 Nov 2026:** this look is ours again, as the Cutaway look. 3.4 has the rules; where a note below disagrees with 3.4 (the split
+  cover of 3.4d shows the mascot, for one), 3.4 wins.
 - The stage ladder fits this look: one cutaway set, one hero angle, one fix added per stage. Add a cutaway line to the STYLE FORMULA, e.g.
   "photoreal 3D cutaway cross-section, the ground sliced open to show soil layers and the pipes inside, bright sunny daylight, clean
   materials, translucent cyan water".
@@ -901,43 +1049,55 @@ and wastewater treatment, power grid, gas station, roof.
 
 ---
 
-## 5. Kickoff prompt, renewed 11/11/26 (paste this to make a video)
-**Renewed 11/11/26:** this is the current version. It adds the one-build, one-view shot rule (3.4, 7.2). Fill in the two lines in
-angle brackets and paste the whole block into a new session. (14 Nov 2026: only the IDEA line changed, to match the P1–P4 list.)
+## 5. Kickoff prompt, renewed 15/11/26 (paste this to make a video)
+**Renewed 15/11/26:** this is the current version. It replaces the character look with the Cutaway look and its six rules (3.4,
+7.5). Fill in the three lines in angle brackets and paste the whole block into a new session. Leave SOUND at "voice only" until the
+user has decided about sound (3.4). The 11/11/26 version, for the character look, is in the repo history at commit `f8bf298`.
 ```
-KICKOFF PROMPT (renewed 11/11/26)
+KICKOFF PROMPT (renewed 15/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <P1-P4 from section 2>
-TIER:   <Lite | Middle | Full>   (Middle unless I say otherwise)
+IDEA:   <the topic or the title>
+TIER:   <Middle | Full>   (Middle unless I say otherwise)
+SOUND:  <voice only | bed and effects>   (voice only unless I say otherwise)
 
 Fixed choices (3.4):
-- Look: Classic. Our locked mascot is "you", in a small sunny 3D diorama, and he is in
-  the first and last shot. Base STYLE string from pipeline/02-prompts.py plus one
-  palette line for the setting.
-- Shots: one build, one main view (the 3.4 shot rule). The camera stays on the thing
-  we're building, and every line of the script changes something you can see on it.
-  - Close-ups only of the build as it is at that moment, then back to the main view.
-    Push in on the same picture where you can.
-  - Show how it works inside by slicing the wall open from the same view, never by
-    cutting to a separate room.
-  - Problems hit the build in the main view.
-  - Change the setting only when the build itself has to move.
-- Captions: one word at a time, centred, Title Case; real terms as ALL CAPS labels.
+- Look: Cutaway, no character. One place sliced open like a cake, bright and clean,
+  with translucent cyan water. "You" is the viewer. Hands, small workers or machines
+  appear only where the work needs them. No labels on the picture.
+- The six rules of the look:
+  1. Animate nearly all of it. Animated clips cover at least about 80% of the running
+     time. Every line where something flows, turns, pours or breaks gets a clip. A
+     hold is only the last frame of the clip before it, 3 s at most. Never show a
+     frozen splash, pour, smoke or gauge needle.
+  2. One cutaway, changed in place. One sliced-open set from one main view; each fix
+     is added to it. Close-ups are push-ins on that set, then back to the main view.
+     Anything that needs another place is shown on the set or cut.
+  3. Move the camera instead of fading. Link stages with clips that start on one
+     picture and end on the next. No cross-fades between different pictures. Cut only
+     where the setting truly changes.
+  4. Hold the look steady. Make every still by editing the one before it. Keep objects
+     out of the shared style line. Night and storm are a re-grade of the same picture.
+     The first and last frames match part for part.
+  5. Captions: one word at a time, ALL CAPS, about 30% larger than in videos 03-04,
+     about 75% down the frame. Compose every picture with the subject in the upper 60%
+     and plain ground below it.
+  6. Pointers: solid white arrows about three times the old size, moving along the
+     flow, and a thicker ring. One device per beat.
 - Narrator: Daniel (3.4). Video model: kling4_0 (3.0).
 
 Script rules, on top of section 1:
 - Open with "If you..." and land the first "But" by ~3 s.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
-- 7-8 But/So beats that escalate. Name the real term after the key fixes.
-- Write for the build: every line must be something we can show on it. Comparisons
-  and stats are shown only as labels on the build. Cut any line that would need a
-  picture of something else, and tell me at Gate A which lines you cut or turned
-  into labels.
-- Build in the idea's twist and one "that's why" viewers can check in real life,
-  shown on the build or as a label.
+- 7-8 But/So beats that escalate. Name the real term after the key fixes (spoken only).
+- Write for the set: every line must be something we can show happening on the one
+  cutaway, and most lines should describe something moving. Show comparisons and stats
+  on the set itself or cut them. Cut any line that would need a picture of another
+  place, and tell me at Gate A which lines you cut or moved onto the set.
+- Build in one "that's why" viewers can check in real life and one small human joke,
+  both shown on the set.
 - End on our own line: a three-beat imperative that loops back into the hook (4.3).
   Never "Congratulations, you have built..." (How Building Explained's signature line).
 - Fact-check every ⚠ claim before Gate A and cut anything unverifiable. Never reuse any
@@ -945,23 +1105,27 @@ Script rules, on top of section 1:
 - Before Gate A, run pipeline/youtube/yt_saturation.py on the title and tell me how many
   near-identical Shorts exist and the best view count.
 
-Credits: check the balance first. If it's below the quote, offer a smaller plan (fewer
-animated shots) instead of starting.
+Credits: check the balance first. If it's below the quote, offer a smaller plan and tell
+me which lines would lose their clip, instead of starting. In the quote, price the clips
+at 720p and at 1080p and show both totals.
 
 Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills:
-check they all show the same build from the main view) and Gate D (pilot clips). Spend
-no credits before I approve Gate B.
+one set from one main view, the subject in the upper 60%, the first and last frames
+matching) and Gate D (pilot clips: the hook, and one clip that travels from one stage to
+the next). Spend no credits before I approve Gate B.
 
 When the video is done, give me:
 - the final MP4 link
-- 3 cover options (3.4d), one of them a plain mid-video frame with no text
+- the share of the running time that moves (pipeline/analysis/check_video.py; the target
+  is 80% or more) and any line that lost its clip
+- 3 cover options (3.4d), one of them a plain mid-video cutaway frame with no text
 - TikTok post copy: the title or a hook question with one emoji, then #HowItWorks
   #Engineering #LearnOnTikTok #3DAnimation and 1-2 topic tags
-- YouTube post copy per 6.4: a title under ~60 characters in the idea's form ("How a ___
-  Becomes ___" or "If You..."), no hashtags in it; a 2-3 sentence description with one
-  question and at most 3 hashtags; audience "not made for kids"
-Then log the video in 3.4b, mark the idea ✅ USED in section 2, add any new lessons, and
-update both copies of the memory.
+- YouTube post copy per 6.4: a title under ~60 characters (the question the video
+  answers, or "How a ___ Becomes ___"), no hashtags in it; a 2-3 sentence description
+  with one question and at most 3 hashtags; audience "not made for kids"
+Then log the video in 3.4b (and mark the idea used in section 2 if it came from there),
+add any new lessons, and update both copies of the memory.
 ```
 
 ---
@@ -971,7 +1135,8 @@ update both copies of the memory.
 The user asked for a channel review ("username? profile pic? what can I do better to blow the channel up"). The channel was read from
 public pages with `pipeline/youtube/yt_snapshot.py` (how-to in 6.7). The audit was delivered in chat on 10 Nov 2026. **Whether the user
 applied the fixes in 6.2 is unknown: re-run the snapshot before relying on 6.1.** Conclusions marked "my read" are Claude's
-interpretation of the data, not measured facts.
+interpretation of the data, not measured facts. **15 Nov 2026:** the snapshot was re-run and most of the fixes are in: see the end
+of 6.1.
 
 ### 6.1 Channel snapshot (10 Nov 2026, 08:54 UTC)
 - **@overthinkingyearly**: 13 subscribers (9 the evening before), 6 Shorts, about 4.3K total views, only a Shorts tab.
@@ -999,6 +1164,33 @@ interpretation of the data, not measured facts.
 - Covers are mid-video frames carrying one caption word ("Dry", "The", "COLORS"). The channel is not in the Partner Program, so the
   designed covers (3.4d, 3.4e) can't be uploaded on YouTube yet; only a frame can be picked.
 
+**Snapshot on 15 Nov 2026 (03:10 UTC), both platforms.** This is the data behind the move to the Cutaway look (7.5).
+
+| Video | Character | TikTok views (likes · comments · shares · saves) | YouTube views (likes) |
+|---|---|---|---|
+| 04 Seawater | no | 28.7K (314 · 6 · 32 · 54) | 8,217 (339) |
+| 03 Fire hydrant | no | 6,213 (115 · 0 · 3 · 6) | 166,949 (5.2K) |
+| 02 Canoe | yes | 1,664 (23 · 1 · 2 · 2) | 169 (11) |
+| 01 Mud house | yes | 1,448 (42 · 1 · 2 · 5) | 2,072 (100) |
+| 05 Aquarius | yes | 385 (19 · 1 · 0 · 1) | 1,244 (66) |
+| 06 Petra | yes | 302 (13 · 0 · 0 · 4) | 34 (3) |
+| 07 1959 vs 2009 car (8 hours old) | yes | 162 (4 · 0 · 0 · 1) | 5 (1) |
+
+- The two videos without the character hold 90% of the TikTok views (34.9K of 38.9K) and 98% of the YouTube views (175.2K of 178.7K).
+- **YouTube:** the channel is now **LetZBuildTogether** (@LetzBuildTogether), with 282 subscribers (13 on 10 Nov) and 7 Shorts. The
+  three off-niche clips are gone. Description: "Start with something simple. Add problems. A few fixes later it's a project. Animated
+  build explainers, one problem at a time. Every script is researched and fact-checked." The mascot profile picture and the "ONE
+  PROBLEM AT A TIME" banner (6.8) are live. Video 02 is out of made-for-kids mode (comments on). Videos 01 and 02 carry the 6.2
+  retitles; video 03 still has its first title, with four hashtags and an empty description.
+- **The hydrant Short went from 1,857 views to 166,949 in five days**, our first video to leave the test batch on YouTube. Sixteen
+  comments were read: several local corrections (cap colours mean different things in different towns; a hit hydrant does spray in
+  Los Angeles and Baton Rouge), praise for the dog line, a UK and an Australian viewer describing underground hydrants, and two
+  "AI" remarks ("🤖 ai 🤖", "AI SLOP").
+- **TikTok:** 48 followers, 530 likes, 7 videos, 38.9K views.
+- **A caution on 6.3 and 6.4 (my read, from one video):** our best YouTube result has a "why" title, hashtags in the title and an
+  empty description, all things 6.4 advises against. The packaging advice is unproven, and "becomes beats why" (6.3) did not hold
+  for us. The video had to do the work.
+
 ### 6.2 Problems found, and the fix recommended to the user
 1. **Video 02 is served in made-for-kids mode**, which is why it has 7 views: comments are off, "Save to playlist" is missing, there is
    no "Original Sound" pivot, and the hashtags in its title are not links. The other five Shorts have none of this. Fix: Studio →
@@ -1013,7 +1205,8 @@ interpretation of the data, not measured facts.
    "How Mud Becomes a House in the Desert", "How a Fallen Tree Becomes a Canoe", "How a Pipe in the Street Becomes a Fire Hydrant".
 4. **Three videos, two looks:** videos 01–02 use the centred Title Case caption and the "Congratulations, you have built…" sign-off,
    which are How Building Explained's look and signature line; video 03 uses ALL CAPS captions, no mascot and a loop ending. Fix: one
-   caption style, the mascot in the first and last shot of every video, and our own closing line.
+   caption style, the mascot in the first and last shot of every video, and our own closing line. **Settled the other way on 15 Nov
+   2026:** one look, the Cutaway look of video 03, with no mascot (3.4).
 5. **Comments:** reply to all of them in the first day and pin a question. The hydrant comments are worth answering with facts.
 
 ### 6.3 The format on YouTube Shorts (benchmarks, 9–10 Nov 2026)
@@ -1071,11 +1264,15 @@ What it shows:
 5. "Altered content" disclosure: tick it when the scenes look photoreal (the Hidden By Design look). Re-check YouTube's help page for
    the current rule.
 6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
-7. Raise at Gate A and Gate C: the Classic look (locked by the user on 11 Nov 2026, see 3.4), the mascot in the first and last shot,
-   one caption style, and a closing line that is ours rather than "Congratulations, you have built…". (The audit's single-angle,
-   build-in-place suggestion became the user's shot rule on 11 Nov 2026, inside the Classic look: one build, one main view, 3.4 and 7.2.)
+7. Raise at Gate A and Gate C: the Cutaway look (locked by the user on 15 Nov 2026, see 3.4): no character, one set from one main
+   view, the subject in the upper 60% of the frame, one caption style, and a closing line that is ours rather than "Congratulations,
+   you have built…". (History: the audit's single-angle, build-in-place suggestion became the user's shot rule on 11 Nov 2026, first
+   inside the Classic look, and carried over to the Cutaway look on 15 Nov 2026: 3.4, 7.2 and 7.5.)
 
-### 6.5 Rename shortlist (the user has not chosen)
+### 6.5 Rename shortlist (not used: the user renamed the YouTube channel themselves)
+**15 Nov 2026:** the YouTube channel is now **LetZBuildTogether** (@LetzBuildTogether); the user chose their own name some time after
+10 Nov. TikTok is still @overthinkingyearly. The shortlist below is kept for the record.
+
 Free on both YouTube and TikTok on 9 Nov 2026, by handle lookup (`pipeline/youtube/handles.py`); YouTube can still refuse a handle
 for its own reasons.
 - **Seven Problems Later** (@sevenproblemslater): recommended. It describes the format, could become the closing line ("Seven problems
@@ -1117,8 +1314,9 @@ for its own reasons.
   Shorts and long videos per query, for vetting many topics at once), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
 
 ### 6.8 Channel branding (made 10 Nov 2026, no credits)
-The user asked for "an updated profile picture and something I can put in my banner that will fit". Delivered on 10 Nov 2026;
-**whether they uploaded them is unknown**: check the channel page (`yt_snapshot.py` prints the avatar and banner URLs).
+The user asked for "an updated profile picture and something I can put in my banner that will fit". Delivered on 10 Nov 2026.
+**Both were live on the YouTube channel on 15 Nov 2026** (`yt_snapshot.py` prints the avatar and banner URLs). The mascot was retired
+from the videos that day; the user has not asked for new artwork, so don't change it unless they do.
 - **Files** (repo `branding/`): `avatar-800.png` (800×800), `banner-2560x1440.png` (1.6 MB), `fit-check.png` (TV, desktop and phone
   mock-ups, the avatar at 160–24 px), `mascot-cutout.png` (the locked mascot as a transparent PNG, 424×858).
 - **Profile picture:** head and shoulders from the mascot reference (job f97004b9-…), scaled 1.95×, hat top at 11.5% of the height;
@@ -1160,14 +1358,19 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 
 ---
 
-## 7. User direction and the account the user likes (11 Nov 2026)
-- **Look:** Classic, locked in 3.4. The user asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden
-  By Design look.
+## 7. User direction and the account the user likes (11–15 Nov 2026)
+- **Look:** Cutaway with no character since 15 Nov 2026 (locked in 3.4; the record is 7.5). Before that, Classic: on 11 Nov the user
+  asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden By Design look, and videos 05–07 were
+  made in it.
 - **Format and ideas:** on 11 Nov the user asked for second-person "how to" / "if you…" videos about famous real places and true
-  extreme stories, nothing boring. **Replaced on 14 Nov 2026** by the four "Who wins?" matchups in section 2 (7.3).
+  extreme stories, nothing boring. **Replaced on 14 Nov 2026** by the four "Who wins?" matchups in section 2 (7.3). **On hold since
+  15 Nov 2026:** the user will redo the ideas later, for the Cutaway look.
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
-  which cost 158.75; 2,508 left after video 07, which cost 157.25.
-- **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2).
+  which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
+  nothing).
+- **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). It carried over to
+  the Cutaway look as its Rule 2.
+- **Sound:** open. The user asked on 15 Nov 2026 what the competition does and what I recommend, and has not decided (3.4, 7.5).
 
 ### 7.1 @thewhatifstudio (TikTok), checked 11 Nov 2026
 - 60.9K followers, 38 videos, 1.4M likes; bio sells a "learn how we make them" guide. The linked video is "How a hole under your house becomes
@@ -1243,3 +1446,95 @@ Read with `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>`; each ent
 - **Updates to section 4.1:** @1hidden_by_design now has 10 videos and 20.7M views: storm drain 9.8M, roof 4.1M (it had 19K after
   1.5 hours on 8 Nov), landfill 3.7M, water well 979K, river tunnel 878K, power lines 339K, gas station 108K, and a new one, "Building
   a beach is easy… until the ocean takes it back", 42K after five days.
+
+### 7.5 The Cutaway look, refined (agreed with the user, 15 Nov 2026)
+The rules that came out of this are in 3.4. This is the record behind them.
+
+**What the user said.** "look at my TikTok page … the videos without the character figure have performed the best (fire extinguisher,
+sea water to drinking) I need to step away from the character figure animation and make similar ones to like the other two. look at
+the two videos with the highest engagement, makes some refinement suggestions to the animation style to improve it." ("Fire
+extinguisher" is video 03, the fire hydrant.) After reading the suggestions: "all 6 refinements are approved". On sound: "I don't
+know, what is the competition doing? what do you recommend?" On ideas: "we will do the video ideas later".
+
+**The numbers** (15 Nov 2026; the table is at the end of 6.1). The two videos without the character hold 90% of the TikTok views
+and 98% of the YouTube views. They lead on both platforms, in opposite order: seawater on TikTok (28.7K), the hydrant on YouTube
+(167K).
+
+**A caution given to the user.** Those two videos differ from the other five in three ways at once: no character, an everyday thing
+with hidden workings as the topic, and the bright cutaway look. The character alone is not proven to be the cause. The whole package
+is what @1hidden_by_design uses (21.1M views on ten videos), so the move is to the package: when the ideas are redone they should
+be that kind of topic (the note at the top of section 2).
+
+**How the two videos were studied.** Both were downloaded from TikTok and set beside @1hidden_by_design's two biggest (storm drain
+9.9M, roof 4.2M): contact sheets at one frame a second, then `pipeline/analysis/check_video.py` and `under_the_voice.py`. Nothing
+was listened to, and retention cannot be seen from outside.
+
+| | 03 hydrant | 04 seawater | Storm drain | Roof |
+|---|---|---|---|---|
+| Seconds in which something moves | 33% | 33% | 84% | 87% |
+| Longest stretch without movement | 20 s | 26 s | 6 s | 4 s |
+| Different pictures | 22 | 25, in about a dozen places | one street | one house |
+| Changes of shot | 23 cross-fades or wipes | 26 cross-fades | no cuts, no fades | no cuts, no fades |
+| Caption letters | 44 px at 68% | 44 px at 73% | about 62 px at 75% | 54 px at 77% |
+| Sharpness, moving / still seconds | 43 / 85 | 14 / 81 | 54 / 68 | 37 / 44 |
+| Under the voice | nothing | nothing | a steady bed | a steady bed |
+
+About the measure: a still picture under a zoom counts as not moving, and so does movement in a small part of the frame (video 03's
+creeping frost and its drain-hole trickle are real clips that count as still). By the beat sheets, 35–40% of each of our two videos
+is a generated clip. Seawater's sharpness figure is pulled down by hazy underwater clips.
+
+**What was found, and the rule each finding became (3.4):**
+1. **Two thirds of each video is a still picture with a slow zoom.** Seawater has 26 s of stills in a row (0:33–0:59: the clogged
+   sheet, the sand filter, the pump, the pressure exchanger, the rusty pipe, the limestone, the pebble, the bottle, the glasses) and
+   the hydrant video has 17 s (0:47–1:04: the movie geyser, the fallen top, the snow drift, the flag, the dog). It shows most where
+   the line describes motion: the bathtub pour, the pebble splash and the geyser are frozen, the gauge needle never moves on "sixty
+   times normal air pressure", and the wrench never turns on "twenty slow turns". Both videos were Lite. This became Rule 1.
+2. **The best stretch in either video is the first 18 s of the hydrant video:** one sliced-open sidewalk from one angle, four clips
+   in a row, and the pipe freezes, splits, becomes a hydrant and drains. After it the video moves through about ten other framings,
+   and seawater never has a home view. This became Rule 2 (the shot rule of 11 Nov, carried over).
+3. **Every change of shot is a 0.3 s cross-fade between two unrelated pictures,** and mid-fade both are on screen (0:19, 0:25,
+   0:49, 0:59 and 1:13 in seawater). The reference has none: its camera travels. This became Rule 3.
+4. **The look drifts.** Video 03's night fire shot has glowing neon water and a redrawn valve, its last frame shows a solid red pipe
+   where the see-through empty barrel was, and the frost band is missing from some shots. In video 04 blue pumps sit under the
+   kitchen sink, under the three glasses and on the seabed, because the STYLE line listed "blue-painted pumps". This became Rule 4.
+5. **The captions are smaller than the reference's and sit on the subject** (video 03's had to move up to 68% to clear the valve).
+   The storm drain keeps the lower ~40% of most frames as plain soil, with the captions on it. This became Rule 5.
+6. **The pointers are thin:** chevrons 68 px wide with a 14 px stroke, and a ring with a 7 px stroke. The reference's arrows are
+   solid. This became Rule 6.
+
+**Smaller findings.** Our clips are softer than our stills (720p enlarged to 1080p), so the picture softens and sharpens as shots
+alternate; Kling 4.0 offers 1080p, not yet priced. A caption glitch at 1:16 in video 03: "LET" is drawn half-clipped for two frames
+and "AND" is on screen for one, the overlap bug that `05-build.py` fixed later. Two of the sixteen YouTube comments read on the
+hydrant video call it AI; frozen stills and cross-fades are the usual tells (my read).
+
+**What to keep** (told to the user): hands and small living things instead of a character (a YouTube commenter singled out the dog
+line); the cyan water; the loop ending; one-word captions.
+
+**Sound.** The user asked what the competition does. Measured with `under_the_voice.py`; nothing was listened to.
+
+| Account (videos measured) | What sits under the voice |
+|---|---|
+| @1hidden_by_design (storm drain, roof, landfill) | A quiet steady bed through the whole video: present 71–93% of the time, the quietest moments only 19–20 dB below the voice, few separate bursts |
+| @howbuildingexplained (nipa hut, levee) | No bed. Short quiet sounds in the gaps between lines: present 34–39% of the time, in 44 and 91 bursts |
+| @thewhatifstudio (clap, tsunami) | Full sound design: music or drones and effects, loud (the side channel is only 11 dB below the whole mix) |
+| Ours (03, 04) | Voice only: mono, near silence between words |
+
+The YouTube leaders (You Made It, You Built It) could not be checked: YouTube blocks downloads from a session (6.7). The
+recommendation given, and the fact that the user has not decided, are in 3.4 ("Sound under the voice"). The reasons given: all three
+accounts put something under the voice and ours is the only dry one; once nearly everything on screen moves, water that pours in
+silence feels unfinished; it costs ElevenLabs credits, not Higgsfield credits; and keeping the voice-only mix makes it reversible.
+
+**Credit effect.** Rule 1 needs the Middle tier's clip seconds: about 160 credits a video at 720p (videos 06 and 07 cost 158.75 and
+157.25 with 60 s and 61 s of clips) against 111.75 and 123.25 for the two Lite videos. With 2,508 credits that is about 15 videos.
+1080p would cost more; price it at the next Gate B.
+
+**Open after this session:**
+- The idea list (section 2).
+- Sound under the voice (3.4).
+- TikTok's retention graph for videos 03 and 04, and YouTube's for video 03. The user was asked for them, to see whether viewers
+  leave during the still stretches.
+- The first video under the new rules, which will show whether start-and-end-frame clips can carry the camera from stage to stage
+  (3.4j).
+
+**Files.** The scripts are in `pipeline/analysis/`. The two pictures shown to the user (the motion timeline, and captions and
+pointers side by side) were not kept.
