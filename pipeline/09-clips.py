@@ -20,12 +20,12 @@ C = {
         f"and swinging to the right, to a high, close view over the front peak of the roof, rain streaking past, while the shower "
         f"keeps running in the upstairs bathroom. As the camera arrives, {BOLT} strikes the peak of the roof with a bright flash. {ONE}"),
  "C2": ("R0B", [], "Bg", 8, f"The lightning flash fades and a bright white-blue glow of electric current spreads from the struck "
-        f"ridge into the attic. The camera dives down through the cut-open roof into the attic, following the glow as it races along "
+        f"peak of the roof into the attic. The camera dives down through the cut-open roof into the attic, following the glow as it races along "
         f"the white cable on the rafters and down into the walls, then keeps descending to the upstairs bathroom, where the copper "
         f"water pipe in the wall glows white-blue all the way up to the running shower. {ONE}"),
  "C3": ("Bg", [], "R1", 3, f"The glow in the copper pipe fades away. The camera pulls back and rises up and away from the bathroom, "
-        f"past the attic, to the right end of the roof ridge, while a short pointed metal rod rises up out of the ridge and a thick "
-        f"braided copper cable runs from its foot over the edge of the roof. {ONE}"),
+        f"past the attic, to a high, close view over the front peak of the roof, while a short pointed metal rod rises up out of "
+        f"the peak and a thick braided copper cable runs from its foot down the right-hand edge of the roof. {ONE}"),
  "C4": ("R1", ["D"], "G", 5, f"The camera flies down along the outside of the right-hand wall, following the thick braided copper "
         f"cable down the corner of the house, past the windows, to the lawn, and keeps going down into the cut face of the soil, "
         f"where a long copper rod drives straight down into the ground and the cable clamps onto its top. {ONE}"),
@@ -37,10 +37,10 @@ C = {
  "C7": ("S", [], "Sa", 6, f"The camera drifts slowly closer to the wall the whole time. Bright white-blue current runs down the copper "
         f"cable, and a jagged electric arc jumps across the gap from the cable to the copper water pipe inside the wall, flickering "
         f"with small sparks."),
- "C8": ("Sa", [], "K", 7, f"The arc dies away. The camera glides smoothly down the wall and into the cut face of the ground, to the "
-        f"right foundation corner below the lawn, where the copper water pipe enters the foundation beside the long copper rod; a "
-        f"copper strap wraps around the water pipe and a green wire comes down from the house, and both are clamped to the top of "
-        f"the copper rod with one bronze clamp. {ONE}"),
+ "C8": ("Sa", [], "K", 7, f"The arc dies away. The camera glides smoothly down the wall to the corner of the house just under the "
+        f"grass, where the water pipe's elbow sits beside the top of the long copper rod; a copper strap wraps around the water pipe "
+        f"and a thin green wire comes down the corner beside the braided cable, and both are bolted into the bronze clamp on the rod. "
+        f"{ONE}"),
  "C9": ("K", [], "P", 3, "The camera whips fast up out of the ground and across the front of the house to the top of the wooden "
         "power pole at the left front corner, a quick swing with motion blur, and settles beside its crossarm and grey transformer "
         "can. One continuous move with no cuts."),
@@ -55,8 +55,8 @@ C = {
          f"water. {ONE}"),
  "C13": ("B", [], "Bd", 4, "The camera pushes in slowly toward the bathtub the whole time. The shower keeps running and the small "
          "yellow rubber duck bobs gently in the bath water."),
- "C14": ("Bd", [], "Bo", 3, "The shower turns off and the water stops; the bath water drains away and the small yellow rubber duck "
-         "settles on the bottom of the empty tub. The camera eases back slowly the whole time."),
+ "C14": ("Bd", [], "Bo", 3, "The shower turns off and the water stops falling from the shower head; the bath water stays calm and "
+         "still, with the small yellow rubber duck floating on it. The camera eases back slowly the whole time."),
  "C15": ("Bo", ["W1B"], "Gg", 6, f"The camera pulls fast back and up out of the bathroom until the whole sliced-open house is in "
          f"view, and a huge {BOLT[2:]} slams into the metal rod on the peak of the roof with a blinding flash. Then the camera swoops down the "
          f"outside of the right-hand wall, following the bright glow as it races down the copper cable into the copper rod in the "

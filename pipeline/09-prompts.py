@@ -93,8 +93,10 @@ P = {
        f"shower, the chrome shower head and the white tiled wall fill the top, and the small yellow rubber duck floats in the bath "
        f"water. Nothing below the bathroom floor is in view: no soil, no lawn and no pipes under the floor. {STILLSTORM} {NOCHANGE} "
        f"{NOBODY}",
- "Bo": f"{STYLE} {LOCKZ} Change only this: the shower is turned off and no water falls from the shower head; the bath water has "
-       f"drained away, and the small yellow rubber duck sits on the bottom of the empty tub. {STILLSTORM} {KEEP} {NOBODY}",
+ # BoA (952979f7): drained tub; C15 (Bo -> W1B, whose tub is full) refilled it on screen, so Bo keeps the water (Gate D).
+ "Bo": f"{STYLE} {LOCKZ} Change only this: the shower is turned off and no water falls from the shower head. The bath water "
+       f"stays exactly as in the reference, calm and still, with the small yellow rubber duck floating on it. {STILLSTORM} {KEEP} "
+       f"{NOBODY}",
  # ---- WALL (middle keyframe of the fly-down) ----
  "D": f"{STYLE} {POS} New camera position: outside the house beside its right-hand wall, high near the edge of the roof, looking "
       f"steeply down along the wall: the thick braided copper cable runs straight down the corner of the house, past the windows, "
