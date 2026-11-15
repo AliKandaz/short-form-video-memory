@@ -19,7 +19,7 @@ format (You Made It, You Built It), a topic-saturation check of the idea lists, 
 need to step away from the character figure animation and make similar ones to like the other two." The same day they approved six
 refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
 pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
-and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26**). Later the same day they said "yes on the
+and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26 v2**, below). Later the same day they said "yes on the
 sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well:
 five Cutaway ideas (section 2).
 
@@ -29,14 +29,22 @@ only 20% of its seconds as moving, against the 80% target: what moves is small i
 crops of one still, which are zooms the checker takes out. Read 3.4k before the next video: plan a camera path with real close-up
 stills, and make what moves big.
 
+**Camera (approved by the user, 15 Nov 2026, after video 08): a travelling camera, like @1hidden_by_design's power-lines video.**
+The user found the look good but "not enough movement. the camera should move in and away from the changes happening in the
+videos", pointed to "How Do Those Giant Power Lines Get Electricity to Your House?", and approved seven changes "as long as it
+accomplishes the same video as the one I referenced". The camera now flies around and into the one set, in to each change and away
+again: Rules 2, 3, 5 and 6 of the look were rewritten and Rule 7 added, with targets measured by `pipeline/analysis/camera_path.py`
+(3.4). The reference's camera path, the measurements and the record are in 7.7. The paste prompt was renewed for it (section 5,
+**15/11/26 v2**).
+
 **Earlier direction on the look (11 Nov 2026, replaced on 15 Nov 2026):** the look was Classic (the mascot look of videos 01–02 and
 05–07). Section 7 has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in
 the new **Middle** tier, which is still the default (3.1, 3.4). The ten ideas approved that day (famous real places and true extreme
 stories) were replaced on 14 Nov 2026: see "Ideas" below.
 
-**Shot rule (LOCKED by the user, 11 Nov 2026, after video 05; carried over to the Cutaway look on 15 Nov 2026): one build, one main
-view.** The camera stays on the thing being explained, and every line of the script changes something you can see on it. No shots
-of other things and no separate rooms. The rules are in 3.4 and the reasons in 7.2. Video 06 (Petra, 12 Nov 2026) was the first
+**Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build.** Its "one main view" part was replaced on 15 Nov 2026 by
+the travelling camera (3.4 Rule 2, 7.7). The camera stays on the thing being explained, and every line of the script changes
+something you can see on it. No shots of other things and no separate rooms. The rules are in 3.4 and the reasons in 7.2. Video 06 (Petra, 12 Nov 2026) was the first
 made under it: 158.75 credits against a 186.30 quote, no clip redos (3.4b, 3.4h).
 
 **Sister project (13 Nov 2026): TikTok Shop affiliate.** Its memory is `tiktokshop.md` in this repo, also attached to the memory
@@ -117,8 +125,9 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
   for the ending.
 - **Camera:** about one shot per sentence (2–5 s), hard cuts on "But" and "So", slow push-ins and orbits within shots,
   macro close-ups of key details and then a pull back to the wide shot. **We dropped the one-shot-per-sentence part on 11 Nov 2026:**
-  our videos stay on one build in one main view (3.4 shot rule, 7.2). **Since 15 Nov 2026** the camera also travels from one stage
-  to the next inside a clip; we don't fade between different pictures (3.4 rule 3).
+  our videos stay on one build (3.4 shot rule, 7.2). **Since 15 Nov 2026** the camera travels from one stage to the next inside a
+  clip, never fading between different pictures, and flies around and into the set, in to each change and away again, like
+  @1hidden_by_design's power-lines video (3.4 Rules 2, 3 and 7; 7.7).
 - **Build moments:** parts appear, slide or grow into place exactly when the narrator names them.
 - **Problems** are shown with environmental effects: rain particles, a rising water plane, critter models, swarm particles,
   darkness.
@@ -126,7 +135,7 @@ SIGN-OFF     Congratulations, you have built a [X].      <- their signature line
   particles, red and blue force arrows, a yellow highlight ring, dashed measurement lines ("10 FT").
 - **Captions:** ONE word at a time, synced to the voice, centred at ~52% frame height. Title Case, heavy rounded sans
   (Fredoka-like), white fill, thin black outline, soft drop shadow. **Ours since 15 Nov 2026:** ALL CAPS, larger, about 75% down
-  the frame, over a quiet part of the picture (3.4 rule 5).
+  the frame: over plain ground in wide shots, over whatever is there in close-ups (3.4 rule 5).
 - **Labels:** ALL CAPS bold white sans with shadow, placed by the object, for the term or stat
   (STILTS, THATCH, DEADLIEST ANIMAL, 84% FEWER, RAT GUARD). **Ours since 15 Nov 2026:** none; solid white arrows and one ring
   point at what matters (3.4 rule 6).
@@ -178,7 +187,8 @@ as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were
 - **Rules for these ideas** (on top of sections 1 and 5):
   1. Opening: section 5 asks for "If you…" with the first "But" by ~3 s. Each idea has that form and a cold claim. Show both at
      Gate A: the user picked the cold claim for video 07, and C1 was shown to them with its cold claim.
-  2. One cutaway from one main view, described under each idea. Everything in the chain happens on it.
+  2. One cutaway set, described under each idea, seen by a travelling camera (3.4 Rules 2 and 3). Everything in the chain
+     happens on the set, and each problem and fix gets its own camera position on it (3.3 Steps 1 and 2).
   3. One true story or twist around the two-thirds mark, one "that's why" the viewer can check, and one small living thing or joke.
   4. A comment question that can be answered in two words. It goes in the TikTok caption or a pinned comment, never in the
      voice-over (4.2: no spoken call to action).
@@ -187,9 +197,10 @@ as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were
 - **Chains are drafts:** ✔ was checked by web search on 15 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the exact title before Gate A (6.7): the numbers below come from topic searches.
 - **Order:** C1 was made first, as video 08 (15 Nov 2026). The order of C2–C5 is not set by the user. C5 is the hardest to draw.
-- **Before the next one** (3.4k): plan each idea's camera path through the set, with a real close-up still for every stop, and
-  make what moves big in the frame. In video 08 the main view was the whole house, and everything that moved (water inside a
-  pipe, faint haze, a small rat) was too small in it for `check_video.py` to count.
+- **Before the next one** (3.4k, 7.7): plan each idea's camera path through the set like the power-lines video: 8–12 camera
+  positions, a real still for each, the camera flying in to each change and away again, and what moves big in the frame. In
+  video 08 the main view was the whole house, and everything that moved (water inside a pipe, faint haze, a small rat) was too
+  small in it for `check_video.py` to count.
 - **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
   of ours stopped (the 15 Nov snapshot in 6.1: five of our seven are under 1.7K on TikTok and under 2.1K on YouTube); comments per
   1,000 views beat our 0.23 (9 comments on 38.9K TikTok views); saves and shares per 1,000 views beat seawater's 1.9 and 1.1.
@@ -407,7 +418,7 @@ Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), 
 | Narration (fallback) | Higgsfield `generate_audio`, `text2speech_v2`, `variant:"elevenlabs"` | locked `voice_id` + `voice_type` | ~0.45 / line |
 | Word timing, labels, captions, assembly | Higgsfield `sandbox_exec` (ffmpeg, faster-whisper, Pillow preinstalled; `$HF_WORKFLOWS/video-montage/scripts/audio_to_captions.py`) | — | no generation credits (confirm in `transactions` after the first run) |
 | Sound bed and effects (approved 15 Nov 2026: 3.4, 3.3 Step 6b) | ElevenLabs connector: `creative_create_flow`, one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`, `model_parameters` `duration_seconds`, `loop`, `prompt_influence`), then one `creative_run_flow_nodes` for all of them | `estimate_only:true` first, then `generations_count:1` (the default is several and the cost scales). Recipe in 3.3 Step 6b | ElevenLabs credits: **about 3.33 per second of sound** (video 08: a 20 s bed 66.67, six effects of 1.5–4 s 5–13.33 each, 118.33 in all) |
-| Checking a finished video | `pipeline/analysis/check_video.py` (share of seconds that move, caption size, sharpness), `under_the_voice.py`, `contact_sheet.py` | local, needs ffmpeg, numpy and opencv | free |
+| Checking a finished video | `pipeline/analysis/check_video.py` (share of seconds that move, caption size, sharpness), `camera_path.py` (how the camera moves: zoom, pan, 3D travel, big moves, still-camera stretches; 3.4 Rule 7), `under_the_voice.py`, `contact_sheet.py` | local, needs ffmpeg, numpy and opencv | free |
 | Optional | `virality_predictor`, `tiktok_prepare_publish` (UPLOAD_TO_DRAFT) | — | ask before using |
 
 Rejected alternatives at 10 s / 9:16: seedance_2_5 720p = 70, seedance_2_5 480p = 30, kling_4_0_flash = 30, kling4_0 720p = 22.5, seedance_2_0 720p = 45, grok_video_v15 = 45. `minimax_h3` is the cheapest and supports `start_image` + `end_image` keyframes, which is how we animate "the structure upgrades on screen".
@@ -429,10 +440,12 @@ All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% ret
 **Cutaway look (since 15 Nov 2026): Middle is the floor.** Rule 1 of the look (3.4) asks for animated clips over at least about 80%
 of the running time: about 60 s of a 75 s video, which is what videos 06 and 07 had (60 s and 61 s of clips). Expect about 160
 credits at 720p: the same clip seconds as those two (135–137 credits) plus 15–20 stills. **Measured on video 08:** 203.50, because
-a 79.5 s script with clips over 93% of it needed 76 s of clips (171.00), and the stills took 26 tries (32.50). Quote ~190–210 at
-720p for a ~78 s Cutaway video, and add ~1.25 for each close-up still on the camera path (Step 2). Lite left two thirds of videos
-03 and 04 as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be stills. In this
-look a line without its own clip holds the last frame of the clip before it, for 3 s at most; it never becomes a still of its own.
+a 79.5 s script with clips over 93% of it needed 76 s of clips (171.00), and the stills took 26 tries (32.50). **With the travelling
+camera (15 Nov 2026, 3.4 Rules 1–3)** quote ~215–225 at 720p for a ~78 s video: every line is a clip (about 78–80 s, ~175–180
+credits), and the 8–12 camera positions need 20–24 stills on screen at ~1.8 tries each (~45 credits). Lite left two thirds of
+videos 03 and 04 as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be
+stills. In this look a line without its own clip is only a fallback (3.2 rule 5): it holds the last frame of the clip before it, for
+3 s at most, and never becomes a still of its own.
 
 ### 3.2 Credit rules (hard)
 1. Script, beat sheet, prompts and the cost quote are free. Do them all first.
@@ -454,6 +467,9 @@ look a line without its own clip holds the last frame of the clip before it, for
   should describe something moving, because every such line gets an animated clip (3.4 rule 1). Comparisons, stats and the "that's
   why" are shown on the set itself or cut; the Cutaway look has no labels. Cut any line that would need a picture of another place.
   At Gate A, list the lines that were cut and the lines that were moved onto the set.
+- **Write for the camera** (3.4 Rules 2 and 3, 7.7): put each problem and each fix at its own spot on the set, so the camera has
+  somewhere to fly on every "But" and "So" (the power-lines video reaches a new spot every 5–10 s). Two lines at one spot are fine;
+  three in a row read as a still shot. At Gate A, show where the camera is on each line next to the script.
 - Run the saturation check on the title (`pipeline/youtube/yt_saturation.py`, 6.7) and report near-identical Shorts and the best views.
   Search the exact title, "how a [thing] becomes [place]" and "[place] how it was built": in video 06 only the second found the 27K
   near-identical build (3.4h).
@@ -462,52 +478,58 @@ look a line without its own clip holds the last frame of the clip before it, for
 
 **Step 2: Beat sheet (free).**
 - Split the script into beats, one sentence or one "But/So" unit each (usually 14–18 beats).
-- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / end) | start picture → end picture | what moves | pointer (arrows or ring, if any) | sound effect (if any) | clip or hold`. In the Cutaway look every beat is a clip unless it is a hold on the last frame of the clip before it. Holds run 3 s at most and add up to no more than about 20% of the running time (3.4 rule 1). A beat in which nothing can move is a sign that the line should be cut or merged with its neighbour.
+- For each beat, write: `beat_id | VO text | est. seconds (words ÷ 3.5) | shot type (problem / build / twist / aside / climax / payoff / end) | camera (its position, and the move to the next) | start picture → end picture | what moves | pointer (arrows or ring, if any) | sound effect (if any) | clip`. In the Cutaway look every beat is a clip; plan no holds (a hold is only the fallback for a lost clip, 3.2 rule 5; 3.4 rule 1). A beat in which nothing can move is a sign that the line should be cut or merged with its neighbour.
 - Define the **stage ladder**: an ordered list of how the structure looks after each fix (Stage 0 = bare ground → Stage N = finished build). Each build beat moves from stage k to k+1.
-- **Every beat shows the build** (3.4 shot rule): the main view at the current stage, a close-up of the build at that stage, or the
-  wall sliced open from the main view. Problems hit the build in the main view (the storm over it, the water pouring in). If the build
-  itself has to move to a new setting, give that setting its own main view and continue the ladder there.
-- **Plan the travel** (3.4 rule 3): the camera gets from one stage or close-up to the next inside a clip (start picture → end
-  picture), never by a fade. Mark the few places where the setting truly changes; those are the only cuts.
-- **Plan the camera path, and make what moves big** (3.4k, from video 08): give most clips a stop that is a real close-up still
-  of the set (Step 5), so the camera travels in depth from one picture to another. A crop of the same still only makes Kling zoom
-  across a flat picture, and `check_video.py` takes zooms out. In each problem beat, frame the moving thing so it fills a good
-  part of the picture (the haze filling a room, the water rushing through a pipe that is big on screen); in the whole-house view
-  it is too small to count.
+- **Every beat shows the build** (3.4 shot rule): one of its camera positions, at the current stage. Problems hit the build where the
+  camera sees them up close (the storm over it, the water pouring in). If the build itself has to move to a new setting, give that
+  setting its own wide view and continue the ladder there.
+- **Plan the camera path** (3.4 Rules 2, 3 and 7; 7.7), like the power-lines video:
+  - **8–12 camera positions on the one set:** the wide view to open, to close (the loop) and to step back once or twice; the rest
+    close, low, from the side or looking up, each where a problem or a fix happens. Each position is a real still (Step 5), never a
+    crop of another still: a crop makes Kling zoom across a flat picture, which `check_video.py` and `camera_path.py` read as still
+    (3.4k).
+  - **The rhythm:** on "But" the camera pushes in or swoops to where the problem happens; the problem and the fix play out close,
+    with the camera still drifting (a slow push, slide or turn of a few percent a second); on "So", or once the fix is done, it pulls
+    away or flies on to the next position. Plan a big move (a quarter of the frame or more in a second) at least every 8 s on
+    average and never more than 15 s apart, and never a still camera for more than 5 s (3.4 Rule 7).
+  - **Name each move** in the camera column: swoop down, rise, push in, pull away, fly along, orbit, drift, whip. A whip is a fast
+    swing with motion blur for a far jump on a "So" line (the power-lines video has one at 0:17): ask Kling for it in the travel
+    clip, or make it in the edit between two clips. No fades, and a hard cut only where the setting truly changes.
+  - **Make what moves big:** frame each change so it fills a good part of the picture (the haze filling the room, the water rushing
+    through a pipe that is big on screen).
 
 **Step 3: Cost quote. GATE B.**
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
 - Price Kling at 720p and at 1080p (`get_cost:true` for each) and show both totals; the user picks. Our 720p clips carry about half
   the fine detail of the stills they sit between (7.5).
-- Price the sound bed and the effects as well (Step 6b): `creative_generate_in_flow` with `estimate_only:true` and
-  `generations_count:1`, one call for the bed and one for a typical effect, multiplied out. They cost ElevenLabs credits.
+- Price the sound bed and the effects as well: add their nodes to the flow and run `creative_run_flow_nodes` with
+  `estimate_only:true` and `generations_count:1` (Step 6b; about 3.33 ElevenLabs credits per second of sound).
 - Price the narration too: `creative_generate_speech` with `estimate_only:true` shows the ElevenLabs cost and any quota block. In video 05 one
   take of a 272-word script cost 1,368 ElevenLabs credits, the plan had 354 left, and the first try failed until the user upgraded.
-- Present: tier, number of stills, number and length of clips, total credits, remaining balance after.
+- Present: tier, number of camera positions and stills, number and length of clips, total credits, remaining balance after.
 - **Wait for approval.** Nothing below this line runs without it.
 
 **Step 4: Project and style lock.**
 - `get_preferences`; if asked or preferred, `create_project` named after the video and reuse its `folder_id` on every generation.
-- Write the **STYLE FORMULA** once and paste it byte-identical into every image and video prompt. **Cutaway default (15 Nov 2026; a starting point: lock the exact wording on the first video made with it):**
-  > "Photoreal 3D cutaway render: the ground is sliced open like a cake toward the camera, showing clean layers and what is buried in them. Bright soft daylight, warm tones, soft shadows, mild depth of field, clean realistic materials, translucent cyan water, tidy and uncluttered. Vertical 9:16 composition: the subject sits in the upper 60% of the frame, and the lower 40% is plain, calm, low-detail ground. No text, no letters, no numbers, no captions, no logos, no watermark."
+- Write the **STYLE FORMULA** once and paste it byte-identical into every image and video prompt. **Cutaway default (video 08 used it with the composition sentence inside; since the travelling camera, 15 Nov 2026, that sentence is the separate WIDE line below):**
+  > "Photoreal 3D cutaway render: the ground is sliced open like a cake toward the camera, showing clean layers and what is buried in them. Bright soft daylight, warm tones, soft shadows, mild depth of field, clean realistic materials, translucent cyan water, tidy and uncluttered. No text, no letters, no numbers, no captions, no logos, no watermark."
+- **WIDE**, only in the prompts of wide shots (the opening, the ending and the step-backs): "Vertical 9:16 composition: the subject sits in the upper 60% of the frame, and the lower 40% is plain, calm, low-detail ground." Close-ups and low angles leave it out (3.4 Rule 5). The STYLE says "Bright soft daylight", so night edits need `NIGHT` from `08-prompts.py` (3.4k).
 - **The shared line names no objects and no place** (3.4 rule 4). In video 04 the words "blue-painted pumps" in it put pumps under the kitchen sink, under three glasses and on the seabed. One SET line per video carries the place and its colours (name colours, not objects: 3.4g). A prop goes in the prompt of the shot that needs it.
 - **No character** (3.4). Hands, small anonymous workers or machines appear only in the shots that need them and are described in that shot's prompt. Every other still and clip prompt ends "No people, no characters" (Kling invents figures otherwise: 3.4d).
-- Generate the style key: a wide of the set at Stage 0 from the main view, 9:16. `jobs_wait`, then `show_generation_by_ids`. If off-style, regenerate once.
+- Generate the style key: the wide opening view of the set at Stage 0, 9:16. `jobs_wait`, then `show_generation_by_ids`. If off-style, regenerate once.
 - (Classic look, videos 01–02 and 05–07, for the record: the game-engine STYLE string in `pipeline/02-prompts.py`, the locked mascot as a second reference image, and a 2:3 mascot sheet generated with the style key.)
 
 **Step 5: Stage stills (~1.25 cr each).**
-- For each stage on the ladder, one 9:16 still of the SAME set from the SAME hero angle, made by editing the stage before it: pass the previous stage still (and the style key) as `medias` role `image_references` so only the new part changes (3.4 rule 4). Prompt pattern: `[STYLE FORMULA] Same scene and camera as reference. Now [exact change for this stage]. Everything else identical.`
-- Extra stills are only versions of the current stage in the same view: a night or storm grade (a re-grade of the same picture:
-  say "the same water colour as the reference; nothing glows"), the wall sliced open, the threat
-  arriving. Make each by editing the current stage still ("Keep exactly the same camera position, zoom and framing as the reference
-  image"; "Change only this: …"; 3.4f, 3.4g). A close-up of the build gets its own still when a push-in on the stage still would
-  be too soft to read (a gauge, a latch), and in the Cutaway look also for every stop on the camera path (Step 2; video 08's flap
-  close-up was the only stop that made the camera move in depth); make it by editing the stage still as well. Never make a still
-  of something away from the build. Before Gate C, check that every still is the main view, a close-up of the build or the sliced-open wall, and that the build
-  matches from stage to stage. The Cutaway look adds two checks. The first and last stills match part for part: the same pipe, the
-  same slice, the same water colour (in video 03 the last frame lost its see-through barrel). And in every still the subject sits in
-  the upper 60% of the frame with plain ground below it, so nothing the viewer must read lies under the captions (3.4 rule 5).
-- Submit in batches of ≤12, `jobs_wait` (≤12 per call), one `show_generation_by_ids`. Regenerate drifted stills once. **GATE C: show the still ladder; user approves.**
+- **Camera positions** (3.4 Rules 2 to 4): for each position in the camera column, one 9:16 still of the SAME set from that position, made by editing the wide still (or a neighbouring position already made; pass it as `medias` role `image_references`). Name the new camera position and hold everything in view: `[STYLE FORMULA] The same [set] as the reference, with the same parts, colours and materials. New camera position: [where the camera is, how high, which way it looks, what fills the frame, e.g. low and close at the kitchen sink, looking at the U-bend from the front; the U-bend fills the middle third of the frame]. Nothing in view changes.` "Extreme close-up: the [part] fills most of the frame" works where "close-up of" alone gives a wide shot (3.4f). Video 08's flap close-up was made this way and was the one position that made the camera fly in depth.
+- **Stages at each position:** a change that happens at a position gets its before and after as edits of that position's still, with the framing lock, so the clip that plays the change starts and ends in the same place. Prompt pattern: `[STYLE FORMULA] Same scene and camera as reference. Now [exact change for this stage]. Everything else identical.`
+- Night or storm grades are re-grades of the same picture (say "the same water colour as the reference; nothing glows"), made by
+  editing the still they grade ("Keep exactly the same camera position, zoom and framing as the reference image"; "Change only
+  this: …"; 3.4f, 3.4g). Never make a still of something away from the build. Before Gate C, check that every still is a camera
+  position on the one set and that the set matches from position to position: the same parts in the same places, the same colours
+  (an AI set drifts more seen from many angles; regenerate the still that drifted). The first and last stills match part for part
+  (in video 03 the last frame lost its see-through barrel), and the wide stills keep the subject in the upper 60% of the frame with
+  plain ground below it (3.4 Rule 5).
+- Submit in batches of ≤12, `jobs_wait` (≤12 per call), one `show_generation_by_ids`. Regenerate drifted stills once. **GATE C: show the stills as a flight map (the camera positions in order, the move between each pair, and the stages at each position); user approves.**
 
 **Step 6: Narration.**
 - Preferred: ElevenLabs connector. `creative_list_voices`, pick a calm, confident male or female explainer voice (or the voice locked in 3.4), and generate the **whole script as ONE continuous take** (sounds like the source: fast, even, no pauses). Two takes come back by default; pick one.
@@ -547,40 +569,40 @@ look a line without its own clip holds the last frame of the clip before it, for
   (the target 18–22; the reference 19–20).
 
 **Step 7: Pilot clips. GATE D.**
-- Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
-- In the Cutaway look the second pilot is a travel clip: it starts on one stage or framing and ends on the next (3.4 rule 3). A middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`) lets one clip pass through three stages: it held the set's shape in video 08 (the 12 s hook went S0 → S0H → S1, and the last clip passed the rat at the flap before pulling back to the house), so use it where one line has three states.
-- **Pilot what the checker will measure** (3.4k): show the pilot clips with their `check_video.py` motion values beside them. Video 08's hook looked right and measured as still, because everything that moved in it was small in a wide, flat frame.
-- Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. No people, no characters. No text, no captions.` (Classic look: `The character only gestures and does not talk.` in place of `No people, no characters.`)
-- Problem beat: `start_image` = current stage still (night or storm version if needed). Prompt describes the threat moving (rain falling, water rising, snake crawling).
-- Close-ups happen inside the clip ("slow push-in toward the door"), and the next shot is back in the main view. The camera never
-  travels away from the build.
-- `duration` = the beat's measured length rounded up (min 3 on `kling4_0`). Show both. If the look fails, fix the stills or prompt, not by re-rolling.
+- Render 2 clips with the default video model (3.0; `kling4_0` since video 04): **the hook**, flying from the wide opening view down
+  to the first change, and **one travel clip** between two camera positions on a "But" or a "So" (3.4 Rules 2 and 3).
+- A middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`) lets one clip pass through three stages: it held the set's shape in video 08 (the 12 s hook went S0 → S0H → S1, and the last clip passed the rat at the flap before pulling back to the house). Use it where one line has three states, or to push in to a change and pull away again in one clip (wide → close → wide).
+- **Measure the pilots against the reference** (3.4 Rule 7, 7.7): show each with its `camera_path.py` and `check_video.py` numbers next to the power-lines video's (camera moving in 66% of the seconds, parallax 0.46 px, a big move in one second in four). A pilot that zooms across a flat picture (parallax near 0) fails however it looks: video 08's hook looked right and measured as still. Fix the stills (a real camera position, not a crop) or the move, render it once more, and don't batch the rest until the pilots move like the reference.
+- **Travel clip:** `start_image` = the still at position A, `end_image` = the still at position B (different camera positions, not only a different zoom). Prompt: `[STYLE FORMULA] [the move, in the words of the camera column, e.g. The camera swoops down and forward from high above the house to a low, close view of the kitchen sink, passing close to the wall, and slows as it arrives]. [what happens on the way]. Motion starts on frame 1. No people, no characters. No text, no captions.`
+- **Change clip** (a problem or a fix at one position): `start_image` = the position's before still, `end_image` = its after still. The camera keeps drifting (a slow push, slide or turn of a few percent a second), never `FIXED`. The prompt describes the change (water rising, a pipe bending, a flap swinging) and the drift. (Classic look, for the record: `The character only gestures and does not talk.` in place of `No people, no characters.`)
+- The camera travels around and into the build, never to another place (3.4 shot rule).
+- `duration` = the beat's measured length rounded up (min 3 on `kling4_0`); a move between two far positions needs 3–6 s. Show both pilots. If the look fails, fix the stills or prompt, not by re-rolling.
 
 **Step 8: Remaining clips.**
 - Batch the rest (every beat marked as a clip in Step 2) in `generate_video_batch` chunks of ≤12, `jobs_wait`, then one `show_generation_by_ids`.
-- Check each clip: right stage, no drift, no text artefacts, motion from frame 1, and the thing the line describes really moves. One corrected regeneration max per clip.
+- Check each clip: right stage, no drift, no text artefacts, motion from frame 1, the thing the line describes really moves, and the camera makes its planned move (run `camera_path.py` on the clip: a travel clip with parallax near 0 only zoomed). One corrected regeneration max per clip.
 
 **Step 9: Assembly (Higgsfield sandbox, free).**
 - Download all clips, stills and narration into one working folder in a single `sandbox_exec` (use `background:true` for long renders, `size:"xl"` only for the final encode).
-- For each beat in order: trim its clip to the beat's measured length (from the Step 6 timestamps). A beat without its own clip holds the last frame of the clip before it with a slow push-in (free, and it matches because it is the same view), for 3 s at most. Never turn a still of something in motion (a pour, a splash, smoke, a gauge needle) into a shot: it reads as frozen (3.4 rule 1). No cross-fades between different pictures, and a cut only where the setting truly changes (3.4 rule 3).
+- For each beat in order: fit its clip to the beat's measured length (from the Step 6 timestamps; `08-build.py` plays a clip at 0.8–1.15×, and a 3 s clip over a ~2 s line whole at up to 1.7×, `FULLFIT`). Only a line that lost its clip holds the last frame of the clip before it with a slow push-in, for 3 s at most, and the clip after a hold eases out of its zoom (`EASE_AFTER`). Never turn a still of something in motion (a pour, a splash, smoke, a gauge needle) into a shot: it reads as frozen (3.4 rule 1). No cross-fades between different pictures; a whip only for a far jump; a hard cut only where the setting truly changes (3.4 rule 3).
 - If the clips are 720p, add a light sharpen after the upscale (start from `unsharp=5:5:0.6` and judge it on a frame) so they sit closer to the stills (7.5).
 - Lay the narration on top at full volume, then mix the sound under it (3.4, Step 6b): the bed about 18–20 dB below the voice, with a short fade in and out, and each effect starting about 10–12 dB below the voice. Never copyrighted music. Check the mix with `pipeline/analysis/under_the_voice.py`: the quietest moments should sit about 18–22 dB below the voice (the reference: 19–20 dB; our voice-only videos: 37–42 dB). Keep the voice-only mix as a second master.
 - Output 1080×1920, 30 fps, H.264 + AAC. Keep this as the **clean master** (no text).
-- Run `pipeline/analysis/check_video.py` on the master. Report the share of seconds that move and any stretch without movement longer than about 6 s. Target: 80% or more (the reference's two biggest videos score 84% and 87%; our videos 03 and 04 scored 33%).
+- Run `pipeline/analysis/check_video.py` and `camera_path.py` on the master, and report both against the targets (3.4 Rules 1 and 7). Inside the picture: 80% or more of the seconds moving (the reference's storm drain and roof score 84% and 87%, the power-lines video 70%; our videos 03, 04 and 08 scored 33%, 33% and 20%). The camera: moving in 65% or more of the seconds, median parallax 0.3 px or more, big moves in at least one second in eight with no gap over 15 s, and no still-camera stretch over 5 s (the power-lines video: 66%, 0.46 px, 22 in 88 s with a longest gap of 15 s, 5 s; video 08: 45%, 0.03 px, 7 in 80 s, 13 s).
 
 **Step 10: Pointers and captions (sandbox, free).**
 - **Cutaway look (since 15 Nov 2026): no term labels.** The term is spoken. Nothing is written on the picture except the captions.
-- **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A clip that carries a pointer keeps the camera still (`FIXED` in `06-clips.py`).
-- **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 114 with our "HBX Caption" font (Montserrat 800 from fontsource; `CAP_FS` in `08-build.py`). The 130 first written here, scaled from the 44 px letters of videos 03–04 at 100, measured 65 px in video 08, so measure the letters with `check_video.py` whenever the font file changes. Centred at about 75% of the frame height (`CAPY` ≈ 1440). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
+- **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A pointer appears when the camera arrives at a detail and slows (the 1–2 s drift at the end of a move) and stays pinned to the detail: track the picture with the point tracker of `camera_path.py` and move the arrow or ring with it (to be written into the next build script; video 08's arrows sat on still-camera clips). The camera never stops for a pointer (3.4 Rule 6).
+- **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 114 with our "HBX Caption" font (Montserrat 800 from fontsource; `CAP_FS` in `08-build.py`). The 130 first written here, scaled from the 44 px letters of videos 03–04 at 100, measured 65 px in video 08, so measure the letters with `check_video.py` whenever the font file changes. Centred at about 75% of the frame height (`CAPY` ≈ 1440): over plain ground in wide shots and over whatever is there in close-ups, where the stroke and the shadow keep it readable, as in the power-lines video (3.4 Rule 5). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
 - Render with an ASS subtitle file through ffmpeg/libass (the bundled `subtitle_paper_burn.py` only places captions at the bottom). Use the bundled scripts for transcription only.
-- Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word over a quiet part of the picture. Inspect them with `image_paths`. `check_video.py` also prints the caption letter height and position.
+- Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word, readable over the picture. Inspect them with `image_paths`. `check_video.py` also prints the caption letter height and position.
 - **Fallback:** if the caption burn fails, deliver the clean master plus an `.srt` of one-word cues, and the user captions it in CapCut (one-word preset).
 - (Classic look, videos 01–02 and 05–07, for the record: ALL CAPS term labels near the subject, dashed dimension lines, and Title Case captions in Fredoka Bold centred at ~52% of the frame height, 64–72 px at 1080 wide.)
 
 **Step 11: End card and delivery.**
 - Final beat: the finished cutaway in the framing of the first frame, so the last line loops into the hook. No character and no sign (3.4).
 - Upload the final MP4 to Higgsfield storage (`media_upload` → PUT in the same `sandbox_exec` → `media_confirm`) and give the user the link.
-- Report: final length, credits quoted vs spent (`transactions`), the share of seconds that move (Step 9), and any line that lost its clip.
+- Report: final length, credits quoted vs spent (`transactions`), the share of seconds that move and the camera numbers (Step 9), and any line that lost its clip.
 - On the first video with sound, deliver the voice-only version too, so the user can compare the two by ear (3.4).
 - Only if asked: `virality_predictor` (ask about cost first), then `tiktok_prepare_publish` with `mode:"UPLOAD_TO_DRAFT"` (the user always reviews and submits).
 
@@ -598,30 +620,48 @@ look a line without its own clip holds the last frame of the clip before it, for
 - End card: no sign (the user chose none). End on the finished cutaway in the framing of the first frame. (Classic look: the mascot waving at the finished build.)
 - Default tier: **Middle** (the user, 11 Nov 2026: "lite isn't enough animation and full is too much"; they picked Middle B, 15 clips,
   ~170–200 credits). In the Cutaway look Middle is the floor (Rule 1 below, 3.1); offer Full when the beat count calls for it.
-- **Look (LOCKED by the user, 15 Nov 2026): Cutaway, no character.** It is the look of videos 03–04 (then called Hidden By Design)
-  with the six refinements the user approved on 15 Nov 2026 ("all 6 refinements are approved"). The measurements and the reasons are
-  in 7.5. Elsewhere in this file "3.4 rule N" means the rules below.
+- **Look (LOCKED by the user, 15 Nov 2026): Cutaway, no character, with a travelling camera.** It is the look of videos 03–04
+  (then called Hidden By Design) with the six refinements the user approved on 15 Nov 2026 ("all 6 refinements are approved"; the
+  measurements and the reasons are in 7.5). After video 08 the same day, the user asked for the camera to move in and away from the
+  changes like @1hidden_by_design's power-lines video and approved seven changes "as long as it accomplishes the same video as the
+  one I referenced": Rules 2, 3, 5 and 6 were rewritten and Rule 7 was added (the record is 7.7). Elsewhere in this file "3.4 rule
+  N" means the rules below.
   - **What it is:** a bright, clean, photoreal-leaning 3D render of one place sliced open like a cake, in soft daylight, with
-    translucent cyan water. "You" is the viewer and nobody stands in for them: hands, small anonymous workers or machines appear
-    only where the work needs them. One small living thing per video is welcome (the yellow fish, the dog). No on-screen term
-    labels. One-word captions, the loop ending and no spoken call to action stay as they were.
-  - **Rule 1. Animate nearly all of it.** Animated clips cover at least about 80% of the running time. Every line in which something
-    flows, turns, pours, fills, breaks or freezes gets a clip. A hold is only ever the last frame of the clip before it, with a slow
-    push-in, for 3 s at most. Never show a frozen splash, pour, plume of smoke or gauge needle. `pipeline/analysis/check_video.py`
-    measures it on the finished video.
-  - **Rule 2. One cutaway, changed in place.** One sliced-open set from one main view, and each fix is added to it (the shot rule
-    below). Close-ups are push-ins on that set. Anything that needs another place is shown on the set or cut.
-  - **Rule 3. Move the camera instead of fading between pictures.** Stages and close-ups are linked by clips that start on one
-    picture and end on the next (start and end keyframes), so the part grows or the camera travels. No cross-fades between different
-    pictures. Cut only where the setting truly changes, on a "But" or a "So".
-  - **Rule 4. Hold the look steady.** Every still is made by editing the one before it, with the framing lock. The shared style line
-    names no objects and no place. Night and storm are a re-grade of the same picture: the same water colour, and nothing glows. The
-    first and last frames match part for part. All of it is checked at Gate C.
-  - **Rule 5. Bigger captions on a quiet part of the frame.** Every picture is composed with the subject in the upper 60% and plain,
-    calm ground below it. Captions are ALL CAPS, with letters about 57 px tall at 1080×1920 (30% larger than in videos 03–04),
-    centred about 75% down the frame (3.3 Step 10).
-  - **Rule 6. Bolder pointers.** Solid white arrows about three times the size of the old chevrons, with a soft shadow, moving along
-    the flow, three or four at a time, and a thicker ring that fades in. One device per beat (3.3 Step 10).
+    translucent cyan water, seen by a camera that flies around and into it. "You" is the viewer and nobody stands in for them:
+    hands, small anonymous workers or machines appear only where the work needs them. One small living thing per video is welcome
+    (the yellow fish, the dog). No on-screen term labels. One-word captions, the loop ending and no spoken call to action stay as
+    they were.
+  - **Rule 1. Animate nearly all of it.** Animated clips cover at least about 80% of the running time; plan every line as a clip,
+    with no holds. Every line in which something flows, turns, pours, fills, breaks or freezes gets a clip. A hold is only the
+    fallback for a lost clip (3.2 rule 5): the last frame of the clip before it, with a slow push-in, for 3 s at most. Never show a
+    frozen splash, pour, plume of smoke or gauge needle. `pipeline/analysis/check_video.py` measures it on the finished video.
+  - **Rule 2. One set, a travelling camera** (replaced "one cutaway from one main view" on 15 Nov 2026). The video stays on one
+    sliced-open set, and each fix is added to it (the shot rule below), but the camera flies around and into it like the
+    power-lines video: 8–12 camera positions, the wide view only to open, to close (the loop) and to step back once or twice, and
+    every problem and every fix seen up close from its own position. Anything that needs another place is shown on the set or cut.
+  - **Rule 3. Every clip flies the camera.** Each clip starts at one camera position and ends at another (a change clip at one
+    position still drifts), and each position is a real still of the set from there, never a crop of another still: a crop makes
+    Kling zoom across a flat picture, which reads as still (3.4k). On "But" the camera pushes in or swoops to where the problem
+    happens; the change plays out close while the camera keeps drifting; on "So" it pulls away or flies on to the next position. No
+    still-camera clips. A middle keyframe can carry one clip in to a change and back out. No cross-fades between different pictures;
+    a whip (a fast swing with motion blur) only for a far jump; a hard cut only where the setting truly changes.
+  - **Rule 4. Hold the look steady.** Every still is an edit of the wide still or of a neighbouring camera position, so the set
+    keeps its parts, colours and materials from every angle; the versions at one position keep the framing lock. The shared style
+    line names no objects and no place. Night and storm are a re-grade of the same picture: the same water colour, and nothing
+    glows. The first and last frames match part for part. All of it is checked at Gate C.
+  - **Rule 5. Bigger captions, readable anywhere.** Wide shots are composed with the subject in the upper 60% and plain, calm
+    ground below it (the WIDE line, 3.3 Step 4). In close-ups the caption sits over whatever is there, as in the power-lines video;
+    the stroke and the shadow keep it readable. Captions are ALL CAPS, with letters about 57 px tall at 1080×1920 (30% larger than
+    in videos 03–04), centred about 75% down the frame (3.3 Step 10).
+  - **Rule 6. Bolder pointers that ride with the camera.** Solid white arrows about three times the size of the old chevrons, with
+    a soft shadow, moving along the flow, three or four at a time, and a thicker ring that fades in. One device per beat. A pointer
+    appears when the camera arrives at a detail and slows, and stays pinned to the detail while the camera drifts (tracked in the
+    edit); the camera never stops for a pointer (3.3 Step 10).
+  - **Rule 7. Measure the camera** (added 15 Nov 2026). `pipeline/analysis/camera_path.py` on the pilots, the clips and the final:
+    the camera moving in 65% or more of the seconds; median parallax 0.3 px or more (it flies through the set rather than zooming
+    across a picture); big moves (a quarter of the frame or more in a second) in at least one second in eight on average, with no
+    gap over 15 s; and no still-camera stretch over 5 s. The power-lines video scores 66%, 0.46 px, 22 big-move seconds in 88 s
+    (longest gap 15 s) and 5 s; video 08 scored 45%, 0.03 px, 7 in 80 s (42 s) and 13 s (7.7).
   - **Agreed the same day, not rules:** price Kling's 1080p at the next Gate B, because our 720p clips carry about half the fine
     detail of the stills, and add a light sharpen otherwise (3.3 Steps 3 and 9); take the caption timing from `07-build.py`.
 - **Sound under the voice (APPROVED by the user, 15 Nov 2026: "yes on the sound").** The user asked what the competition does and
@@ -632,7 +672,8 @@ look a line without its own clip holds the last frame of the clip before it, for
     starting about 10–12 dB under the voice. The effect levels are my starting point, not measured from anyone.
   - No melodic music, and never a copyrighted or trending track.
   - The voice-only mix is kept as a second master. On the first video with sound the user gets both, to compare by ear.
-  - How: the ElevenLabs Sound Effects node, mixed in ffmpeg (3.3 Steps 3, 6b and 9). It costs ElevenLabs credits, not yet priced.
+  - How: the ElevenLabs Sound Effects node, mixed in ffmpeg (3.3 Steps 3, 6b and 9). It costs ElevenLabs credits: about 3.33 a
+    second of sound (video 08: 118.33 for a 20 s bed and six effects).
   - Why (7.5): measured on 15 Nov 2026, not listened to. @1hidden_by_design runs a quiet steady bed under the whole video, about
     19–20 dB below the voice in the quietest moments, with almost no separate effects; @howbuildingexplained has no bed, only short
     quiet sounds in the gaps between lines; @thewhatifstudio has full sound design, loud in the mix. Ours was the only voice-only
@@ -642,24 +683,24 @@ look a line without its own clip holds the last frame of the clip before it, for
   01–02 and 05–07. The locked mascot stands in a small sunny 3D diorama: a stylised, toy-like game-engine render with soft daylight
   and mild depth of field, seen from a slightly raised three-quarter view. Base STYLE string in `pipeline/02-prompts.py` plus one
   palette line per setting. Captions centred, one word at a time, in Title Case, with ALL CAPS term labels (`pipeline/02-build.py`).
-- **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05; carried over to the Cutaway look on 15 Nov 2026 as its Rule 2): one
-  build, one main view.** The reasons and the credit effect are in 7.2.
-  1. The camera stays on the thing being explained, in one main view (the hero angle of the stage ladder). Every line of the script
-     changes something you can see on it: a part grows in, a problem hits it, something inside starts working. (Classic look: the
-     mascot is in the scene doing the work. Cutaway look: nobody is, unless the work needs hands or a small worker.)
-  2. Close-ups show only the build, as it is at that moment, and the next shot goes back to the main view. Make them from the same
-     picture where possible: the camera pushes in during the clip, or the edit zooms in on the held frame (free). Only a detail too
-     small for that (a gauge) gets its own still, made by editing the current stage still so it matches.
+- **Shot rule (LOCKED by the user, 11 Nov 2026, after video 05): one build.** Its "one main view" part was replaced on 15 Nov 2026
+  by the travelling camera (Rule 2 above, 7.7). The reasons for the rule and its credit effect are in 7.2.
+  1. The camera stays on the thing being explained. Every line of the script changes something you can see on it: a part grows in,
+     a problem hits it, something inside starts working. (Classic look: the mascot is in the scene doing the work. Cutaway look:
+     nobody is, unless the work needs hands or a small worker.)
+  2. Close-ups show only the build, as it is at that moment. In the Cutaway look each close-up is a camera position with its own
+     still (Rule 3), and the camera flies on from it rather than cutting back. (Classic look, for the record: close-ups were
+     push-ins on the same picture, and the next shot went back to the main view.)
   3. To show how it works inside, slice the wall open from the same view. Never cut to a separate room. (In the Cutaway look the
      set is already sliced open.)
   4. Comparisons and asides stay on the build. Classic look: only as labels ("17 HOURS", a dashed "60 FT" line). Cutaway look, which
      has no labels: on the set itself (a gauge on the pipe, a tub beside the hydrant). Cut any that would need a picture of
      something else (like video 05's cup in a bath, kitchen sponge, airliner and space capsule, or video 04's coal heap, three
      glasses and Perth).
-  5. Problems (storms, floods, threats) hit the build in the main view.
-  6. The setting changes only when the build itself has to move (a tow-out, a launch, a flight); the new setting gets its own main
-     view. A journey topic (water from the sea to a tap) is one long section through the whole system that the camera travels
-     along, with three or four stops at most, each a part of the same picture.
+  5. Problems (storms, floods, threats) hit the build where the camera sees them up close.
+  6. The setting changes only when the build itself has to move (a tow-out, a launch, a flight); the new setting gets its own wide
+     view. A journey topic (water from the sea to a tap, power from the plant to a house) is one long section through the whole
+     system that the camera flies along, stopping wherever something changes (the power-lines video stops about ten times in 88 s).
 - Higgsfield project / folder naming: `HBX – [video title]`
 - Channels: YouTube **LetZBuildTogether**, handle **@LetzBuildTogether** (channel id `UCNaqNT-R3K2GmISUfLdfBzA`, created Sep 2025). The
   user renamed it from @overthinkingyearly some time between 10 and 15 Nov 2026; the old handle still redirected on 15 Nov 2026.
@@ -1089,9 +1130,10 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   - **What counted:** a move to a different still with its own perspective (the glide from the night house into the ground to the
     flap close-up, 3.4–8.1 a second, and the pull back from it, 7.9), the light changing (dusk 1.3–3.2, dawn 1.1–1.4) and the
     pointer arrows (0.6–0.9).
-  - **Next time:** plan a camera path with a real close-up still for each stop (3.3 Steps 2 and 5), frame each problem so what
-    moves fills a good part of the picture, and show the pilots' `check_video.py` numbers at Gate D (3.3 Step 7). Whether the
-    measure tracks how people watch is open: compare video 08's views with videos 03 and 04 (7.5).
+  - **Next time** (made into rules the same day: 3.4 Rules 2, 3 and 7; 7.7): plan a camera path with a real still for each camera
+    position (3.3 Steps 2 and 5), frame each problem so what moves fills a good part of the picture, and show the pilots'
+    `camera_path.py` and `check_video.py` numbers at Gate D (3.3 Step 7). Whether the measure tracks how people watch is open:
+    compare video 08's views with videos 03 and 04 (7.5).
 - **Stills (26 tries for 14 on screen, 32.50 credits against 20 quoted; budget ~1.8 tries a still in this look):**
   - The first S0 put the sewer pipe 75% down the frame, under the captions. Shrinking the picture to 76%, lifting it, extending the
     edges and one seedream clean-up edit fixed it (the house in the top ~63%). Next time give the layout in the S0 prompt ("the roof
@@ -1136,8 +1178,10 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **The last frame doesn't match the first:** make the END still by editing the last stage still, and compare it with Stage 0 at Gate C.
 - **A night or storm shot changes the render** (glowing water, redrawn pipes; video 03's fire shot): make it by editing the day still and say "the same water colour as the reference; nothing glows; only the light changes".
 - **The sound competes with the voice:** lower the bed until `under_the_voice.py` reports the quietest moments 18–22 dB below the voice, and drop any effect that lands on a stressed word. If in doubt, deliver the voice-only master and say so.
-- **Every line has a clip, and `check_video.py` still says the video is mostly still** (video 08: 93% clips, 15% moving): the motion is small in the frame (water inside a pipe, faint haze, a small animal in a wide view) and the camera moves are zooms across a flat face, which the checker takes out. Frame closer on what moves, make it bigger, and move the camera through the set rather than toward it (3.4k).
+- **Every line has a clip, and `check_video.py` still says the video is mostly still** (video 08: 93% clips, 15% moving): the motion is small in the frame (water inside a pipe, faint haze, a small animal in a wide view) and the camera moves are zooms across a flat face, which the checker takes out. Frame closer on what moves, make it bigger, and fly the camera through the set between real camera positions rather than zooming toward it (3.4 Rules 2, 3 and 7; 3.4k).
 - **A jump where a clip meets a hold or a trimmed clip:** the clip after a hold should start at the hold's zoom and ease back (`EASE_AFTER` in `08-build.py`), and a 3 s clip over a 2 s line should play whole and faster (`FULLFIT`), never lose its first frames.
+- **The set changes from one camera position to the next** (pipes move, colours shift): make each position by editing the wide still with "The same [set] as the reference, with the same parts, colours and materials … Nothing in view changes", compare the positions side by side at Gate C, and regenerate the one that drifted.
+- **A travel clip only zooms** (`camera_path.py` shows parallax near 0): its two stills are the same view at two sizes. Make the end still a real camera position (lower, closer, from the side) and render it once more.
 
 ---
 
@@ -1224,7 +1268,9 @@ END          three-beat imperative that loops into the hook: "Bury the pipes, pa
   yellow excavator, a blue drill truck, and white or blue sedans.
 - **No mascot.** "You" is the viewer. People appear only as hands at a tap, a woman flipping a light switch, small figures walking, or workers.
 - **Camera:** one continuous, slowly moving camera. Transitions are fly-throughs that follow the flow: down the grate into the pipe, up the
-  well to the kitchen tap, along the wires from the plant to the house. The camera path is the story.
+  well to the kitchen tap, along the wires from the plant to the house. The camera path is the story. **Measured on the power-lines
+  video (15 Nov 2026, 7.7):** the camera reaches about 11 positions in 88 s, moves in 66% of the seconds and is never still for more
+  than 5 s; it has been our model since then (3.4 Rules 2, 3 and 7).
 - **Build moments:** each fix appears on the same cutaway set (pipe slides in, chamber grows, tank fills). This is our stage-ladder method.
 - **Explainer devices:** small flat white arrows for flow and force, a white highlight circle, and a final labelled cutaway "summary
   diagram" (landfill: Cap, Gas Wells, Subsurface Waste, Bottom Liner System).
@@ -1270,18 +1316,19 @@ and wastewater treatment, power grid, gas station, roof.
 
 ---
 
-## 5. Kickoff prompt, renewed 15/11/26 (paste this to make a video)
-**Renewed 15/11/26:** this is the current version. It replaces the character look with the Cutaway look and its six rules (3.4,
-7.5). Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and effects"
-since the user approved it later on 15 Nov 2026 (3.4). The IDEA line names the five ideas of section 2, approved the same day. The
-11/11/26 version, for the character look, is in the repo history at commit `f8bf298`.
+## 5. Kickoff prompt, renewed 15/11/26 v2 (paste this to make a video)
+**Renewed 15/11/26 v2:** this is the current version. It adds the travelling camera the user approved after video 08 (3.4 Rules 2,
+3, 5, 6 and 7; 7.7). The prompt was renewed twice on 15 Nov 2026, so this one is marked v2: the first 15/11/26 version (the Cutaway
+look with one main view) is in the repo history at commit `db03adc`, and the 11/11/26 version, for the character look, at
+`f8bf298`. Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and
+effects" (3.4). C1 is used (video 08), so the IDEA line names C2–C5.
 ```
-KICKOFF PROMPT (renewed 15/11/26)
+KICKOFF PROMPT (renewed 15/11/26 v2)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <C1, C2, C3, C4 or C5 from section 2, or your own topic>
+IDEA:   <C2, C3, C4 or C5 from section 2, or your own topic>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
 SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
@@ -1289,25 +1336,38 @@ Fixed choices (3.4):
 - Look: Cutaway, no character. One place sliced open like a cake, bright and clean,
   with translucent cyan water. "You" is the viewer. Hands, small workers or machines
   appear only where the work needs them. No labels on the picture.
-- The six rules of the look:
-  1. Animate nearly all of it. Animated clips cover at least about 80% of the running
-     time. Every line where something flows, turns, pours or breaks gets a clip. A
-     hold is only the last frame of the clip before it, 3 s at most. Never show a
-     frozen splash, pour, smoke or gauge needle.
-  2. One cutaway, changed in place. One sliced-open set from one main view; each fix
-     is added to it. Close-ups are push-ins on that set, then back to the main view.
-     Anything that needs another place is shown on the set or cut.
-  3. Move the camera instead of fading. Link stages with clips that start on one
-     picture and end on the next. No cross-fades between different pictures. Cut only
-     where the setting truly changes.
-  4. Hold the look steady. Make every still by editing the one before it. Keep objects
-     out of the shared style line. Night and storm are a re-grade of the same picture.
-     The first and last frames match part for part.
-  5. Captions: one word at a time, ALL CAPS, about 30% larger than in videos 03-04,
-     about 75% down the frame. Compose every picture with the subject in the upper 60%
-     and plain ground below it.
+- Camera: move it like @1hidden_by_design's power-lines video ("How Do Those Giant
+  Power Lines Get Electricity to Your House?", section 7.7). The camera flies around
+  and into the set, in to each change and away again, and is almost never still.
+- The seven rules of the look:
+  1. Animate nearly all of it. Every line is a clip; plan no holds. A hold is only
+     the fallback for a lost clip: the last frame of the clip before, 3 s at most.
+     Never show a frozen splash, pour, smoke or gauge needle.
+  2. One set, a travelling camera. Stay on the one sliced-open set and add each fix
+     to it, but give it 8-12 camera positions: the wide view only to open, to close
+     and to step back once or twice, and every problem and every fix seen up close
+     from its own position. Anything that needs another place is shown on the set
+     or cut.
+  3. Every clip flies the camera from one position to another, and each position is
+     a real still of the set from there, never a crop of another still. On "But"
+     push in or swoop to where the problem happens; let the change play out close
+     while the camera keeps drifting; on "So" pull away or fly on. No still-camera
+     clips and no cross-fades; a whip only for a far jump; a cut only where the
+     setting truly changes.
+  4. Hold the look steady. Make every still by editing the wide still or a
+     neighbouring position, so the set keeps its parts and colours from every
+     angle. Keep objects out of the shared style line. Night and storm are a
+     re-grade of the same picture. The first and last frames match part for part.
+  5. Captions: one word at a time, ALL CAPS, about 57 px tall, about 75% down the
+     frame. Wide shots keep the subject in the upper 60% with plain ground below; in
+     close-ups the caption sits over whatever is there, with its stroke and shadow.
   6. Pointers: solid white arrows about three times the old size, moving along the
-     flow, and a thicker ring. One device per beat.
+     flow, and a thicker ring. One device per beat. They appear when the camera
+     arrives at a detail and stay pinned to it while the camera drifts; the camera
+     never stops for a pointer.
+  7. Measure the camera with pipeline/analysis/camera_path.py: moving in 65% or more
+     of the seconds, median parallax 0.3 px or more, big moves in at least one second
+     in eight with no gap over 15 s, and never still for more than 5 s.
 - Narrator: Daniel (3.4). Video model: kling4_0 (3.0).
 - Sound: a quiet, steady bed that fits the place and four to eight short effects where
   something visibly happens, all well under the voice. No music. Keep a voice-only
@@ -1320,10 +1380,12 @@ Script rules, on top of section 1:
   cold-claim opening in section 2, show me both at Gate A.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
 - 7-8 But/So beats that escalate. Name the real term after the key fixes (spoken only).
-- Write for the set: every line must be something we can show happening on the one
-  cutaway, and most lines should describe something moving. Show comparisons and stats
-  on the set itself or cut them. Cut any line that would need a picture of another
-  place, and tell me at Gate A which lines you cut or moved onto the set.
+- Write for the set and the camera: every line must be something we can show happening
+  on the one cutaway, most lines should describe something moving, and each problem
+  and fix should happen at its own spot on the set so the camera has somewhere to fly.
+  Show comparisons and stats on the set itself or cut them. Cut any line that would
+  need a picture of another place, and tell me at Gate A which lines you cut or moved
+  onto the set.
 - Build in one "that's why" viewers can check in real life and one small human joke,
   both shown on the set.
 - End on our own line: a three-beat imperative that loops back into the hook (4.3).
@@ -1337,16 +1399,19 @@ Credits: check the balance first. If it's below the quote, offer a smaller plan 
 me which lines would lose their clip, instead of starting. In the quote, price the clips
 at 720p and at 1080p and show both totals, and price the sound (ElevenLabs credits).
 
-Stop for my approval at Gate A (script and title), Gate B (credit quote), Gate C (stills:
-one set from one main view, the subject in the upper 60%, the first and last frames
-matching) and Gate D (pilot clips: the hook, and one clip that travels from one stage to
-the next). Spend no credits before I approve Gate B.
+Stop for my approval at Gate A (script and title, with where the camera is on each
+line), Gate B (credit quote), Gate C (stills: the camera positions on one set as a
+flight map, the set matching from every angle, the first and last frames matching)
+and Gate D (pilot clips: the hook flying down to the first change, and one clip that
+flies between two camera positions, each with its camera_path.py and check_video.py
+numbers next to the power-lines video's). Spend no credits before I approve Gate B,
+and don't render the rest until the pilots move like the reference.
 
 When the video is done, give me:
 - the final MP4 link, and the voice-only version of the same video so I can compare
   the two by ear
-- the share of the running time that moves (pipeline/analysis/check_video.py; the target
-  is 80% or more) and any line that lost its clip
+- the share of the running time that moves (check_video.py; target 80% or more), the
+  camera numbers (camera_path.py; the Rule 7 targets) and any line that lost its clip
 - 3 cover options (3.4d), one of them a plain mid-video cutaway frame with no text
 - TikTok post copy: the title or a hook question with one emoji, then #HowItWorks
   #Engineering #LearnOnTikTok #3DAnimation and 1-2 topic tags
@@ -1494,9 +1559,9 @@ What it shows:
 5. "Altered content" disclosure: tick it when the scenes look photoreal (the Hidden By Design look). Re-check YouTube's help page for
    the current rule.
 6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
-7. Raise at Gate A and Gate C: the Cutaway look (locked by the user on 15 Nov 2026, see 3.4): no character, one set from one main
-   view, the subject in the upper 60% of the frame, one caption style, and a closing line that is ours rather than "Congratulations,
-   you have built…". (History: the audit's single-angle, build-in-place suggestion became the user's shot rule on 11 Nov 2026, first
+7. Raise at Gate A and Gate C: the Cutaway look (locked by the user on 15 Nov 2026, see 3.4): no character, one set seen by a
+   travelling camera (7.7), wide shots with the subject in the upper 60% of the frame, one caption style, and a closing line that is
+   ours rather than "Congratulations, you have built…". (History: the audit's single-angle, build-in-place suggestion became the user's shot rule on 11 Nov 2026, first
    inside the Classic look, and carried over to the Cutaway look on 15 Nov 2026: 3.4, 7.2 and 7.5.)
 
 ### 6.5 Rename shortlist (not used: the user renamed the YouTube channel themselves)
@@ -1599,8 +1664,10 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
   nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day).
-- **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). It carried over to
-  the Cutaway look as its Rule 2.
+- **Shots:** one build (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). Its "one main view" part was
+  replaced on 15 Nov 2026 by the travelling camera.
+- **Camera:** approved on 15 Nov 2026 after video 08: move like @1hidden_by_design's power-lines video, "as long as it
+  accomplishes the same video as the one I referenced" (3.4 Rules 2, 3, 5, 6 and 7; 7.7).
 - **Sound:** approved on 15 Nov 2026 ("yes on the sound"): a quiet bed and a few effects under the voice, no music (3.4, 7.5).
 - **Analytics:** on 15 Nov 2026 the user said "forget about the retention graphs". Don't ask them for retention or watch-time
   figures; work from what can be seen from outside (7.5).
@@ -1641,6 +1708,7 @@ the script describes how the topic we are building works." The agreed rules are 
 - **How to make it hold together:** make each stage still by editing the one before it, with the framing lock from 3.4g ("Keep exactly
   the same camera position, zoom and framing as the reference image"). Animate build beats from stage k to k+1 with start and end
   keyframes, which worked well in video 05 (the legs rising out of the sand; the barge out and the buoy in).
+- **15 Nov 2026:** the "one main view" part of this rule was replaced by the travelling camera (7.7); "one build" stays.
 
 ### 7.3 New brief: ideas that start arguments (the user, 14 Nov 2026)
 The user: "I feel like the video ideas aren't good enough the hooks don't keep people watching the ideas are boring. I need ideas that
@@ -1837,3 +1905,84 @@ close to a topic How Building Explained has done". The matchup list that the fiv
 - C5: Wikipedia's Pinsetter article (https://en.wikipedia.org/wiki/Pinsetter); the USBC on string pinsetters
   (https://bowl.com/news/usbc-certifies-string-pin-bowling-as-independent-competition-effective-august-1,-2023).
 - The carrier idea: HowStuffWorks (https://science.howstuffworks.com/aircraft-carrier4.htm) and Wikipedia's Arresting gear article.
+
+### 7.7 The travelling camera (agreed with the user, 15 Nov 2026, after video 08)
+The rules that came out of this are 3.4 Rules 2, 3, 5, 6 and 7, with the runbook steps that carry them out (3.3 Steps 1, 2, 4, 5 and
+7–11). This is the record behind them.
+
+**What the user said.** After video 08: "the animation style is good but its not enough movement. the camera should move in and away
+from the changes happening in the videos. currently its just a majority of a single shot with minor changes as the script goes on
+visually. watch this video, I want the camera movement similar to this. tell me what changes can be made to achieve this." After
+the proposal: "I approve all changes as long as it accomplishes the same video as the one I referenced. make the necessary changes
+to the claude.md file. make sure to update the copy and paste prompt accordingly and labeled the new renewed date at the top".
+
+**The reference.** @1hidden_by_design, "How Do Those Giant Power Lines Get Electricity to Your House? ⚡"
+(https://www.tiktok.com/@1hidden_by_design/video/7705562191029636383), posted 7 Nov 2026, 87.7 s. On 15 Nov 2026: 353.7K views,
+24.6K likes, 192 comments, 1,247 shares, 3,808 saves. A journey topic: power from the plant along the lines to a house. Downloaded
+at 720p (format `h264_720p_1346671-0`, on the v16 host) and measured with `check_video.py` and `camera_path.py`; not listened to.
+
+**Its camera path** (from one-frame-a-second sheets; the caption words show where the narration is):
+
+| Time | Where the camera is and what it does |
+|---|---|
+| 0:00–0:04 | High aerial over the plant and the road to town; it pulls back and swings round to show the town |
+| 0:05–0:09 | Swoops down to road level beside the wires; a car drives over them by the camera (arrow); the wires rise onto poles (arrow up) |
+| 0:10–0:17 | Flies forward along the road beside the poles as the wires glow orange (pushing in 7–26% a second), then whips across the grass with motion blur on "So" |
+| 0:18–0:23 | Lands on the transformer at the plant and drifts in 2–4% a second while its case cuts open to show the coils |
+| 0:24–0:30 | Pulls up and away to an aerial of the road on "But", then swoops to the foot of a tower being built (+74% in one second) |
+| 0:31–0:39 | Looks up the tower, drifting and turning slowly, while an orange line shows the current in the steel and glass insulators appear |
+| 0:40–0:43 | Pushes in on the insulator string (10–15% a second), with a ring on it |
+| 0:44–0:48 | Pulls back and flies over the fields toward the town (−15%, −58% and −30% a second) |
+| 0:49–0:55 | Dips into the substation and back out, then glides along the line toward the houses |
+| 0:56–1:00 | Swoops down the street to the pole by a house (+29%, +69%, +46%) and settles on its transformer |
+| 1:01–1:06 | Pulls back to the street as a tree falls on the line; holds still for 3 s with a ring on the spark |
+| 1:06–1:12 | Pulls out, then pushes into a roadside switch cabinet that opens (arrow on a switch), then pulls back |
+| 1:13–1:19 | The street with one house cut open; a slow drift while its lights go out and come back |
+| 1:20–1:22 | Pushes into the house's cut-open room (+72%): a woman flips the switch and the lamp lights |
+| 1:22–1:27 | Pulls out to a huge aerial of the whole town and grid (its "Congratulations" line and the creator's call to action play here; we use neither) |
+
+**What it shows:**
+- About 11 camera positions in 88 s, each where something changes; the camera goes to the change and away again.
+- It pushes in for 31 seconds and pulls out for 17, turning between the two 14 times. 22 seconds hold a big move (a quarter of the
+  frame or more), one every 4 s on average and never more than 15 s apart.
+- The moves are 3D: near things slide past faster than far things (median parallax 0.46 px), so it feels like a drone in the scene.
+- The camera slows only on arrival: it drifts for 1–3 s while the change happens and the pointer appears. The longest still-camera
+  stretch is 5 s (the tree falling).
+- The cutaways open on arrival: the transformer, the switch cabinet and the house open in front of the camera.
+- Captions (about 50 px, 77% down) sit over whatever is there, busy close-ups included.
+
+**Measured against video 08** (15 Nov 2026):
+
+| | Power lines | Video 08 |
+|---|---|---|
+| Seconds moving inside the picture (`check_video.py`) | 70% | 20% |
+| Longest stretch without movement | 5 s | 29 s |
+| Camera moving (`camera_path.py`) | 66% of the seconds | 45% |
+| Median zoom and pan speed | 5.5% and 4.1% a second | 0.9% and 0.7% |
+| Median parallax (3D travel) | 0.46 px | 0.03 px |
+| Big-move seconds (longest gap) | 22 in 88 s (15 s) | 7 in 80 s (42 s) |
+| Longest still-camera stretch | 5 s | 13 s |
+| Camera positions | about 11 | about 3 (wide, roof, flap close-up) |
+
+Video 08's one move like the reference's was the glide from the night house into the ground to the flap close-up, between two
+different stills: 3.4–8.1 a second by `check_video.py`, and 50–66% zoom a second with 6–14 px of parallax by `camera_path.py`.
+
+**The seven changes approved:** (1) Rule 2, one set seen by a travelling camera with 8–12 positions; (2) Rule 3, every clip flies
+between two camera positions, each a real still, with no still-camera clips and a whip allowed for a far jump; (3) Rule 7, camera
+targets measured with `pipeline/analysis/camera_path.py` (written for this comparison), beside the 80% motion target; (4) Rule 6,
+pointers that appear on arrival and stay pinned to the picture; (5) Rule 5, plain ground only in wide shots, captions over whatever
+is there in close-ups; (6) the camera column in the beat sheet (Step 2), the camera-position stills and the flight map at Gate C
+(Step 5), and pilots measured against the reference at Gate D (Step 7); (7) the paste prompt renewed (section 5, 15/11/26 v2). Two
+follow-ons serve the same goal: no planned holds, so every line is a clip (Rule 1), and the composition sentence moved out of the
+shared style line into a WIDE line for wide shots only (3.3 Step 4).
+
+**The user's condition:** "as long as it accomplishes the same video as the one I referenced". Our tools (seedream stills and Kling
+between keyframes) approximate its camera, so the check is at Gate D: the pilots' `camera_path.py` and `check_video.py` numbers next
+to the reference's, and no batch until they match.
+
+**Cost and risk** (my estimate): about 78–80 s of clips (every line is a clip), ~175–180 credits at 720p; 20–24 stills on screen
+from ~35–40 tries, ~45 credits; so ~215–225 a video against 203.50 for video 08. An AI set drifts more seen from many angles (pipes
+move, colours shift), so each position is checked at Gate C, and each move runs 3–6 s between two stills so it does not warp.
+
+**Files.** `pipeline/analysis/camera_path.py`, and `pipeline/analysis/camera-compare-powerlines-vs-08.jpg` (where the camera is every
+few seconds in both videos, as shown to the user).
