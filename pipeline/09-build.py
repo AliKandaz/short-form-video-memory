@@ -25,7 +25,51 @@ def dur(p): return float(subprocess.run(['ffprobe','-v','error','-show_entries',
 # A 3 s clip over a ~2 s line plays whole and faster (C9 1.32x, C14 1.36x), never trimmed (08: trimming made jumps).
 FULLFIT = {"C9", "C14"}
 
+# A clip whose middle went wrong is played as its clean start and clean end, joined by a fast whip down with motion blur
+# (Rule 3 allows a whip in the edit), both parts slowed to fill the line. C8: both renders scrolled a second copy of the house
+# up from under the ground between ~1.3 s and ~3.5 s; the first render (C8A, 7 s) has the longer clean ending.
+SPLICE = {"C8": ("clips/C8A.mp4", [(0.0, 1.3), (3.6, 7.04)], 0.3)}
+
+def seg_splice(name):
+    s = SEG[name]; L = s['len']; src, parts, wd = SPLICE[name]
+    speed = sum(b - a for a, b in parts) / (L + wd * (len(parts) - 1))   # the whip overlaps the two parts
+    base = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{SHARP},fps={FPS},setsar=1"
+    for i, (a, b) in enumerate(parts):
+        run(['-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-i', src, '-vf', f"setpts=(PTS-STARTPTS)/{speed:.4f},{base}"] + ENC
+            + [f'tmp/{name}_p{i}.mp4'])
+    d0 = dur(f'tmp/{name}_p0.mp4')
+    fc = (f"[0:v][1:v]xfade=transition=slideup:duration={wd}:offset={d0 - wd:.3f},"
+          f"gblur=sigma=1:sigmaV=28:enable='between(t,{d0 - wd:.3f},{d0:.3f})',trim=duration={L:.3f},setpts=PTS-STARTPTS[v]")
+    run(['-i', f'tmp/{name}_p0.mp4', '-i', f'tmp/{name}_p1.mp4', '-filter_complex', fc, '-map', '[v]'] + ENC + [f'seg/{name}.mp4'])
+    print(f'  {name}: spliced {parts} of {src} at {speed:.3f}x with a {wd}s whip -> {L:.2f}s (got {dur(f"seg/{name}.mp4"):.2f}s)')
+
+# Kling held the camera dead still in C7 (the side flash, 5 s; the prompt asked for a slow drift), so the edit adds the drift: a
+# slow push-in toward the arc, and the clip after it starts at that zoom and eases back out (no jump at the cut; 08's EASE_AFTER).
+PUSH = {"C7": (505, 960, 0.18)}          # (focus x, focus y in the 1080x1920 frame, zoom gained over the segment)
+EASE_AFTER = {"C8": "C7"}; EASE_S = 0.8
+
+def zoom_xy(fx, fy):
+    return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
+
+def post_zoom(name):
+    if name not in PUSH and name not in EASE_AFTER: return
+    n = max(2, round(SEG[name]['len'] * FPS))
+    if name in PUSH:
+        fx, fy, zz = PUSH[name]; z = f"1+{zz}*on/{n - 1}"
+    else:
+        fx, fy, zz = PUSH[EASE_AFTER[name]]; N = round(EASE_S * FPS)
+        z = f"if(lt(on,{N}),1+{zz}*(1-(3*pow(on/{N},2)-2*pow(on/{N},3))),1)"
+    x, y = zoom_xy(fx, fy)
+    run(['-i', f'seg/{name}.mp4', '-vf', f"scale={W*2}:{H*2},zoompan=z='{z}':x='{x}':y='{y}':d=1:s={W}x{H}:fps={FPS},setsar=1"]
+        + ENC + [f'tmp/{name}_z.mp4'])
+    os.replace(f'tmp/{name}_z.mp4', f'seg/{name}.mp4')
+    print(f'  {name}: ' + (f'push-in to {1+zz:.2f}x toward ({fx},{fy})' if name in PUSH else f'eases back from {1+zz:.2f}x over {EASE_S}s'))
+
 def seg_clip(name):
+    seg_clip_raw(name); post_zoom(name)
+
+def seg_clip_raw(name):
+    if name in SPLICE: return seg_splice(name)
     s = SEG[name]; L = s['len']; p = f'clips/{name}.mp4'; c = dur(p); r = c / L
     lo, hi = (0.8, 2.0) if name in FULLFIT else (0.8, 1.2)
     speed = min(max(r, lo), hi); played = c / speed
@@ -93,7 +137,13 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []
+POINTERS = [
+    ("C5", "arrows", 3.3, 4.9, 4.4, {"p0": (880, 600), "p1": (880, 1100)}),    # B7: down the cable from the rod to the ground rod
+    ("C7", "ring", 2.4, 5.15, 3.2, {"c": (505, 960), "r": 110}),                 # B9-B10: the side flash between cable and pipe
+    ("C10", "arrows", 0.3, 1.5, 0.5, {"p0": (420, 600), "p1": (640, 730)}),     # B14: along the power line from the pole into the house
+    ("C8", "ring", 5.4, 6.8, 6.2, {"c": (660, 1085), "r": 95}),                  # B12 "This is bonding": the clamp on the rod
+    ("C11", "arrows", 2.7, 5.25, 3.4, {"p0": (555, 1040), "p1": (548, 1250)}),  # B16: down the surge protector's green wire
+]
 
 def pointer_events(t0, t1):
     ev = []
@@ -141,10 +191,10 @@ def at(beat, word=None, off=0.0):
     if word is None: return max(0.0, BT[beat]['start'] + off)
     i = next(j for j in range(BT[beat]['first_word'], len(NORM)) if NORM[j] == word); return WORDS[i][0] + off
 # (file stem in audio/, start time). Each effect's loud moment is put on its picture: fx1's crack peaks 0.6 s into the file, fx4's
-# 0.3 s, fx6's 0.4 s (measured on the pilots: C1's bolt flashes at 4.31 s on the timeline, C15's big flash at 65.29 s, on
+# 0.3 s, fx6's 0.4 s (an optional third value cuts the file at that length with a short fade; measured on the pilots: C1's bolt flashes at 4.31 s on the timeline, C15's big flash at 65.29 s, on
 # "slams"); fx5 runs 2.4 s of shower, then the tap goes off and the tub drains (so its 2.45 s mark lands on "wait").
 FX = [("fx1_strike", at("B3", off=-0.75)), ("fx2_crackle", at("B3", "grabs", -0.3)), ("fx3_arc", at("B9", "jumps", -0.05)),
-      ("fx4_pole", at("B14", "hits", -0.3)), ("fx5_shower", at("B20", "wait", -2.45)), ("fx6_bigstrike", at("B22", "slams", 0.0))]
+      ("fx4_pole", at("B14", "hits", -0.3)), ("fx5_shower", at("B20", "wait", -2.45), 2.9), ("fx6_bigstrike", at("B22", "slams", 0.0))]
 BED, BED_UNDER, FX_UNDER = 'bed_rain', 19.0, 11.0      # dB under the voice (approved starting points, 3.4)
 
 def mix(t0, t1, out, voice_only=False):
@@ -158,11 +208,12 @@ def mix(t0, t1, out, voice_only=False):
         fc.append(f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim={t0:.3f}:{t0+T:.3f},asetpts=PTS-STARTPTS,volume={g:.2f}dB,"
                   f"afade=t=in:d=0.6,afade=t=out:st={max(0,T-0.8):.3f}:d=0.8[bed]"); parts.append('[bed]')
         k = 2
-        for name, t in FX:
+        for name, t, *cut in FX:
             if not (t0 - 0.5 <= t < t1): continue
             g = v_db - FX_UNDER - rms_db(f'audio/{name}.mp3'); d_ms = int(max(0, t - t0) * 1000)
+            trim = f"atrim=0:{cut[0]:.2f},afade=t=out:st={cut[0]-0.3:.2f}:d=0.3," if cut else ""
             inputs += ['-i', f'audio/{name}.mp3']
-            fc.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,volume={g:.2f}dB,adelay={d_ms}|{d_ms}[f{k}]")
+            fc.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,{trim}volume={g:.2f}dB,adelay={d_ms}|{d_ms}[f{k}]")
             parts.append(f'[f{k}]'); k += 1
     fc.append(''.join(parts) + f"amix=inputs={len(parts)}:normalize=0:duration=first,atrim=0:{T:.3f},"
               f"loudnorm=I=-14:TP=-1.5:LRA=11,volume=2.6dB,alimiter=limit=0.84:level=false,aresample=48000[a]")

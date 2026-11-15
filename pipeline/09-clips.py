@@ -37,19 +37,24 @@ C = {
  "C7": ("S", [], "Sa", 6, f"The camera drifts slowly closer to the wall the whole time. Bright white-blue current runs down the copper "
         f"cable, and a jagged electric arc jumps across the gap from the cable to the copper water pipe inside the wall, flickering "
         f"with small sparks."),
- "C8": ("Sa", [], "K", 7, f"The arc dies away. The camera glides smoothly down the wall to the corner of the house just under the "
-        f"grass, where the water pipe's elbow sits beside the top of the long copper rod; a copper strap wraps around the water pipe "
-        f"and a thin green wire comes down the corner beside the braided cable, and both are bolted into the bronze clamp on the rod. "
-        f"{ONE}"),
+ # C8A (1ec6d1bd, 7 s): Kling scrolled a second copy of the house up from under the ground for ~2 s; C8 says it is one house.
+ "C8": ("Sa", [], "K", 6, f"The arc dies away. The camera pulls back and moves down along the outside of the same right-hand wall in "
+        f"one smooth move: the bathroom rises toward the top of the frame, the living room comes into view below it, then the lawn "
+        f"and the corner of the house at the grass line, where the water pipe's elbow sits beside the top of the long copper rod; a "
+        f"copper strap wraps around the water pipe and a thin green wire comes down the corner beside the braided cable, and both "
+        f"are bolted into the bronze clamp on the rod. It is the same single two-storey house the whole time; no other rooms or "
+        f"floors appear below the ground. {ONE}"),
  "C9": ("K", [], "P", 3, "The camera whips fast up out of the ground and across the front of the house to the top of the wooden "
         "power pole at the left front corner, a quick swing with motion blur, and settles beside its crossarm and grey transformer "
         "can. One continuous move with no cuts."),
  "C10": ("P", ["Pb"], "Es", 6, f"{BOLT[0].upper() + BOLT[1:]} strikes the top of the power pole with a bright flash, and a "
          f"white-blue glow races along the black cable to the house. The camera follows the glow along the cable into the house and "
          f"down to the living room, where bright blue-white sparks burst out of the wall outlets and the panel lights up. {ONE}"),
- "C11": ("Es", [], "E1", 6, "The camera drifts slowly closer to the electrical panel, then eases back. A small grey box appears on "
+ # C11A (9a29d6ef, 6 s): the floor beside the sofa became a pool of cyan water around a rock block (the STYLE line leaking in).
+ "C11": ("Es", [], "E1", 5, "The camera drifts slowly closer to the electrical panel, then eases back. A small grey box appears on "
          "the wall beside the panel, wired into it; the sparks stop, and a white-blue glow runs out of the panel through the box and "
-         "down its green wire into the floor and away. The camera keeps drifting slowly the whole time."),
+         "down its green wire into the floor. The floor is solid wood the whole time: nothing is cut open and there is no water "
+         "anywhere in the room. The camera keeps drifting slowly the whole time."),
  "C12": ("E1", [], "B", 5, f"The camera rises from the living room up through the house, along the copper water pipe in the wall, "
          f"to the upstairs bathroom, where the shower is running into the tub and the small yellow rubber duck floats in the bath "
          f"water. {ONE}"),

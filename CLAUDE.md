@@ -29,6 +29,12 @@ only 20% of its seconds as moving, against the 80% target: what moves is small i
 crops of one still, which are zooms the checker takes out. Read 3.4k before the next video: plan a camera path with real close-up
 stills, and make what moves big.
 
+**First travelling-camera video (15 Nov 2026): 09, what lightning does inside your house (idea C3).** Made the same day under the
+seven rules, opened on the cold claim. It met every Rule 1 and Rule 7 target: 84% of the seconds moving, the camera moving in 78%,
+parallax 0.44 px, a big move in 23 of 76 seconds, no still-camera stretch over 3 s (3.4b). 10 camera positions on one storm house,
+16 clips and no holds. 264.25 credits against a 242.65 quote (+8.9%): stills took 1.75 tries each, and three clips needed fixing
+(one re-render each, one fixed in the edit). Read 3.4l before the next video.
+
 **Camera (approved by the user, 15 Nov 2026, after video 08): a travelling camera, like @1hidden_by_design's power-lines video.**
 The user found the look good but "not enough movement. the camera should move in and away from the changes happening in the
 videos", pointed to "How Do Those Giant Power Lines Get Electricity to Your House?", and approved seven changes "as long as it
@@ -56,7 +62,8 @@ account is US-based (the user confirmed on 13 Nov 2026).
 under a basketball court, C3 what lightning does inside your house, C4 what's inside a nuclear cooling tower, and C5 where your
 bowling ball goes. Each is one place sliced open with something moving through it, on a topic whose biggest Shorts are real
 footage, not animation. They are section 2; the brief and the research are in 7.6. The user swapped the fourth proposal (landing a
-jet on an aircraft carrier) for the cooling tower. C1 was made first, as video 08; the order of the other four is not set.
+jet on an aircraft carrier) for the cooling tower. C1 was made first, as video 08, and C3 second, as video 09; the order of the
+other three is not set.
 
 **Ideas before that (14 Nov 2026, removed 15 Nov 2026): four "Who wins?" matchups.** The user had found the earlier ideas and hooks
 boring and asked for topics that hold viewers and start arguments in the comments (military, vehicles, engineering). One matchup
@@ -196,7 +203,8 @@ as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were
   6. Never plant a mistake to bait corrections.
 - **Chains are drafts:** ✔ was checked by web search on 15 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the exact title before Gate A (6.7): the numbers below come from topic searches.
-- **Order:** C1 was made first, as video 08 (15 Nov 2026). The order of C2–C5 is not set by the user. C5 is the hardest to draw.
+- **Order:** C1 was made first, as video 08, and C3 second, as video 09 (both 15 Nov 2026). The order of C2, C4 and C5 is not set
+  by the user. C5 is the hardest to draw.
 - **Before the next one** (3.4k, 7.7): plan each idea's camera path through the set like the power-lines video: 8–12 camera
   positions, a real still for each, the camera flying in to each change and away again, and what moves big in the frame. In
   video 08 the main view was the whole house, and everything that moved (water inside a pipe, faint haze, a small rat) was too
@@ -272,7 +280,19 @@ as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were
   replayed on 30 Jan 2017). The Kohl Center's ice is an inch and a half thick; NHL ice thickness ⚠. Watch out: no team names or
   logos on the court or the ice; the workers are small and anonymous.
 
-**C3. What Lightning Does Inside Your House**
+**C3. What Lightning Does Inside Your House** — **USED: made as video 09 on 15 Nov 2026** (3.4b, 3.4l).
+- As made: opening B, the cold claim ("Everyone's heard it: don't shower in a thunderstorm. Here's what the bolt actually does."),
+  chosen by the user at Gate A; 270 words; four fixes (lightning rod with its cable and ground rod, bonding, a surge protector at
+  the panel, waiting out the storm to shower); the twist is the CDC's third of injuries indoors; "that's why" is the mom-and-the-bath
+  joke, with a rubber duck in the tub. The script is `pipeline/09-script.txt`. Every ⚠ below was checked or cut at Gate A: wiring,
+  plumbing and phone lines as paths (NWS); rods catch strikes already coming and do not attract them (NOAA, LPI); ground rods at
+  least 8 ft, often 10 ft deep (said as "deep"); side flash and bonding (LPI, NFPA 780 via trade sources); surges in on the power
+  line (State Farm, Exponent); the surge protector at the panel (NEC 2020 230.67, not said). Cut: the Empire State Building, "300
+  million volts" and "hotter than the sun" (other pictures), the NWS expert's no-deaths remark (not found on an official page), the
+  plastic-pipe nuance (kept for replies), rods every 20 ft and two down conductors (secondary sources only), corded phones.
+  Saturation on the exact title: about 8 near-identical Shorts, best 15K (a builder on camera); animated ones 1K or less. Two rivals
+  in our format had the rod basics this autumn (HowYouBuild "How a Lightning Rod System Really Works" 7.9K, 8 Nov; Gen Z Films "How a
+  Metal Stick on Your Roof Becomes a Lightning Rod" 1.7K, 23 Oct), so the script led with the shower, the side flash and the pole.
 - Set: a house sliced open in a storm: the roof, the wiring in the walls, the copper pipes, a running shower, and the soil below.
   The bolt is a white-blue streak that takes a new route after each fix. The storm is a re-grade of the daylight set (3.4 Rule 4).
 - Hook (as shown to the user): "If lightning hits your house, it has to reach the ground. The easiest way down might be your
@@ -426,14 +446,14 @@ Since video 04 the default is `kling4_0`: it also takes `start_image` + `end_ima
 minimax job has failed (3.4f). Prices re-checked 10 and 11 Nov 2026 with `get_cost`: unchanged.
 
 Balance when this runbook was written: **604 credits (Plus plan)**. On 11 Nov 2026 the account moved to the **Ultra plan**: 3,000 subscription
-credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left before video 08, 2,304.50 after it. Always call `balance` at the
-start of a run.
+credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left before video 08, 2,304.50 after it, 2,040.25 after video 09.
+Always call `balance` at the start of a run.
 
 ### 3.1 Budget tiers (pick one at Gate B; default = Middle since video 05)
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s); **203.50** for the first Cutaway video (video 08: 26 stills + 11 clips, 76 s of clips in a 79.5 s video) |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s); **203.50** for the first Cutaway video (video 08: 26 stills + 11 clips, 76 s of clips in a 79.5 s video); **264.25** for the first travelling-camera video (video 09: 35 stills + 18 clip renders, 98 s of Kling for 81 s of clips in a 75 s video) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
@@ -442,7 +462,9 @@ of the running time: about 60 s of a 75 s video, which is what videos 06 and 07 
 credits at 720p: the same clip seconds as those two (135–137 credits) plus 15–20 stills. **Measured on video 08:** 203.50, because
 a 79.5 s script with clips over 93% of it needed 76 s of clips (171.00), and the stills took 26 tries (32.50). **With the travelling
 camera (15 Nov 2026, 3.4 Rules 1–3)** quote ~215–225 at 720p for a ~78 s video: every line is a clip (about 78–80 s, ~175–180
-credits), and the 8–12 camera positions need 20–24 stills on screen at ~1.8 tries each (~45 credits). Lite left two thirds of
+credits), and the 8–12 camera positions need 20–24 stills on screen at ~1.8 tries each (~45 credits). **Measured on video 09:**
+264.25 for a 75 s video: 35 still tries (43.75) and 98 s of Kling (220.50), because the clips are planned slightly longer than
+their lines (81 s for 75 s) and three of 16 went wrong (17 s of re-renders, 3.4l). Quote ~235 + 15% (~270) for the next one. Lite left two thirds of
 videos 03 and 04 as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be
 stills. In this look a line without its own clip is only a fallback (3.2 rule 5): it holds the last frame of the clip before it, for
 3 s at most, and never becomes a still of its own.
@@ -592,7 +614,7 @@ stills. In this look a line without its own clip is only a fallback (3.2 rule 5)
 
 **Step 10: Pointers and captions (sandbox, free).**
 - **Cutaway look (since 15 Nov 2026): no term labels.** The term is spoken. Nothing is written on the picture except the captions.
-- **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A pointer appears when the camera arrives at a detail and slows (the 1–2 s drift at the end of a move) and stays pinned to the detail: track the picture with the point tracker of `camera_path.py` and move the arrow or ring with it (to be written into the next build script; video 08's arrows sat on still-camera clips). The camera never stops for a pointer (3.4 Rule 6).
+- **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A pointer appears when the camera arrives at a detail and slows (the 1–2 s drift at the end of a move) and stays pinned to the detail: track the picture with the point tracker of `camera_path.py` and move the arrow or ring with it (written for video 09: `POINTERS` and `track()` in `09-build.py`, positions measured on a gridded frame of the rendered segment; 3.4l). The camera never stops for a pointer (3.4 Rule 6).
 - **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 114 with our "HBX Caption" font (Montserrat 800 from fontsource; `CAP_FS` in `08-build.py`). The 130 first written here, scaled from the 44 px letters of videos 03–04 at 100, measured 65 px in video 08, so measure the letters with `check_video.py` whenever the font file changes. Centred at about 75% of the frame height (`CAPY` ≈ 1440): over plain ground in wide shots and over whatever is there in close-ups, where the stroke and the shadow keep it readable, as in the power-lines video (3.4 Rule 5). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
 - Render with an ASS subtitle file through ffmpeg/libass (the bundled `subtitle_paper_burn.py` only places captions at the bottom). Use the bundled scripts for transcription only.
 - Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word, readable over the picture. Inspect them with `image_paths`. `check_video.py` also prints the caption letter height and position.
@@ -863,6 +885,38 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   invisible at phone size); the narration says the rat climbs the main pipe, but it is only seen swimming in the sewer window and
   then in the toilet; in the zoomed bathroom framing (0:38–0:51) the captions sit on the lawn edge, not on plain soil; C6 plays at
   1.46× and C10 at 1.69× to fit their lines.
+
+- **09 What Lightning Does Inside Your House** (Middle; idea C3; the first video with the travelling camera; opening B, the cold
+  claim; one storm house seen from 10 camera positions; loop ending) — DELIVERED v1, 15 Nov 2026. 75.21 s, 1080×1920, 30 fps,
+  −13.2 LUFS, 24 beats in 16 clips (no holds), 270 words. Higgsfield spend **264.25 cr** (quote 242.65 with the 15% reserve, 211.00
+  without it; +8.9%): 35 seedream stills 43.75 (20 on screen, 3 bases, 12 drafts and redos) + 18 kling4_0 renders at 720p 220.50
+  (98 s: the 16 clips, 81 s, plus the first C15 pilot and the first C8 and C11). ElevenLabs: 2 takes × 1,395 credits (take A used
+  at 1.00×) + 131.67 for the rain bed and six effects.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/d8e26fda-8fb2-4885-aa09-e2b5ebd37b00.mp4 (media_id d8e26fda-8fb2-4885-aa09-e2b5ebd37b00);
+  the same video with the voice only: ad92be18-b6a4-4257-bc6b-6ecfb8ba33d3; clean master with the full sound and no captions or
+  pointers: bfe04732-841b-4595-8a7d-d81b150d8c3f. Higgsfield project "HBX – What Lightning Does Inside Your House" (folder
+  783ef666-4a82-436a-90f9-36e3983264a4). ElevenLabs flows: narration 0Udre8WpeBTl2gAnjT3Z, sound FSzLyvOaFzeFXRMh7RoX. The Gate C
+  flight map is `pipeline/09-flightmap.jpg`; the Gate D preview (C1, C15) was sent as a file, not uploaded.
+  Measured: `check_video.py` 84% of the seconds moving, longest still stretch 2 s (79% and 5 s before the push-in added to C7);
+  captions 57 px at 75%; `camera_path.py` camera moving 78%, parallax 0.44 px, 23 big-move seconds (longest gap 9 s), longest
+  still camera 3 s, 26 s in / 27 s out / 13 turns (the power-lines video: 66%, 0.46 px, 22 in 88 s, 5 s); the quietest moments
+  21 dB under the voice with a steady stereo bed (the voice-only version: 51 dB). No line lost its clip.
+  Post copy (`pipeline/09-post-copy.md`): YouTube title "What Lightning Does Inside Your House", description "A lightning bolt
+  that hits your roof is hunting for the ground, and the wires in your walls and the copper pipe to your shower can be its way
+  down. Here's how a lightning rod, bonding and a surge protector give it a safer road, and why about a third of lightning
+  injuries happen indoors. Do you shower during a storm? #Lightning #HowItWorks #3DAnimation"; TikTok "What does lightning
+  actually do inside your house? ⚡" + #HowItWorks #Engineering #LearnOnTikTok #3DAnimation #Lightning #Thunderstorm; pinned
+  comment "Do you shower during a storm? Yes or no."
+  Covers (`pipeline/09-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg):
+  **A "SHOWER IN / A STORM?" (recommended)** on a frame of the video (0:09: the current glowing down the wall beside the running
+  shower): 1080×1920 99a396c6-5ede-4294-bd75-55895a3d1af6, TikTok 3:4 13309e11-4eb6-4f15-80de-037b1ddbcc1b. B "IT JUMPS / TO YOUR
+  PIPES" on the side flash: a3693c33-f023-48d4-8bc0-8e220abb31eb, 3:4 7f338e1a-6c20-4091-99b6-818eafd1abab. C plain frame of the
+  bolt on the rod, no text: dd749b3b-7fc4-47e6-b2df-df79b4ad7842.
+  Known edit candidates: at 0:33–0:35 (C8) the middle ~2 s of both renders scrolled a second copy of the house up from under the
+  ground, so the edit joins the clean start and end with a 0.3 s whip down, both parts at 0.66×; C7 came back with a dead-still
+  camera, so the edit pushes in to 1.18× and C8 eases back out; the big flash at 1:05 whites out most of the frame for ~0.2 s; the
+  panel close-ups (0:45–0:52) read as a real room more than a cutaway; the bathroom gains a window on its right wall in C14; the
+  attic keyframe was dropped, so C2 dives from the ridge to the bathroom in one move.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -1166,6 +1220,62 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   `FULLFIT`, the stereo mix, captions and arrows), `08-thumbnail.py`, `08-post-copy.md`, `08-ladder.jpg`. Copy these for the next
   Cutaway video.
 
+### 3.4l Lessons from video 09, the first travelling-camera video (15 Nov 2026; apply next time)
+- **The travelling camera works with our tools.** Ten real camera positions on one set, every clip flying between two of them, met
+  every Rule 1 and Rule 7 target (3.4b), against video 08's 20% and 45%. Kling flies between two stills of the same set from
+  different angles with real parallax (the hook: 1.11 px, more than twice the reference), and a middle keyframe carried one 6 s clip
+  through three positions (the climax: bathroom, wide, ground). Electricity animated well: bolts, a glow racing along cables and
+  pipes, an arc, roots of light in the soil.
+- **Stills (35 tries for 20 on screen, 1.75 each, as budgeted):**
+  - Camera positions are edits of the wide with `POS` ("The same house, set and storm as the reference image, with the same parts,
+    colours and materials. New camera position: …"); changes at a position use `LOCK` (wide) or `LOCKZ` (close-ups: "everything in
+    view stays exactly where it is", which names nothing out of frame). "Extreme close-up" was again needed for a part to fill the
+    frame.
+  - The style key came out as a thin slab on a dirt plain until it said "the block of ground is deep: below the lawn its front is
+    cut straight down all the way to the bottom edge of the frame … there is no ground in front of the block".
+  - Describe parts as the camera sees them: "the right end of the ridge" on a front-gable house put the rod on the slope; "the peak
+    of the roof, at the front end of the ridge" worked.
+  - Seedream joins new parts to old ones: the lightning cable was clamped to the water pipe until the prompt said "stands a little
+    to the right of the water pipe and does not touch it". It drops parts too: the bonding clamp lost the cable until the prompt
+    named it as staying.
+  - The STYLE line's cutaway and cyan water leak into close-ups: upstairs rooms got soil under them ("nothing below the bathroom
+    floor is in view: no soil, no lawn, no pipes") and the living room got a cut floor over water ("the floor is solid wood and
+    nothing is cut open; there is no water anywhere"). Kling needs the same words: C11's first render flooded the room.
+  - A position that fails twice is dropped rather than forced: the attic close-up mixed attic and soil both times, so C2 lost its
+    middle keyframe and flew without it.
+  - Grain stayed low (no edit chain longer than three), so nothing was denoised.
+- **Clips (18 renders for 16 clips):**
+  - Every keyframe of a clip must agree on the state of things. C15 started on a drained tub and passed through a wide still with a
+    full one, and Kling refilled the tub on screen; Bo was remade with the water kept (the line only needs the shower off).
+  - A move of one storey down a wall (C8, from the bathroom floor to the foundation) scrolled a second copy of the house up from
+    under the ground, in both renders. Fixed in the edit (`SPLICE` in `09-build.py`: the clean start and end at 0.66×, joined by a
+    0.3 s whip with vertical motion blur). Next time give such a move a middle keyframe, or end it at a position that shows the same
+    storey.
+  - A change clip at one position can come back with a dead-still camera although the prompt asks for a drift (C7, 5 s). Check
+    each with `camera_path.py`; a push-in of 3% a second or more in the edit fixes it (`PUSH`), and the clip after eases back out
+    (`EASE_AFTER`).
+  - Kling took 12 clips at once on Ultra and finished them in about 9 minutes; the pilots took about 13.
+  - Plan clips about a second longer than their lines in total (81 s for 75 s); the build fits them at 0.94–1.15× (3 s clips over
+    ~2 s lines play whole at up to 1.38×).
+- **Pointers pinned to the picture** (Rule 6) are in `09-build.py` (`POINTERS`, `track()`): Lucas–Kanade points near the pointer
+  give a similarity transform from the anchor frame to every frame, and the arrows and the ring are drawn per frame in ASS, scaled
+  with the zoom. Measure positions on a gridded frame of the rendered segment (`seg/<clip>.mp4`), at the moment the camera arrives.
+- **Sound:** the ElevenLabs sound estimate prices each effect at its default length (395) while the run billed 131.67 for 39.5 s
+  (3.33 a second): budget from the durations. Put each effect's loud moment on its picture: measure the flash frame (brightest
+  frame of the clip) rather than trusting the word. An effect can be cut short (`FX` third value: fx5 cut at 2.9 s so the tub does
+  not drain by ear when it stays full on screen).
+- **Narration:** take A ran 3.34 words/s raw and 3.63 after pause tightening, faster than any earlier take, so the video is 75 s for
+  270 words. Pick the take that reads "So you…" straight through (take B paused after each "So").
+- **Covers:** when no still holds the moment, build the cover from a frame of the clean master (cover A, 0:09).
+- **Network:** weather.gov and cdc.gov were blocked for WebFetch in this session; the fact-check used search summaries.
+- **Scripts for video 09** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `09-script.txt`,
+  `09-beat-sheet.md` (with "As made"), `09-prompts.py` (STYLE, WIDE, SET, CAMERA, HOUSE, STORM, LOCK, LOCKZ, POS, REFS, and the
+  redo notes), `09-mk.py`, `09-clips.py` (STORMV, ONE, one clip per segment with optional middle keyframes), `09-jobs.tsv` (all job
+  and media ids), `09-whisper.py`, `09-timing.py`, `09-plan.json`, `09-timeline.json`, `09-words-takeA.json`, `09-build.py`
+  (`POINTERS` with tracking, `SPLICE`, `PUSH`, `EASE_AFTER`, `FULLFIT`, effects with cuts), `09-thumbnail.py`, `09-post-copy.md`,
+  `09-flightmap.py`, `09-flightmap.jpg`, `09-ladder.jpg`, and `analysis/pilot_measure.py` (Gate D numbers next to the reference).
+  Copy these for the next video.
+
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
 - **Video model adds text or subtitles:** add "no text, no captions, no letters" to the prompt and regenerate once.
@@ -1182,6 +1292,10 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **A jump where a clip meets a hold or a trimmed clip:** the clip after a hold should start at the hold's zoom and ease back (`EASE_AFTER` in `08-build.py`), and a 3 s clip over a 2 s line should play whole and faster (`FULLFIT`), never lose its first frames.
 - **The set changes from one camera position to the next** (pipes move, colours shift): make each position by editing the wide still with "The same [set] as the reference, with the same parts, colours and materials … Nothing in view changes", compare the positions side by side at Gate C, and regenerate the one that drifted.
 - **A travel clip only zooms** (`camera_path.py` shows parallax near 0): its two stills are the same view at two sizes. Make the end still a real camera position (lower, closer, from the side) and render it once more.
+- **Something changes back during a clip** (video 09: a drained tub refilled as the camera pulled back): a keyframe of the same clip shows the old state. Make every keyframe of one clip agree on the state of things, or drop the change from the line.
+- **A move of one storey up or down a wall stacks a second copy of the house** (video 09, C8, both renders): give the move a middle keyframe, or join the clean start and end with a whip in the edit (`SPLICE` in `09-build.py`).
+- **A change clip comes back with a dead-still camera** (video 09, C7): add the drift in the edit, a push-in of 3% a second or more toward the change, with the next clip easing back out (`PUSH`, `EASE_AFTER` in `09-build.py`).
+- **Close-ups grow soil, cut floors or cyan water** (the STYLE line leaking): say in the still and the clip prompt "nothing below the floor is in view", "the floor is solid wood and nothing is cut open; there is no water anywhere".
 
 ---
 
@@ -1321,14 +1435,14 @@ and wastewater treatment, power grid, gas station, roof.
 3, 5, 6 and 7; 7.7). The prompt was renewed twice on 15 Nov 2026, so this one is marked v2: the first 15/11/26 version (the Cutaway
 look with one main view) is in the repo history at commit `db03adc`, and the 11/11/26 version, for the character look, at
 `f8bf298`. Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and
-effects" (3.4). C1 is used (video 08), so the IDEA line names C2–C5.
+effects" (3.4). C1 and C3 are used (videos 08 and 09), so the IDEA line names C2, C4 and C5.
 ```
 KICKOFF PROMPT (renewed 15/11/26 v2)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <C2, C3, C4 or C5 from section 2, or your own topic>
+IDEA:   <C2, C4 or C5 from section 2, or your own topic>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
 SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
@@ -1663,7 +1777,8 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   sliced open with something moving through it.
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
-  nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day).
+  nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day); 2,040.25 left after video 09,
+  which cost 264.25 (confirmed by `balance` the same day).
 - **Shots:** one build (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). Its "one main view" part was
   replaced on 15 Nov 2026 by the travelling camera.
 - **Camera:** approved on 15 Nov 2026 after video 08: move like @1hidden_by_design's power-lines video, "as long as it
@@ -1986,3 +2101,22 @@ move, colours shift), so each position is checked at Gate C, and each move runs 
 
 **Files.** `pipeline/analysis/camera_path.py`, and `pipeline/analysis/camera-compare-powerlines-vs-08.jpg` (where the camera is every
 few seconds in both videos, as shown to the user).
+
+**The first video under it: 09, lightning (15 Nov 2026).** The pilots passed Gate D next to the reference (the hook: camera moving
+80%, parallax 1.11 px; the climax: 67%, 0.40 px, 3 big-move seconds in 6), and the final met every target:
+
+| | Power lines | Video 09 |
+|---|---|---|
+| Seconds moving inside the picture (`check_video.py`) | 70% | 84% |
+| Longest stretch without movement | 5 s | 2 s |
+| Camera moving (`camera_path.py`) | 66% of the seconds | 78% |
+| Median zoom and pan speed | 5.5% and 4.1% a second | 6.4% and 6.5% |
+| Median parallax (3D travel) | 0.46 px | 0.44 px |
+| Big-move seconds (longest gap) | 22 in 88 s (15 s) | 23 in 76 s (9 s) |
+| Longest still-camera stretch | 5 s | 3 s |
+| Camera positions | about 11 | 10 (wide, ridge, bath, wall, ground, gap, foot, pole, panel, and the tub close-up) |
+
+Two numbers came from the edit, not from Kling: C7 (the side flash) came back with a dead-still camera, so the edit pushes in toward
+the arc; before that the final measured 79% and a 6 s still-camera stretch. The cost was 264.25 against the ~215–225 estimated
+above: the stills matched the estimate (43.75), and the clips ran 220.50 because of 17 s of re-renders and clips planned slightly
+longer than their lines (3.4l).

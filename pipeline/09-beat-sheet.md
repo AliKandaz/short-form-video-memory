@@ -107,3 +107,31 @@ No holds. The wide is seen at the open (C1), the two step-backs (C5, C15) and th
 - Effects, ~11 dB under the voice: fx1 close strike and thunderclap (4 s, B2); fx2 current crackling in wires and pipes (3 s,
   B3–B4); fx3 arc snap (1.5 s, B9); fx4 strike on the pole with a transformer pop (3 s, B14); fx5 shower running, then off (4 s,
   B17–B20); fx6 the big strike (4 s, B21).
+
+## As made (delivery, 15 Nov 2026)
+- **Narration:** take A, 3.34 words/s raw, 3.63 after pause tightening (no atempo): 75.21 s with the 0.9 s tail. 2 takes x 1,395
+  ElevenLabs credits. Whisper matched 270/270 words. `09-timeline.json`, `09-plan.json`, `09-words-takeA.json`.
+- **Stills:** 35 seedream tries (43.75 credits) for 20 on screen + 3 bases. Redos, each noted in `09-prompts.py`: W0 (the block was
+  a thin slab), W1 (cable joined to the water pipe; rod on the slope), P (too far; a pit), A (twice: attic mixed with soil; dropped,
+  C2 has no middle keyframe), Bd (twice: soil under the bathroom), Es and E1 (cut floor over water; the room's corner opened), G (rod
+  moved off the corner), W1B (the water pipe glowed), K (lost the braided cable), Bo (drained tub; remade full for the C15 fix).
+- **Clips:** 18 kling4_0 renders at 720p, 98 s, 220.50 credits: the 16 planned (C8 6 s and C11 5 s as re-renders), the first C15
+  pilot (its tub refilled on screen: the drained-tub start frame disagreed with the full tub in its middle keyframe) and the first
+  C8 (7 s) and C11 (6 s). All ids in `09-jobs.tsv`.
+- **C8:** both renders scrolled a second copy of the house up from under the ground for ~2 s while moving down one storey. The edit
+  plays C8A's clean start (0-1.3 s) and clean end (3.6-7.04 s) at 0.66x, joined by a 0.3 s whip down with vertical motion blur
+  (`SPLICE` in `09-build.py`).
+- **C11:** the first render turned the living-room floor into a pool of cyan water around a rock; the re-render ("solid wood floor,
+  nothing cut open, no water anywhere") is clean.
+- **C7:** Kling held the camera dead still for the whole side flash. The edit adds a push-in to 1.18x toward the arc, and C8 eases
+  back out of it over 0.8 s (`PUSH`, `EASE_AFTER`).
+- **Pointers** (tracked, pinned, scaled with the zoom; `POINTERS` in `09-build.py`): arrows down the lightning cable (C5, B7), a ring
+  on the side flash (C7, B9-B10), arrows along the power line into the house (C10, B14), a ring on the bonding clamp (C8, B12),
+  arrows down the surge protector's green wire (C11, B16).
+- **Sound:** rain bed 19 dB and six effects 11 dB under the voice (fx1 on the first flash, fx2 on "grabs", fx3 on "jumps", fx4 on
+  "hits the pole", fx5 shower cut at 2.9 s so the tap goes off on "wait", fx6 on "slams" where the big flash lands). 131.67
+  ElevenLabs credits.
+- **Measured on the final:** 75.21 s; `check_video.py` 84% moving (79% before the C7 push-in), longest still 2 s, captions 57 px at
+  75%; `camera_path.py` camera moving 78%, parallax 0.44 px, 23 big-move seconds (longest gap 9 s), longest still camera 3 s, 26 s
+  in / 27 s out / 13 turns; quietest moments 21 dB under the voice (voice-only 51 dB); -13.2 LUFS; 270 caption cues, no overlaps.
+- **Spend:** Higgsfield 264.25 (stills 43.75, clips 220.50) against 242.65 quoted (+8.9%); ElevenLabs 2,790 + 131.67.

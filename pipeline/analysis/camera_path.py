@@ -21,6 +21,7 @@ Reference values, measured 15 Nov 2026 (CLAUDE.md 7.7)
                                         moving   %/s    %/s    px        (longest gap)      camera
   @1hidden_by_design power lines (88 s)  66%     5.5    4.1    0.46      22 (15 s)          5 s            31 / 17 / 14
   ours, video 08 sewer trap (80 s)       45%     0.9    0.7    0.03       7 (42 s)          13 s           19 / 17 / 9
+  ours, video 09 lightning (76 s)        78%     6.4    6.5    0.44      23 (9 s)            3 s           26 / 27 / 13
 Targets for our videos (3.4 Rule 7): camera moving in 65% or more of the seconds; median parallax 0.3 px or more; big moves
 in at least one second in eight on average (10 or more in an 80 s video; the reference has 22 in 88 s), with no gap longer
 than 15 s; and no still-camera stretch longer than 5 s.

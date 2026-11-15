@@ -21,6 +21,7 @@ Reference values, measured 15 Nov 2026 (CLAUDE.md 7.5)
   ours 04 seawater (Lite)           33%      26 s                    44 px at 73%      14 / 81
   @1hidden_by_design storm drain    84%       6 s                    62 px at 75%      54 / 68
   @1hidden_by_design roof           87%       4 s                    54 px at 77%      37 / 44
+  ours 09 lightning (Middle)        84%       2 s                    57 px at 75%      51 / 61
 Target for our videos: 80% or more moving and no still stretch longer than about 6 s.
 
 Needs ffmpeg on PATH and: pip install numpy opencv-python-headless

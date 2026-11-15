@@ -41,13 +41,24 @@ clip_C4	edbfa41c-150e-43f3-9696-372ecd5bd17e	5 s, R1 -> D -> G
 clip_C5	962b1ee9-45a0-41b2-b6f3-33ca2ab0c531	5 s, G -> W1B
 clip_C6	7f5d9b4b-bf23-4dbc-a182-56c9ab63310d	3 s, W1B -> S
 clip_C7	2c3d42e7-9621-421b-bfab-743b9aa16b86	6 s, S -> Sa
-clip_C8	1ec6d1bd-d1a2-4ee0-b157-02fac1a66ecb	7 s, Sa -> K
+clip_C8A	1ec6d1bd-d1a2-4ee0-b157-02fac1a66ecb	7 s, Sa -> K
 clip_C9	2f822bc8-ea14-40b8-9420-799fca122c4a	3 s, K -> P (whip)
 clip_C10	9be36d6c-c619-4a96-9bdd-216582f2f0d4	6 s, P -> Pb -> Es
-clip_C11	9a29d6ef-c32c-4aab-9ff0-55b0303ba125	6 s, Es -> E1
+clip_C11A	9a29d6ef-c32c-4aab-9ff0-55b0303ba125	6 s, Es -> E1
 clip_C12	6bbeb85d-6b11-416e-b9f6-8c6be4ab1089	5 s, E1 -> B
 clip_C13	3f00f86b-d0b5-4188-9fce-8eac12cc96e5	4 s, B -> Bd
-Bo	ecfb1d34-87a0-46da-a3db-78546ace4d32	
 clip_C14	889cbb51-cb4e-4adc-a31b-15c289ebbcf5	3 s, Bd -> Bo
 clip_C15	48e6aae8-1b51-45c2-861a-bdd155d992a7	6 s, Bo -> W1B -> Gg (re-render: Bo keeps the bath water)
 clip_C16	14690b39-b3b3-4af8-a187-30ed0a6f7477	6 s, Gg -> W1
+clip_C8	4153d15a-cc7c-4d85-ae99-78a482b6dacd	6 s, Sa -> K (re-render: one house)
+clip_C11	fd80f2a0-5c9e-4b82-b789-de8fe1d1af4f	5 s, Es -> E1 (re-render: solid floor)
+Bo	ecfb1d34-87a0-46da-a3db-78546ace4d32	shower off, tub still full (C15 fix)
+# uploads (media_upload): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.<ext>
+final	d8e26fda-8fb2-4885-aa09-e2b5ebd37b00	.mp4, 75.21 s, voice + rain bed + effects, captions and pointers
+final_voiceonly	ad92be18-b6a4-4257-bc6b-6ecfb8ba33d3	.mp4, the same video with the voice only
+final_clean	bfe04732-841b-4595-8a7d-d81b150d8c3f	.mp4, clean master with the full sound, no captions or pointers
+cover_A_9x16	99a396c6-5ede-4294-bd75-55895a3d1af6	.jpg, "SHOWER IN / A STORM?" (recommended)
+cover_A_3x4	13309e11-4eb6-4f15-80de-037b1ddbcc1b	.jpg, TikTok upload crop
+cover_B_9x16	a3693c33-f023-48d4-8bc0-8e220abb31eb	.jpg, "IT JUMPS / TO YOUR PIPES"
+cover_B_3x4	7f338e1a-6c20-4091-99b6-818eafd1abab	.jpg, TikTok upload crop
+cover_C	dd749b3b-7fc4-47e6-b2df-df79b4ad7842	.jpg, plain frame: the bolt on the rod (W1B), no text
