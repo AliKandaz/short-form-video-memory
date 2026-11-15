@@ -140,7 +140,10 @@ TL = json.load(open('timeline.json')); BT = {b['beat']: b for b in TL['beats']}
 def at(beat, word=None, off=0.0):
     if word is None: return max(0.0, BT[beat]['start'] + off)
     i = next(j for j in range(BT[beat]['first_word'], len(NORM)) if NORM[j] == word); return WORDS[i][0] + off
-FX = []   # (file stem in audio/, start time); filled in after the clips are in, from where each event lands in its clip
+# (file stem in audio/, start time). Each effect's loud moment is put on its picture: fx1's crack peaks 0.6 s into the file, fx4's
+# 0.3 s, fx6's 0.4 s; fx5 runs 2.4 s of shower, then the tap goes off and the tub drains (so its 2.45 s mark lands on "wait").
+FX = [("fx1_strike", at("B3", off=-0.6)), ("fx2_crackle", at("B3", "grabs", -0.3)), ("fx3_arc", at("B9", "jumps", -0.05)),
+      ("fx4_pole", at("B14", "hits", -0.3)), ("fx5_shower", at("B20", "wait", -2.45)), ("fx6_bigstrike", at("B21", "hits", -0.4))]
 BED, BED_UNDER, FX_UNDER = 'bed_rain', 19.0, 11.0      # dB under the voice (approved starting points, 3.4)
 
 def mix(t0, t1, out, voice_only=False):

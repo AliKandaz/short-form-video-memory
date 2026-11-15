@@ -16,9 +16,9 @@ TAIL = "Motion starts on frame 1. No text, no captions, no letters."
 BOLT = "a jagged white-blue lightning bolt"
 C = {
  # clip: (start key, middle keys, end key, seconds, motion)
- "C1": ("W", [], "R0B", 5, f"The camera glides smoothly down and forward from the wide view of the whole sliced-open house toward the "
-        f"right end of the roof ridge, rain streaking past, while the shower keeps running in the upstairs bathroom. As the camera "
-        f"arrives close over the ridge, {BOLT} strikes the ridge with a bright flash. {ONE}"),
+ "C1": ("W", [], "R0B", 5, f"The camera glides smoothly down and forward from the wide view of the whole sliced-open house, rising "
+        f"and swinging to the right, to a high, close view over the front peak of the roof, rain streaking past, while the shower "
+        f"keeps running in the upstairs bathroom. As the camera arrives, {BOLT} strikes the peak of the roof with a bright flash. {ONE}"),
  "C2": ("R0B", [], "Bg", 8, f"The lightning flash fades and a bright white-blue glow of electric current spreads from the struck "
         f"ridge into the attic. The camera dives down through the cut-open roof into the attic, following the glow as it races along "
         f"the white cable on the rafters and down into the walls, then keeps descending to the upstairs bathroom, where the copper "
@@ -30,7 +30,7 @@ C = {
         f"cable down the corner of the house, past the windows, to the lawn, and keeps going down into the cut face of the soil, "
         f"where a long copper rod drives straight down into the ground and the cable clamps onto its top. {ONE}"),
  "C5": ("G", [], "W1B", 5, f"The camera pulls back and rises out of the soil until the whole sliced-open house is in view again. "
-        f"{BOLT[0].upper() + BOLT[1:]} comes down from the clouds and strikes the metal rod on the ridge, and the bright glow races "
+        f"{BOLT[0].upper() + BOLT[1:]} comes down from the clouds and strikes the metal rod on the peak of the roof, and the bright glow races "
         f"down the copper cable on the corner of the house into the copper rod in the soil. Nothing inside the house glows. {ONE}"),
  "C6": ("W1B", [], "S", 3, f"The glow fades. The camera swoops in fast toward the right-hand wall at the height of the bathroom "
         f"floor, where the copper cable on the outside of the wall runs past the copper water pipe just inside it. {ONE}"),
@@ -58,7 +58,7 @@ C = {
  "C14": ("Bd", [], "Bo", 3, "The shower turns off and the water stops; the bath water drains away and the small yellow rubber duck "
          "settles on the bottom of the empty tub. The camera eases back slowly the whole time."),
  "C15": ("Bo", ["W1B"], "Gg", 6, f"The camera pulls fast back and up out of the bathroom until the whole sliced-open house is in "
-         f"view, and a huge {BOLT[2:]} slams into the metal rod on the ridge with a blinding flash. Then the camera swoops down the "
+         f"view, and a huge {BOLT[2:]} slams into the metal rod on the peak of the roof with a blinding flash. Then the camera swoops down the "
          f"outside of the right-hand wall, following the bright glow as it races down the copper cable into the copper rod in the "
          f"soil, where the glow spreads out into the ground like roots of light. Nothing inside the house glows. {ONE}"),
  "C16": ("Gg", [], "W1", 6, f"The glow in the soil fades away. The camera pulls back and rises smoothly out of the ground until the "
