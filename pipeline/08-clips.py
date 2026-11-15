@@ -24,28 +24,34 @@ C = {
         f"falls down inside the grey main pipe. As it rushes past, it sucks the water out of the U-bend under the kitchen sink, and "
         f"the U is left empty; then {HAZE} rises up out of the empty U and out of the kitchen sink. The toilet bowl fills up again. "
         f"Nothing else changes. {NOBODY}"),
- "C4": ("C4", "S1D", [], "S2", 4, f"{FIXED} A grey pipe grows straight up from the top of the main pipe, through the attic and out "
-        f"through the roof tiles. Fresh air flows down the new pipe, the haze in the kitchen fades away, and the U-bend under the "
-        f"kitchen sink fills with clean cyan water again. Nothing else changes. {NOBODY}"),
- "C5": ("C5", "S2", [], "S2X_dn", 9, f"The camera stays completely still. A time-lapse of many days: sunlight and shadows sweep "
-        f"across the house again and again while the house itself stays exactly the same. Upstairs in the bathroom, the water slowly "
-        f"sinks out of the U-bend under the bathroom sink and out of the floor drain's U-shaped pipe, and the toilet water sinks "
-        f"lower; {HAZE} creeps up into the bathroom and slowly fills it. The kitchen does not change. {NOBODY}"),
- "C6": ("C6", "S2X_dn", [], "S2R_dn", 3, f"{FIXED} The bathroom sink tap turns on by itself for a moment: clear water runs into the "
-        f"sink and fills its U-bend with cyan water, the toilet bowl fills up, and the haze in the bathroom clears away. The floor "
-        f"drain stays dry. {NOBODY}"),
- "C7": ("C7", "S2R_dn", [], "S2HK_dn", 12, f"{FIXED} A thin wisp of {HAZE} curls up out of the dry floor drain in the bathroom "
-        f"floor. More haze rises out of it, and then the round exhaust fan in the bathroom ceiling starts spinning and pulls the haze "
-        f"up across the room into the fan in a steady stream. Nothing else changes. {NOBODY}"),
- "C8": ("C8", "S2HK_dn", [], "S3", 5, f"{FIXED} A thin copper water pipe appears and runs to the floor drain's U-shaped pipe; a "
-        f"trickle of clean water flows through it and fills the floor drain's U with cyan water. The fan stops and the haze clears "
-        f"away completely. Nothing else changes. {NOBODY}"),
- "C9": ("C9", "S3", [], "S3NS", 8, f"{FIXED} Day turns to night: the sky darkens to deep blue with a few stars and cool moonlight "
-        f"falls over the house; the water keeps the same cyan colour and nothing glows. Then a small brown rat swims into view inside "
-        f"the big sewer pipe under the street, paddling through the cyan water in its see-through window toward the house pipe. "
-        f"{RATONLY}"),
- "C10": ("C10", "S3NS", [], "S3NT", 3, f"{FIXED} It is night. The rat in the sewer pipe darts into the house pipe and disappears, and "
-         f"a moment later its head and front paws pop up out of the water in the toilet bowl upstairs. {RATONLY}"),
+# After Gate D (the user kept P1): the main-view clips get camera moves from free crop keyframes (08-jobs.tsv: S2_roof,
+ # S2R_bath, S2HK_bath, S3NS_sewer), because the fixed-camera hook barely registered as motion (0.1-0.7% of the picture changing
+ # each second). C3 and C7 keep a still camera for their flow arrows.
+ "C4": ("C4", "S1D", [], "S2_roof", 4, f"The camera rises slowly toward the roof while a grey pipe grows straight up from the top of "
+        f"the main pipe, through the attic and out through the roof tiles. Fresh air flows down the new pipe, the haze in the kitchen "
+        f"fades away, and the U-bend under the kitchen sink fills with clean cyan water again. Nothing else changes. {NOBODY}"),
+ "C5": ("C5", "S2_roof", [], "S2X_dn", 9, f"The camera slowly pulls back from the roof until the whole sliced-open house is in view "
+        f"again, while a time-lapse of many days plays: sunlight and shadows sweep across the house again and again while the house "
+        f"itself stays exactly the same. Upstairs in the bathroom, the water slowly sinks out of the U-bend under the bathroom sink and "
+        f"out of the floor drain's U-shaped pipe, and the toilet water sinks lower; {HAZE} creeps up into the bathroom and slowly fills "
+        f"it. The kitchen does not change. {NOBODY}"),
+ "C6": ("C6", "S2X_dn", [], "S2R_bath", 3, f"The camera pushes in toward the upstairs bathroom while the bathroom sink tap turns on by "
+        f"itself for a moment: clear water runs into the sink and fills its U-bend with cyan water, the toilet bowl fills up, and the "
+        f"haze in the bathroom clears away. The floor drain stays dry. {NOBODY}"),
+ "C7": ("C7", "S2R_bath", [], "S2HK_bath", 12, f"The camera stays completely still on the same view of the bathroom; no zoom and no "
+        f"camera movement. A thin wisp of {HAZE} curls up out of the dry floor drain in the bathroom floor. More haze rises out of it, "
+        f"and then the round exhaust fan in the bathroom ceiling starts spinning and pulls the haze up across the room into the fan in "
+        f"a steady stream. Nothing else changes. {NOBODY}"),
+ "C8": ("C8", "S2HK_bath", [], "S3", 5, f"The camera slowly pulls back until the whole sliced-open house is in view, while a thin copper "
+        f"water pipe appears and runs to the floor drain's U-shaped pipe; a trickle of clean water flows through it and fills the "
+        f"floor drain's U with cyan water. The fan stops and the haze clears away completely. Nothing else changes. {NOBODY}"),
+ "C9": ("C9", "S3", [], "S3NS_sewer", 8, f"Day turns to night: the sky darkens to deep blue with a few stars and cool moonlight falls "
+        f"over the house; the water keeps the same cyan colour and nothing glows. The camera glides slowly down toward the big sewer "
+        f"pipe under the street, where a small brown rat swims into view inside its see-through window, paddling through the cyan "
+        f"water toward the house pipe. {RATONLY}"),
+ "C10": ("C10", "S3NS_sewer", [], "S3NT", 3, f"It is night. The rat in the sewer pipe darts into the house pipe and disappears while the "
+         f"camera pulls back and up to show the whole house, and its head and front paws pop up out of the water in the toilet bowl "
+         f"upstairs. {RATONLY}"),
  "C11": ("C11", "S3NT", [], "S4NZ", 6, f"It is night. The rat in the toilet ducks back down under the water and is gone. Then the "
          f"camera glides smoothly down from the house, past the kitchen and the lawn, into the ground, and comes in close to the spot "
          f"where the sloping house pipe joins the big sewer pipe. There a small round steel flap hangs inside the house pipe: water "

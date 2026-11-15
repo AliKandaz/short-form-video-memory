@@ -23,6 +23,12 @@ and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11
 sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well:
 five Cutaway ideas (section 2).
 
+**First Cutaway video (15 Nov 2026): 08, the sewer trap (idea C1).** Made the same day under the new rules, with the sound: 203.50
+credits against a 219.65 quote, no clip redos (3.4b). Every line has a clip (93% of the running time), but `check_video.py` counts
+only 20% of its seconds as moving, against the 80% target: what moves is small in the frame, and the camera moves were made from
+crops of one still, which are zooms the checker takes out. Read 3.4k before the next video: plan a camera path with real close-up
+stills, and make what moves big.
+
 **Earlier direction on the look (11 Nov 2026, replaced on 15 Nov 2026):** the look was Classic (the mascot look of videos 01–02 and
 05–07). Section 7 has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in
 the new **Middle** tier, which is still the default (3.1, 3.4). The ten ideas approved that day (famous real places and true extreme
@@ -42,7 +48,7 @@ account is US-based (the user confirmed on 13 Nov 2026).
 under a basketball court, C3 what lightning does inside your house, C4 what's inside a nuclear cooling tower, and C5 where your
 bowling ball goes. Each is one place sliced open with something moving through it, on a topic whose biggest Shorts are real
 footage, not animation. They are section 2; the brief and the research are in 7.6. The user swapped the fourth proposal (landing a
-jet on an aircraft carrier) for the cooling tower. The order is not set; C1 was recommended first.
+jet on an aircraft carrier) for the cooling tower. C1 was made first, as video 08; the order of the other four is not set.
 
 **Ideas before that (14 Nov 2026, removed 15 Nov 2026): four "Who wins?" matchups.** The user had found the earlier ideas and hooks
 boring and asked for topics that hold viewers and start arguments in the comments (military, vehicles, engineering). One matchup
@@ -180,13 +186,26 @@ as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were
   6. Never plant a mistake to bait corrections.
 - **Chains are drafts:** ✔ was checked by web search on 15 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
   check on the exact title before Gate A (6.7): the numbers below come from topic searches.
-- **Order:** not set by the user. Recommended to them: C1 first (closest to our two best videos, least drawing risk). C5 is the
-  hardest to draw.
+- **Order:** C1 was made first, as video 08 (15 Nov 2026). The order of C2–C5 is not set by the user. C5 is the hardest to draw.
+- **Before the next one** (3.4k): plan each idea's camera path through the set, with a real close-up still for every stop, and
+  make what moves big in the frame. In video 08 the main view was the whole house, and everything that moved (water inside a
+  pipe, faint haze, a small rat) was too small in it for `check_video.py` to count.
 - **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
   of ours stopped (the 15 Nov snapshot in 6.1: five of our seven are under 1.7K on TikTok and under 2.1K on YouTube); comments per
   1,000 views beat our 0.23 (9 comments on 38.9K TikTok views); saves and shares per 1,000 views beat seawater's 1.9 and 1.1.
 
-**C1. Why Your House Doesn't Smell Like the Sewer It's Connected To**
+**C1. Why Your House Doesn't Smell Like the Sewer It's Connected To** — **USED: made as video 08 on 15 Nov 2026** (3.4b, 3.4k).
+- As made: opening A ("If you pipe your sink straight into the sewer, it drains."), 274 words, five problems and five fixes (trap,
+  vent, running the water, trap primer, rat blocker), the Hong Kong story told over our own bathroom, and the ending as drafted.
+  The script is `pipeline/08-script.txt`. Every ⚠ below was checked or cut at Gate A: induced siphonage and the roof vent
+  (plumbing code guides); the toilet bowl's water as its own trap; trap primers (California's plumbing code requires them on
+  floor drains that are rarely used); rats swimming the sewer, climbing a 3-inch pipe and swimming through a toilet's bend
+  (National Geographic, video, 2015); a rat blocker as a one-way flap where the house drain meets the sewer. Cut: the washer
+  gurgle (needs a washing machine on the set), the backwater valve (a different flap, needs a basement), how long a rat holds its
+  breath (sources give 30 s to 15 minutes) and the SARS death toll. Saturation on the exact title: no Short uses it; about eight
+  animated U-bend explainers (best "Why Every Sink Pipe Has a U-Bend", 211K and climbing), none with the vent, Hong Kong or rats;
+  rat-in-toilet Shorts reach 15M. The reference account's sewer video (309K) covers the street sewer and treatment works, with no
+  traps, vents or rats.
 - Set: a two-storey house sliced open like a cake: a bathroom upstairs, a kitchen below, the drain stack inside the wall and the
   sewer under the street. Cyan water sits in every bend. Sewer gas is a faint yellow-green haze, the one thing in the video that is
   drawn to be seen.
@@ -382,12 +401,12 @@ Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), 
 |---|---|---|---|
 | Style key and stage stills (no character sheet since 15 Nov 2026) | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"` | **1.25 / image** |
 | Cheap draft image (optional exploration only) | `gpt_image_2_6` | 9:16 | 0.25 / image |
-| Animated shots (default since video 04) | `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `resolution:"720p"` (it also offers `"1080p"`, which is its default: price both at Gate B, 3.3 Step 3), `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image` to travel from one picture to the next; ordered middle frames go in `image_references` (untested: 3.3 Step 7) | **2.25 / second at 720p** (3 s = 6.75, 4 s = 9, 5 s = 11.25); 1080p not yet priced |
+| Animated shots (default since video 04) | `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `resolution:"720p"` (it also offers `"1080p"`, which is its default: price both at Gate B, 3.3 Step 3), `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image` to travel from one picture to the next; ordered middle frames go in `image_references` (works: video 08, 3.4k) | **2.25 / second at 720p** (3 s = 6.75, 4 s = 9, 5 s = 11.25); **3.25 / second at 1080p** (checked 15 Nov 2026; not used yet) |
 | Animated shots (optional) | `minimax_h3` | `resolution:"2K"`, `aspect_ratio:"9:16"`, `duration` 4–15 s | **2 / second** (4 s = 8, 5 s = 10); every queued job failed in videos 01–04 (3.4f) |
 | Narration (preferred) | ElevenLabs connector `creative_generate_speech` | voice from `creative_list_voices` | ElevenLabs credits (0 Higgsfield) |
 | Narration (fallback) | Higgsfield `generate_audio`, `text2speech_v2`, `variant:"elevenlabs"` | locked `voice_id` + `voice_type` | ~0.45 / line |
 | Word timing, labels, captions, assembly | Higgsfield `sandbox_exec` (ffmpeg, faster-whisper, Pillow preinstalled; `$HF_WORKFLOWS/video-montage/scripts/audio_to_captions.py`) | — | no generation credits (confirm in `transactions` after the first run) |
-| Sound bed and effects (approved 15 Nov 2026: 3.4, 3.3 Step 6b) | ElevenLabs connector `creative_generate_in_flow`, `node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"` | `estimate_only:true` prices it; `generations_count:1` (the default is 4 and the cost scales). The node also has `duration_seconds` 0.5–30 and `loop` (a bed that repeats without a seam), set on the node, not in this call | ElevenLabs credits; not yet priced or used |
+| Sound bed and effects (approved 15 Nov 2026: 3.4, 3.3 Step 6b) | ElevenLabs connector: `creative_create_flow`, one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`, `model_parameters` `duration_seconds`, `loop`, `prompt_influence`), then one `creative_run_flow_nodes` for all of them | `estimate_only:true` first, then `generations_count:1` (the default is several and the cost scales). Recipe in 3.3 Step 6b | ElevenLabs credits: **about 3.33 per second of sound** (video 08: a 20 s bed 66.67, six effects of 1.5–4 s 5–13.33 each, 118.33 in all) |
 | Checking a finished video | `pipeline/analysis/check_video.py` (share of seconds that move, caption size, sharpness), `under_the_voice.py`, `contact_sheet.py` | local, needs ffmpeg, numpy and opencv | free |
 | Optional | `virality_predictor`, `tiktok_prepare_publish` (UPLOAD_TO_DRAFT) | — | ask before using |
 
@@ -396,20 +415,23 @@ Since video 04 the default is `kling4_0`: it also takes `start_image` + `end_ima
 minimax job has failed (3.4f). Prices re-checked 10 and 11 Nov 2026 with `get_cost`: unchanged.
 
 Balance when this runbook was written: **604 credits (Plus plan)**. On 11 Nov 2026 the account moved to the **Ultra plan**: 3,000 subscription
-credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left. Always call `balance` at the start of a run.
+credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left before video 08, 2,304.50 after it. Always call `balance` at the
+start of a run.
 
 ### 3.1 Budget tiers (pick one at Gate B; default = Middle since video 05)
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s) |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s); **203.50** for the first Cutaway video (video 08: 26 stills + 11 clips, 76 s of clips in a 79.5 s video) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
 **Cutaway look (since 15 Nov 2026): Middle is the floor.** Rule 1 of the look (3.4) asks for animated clips over at least about 80%
 of the running time: about 60 s of a 75 s video, which is what videos 06 and 07 had (60 s and 61 s of clips). Expect about 160
-credits at 720p: the same clip seconds as those two (135–137 credits) plus 15–20 stills. Lite left two thirds of videos 03 and 04
-as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be stills. In this
+credits at 720p: the same clip seconds as those two (135–137 credits) plus 15–20 stills. **Measured on video 08:** 203.50, because
+a 79.5 s script with clips over 93% of it needed 76 s of clips (171.00), and the stills took 26 tries (32.50). Quote ~190–210 at
+720p for a ~78 s Cutaway video, and add ~1.25 for each close-up still on the camera path (Step 2). Lite left two thirds of videos
+03 and 04 as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be stills. In this
 look a line without its own clip holds the last frame of the clip before it, for 3 s at most; it never becomes a still of its own.
 
 ### 3.2 Credit rules (hard)
@@ -447,6 +469,11 @@ look a line without its own clip holds the last frame of the clip before it, for
   itself has to move to a new setting, give that setting its own main view and continue the ladder there.
 - **Plan the travel** (3.4 rule 3): the camera gets from one stage or close-up to the next inside a clip (start picture → end
   picture), never by a fade. Mark the few places where the setting truly changes; those are the only cuts.
+- **Plan the camera path, and make what moves big** (3.4k, from video 08): give most clips a stop that is a real close-up still
+  of the set (Step 5), so the camera travels in depth from one picture to another. A crop of the same still only makes Kling zoom
+  across a flat picture, and `check_video.py` takes zooms out. In each problem beat, frame the moving thing so it fills a good
+  part of the picture (the haze filling a room, the water rushing through a pipe that is big on screen); in the whole-house view
+  it is too small to count.
 
 **Step 3: Cost quote. GATE B.**
 - `balance`, then `get_cost:true` per model/duration combo, then the total plus reserve.
@@ -473,9 +500,10 @@ look a line without its own clip holds the last frame of the clip before it, for
 - Extra stills are only versions of the current stage in the same view: a night or storm grade (a re-grade of the same picture:
   say "the same water colour as the reference; nothing glows"), the wall sliced open, the threat
   arriving. Make each by editing the current stage still ("Keep exactly the same camera position, zoom and framing as the reference
-  image"; "Change only this: …"; 3.4f, 3.4g). A close-up of the build gets its own still only when a push-in on the stage still would
-  be too soft to read (a gauge, a latch); make it by editing the stage still as well. Never make a still of something away from the
-  build. Before Gate C, check that every still is the main view, a close-up of the build or the sliced-open wall, and that the build
+  image"; "Change only this: …"; 3.4f, 3.4g). A close-up of the build gets its own still when a push-in on the stage still would
+  be too soft to read (a gauge, a latch), and in the Cutaway look also for every stop on the camera path (Step 2; video 08's flap
+  close-up was the only stop that made the camera move in depth); make it by editing the stage still as well. Never make a still
+  of something away from the build. Before Gate C, check that every still is the main view, a close-up of the build or the sliced-open wall, and that the build
   matches from stage to stage. The Cutaway look adds two checks. The first and last stills match part for part: the same pipe, the
   same slice, the same water colour (in video 03 the last frame lost its see-through barrel). And in every still the subject sits in
   the upper 60% of the frame with plain ground below it, so nothing the viewer must read lies under the captions (3.4 rule 5).
@@ -490,20 +518,38 @@ look a line without its own clip holds the last frame of the clip before it, for
 **Step 6b: Sound bed and effects (approved 15 Nov 2026; never before Gate B).**
 - What it is (3.4): one quiet, steady bed that fits the place, with no tune, and four to eight short effects on the moments where
   something visibly happens. No music.
-- Make them with the ElevenLabs Sound Effects node: `creative_generate_in_flow`, `node_type:"sfx"`,
-  `model_id:"eleven_text_to_sound_v2"`, `generations_count:1`. One sound per call. Its guide says: short, concrete prompts that name
-  the sound, its texture and the space ("Water rushing up an iron pipe, close, hollow"); no visual words; keep clips short, because
-  long ones loop or drift. Poll `creative_get_flow_run_status` for the result, and never call again to retry: that starts and bills
-  a second generation.
-- The bed: one clip of the place's air (a quiet street in winter, a shoreline, a plant hall humming), with "no music, no voices" in
-  the prompt, looped under the whole video in ffmpeg. The node's `loop` and `duration_seconds` settings are set on the node
-  (`creative_get_model_schema` shows how); not tried yet.
-- The effects: take them from the beat sheet's sound column and place each at its beat's start time from the Step 6 timings.
-- Not used on any video yet: the first one sets the working recipe. Write it into the lessons.
+- **Working recipe (video 08, 15 Nov 2026), all on one ElevenLabs flow:**
+  1. `creative_create_flow` with a name ("HBX 08 sewer trap: sound bed and effects").
+  2. One `creative_add_flow_node` per sound: `node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`, a `label`, the `prompt`, and
+     `model_parameters` `{"duration_seconds": N, "loop": false, "prompt_influence": 0.5}` (`loop: true` for the bed).
+  3. `creative_run_flow_nodes` with every node id, `generations_count:1` and `estimate_only:true`; show the price; then the same call
+     without `estimate_only`.
+  4. Poll `creative_get_flow_run_status` until all are done, then download each result. Never call run again to retry: that
+     starts and bills a second generation.
+- **Prompts:** short and concrete, naming the sound, its texture and the space; no visual words (the model guide). Video 08's, all
+  usable first time: bed "Quiet house interior room tone, soft steady air with a faint distant refrigerator hum, calm and even, no
+  music, no voices" (20 s, loop); "Kitchen tap running into a steel sink, water gurgling down a drain pipe, close, clean" (3 s);
+  "Toilet flush, close, water rushing down a pipe inside a wall" (3 s); "Sink drain gurgling as the water is sucked out of the
+  pipe, hollow glug, close" (2 s); "Small bathroom exhaust fan switching on and whirring steadily, close" (4 s); "Small splash of
+  water inside a pipe and a rat squeaking twice, hollow pipe echo, close" (2 s); "Small metal flap swinging shut inside a plastic
+  pipe, short hollow clank" (1.5 s).
+- **Cost:** about 3.33 ElevenLabs credits per second of sound, so set `duration_seconds` to what the moment needs: the seven above
+  cost 118.33, against 350 estimated at the default length.
+- **The bed:** one clip of the place's air, looped under the whole video in ffmpeg (`-stream_loop -1`), with a short fade in and
+  out. The 20 s room tone came back very quiet (mean −64 dB), so set every level from measured loudness, never a fixed gain:
+  `rms_db()` in `08-build.py` takes the RMS of the loud frames of the voice, the bed and each effect on the mono fold-down
+  ((L+R)/2, what one phone speaker plays), and the gain puts the bed 19 dB and each effect 11 dB under the voice.
+- **Mix in stereo:** the sounds come as stereo files and the voice is mono. Copy the voice to both channels
+  (`pan=stereo|c0=c0|c1=c0`) and give every sound `aformat=channel_layouts=stereo` before `amix`, or the mix folds to mono.
+- **The effects:** take them from the beat sheet's sound column and place each on the word that triggers it (`at(beat, word,
+  offset)` in `08-build.py`, from the Step 6 word timings): the flush 0.25 s before "flushes", the clank just after "drops".
+- Check: `under_the_voice.py` on the final; video 08 measured its quietest moments 21 dB under the voice with a steady stereo bed
+  (the target 18–22; the reference 19–20).
 
 **Step 7: Pilot clips. GATE D.**
 - Render 2 clips with the default video model (3.0; `kling4_0` since video 04): the hook beat and the first build beat.
-- In the Cutaway look the second pilot is a travel clip: it starts on one stage or framing and ends on the next (3.4 rule 3). On the first Cutaway video, also test one clip with a middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`), so that one clip passes through three stages. Keep the method only if the set holds its shape; it is in Kling 4.0's model card but we have not used it.
+- In the Cutaway look the second pilot is a travel clip: it starts on one stage or framing and ends on the next (3.4 rule 3). A middle keyframe (a third picture in `image_references`, between `start_image` and `end_image`) lets one clip pass through three stages: it held the set's shape in video 08 (the 12 s hook went S0 → S0H → S1, and the last clip passed the rat at the flap before pulling back to the house), so use it where one line has three states.
+- **Pilot what the checker will measure** (3.4k): show the pilot clips with their `check_video.py` motion values beside them. Video 08's hook looked right and measured as still, because everything that moved in it was small in a wide, flat frame.
 - Build beat: `start_image` = stage k still, `end_image` = stage k+1 still. Prompt: `[STYLE FORMULA] [camera move, e.g. slow push-in]. [what physically happens, e.g. four bamboo legs slide out and lift the platform]. Motion starts on frame 1. No people, no characters. No text, no captions.` (Classic look: `The character only gestures and does not talk.` in place of `No people, no characters.`)
 - Problem beat: `start_image` = current stage still (night or storm version if needed). Prompt describes the threat moving (rain falling, water rising, snake crawling).
 - Close-ups happen inside the clip ("slow push-in toward the door"), and the next shot is back in the main view. The camera never
@@ -525,7 +571,7 @@ look a line without its own clip holds the last frame of the clip before it, for
 **Step 10: Pointers and captions (sandbox, free).**
 - **Cutaway look (since 15 Nov 2026): no term labels.** The term is spoken. Nothing is written on the picture except the captions.
 - **Pointers** (3.4 rule 6): solid white arrows with a soft dark shadow, about three times the size of the old chevrons (about 200 px long at 1080×1920; the chevron in `04-build.py` is 68 px), three or four at a time, sliding along the flow. One ring where a small part must be found: a stroke of about 16 px (it was 7), fading in. One device per beat, only where it explains the mechanism, and never under a caption. A clip that carries a pointer keeps the camera still (`FIXED` in `06-clips.py`).
-- **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 130 in the Caption style of `04-build.py` (100 gave the 44 px letters of videos 03–04; set `PF` to 130 as well). Centred at about 75% of the frame height (`CAPY` ≈ 1440). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
+- **Captions** (3.4 rule 5): one word per cue, timed from the Whisper word timestamps, text from the authored script. ALL CAPS, Montserrat ExtraBold, white fill, 7 px black stroke, soft shadow. Letters about 57 px tall: ASS `Fontsize` 114 with our "HBX Caption" font (Montserrat 800 from fontsource; `CAP_FS` in `08-build.py`). The 130 first written here, scaled from the 44 px letters of videos 03–04 at 100, measured 65 px in video 08, so measure the letters with `check_video.py` whenever the font file changes. Centred at about 75% of the frame height (`CAPY` ≈ 1440). Long words are fitted to 900 px (`MAXW`). Take the cue timing from `07-build.py`: a short word pushes the next one back, so two words are never on screen together (the 03–04 scripts drew one word half-clipped for two frames).
 - Render with an ASS subtitle file through ffmpeg/libass (the bundled `subtitle_paper_burn.py` only places captions at the bottom). Use the bundled scripts for transcription only.
 - Verify: duration matches the master within 0.2 s, every script word appears exactly once, and 3 spot frames (start, middle, end) show the right word over a quiet part of the picture. Inspect them with `image_paths`. `check_video.py` also prints the caption letter height and position.
 - **Fallback:** if the caption burn fails, deliver the clean master plus an `.srt` of one-word cues, and the user captions it in CapCut (one-word preset).
@@ -743,6 +789,39 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   engine rust (its former owner, via The Truth About Cars); the two cars weighed about the same. Saturation check of the title: at
   least 7 near-identical Shorts, best 926K ("What Happens When a 1959 Chevy Hits a Modern Car?", 4 weeks old), the rest 29K–64K, all
   re-posting the crash footage.
+
+- **08 Why Your House Doesn't Smell Like the Sewer** (Middle; idea C1; the first Cutaway video and the first with sound; one set
+  from one main view; loop ending) — DELIVERED v1, 15 Nov 2026. 79.53 s, 1080×1920, 30 fps, −13.8 LUFS, 24 beats in 14 segments
+  (11 clips, 3 holds), 274 words. Higgsfield spend **203.50 cr** (quote 219.65 with the 15% reserve, 191.00 without it): 26
+  seedream stills 32.50 (14 on screen, 12 drafts and redos) + 11 kling4_0 clips at 720p 171.00 (76 s, no redos). ElevenLabs: 2
+  takes × 1,399 credits (take B used at 1.00×) + 118.33 for the bed and six effects.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/a970c674-b421-4a1e-ad15-152bab7b2815.mp4 (media_id a970c674-b421-4a1e-ad15-152bab7b2815);
+  the same video with the voice only: b3435583-038b-454d-99de-f5867c24ac81; clean master with the full sound and no captions or
+  pointers: 681cff41-db44-418c-83a3-b19f6eee19ad. Higgsfield project "HBX – Why Your House Doesn't Smell Like the Sewer" (folder
+  69c0772c-01fe-4bd4-a2cc-54828fa84bca). ElevenLabs flows: narration VzHYC42k13jcCO777zar, sound jkPXm5LUPekg4BFsFLmm. The Gate D
+  preview (P1, H1, C11, H3) was sent as a file, not uploaded.
+  Measured: clips over 93% of the running time, holds 5.8 s; `check_video.py` 20% of the seconds moving (16% without the pointer
+  arrows), longest still stretch 29 s (0:28–0:57), against the 80% target (3.4k); captions 57 px at 75%; the quietest moments 21 dB
+  under the voice with a steady stereo bed (the voice-only version: 48 dB).
+  Post copy (`pipeline/08-post-copy.md`): YouTube title "Why Your House Doesn't Smell Like the Sewer", description "There's an open
+  pipe between your kitchen and the sewer, and the water sitting in one bend is all that keeps the stink out. Here's how the
+  U-bend, the pipe on your roof and a little flap under the lawn keep sewer gas (and rats) out of your house, and why dried-out
+  floor drains helped spread SARS through a Hong Kong apartment complex in 2003. Which drain in your house smells? #Plumbing
+  #HowItWorks #3DAnimation";
+  TikTok "Why doesn't your house smell like the sewer it's connected to? 🚽" + #HowItWorks #Engineering #LearnOnTikTok
+  #3DAnimation #Plumbing #HomeTips; pinned comment "Which drain in your house smells?".
+  Covers (`pipeline/08-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg):
+  **B "SWAM UP / THE TOILET" (recommended)** on the rat in the toilet at night: 1080×1920 47c73657-39fa-486d-ab66-c2cc5a4dd9af,
+  TikTok 3:4 e3d74c2e-3aaf-434a-b699-6d81fed31a36. A "ONE CUP / OF WATER" with an arrow to the kitchen U-bend:
+  3554fa95-5666-47e1-82ae-dae0cca7cadb, 3:4 b785c72f-7bef-4c75-b8ef-b599eec76575 ("one cup" is my estimate from the pipe size,
+  roughly 1–1.5 cups for a 1½-inch kitchen trap; no published figure was found). C plain frame of the fan pulling the haze out of
+  the floor drain, no text: 3486a068-4f88-4f12-b58c-f4758330ab99.
+  Known edit candidates: the hook (12 s) and the Hong Kong stretch (12 s) keep a still camera and read as still (3.4k; the user
+  kept the hook at Gate D); in the hook the draining water falls beside the main pipe instead of out of the kitchen sink, and the
+  sloping pipe under the lawn wiggles for about a second at 0:08; the vent sticks out of the roof about a metre (a short stub was
+  invisible at phone size); the narration says the rat climbs the main pipe, but it is only seen swimming in the sewer window and
+  then in the toilet; in the zoomed bathroom framing (0:38–0:51) the captions sit on the lawn edge, not on plain soil; C6 plays at
+  1.46× and C10 at 1.69× to fit their lines.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -970,7 +1049,7 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   `07-build.py` (multi-beat segments, focus moves, counters, the Verdict style), `07-labels.json`, `07-thumbnail.py`, `07-ladder.jpg`.
   Copy these for the next matchup.
 
-### 3.4j Starting point for the first Cutaway video (15 Nov 2026; nothing has been made under the new rules yet)
+### 3.4j Starting point for the first Cutaway video (15 Nov 2026; video 08 was made from it the same day, and its lessons are in 3.4k)
 - **What changed and why:** the look and its six rules are in 3.4, the measurements behind them in 7.5. Read both before the beat sheet.
 - **Scripts to start from** (repo `pipeline/`): the build from `07-build.py` (segments of several beats, holds on a clip's last
   frame, focus push-ins, cue timing without overlaps); the caption and shape drawing from `04-build.py` (ALL CAPS Montserrat
@@ -984,7 +1063,8 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   200 px long, white fill, a soft shadow (`\shad`), three or four sliding along the flow 0.3 s apart. The ring with `\bord16`.
 - **What the pilot must answer** (Gate D): does a start-and-end-frame clip carry the camera from one stage to the next without the
   set changing shape? Does a middle keyframe let one clip pass through three stages? Is 1080p worth its price next to 720p with a
-  sharpen?
+  sharpen? **Answered by video 08 (3.4k):** yes to both (all 11 clips held the set's shape, including a glide from the house down
+  into the ground); 1080p was not tested (the user chose 720p at Gate B).
 - **Check before delivery:** `python3 pipeline/analysis/check_video.py final.mp4` (`pip install numpy opencv-python-headless` first).
   Targets: 80% or more of the seconds moving, no stretch without movement longer than about 6 s, caption letters about 57 px at
   about 75% down, and moving and still seconds about equally sharp. `contact_sheet.py` makes one-frame-a-second sheets for reading
@@ -995,6 +1075,54 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   others, and the mapping changed between two calls. Read the format list with `yt-dlp -J`, pick a format whose URL is on the v16
   host, and if the download is refused try the other suffix. The profile page (`https://www.tiktok.com/@handle`, fetched with a
   browser user agent) carries `followerCount`, `heartCount` and `videoCount` in its embedded JSON.
+
+### 3.4k Lessons from video 08, the first Cutaway video (15 Nov 2026; apply next time)
+- **The motion check failed although every line has a clip.** Clips cover 74 s of 79.5 s (93%) and no line lost its clip, yet
+  `check_video.py` counts only 20% of the seconds as moving (16% without the pointer arrows), against the 80% target. The checker
+  takes the camera move out, then counts a second only when the average change over the whole frame passes 0.8 grey levels.
+  - **What moves is too small in the frame.** The main view is the whole house, and the motion is water inside a pipe a few pixels
+    wide, faint see-through haze and a rat the size of a fingernail. The still-camera clips (the 12 s hook, the flush, the 12 s
+    Hong Kong stretch) scored 0.07–0.34 a second, below our holds (a still under a slow zoom: 0.42–0.54).
+  - **Camera moves made from crops of one still don't count.** After Gate D the main-view clips got moves between the approved
+    still and a crop of it (free). Kling then zooms or pans across a flat picture, which the checker removes exactly: those clips
+    scored 0.4–0.8. I told the user at Gate D that camera moves would lift the score; moves made from crops cannot.
+  - **What counted:** a move to a different still with its own perspective (the glide from the night house into the ground to the
+    flap close-up, 3.4–8.1 a second, and the pull back from it, 7.9), the light changing (dusk 1.3–3.2, dawn 1.1–1.4) and the
+    pointer arrows (0.6–0.9).
+  - **Next time:** plan a camera path with a real close-up still for each stop (3.3 Steps 2 and 5), frame each problem so what
+    moves fills a good part of the picture, and show the pilots' `check_video.py` numbers at Gate D (3.3 Step 7). Whether the
+    measure tracks how people watch is open: compare video 08's views with videos 03 and 04 (7.5).
+- **Stills (26 tries for 14 on screen, 32.50 credits against 20 quoted; budget ~1.8 tries a still in this look):**
+  - The first S0 put the sewer pipe 75% down the frame, under the captions. Shrinking the picture to 76%, lifting it, extending the
+    edges and one seedream clean-up edit fixed it (the house in the top ~63%). Next time give the layout in the S0 prompt ("the roof
+    peak about 10% from the top, the sewer pipe about 60% down, plain soil below").
+  - Seedream would not put a small thing inside a pipe in the wide view: three flap tries and two rat tries put them outside or on
+    top of the pipes. What worked: a see-through window in the pipe (the rat swims in it) and a separate close-up still (the flap).
+  - Grain grows with every edit of an edit (high-pass noise on a plain wall 8.3 → 16.3 over four edits). Denoise a still before it
+    goes to Kling (`cv2.fastNlMeansDenoisingColored(img, None, 5, 5, 7, 21)`), or branch edits from an earlier, cleaner still.
+  - The STYLE line says "Bright soft daylight", so a night edit needs "IT IS NIGHT, with no daylight at all (the daylight described
+    above does not apply to this picture)" (`NIGHT` in `08-prompts.py`).
+- **Clips:** all 11 held the set's shape at the first try, so nothing was redone. Kling took the batch of 9 at once on Ultra and
+  finished it in about 4 minutes. A middle keyframe works (3.3 Step 7).
+- **Assembly (`08-build.py`):**
+  - The clip after a hold starts at the hold's zoom and eases back over 0.8 s (`EASE_AFTER`); the first cut snapped back to the
+    wider framing at each of the three holds.
+  - A 3 s clip over a ~2 s line plays whole and faster, up to 1.7× (`FULLFIT`); trimming its start made a jump from the clip before.
+  - Measure arrow paths on a frame of the clip they sit on, with a 100 px grid, not on the still: Kling's framing drifts a little
+    from the keyframe.
+  - Captions: `Fontsize` 114 gives the 57 px letters (3.3 Step 10).
+- **Sound (the first video with it; recipe and prices in 3.3 Step 6b):** the bed and effects come as stereo files and the voice is
+  mono. Copy the voice to both channels (`pan=stereo|c0=c0|c1=c0`), or `amix` follows the voice and folds the whole mix to mono
+  (the first cut's side channel was −68 dB). Set the levels on the mono fold-down (`rms_db()`), which is what one phone speaker
+  plays and what `under_the_voice.py` measures: set that way, the stereo mix's quietest moments measured 21 dB under the voice
+  (inside the 18–22 target); set from ffmpeg's own mono downmix of each file, the same mix measured 24 dB.
+- **Narration:** take B, 3.17 words/s raw, 3.48 after pause tightening, so no `atempo`. 2 takes × 1,399 ElevenLabs credits.
+- **Scripts for video 08** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `08-script.txt`,
+  `08-beat-sheet.md` (with "As made"), `08-prompts.py` (STYLE, SET, CAMERA, HOUSE, LOCK, HAZE, NIGHT, RAT, REFS), `08-mk.py`,
+  `08-clips.py` (FIXED, the crop-keyframe moves), `08-jobs.tsv` (all job and media ids), `08-timing.py` (pause tightening, beats and
+  the clip plan), `08-plan.json`, `08-timeline.json`, `08-words-takeB.json`, `08-build.py` (segments, holds, `EASE_AFTER`,
+  `FULLFIT`, the stereo mix, captions and arrows), `08-thumbnail.py`, `08-post-copy.md`, `08-ladder.jpg`. Copy these for the next
+  Cutaway video.
 
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
@@ -1008,6 +1136,8 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **The last frame doesn't match the first:** make the END still by editing the last stage still, and compare it with Stage 0 at Gate C.
 - **A night or storm shot changes the render** (glowing water, redrawn pipes; video 03's fire shot): make it by editing the day still and say "the same water colour as the reference; nothing glows; only the light changes".
 - **The sound competes with the voice:** lower the bed until `under_the_voice.py` reports the quietest moments 18–22 dB below the voice, and drop any effect that lands on a stressed word. If in doubt, deliver the voice-only master and say so.
+- **Every line has a clip, and `check_video.py` still says the video is mostly still** (video 08: 93% clips, 15% moving): the motion is small in the frame (water inside a pipe, faint haze, a small animal in a wide view) and the camera moves are zooms across a flat face, which the checker takes out. Frame closer on what moves, make it bigger, and move the camera through the set rather than toward it (3.4k).
+- **A jump where a clip meets a hold or a trimmed clip:** the clip after a hold should start at the hold's zoom and ease back (`EASE_AFTER` in `08-build.py`), and a 3 s clip over a 2 s line should play whole and faster (`FULLFIT`), never lose its first frames.
 
 ---
 
@@ -1468,7 +1598,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   sliced open with something moving through it.
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
-  nothing).
+  nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day).
 - **Shots:** one build, one main view (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). It carried over to
   the Cutaway look as its Rule 2.
 - **Sound:** approved on 15 Nov 2026 ("yes on the sound"): a quiet bed and a few effects under the voice, no music (3.4, 7.5).
@@ -1639,8 +1769,11 @@ access), so price the sound with `estimate_only` at Gate B.
 
 **Open after this session:**
 - The idea list: closed later the same day (7.6, section 2).
-- The first video under the new rules. It will show whether start-and-end-frame clips can carry the camera from stage to stage
-  (3.4j), and it sets the working recipe for the sound (3.3 Step 6b).
+- The first video under the new rules: made the same day as video 08 (3.4b). Start-and-end-frame clips do carry the camera from
+  stage to stage, and the sound recipe is in 3.3 Step 6b. But by `check_video.py` only 20% of its seconds move (16% without the
+  arrows), against the 80% target, although clips cover 93% of it: what moves is small in the frame, and zooms made from crops of
+  one still are taken out by the checker (3.4k). Whether that measure tracks how viewers watch is still open: compare video 08's
+  views from outside with videos 03 and 04.
 
 **Closed by the user:** I asked for TikTok's retention graphs for videos 03 and 04 and YouTube's for video 03, to see whether
 viewers leave during the still stretches. The user: "forget about the retention graphs". Don't ask again. (My reading: this covers

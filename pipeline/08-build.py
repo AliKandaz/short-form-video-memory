@@ -5,14 +5,15 @@
 # Usage: python3 08-build.py              -> out/final.mp4 (+ out/final_voiceonly.mp4, out/final_clean.mp4)
 #        python3 08-build.py P1,H1 C11,H3 -> out/preview.mp4: each argument is a run of consecutive segments, rendered with its own
 #                                          slice of the sound and captions, joined by 0.4 s of black.
-# Rules carried in code: a clip plays at 0.8x-1.15x to fit its segment, then is trimmed (or holds its last frame with a slow
-# push-in); a hold is the last frame of the clip before, 3 s at most, with a slow push-in toward a point; no cross-fades between
-# different pictures; clips are sharpened after the 720p upscale (unsharp 5:5:0.6, 7.5); captions ALL CAPS ~57 px at y 1440.
+# Rules carried in code: a clip plays at 0.8x-1.15x to fit its segment (a 3 s clip over a ~2 s line plays whole, up to 2x), then is
+# trimmed at the end (or holds its last frame with a slow push-in); a hold is the last frame of the clip before, 3 s at most, with a
+# slow push-in toward a point, and the clip after it eases back out from that zoom; no cross-fades between different pictures;
+# clips are sharpened after the 720p upscale (unsharp 5:5:0.6, 7.5); captions ALL CAPS ~57 px at y 1440.
 import json, math, os, re, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw
 W, H, FPS = 1080, 1920, 30
-CAP_Y, CAP_FS, MAXW = 1440, 130, 900
+CAP_Y, CAP_FS, MAXW = 1440, 114, 900   # 130 measured 65 px letters with this font; 114 -> ~57 px (Rule 5)
 SHARP = "unsharp=5:5:0.6:5:5:0.0"
 ENC = ['-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-an']
 PLAN = json.load(open('plan.json')); SEG = {s['seg']: s for s in PLAN['segments']}; ORDER = [s['seg'] for s in PLAN['segments']]
@@ -23,16 +24,31 @@ def dur(p): return float(subprocess.run(['ffprobe','-v','error','-show_entries',
 
 # Holds: (focus x, focus y in 1080x1920 frame, zoom gain over the hold, ring (x, y, r) or None)
 HOLDS = {"H1": (480, 672, 0.18, (480, 672, 78)),      # B5 "The water in your toilet bowl is one too": the toilet's water seal
-         "H2": (338, 245, 0.22, None),                # B9 "That's the pipe sticking out of your roof": the vent
+         "H2": (506, 359, 0.20, None),                # B9 "That's the pipe sticking out of your roof": the vent, in C4's roof framing
          "H3": (550, 810, 0.10, (550, 810, 105))}      # B22 "This is a rat blocker": the flap in the close-up
 # Clips whose end frame matters (a keyframe the next segment continues from): fit by speed, never trim the end
-KEEP_END = {"P1", "C3", "C4", "C5", "C8", "C11", "C12"}
+KEEP_END = {"P1", "C3", "C4", "C5", "C7", "C8", "C9", "C11", "C12"}
+# A 3 s clip over a ~2 s line: play the whole clip faster (C6 1.46x, C10 1.69x). Trimming its start instead (the first cut of this
+# video) made a visible jump from the end of the clip before, because the first frames are where the camera move begins.
+FULLFIT = {"C6", "C10"}
+# The clip after a hold starts at the hold's last zoom and focus and eases back to its own framing over EASE_S, so the camera
+# pulls back instead of snapping back (the first cut had a jump at each of the three).
+EASE_AFTER = {"C3": "H1", "C5": "H2", "C12": "H3"}
+EASE_S = 0.8
+
+def zoom_xy(fx, fy):
+    return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
 
 def seg_clip(name):
     s = SEG[name]; L = s['len']; p = f'clips/{name}.mp4'; c = dur(p); r = c / L
-    lo, hi = (0.8, 1.15) if name in KEEP_END else (0.8, 1.25)
+    lo, hi = (0.8, 2.0) if name in FULLFIT else (0.8, 1.15) if name in KEEP_END else (0.8, 1.25)
     speed = min(max(r, lo), hi); played = c / speed
     vf = f"setpts=PTS/{speed:.4f},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{SHARP},fps={FPS}"
+    if name in EASE_AFTER:   # smoothstep from the hold's final zoom back to 1.0
+        h = EASE_AFTER[name]; fx, fy, zz, _ = HOLDS[h]; nh = max(1, round(SEG[h]['len'] * FPS)); z0 = 1 + zz * (nh - 1) / nh
+        N = round(EASE_S * FPS); x, y = zoom_xy(fx, fy)
+        vf += (f",zoompan=z='if(lt(on,{N}),1+{z0-1:.5f}*(1-(3*pow(on/{N},2)-2*pow(on/{N},3))),1)'"
+               f":x='{x}':y='{y}':d=1:s={W}x{H}:fps={FPS}")
     pad = max(0.0, L - played)
     if pad > 0.02:   # hold the last frame with a slow push-in so it never looks frozen
         n = round(L * FPS)
@@ -56,7 +72,7 @@ def ring_png(src, x, y, r, out):
 
 def seg_hold(name, prev):
     s = SEG[name]; L = s['len']; fx, fy, zz, ring = HOLDS[name]; base = last_frame(prev); n = max(1, round(L * FPS))
-    z = f"1.0+{zz}*on/{n}"; x = f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))"; y = f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))"
+    z = f"1.0+{zz}*on/{n}"; x, y = zoom_xy(fx, fy)
     zp = f"scale={W*2}:{H*2},zoompan=z='{z}':x='{x}':y='{y}':d=1:s={W}x{H}:fps={FPS},trim=duration={L:.3f},setsar=1"
     if ring:   # the same picture with the ring fades in over 0.25 s (not a fade between two pictures), then the push-in
         rp = ring_png(base, *ring, f'tmp/ring_{name}.png')
@@ -69,8 +85,13 @@ def seg_hold(name, prev):
 
 # ---- sound: voice + bed + effects (3.4 "Sound under the voice"; 3.3 Step 9) ----
 def rms_db(path):
-    a = np.frombuffer(subprocess.run(['ffmpeg','-loglevel','error','-i',path,'-ac','1','-ar','22050','-f','f32le','-'],
+    # Level of the mono fold-down (L+R)/2: what one phone speaker plays and what under_the_voice.py measures. A stereo bed is up to
+    # 3 dB quieter here than in each channel, so levels set this way read as set in that check.
+    ch = int(subprocess.run(['ffprobe','-v','error','-select_streams','a:0','-show_entries','stream=channels','-of','csv=p=0',path],
+                            capture_output=True, text=True).stdout.strip())
+    a = np.frombuffer(subprocess.run(['ffmpeg','-loglevel','error','-i',path,'-ar','22050','-f','f32le','-'],
                                      capture_output=True).stdout, np.float32)
+    a = a[:len(a) // ch * ch].reshape(-1, ch).mean(1)
     fr = a[:len(a)//1102*1102].reshape(-1, 1102); e = np.sqrt((fr**2).mean(1) + 1e-12)
     act = e[e > e.max() * 0.1]   # loud frames only (ignores silence before and after a sound)
     return 20 * np.log10(np.sqrt((act**2).mean()))
@@ -87,26 +108,30 @@ BED_UNDER, FX_UNDER = 19.0, 11.0      # dB under the voice (approved starting po
 
 def mix(t0, t1, out, voice_only=False):
     voice = 'audio/narration_tight.wav'; v_db = rms_db(voice); T = t1 - t0
-    inputs = ['-i', voice]; fc = [f"[0:a]aresample=48000,apad=whole_dur={TOTAL:.3f},atrim={t0:.3f}:{t1:.3f},asetpts=PTS-STARTPTS[v]"]
+    # The voice is mono; copy it to both channels so the mix stays stereo and the bed and effects keep their width (the first cut
+    # mixed down to mono because amix followed the voice's layout).
+    inputs = ['-i', voice]; fc = [f"[0:a]aresample=48000,pan=stereo|c0=c0|c1=c0,apad=whole_dur={TOTAL:.3f},atrim={t0:.3f}:{t1:.3f},"
+                                  f"asetpts=PTS-STARTPTS[v]"]
     parts = ['[v]']
     if not voice_only:
         g = v_db - BED_UNDER - rms_db('audio/bed.mp3')
         inputs += ['-stream_loop', '-1', '-i', 'audio/bed.mp3']
-        fc.append(f"[1:a]aresample=48000,atrim={t0:.3f}:{t0+T:.3f},asetpts=PTS-STARTPTS,volume={g:.2f}dB,"
+        fc.append(f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim={t0:.3f}:{t0+T:.3f},asetpts=PTS-STARTPTS,volume={g:.2f}dB,"
                   f"afade=t=in:d=0.6,afade=t=out:st={max(0,T-0.8):.3f}:d=0.8[bed]"); parts.append('[bed]')
         k = 2
         for name, t in FX:
             if not (t0 - 0.5 <= t < t1): continue
             g = v_db - FX_UNDER - rms_db(f'audio/{name}.mp3'); d_ms = int(max(0, t - t0) * 1000)
             inputs += ['-i', f'audio/{name}.mp3']
-            fc.append(f"[{k}:a]aresample=48000,volume={g:.2f}dB,adelay={d_ms}|{d_ms}[f{k}]"); parts.append(f'[f{k}]'); k += 1
+            fc.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,volume={g:.2f}dB,adelay={d_ms}|{d_ms}[f{k}]")
+            parts.append(f'[f{k}]'); k += 1
     fc.append(''.join(parts) + f"amix=inputs={len(parts)}:normalize=0:duration=first,atrim=0:{T:.3f},"
               f"loudnorm=I=-14:TP=-1.5:LRA=11,volume=2.6dB,alimiter=limit=0.84:level=false,aresample=48000[a]")
     run(inputs + ['-filter_complex', ';'.join(fc), '-map', '[a]', '-ac', '2', '-c:a', 'pcm_s16le', out])
 
 # ---- captions and pointers (ASS) ----
 from PIL import ImageFont
-CAPFONT = ImageFont.truetype('fonts/HBXCaption.ttf', 107)   # ~ libass Fontsize 130 for Montserrat (em = 130 * 1000/1219)
+CAPFONT = ImageFont.truetype('fonts/HBXCaption.ttf', round(CAP_FS * 1000 / 1219))   # libass Fontsize -> em for Montserrat
 def ts(t):
     t = max(0, t); h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60
     return f"{h}:{m:02d}:{s:05.2f}"
@@ -121,7 +146,7 @@ def arrow_path(ang, L=200, Hh=92):
     d = 'm ' + ' l '.join(f'{x:.0f} {y:.0f}' for x, y in rp)
     return d, w, h
 # Arrows on clips that keep the camera still: (beat, from (x,y), to (x,y), angle). Three arrows slide along the flow, 0.35 s apart.
-ARROWS = [("B7", (340, 430), (340, 930), 90), ("B16", (398, 715), (528, 480), -61)]
+ARROWS = [("B7", (340, 430), (340, 930), 90), ("B16", (300, 950), (515, 660), -53)]   # B16 in C7's 1.35x bathroom framing: floor drain -> fan
 
 def events(t0, t1):
     ev = []
@@ -153,7 +178,7 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,HBX Caption,130,&H00FFFFFF,&H00FFFFFF,&H00000000,&H8C000000,0,0,0,0,100,100,0,0,1,7,5,5,60,60,0,1
+Style: Caption,HBX Caption,114,&H00FFFFFF,&H00FFFFFF,&H00000000,&H8C000000,0,0,0,0,100,100,0,0,1,7,5,5,60,60,0,1
 Style: Pointer,HBX Caption,20,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H90000000,0,0,0,0,100,100,0,0,1,0,6,7,0,0,0,1
 
 [Events]
@@ -179,8 +204,8 @@ def render(run_segs, tag):
         run(['-i',f'tmp/{tag}_clean.mp4','-i',audio,'-vf',f'ass=tmp/{tag}.ass:fontsdir=fonts','-c:v','libx264','-preset','medium',
              '-crf','18','-pix_fmt','yuv420p','-r',str(FPS),'-c:a','aac','-b:a','192k','-movflags','+faststart','-shortest',
              f'tmp/{tag}{suffix}.mp4'])
-    run(['-i',f'tmp/{tag}_clean.mp4','-i',f'tmp/{tag}_voice.wav','-c:v','copy','-c:a','aac','-b:a','192k','-shortest',
-         f'tmp/{tag}_cleanmaster.mp4'])
+    run(['-i',f'tmp/{tag}_clean.mp4','-i',f'tmp/{tag}_mix.wav','-c:v','copy','-c:a','aac','-b:a','192k','-shortest',
+         f'tmp/{tag}_cleanmaster.mp4'])   # the clean master (no text) carries the full sound, for re-captioning elsewhere
     return f'tmp/{tag}.mp4', f'tmp/{tag}_voiceonly.mp4', f'tmp/{tag}_cleanmaster.mp4'
 
 if __name__ == '__main__':

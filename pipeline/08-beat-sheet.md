@@ -111,3 +111,23 @@ and dawn inside C12.
 - Resolution test at Gate D: one extra 6 s clip, 19.50 (1080p) or 13.50 (720p).
 - ElevenLabs: narration, 2 takes of eleven_v4 with Daniel, 2,798 credits; sound, 7 generations at 50 each = 350 at the default length.
 - Balance before: 2,508 Higgsfield credits (Ultra).
+
+## As made (delivery, 15 Nov 2026)
+- **Clips:** 11, all usable at the first try (76 s at 720p, 171.00 credits). Lengths from the real timings (take B, `08-plan.json`):
+  P1 12, C3 7, C4 4, C5 9, C6 3, C7 12, C8 5, C9 8, C10 3, C11 6, C12 7 s. They play at 0.97–1.11× to fit their lines, except C6
+  (1.46×) and C10 (1.69×), which are 3 s clips over ~2 s lines.
+- **Camera moves after Gate D:** the user kept the hook as rendered ("keepit"). C4–C10 got moves between an approved still and a
+  crop of it (S2_roof, S2X_dn, S2R_bath, S2HK_bath, S3NS_sewer; ids in `08-jobs.tsv`); C3 and C7 kept a still camera for their
+  arrows. The crops make Kling zoom across a flat picture, which `check_video.py` does not count as movement (CLAUDE.md 3.4k).
+- **Holds:** H1 2.12 s (toilet, ring), H2 2.11 s (vent), H3 1.53 s (flap, ring): 5.76 s, 7% of the running time. The clip after
+  each eases back out of the hold's zoom over 0.8 s (`EASE_AFTER` in `08-build.py`).
+- **Pointers:** B7, three arrows down the main pipe (340,430 → 340,930); B16, from the floor drain to the fan (300,950 → 515,660),
+  both measured on frames of their clips with a 100 px grid. Rings on the toilet's water (H1) and the flap (H3).
+- **Sound:** bed and six effects as in the Sound section above (prompts and costs in CLAUDE.md 3.3 Step 6b), mixed in stereo with
+  the levels set on the mono fold-down: bed 19 dB and effects 11 dB under the voice. Measured: the quietest moments 21 dB under the
+  voice, a steady stereo bed; −13.8 LUFS.
+- **Measured on the final:** 79.53 s; 20% of the seconds moving (16% without the arrows), longest still stretch 29 s (0:28–0:57);
+  captions 57 px at 75%; all 274 words cued once, in order.
+- **Cut 1 → final (free):** the first cut snapped back to the wider framing after each hold and jumped at C6 and C10 (their first
+  frames had been trimmed), and its mix was folded to mono; all three were fixed in `08-build.py`.
+- **Spend:** Higgsfield 203.50 (stills 32.50, clips 171.00) against 219.65 quoted; ElevenLabs 2,798 (narration) + 118.33 (sound).
