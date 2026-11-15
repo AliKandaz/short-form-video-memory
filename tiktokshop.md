@@ -206,7 +206,10 @@ What the numbers say (my estimates):
    - Answer comments, and answer the best ones with a video reply. Each reply is another video in the feed.
 2. **Make more of what TikTok already rewarded.** For the sprint, lean on everyday mysteries with water in them.
    *Update, 14 Nov 2026:* the user asked for ideas that start arguments in the comments and approved four "Who wins?" matchups
-   (tanks, a submarine, pickup trucks, cars). They are `CLAUDE.md` section 2; the comment data behind them is in `CLAUDE.md` 7.4.
+   (tanks, a submarine, pickup trucks, cars). The comment data behind them is in `CLAUDE.md` 7.4.
+   *Update, 15 Nov 2026:* the user left the character look (the two videos without it hold 90% of our TikTok views) and
+   replaced the matchups with five Cutaway ideas: `CLAUDE.md` section 2, with the record in 7.6. The one recommended first,
+   the sewer trap in your house, is an everyday mystery with water in it.
 3. **Post more often.** Third-party guides say one to three posts a day in one niche gets a new account to 1,000 in
    30 to 60 days; many accounts take 3 to 6 months; one breakout video can do it overnight. Our pipeline makes about
    one video a day at most. At about 160–175 credits per Middle video, the 2,665 credits left on 12 Nov cover about
@@ -378,3 +381,4 @@ directly next time, allow `seller-us.tiktok.com` and `support.tiktok.com` in the
 - **13 Nov 2026:** file created. Researched US eligibility, the fastest routes in, the follower plan and how realistic
   $5,000 a month is. The user confirmed the account is US-based. Stopped after the research, as asked.
 - **14 Nov 2026:** added a pointer in 4.2 to the four "Who wins?" video ideas the user approved that day (`CLAUDE.md` section 2).
+- **15 Nov 2026:** updated that pointer. The matchups were replaced by five Cutaway ideas (`CLAUDE.md` section 2 and 7.6).

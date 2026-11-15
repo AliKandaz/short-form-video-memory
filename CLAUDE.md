@@ -20,8 +20,8 @@ need to step away from the character figure animation and make similar ones to l
 refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
 pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
 and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26**). Later the same day they said "yes on the
-sound": a quiet bed and a few effects under the voice, no music (3.4). One thing is open: the idea list (the user: "we will do the
-video ideas later"; section 2).
+sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well:
+five Cutaway ideas (section 2).
 
 **Earlier direction on the look (11 Nov 2026, replaced on 15 Nov 2026):** the look was Classic (the mascot look of videos 01–02 and
 05–07). Section 7 has the details and the account the user likes (@thewhatifstudio). Video 05 (Aquarius) was made on 11 Nov 2026 in
@@ -38,13 +38,17 @@ artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, af
 rules for joining (1,000 followers to apply), the plan to get @overthinkingyearly there, and how our videos are doing on TikTok. The
 account is US-based (the user confirmed on 13 Nov 2026).
 
-**Ideas (approved by the user, 14 Nov 2026): four "Who wins?" matchups.** The user found the earlier ideas and hooks boring and asked
-for topics that hold viewers, start arguments in the comments and turn viewers into followers (military, vehicles, engineering; not
-only builds). They approved P1–P4, now section 2, rejected P5, and had the ten older ideas removed "for now". The brief is in 7.3
-and the comment data in 7.4. **P4 became video 07 the same day**, the first matchup: 157.25 credits against a 177.68 quote, no clip
-redos, opened on a cold claim (3.4b, 3.4i). One question is still open: whether "Who wins?" becomes the running series (section 2).
-**On hold since 15 Nov 2026:** P1–P3 were written around the character, and the user will redo the video ideas later for the
-Cutaway look (section 2).
+**Ideas (approved by the user, 15 Nov 2026): five Cutaway ideas.** C1 why your house doesn't smell like the sewer, C2 the ice rink
+under a basketball court, C3 what lightning does inside your house, C4 what's inside a nuclear cooling tower, and C5 where your
+bowling ball goes. Each is one place sliced open with something moving through it, on a topic whose biggest Shorts are real
+footage, not animation. They are section 2; the brief and the research are in 7.6. The user swapped the fourth proposal (landing a
+jet on an aircraft carrier) for the cooling tower. The order is not set; C1 was recommended first.
+
+**Ideas before that (14 Nov 2026, removed 15 Nov 2026): four "Who wins?" matchups.** The user had found the earlier ideas and hooks
+boring and asked for topics that hold viewers and start arguments in the comments (military, vehicles, engineering). One matchup
+became video 07 the same day: 157.25 credits against a 177.68 quote, no clip redos, opened on a cold claim (3.4b, 3.4i). The other
+three were written around the character and went with the list; they are in the repo history at commit `c37181e`. The brief is in
+7.3 and the comment data in 7.4.
 
 ---
 
@@ -140,178 +144,222 @@ time, in 44 and 91 separate bursts, and the mix falls 28–33 dB below the voice
 - Pick topics with danger or fame built in. Avoid mundane utilities and "X-proof house" topics.
   Exception (section 4): an everyday thing works when its workings are hidden and it moves something the camera can follow
   (storm drain, 9.2M on @1hidden_by_design). Still avoid things whose workings are visible; the gas station flopped on both accounts.
+  Since 15 Nov 2026 that exception is our main line: our two best videos and the five ideas in section 2 are all of this kind.
 - Avoid topics the account has already done: nipa hut, Amazon floating house, igloo, levee, nuclear bunker,
   nuclear plant, Chernobyl, White House, Kremlin, particle accelerator, armored truck, gas station, car wash,
   oil well, septic, drive-thru, slot machine, car engine, fire/volcano/earthquake-proof house, Halloween station.
+  One exception, chosen by the user on 15 Nov 2026: the nuclear cooling tower (C4 in section 2). It is the tower only, never a
+  plant build.
 
 ---
 
-## 2. Video ideas (approved 14 Nov 2026): four "Who wins?" matchups
+## 2. Video ideas (approved 15 Nov 2026): five Cutaway ideas
 
-> **On hold since 15 Nov 2026.** The user moved to the Cutaway look with no character (3.4) and said: "we will do the video ideas
-> later". P1–P3 below were written for the character look (the mascot is "you" on one side) and for the matchup frame. Don't make
-> them as written, and don't start a new idea list until the user asks. When they do, write the ideas for the Cutaway look: our two
-> best videos are both everyday things with hidden workings that move something the camera can follow (4.2, 7.5). The matchup
-> research below stays for reference.
+**Approved by the user on 15 Nov 2026:** "update claude.md file, remove old video ideas and replace them with the new 5. replace c4
+with nuclear cooling tower". C1–C5 below are the whole list. They were proposed the same day for the Cutaway look (3.4). The fourth
+proposal, landing a jet on an aircraft carrier, was swapped by the user for the nuclear cooling tower, which had been named to them
+as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were removed: they are in the repo history at commit
+`c37181e`, and video 07's script facts moved to its entry in 3.4b. The brief and the research are in 7.6.
 
-**Approved by the user on 14 Nov 2026:** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
-these 4 for now". P1–P4 below are the whole list for now. P5 (a race car on the ceiling) was rejected. The ten ideas approved on
-11 Nov 2026 were removed the same day; videos 05 and 06 came from that list ("idea #1", Aquarius, and "idea #9", Petra, in the
-video log). The removed ideas and the full P5 are in the repo history at commit `92a077a`.
-
-- **The brief** (7.3): ideas that keep people watching, make them comment and argue, and turn them into followers. Not only builds.
-  The user suggested military, vehicles and engineering.
-- **Why these topics:** tanks, warships and cars have large audiences that argue in the comments, and Shorts on these subjects reach
-  millions (figures under each idea). Two cautions. These viewers punish wrong facts, so the fact-check matters more than before.
-  And TikTok restricts weapon content (see "Platform rules" below), so the ideas stay with machines, history and what-ifs: no small
-  arms, no how-to, no current wars, nobody shown getting hurt.
-- **What the data says** (7.4): explainers in this format get almost no comments (0.2–0.3 per 1,000 views). What-ifs get two to
-  four times more, and the most-commented videos put a choice to the viewer or touch something people already argue about. On the
-  one account that posts both, what-ifs also have a median of 457K views against 35K for builds. So a good topic is not enough:
-  each video needs a question the viewer can answer in two words.
-- **The frame: every video is a matchup.** Two sides are on screen from the first frame, a scoreboard label counts through the
-  video, and it ends on a verdict question. A vote is the easiest comment to write, and the scoreboard is a reason to stay.
-- **Look:** Classic (3.4). The mascot is "you", on one of the two sides. (Written on 14 Nov 2026. The look has been Cutaway with no
-  character since 15 Nov 2026, which is why this list is on hold.)
+- **The brief** (the user, 15 Nov 2026): "5 creative and engaging video ideas following the new animation style. the video ideas
+  need to be different something that will keep people watching."
+- **What the five have in common:** each is one place sliced open with something moving through it nearly the whole time (3.4 Rules
+  1 and 2). Each has a multi-million Short that proves people care about the topic, and in every case that Short is real footage or
+  a person talking, while animated cutaways of it are small or missing (7.6).
+- **What the user has seen:** for C1, C2, C3 and C5, the title, the opening line listed first, the cutaway, what changes on it, why
+  people stay, the comment question and the rivals. The rest (the chain with its terms, the "that's why", the ending, the second
+  opening and the sounds) is my draft for Gate A. For C4 they named the topic only: everything under it is my draft.
 - **Rules for these ideas** (on top of sections 1 and 5):
-  1. Hook: a claim that sounds wrong, with a number, inside the first 3–4 seconds. Both sides are in the first frame, and the labels
-     must make the hook work with the sound off. Second person stays.
-  2. First "But" by about 4 s. Seven or eight But/So beats, as before.
-  3. Scoreboard: one or two labels that change through the video (SHELLS 42 → 0). Labels on the scene fit the 3.4 shot rule.
-  4. One arena, one main view: the 3.4 shot rule applied to a matchup. The camera stays on the arena and every line changes
-     something in it. To show how a machine works, slice it open from the same view.
-  5. Ending: our loop line stays (4.3) and there is no spoken call to action (4.2). The verdict question is the last on-screen
-     label and the caption.
-  6. Answer the strongest objection with a short reply video (TikTok's reply-with-video). Likely objections are listed per idea.
-  7. Never plant a mistake to bait corrections. What stays open is the verdict, not the facts.
-- **The two questions asked on 14 Nov 2026:**
-  - **Opening: answered at video 07's Gate A.** The user picked the cold claim ("Only one of these drivers walks away. Pick your
-    car.") over the "If you…" version; it still landed the first "But" at ~3 s. Show both ways again at Gate A of P1–P3.
-  - **Still open:** whether "Who wins?" becomes the running series, with the verdict question and a pinned comment. Recommended at
-    video 07's Gate A: pin a vote between our checked ideas (P1, P2, P3) rather than "Top comment picks the next matchup", so the
-    next topic stays inside what is fact-checked and inside TikTok's weapon rules. (@thewhatifstudio's captions say "You asked for
-    it": requests are comments, and waiting for the result is a reason to follow.)
-- **How we'll know:** our six videos have 9 comments on 34.7K views (0.26 per 1,000) and 1.3 followers per 1,000 views. Target
-  for the first matchup: 1 comment and 3 followers per 1,000 views. Ask the user for average watch time and "watched full video"
-  from TikTok's analytics for the old videos and the new one; we can't see those from outside. (15 Nov 2026: the user said "forget
-  about the retention graphs". Don't ask for these; 7.5.)
-- **Order:** P4 done (video 07, 14 Nov 2026). Next P1, then P3, P2. (On hold since 15 Nov 2026.)
-- **Chains are drafts:** ✔ was checked by web search on 14 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
-  check on the title before Gate A (6.7).
+  1. Opening: section 5 asks for "If you…" with the first "But" by ~3 s. Each idea has that form and a cold claim. Show both at
+     Gate A: the user picked the cold claim for video 07, and C1 was shown to them with its cold claim.
+  2. One cutaway from one main view, described under each idea. Everything in the chain happens on it.
+  3. One true story or twist around the two-thirds mark, one "that's why" the viewer can check, and one small living thing or joke.
+  4. A comment question that can be answered in two words. It goes in the TikTok caption or a pinned comment, never in the
+     voice-over (4.2: no spoken call to action).
+  5. The sounds listed are a starting point for the bed and the effects (3.3 Step 6b).
+  6. Never plant a mistake to bait corrections.
+- **Chains are drafts:** ✔ was checked by web search on 15 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
+  check on the exact title before Gate A (6.7): the numbers below come from topic searches.
+- **Order:** not set by the user. Recommended to them: C1 first (closest to our two best videos, least drawing risk). C5 is the
+  hardest to draw.
+- **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
+  of ours stopped (the 15 Nov snapshot in 6.1: five of our seven are under 1.7K on TikTok and under 2.1K on YouTube); comments per
+  1,000 views beat our 0.23 (9 comments on 38.9K TikTok views); saves and shares per 1,000 views beat seawater's 1.9 and 1.1.
 
-**P1. One Modern Tank vs 100 Tiger Tanks** (a what-if: an M1A2 Abrams in 1944)
-- Arena: a French field with hedgerows from a raised three-quarter view. Our sand-coloured tank sits on a ridge at the left with
-  the mascot in the commander's hatch; grey Tigers fill the field. Labels: SHELLS 42 and TIGERS 100.
-- Hook: "If you take one modern tank back to 1944, nothing on the battlefield can hurt you. But you only have 42 shells, and a
-  hundred Tigers are coming." Alternates: "One modern tank. Forty-two shells. A hundred Tiger tanks. Who wins?"; "A modern tank
-  could fight all of 1944 and still lose."
-- Chain: their 88 mm guns kill anything in 1944 -> your layered front armour breaks their shells up ⚠ -> there are a hundred of
-  them -> you fire first, from about 2.5 miles against their half mile, and the computer makes the first shot count ⚠ (both
-  counters fall) -> night comes -> you see heat and they see nothing (THERMAL SIGHT) ⚠ -> they circle to your thinner sides ⚠ ->
-  you never stop: you shoot on the move (STABILIZER) while they must halt to aim ⚠ -> one hit on a track and you are stuck
-  (MOBILITY KILL) -> SHELLS 0, TIGERS 58: your machine guns only scratch them, and nobody in 1944 makes your ammunition -> your
-  jet engine burns about two gallons a mile ✔ (500 gallons for about 265 road miles) -> it can drink their fuel (MULTI-FUEL) ⚠.
-- Twist: the tank is not the weapon; the supply line is. Without its trucks a modern tank is out of the fight in hours.
-- Ending: "Pick your shots, guard your tracks, and count to forty-two." Verdict: "42 SHELLS vs 100 TIGERS: WHO WINS?"
-- Objections to answer: "just ram them", "the Tigers break down first", "what about their planes".
-- Why it should work: who-would-win is what the tank audience comments on, and the shell count makes the answer truly open.
-- Shorts: "Tanks Lore" 9.1M, "Modern Tank in The Napoleonic Wars?" 1.7M, "Tiger I vs Leopard 2A7" 968K. Closest: "20 WWII Tiger
-  Tanks vs 1 Modern M1 Abrams: Who Would Win?" 215K. Long video "100 MAUS vs 1 ABRAMS" 2.7M.
-- Checked ✔: 42 rounds, 500 gallons, 42 mph on roads and 25 off-road, 265-mile road range. Watch out: machines only, no flags or
-  symbols on the Tigers, nobody shown hit.
+**C1. Why Your House Doesn't Smell Like the Sewer It's Connected To**
+- Set: a two-storey house sliced open like a cake: a bathroom upstairs, a kitchen below, the drain stack inside the wall and the
+  sewer under the street. Cyan water sits in every bend. Sewer gas is a faint yellow-green haze, the one thing in the video that is
+  drawn to be seen.
+- Hook (as shown to the user): "There's an open pipe from the sewer to your kitchen. One cup of water is in the way." "If you…"
+  form: "If you connect your sink straight to the sewer, the water goes down. And the sewer comes up."
+- Chain: a straight pipe lets sewer gas rise into the room (hydrogen sulfide, methane ✔) -> bend the pipe so a plug of water sits
+  in it (TRAP) -> a flush upstairs rushes down the stack and sucks the plug out (SIPHON) ⚠ -> add a pipe that lets air in behind the
+  water, up through the roof (VENT) ⚠ -> a bathroom nobody uses: the plug evaporates in about a month ✔ and the smell is back -> run
+  the tap; some floor drains top themselves up (TRAP PRIMER) ⚠ -> the water stops gas, not a rat, which can swim through the bend ⚠
+  -> a one-way flap on the sewer line ⚠.
+- Twist (true story): in 2003, in one Hong Kong housing estate, floor-drain traps had dried out. The WHO team found that this left
+  an open connection to the soil pipe, and that bathroom fans drew contaminated droplets into the flats ✔. More than 300 people were
+  infected ✔.
+- That's why: the pipe sticking out of your roof; the gurgle in the sink when the washing machine drains ⚠; the smell in a guest
+  bathroom.
+- Ending: "Bend the pipe, let it breathe, and keep it wet."
+- Comment question: "Which drain in your house smells?"
+- Sounds: the bed is a quiet house; a flush, a gurgle, water running down a pipe, a drip.
+- Why it should work: it is closest to our two best videos (a house, pipes, water); the premise is personal and a little creepy;
+  three reveals get bigger (your roof, Hong Kong, the rat); and it ends on a tip people save and pass on.
+- Shorts: plumbers on camera reach 21M ("BEST WAY to Detect a Sewer Odor"), 2.6M ("Plumbing Vent Demo Tips") and 2.2M. Animated
+  ones: "Why Every Sink Pipe Has a U-Bend" had 186K after two days (a rival that is rising), then 51K, 45K and eight more at 21K or
+  less. 6.3 lists the P-trap as done; ours is the whole drain-and-vent system, with the Hong Kong story.
+- Checked ✔: the WHO findings at Amoy Gardens, and 321 cases by 15 April 2003 (the death toll differs by source, 35 to 42: leave
+  it out); traps dry out in two weeks to several months, typically three to four weeks; what sewer gas contains (one source). The
+  search found nothing on the rat: check it or cut it. Watch out: a real outbreak with real dead, so one sentence and no pictures
+  of people; the haze must not read as fire or smoke. The reference account has a sewer video (4.1: "You flush. It disappears.
+  Here's where it actually goes.", 303K) that follows the waste out to the treatment works (4.6); ours stays inside the walls of
+  the house. Read its transcript before Gate A and keep clear of what it covers.
 
-**P2. The $100 Million Submarine That "Sank" a $4.5 Billion Aircraft Carrier** (HSwMS Gotland and USS Ronald Reagan, war games, 2005)
-- Arena: a slice of ocean. The carrier and its escorts are on the surface, the small submarine is below, the seabed at the bottom.
-  The mascot is at the periscope inside the sliced-open sub. Labels: $100M and $4.5B, then DISTANCE TO CARRIER counting down.
-- Hook: "In a 2005 war game, a 100-million-dollar submarine sank a 4.5-billion-dollar aircraft carrier. Then the Navy rented the
-  submarine." Alternate: "If you want to sink an aircraft carrier, you don't need a bigger ship. You need a quieter one."
-- Chain: if you want to do it, you have to pass the bodyguards: destroyers, a cruiser, helicopters and a hunting submarine, all
-  listening ⚠ -> a diesel sub must come up for air to run its engines, and radar spots the snorkel ⚠ -> bring your own air: liquid
-  oxygen feeds a STIRLING ENGINE that charges the batteries underwater ✔, for about two weeks ⚠ -> engines are loud -> this one
-  burns steadily with no explosions, and you can switch almost everything else off; a nuclear sub's reactor pumps never stop ⚠ ->
-  aircraft sniff for your steel hull with magnetic detectors -> electromagnets cancel your magnetic field ⚠ -> you are slow, about
-  5 knots ⚠ -> so you don't chase; you wait where the carrier must pass (AMBUSH) -> you slide under the escorts, raise the
-  periscope and photograph the carrier, which in a war game is a kill ⚠.
-- Twist: the US Navy leased the boat and its Swedish crew for a year, then for a second ✔, to learn how to find it.
-- Ending: "Bring your own air, kill the noise, and wait." Verdict: "$100M SUB vs $4.5B CARRIER: ARE CARRIERS OBSOLETE?"
-- Objections to answer: "war games tie the carrier's hands", "a carrier does 30 knots and the sub does 5", "nuclear subs are better".
-- Why it should work: the cheap thing beats the expensive thing, nobody was hurt, and the verdict is a live argument among navy fans.
-- Shorts: best 1M ("How a US aircraft carrier sunk by a Swedish submarine"), then 154K and 12K. Real Engineering's long video has
-  10.1M. A proven story that is thin on Shorts.
-- Checked ✔: the 2005 exercise, the simulated torpedo attack, the 2005–2007 lease with a Swedish crew. The prices are press
-  figures (the carrier is also quoted at $6B). Always say "in a war game" in the same sentence as "sank".
+**C2. There's an Ice Rink Under This Basketball Court**
+- Set: an arena floor sliced open like a cake: a concrete slab with chilled pipes in it, the ice, insulating panels, the hardwood
+  court. The seats rise behind. The layers stack up and come off in place, so the stage ladder is the video.
+- Hook (as shown to the user): "If you want hockey and basketball in one building, you freeze a rink. And you never melt it." Cold
+  claim: "There's an ice rink under this basketball court. It has been there all season."
+- Chain: you can't dribble on ice -> cover it with insulated panels ✔ and piece the court together on top like a puzzle ✔ -> the
+  cold seeps up and the crowd's warm, wet air turns to water on the wood (CONDENSATION) ✔, and players slip -> dry and cool the
+  air ⚠ -> the hockey boards and glass are in the way -> they lift out in sections ✔ -> tomorrow is hockey -> take it all off again
+  in a few hours ✔ -> the ice is scarred -> a machine shaves it and lays a thin skin of hot water (ICE RESURFACER) ⚠.
+- Twist (true story): on 30 Nov 2016 an NBA game in Philadelphia was called off. Hockey had been played the night before, the ice
+  was under the court as usual, the day was warm and humid, and the floor would not stay dry ✔.
+- That's why: the ice looks white because it is painted ⚠; the same building holds hockey one night and basketball the next.
+- Ending: "Freeze the floor, cover it over, and swap it by morning."
+- Comment question: "Hockey or basketball: which is your arena better at?"
+- Sounds: the bed is an empty arena; skates, the resurfacer, panels dropping, a bouncing ball.
+- Why it should work: the layers are a cake already, so the cutaway explains itself; there are two fan bases; the surprise comes in
+  the first three seconds and a true story pays it off.
+- Shorts: 7.4M ("These basketball courts are ice rinks!"), 2M and 495K, nearly all time-lapses of the changeover. Explainers top
+  out at 78K ("How Ice Hockey Rink turn into NBA Court") and 43K ("The Engineering Secret Beneath Ice Rinks").
+- Checked ✔: the boards and glass come out, insulated plywood goes over the ice, and the court is pieced together on top; the ice
+  stays down all season (Ball Arena); a three-hour window on double-header days (Wells Fargo Center), with other arenas quoting two
+  to ten hours; more than 2,000 pieces in the United Center's changeover; the Kings–76ers postponement (called off at 8:03 pm,
+  replayed on 30 Jan 2017). The Kohl Center's ice is an inch and a half thick; NHL ice thickness ⚠. Watch out: no team names or
+  logos on the court or the ice; the workers are small and anonymous.
 
-**P3. The Pickup Trucks That Beat a Tank Army** (the Toyota War, Chad against Libya; Battle of Fada, 2 Jan 1987)
-- Arena: a desert base from a raised three-quarter view. Tanks are dug into sand walls facing outward; white pickups circle with
-  dust trails. The mascot drives the lead pickup. Labels: TANKS LOST 0 → 92 and PICKUPS LOST 0 → 3.
-- Hook: "In 1987, an army in pickup trucks destroyed 92 tanks in a single battle. It lost three pickups." Alternate: "If your enemy
-  has tanks and you have pickup trucks, you have one rule: never slow down."
-- Chain: if you fight a tank from a pickup, one shell ends you -> a tank's turret takes about 20 seconds to turn a full circle ⚠, so
-  at 60 mph you cross its sights faster than it can follow (SPEED IS ARMOUR) ⚠ -> your bullets bounce off -> bolt an anti-tank
-  missile launcher in the bed: the French MILAN ✔ reaches about a mile and burns through the armour ⚠ -> minefields ring the base ->
-  reportedly you cross them flat out, so the mines go off behind you ⚠ (verify or cut) -> there are far more tanks than trucks ->
-  they are dug in and face one way; you come from every side at once, two pickups to a tank ✔ (SWARM) -> their jets -> shoulder-
-  fired missiles ride in the trucks too ⚠.
-- Twist: the war is named after the trucks, the Toyota War; about 400 of them came from France ✔.
-- Ending: "Bolt on a missile, floor it, and never slow down." Verdict: "TANK OR TOYOTA?" (pinned: "Was it the trucks or the tactics?")
-- Objections to answer: "the tank crews were badly trained", "try that against a modern tank", "the missiles did it, not the trucks".
-- Why it should work: an underdog with a score nobody believes, and two tribes at once (truck owners and military fans).
-- Shorts: 5.9M ("Why Toyota is the Market Leader of Modern War"), 1.8M, 683K ("This Pickup Truck Beat 300 Tanks").
-- Checked ✔ (Wikipedia's Battle of Fada figures): 92 T-55 tanks and 33 other armoured vehicles destroyed, 3 pickups lost, 784
-  Libyan and 18 Chadian dead. Watch out: a real battle with real dead. Count machines, show nobody hit, draw no badges.
+**C3. What Lightning Does Inside Your House**
+- Set: a house sliced open in a storm: the roof, the wiring in the walls, the copper pipes, a running shower, and the soil below.
+  The bolt is a white-blue streak that takes a new route after each fix. The storm is a re-grade of the daylight set (3.4 Rule 4).
+- Hook (as shown to the user): "If lightning hits your house, it has to reach the ground. The easiest way down might be your
+  shower." Cold claim: "Everyone has heard it: don't shower in a thunderstorm. Here's what the bolt actually does."
+- Chain: a strike on the roof hunts for the ground through whatever conducts: wiring, pipes, wet wood ⚠ -> give it a better road:
+  a metal rod on the ridge (LIGHTNING ROD), a thick cable down the outside wall (DOWN CONDUCTOR) and a rod deep in the soil (GROUND
+  ROD) ⚠ -> 30,000 amps ✔ do not all take one road, and some jumps to nearby metal (SIDE FLASH) ⚠ -> tie the pipes and the wiring
+  to the same ground (BONDING) ⚠ -> it can also arrive from the street, riding in on the power line ⚠ -> a surge protector at the
+  panel ⚠ -> the water pipes still reach every room, and you are standing in the shower.
+- Twist: about a third of lightning injuries happen indoors ✔ (CDC). Say injuries, not deaths: an NWS expert reportedly knows of
+  no death tied to indoor plumbing in fifteen years ⚠.
+- That's why: don't shower, bathe or wash dishes in a thunderstorm ✔ (CDC; plastic pipes may carry less risk, and the advice still
+  stands ✔). Aside: the Empire State Building is hit about 23 times a year ✔.
+- Ending: "Catch it high, carry it down, and bury it deep."
+- Comment question: "Do you shower during a storm? Yes or no."
+- Sounds: the bed is steady rain on a roof; thunder, a crack, a hum in the wires, the shower.
+- Why it should work: it is a rule everyone has heard and half of them doubt; the bolt stops at the roof in the first two seconds
+  and the question is which way down; the argument writes its own comments.
+- Shorts: "Should You Shower During A Thunderstorm?" 20M and "Is it safe to shower during a thunderstorm?" 4.8M, then about a dozen
+  "never shower in a thunderstorm" copies at 12K–56K each. None follows the bolt through a cutaway house.
+- Checked ✔: the CDC advice and its one-third figure; about 300 million volts and 30,000 amps, heating the air to about 50,000 °F
+  (NWS; some sources say 54,000 °F); the Empire State Building's 23 strikes a year (NWS New York). Watch out: do not say that rods
+  attract or repel lightning; electricity is harder to animate than water, so make the pilot clip the bolt travelling down the
+  cable; nobody is shown hurt.
 
-**P4. 1959 Car vs 2009 Car: One Driver Walks Away** (the IIHS crash test of 9 Sep 2009)
-- Arena: a crash-test hall. The two cars face each other on a track, both sliced open along the side so the cabins show. The
-  mascot is "you" as the crash dummy, in his yellow hard hat. Labels: 1959, 2009, 40 MPH, then CABIN PUSHED IN: 62 cm and 7 cm.
-- Hook: "One of these drivers walks away. The other doesn't. Pick your car." Then: "If you picked the old one, you picked nearly
-  two tons of solid steel ⚠. But solid is the problem." Alternates: "They don't build them like they used to. Good."; "If you crash
-  a 1959 car into a 2009 car, you'd bet on the old one. You'd lose."
-- Chain: steel that doesn't bend stops the car in an instant, and you keep going at 40 mph until the steering wheel stops you ⚠ ->
-  so the new car is built to wreck itself: the front folds like an accordion and stretches the stop (CRUMPLE ZONE) -> if the whole
-  car folded it would fold onto you -> a cage of stronger steel around the seats holds its shape (SAFETY CAGE): the old cabin was
-  pushed in 62 cm at the driver's feet, the new one 7 cm ✔ -> you still fly forward -> the belt locks and pulls tight ⚠ and an
-  airbag fills in about 30 thousandths of a second ⚠ -> the steering column is a spear -> it collapses instead ⚠.
-- Twist ("that's why"): a small crash "totals" a modern car because it is built to wreck itself for you. Per mile driven, far fewer
-  Americans die on the road than in 1959 ⚠.
-- Ending: "Fold the front, cage the middle, and catch the driver." Verdict: "STILL THINK THEY DON'T BUILD THEM LIKE THEY USED TO?"
-- Objections to answer: "old cars were real steel", "that old car was rusty", "try it with an old pickup".
-- Why it should work: everyone drives, everyone has heard the saying, and the answer starts a fight between generations. The
-  opening makes the viewer choose a side before the first fact.
-- Shorts: 2.8M ("Crash Test: Classic vs Modern"), 926K ("What Happens When a 1959 Chevy Hits a Modern Car?"), 326K: all real
-  footage. The test videos have 12M and 10.9M. No animated "why" version found.
-- Checked ✔: a 40 mph offset frontal test; the Bel Air's cabin collapsed and the Malibu's stayed intact; 62 cm against 7 cm at the
-  footrest; rated Poor against Good; the Malibu's worst score was the left leg and foot. Watch out: the dummy takes the hit and
-  nobody "dies" on screen; no car badges.
-- **✅ USED: video 07, 14 Nov 2026** (3.4b, 3.4i). As made: opening A (the cold claim), script in `pipeline/07-script.txt`; the arena
-  seen from high above with the 1959 car at the bottom (a plain dummy, no belt) and the 2009 car at the top (the mascot, belted, seen
-  through the windshield); FOOTWELL PUSHED IN 24 IN against 3 IN as the scoreboard; verdict label "STILL THINK THEY DON'T BUILD
-  THEM LIKE THEY USED TO?". Cut from the draft chain: "nearly two tons" (the Bel Air weighed about 3,600 lb, about the same as the
-  Malibu's 3,400–3,650), "steel that doesn't bend" (the old car did bend, into its cabin), "30 thousandths of a second" (sources
-  give 20–50 ms, so "faster than you can blink"), and the per-mile death rate (5.06 per 100M miles in 1960, 1.26 in 2023: true,
-  but nothing on the cars shows it and belt laws, roads and drunk-driving laws share the credit). Verified for the script: no belts
-  or airbags in the test Bel Air; its dummy's head hit the wheel, the roof and the metal dash; the wheel moved up and back; the
-  windshield came out, the driver's door opened and the bench seat tore loose; the Malibu had front belt pretensioners and front
-  airbags as standard; GM brought in collapsible columns for 1967 and every US car needed one from 1 Jan 1968; crumple zones (the
-  Mercedes W111) and the three-point belt (the Volvo PV544) both went on sale in 1959 (the twist). Reply-video answers: the Bel Air
-  had its engine (a straight six; Jalopnik, Sep 2009) and was in good condition with a little engine rust (its former owner, via The
-  Truth About Cars); the two cars weighed about the same. Saturation check of the title: at least 7 near-identical Shorts, best 926K
-  ("What Happens When a 1959 Chevy Hits a Modern Car?", 4 weeks old), the rest 29K–64K, all re-posting the crash footage.
+**C4. What's Inside a Nuclear Cooling Tower? (Almost Nothing)** (the user's pick on 15 Nov 2026, in place of the aircraft carrier)
+- The user named the topic ("nuclear cooling tower"). The title, set, hook, chain and ending below are my draft, written after
+  their message; they have not seen them. Gate A is where they do.
+- Set: one cooling tower sliced open like a cake beside a river, with a plain plant building behind it. Inside: rain falling
+  through a ring of slats near the bottom, a pool underneath, and nothing above but rising mist. The reactor is never shown.
+- Hook (draft): "If you boil water to spin a turbine, you have to cool it down again. And that giant tower is almost empty." Cold
+  claim: "The most famous shape in nuclear power is an empty tube. And that isn't smoke."
+- Chain: only about a third of the heat becomes electricity ✔, and the steam must turn back into water -> run cold river water
+  past it (CONDENSER) ⚠ -> the river comes back hot ⚠ -> cool the cooling water yourself: rain it over stacked slats (FILL) so a
+  little evaporates and carries the heat away (EVAPORATION) ✔ -> still air cools nothing, and fans would eat your power ⚠ -> build a
+  chimney around the rain: warm, wet air rises on its own and drags cold air in at the open base (NATURAL DRAFT) ✔ -> a thin chimney
+  that tall has to stand in a gale -> pinch the waist: the curve keeps a concrete shell 6 to 7 inches thick ✔ stiff (HYPERBOLOID) ✔
+  -> the wind carries droplets out of the top -> baffles catch them (DRIFT ELIMINATORS) ✔ -> about 2% of the water leaves as vapour
+  on each pass ⚠, thousands of gallons a minute ✔ -> top it up from the river (MAKEUP WATER) ⚠.
+- Twist (true story): in 1965, at Ferrybridge in England, three of eight towers blew down in one gale ✔. They stood close together
+  and had been designed for average winds, not gusts ✔.
+- That's why: the white plume is a cloud, not smoke ✔, and it is bigger on cold days ⚠. This water never goes near the reactor ⚠.
+  Coal and gas plants use the same towers, and many nuclear plants have none (about 40% of US reactors recirculate through towers
+  and 46% take river or sea water once through: one undated source, recheck ⚠).
+- Ending: "Rain it down, draw the air up, and let it drift away."
+- Comment question: "Did you think it was smoke?" or "Would you live next to one?"
+- Sounds: the bed is rain inside a huge hall (the 72M Short is about that echo); pumps starting, a gust, a low rumble for 1965.
+- Why it should work: it has the biggest proven demand for the inside of the thing; it is the simplest shape of the five to draw
+  and keep steady; rain and mist move the whole time; and nuclear power is argued about (7.4: How Building Explained's nuclear plant
+  drew 1.0 comments per 1,000 views against 0.31 for the account).
+- Shorts: "Inside a Nuclear Plant Cooling Tower: The Wildest Natural Reverb" 72M (real footage), "What Really Happens Inside a
+  Cooling Tower" 1.9M, a Hindi animation at 1.1M, and "What's Inside A Nuclear Cooling Tower?" 173K, the nearest title. The shape
+  alone is worn out: a dozen "Why are cooling towers shaped like that?" copies sit at 1.1K–8.8K, and "smoke or steam" ones at
+  1.3K–33K. Long video: Practical Engineering, 9.5M. So lead with the empty inside.
+- Checked ✔: no fans, the warm moist air rises and pulls cooler air in; fill spreads the water out; evaporation is the main
+  cooling; drift eliminators are baffles; the plume is water vapour condensing; Ferrybridge on 1 Nov 1965 (sources give gusts of 70
+  to 100 mph, so say "a gale"); shells 16–18 cm thick at the waist; the shape's stiffness; about 32% efficiency; about 420 gallons
+  evaporated per MWh (EPA), which is roughly 7,000 gallons a minute for 1,000 MW. Still to check ⚠: the evaporation share (one
+  vendor page gives 1.8% of the circulating flow per 10 °C of cooling); that the shell above the fill is empty (consistent with the
+  design, not yet in a written source); "thinner than an eggshell for its size" (work it out before using it); the tallest tower.
+- Watch out: How Building Explained has built a nuclear power plant (976K on TikTok when studied, 1.4M on YouTube), and section 1
+  lists that as a topic to avoid. The user chose this one all the same, after being told it was close to that topic: ours is the
+  tower only, never a plant build, and uses none of their wording. No radiation symbols and no real plant names. Call the plume a
+  cloud; water vapour itself is invisible.
 
-**Not in the list (14 Nov 2026):**
-- **Rejected by the user:** a race car driving on the ceiling (it was P5; "I don't like p5"). Shorts on it reach 4.8M, 1.9M and
-  1.1M. Don't propose it again unless they ask.
-- **Checked and not picked:** the A-10 built around its gun (Shorts 1.6M and 945K, and a "How a Water Gun Becomes an A-10 Warthog"
-  build already exists at 58K; verdict "retire it or keep it?"); one modern aircraft carrier at Pearl Harbor (long videos 5.8M,
-  1.6M, 1.5M and no strong Short: the next what-if if P1 works); American long-nose trucks against European flat-nose trucks (5.5M,
-  3.8M, 1.1M: crowded, but a ready-made argument between countries); why the Abrams tank runs on a jet engine (5.4M); five Shermans
-  for one Tiger (1.3M, 105K); the Soviet tank with wings (best 175K: little demand shown); the Ghost Army's inflatable tanks (best
-  Short 6.4K: no demand shown); escaping a sinking car (31M, 25M, 23M: crowded).
+**C5. Where Does Your Bowling Ball Go?**
+- Set: the far end of a bowling lane sliced open lengthwise: the pin deck, the pit behind it, the machine above, and the return
+  track under the lane. The camera follows the ball home under the boards (3.4 Rule 3).
+- Hook (as shown to the user): "If you roll a ball down a lane, somebody has to stand the pins back up. And send your ball home."
+  Cold claim: "Behind that little wall is a machine with twenty pins in it. You only ever see ten."
+- Chain: for decades it was a boy sitting above the pit (PIN BOY) ✔ -> build a machine behind the wall (shown in 1946, in full
+  production by 1952 ✔) -> the ball hits a padded curtain, drops, and is fired back along a track under the lane (BALL RETURN) ⚠ ->
+  the pins are a heap -> a wheel lifts them (PIN ELEVATOR) ✔ and a tray drops each into one of ten slots (DISTRIBUTOR) ✔ -> three
+  are still standing -> the table comes down over them ✔, a bar sweeps the fallen ones away (SWEEP) ✔, and the table sets them
+  back where they stood ⚠ -> the next frame cannot wait -> the machine holds 20 pins, so a full rack is always ready ✔.
+- Twist: the lane hides something too: a film of oil laid in a pattern you cannot see ⚠, which is why your ball hooks at the
+  end ⚠. And many alleys are replacing the whole machine with pins on strings ✔.
+- That's why: the pause before your ball comes back; the ring of oil on the ball ⚠.
+- Ending: "Catch the ball, lift the pins, and set them up again."
+- Comment question: "Strings or free-fall?"
+- Sounds: the bed is the hum of a bowling alley; the roll, the crash, the sweep, the ball arriving in the rack.
+- Why it should work: it has the biggest raw demand of all; you want to see the ball come back; and bowlers argue about strings.
+- Shorts: 62M ("Ever wondered how the pins got put back?"), 25M, 24M ("This is what a bowling ball sees"), 4.9M and 2.6M ("How does
+  a bowling pinsetter work?"). One rival uses our kind of second-person build: "How you invented the bowling pinsetter!" 579K. Long
+  videos: Veritasium 19.1M, "How a Bowling Alley Works" 7.2M.
+- Checked ✔: the four main parts (sweep, pin elevator, distributor, pin table); 20 pins a machine; pin boys; the AMF dates; a ball
+  accelerator sends the ball back (its route under the lane was not found: ⚠); string pinsetters certified by the USBC as their own
+  category from 1 Aug 2023, with strike rates first measured 7.1% lower and later found comparable, and over 100 approved
+  installations among about 3,500 certified centers (Nov 2025).
+- Watch out: there is no water, so it leans on motion alone; machinery is the hardest thing for the image model to draw correctly,
+  so reduce it to six parts (curtain, return track, elevator wheel, distributor, pin table, sweep) and prove them in the pilot; no
+  brand names on the machine.
 
-**Platform rules (web search, 14 Nov 2026; TikTok's own page was not readable in full):** TikTok does not allow showing or
-promoting firearms or explosive weapons outside a safe or appropriate setting, and lists fictional settings among the exceptions.
-One third-party reading of the 24 Sep 2026 update says firearm content is age-restricted and kept off the For You feed. Tanks,
-ships and jets in animation are not named either way. So after posting P1, P2 or P3, check the video's analytics for a For You
-restriction before making the next military one. YouTube's rules were not checked.
+**Not in the list (15 Nov 2026):**
+- **Swapped out by the user:** landing a jet on an aircraft carrier, "What Stops a Jet in Two Seconds" (it was C4; "replace c4 with
+  nuclear cooling tower"; they gave no reason). Its opening was "If you land a jet on a ship, you have about 300 feet to stop. So
+  you floor it.", and the hidden part was the arresting engine under the deck. Shorts of real landings reach 22M, 8.4M and 7.5M,
+  and ten or more cover "why pilots go full throttle" (best 260K). Checked ✔: 54,000 lb at 150 mph stopped in two seconds within
+  315 ft; the wire runs to hydraulic engines below deck; full power at touchdown in case the hook misses; the deck cable is
+  replaced every 100–125 landings. My reading: don't offer it again unless they ask.
+- **Held in reserve** (named to the user in one line, with the cooling tower): a kitchen grease fire and why water makes it explode
+  (6.7M, 5.8M; the safety claims need care, and a platform may limit a fire that is shown); a wave pool's hidden chambers (47M, 30M,
+  24M, all real footage; a summer topic); the Netherlands below sea level (3.8M; long videos 3.7M and 3.6M); how fish get past a
+  dam (16M; the salmon cannon 147K).
+- **Checked and not picked:** undersea internet cables (7.3M, 3.7M: crowded); train wheels as cones (68M: done to death); airplane
+  toilets (40M: crowded); why McDonald's Coke tastes different (45M, 20M: led by the brand, and crowded); New York's street steam
+  (9.3M, 917K: one big rival); Tokyo's flood tunnel (14M, 170K: too close to the reference's storm drain); the Fukuoka sinkhole
+  fixed in a week (664K, 39K); airport luggage (118K; long videos 5.2M); the inside of a fire extinguisher (9.6M); why a water
+  heater doesn't explode (1M; MythBusters 1.3M); roller coasters staying on the track (1M) and their clicking (no Shorts found;
+  long 518K); NFL fields heated from below (2.8M, 120K); Disney's trash tubes (no Shorts found; long 1.4M; brand caution). Weak on
+  Shorts: escalator steps (four copies of the exact title at 1.4K–3.3K, though long videos have 19.9M and 17.1M), frozen pipes
+  (26K), potholes (10K), fire sprinklers (5.6K).
+- **From the matchup list (14 Nov 2026):** rejected by the user: a race car driving on the ceiling ("I don't like p5"). Don't
+  propose it again unless they ask. Removed with the list on 15 Nov 2026: one modern tank against 100 Tigers, the Swedish submarine
+  that "sank" a carrier in a war game, and the Toyota War pickups. Their chains, facts and Shorts numbers, the eight topics checked
+  that day, and the note on TikTok's weapon rules (firearms and explosives are restricted; tanks, ships and jets in animation are
+  not named either way) are in the repo history at commit `c37181e`.
 
 ### Checked and left out earlier (crowded on Shorts, 11 Nov 2026)
 Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
@@ -377,8 +425,9 @@ look a line without its own clip holds the last frame of the clip before it, for
 ### 3.3 Step-by-step
 
 **Step 1: Topic and script (free).**
-- Take the idea the user names (the section 2 list is on hold since 15 Nov 2026). Write the script with the formula and writing rules
-  in section 1 and the script rules in the section 5 prompt. Target ~75 s, ~260–280 words; never under 60 s.
+- Take the idea the user names: C1–C5 in section 2 (approved 15 Nov 2026), or their own topic. A section 2 idea brings its set,
+  two openings, a draft chain, the ending and the facts already checked; the chain is a draft. Write the script with the formula
+  and writing rules in section 1 and the script rules in the section 5 prompt. Target ~75 s, ~260–280 words; never under 60 s.
 - Write for the set (3.4 shot rule): every line must be something the viewer can see happen on the one cutaway set, and most lines
   should describe something moving, because every such line gets an animated clip (3.4 rule 1). Comparisons, stats and the "that's
   why" are shown on the set itself or cut; the Cutaway look has no labels. Cut any line that would need a picture of another place.
@@ -656,8 +705,9 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   Known edit candidates: the hook pushes in to a close-up of the mascot (Kling read "slow push-in" as a dolly-in); in C5 he leaps up the cliff
   to the ledge; INSIDE drops the lower storey to show the room; URNSLICE cuts the dome, not the urn on top; the mascot is large next to the facade.
 
-- **07 1959 Car vs 2009 Car: One Driver Walks Away** (Middle, P4, the first "Who wins?" matchup, Classic look, one arena in one main view,
-  loop ending) — DELIVERED v1, 14 Nov 2026. 77.00 s, 1080×1920, 24 fps, −15.2 LUFS, 23 beats, 270 words (272 spoken). Higgsfield spend
+- **07 1959 Car vs 2009 Car: One Driver Walks Away** (Middle; P4 of the "Who wins?" matchup list of 14 Nov 2026, which was removed on
+  15 Nov 2026; Classic look, one arena in one main view, loop ending) — DELIVERED v1, 14 Nov 2026. 77.00 s, 1080×1920, 24 fps,
+  −15.2 LUFS, 23 beats, 270 words (272 spoken). Higgsfield spend
   **157.25 cr** (quote 177.68, −11.5%): 16 seedream stills 20.00 (10 used + the S0T base + 5 tries and fixes) + 11 kling4_0 clips 137.25
   (61 s, no redos). ElevenLabs: 2 takes × 1,387 credits; take A at 1.03×.
   Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/35f8a478-c94f-4893-a326-552efd58100a.mp4 (media_id 35f8a478-c94f-4893-a326-552efd58100a);
@@ -676,6 +726,23 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   Known edit candidates: the hook is frozen at the moment of contact (seedream would not leave a gap); a small generic emblem on the red
   car's grille; the belt clip (C6) barely moves, so the hold after it pushes in on him; the old car is open from above, so line 11's
   "the roof" has no roof to hit; C3 plays at 1.25× and C11 at 1.19× to fit their lines.
+  Script facts (moved here on 15 Nov 2026, when the matchup list left section 2). The test: the IIHS crash of 9 Sep 2009, a 40 mph
+  offset frontal test; the Bel Air's cabin collapsed and the Malibu's stayed intact; 62 cm against 7 cm at the footrest; rated Poor
+  against Good; the Malibu's worst score was the left leg and foot. As made: opening A (the cold claim), script in
+  `pipeline/07-script.txt`; the arena seen from high above with the 1959 car at the bottom (a plain dummy, no belt) and the 2009 car
+  at the top (the mascot, belted, seen through the windshield); FOOTWELL PUSHED IN 24 IN against 3 IN as the scoreboard; verdict
+  label "STILL THINK THEY DON'T BUILD THEM LIKE THEY USED TO?". Cut from the draft chain: "nearly two tons" (the Bel Air weighed
+  about 3,600 lb, about the same as the Malibu's 3,400–3,650), "steel that doesn't bend" (the old car did bend, into its cabin), "30
+  thousandths of a second" (sources give 20–50 ms, so "faster than you can blink"), and the per-mile death rate (5.06 per 100M miles
+  in 1960, 1.26 in 2023: true, but nothing on the cars shows it and belt laws, roads and drunk-driving laws share the credit).
+  Verified for the script: no belts or airbags in the test Bel Air; its dummy's head hit the wheel, the roof and the metal dash; the
+  wheel moved up and back; the windshield came out, the driver's door opened and the bench seat tore loose; the Malibu had front
+  belt pretensioners and front airbags as standard; GM brought in collapsible columns for 1967 and every US car needed one from 1
+  Jan 1968; crumple zones (the Mercedes W111) and the three-point belt (the Volvo PV544) both went on sale in 1959 (the twist).
+  Reply-video answers: the Bel Air had its engine (a straight six; Jalopnik, Sep 2009) and was in good condition with a little
+  engine rust (its former owner, via The Truth About Cars); the two cars weighed about the same. Saturation check of the title: at
+  least 7 near-identical Shorts, best 926K ("What Happens When a 1959 Chevy Hits a Modern Car?", 4 weeks old), the rest 29K–64K, all
+  re-posting the crash footage.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -1076,15 +1143,15 @@ and wastewater treatment, power grid, gas station, roof.
 ## 5. Kickoff prompt, renewed 15/11/26 (paste this to make a video)
 **Renewed 15/11/26:** this is the current version. It replaces the character look with the Cutaway look and its six rules (3.4,
 7.5). Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and effects"
-since the user approved it later on 15 Nov 2026 (3.4). The 11/11/26 version, for the character look, is in the repo history at
-commit `f8bf298`.
+since the user approved it later on 15 Nov 2026 (3.4). The IDEA line names the five ideas of section 2, approved the same day. The
+11/11/26 version, for the character look, is in the repo history at commit `f8bf298`.
 ```
 KICKOFF PROMPT (renewed 15/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <the topic or the title>
+IDEA:   <C1, C2, C3, C4 or C5 from section 2, or your own topic>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
 SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
@@ -1117,7 +1184,10 @@ Fixed choices (3.4):
   version too.
 
 Script rules, on top of section 1:
-- Open with "If you..." and land the first "But" by ~3 s.
+- For an idea from section 2, start from its set, openings, chain and ending there.
+  They are drafts.
+- Open with "If you..." and land the first "But" by ~3 s. If the idea also has a
+  cold-claim opening in section 2, show me both at Gate A.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
 - 7-8 But/So beats that escalate. Name the real term after the key fixes (spoken only).
 - Write for the set: every line must be something we can show happening on the one
@@ -1393,8 +1463,9 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden By Design look, and videos 05–07 were
   made in it.
 - **Format and ideas:** on 11 Nov the user asked for second-person "how to" / "if you…" videos about famous real places and true
-  extreme stories, nothing boring. **Replaced on 14 Nov 2026** by the four "Who wins?" matchups in section 2 (7.3). **On hold since
-  15 Nov 2026:** the user will redo the ideas later, for the Cutaway look.
+  extreme stories, nothing boring. **Replaced on 14 Nov 2026** by four "Who wins?" matchups (7.3), one of which became video 07.
+  **Replaced again on 15 Nov 2026** by the five Cutaway ideas in section 2 (7.6): things with hidden workings, each one place
+  sliced open with something moving through it.
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
   nothing).
@@ -1449,11 +1520,13 @@ engineering, etc I feel like are good topics what do you think? if you have bett
 to stop and wait for approval.
 - **Delivered:** five "Who wins?" matchups (P1–P5), each with hooks, a chain, a verdict question and a Shorts check.
 - **The user's decision (14 Nov 2026):** "I like p1-4 I don't like p5, update claude.md file remove the old video ideas replace with
-  these 4 for now". P1–P4 are now section 2. P5 (a race car on the ceiling) and the ten older ideas were removed; they are in the
+  these 4 for now". P1–P4 became section 2. P5 (a race car on the ceiling) and the ten older ideas were removed; they are in the
   repo history at commit `92a077a`.
-- **Answered at video 07's Gate A:** the cold claim, for P4 (show both openings again for P1–P3). **Still open:** whether "Who wins?"
-  becomes the running series, with a pinned vote on the next matchup (section 2).
-- **Still locked:** the Classic look, the mascot as "you", the 3.4 shot rule (as "one arena, one main view"), the loop ending.
+- **Answered at video 07's Gate A:** the cold claim, for P4. Whether "Who wins?" would become the running series was never
+  answered, and the question went with the list.
+- **Locked at the time:** the Classic look, the mascot as "you", the 3.4 shot rule (as "one arena, one main view"), the loop ending.
+- **What became of it (15 Nov 2026):** P4 was made as video 07 (3.4b). The user then left the character look (7.5) and replaced the
+  list with five Cutaway ideas (7.6). P1–P3, with their chains and checked facts, are in the repo history at commit `c37181e`.
 
 ### 7.4 What gets comments in this format (TikTok, read 14 Nov 2026)
 Read with `yt-dlp --flat-playlist -J https://www.tiktok.com/@<handle>`; each entry carries `view_count` and `comment_count`.
@@ -1495,8 +1568,8 @@ and 98% of the YouTube views. They lead on both platforms, in opposite order: se
 
 **A caution given to the user.** Those two videos differ from the other five in three ways at once: no character, an everyday thing
 with hidden workings as the topic, and the bright cutaway look. The character alone is not proven to be the cause. The whole package
-is what @1hidden_by_design uses (21.1M views on ten videos), so the move is to the package: when the ideas are redone they should
-be that kind of topic (the note at the top of section 2).
+is what @1hidden_by_design uses (21.1M views on ten videos), so the move is to the package. When the ideas were redone later that
+day, they were that kind of topic (section 2, 7.6).
 
 **How the two videos were studied.** Both were downloaded from TikTok and set beside @1hidden_by_design's two biggest (storm drain
 9.9M, roof 4.2M): contact sheets at one frame a second, then `pipeline/analysis/check_video.py` and `under_the_voice.py`. Nothing
@@ -1565,13 +1638,69 @@ access), so price the sound with `estimate_only` at Gate B.
 1080p would cost more; price it at the next Gate B.
 
 **Open after this session:**
-- The idea list (section 2).
+- The idea list: closed later the same day (7.6, section 2).
 - The first video under the new rules. It will show whether start-and-end-frame clips can carry the camera from stage to stage
   (3.4j), and it sets the working recipe for the sound (3.3 Step 6b).
 
 **Closed by the user:** I asked for TikTok's retention graphs for videos 03 and 04 and YouTube's for video 03, to see whether
 viewers leave during the still stretches. The user: "forget about the retention graphs". Don't ask again. (My reading: this covers
-the older asks for watch-time figures in section 2 and 6.3 as well, which now carry the same note.)
+the older ask for watch-time figures in 6.3 as well, which carries the same note. The one in the matchup list went with that
+list.)
 
 **Files.** The scripts are in `pipeline/analysis/`. The two pictures shown to the user (the motion timeline, and captions and
 pointers side by side) were not kept.
+
+### 7.6 Five ideas for the Cutaway look (the user, 15 Nov 2026)
+The list that came out of this is section 2. This is the record behind it.
+
+**The brief.** After the look and the sound were settled (7.5), the user: "give me 5 creative and engaging video ideas following
+the new animation style. the video ideas need to be different something that will keep people watching. before replacing the
+current video selections wait for my approval".
+
+**Delivered:** five ideas, C1–C5, each with an opening line, the cutaway, what changes on it, why people stay, a comment question
+and the rivals; one line of reserves (a nuclear cooling tower, a kitchen grease fire, a wave pool, the Netherlands below sea level,
+how fish get past a dam); and a recommendation to start with C1.
+
+**The user's decision:** "update claude.md file, remove old video ideas and replace them with the new 5. replace c4 with nuclear
+cooling tower". C4 had been landing a jet on an aircraft carrier. The cooling tower was in the reserve line with the note "72M, but
+close to a topic How Building Explained has done". The matchup list that the five replace is in the repo history at commit
+`c37181e`.
+
+**How the ideas were found.**
+- The filter: what our two best videos and @1hidden_by_design's best share (4.2, 7.5). One place that can be sliced open, hidden
+  workings, and something moving along a path the camera can follow. Then a reason to keep watching (a claim that sounds wrong, a
+  true story, an answer that comes late) and a question people can answer in two words (7.4).
+- About thirty topics were put through `pipeline/youtube/yt_saturation.py` as topic searches. Each result is in section 2, under
+  the idea or under "Not in the list".
+- The pattern in the results (my read): on the topics with the biggest Shorts, the leaders are real footage or a person on camera
+  (a plumber, a time-lapse of an arena, a pinsetter filmed from behind, the echo inside a cooling tower), and animated cutaways of
+  the same thing are small or missing. Topics that explainer channels have already animated many times were left out (train
+  wheels, airplane toilets, undersea cables).
+- Facts were checked by web search and marked ✔ or ⚠ in section 2. The cooling tower was searched after the user's message, so
+  the user has seen none of its entry.
+
+**Open after this:**
+- The order. C1 was recommended first; the user has not chosen.
+- C4's title, hook and chain, which the user sees for the first time at Gate A.
+- Every ⚠ in section 2, and the saturation check on each exact title (the searches so far were by topic).
+- Whether C1 overlaps the reference account's sewer video: read its transcript before Gate A.
+
+**Sources for the checked facts** (15 Nov 2026; search summaries, so re-open the page before quoting a number):
+- C1: the Hong Kong Health Bureau on the WHO findings at Amoy Gardens
+  (https://www.healthbureau.gov.hk/en/press_and_publications/press/2003/press030516.htm); This Old House on how a trap loses its
+  water (https://www.thisoldhouse.com/plumbing/how-a-trap-can-lose-water).
+- C2: NBA.com on the postponed game (https://www.nba.com/news/kings-76ers-postponed-court-condensation); the Philadelphia Inquirer
+  on the Wells Fargo Center changeover (https://www.inquirer.com/flyers/wells-fargo-center-changeover-flyers-sixers-20220406.html);
+  NBC Chicago on the United Center's 2,000 pieces.
+- C3: the CDC's lightning safety page (https://cdc.gov/lightning/safety/index.html); NWS New York
+  (https://www.weather.gov/okx/LightningSafetyAwarenessWeek).
+- C4: Historic England and Grace's Guide on Ferrybridge
+  (https://historicengland.org.uk/services-skills/education/educational-images/ferrybridge-c-power-station-3277,
+  https://www.gracesguide.co.uk/Ferrybridge_C_Power_Station); a USGS report for the 32% efficiency and the tower's water use
+  (https://pubs.usgs.gov/wri/1975/0043/report.pdf); an EPA document for 420 gallons per MWh
+  (https://www3.epa.gov/region1/npdes/schillerstation/pdfs/AR-343.pdf); WISE for the share of US reactors with towers
+  (https://wiseinternational.org/labels/nei). How the tower works came from vendor and trade pages, and the shell thickness from
+  an engineering paper the search did not name: both need a better source before Gate A.
+- C5: Wikipedia's Pinsetter article (https://en.wikipedia.org/wiki/Pinsetter); the USBC on string pinsetters
+  (https://bowl.com/news/usbc-certifies-string-pin-bowling-as-independent-competition-effective-august-1,-2023).
+- The carrier idea: HowStuffWorks (https://science.howstuffworks.com/aircraft-carrier4.htm) and Wikipedia's Arresting gear article.
