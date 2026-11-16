@@ -20,8 +20,8 @@ need to step away from the character figure animation and make similar ones to l
 refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
 pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
 and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26 v2**, below). Later the same day they said "yes on the
-sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well:
-five Cutaway ideas (section 2).
+sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well
+(five Cutaway ideas), and replaced on 16 Nov 2026 by five out-of-the-ordinary ideas with draft scripts (section 2).
 
 **First Cutaway video (15 Nov 2026): 08, the sewer trap (idea C1).** Made the same day under the new rules, with the sound: 203.50
 credits against a 219.65 quote, no clip redos (3.4b). Every line has a clip (93% of the running time), but `check_video.py` counts
@@ -58,14 +58,20 @@ artifact as the file `tiktokshop.md`. Read it before any work on TikTok Shop, af
 rules for joining (1,000 followers to apply), the plan to get @overthinkingyearly there, and how our videos are doing on TikTok. The
 account is US-based (the user confirmed on 13 Nov 2026).
 
-**Ideas (approved by the user, 15 Nov 2026): five Cutaway ideas.** C1 why your house doesn't smell like the sewer, C2 the ice rink
-under a basketball court, C3 what lightning does inside your house, C4 what's inside a nuclear cooling tower, and C5 where your
-bowling ball goes. Each is one place sliced open with something moving through it, on a topic whose biggest Shorts are real
-footage, not animation. They are section 2; the brief and the research are in 7.6. The user swapped the fourth proposal (landing a
-jet on an aircraft carrier) for the cooling tower. C1 was made first, as video 08, and C3 second, as video 09; the order of the
-other three is not set.
+**Ideas (approved by the user, 16 Nov 2026): five out-of-the-ordinary ideas, each with a draft script.** X1 there are more people
+under Paris than in it (the catacombs), X2 the town that's been on fire since 1962 (Centralia), X3 the car that split in half and
+caught fire while its driver walked out (Grosjean and the halo), X4 the Alaska town that lives in one building (Whittier), and X5
+why these people are frozen upside down (cryonics). The user asked for ideas with an opening that grabs, like "what happens when
+you fall off a cruise ship", turned down a first five that were all about water, and approved these with their scripts. None is
+about water, and none has been made by Zack D. Films, who owns the "what happens if you…" format on Shorts. They are section 2;
+the brief and the research are in 7.8. The order is not set.
 
-**Ideas before that (14 Nov 2026, removed 15 Nov 2026): four "Who wins?" matchups.** The user had found the earlier ideas and hooks
+**Ideas before that (15 Nov 2026, removed 16 Nov 2026): five Cutaway ideas.** C1 (why your house doesn't smell like the sewer)
+was made as video 08 and C3 (what lightning does inside your house) as video 09; their script facts are in 3.4b. C2 (the ice rink
+under a basketball court), C4 (what's inside a nuclear cooling tower) and C5 (where your bowling ball goes) were not made; they are
+in the repo history at commit `45b7846`, with that list's reserves. The brief and the research are in 7.6.
+
+**Ideas before those (14 Nov 2026, removed 15 Nov 2026): four "Who wins?" matchups.** The user had found the earlier ideas and hooks
 boring and asked for topics that hold viewers and start arguments in the comments (military, vehicles, engineering). One matchup
 became video 07 the same day: 157.25 credits against a 177.68 quote, no clip redos, opened on a cold claim (3.4b, 3.4i). The other
 three were written around the character and went with the list; they are in the repo history at commit `c37181e`. The brief is in
@@ -166,259 +172,248 @@ time, in 44 and 91 separate bursts, and the mix falls 28–33 dB below the voice
 - Pick topics with danger or fame built in. Avoid mundane utilities and "X-proof house" topics.
   Exception (section 4): an everyday thing works when its workings are hidden and it moves something the camera can follow
   (storm drain, 9.2M on @1hidden_by_design). Still avoid things whose workings are visible; the gas station flopped on both accounts.
-  Since 15 Nov 2026 that exception is our main line: our two best videos and the five ideas in section 2 are all of this kind.
+  Since 15 Nov 2026 that exception is our main line: our two best videos and videos 08–09 are all of this kind. The 16 Nov list
+  (section 2) adds strange real places and true stories, each still one place cut open (7.8).
 - Avoid topics the account has already done: nipa hut, Amazon floating house, igloo, levee, nuclear bunker,
   nuclear plant, Chernobyl, White House, Kremlin, particle accelerator, armored truck, gas station, car wash,
   oil well, septic, drive-thru, slot machine, car engine, fire/volcano/earthquake-proof house, Halloween station.
-  One exception, chosen by the user on 15 Nov 2026: the nuclear cooling tower (C4 in section 2). It is the tower only, never a
-  plant build.
+  The user's one exception, the nuclear cooling tower (chosen on 15 Nov 2026), left with that list on 16 Nov 2026. If it comes
+  back, it is the tower only, never a plant build.
 
 ---
 
-## 2. Video ideas (approved 15 Nov 2026): five Cutaway ideas
+## 2. Video ideas (approved 16 Nov 2026): five out-of-the-ordinary ideas, each with a draft script
 
-**Approved by the user on 15 Nov 2026:** "update claude.md file, remove old video ideas and replace them with the new 5. replace c4
-with nuclear cooling tower". C1–C5 below are the whole list. They were proposed the same day for the Cutaway look (3.4). The fourth
-proposal, landing a jet on an aircraft carrier, was swapped by the user for the nuclear cooling tower, which had been named to them
-as a reserve. The four "Who wins?" matchups (P1–P4, approved 14 Nov 2026) were removed: they are in the repo history at commit
-`c37181e`, and video 07's script facts moved to its entry in 3.4b. The brief and the research are in 7.6.
+**Approved by the user on 16 Nov 2026:** "I approve these video Ideas, update the claude.md file, remove the other ideas. then
+stop". X1–X5 below are the whole list. The Cutaway list of 15 Nov 2026 (C1–C5) was removed: C1 and C3 were made as videos 08 and
+09, and their script facts moved to their entries in 3.4b; C2 (the ice rink under a basketball court), C4 (the nuclear cooling
+tower) and C5 (where your bowling ball goes), with that list's reserves and checks, are in the repo history at commit `45b7846`.
+The brief and the research are in 7.8.
 
-- **The brief** (the user, 15 Nov 2026): "5 creative and engaging video ideas following the new animation style. the video ideas
-  need to be different something that will keep people watching."
-- **What the five have in common:** each is one place sliced open with something moving through it nearly the whole time (3.4 Rules
-  1 and 2). Each has a multi-million Short that proves people care about the topic, and in every case that Short is real footage or
-  a person talking, while animated cutaways of it are small or missing (7.6).
-- **What the user has seen:** for C1, C2, C3 and C5, the title, the opening line listed first, the cutaway, what changes on it, why
-  people stay, the comment question and the rivals. The rest (the chain with its terms, the "that's why", the ending, the second
-  opening and the sounds) is my draft for Gate A. For C4 they named the topic only: everything under it is my draft.
+- **The brief** (the user, 16 Nov 2026): "give me 5 creative out of the ordinary video ideas I can create videos about with an
+  attention grabbing entrance or hook to keep users watching (for example what happens when you fall off a cruise ship)". The
+  first five I gave were all about water, and the user said: "all these are water, sea, lake related. mix it up all the ideas
+  don't need to be water related, im asking you to give me creative and attention grabbing scripts and video ideas. redo them
+  then stop". These five are the redo (7.8).
+- **What the five have in common:** an opening claim that sounds wrong and makes you need the answer; a strange real place or a
+  true story; one place that can be cut open like a cake for the travelling camera (3.4); none is about water; none has been made
+  by Zack D. Films, who owns the "what happens if you…" survival scenario on Shorts (7.8); and in each case the biggest videos
+  are real footage, while nobody has animated what a camera can't film.
+- **What the user saw and approved:** for each idea, the title, the cutaway line, the full draft script below (word for word),
+  the comment question and the demand line. The draft camera positions, the sounds, the ⚠ items and the watch-outs are my notes
+  for Gate A.
 - **Rules for these ideas** (on top of sections 1 and 5):
-  1. Opening: section 5 asks for "If you…" with the first "But" by ~3 s. Each idea has that form and a cold claim. Show both at
-     Gate A: the user picked the cold claim for video 07, and C1 was shown to them with its cold claim.
-  2. One cutaway set, described under each idea, seen by a travelling camera (3.4 Rules 2 and 3). Everything in the chain
-     happens on the set, and each problem and fix gets its own camera position on it (3.3 Steps 1 and 2).
-  3. One true story or twist around the two-thirds mark, one "that's why" the viewer can check, and one small living thing or joke.
-  4. A comment question that can be answered in two words. It goes in the TikTok caption or a pinned comment, never in the
-     voice-over (4.2: no spoken call to action).
-  5. The sounds listed are a starting point for the bed and the effects (3.3 Step 6b).
-  6. Never plant a mistake to bait corrections.
-- **Chains are drafts:** ✔ was checked by web search on 15 Nov 2026; ⚠ still needs checking before Gate A. Rerun the saturation
-  check on the exact title before Gate A (6.7): the numbers below come from topic searches.
-- **Order:** C1 was made first, as video 08, and C3 second, as video 09 (both 15 Nov 2026). The order of C2, C4 and C5 is not set
-  by the user. C5 is the hardest to draw.
-- **Before the next one** (3.4k, 7.7): plan each idea's camera path through the set like the power-lines video: 8–12 camera
-  positions, a real still for each, the camera flying in to each change and away again, and what moves big in the frame. In
-  video 08 the main view was the whole house, and everything that moved (water inside a pipe, faint haze, a small rat) was too
-  small in it for `check_video.py` to count.
+  1. Each script opens on a cold claim and goes straight into "If you…", so its first "But" lands at about 5–8 s, later than
+     section 5's ~3 s. At Gate A, show the script as approved next to a tightened opening that reaches the first "But" by ~3 s,
+     and let the user pick (they chose the cold claim for videos 07 and 09).
+  2. One cutaway set per idea, seen by a travelling camera (3.4 Rules 2 and 3), with each problem and fix at its own spot. The
+     camera positions listed are a first draft for the beat sheet (3.3 Step 2). None of these sets is a water set, so the STYLE
+     line's translucent cyan water stays out of them (say "there is no water anywhere" in the prompts: 3.4l).
+  3. Real people and real deaths: one sentence each, nobody shown hurt, no faces of real people, and no logos, team names or
+     company names on screen.
+  4. The comment question goes in the TikTok caption or a pinned comment, never in the voice-over (4.2).
+  5. ✔ was checked by web search on 16 Nov 2026 (search summaries: reopen the page before quoting); ⚠ still needs checking
+     before Gate A. Never plant a mistake to bait corrections.
+  6. Before Gate A, run the saturation check on the exact title (6.7) and search "zack d films" with the topic: the numbers
+     below come from topic searches.
+- **Order:** not set by the user.
 - **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
-  of ours stopped (the 15 Nov snapshot in 6.1: five of our seven are under 1.7K on TikTok and under 2.1K on YouTube); comments per
-  1,000 views beat our 0.23 (9 comments on 38.9K TikTok views); saves and shares per 1,000 views beat seawater's 1.9 and 1.1.
+  of ours stopped (under about 2K views, 6.1); comments per 1,000 views beat our 0.23; saves and shares per 1,000 views beat
+  seawater's 1.9 and 1.1.
 
-**C1. Why Your House Doesn't Smell Like the Sewer It's Connected To** — **USED: made as video 08 on 15 Nov 2026** (3.4b, 3.4k).
-- As made: opening A ("If you pipe your sink straight into the sewer, it drains."), 274 words, five problems and five fixes (trap,
-  vent, running the water, trap primer, rat blocker), the Hong Kong story told over our own bathroom, and the ending as drafted.
-  The script is `pipeline/08-script.txt`. Every ⚠ below was checked or cut at Gate A: induced siphonage and the roof vent
-  (plumbing code guides); the toilet bowl's water as its own trap; trap primers (California's plumbing code requires them on
-  floor drains that are rarely used); rats swimming the sewer, climbing a 3-inch pipe and swimming through a toilet's bend
-  (National Geographic, video, 2015); a rat blocker as a one-way flap where the house drain meets the sewer. Cut: the washer
-  gurgle (needs a washing machine on the set), the backwater valve (a different flap, needs a basement), how long a rat holds its
-  breath (sources give 30 s to 15 minutes) and the SARS death toll. Saturation on the exact title: no Short uses it; about eight
-  animated U-bend explainers (best "Why Every Sink Pipe Has a U-Bend", 211K and climbing), none with the vent, Hong Kong or rats;
-  rat-in-toilet Shorts reach 15M. The reference account's sewer video (309K) covers the street sewer and treatment works, with no
-  traps, vents or rats.
-- Set: a two-storey house sliced open like a cake: a bathroom upstairs, a kitchen below, the drain stack inside the wall and the
-  sewer under the street. Cyan water sits in every bend. Sewer gas is a faint yellow-green haze, the one thing in the video that is
-  drawn to be seen.
-- Hook (as shown to the user): "There's an open pipe from the sewer to your kitchen. One cup of water is in the way." "If you…"
-  form: "If you connect your sink straight to the sewer, the water goes down. And the sewer comes up."
-- Chain: a straight pipe lets sewer gas rise into the room (hydrogen sulfide, methane ✔) -> bend the pipe so a plug of water sits
-  in it (TRAP) -> a flush upstairs rushes down the stack and sucks the plug out (SIPHON) ⚠ -> add a pipe that lets air in behind the
-  water, up through the roof (VENT) ⚠ -> a bathroom nobody uses: the plug evaporates in about a month ✔ and the smell is back -> run
-  the tap; some floor drains top themselves up (TRAP PRIMER) ⚠ -> the water stops gas, not a rat, which can swim through the bend ⚠
-  -> a one-way flap on the sewer line ⚠.
-- Twist (true story): in 2003, in one Hong Kong housing estate, floor-drain traps had dried out. The WHO team found that this left
-  an open connection to the soil pipe, and that bathroom fans drew contaminated droplets into the flats ✔. More than 300 people were
-  infected ✔.
-- That's why: the pipe sticking out of your roof; the gurgle in the sink when the washing machine drains ⚠; the smell in a guest
-  bathroom.
-- Ending: "Bend the pipe, let it breathe, and keep it wet."
-- Comment question: "Which drain in your house smells?"
-- Sounds: the bed is a quiet house; a flush, a gurgle, water running down a pipe, a drip.
-- Why it should work: it is closest to our two best videos (a house, pipes, water); the premise is personal and a little creepy;
-  three reveals get bigger (your roof, Hong Kong, the rat); and it ends on a tip people save and pass on.
-- Shorts: plumbers on camera reach 21M ("BEST WAY to Detect a Sewer Odor"), 2.6M ("Plumbing Vent Demo Tips") and 2.2M. Animated
-  ones: "Why Every Sink Pipe Has a U-Bend" had 186K after two days (a rival that is rising), then 51K, 45K and eight more at 21K or
-  less. 6.3 lists the P-trap as done; ours is the whole drain-and-vent system, with the Hong Kong story.
-- Checked ✔: the WHO findings at Amoy Gardens, and 321 cases by 15 April 2003 (the death toll differs by source, 35 to 42: leave
-  it out); traps dry out in two weeks to several months, typically three to four weeks; what sewer gas contains (one source). The
-  search found nothing on the rat: check it or cut it. Watch out: a real outbreak with real dead, so one sentence and no pictures
-  of people; the haze must not read as fire or smoke. The reference account has a sewer video (4.1: "You flush. It disappears.
-  Here's where it actually goes.", 303K) that follows the waste out to the treatment works (4.6); ours stays inside the walls of
-  the house. Read its transcript before Gate A and keep clear of what it covers.
+**X1. There Are More People Under Paris Than In It** (history, underground: the catacombs of Paris)
+- **Set:** one Paris street cut open like a cake: houses and a cemetery on top, pale limestone below, the old quarry tunnels with
+  their rock pillars, and the walls of bones. The camera drops from the street into the tunnels.
+- **Script** (draft as approved; 248 words, ~71 s at 3.5 words/s):
 
-**C2. There's an Ice Rink Under This Basketball Court**
-- Set: an arena floor sliced open like a cake: a concrete slab with chilled pipes in it, the ice, insulating panels, the hardwood
-  court. The seats rise behind. The layers stack up and come off in place, so the stage ladder is the video.
-- Hook (as shown to the user): "If you want hockey and basketball in one building, you freeze a rink. And you never melt it." Cold
-  claim: "There's an ice rink under this basketball court. It has been there all season."
-- Chain: you can't dribble on ice -> cover it with insulated panels ✔ and piece the court together on top like a puzzle ✔ -> the
-  cold seeps up and the crowd's warm, wet air turns to water on the wood (CONDENSATION) ✔, and players slip -> dry and cool the
-  air ⚠ -> the hockey boards and glass are in the way -> they lift out in sections ✔ -> tomorrow is hockey -> take it all off again
-  in a few hours ✔ -> the ice is scarred -> a machine shaves it and lays a thin skin of hot water (ICE RESURFACER) ⚠.
-- Twist (true story): on 30 Nov 2016 an NBA game in Philadelphia was called off. Hockey had been played the night before, the ice
-  was under the court as usual, the day was warm and humid, and the floor would not stay dry ✔.
-- That's why: the ice looks white because it is painted ⚠; the same building holds hockey one night and basketball the next.
-- Ending: "Freeze the floor, cover it over, and swap it by morning."
-- Comment question: "Hockey or basketball: which is your arena better at?"
-- Sounds: the bed is an empty arena; skates, the resurfacer, panels dropping, a bouncing ball.
-- Why it should work: the layers are a cake already, so the cutaway explains itself; there are two fan bases; the surprise comes in
-  the first three seconds and a true story pays it off.
-- Shorts: 7.4M ("These basketball courts are ice rinks!"), 2M and 495K, nearly all time-lapses of the changeover. Explainers top
-  out at 78K ("How Ice Hockey Rink turn into NBA Court") and 43K ("The Engineering Secret Beneath Ice Rinks").
-- Checked ✔: the boards and glass come out, insulated plywood goes over the ice, and the court is pieced together on top; the ice
-  stays down all season (Ball Arena); a three-hour window on double-header days (Wells Fargo Center), with other arenas quoting two
-  to ten hours; more than 2,000 pieces in the United Center's changeover; the Kings–76ers postponement (called off at 8:03 pm,
-  replayed on 30 Jan 2017). The Kohl Center's ice is an inch and a half thick; NHL ice thickness ⚠. Watch out: no team names or
-  logos on the court or the ice; the workers are small and anonymous.
+  > There are more people under Paris than living in it. About six million of them.
+  >
+  > If you want stone to build a city, you dig it out of the ground right underneath. Paris does that for centuries. But every block you cut out leaves a hole, and the holes join up into tunnels under the streets. So you leave pillars of rock to hold up the roof. These are quarries. But nobody keeps a map, and the city keeps building on top. In 1774, a street called Rue d'Enfer, Hell Street, drops into the ground. So the king sends men down to map the tunnels and prop them up with stone walls. That's why Paris still has a team whose only job is checking under its streets.
+  >
+  > But there's a second problem up top. The cemeteries are full, and next to the biggest one, cellar walls start giving way. So you need room for the dead, and under the city there are over a hundred miles of empty tunnels. From 1786, carts covered in black cloth carry the bones across Paris at night, with priests walking behind. Down below, workers stack them into walls. Thigh bones in rows. Skulls in lines. This is an ossuary. In 1793, a man goes down alone and gets lost. He's found eleven years later. Above the way in, a sign still says: Stop. This is the empire of death.
+  >
+  > Dig out the stone, prop up the street, and move the dead in.
 
-**C3. What Lightning Does Inside Your House** — **USED: made as video 09 on 15 Nov 2026** (3.4b, 3.4l).
-- As made: opening B, the cold claim ("Everyone's heard it: don't shower in a thunderstorm. Here's what the bolt actually does."),
-  chosen by the user at Gate A; 270 words; four fixes (lightning rod with its cable and ground rod, bonding, a surge protector at
-  the panel, waiting out the storm to shower); the twist is the CDC's third of injuries indoors; "that's why" is the mom-and-the-bath
-  joke, with a rubber duck in the tub. The script is `pipeline/09-script.txt`. Every ⚠ below was checked or cut at Gate A: wiring,
-  plumbing and phone lines as paths (NWS); rods catch strikes already coming and do not attract them (NOAA, LPI); ground rods at
-  least 8 ft, often 10 ft deep (said as "deep"); side flash and bonding (LPI, NFPA 780 via trade sources); surges in on the power
-  line (State Farm, Exponent); the surge protector at the panel (NEC 2020 230.67, not said). Cut: the Empire State Building, "300
-  million volts" and "hotter than the sun" (other pictures), the NWS expert's no-deaths remark (not found on an official page), the
-  plastic-pipe nuance (kept for replies), rods every 20 ft and two down conductors (secondary sources only), corded phones.
-  Saturation on the exact title: about 8 near-identical Shorts, best 15K (a builder on camera); animated ones 1K or less. Two rivals
-  in our format had the rod basics this autumn (HowYouBuild "How a Lightning Rod System Really Works" 7.9K, 8 Nov; Gen Z Films "How a
-  Metal Stick on Your Roof Becomes a Lightning Rod" 1.7K, 23 Oct), so the script led with the shower, the side flash and the pole.
-- Set: a house sliced open in a storm: the roof, the wiring in the walls, the copper pipes, a running shower, and the soil below.
-  The bolt is a white-blue streak that takes a new route after each fix. The storm is a re-grade of the daylight set (3.4 Rule 4).
-- Hook (as shown to the user): "If lightning hits your house, it has to reach the ground. The easiest way down might be your
-  shower." Cold claim: "Everyone has heard it: don't shower in a thunderstorm. Here's what the bolt actually does."
-- Chain: a strike on the roof hunts for the ground through whatever conducts: wiring, pipes, wet wood ⚠ -> give it a better road:
-  a metal rod on the ridge (LIGHTNING ROD), a thick cable down the outside wall (DOWN CONDUCTOR) and a rod deep in the soil (GROUND
-  ROD) ⚠ -> 30,000 amps ✔ do not all take one road, and some jumps to nearby metal (SIDE FLASH) ⚠ -> tie the pipes and the wiring
-  to the same ground (BONDING) ⚠ -> it can also arrive from the street, riding in on the power line ⚠ -> a surge protector at the
-  panel ⚠ -> the water pipes still reach every room, and you are standing in the shower.
-- Twist: about a third of lightning injuries happen indoors ✔ (CDC). Say injuries, not deaths: an NWS expert reportedly knows of
-  no death tied to indoor plumbing in fifteen years ⚠.
-- That's why: don't shower, bathe or wash dishes in a thunderstorm ✔ (CDC; plastic pipes may carry less risk, and the advice still
-  stands ✔). Aside: the Empire State Building is hit about 23 times a year ✔.
-- Ending: "Catch it high, carry it down, and bury it deep."
-- Comment question: "Do you shower during a storm? Yes or no."
-- Sounds: the bed is steady rain on a roof; thunder, a crack, a hum in the wires, the shower.
-- Why it should work: it is a rule everyone has heard and half of them doubt; the bolt stops at the roof in the first two seconds
-  and the question is which way down; the argument writes its own comments.
-- Shorts: "Should You Shower During A Thunderstorm?" 20M and "Is it safe to shower during a thunderstorm?" 4.8M, then about a dozen
-  "never shower in a thunderstorm" copies at 12K–56K each. None follows the bolt through a cutaway house.
-- Checked ✔: the CDC advice and its one-third figure; about 300 million volts and 30,000 amps, heating the air to about 50,000 °F
-  (NWS; some sources say 54,000 °F); the Empire State Building's 23 strikes a year (NWS New York). Watch out: do not say that rods
-  attract or repel lightning; electricity is harder to animate than water, so make the pilot clip the bolt travelling down the
-  cable; nobody is shown hurt.
+- **Comment question:** "Would you go down there? Yes or no."
+- **Draft camera positions:** the street, wide → down a shaft into a quarry gallery → the rock pillars → the 1774 collapse seen
+  from below → inspectors building stone walls → the cemetery wall from the cellar side → the carts at night, at street level →
+  the shaft the bones go down → the walls of bones → the gallery where the man got lost → the sign over the entrance → back up
+  to the street, wide.
+- **Sounds:** the bed is a dripping stone tunnel; cart wheels on cobbles, creaking props, rubble falling for 1774, footsteps, a
+  candle flame.
+- **Demand** (16 Nov 2026): real footage leads: "we actually found the catacombs…" 22M on Shorts, then 2.4M (a facts iceberg
+  Short), 2.1M and 1.8M; long videos 15.7M, 5.7M and 2.7M. No animated cutaway of the quarries or of how the bones got there.
+  Zack D. Films: no catacombs Short found.
+- **Checked ✔:** "more than six million" people's remains (other sources: "around six million"), against about 2.1 million living
+  Parisians; limestone quarried under the city for centuries; in 1774 the ground under the rue d'Enfer gave way (sources give
+  April or December 1774, one gives 1777); the quarry inspectorate founded in 1777 under Louis XVI; cellar walls collapsing
+  around the Holy Innocents' Cemetery, the biggest source of bones, in 1774 (one source); transfers from April 1786 (some say
+  1785), at night, in carts draped in black, escorted by priests; 200–300 km of tunnels in all; Philibert Aspairt, lost on 3 Nov
+  1793 and found eleven years later (his tombstone); "Arrête! C'est ici l'empire de la mort" over the ossuary's entrance.
+- **⚠ before Gate A:** that the inspectorate (the Inspection générale des carrières) still checks the tunnels today; the cellar
+  collapses (one source says 1774, others 1780); the bone walls were arranged from about 1810, so "workers stack them into
+  walls" compresses decades; "Hell Street" is the literal meaning of rue d'Enfer, though the name's origin is debated.
+- **Watch out:** bones in walls only: no bodies, no gore. No tour company names.
 
-**C4. What's Inside a Nuclear Cooling Tower? (Almost Nothing)** (the user's pick on 15 Nov 2026, in place of the aircraft carrier)
-- The user named the topic ("nuclear cooling tower"). The title, set, hook, chain and ending below are my draft, written after
-  their message; they have not seen them. Gate A is where they do.
-- Set: one cooling tower sliced open like a cake beside a river, with a plain plant building behind it. Inside: rain falling
-  through a ring of slats near the bottom, a pool underneath, and nothing above but rising mist. The reactor is never shown.
-- Hook (draft): "If you boil water to spin a turbine, you have to cool it down again. And that giant tower is almost empty." Cold
-  claim: "The most famous shape in nuclear power is an empty tube. And that isn't smoke."
-- Chain: only about a third of the heat becomes electricity ✔, and the steam must turn back into water -> run cold river water
-  past it (CONDENSER) ⚠ -> the river comes back hot ⚠ -> cool the cooling water yourself: rain it over stacked slats (FILL) so a
-  little evaporates and carries the heat away (EVAPORATION) ✔ -> still air cools nothing, and fans would eat your power ⚠ -> build a
-  chimney around the rain: warm, wet air rises on its own and drags cold air in at the open base (NATURAL DRAFT) ✔ -> a thin chimney
-  that tall has to stand in a gale -> pinch the waist: the curve keeps a concrete shell 6 to 7 inches thick ✔ stiff (HYPERBOLOID) ✔
-  -> the wind carries droplets out of the top -> baffles catch them (DRIFT ELIMINATORS) ✔ -> about 2% of the water leaves as vapour
-  on each pass ⚠, thousands of gallons a minute ✔ -> top it up from the river (MAKEUP WATER) ⚠.
-- Twist (true story): in 1965, at Ferrybridge in England, three of eight towers blew down in one gale ✔. They stood close together
-  and had been designed for average winds, not gusts ✔.
-- That's why: the white plume is a cloud, not smoke ✔, and it is bigger on cold days ⚠. This water never goes near the reactor ⚠.
-  Coal and gas plants use the same towers, and many nuclear plants have none (about 40% of US reactors recirculate through towers
-  and 46% take river or sea water once through: one undated source, recheck ⚠).
-- Ending: "Rain it down, draw the air up, and let it drift away."
-- Comment question: "Did you think it was smoke?" or "Would you live next to one?"
-- Sounds: the bed is rain inside a huge hall (the 72M Short is about that echo); pumps starting, a gust, a low rumble for 1965.
-- Why it should work: it has the biggest proven demand for the inside of the thing; it is the simplest shape of the five to draw
-  and keep steady; rain and mist move the whole time; and nuclear power is argued about (7.4: How Building Explained's nuclear plant
-  drew 1.0 comments per 1,000 views against 0.31 for the account).
-- Shorts: "Inside a Nuclear Plant Cooling Tower: The Wildest Natural Reverb" 72M (real footage), "What Really Happens Inside a
-  Cooling Tower" 1.9M, a Hindi animation at 1.1M, and "What's Inside A Nuclear Cooling Tower?" 173K, the nearest title. The shape
-  alone is worn out: a dozen "Why are cooling towers shaped like that?" copies sit at 1.1K–8.8K, and "smoke or steam" ones at
-  1.3K–33K. Long video: Practical Engineering, 9.5M. So lead with the empty inside.
-- Checked ✔: no fans, the warm moist air rises and pulls cooler air in; fill spreads the water out; evaporation is the main
-  cooling; drift eliminators are baffles; the plume is water vapour condensing; Ferrybridge on 1 Nov 1965 (sources give gusts of 70
-  to 100 mph, so say "a gale"); shells 16–18 cm thick at the waist; the shape's stiffness; about 32% efficiency; about 420 gallons
-  evaporated per MWh (EPA), which is roughly 7,000 gallons a minute for 1,000 MW. Still to check ⚠: the evaporation share (one
-  vendor page gives 1.8% of the circulating flow per 10 °C of cooling); that the shell above the fill is empty (consistent with the
-  design, not yet in a written source); "thinner than an eggshell for its size" (work it out before using it); the tallest tower.
-- Watch out: How Building Explained has built a nuclear power plant (976K on TikTok when studied, 1.4M on YouTube), and section 1
-  lists that as a topic to avoid. The user chose this one all the same, after being told it was close to that topic: ours is the
-  tower only, never a plant build, and uses none of their wording. No radiation symbols and no real plant names. Call the plume a
-  cloud; water vapour itself is invisible.
+**X2. The Town That's Been On Fire Since 1962** (disaster, ghost town: Centralia, Pennsylvania)
+- **Set:** one small-town street cut open: houses, the gas station and the old dump on top; coal seams and old mine tunnels below,
+  glowing orange under the houses. The camera dives through a steaming crack into the fire.
+- **Script** (draft as approved; 251 words, ~72 s):
 
-**C5. Where Does Your Bowling Ball Go?**
-- Set: the far end of a bowling lane sliced open lengthwise: the pin deck, the pit behind it, the machine above, and the return
-  track under the lane. The camera follows the ball home under the boards (3.4 Rule 3).
-- Hook (as shown to the user): "If you roll a ball down a lane, somebody has to stand the pins back up. And send your ball home."
-  Cold claim: "Behind that little wall is a machine with twenty pins in it. You only ever see ten."
-- Chain: for decades it was a boy sitting above the pit (PIN BOY) ✔ -> build a machine behind the wall (shown in 1946, in full
-  production by 1952 ✔) -> the ball hits a padded curtain, drops, and is fired back along a track under the lane (BALL RETURN) ⚠ ->
-  the pins are a heap -> a wheel lifts them (PIN ELEVATOR) ✔ and a tray drops each into one of ten slots (DISTRIBUTOR) ✔ -> three
-  are still standing -> the table comes down over them ✔, a bar sweeps the fallen ones away (SWEEP) ✔, and the table sets them
-  back where they stood ⚠ -> the next frame cannot wait -> the machine holds 20 pins, so a full rack is always ready ✔.
-- Twist: the lane hides something too: a film of oil laid in a pattern you cannot see ⚠, which is why your ball hooks at the
-  end ⚠. And many alleys are replacing the whole machine with pins on strings ✔.
-- That's why: the pause before your ball comes back; the ring of oil on the ball ⚠.
-- Ending: "Catch the ball, lift the pins, and set them up again."
-- Comment question: "Strings or free-fall?"
-- Sounds: the bed is the hum of a bowling alley; the roll, the crash, the sweep, the ball arriving in the rack.
-- Why it should work: it has the biggest raw demand of all; you want to see the ball come back; and bowlers argue about strings.
-- Shorts: 62M ("Ever wondered how the pins got put back?"), 25M, 24M ("This is what a bowling ball sees"), 4.9M and 2.6M ("How does
-  a bowling pinsetter work?"). One rival uses our kind of second-person build: "How you invented the bowling pinsetter!" 579K. Long
-  videos: Veritasium 19.1M, "How a Bowling Alley Works" 7.2M.
-- Checked ✔: the four main parts (sweep, pin elevator, distributor, pin table); 20 pins a machine; pin boys; the AMF dates; a ball
-  accelerator sends the ball back (its route under the lane was not found: ⚠); string pinsetters certified by the USBC as their own
-  category from 1 Aug 2023, with strike rates first measured 7.1% lower and later found comparable, and over 100 approved
-  installations among about 3,500 certified centers (Nov 2025).
-- Watch out: there is no water, so it leans on motion alone; machinery is the hardest thing for the image model to draw correctly,
-  so reduce it to six parts (curtain, return track, elevator wheel, distributor, pin table, sweep) and prove them in the pilot; no
-  brand names on the machine.
+  > This town has been on fire since 1962. You can't see the flames. They're under the ground.
+  >
+  > If you want to get rid of a town dump, you burn it. Centralia, Pennsylvania, does that in May 1962. But the dump sits in an old mine pit, and under the pit is coal. The fire slips into the old tunnels and starts eating the coal. This is a mine fire. So you fight it. You dig trenches. You pump in water and crushed rock. But the rock down there is full of cracks. The water drains away, and the fire just goes around. Coal burns slowly underground, with almost no air, for years.
+  >
+  > So the ground starts to cook. In 1979, the mayor checks the tank under his gas station. The fuel inside is 172 degrees. Smoke rises through cracks in the road, and poison gas creeps into basements. In 1981, a 12-year-old boy is in his grandmother's yard when the ground opens under him. The hole is about 150 feet deep and full of gas. His cousin pulls him out. So the government pays 42 million dollars to move the town away. The houses come down. In 2002 it even loses its zip code. Five people still live there. That's why steam still rises out of the ground there in winter, and why a horror movie modeled its ghost town on it. The fire could burn for another 250 years.
+  >
+  > Light the dump, find the coal, and burn for 250 years.
 
-**Not in the list (15 Nov 2026):**
-- **Swapped out by the user:** landing a jet on an aircraft carrier, "What Stops a Jet in Two Seconds" (it was C4; "replace c4 with
-  nuclear cooling tower"; they gave no reason). Its opening was "If you land a jet on a ship, you have about 300 feet to stop. So
-  you floor it.", and the hidden part was the arresting engine under the deck. Shorts of real landings reach 22M, 8.4M and 7.5M,
-  and ten or more cover "why pilots go full throttle" (best 260K). Checked ✔: 54,000 lb at 150 mph stopped in two seconds within
-  315 ft; the wire runs to hydraulic engines below deck; full power at touchdown in case the hook misses; the deck cable is
-  replaced every 100–125 landings. My reading: don't offer it again unless they ask.
-- **Held in reserve** (named to the user in one line, with the cooling tower): a kitchen grease fire and why water makes it explode
-  (6.7M, 5.8M; the safety claims need care, and a platform may limit a fire that is shown); a wave pool's hidden chambers (47M, 30M,
-  24M, all real footage; a summer topic); the Netherlands below sea level (3.8M; long videos 3.7M and 3.6M); how fish get past a
-  dam (16M; the salmon cannon 147K).
-- **Checked and not picked:** undersea internet cables (7.3M, 3.7M: crowded); train wheels as cones (68M: done to death); airplane
-  toilets (40M: crowded); why McDonald's Coke tastes different (45M, 20M: led by the brand, and crowded); New York's street steam
-  (9.3M, 917K: one big rival); Tokyo's flood tunnel (14M, 170K: too close to the reference's storm drain); the Fukuoka sinkhole
-  fixed in a week (664K, 39K); airport luggage (118K; long videos 5.2M); the inside of a fire extinguisher (9.6M); why a water
-  heater doesn't explode (1M; MythBusters 1.3M); roller coasters staying on the track (1M) and their clicking (no Shorts found;
-  long 518K); NFL fields heated from below (2.8M, 120K); Disney's trash tubes (no Shorts found; long 1.4M; brand caution). Weak on
-  Shorts: escalator steps (four copies of the exact title at 1.4K–3.3K, though long videos have 19.9M and 17.1M), frozen pipes
-  (26K), potholes (10K), fire sprinklers (5.6K).
-- **From the matchup list (14 Nov 2026):** rejected by the user: a race car driving on the ceiling ("I don't like p5"). Don't
-  propose it again unless they ask. Removed with the list on 15 Nov 2026: one modern tank against 100 Tigers, the Swedish submarine
-  that "sank" a carrier in a war game, and the Toyota War pickups. Their chains, facts and Shorts numbers, the eight topics checked
-  that day, and the note on TikTok's weapon rules (firearms and explosives are restricted; tanks, ships and jets in animation are
-  not named either way) are in the repo history at commit `c37181e`.
+- **Comment question:** "Would you live there for free? Yes or no."
+- **Draft camera positions:** the town, wide → the dump in the old pit → down into the coal seam → the trenches → the cracked rock
+  where the water drains → the tank under the gas station → steam through the road → the grandmother's yard as it opens → houses
+  coming down → the few houses left → steam in winter → the town, wide.
+- **Sounds:** the bed is wind along an empty street; a low roar under the ground, hissing steam, the ground giving way, a
+  bulldozer.
+- **Demand:** "The Town on Fire for 60 Years 🔥 Centralia 📍Pennsylvania" 20.9M (GeoGlobeTales, a facts Short), visits 2.9M, 737K
+  and 208K; long videos 4.3M, 4.2M and 1.5M (Discovery UK, on the horror-film link). The fire is underground, so footage shows
+  only smoke: the cutaway shows what no camera can. Zack D. Films: none found.
+- **Checked ✔:** the fire traced to May 1962, when the town burned its dump in an abandoned strip-mine pit (historians disagree on
+  the exact trigger, so the script tells the usual account); flushing with crushed rock and water, and digging the coal out,
+  tried without success; the fractured rock lets water drain away; 1979, the mayor's gasoline at 172 °F; 14 Feb 1981, Todd
+  Domboski, 12, fell into a hole about 150 ft deep (sources give 42 m to 150 ft) full of carbon monoxide, and his cousin pulled him
+  out; more than $42 million approved by Congress to move the residents (1983 or 1984); the ZIP code discontinued in 2002
+  (Pennsylvania's DEP says 2003); 5 residents in 2020; "could burn for another 250 years" is a projection; the 2006 horror film's
+  town was inspired by Centralia (its screenwriter researched it).
+- **⚠ before Gate A:** how the fire reached the coal (the usual account: an unsealed hole in the pit); gas in basements (carbon
+  monoxide: find a source); that the houses were pulled down after the buyout.
+- **Watch out:** "172 degrees" is Fahrenheit (our audience is in the US). The film is not named. The cracked "Graffiti Highway"
+  was buried in 2020, so the "that's why" is the steam. The boy is not named, and nobody is shown hurt.
 
-### Checked and left out earlier (crowded on Shorts, 11 Nov 2026)
-Tsunami builds ("How a Hole on a Beach Becomes a Tsunami Tower" 8.8M, tsunami tower 947K, tsunami wall 130K, survival capsule 2.9M), how to
-survive a tsunami (33M), the Fudai floodgate (20M, 9.8M), oil-well fires with explosives (10M) and the Big Wind jet tank (382K), Kola borehole
-(27M), Costa Concordia salvage (5.4M), Persian yakhchal ice (4.1M), Biosphere 2 (5.1M), escaping a sunken submarine (21M), Kansai airport
-(8.4M), ice roads (4M; "why they drive so slow" 1M), Machu Picchu's hidden underground (1.8M), Cheyenne Mountain ("How a Mountain Becomes a
-Secret Base" 81K), the Chile miners (1.3M three weeks ago; "How a Tiny Hole Saved 33 Trapped Miners" posted 10 Nov), floating bridges ("How
-a Lake Becomes the World's Longest Floating Highway" 220K), the Hanging Temple (532K), Ski Dubai (191K), Troll A ("from a stick to Troll A" 20K).
-Open but not picked: Uros reed islands (best 18K), Yakutsk on permafrost (41K), Sealand (219K), Halley VI (137K), Everest icefall (footage).
+**X3. This Car Split in Half and Caught Fire. The Driver Walked Out.** (vehicles, true story: Romain Grosjean, Bahrain, 29 Nov
+2020)
+- **Set:** one corner of the track cut open: the triple steel barrier, the car's carbon tub with a small driver in a helmet (no
+  face), the fuel cell behind him, the marshals and the medical car. The camera rides into the barrier with the car, then swings
+  into the cockpit.
+- **Script** (draft as approved; 248 words, ~71 s):
+
+  > This car hit a steel barrier at 119 miles an hour, split in half and burst into flames. The driver walked out.
+  >
+  > If you want a driver to survive that, you put him in a carbon fiber tub. This is the survival cell. But in Bahrain in 2020, on the first lap, Romain Grosjean clips another car and spears into the barrier. The peak force is 67 times his own weight. The car punches through the steel. The back half, with the engine, tears away, and the fuel tank splits. So why is he alive? First, the tub holds. It jams between the rails of the barrier. Second, a bar over his head shoves the steel up and over his helmet. This is the halo. But now he's sitting in a fireball, and his left foot is stuck. So he pulls his foot free and leaves his boot behind. His fireproof suit buys him time. After about 27 seconds he climbs out, with burns on his hands. Marshals blast him with extinguishers, and the medical car is already there.
+  >
+  > Here's the twist. When the halo arrived two years earlier, people called it ugly. One team boss said that if you gave him a chainsaw, he'd take it off. Grosjean had doubts too. From his hospital bed, he called it the greatest thing Formula One ever brought in. That's the bar you see over every Formula One cockpit.
+  >
+  > Wrap the driver, shield the head, and let him walk out.
+
+- **Comment question:** "Halo: ugly or genius?"
+- **Draft camera positions:** the track, wide → behind the car through the corner → the barrier from the side → the impact → the
+  back half tearing away → the tub jammed in the rails → the halo over the helmet → inside the cockpit, the foot stuck → the
+  driver climbing out of the fire → the marshals and the medical car → the halo, close → the track, wide.
+- **Sounds:** the bed is a race-track crowd with engines far off; the impact, tearing metal, the whoosh of fire, extinguishers,
+  a siren.
+- **Demand:** real footage leads: "Romain Grosjean - The Man That Walked Out of Fire🔥" 2.4M, then 965K, 497K and 216K on Shorts;
+  long videos 9.7M (the drivers' radio reactions), 5.0M (his interview) and 2.5M. No animated cutaway; Zack D. Films: none found.
+- **Checked ✔** (the FIA report of March 2021, via press coverage): impact at 192 km/h (119 mph) at 29°, peak 67 g; the survival
+  cell, seat, headrest and halo all worked; the halo pushed the barrier up over his head, and the cell jammed between it and the
+  bottom rail; the fire came from the power unit separating from the survival cell, and the FIA moved to stop fuel bladders
+  splitting; his left foot was trapped and he pulled free, leaving his boot behind; 27 seconds to free himself (many outlets say
+  28); the medical car on site within 11 seconds; burns on his hands; the halo arrived in 2018; Toto Wolff, Feb 2018: "if you give
+  me a chainsaw I would take it off"; Grosjean had doubts about the halo at first and, from his hospital bed, called it the
+  greatest thing brought to Formula One.
+- **⚠ before Gate A:** many outlets give 137 mph (221 km/h): check whether that was his speed before the barrier (the script uses
+  the FIA's 119 mph at impact); "the fuel tank splits" (implied by the FIA's change; confirm in the report).
+- **Watch out:** a real, named person: helmet only, no face; no team colours, names or logos on the car, and no Formula One logo.
+  A car on fire is shown: check TikTok's rules on fire before Gate B. The user turned down a race car on the ceiling on 14 Nov
+  2026 (section 2, "Not in the list"); this is a true crash story, not a stunt.
+
+**X4. The Alaska Town That Lives in One Building** (strange place: Whittier, Alaska)
+- **Set:** one mountain valley cut open: the rail-and-road tunnel through the mountain, the 14-storey tower cut open floor by
+  floor, the school across the street with a tunnel under it, and snow. The camera flies through the tunnel, up the tower and
+  under the road.
+- **Script** (draft as approved; 257 words, ~73 s):
+
+  > Almost everyone in this town lives in the same building. And the only road out closes at night.
+  >
+  > If you need a port in Alaska during World War Two, you build one at Whittier. But there's no road in. Just a mountain. So the Army blasts a tunnel through it for trains. Two and a half miles of rock. But the people who work here need somewhere to live, through long, snowy winters. So the Army builds one giant tower. Fourteen floors, finished in 1957. Today it's called Begich Towers. About 270 people live in Whittier, and most of them live right here. Inside are the post office, the police, a store and a clinic. You can run most of your errands in slippers. But the school is across the street. So they dig a tunnel under it, and kids walk to class without ever going outside.
+  >
+  > For decades, the only way in is by train. Cars ride through on flat railcars. So in 2000 they lay a road over the tracks, inside the same tunnel. One lane. Cars and trains take turns. It's the longest highway tunnel in North America. But one lane can only go one way at a time, so the direction flips on a schedule. And at night it closes. In summer, the last car goes through at about quarter past eleven. Miss it, and you sleep in town. That's why, inside the tunnel, you drive right on top of the train tracks.
+  >
+  > Stack the homes, dig the tunnels, and never go outside.
+
+- **Comment question:** "Could you live there? Yes or no."
+- **Draft camera positions:** the valley, wide → the port → the mountain cut open as the tunnel is blasted → the tower going up →
+  its floors (post office, police, store, clinic) → the street and the school → down into the school tunnel → a train carrying
+  cars on railcars → the road laid over the rails → one lane, the direction flipping → night, the tunnel closing → the valley,
+  wide.
+- **Sounds:** the bed is wind and snow in a valley; a train horn in the tunnel, the tunnel's warning bell, an elevator, kids'
+  footsteps in a tunnel.
+- **Demand:** long videos lead: 13.8M (Peter Santenello's visit), 5.5M and 3.4M; the best Short 3.6M, then 81K, 75K and 72K. No
+  animated cutaway; Zack D. Films: none found.
+- **Checked ✔:** 272 residents in the 2020 census; Begich Towers, 14 storeys, completed in 1957 as a military building; most
+  residents live there; a heated tunnel to the school; the US Army built the rail line and tunnel to Whittier in 1941–43; the
+  tunnel is about 2.5 miles (13,300 ft), the longest highway tunnel in North America; open to cars since 2000; one lane, shared
+  with trains at alternating times; summer hours 5:30 am to 11:15 pm (Whittier Chamber of Commerce); arrive after the last run and
+  you stay the night.
+- **⚠ before Gate A:** what is inside the tower (post office, police, store, clinic: widely reported, not yet in a checked
+  source); that cars rode through on railcars before 2000; the current schedule (Alaska DOT); "long, snowy winters" is the only
+  weather claim and has no number.
+- **Watch out:** people live here, so small anonymous residents and kids belong in the set; no faces, no brand names. The sound
+  in front of the town stays in the background: this is not a water video.
+
+**X5. Why These People Are Frozen Upside Down** (science, the future: cryonics in Arizona)
+- **Set:** one storage hall cut open: rows of tall steel tanks, one sliced open to show sealed bodies upside down in white nitrogen
+  fog (no faces), and the room where they are cooled. The camera sinks into a tank through the fog.
+- **Script** (draft as approved; 230 words, ~66 s: add a line or two at Gate A to reach ~75 s):
+
+  > In Arizona, more than 200 people are stored upside down in steel tanks, waiting to be woken up.
+  >
+  > If you want to cheat death, a company there will freeze you after you die. But freezing wrecks you. The water in your cells turns to ice, and the crystals rip the cells apart. So they swap your blood for a kind of antifreeze. Then they cool you so far that you turn into something like glass instead of ice. This is vitrification. But glass can still warm up. So they keep you at minus 320 degrees, in liquid nitrogen. The tanks are giant steel thermoses. A vacuum in the walls keeps the heat out. They don't even plug in, so a power cut can't thaw anyone. But liquid nitrogen slowly boils away. So a crew tops it up. And if it ever ran low, the top of the tank would warm first. So you go in head down. Your brain stays cold the longest.
+  >
+  > It costs at least 220,000 dollars for your whole body, or 80,000 for just your head. That's why most members pay with life insurance. The first man was frozen in 1967. He's still in a tank today. Here's the catch. Nobody has ever been woken up. Not one. The plan is that doctors in the future will know how.
+  >
+  > Cool to glass, flip upside down, and wait.
+
+- **Comment question:** "Would you do it? Yes or no."
+- **Draft camera positions:** the hall, wide → the cooling room → a frosted vial next to a clear, glassy one (the lines about ice
+  and glass inside your cells need a picture on the set like this, or a cut: 3.4 Rule 2) → the tank's double wall → nitrogen
+  boiling off the top → a crew topping it up → inside a tank, the pods head down → the oldest tank → the hall, wide.
+- **Sounds:** the bed is a quiet hall with the soft hiss of boiling nitrogen; a valve, nitrogen pouring, a tank lid, a truck.
+- **Demand:** "LIFE AFTER DE@TH? THE CRYONICS HOPE" 6.6M (TrueUpdates, a facts Short), then 58K, 43K and 32K; long videos 1.3M,
+  662K and 611K. Smaller than the other four, but open: Zack D. Films has freeze-dried pets (62M) and a morgue freezer (46M), not
+  this.
+- **Checked ✔:** Alcor in Scottsdale held 234 patients in Oct 2024 (another count says 248); they are stored head down, so the
+  head is the last part to warm if the nitrogen runs low; liquid nitrogen at about −196 °C (−320 °F) boils off and the tanks are
+  topped up; cryoprotectant and vitrification instead of ice; minimums of $220,000 for the whole body and $80,000 for the head
+  alone (older figures: $200,000 and $80,000); most members pay through life insurance; James Bedford, frozen on 12 Jan 1967, is
+  still at Alcor; nobody has been revived.
+- **⚠ before Gate A:** "They don't even plug in" (one source says no electricity is involved: confirm on Alcor's own pages); the
+  current prices and patient count.
+- **Watch out:** death and bodies: sealed pods only, no faces; the first man is not named, and no company name or logo appears on
+  screen. Keep it a bet, as the script does ("Nobody has ever been woken up").
+
+**Not in the list (16 Nov 2026): topics not to propose again without a new reason**
+- **Proposed the same day and turned down as a set (all water):** the pool on the edge of Victoria Falls (IShowSpeed's swim 58M,
+  Jan 2026); the world's deepest pool, in Dubai (real dives 56M, 32M, 25M and 25M); the slot-canyon flash flood (5.5M); the
+  Qiantang tidal bore (64M, 16M, 12M); and the hole in the lake at Monticello Dam (best Short 926K, with four small copies of the
+  "fall in" hook). One of them could come back in a mixed list, never as a set. Their checked facts are in 7.8.
+- **Already made by Zack D. Films** (checked 16 Nov 2026; his views): falling off a cruise ship (50M; the user's example),
+  falling through ice (64M), a grain bin (57M), an avalanche (39M), a tar pit (7.9M), sinkholes (4.8M), a plane losing oxygen
+  (25M) and its oxygen masks (21M), straightening the Leaning Tower of Pisa (18M), a power line on your car (56M), the woman hit
+  by a meteorite (24M), the microwave's metal screen (10M) and ice in a microwave (16M), and the gold vault under Manhattan (17M).
+  Taken by others: quicksand (29M, 20M), Niagara Falls in a barrel (18M), the Thai cave rescue (62M), opening a plane door in
+  flight (30M), Lake Nyos (14M).
+- **Weak on Shorts** (16 Nov 2026): Apollo 13's duct-tape filter (best 2.5K), stalling on a railroad crossing (91K), the salt
+  mine under Detroit (188K), the deep mine cooled with ice (32K), why oxygen-mask bags don't inflate (34K). Coober Pedy's
+  underground homes (494K; a long video 5.2M) is open but small.
+- **Don't propose unless the user asks:** a race car driving on the ceiling ("I don't like p5", 14 Nov 2026); landing a jet on an
+  aircraft carrier (swapped out on 15 Nov 2026).
+- **Earlier lists** are in the repo history: the ten famous places of 11 Nov (commit `92a077a`), the matchups of 14 Nov
+  (`c37181e`) and the Cutaway list of 15 Nov with its reserves (`45b7846`). Topics found crowded on Shorts before 16 Nov:
+  escaping a sinking car (31M, 25M, 23M); undersea internet cables; train wheels as cones; airplane toilets; why McDonald's Coke
+  tastes different; New York's street steam; Tokyo's flood tunnel; tsunami builds and how to survive a tsunami; the Fudai
+  floodgate; oil-well fires; the Kola borehole; the Costa Concordia salvage; the Persian yakhchal; Biosphere 2; escaping a sunken
+  submarine; Kansai airport; ice roads; Machu Picchu's underground; Cheyenne Mountain; the Chile miners; floating bridges; the
+  Hanging Temple; Ski Dubai; Troll A; and, as builds, castles, the Panama Canal, wells, cave homes, lighthouses, the Hoover Dam,
+  bank vaults, pyramids and cranes (6.3).
 
 ---
 
@@ -482,8 +477,9 @@ stills. In this look a line without its own clip is only a fallback (3.2 rule 5)
 ### 3.3 Step-by-step
 
 **Step 1: Topic and script (free).**
-- Take the idea the user names: C1–C5 in section 2 (approved 15 Nov 2026), or their own topic. A section 2 idea brings its set,
-  two openings, a draft chain, the ending and the facts already checked; the chain is a draft. Write the script with the formula
+- Take the idea the user names: X1–X5 in section 2 (approved 16 Nov 2026), or their own topic. A section 2 idea brings its set,
+  a draft script the user approved with the idea (a cold claim, then "If you…"), the comment question, draft camera positions
+  and the facts already checked (✔) or still to check (⚠); the script is a draft. Write the script with the formula
   and writing rules in section 1 and the script rules in the section 5 prompt. Target ~75 s, ~260–280 words; never under 60 s.
 - Write for the set (3.4 shot rule): every line must be something the viewer can see happen on the one cutaway set, and most lines
   should describe something moving, because every such line gets an animated clip (3.4 rule 1). Comparisons, stats and the "that's
@@ -885,6 +881,19 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   invisible at phone size); the narration says the rat climbs the main pipe, but it is only seen swimming in the sewer window and
   then in the toilet; in the zoomed bathroom framing (0:38–0:51) the captions sit on the lawn edge, not on plain soil; C6 plays at
   1.46× and C10 at 1.69× to fit their lines.
+  Script facts (moved here on 16 Nov 2026, when the Cutaway list left section 2; sources in 7.6): opening A ("If you pipe your sink
+  straight into the sewer, it drains."; the cold claim shown to the user was "There's an open pipe from the sewer to your kitchen.
+  One cup of water is in the way."); five problems and five fixes (trap, vent, running the water, trap primer, rat blocker); the
+  Hong Kong story told over our own bathroom; the ending "Bend the pipe, let it breathe, and keep it wet."; comment question
+  "Which drain in your house smells?". Checked at Gate A: induced siphonage and the roof vent (plumbing code guides); the toilet
+  bowl's water as its own trap; trap primers (California's plumbing code requires them on floor drains that are rarely used); rats
+  swimming the sewer, climbing a 3-inch pipe and swimming through a toilet's bend (National Geographic, video, 2015); a rat blocker
+  as a one-way flap where the house drain meets the sewer; the WHO findings at Amoy Gardens (dried-out floor-drain traps, and
+  bathroom fans drawing contaminated droplets into the flats) and 321 cases by 15 April 2003; traps dry out in two weeks to several
+  months, typically three to four weeks. Cut: the washer gurgle, the backwater valve, how long a rat holds its breath (sources
+  give 30 s to 15 minutes) and the SARS death toll (35 to 42 by source). Saturation on the exact title: no Short used it; about
+  eight animated U-bend explainers (best 211K), none with the vent, Hong Kong or rats; rat-in-toilet Shorts reach 15M and plumbers
+  on camera 21M, 2.6M and 2.2M; the reference account's sewer video (309K) covers the street sewer and treatment works.
 
 - **09 What Lightning Does Inside Your House** (Middle; idea C3; the first video with the travelling camera; opening B, the cold
   claim; one storm house seen from 10 camera positions; loop ending) — DELIVERED v1, 15 Nov 2026. 75.21 s, 1080×1920, 30 fps,
@@ -917,6 +926,20 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   camera, so the edit pushes in to 1.18× and C8 eases back out; the big flash at 1:05 whites out most of the frame for ~0.2 s; the
   panel close-ups (0:45–0:52) read as a real room more than a cutaway; the bathroom gains a window on its right wall in C14; the
   attic keyframe was dropped, so C2 dives from the ridge to the bathroom in one move.
+  Script facts (moved here on 16 Nov 2026, when the Cutaway list left section 2; sources in 7.6): opening B, the cold claim
+  ("Everyone's heard it: don't shower in a thunderstorm. Here's what the bolt actually does."), chosen at Gate A over "If lightning
+  hits your house, it has to reach the ground. The easiest way down might be your shower."; four fixes (a lightning rod with its
+  cable and ground rod, bonding, a surge protector at the panel, waiting out the storm to shower); the twist is the CDC's third of
+  lightning injuries indoors; the ending "Catch it high, carry it down, and bury it deep."; comment question "Do you shower during
+  a storm? Yes or no.". Checked at Gate A: wiring, plumbing and phone lines as paths (NWS); rods catch strikes already coming and
+  do not attract them (NOAA, LPI); ground rods at least 8 ft, often 10 ft deep (said as "deep"); side flash and bonding (LPI, NFPA
+  780 via trade sources); surges in on the power line (State Farm, Exponent); the surge protector at the panel (NEC 2020 230.67,
+  not said); about 30,000 amps (NWS); the CDC's advice not to shower, bathe or wash dishes in a storm. Cut: the Empire State
+  Building's 23 strikes a year, "300 million volts" and "hotter than the sun" (other pictures), the NWS expert's no-deaths remark
+  (not found on an official page), the plastic-pipe nuance (kept for replies), rods every 20 ft and two down conductors (secondary
+  sources only), corded phones. Saturation on the exact title: about 8 near-identical Shorts, best 15K (a builder on camera);
+  animated ones 1K or less; the topic's biggest Shorts are "Should You Shower During A Thunderstorm?" 20M and 4.8M; two rivals in
+  our format had the rod basics that autumn (7.9K and 1.7K), so the script led with the shower, the side flash and the pole.
 
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
@@ -1435,14 +1458,15 @@ and wastewater treatment, power grid, gas station, roof.
 3, 5, 6 and 7; 7.7). The prompt was renewed twice on 15 Nov 2026, so this one is marked v2: the first 15/11/26 version (the Cutaway
 look with one main view) is in the repo history at commit `db03adc`, and the 11/11/26 version, for the character look, at
 `f8bf298`. Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and
-effects" (3.4). C1 and C3 are used (videos 08 and 09), so the IDEA line names C2, C4 and C5.
+effects" (3.4). On 16 Nov 2026 the idea list was replaced (section 2), so the IDEA line names X1–X5 and the first script rule
+points to each idea's draft script; nothing else in the prompt changed.
 ```
 KICKOFF PROMPT (renewed 15/11/26 v2)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <C2, C4 or C5 from section 2, or your own topic>
+IDEA:   <X1, X2, X3, X4 or X5 from section 2, or your own topic>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
 SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
@@ -1488,8 +1512,8 @@ Fixed choices (3.4):
   version too.
 
 Script rules, on top of section 1:
-- For an idea from section 2, start from its set, openings, chain and ending there.
-  They are drafts.
+- For an idea from section 2, start from its set and its draft script there.
+  The script is a draft.
 - Open with "If you..." and land the first "But" by ~3 s. If the idea also has a
   cold-claim opening in section 2, show me both at Gate A.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
@@ -1767,14 +1791,15 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 
 ---
 
-## 7. User direction and the account the user likes (11–15 Nov 2026)
+## 7. User direction and the account the user likes (11–16 Nov 2026)
 - **Look:** Cutaway with no character since 15 Nov 2026 (locked in 3.4; the record is 7.5). Before that, Classic: on 11 Nov the user
   asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden By Design look, and videos 05–07 were
   made in it.
 - **Format and ideas:** on 11 Nov the user asked for second-person "how to" / "if you…" videos about famous real places and true
   extreme stories, nothing boring. **Replaced on 14 Nov 2026** by four "Who wins?" matchups (7.3), one of which became video 07.
-  **Replaced again on 15 Nov 2026** by the five Cutaway ideas in section 2 (7.6): things with hidden workings, each one place
-  sliced open with something moving through it.
+  **Replaced again on 15 Nov 2026** by five Cutaway ideas (7.6): things with hidden workings, each one place sliced open with
+  something moving through it. **Replaced again on 16 Nov 2026** by five out-of-the-ordinary ideas with draft scripts, none
+  about water (section 2, 7.8).
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
   nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day); 2,040.25 left after video 09,
@@ -1967,7 +1992,8 @@ list.)
 pointers side by side) were not kept.
 
 ### 7.6 Five ideas for the Cutaway look (the user, 15 Nov 2026)
-The list that came out of this is section 2. This is the record behind it.
+The list that came out of this was section 2 until 16 Nov 2026, when it was replaced (section 2, 7.8); the whole list is in
+the repo history at commit `45b7846`. This is the record behind it.
 
 **The brief.** After the look and the sound were settled (7.5), the user: "give me 5 creative and engaging video ideas following
 the new animation style. the video ideas need to be different something that will keep people watching. before replacing the
@@ -1995,7 +2021,7 @@ close to a topic How Building Explained has done". The matchup list that the fiv
 - Facts were checked by web search and marked ✔ or ⚠ in section 2. The cooling tower was searched after the user's message, so
   the user has seen none of its entry.
 
-**Open after this:**
+**Open after this** (closed on 16 Nov 2026, when the list was replaced):
 - The order. C1 was recommended first; the user has not chosen.
 - C4's title, hook and chain, which the user sees for the first time at Gate A.
 - Every ⚠ in section 2, and the saturation check on each exact title (the searches so far were by topic).
@@ -2120,3 +2146,84 @@ Two numbers came from the edit, not from Kling: C7 (the side flash) came back wi
 the arc; before that the final measured 79% and a 6 s still-camera stretch. The cost was 264.25 against the ~215–225 estimated
 above: the stills matched the estimate (43.75), and the clips ran 220.50 because of 17 s of re-renders and clips planned slightly
 longer than their lines (3.4l).
+
+### 7.8 Ideas that grab from the first second (the user, 16 Nov 2026)
+The list that came out of this is section 2. This is the record behind it.
+
+**What the user asked.** "give me 5 creative out of the ordinary video ideas I can create videos about with an attention grabbing
+entrance or hook to keep users watching (for example what happens when you fall off a cruise ship) only give the ideas don't
+change anything on the claude.md file". The memory was read and nothing was changed until the approval below.
+
+**First answer: five water ideas, turned down.** Each was a "what happens if you…" scenario in one place cut open, with proven
+demand and no Zack D. Films Short (topic searches, 16 Nov 2026):
+- **The pool on the edge of Victoria Falls** (Devil's Pool): a rock barrier at the lip makes a pool with almost no current when
+  the river is low, so it opens only in the dry season (sources give August–January); the drop is about 108 m; about 500 million
+  litres a minute go over in April and about a tenth of that in November. IShowSpeed's swim there 58M (Jan 2026); National
+  Geographic's 360° video 6.6M.
+- **The world's deepest pool, in Dubai:** 60.02 m (Guinness), 14 million litres kept at 30 °C and filtered every six hours (the
+  operator's FAQ), a sunken city with pinball and foosball 38 m down; the no-flying rule after a dive is given as 12, 18 or 24
+  hours by different sources. Real dives 56M, 32M, 25M and 25M; no animated cutaway. It touches the bends, which video 05 covered.
+- **The slot-canyon flash flood:** Lower Antelope Canyon, 12 Aug 1997, 11 dead on a day with very little rain at the canyon (the
+  storm was 3 to 30 miles upstream by source); the walls were carved mainly by flash floods; ladders are bolted down and nets hang
+  at the top now. "Hikers vs Flash Flood" 5.5M, then 1.8M, 1.7M and 1.5M.
+- **The Qiantang tidal bore:** up to about 9 m high and 40 km/h; the bay narrows from about 60 miles to 13 at the river; reflected
+  waves off the seawall break over the banks; a typhoon-boosted bore injured about 30 watchers in Aug 2013; the biggest bores come
+  around the 18th day of the 8th lunar month. Real footage 64M, 16M and 12M; the best explainer 2.1M.
+- **The hole in the lake at Monticello Dam:** a spillway 72 ft across that drops about 200 ft and turns 90° into Putah Creek; it
+  starts to take water when the lake reaches 440 ft, up to about 48,800 cubic feet a second; skateboarders ride the dry outlet;
+  a duck was filmed going in in Feb 2017, and nobody agrees whether it survived. Best Short 926K, with four small copies of the
+  "fall in" hook at 331K–833K; the 1997 drowning there has a single source.
+
+The user: "all these are water, sea, lake related. mix it up all the ideas don't need to be water related, im asking you to give
+me creative and attention grabbing scripts and video ideas. redo them then stop".
+
+**Second answer: the five in section 2, each with a full draft script** (66–73 s at our pace), the cutaway, a comment question and
+a demand line. Approved the same day: "I approve these video Ideas, update the claude.md file, remove the other ideas. then stop".
+
+**What was learned.**
+- **Zack D. Films owns the "what happens if you…" survival scenario on Shorts.** The user's own example is his ("Surviving A Fall
+  Off A Cruise Ship 😨", 50M, Jul 2024), and so are most classic survival topics (the list under "Not in the list" in section 2).
+  A scenario idea has to be one he hasn't done, or show what his person-centred style doesn't: the hidden place or system, cut
+  open. To check, search "zack d films" with the topic (`yt_saturation.py`), then run `yt_channels.py <dir> shorts:<id>` on the
+  biggest Shorts to see who posted them. The ids are in the saved results page: each `shortsLockupViewModel` carries
+  `onTap.innertubeCommand.reelWatchEndpoint.videoId`. His titles end in one emoji (😨, 🤔, 😮, 🤯).
+- **Mix the subjects.** Five ideas on one theme (water) read as one idea to the user, however different the places are.
+- **"Scripts" meant full draft scripts**, not hooks alone: give each idea its script in our formula when the user asks for scripts.
+- **Where the openings are** (the same pattern as 7.6): real footage of a strange place or a true story leads with millions
+  (IShowSpeed 58M at the edge of Victoria Falls, a facts Short 20.9M on Centralia, a 13.8M visit to Whittier), while nobody has
+  animated what a camera can't film (the fire under Centralia, the quarries under Paris, the inside of a cryonics tank).
+
+**Not yet seen by the user:** the camera positions, the sounds, the ⚠ lists and the watch-outs in section 2 (my notes for Gate A).
+
+**Open after this:** the order; the exact-title saturation checks; every ⚠ in section 2; X5 runs short (230 words).
+
+**Sources for the checked facts** (16 Nov 2026; search summaries, so reopen the page before quoting a number):
+- X1: Wikipedia, Catacombs of Paris (https://en.wikipedia.org/wiki/Catacombs_of_Paris); Smithsonian
+  (https://www.smithsonianmag.com/travel/what-lies-beneath-the-catacombs-of-paris-180950160/); Atlas Obscura on Aspairt's grave
+  (https://www.atlasobscura.com/places/grave-of-philibert-aspairt); Part-Time Parisian on the 1774 collapse
+  (https://www.parttimeparisian.com/p/when-rue-denfer-collapsed-and-paris); Paris Tickets' timeline
+  (https://www.paristickets.com/fr/catacombs/history/).
+- X2: Wikipedia, Centralia (https://en.wikipedia.org/wiki/Centralia,_Pennsylvania); Slate and Atlas Obscura
+  (https://www.slate.com/blogs/atlas_obscura/2014/06/04/centralia_a_town_in_pennsylvania_destroyed_by_a_mine_fire.html); Science
+  News on why water fails (https://sciencenews.org/?p=28468); the Bureau of Mines report RI 8799
+  (https://onemine.org/documents/ri-8799-problems-in-the-control-of-anthracite-mine-fires-a-case-study-of-the-centralia-mine-fire-august-1980-);
+  Pennsylvania DEP's FAQ
+  (https://crawler.dep.state.pa.us/Mining/Abandoned%20Mine%20Reclamation/AbandonedMinePortalFiles/Centralia/BookmarkTest.pdf).
+- X3: The Drive on the FIA report
+  (https://www.thedrive.com/accelerator/39630/grosjeans-horrific-f1-crash-at-bahrain-registered-67-gs-investigation); Gulf News
+  (https://gulfnews.com/sport/motorsport/formula-one-romain-grosjean-hit-barrier-at-192kph-with-67g-force-in-fireball-crash-1.77647856);
+  ESPN on the chainsaw remark (https://africa.espn.com/f1/story/_/id/22542522/mercedes-boss-toto-wolff-remove-halo-chainsaw);
+  Autosport (https://www.autosport.com/f1/news/grosjean-pays-tribute-to-f1-halo-after-surviving-137mph-bahrain-gp-crash-4976770/4976770/).
+- X4: Alaska Beacon
+  (https://alaskabeacon.com/2025/07/22/quirky-once-isolated-alaska-town-is-eyeing-a-transportation-system-upgrade/); the Whittier
+  Chamber of Commerce on the tunnel (https://www.whittieralaskachamber.org/info/whittier-alaska-tunnel/); Alaska DOT
+  (https://dot.alaska.gov/creg/whittiertunnel/); Atlas Obscura on the tunnel
+  (https://atlasobscura.com/places/anton-anderson-memorial-tunnel); Wikipedia, Whittier (https://en.wikipedia.org/wiki/Whittier,_Alaska).
+- X5: Smithsonian
+  (https://www.smithsonianmag.com/smart-news/200-frozen-heads-and-bodies-await-revival-at-this-arizona-cryonics-facility-180980981/);
+  Decrypt on the prices (https://decrypt.co/243997/cryonics-alcor-hal-finney-bitcoin); Guinness on Bedford
+  (https://guinnessworldrecords.com/world-records/452742-first-person-to-be-cryonically-suspended); Wikipedia, James Bedford
+  (https://en.wikipedia.org/wiki/James_Bedford); Superlative on the upside-down storage (https://superlative.substack.com/p/cryonics).
+- The water five: Atlas Obscura on Devil's Pool (https://atlasobscura.com/places/devil-s-swimming-pool); Deep Dive Dubai's FAQ
+  (https://www.deepdivedubai.com/faqs); Wikipedia, Antelope Canyon (https://en.wikipedia.org/wiki/Antelope_Canyon); NTSLF on the
+  bore (https://ntslf.org/node/8); the Bureau of Reclamation on Monticello Dam (https://www.usbr.gov/projects/index.php?id=186).

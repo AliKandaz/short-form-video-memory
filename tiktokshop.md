@@ -210,6 +210,9 @@ What the numbers say (my estimates):
    *Update, 15 Nov 2026:* the user left the character look (the two videos without it hold 90% of our TikTok views) and
    replaced the matchups with five Cutaway ideas: `CLAUDE.md` section 2, with the record in 7.6. The one recommended first,
    the sewer trap in your house, is an everyday mystery with water in it.
+   *Update, 16 Nov 2026:* the Cutaway list was replaced by five out-of-the-ordinary ideas with draft scripts, none about
+   water (the Paris catacombs, Centralia's underground fire, the halo crash, the Alaska town in one building, cryonics):
+   `CLAUDE.md` section 2, with the record in 7.8.
 3. **Post more often.** Third-party guides say one to three posts a day in one niche gets a new account to 1,000 in
    30 to 60 days; many accounts take 3 to 6 months; one breakout video can do it overnight. Our pipeline makes about
    one video a day at most. At about 160–175 credits per Middle video, the 2,665 credits left on 12 Nov cover about
@@ -382,3 +385,5 @@ directly next time, allow `seller-us.tiktok.com` and `support.tiktok.com` in the
   $5,000 a month is. The user confirmed the account is US-based. Stopped after the research, as asked.
 - **14 Nov 2026:** added a pointer in 4.2 to the four "Who wins?" video ideas the user approved that day (`CLAUDE.md` section 2).
 - **15 Nov 2026:** updated that pointer. The matchups were replaced by five Cutaway ideas (`CLAUDE.md` section 2 and 7.6).
+- **16 Nov 2026:** updated that pointer again. The Cutaway ideas were replaced by five out-of-the-ordinary ideas with
+  draft scripts (`CLAUDE.md` section 2 and 7.8).
