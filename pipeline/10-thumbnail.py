@@ -78,7 +78,7 @@ def concept_A():   # the title's question on the pods standing upside down (I0)
     backdrop(cv, (50, 250, 1030, 560), 125, blur=40)
     word(cv, 540, 330, 'WHY UPSIDE', 138, WHT)
     word(cv, 540, 475, 'DOWN?', 150, YEL)
-    arrow(cv, bez((870, 600), (930, 1050), HEAD_A))
+    arrow(cv, bez((880, 640), (940, 1180), HEAD_A))
     return cv
 def concept_B():   # the price of a head, on the stack of canisters (I3)
     cv = grade(place('stills/I3.png', W, H, fx=0.50, fy=0.50, ty=0.50, zoom=1.0), c=1.08, s=1.10)
@@ -93,7 +93,7 @@ def concept_C():   # plain frame, no text: the nitrogen at halfway, the frosted 
     return vignette(cv, 0.22).convert('RGBA')
 CONCEPTS = {'A': concept_A, 'B': concept_B, 'C': concept_C}
 # arrow targets (1080x1920 cover coordinates), measured on the rendered covers
-HEAD_A = (640, 1330)
+HEAD_A = (685, 1465)   # the rounded head end of the right-hand pod, near the bottom of the window
 STACK_B = (470, 900)
 
 def rounded(im, r):

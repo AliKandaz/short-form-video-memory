@@ -41,8 +41,12 @@ C = {
         "nothing is cut open: no soil, no pit, no rubble. The tray stays on the counter. As the camera arrives, pale-blue liquid "
         "flows down from the two bags on the drip stand and pushes the dark red out of both tubes, until both tubes run pale blue "
         f"all the way into the pod. {ONE}"),
- "C7": ("B1", [], "T3", 8, "The camera pushes back in from the table to the counter and down to the steel tray, arriving very "
-        "close on the small open steel flask. In the flask, the small vial of pale-blue liquid stands in clear, smoking liquid "
+ # C7A (74349970, 8 s): as the camera crossed the room, the floor was cut into a raised wooden step with layered sides from
+ # ~1.4 s to ~4.4 s (the cutaway STYLE leaking in again). C7 says the floor is flat and solid and the counter a plain cabinet.
+ "C7": ("B1", [], "T3", 8, "The camera glides from the operating table across the cooling room to the white counter along the "
+        "back wall and down to the steel tray, arriving very close on the small open steel flask. The floor is one flat, solid "
+        "grey floor and nothing is cut open: no soil, no pit, no steps, no wooden layers and no raised platform anywhere; the "
+        "counter is a plain white cabinet. In the flask, the small vial of pale-blue liquid stands in clear, smoking liquid "
         "nitrogen; thick white vapour pours over the rim and down the sides, and the vial sets into perfectly clear glass, with no "
         f"ice and no crystals. The camera keeps drifting slowly in. {ONE}"),
  "C8": ("T3", ["H0"], "H1", 5, "The camera rises up and away from the tray and flies across the building into the tall storage "

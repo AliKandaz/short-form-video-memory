@@ -35,6 +35,14 @@ parallax 0.44 px, a big move in 23 of 76 seconds, no still-camera stretch over 3
 16 clips and no holds. 264.25 credits against a 242.65 quote (+8.9%): stills took 1.75 tries each, and three clips needed fixing
 (one re-render each, one fixed in the edit). Read 3.4l before the next video.
 
+**First video from the 16 Nov ideas (16–17 Nov 2026): 10, why these people are frozen upside down (idea X5).** Opened on "If
+you…" (opening A, which the user picked at Gate A over the cold claim). It beat every Rule 1 and Rule 7 target: 90% of the seconds
+moving, the camera moving in 92%, parallax 0.41 px, a big move in 35 of 77 seconds, no still-camera stretch over 2 s (3.4b). 9
+camera positions on one sliced-open lab with no water in it, 19 clips and no holds. 278.00 credits against a 280.60 quote (244.00
+before the reserve): stills took 1.6 tries each, three clips were rendered again because the cutaway opened a pit or a step in the
+floor mid-move (one more was cut in the edit), and the edit added the drift to four still-camera clips and made the power cut.
+Read 3.4m before the next video.
+
 **Camera (approved by the user, 15 Nov 2026, after video 08): a travelling camera, like @1hidden_by_design's power-lines video.**
 The user found the look good but "not enough movement. the camera should move in and away from the changes happening in the
 videos", pointed to "How Do Those Giant Power Lines Get Electricity to Your House?", and approved seven changes "as long as it
@@ -64,7 +72,7 @@ caught fire while its driver walked out (Grosjean and the halo), X4 the Alaska t
 why these people are frozen upside down (cryonics). The user asked for ideas with an opening that grabs, like "what happens when
 you fall off a cruise ship", turned down a first five that were all about water, and approved these with their scripts. None is
 about water, and none has been made by Zack D. Films, who owns the "what happens if you…" format on Shorts. They are section 2;
-the brief and the research are in 7.8. The order is not set.
+the brief and the research are in 7.8. The order is not set. **X5 was made as video 10 (16–17 Nov 2026); X1–X4 are still open.**
 
 **Ideas before that (15 Nov 2026, removed 16 Nov 2026): five Cutaway ideas.** C1 (why your house doesn't smell like the sewer)
 was made as video 08 and C3 (what lightning does inside your house) as video 09; their script facts are in 3.4b. C2 (the ice rink
@@ -205,7 +213,8 @@ The brief and the research are in 7.8.
 - **Rules for these ideas** (on top of sections 1 and 5):
   1. Each script opens on a cold claim and goes straight into "If you…", so its first "But" lands at about 5–8 s, later than
      section 5's ~3 s. At Gate A, show the script as approved next to a tightened opening that reaches the first "But" by ~3 s,
-     and let the user pick (they chose the cold claim for videos 07 and 09).
+     and let the user pick (they chose the cold claim for videos 07 and 09, and the "If you…" opening for video 10, X5, although
+     I recommended the cold claim there).
   2. One cutaway set per idea, seen by a travelling camera (3.4 Rules 2 and 3), with each problem and fix at its own spot. The
      camera positions listed are a first draft for the beat sheet (3.3 Step 2). None of these sets is a water set, so the STYLE
      line's translucent cyan water stays out of them (say "there is no water anywhere" in the prompts: 3.4l).
@@ -216,7 +225,7 @@ The brief and the research are in 7.8.
      before Gate A. Never plant a mistake to bait corrections.
   6. Before Gate A, run the saturation check on the exact title (6.7) and search "zack d films" with the topic: the numbers
      below come from topic searches.
-- **Order:** not set by the user.
+- **Order:** not set by the user. The user picked X5 first (made as video 10, 16–17 Nov 2026); X1–X4 are open.
 - **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
   of ours stopped (under about 2K views, 6.1); comments per 1,000 views beat our 0.23; saves and shares per 1,000 views beat
   seawater's 1.9 and 1.1.
@@ -359,7 +368,9 @@ The brief and the research are in 7.8.
 - **Watch out:** people live here, so small anonymous residents and kids belong in the set; no faces, no brand names. The sound
   in front of the town stays in the background: this is not a water video.
 
-**X5. Why These People Are Frozen Upside Down** (science, the future: cryonics in Arizona)
+**X5. Why These People Are Frozen Upside Down** (science, the future: cryonics in Arizona) — **MADE as video 10 (16–17 Nov
+2026).** The script as made, the facts checked at Gate A (the ⚠ items below are settled there), the saturation check and the
+results are in its 3.4b entry; the notes below are the draft as approved.
 - **Set:** one storage hall cut open: rows of tall steel tanks, one sliced open to show sealed bodies upside down in white nitrogen
   fog (no faces), and the room where they are cooled. The camera sinks into a tank through the fog.
 - **Script** (draft as approved; 230 words, ~66 s: add a line or two at Gate A to reach ~75 s):
@@ -442,13 +453,13 @@ minimax job has failed (3.4f). Prices re-checked 10 and 11 Nov 2026 with `get_co
 
 Balance when this runbook was written: **604 credits (Plus plan)**. On 11 Nov 2026 the account moved to the **Ultra plan**: 3,000 subscription
 credits (the 61.13 left were reset). 15 Nov 2026: 2,508 credits left before video 08, 2,304.50 after it, 2,040.25 after video 09.
-Always call `balance` at the start of a run.
+17 Nov 2026: 1,762.25 after video 10. Always call `balance` at the start of a run.
 
 ### 3.1 Budget tiers (pick one at Gate B; default = Middle since video 05)
 | Tier | What gets animated | Est. credits per 60–70 s video |
 |---|---|---|
 | **Lite** | 8 key beats animated with `kling4_0` (3–5 s each). Every other beat uses a still with a slow push-in/pan done free in the sandbox with ffmpeg. | **~105–125** (videos 01, 03, 04 cost 106, 123, 112) |
-| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s); **203.50** for the first Cutaway video (video 08: 26 stills + 11 clips, 76 s of clips in a 79.5 s video); **264.25** for the first travelling-camera video (video 09: 35 stills + 18 clip renders, 98 s of Kling for 81 s of clips in a 75 s video) |
+| **Middle** (default since video 05) | The whole opening, every build, the twist and the whole finale on `kling4_0` (~15 of ~25 beats, 3–5 s each). The other beats (terms, stats, label moments) hold on the build: the last frame of the clip before, or the current stage still, with a free push-in. | **~165–200** (video 05: 176 for 31 stills + 16 clips); **158.75** with the shot rule (video 06: 19 stills + 14 clips, 60 s); **157.25** for the first matchup (video 07: 16 stills + 11 clips, 61 s); **203.50** for the first Cutaway video (video 08: 26 stills + 11 clips, 76 s of clips in a 79.5 s video); **264.25** for the first travelling-camera video (video 09: 35 stills + 18 clip renders, 98 s of Kling for 81 s of clips in a 75 s video); **278.00** for video 10 (37 stills + 22 clip renders, 103 s of Kling for 86 s of clips in a 76 s video) |
 | **Full** | Every beat animated (one clip per beat, duration = beat length rounded up, min 4 s) | **~180–210** (17 beats); ~270 quoted for 25 beats (incl. reserve); ~210–230 expected spend with the shot rule (estimate, 7.2) |
 All include ~18–25 stills (~23–31 cr), narration (~0–7 cr) and a **15% retry reserve**. Stop and ask if a run will exceed its quoted total by more than 10%.
 
@@ -459,7 +470,10 @@ a 79.5 s script with clips over 93% of it needed 76 s of clips (171.00), and the
 camera (15 Nov 2026, 3.4 Rules 1–3)** quote ~215–225 at 720p for a ~78 s video: every line is a clip (about 78–80 s, ~175–180
 credits), and the 8–12 camera positions need 20–24 stills on screen at ~1.8 tries each (~45 credits). **Measured on video 09:**
 264.25 for a 75 s video: 35 still tries (43.75) and 98 s of Kling (220.50), because the clips are planned slightly longer than
-their lines (81 s for 75 s) and three of 16 went wrong (17 s of re-renders, 3.4l). Quote ~235 + 15% (~270) for the next one. Lite left two thirds of
+their lines (81 s for 75 s) and three of 16 went wrong (17 s of re-renders, 3.4l). Quote ~235 + 15% (~270) for the next one.
+**Measured on video 10:** 278.00 for a 76 s video, against a 280.60 quote: 37 still tries (46.25, 1.6 each) and 103 s of Kling
+(231.75), because the clips were planned 86 s for 76 s and three of 19 were rendered again (18 s, the floor leak of 3.4m). Quote
+~245 + 15% (~280) for the next one, and put the floor line in every indoor clip prompt from the start. Lite left two thirds of
 videos 03 and 04 as still pictures (7.5), so offer it only when the balance cannot cover Middle, and name the lines that would be
 stills. In this look a line without its own clip is only a fallback (3.2 rule 5): it holds the last frame of the clip before it, for
 3 s at most, and never becomes a still of its own.
@@ -941,6 +955,57 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   animated ones 1K or less; the topic's biggest Shorts are "Should You Shower During A Thunderstorm?" 20M and 4.8M; two rivals in
   our format had the rod basics that autumn (7.9K and 1.7K), so the script led with the shower, the side flash and the pole.
 
+- **10 Why These People Are Frozen Upside Down** (Middle; idea X5, the first of the 16 Nov ideas; opening A, "If you…"; one
+  sliced-open lab seen from 9 camera positions, with no water in it; loop ending) — DELIVERED v1, 17 Nov 2026. 76.21 s, 1080×1920,
+  30 fps, −13.7 LUFS, 24 beats in 19 clips (no holds), 269 words. Higgsfield spend **278.00 cr** (quote 280.60 with the 15%
+  reserve, 244.00 without it): 37 seedream stills 46.25 (23 keyframes used, L1 unused, 13 drafts and redos) + 22 kling4_0 renders
+  at 720p 231.75 (103 s: the 19 clips, 86 s, plus C4A, C6A and C7A, thrown away for a pit or a step in the floor). ElevenLabs: 2
+  takes × 1,417 credits (take A used at 1.06×) + 128.33 for the lab bed and seven effects.
+  Final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/411ec54b-1d2d-4bcd-986a-ad5162a5d424.mp4 (media_id 411ec54b-1d2d-4bcd-986a-ad5162a5d424);
+  the same video with the voice only: 08f9539b-f60b-4c57-b18a-07b8ee5fdcc0; clean master with the full sound and no captions or
+  pointers: 92c26eb5-d5d7-46fb-b0da-d85613bda271. Higgsfield project "HBX – Why These People Are Frozen Upside Down" (folder
+  dc9cd687-a9ef-4334-a7db-29df6b684c68). ElevenLabs flows: narration veNoEzrTLWDaaHUTT1ie, sound shGklhH86OxmdJFiZJJ0. The Gate C
+  flight map is `pipeline/10-flightmap.jpg`, with `10-keyframes.jpg` and `10-first-last.jpg`.
+  Measured: `check_video.py` 90% of the seconds moving, longest still stretch 3 s; captions 57 px at 75%; `camera_path.py` camera
+  moving 91%, parallax 0.40 px, 35 big-move seconds (longest gap 9 s; two of them are the power-cut dip at 0:37–0:38), longest
+  still camera 2 s, 38 s in / 25 s out / 17 turns (the power-lines video: 66%, 0.46 px, 22 in 88 s, 5 s); the quietest moments
+  21 dB under the voice with a steady stereo bed (the voice-only version: 48 dB). No line lost its clip.
+  Post copy (`pipeline/10-post-copy.md`): YouTube title "Why These People Are Frozen Upside Down", description "In Arizona,
+  people who paid to cheat death wait in steel tanks of liquid nitrogen, head down. Here's how they're turned to glass instead of
+  ice, why the tanks don't even plug in, and why the brain goes at the bottom. Would you do it? #Cryonics #HowItWorks
+  #3DAnimation"; TikTok "Why are these people frozen upside down? 🧊" + #HowItWorks #Engineering #LearnOnTikTok #3DAnimation
+  #Cryonics #Science; pinned comment "Would you do it? Yes or no."; altered content: yes.
+  Covers (`pipeline/10-thumbnail.py`, each at https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.jpg):
+  **A "WHY UPSIDE / DOWN?" (recommended)** on the tank window with the four pods head down (I0), an arrow to a pod's rounded head
+  end: 1080×1920 5eb2324b-d3b7-4ebd-b3c8-58f9a7947011, TikTok 3:4 603577b1-e7ee-42d8-b8da-e483e0080f68. B "$80,000 / JUST THE
+  HEAD" on the stack of head canisters (I3): 425e50d9-22bc-4a04-b9ab-6a5ba6c8a4c1, 3:4 807db354-8d0f-4db1-a27a-f6017b2848a2. C
+  plain frame of the nitrogen at halfway with the pods head down (I1), no text: ce44d072-b356-4c97-952b-5e236afdc506.
+  Known edit candidates: soil shows as the camera leaves the building past the cut edge of its block (0:28, 0:40–0:45,
+  0:60–0:61), and at 0:42–0:44 the catwalk seems to stand on soil; C3 (the ice, 0:06–0:09) is two clean parts of its render
+  joined by a 0.25 s dissolve at 0.73×; the power cut (0:37–0:38) is made in the edit; the ice pours from above the tub, not from
+  a bucket; the arrows planned for B7, B14 and B18 were not drawn (three rings only).
+  Script facts (Gate A, 16 Nov 2026; search summaries: Bloomberg, Quartz, Alcor's storage, protocol and cooling procedures and
+  its fee schedule via cryonicsarchive.org, Merkle on the tank layout, CMAJ, Gray TV Nov 2026, CB Insights, a strawberry-thawing
+  page, NYU on brain cell death): opening A ("If you want to cheat death, get frozen when you die."), chosen over the tightened
+  cold claim I recommended ("In Arizona, people are stored upside down in steel tanks, waiting to be woken up. If you want to
+  cheat death, they'll freeze you here after you die."); the script as made is `pipeline/10-script.txt` (7 "But"s, 5 "So"s; the
+  terms vitrification and dewar, spoken only); the "that's why" is the frozen strawberry and the joke the crew's coffee thermos;
+  the ending "Cool to glass, flip upside down, and wait."; comment question "Would you do it? Yes or no.". Checked at Gate A: the
+  tanks need no power (Bloomberg, Quartz, Alcor's storage procedures); $220,000 for a whole body (2026 coverage) and $80,000 for a
+  head (Alcor's fee schedule; one Nov 2026 report says $80,000–90,000); about 250 patients in 2026 coverage and 225 at the end of
+  2023 by Alcor's count (said as "more than two hundred"); after death a team cools the body in ice water and a machine keeps the
+  blood moving (Alcor's protocol; sources disagree on how many minutes the brain has, so no number is said); one tank holds four
+  bodies, with heads in its middle column (five or six by source, so no count is said); no known cooling method avoids all
+  cracking at liquid-nitrogen temperature (Alcor's procedures); ice crystals pierce a strawberry's cells, so it collapses when it
+  thaws; from the section 2 checks: stored head down so the head warms last, −320 °F, the first man frozen in 1967 and still in
+  storage, nobody revived. Changed from the draft: "That's why most members pay with life insurance" cut (nothing on the set
+  shows it); "a company there" became "they'll freeze you here" (Alcor is a nonprofit); the opening's "more than 200 people are
+  stored upside down" moved to line 20 (more than half the patients are heads only, and nothing found says the heads are stored
+  upside down). Saturation on the exact title: no Short uses it; three small Shorts take the upside-down angle (best 1.6K); the
+  closest in format is a 3D explainer of 8 Nov (1.4K) with a body standing upright in a tube; the topic's biggest Shorts are "Why
+  Don't We Have Cryosleep Yet?" 6.2M, "The Science of Immortality: Cryonics and James Bedford" 4.3M, "Human Bodies Can NOT be
+  Cryogenically Frozen" 3.2M and "Cryonics 101" 2.0M; Zack D. Films has no cryonics Short.
+
 ### 3.4c Lessons from video 01 (apply next time)
 - **minimax_h3 failed 6 of 9 clip jobs** (all refunded; long-queued jobs fail most). The retry on **kling4_0** (`mode:"image-to-video"`, 720p, start_image only, 2.25 cr/s) succeeded 4 of 4 (one took ~15 min). Next time: submit on minimax_h3; retry failures once on kling4_0 instead of minimax.
 - Kling returns 724×1284; it upscales to 1080×1920 fine. Minimax returns 1440×2560, 24 fps, ~0.17 s longer than asked.
@@ -1299,6 +1364,63 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
   `09-flightmap.py`, `09-flightmap.jpg`, `09-ladder.jpg`, and `analysis/pilot_measure.py` (Gate D numbers next to the reference).
   Copy these for the next video.
 
+### 3.4m Lessons from video 10, cryonics (16–17 Nov 2026; apply next time)
+- **The travelling camera held up on an indoor set.** Nine positions in one sliced-open lab, every clip flying between two real
+  stills, beat every Rule 1 and Rule 7 target (3.4b), better than video 09. The hook and the climax pilots passed Gate D first
+  time (parallax 0.40 and 1.46 px).
+- **A set with no water:** the Cutaway STYLE without "translucent cyan water" (section 2 rule 2), plus NITRO in every tank prompt
+  ("looks exactly as in the reference: clear and very pale … it is not water and it never glows"). The style key still drew the
+  liquid nitrogen pale blue-white; matching the reference rather than fighting it kept every later still the same colour.
+- **The style key decides the layout; fit the plan to it.** Seedream gave a three-quarter view and a tank with a big see-through
+  window instead of a removed front half. Rewriting the position prompts to the picture's real layout (the hook over the middle
+  tank, the oldest tank at the right end) worked first time; asking for the planned layout would have fought every edit.
+- **The STYLE line's "sliced open … what is buried" leaks into indoor stills and clips.**
+  - Stills: soil grew under the hall floor (two tank close-ups) and a jar was buried under the lab counter. One line fixed all
+    three: INDOOR ("This is an indoor close-up: nothing is cut open, and there is no soil, no ground, no pit and nothing buried
+    anywhere in the frame").
+  - Clips, in the middle of a move: a pit with roots and stones opened in the floor (C4A), a pit of rubble under the table
+    (C6A), the floor turned into a raised wooden step with layered sides for about 3 s (C7A), and the cabinet behind the ice tub
+    turned to soil for about 1 s (C3). Both stills at each end were clean, so only the clip shows it. The re-renders with "The
+    floor is solid grey and nothing is cut open: no soil, no pit, no steps, no wooden layers" came back clean (C4, C6, C7).
+  - **Next time put that floor line in every clip prompt of an indoor set from the start**, and check each clip at about five
+    frames a second (a sheet at 0.2 s): the one-frame-a-second sheet of the final caught C3 and C7 only after the build.
+  - When the camera is still, cut the bad stretch out instead (free): `SPLICE` in `10-build.py` now takes `"fade"`, a 0.25 s
+    dissolve between the clean start and end of the same shot (C3, at 0.73×), which reads as the fog clearing.
+  - Kept: soil seen as the camera leaves the building past the cut edge of its block of ground (C8, C11, C12, C16). It reads as
+    the edge of the diorama.
+- **ffmpeg's xfade slide transitions write junk on their first frame.** The whip (`slideleft`) drew a bright green strip down the
+  left 34 columns for one frame. `fillborders=…:mode=smear` during the whip hides it (`whip_join` and `seg_splice` in
+  `10-build.py`). Check the first frame of every whip; video 09's `slideup` splice may have had the same on its top rows.
+- **Kling held the camera still in four clips** (C3 the ice, C5 the strawberry, C17 the crack: changes at one position; C19 the
+  closing drift). The edit adds the move: `PUSH` (a push-in of 12–15% toward the change), the clip after easing back out
+  (`EASE_AFTER`), and `PULL` on C19, which starts zoomed in and pulls back to exactly the first frame's framing, so the loop lands.
+- **Neighbouring positions in one room are best made from each other.** The table and the tray made from the wide lost the
+  room's ceiling (open sky) or landed in the wrong room; made from the door close-up (D0) they kept the room.
+- **A detail the wide drew wrong carries into every edit of it:** the wide's four short capsules came back twice in the tank
+  close-up. A LOCKZ edit of the near-miss that names the swap ("the four short capsules are gone; in their place stand four long
+  pods… like the pod in the second reference image", the hoist still as the second reference) fixed it in one try.
+- **"Extreme close-up … almost touching the window … the frame is not in view"** got the stack of canisters; "close on the
+  middle column" gave back the same framing as the tank view, which would have left C14/C15 without a real move.
+- **A lights-off re-grade did nothing** (the still came back almost as bright). Lighting changes are cheaper and surer in the
+  edit: `LIGHTS` in `10-build.py` dips brightness, saturation and gamma between two times and flickers back on. The dip fools
+  `camera_path.py` into two big-move seconds (0:37–0:38); read around it.
+- **Effects:** time each from its measured loud moment (fx5's clunk is its first 0.5 s; fx1 is a steady tone, cut to 1.8 s).
+- **Narration:** Daniel ran 3.04 words/s raw (the slowest yet), 3.37 after pause tightening; atempo 1.06 gave 3.53 w/s and a
+  76.2 s video for 269 words. Writing "dewar" as "doo-er" in the text sent to the voice gave "DOO-er"; the captions keep DEWAR.
+  1,417 ElevenLabs credits per take; the bed and 7 effects cost 128.33 for 38.5 s (the estimate said 385).
+- **Covers:** check that the arrow lands on the thing the words name. The first draft of cover A pointed at the middle of a pod;
+  the head end is its rounded bottom (`HEAD_A` in `10-thumbnail.py`).
+- **Session restarts:** the scratchpad path changed after a restart, and the MCP tools reconnect. Keep job ids in `10-jobs.tsv`
+  and commit often; the Higgsfield sandbox keeps Whisper output for 24 hours. huggingface.co and the upload CDN are blocked
+  here, so the word timings were copied out of the sandbox's output.
+- **Scripts for video 10** (repo `pipeline/` and attached to the memory artifact under `pipeline/`): `10-script.txt`,
+  `10-beat-sheet.md` (with "As made"), `10-prompts.py` (STYLE without water, WIDE, SET, CAMERA, BUILDING, NITRO, NOWATER, FLOORS,
+  POD, POS, LOCK, LOCKZ, INDOOR, REFS, and the redo notes), `10-mk.py`, `10-clips.py` (LIGHT, ONE, the floor line in C4, C6 and
+  C7), `10-jobs.tsv` (all job ids), `10-whisper.py`, `10-timing.py`, `10-plan.json`, `10-timeline.json`, `10-words-takeA.json`,
+  `10-build.py` (`WHIP` with `fillborders`, `SPLICE` with `fade`, `LIGHTS`, `PUSH`, `PULL`, `EASE_AFTER`, `POINTERS`),
+  `10-thumbnail.py`, `10-post-copy.md`, `10-flightmap.py`, `10-flightmap.jpg`, `10-keyframes.jpg`, `10-first-last.jpg`. Copy
+  these for the next video.
+
 ### 3.5 Things that will go wrong, and the fix
 - **Structure drifts between stages:** always pass the previous stage still as a reference and say "everything else identical". Regenerate the still, not the clip.
 - **Video model adds text or subtitles:** add "no text, no captions, no letters" to the prompt and regenerate once.
@@ -1319,6 +1441,9 @@ YouTube ids, view counts and comments for the posted videos are in 6.1.
 - **A move of one storey up or down a wall stacks a second copy of the house** (video 09, C8, both renders): give the move a middle keyframe, or join the clean start and end with a whip in the edit (`SPLICE` in `09-build.py`).
 - **A change clip comes back with a dead-still camera** (video 09, C7): add the drift in the edit, a push-in of 3% a second or more toward the change, with the next clip easing back out (`PUSH`, `EASE_AFTER` in `09-build.py`).
 - **Close-ups grow soil, cut floors or cyan water** (the STYLE line leaking): say in the still and the clip prompt "nothing below the floor is in view", "the floor is solid wood and nothing is cut open; there is no water anywhere".
+- **A pit, a step or soil opens in an indoor floor in the middle of a clip, though both stills are clean** (video 10: C4A, C6A, C7A and C3): put "The floor is solid grey and nothing is cut open: no soil, no pit, no steps, no wooden layers" in every clip prompt of an indoor set, check each clip at about five frames a second, and render a bad one again once with that line. Where the camera is still, cut the stretch out and join the clean parts with a short dissolve (`SPLICE` with `"fade"` in `10-build.py`).
+- **A one-frame coloured strip at the edge of a whip** (video 10: bright green down the left edge): ffmpeg's xfade slide transitions write junk on their first frame. Smear the edge columns during the whip (`fillborders` in `whip_join`, `10-build.py`) and check the whip's first frame.
+- **A lights-off or night still comes back almost as bright as the day still** (video 10, L1): make the change in the edit instead (`LIGHTS` in `10-build.py`: a dip of brightness, saturation and gamma that flickers back on).
 
 ---
 
@@ -1803,7 +1928,8 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
   nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day); 2,040.25 left after video 09,
-  which cost 264.25 (confirmed by `balance` the same day).
+  which cost 264.25 (confirmed by `balance` the same day); 1,762.25 left after video 10, which cost 278.00 (confirmed by
+  `balance` on 17 Nov 2026).
 - **Shots:** one build (locked in 3.4 after video 05; the agreement and the reasons are in 7.2). Its "one main view" part was
   replaced on 15 Nov 2026 by the travelling camera.
 - **Camera:** approved on 15 Nov 2026 after video 08: move like @1hidden_by_design's power-lines video, "as long as it
@@ -2194,8 +2320,10 @@ a demand line. Approved the same day: "I approve these video Ideas, update the c
   animated what a camera can't film (the fire under Centralia, the quarries under Paris, the inside of a cryonics tank).
 
 **Not yet seen by the user:** the camera positions, the sounds, the ⚠ lists and the watch-outs in section 2 (my notes for Gate A).
+X5's were shown at its Gate A, when it was made as video 10.
 
-**Open after this:** the order; the exact-title saturation checks; every ⚠ in section 2; X5 runs short (230 words).
+**Open after this:** the order of X1–X4 (the user picked X5 first: video 10, 16–17 Nov 2026); the exact-title saturation checks
+and every ⚠ for X1–X4 (X5's were done at its Gate A, 3.4b). X5's draft ran short (230 words); the script as made has 269.
 
 **Sources for the checked facts** (16 Nov 2026; search summaries, so reopen the page before quoting a number):
 - X1: Wikipedia, Catacombs of Paris (https://en.wikipedia.org/wiki/Catacombs_of_Paris); Smithsonian

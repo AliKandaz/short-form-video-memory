@@ -131,3 +131,28 @@ last frame is W0 itself.
   Balance 2,040.25, so 1,759.65 or 1,663.05 left at worst.
 - ElevenLabs: narration 2,834 credits for two takes (estimate); sound 385 by the estimate, which prices each effect at its
   default length; by the durations (38.5 s at ~3.33 a second) about 128. The ElevenLabs balance could not be read from the session.
+
+## As made (17 Nov 2026)
+- **Narration:** take A, 88.48 s raw (3.04 words/s), 79.83 s with the pauses tightened (`10-timing.py`), atempo 1.06 -> 76.21 s
+  (3.53 words/s). Whisper matched 269/269 words (the word timings were copied out of the sandbox's output).
+- **Stills:** 37 tries (46.25 credits) for 23 keyframes. T3w was dropped at Gate C: C7 ends on T3, and C17 goes T3 -> T4. L1 (the
+  hall with the lights off) came back almost as bright as L0, so the power cut is made in the edit (`LIGHTS`) and L1 is unused.
+  Redos: T0 and B0 remade from D0 (made from the wide they lost the ceiling or landed in the wrong room); I0 an edit of the
+  near-miss I0B with the hoist still as a second reference (long pods in place of the wide's short capsules); Wb remade with the
+  deep block (no pit); I2, I3 and T3 remade with INDOOR (soil had grown under the hall floor, and a jar was buried under the
+  counter); I3 once more as an extreme close-up (the first had the tank view's framing).
+- **Clips:** 19 (86 s) plus three renders thrown away: C4A (a pit with roots and stones in the floor), C6A (a pit of rubble under
+  the table; the tubes stayed red) and C7A (the floor cut into a raised wooden step for ~3 s mid-move). Each was rendered again
+  once with "The floor is solid grey and nothing is cut open…" and came back clean. C3 kept its render: from 2.10 s to 3.46 s the
+  cabinet behind the tub and the tub's side turned to soil, so the edit joins the clean start and end with a 0.25 s dissolve
+  (`SPLICE`, at 0.73×). C10 has no middle keyframe (L0 -> L0b). Kling: 103 s, 231.75 credits.
+- **Edit (`10-build.py`):** `PUSH` on C3, C5 and C17 (Kling held the camera still), with `EASE_AFTER` on C4, C6 and C18; `PULL` on
+  C19 (from 1.18× back to W0's framing, so the loop lands); `LIGHTS` on C10 (1.15–2.05 s, then a flicker back on); `WHIP` C16 ->
+  C17 (0.3 s slide with horizontal blur; `fillborders` hides xfade's junk first frame). Pointers: three tracked rings, on the vial
+  (vitrification), the tank's double wall (dewar) and a pod's head end. The arrows planned for B7, B14 and B18 were not drawn.
+- **Sound:** `bed_lab` looped 19 dB under the voice and seven effects 11 dB under it, each placed on its measured loud moment.
+- **Cost:** 278.00 credits (46.25 stills + 231.75 Kling) against the 280.60 quote; ElevenLabs 2 × 1,417 for the narration and
+  128.33 for the sound.
+- **Measured (final, 76.21 s):** `check_video.py` 90% of the seconds moving, longest still stretch 3 s, captions 57 px at 75%;
+  `camera_path.py` camera moving 91%, parallax 0.40 px, 35 big-move seconds (longest gap 9 s), longest still camera 2 s;
+  `under_the_voice.py` 21 dB (voice-only 48 dB); −13.7 LUFS. No line lost its clip.

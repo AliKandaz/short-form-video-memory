@@ -28,34 +28,49 @@ FULLFIT = {"C2", "C5", "C6", "C12", "C13", "C14"}
 # A clip whose middle went wrong is played as its clean start and clean end, joined by a fast whip down with motion blur
 # (Rule 3 allows a whip in the edit), both parts slowed to fill the line. C8: both renders scrolled a second copy of the house
 # up from under the ground between ~1.3 s and ~3.5 s; the first render (C8A, 7 s) has the longer clean ending.
-SPLICE = {}
+# Video 10, C3 (the ice): from ~2.2 s to ~3.4 s of the render the counter behind the tub and the tub's side turned to soil (the
+# cutaway leaking in again). The camera is still in that clip, so its clean start and end are joined by a short dissolve inside
+# the one shot ("fade": it reads as the fog clearing), not a whip; the push-in from PUSH runs over the whole segment.
+SPLICE = {"C3": ("clips/C3.mp4", [(0.0, 2.10), (3.46, 4.04)], 0.25, "fade")}   # (source, clean parts, join s, whip|fade)
 
 def seg_splice(name):
-    s = SEG[name]; L = s['len']; src, parts, wd = SPLICE[name]
-    speed = sum(b - a for a, b in parts) / (L + wd * (len(parts) - 1))   # the whip overlaps the two parts
+    s = SEG[name]; L = s['len']; src, parts, wd = SPLICE[name][:3]; kind = (SPLICE[name][3:] or ('whip',))[0]
+    speed = sum(b - a for a, b in parts) / (L + wd * (len(parts) - 1))   # the join overlaps the two parts
     base = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{SHARP},fps={FPS},setsar=1"
     for i, (a, b) in enumerate(parts):
         run(['-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-i', src, '-vf', f"setpts=(PTS-STARTPTS)/{speed:.4f},{base}"] + ENC
             + [f'tmp/{name}_p{i}.mp4'])
     d0 = dur(f'tmp/{name}_p0.mp4')
-    fc = (f"[0:v][1:v]xfade=transition=slideup:duration={wd}:offset={d0 - wd:.3f},"
-          f"gblur=sigma=1:sigmaV=28:enable='between(t,{d0 - wd:.3f},{d0:.3f})',trim=duration={L:.3f},setpts=PTS-STARTPTS[v]")
+    if kind == 'fade':
+        fc = (f"[0:v][1:v]xfade=transition=fade:duration={wd}:offset={d0 - wd:.3f},"
+              f"trim=duration={L:.3f},setpts=PTS-STARTPTS[v]")
+    else:   # a whip down; fillborders hides xfade's junk edge on the first frame of the slide (see whip_join)
+        win = f"between(t,{d0 - wd - 0.001:.3f},{d0:.3f})"
+        fc = (f"[0:v][1:v]xfade=transition=slideup:duration={wd}:offset={d0 - wd:.3f},"
+              f"fillborders=top=48:bottom=48:mode=smear:enable='{win}',"
+              f"gblur=sigma=1:sigmaV=28:enable='between(t,{d0 - wd:.3f},{d0:.3f})',trim=duration={L:.3f},setpts=PTS-STARTPTS[v]")
     run(['-i', f'tmp/{name}_p0.mp4', '-i', f'tmp/{name}_p1.mp4', '-filter_complex', fc, '-map', '[v]'] + ENC + [f'seg/{name}.mp4'])
-    print(f'  {name}: spliced {parts} of {src} at {speed:.3f}x with a {wd}s whip -> {L:.2f}s (got {dur(f"seg/{name}.mp4"):.2f}s)')
+    print(f'  {name}: spliced {parts} of {src} at {speed:.3f}x with a {wd}s {kind} -> {L:.2f}s (got {dur(f"seg/{name}.mp4"):.2f}s)')
 
 # Kling held the camera dead still in C7 (the side flash, 5 s; the prompt asked for a slow drift), so the edit adds the drift: a
 # slow push-in toward the arc, and the clip after it starts at that zoom and eases back out (no jump at the cut; 08's EASE_AFTER).
-PUSH = {}          # (focus x, focus y in the 1080x1920 frame, zoom gained over the segment)
-EASE_AFTER = {}; EASE_S = 0.8
+# Kling held the camera still in C3 (the ice), C5 (the strawberry) and C17 (the crack), so the edit adds a slow push-in toward
+# the change, and the clip after each starts at that zoom and eases back out. C19 (the closing wide) also came back still: PULL
+# starts it zoomed in and pulls back to exactly the first frame's framing, so the loop lands on W0.
+PUSH = {"C3": (560, 1250, 0.12), "C5": (505, 1150, 0.12), "C17": (580, 760, 0.15)}   # (focus x, focus y, zoom gained)
+PULL = {"C19": (540, 760, 0.18)}        # (focus x, focus y, zoom at the start, back to 1.0 at the end)
+EASE_AFTER = {"C4": "C3", "C6": "C5", "C18": "C17"}; EASE_S = 0.8
 
 def zoom_xy(fx, fy):
     return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
 
 def post_zoom(name):
-    if name not in PUSH and name not in EASE_AFTER: return
-    n = max(2, round(SEG[name]['len'] * FPS))
+    if name not in PUSH and name not in EASE_AFTER and name not in PULL: return
+    n = max(2, round((SEG[name]['len'] + EXTRA.get(name, 0)) * FPS))
     if name in PUSH:
         fx, fy, zz = PUSH[name]; z = f"1+{zz}*on/{n - 1}"
+    elif name in PULL:
+        fx, fy, zz = PULL[name]; z = f"1+{zz}*(1-on/{n - 1})"
     else:
         fx, fy, zz = PUSH[EASE_AFTER[name]]; N = round(EASE_S * FPS)
         z = f"if(lt(on,{N}),1+{zz}*(1-(3*pow(on/{N},2)-2*pow(on/{N},3))),1)"
@@ -63,7 +78,7 @@ def post_zoom(name):
     run(['-i', f'seg/{name}.mp4', '-vf', f"scale={W*2}:{H*2},zoompan=z='{z}':x='{x}':y='{y}':d=1:s={W}x{H}:fps={FPS},setsar=1"]
         + ENC + [f'tmp/{name}_z.mp4'])
     os.replace(f'tmp/{name}_z.mp4', f'seg/{name}.mp4')
-    print(f'  {name}: ' + (f'push-in to {1+zz:.2f}x toward ({fx},{fy})' if name in PUSH else f'eases back from {1+zz:.2f}x over {EASE_S}s'))
+    print(f'  {name}: ' + (f'push-in to {1+zz:.2f}x toward ({fx},{fy})' if name in PUSH else (f'pulls back from {1+zz:.2f}x' if name in PULL else f'eases back from {1+zz:.2f}x over {EASE_S}s')))
 
 WHIP = {("C16", "C17"): 0.3}           # a far jump in the edit: slide left with horizontal motion blur
 EXTRA = {}
@@ -84,8 +99,12 @@ def seg_clip(name):
     seg_clip_raw(name); post_zoom(name); lights(name)
 
 def whip_join(a, b, wd, out):
-    d0 = dur(f'seg/{a}.mp4')
+    # xfade's slideleft draws junk into the left ~34 columns on the first frame of the transition (progress 1: it reads past
+    # the row), which showed as a bright green strip for one frame. fillborders smears the edge columns during the whip, where
+    # the motion blur hides it.
+    d0 = dur(f'seg/{a}.mp4'); win = f"between(t,{d0 - wd - 0.001:.3f},{d0:.3f})"
     fc = (f"[0:v][1:v]xfade=transition=slideleft:duration={wd}:offset={d0 - wd:.3f},"
+          f"fillborders=left=48:right=48:mode=smear:enable='{win}',"
           f"gblur=sigma=30:sigmaV=1:enable='between(t,{d0 - wd:.3f},{d0:.3f})'[v]")
     run(['-i', f'seg/{a}.mp4', '-i', f'seg/{b}.mp4', '-filter_complex', fc, '-map', '[v]'] + ENC + [out])
     print(f'  whip {a} -> {b}: {wd}s, joined {dur(out):.2f}s')
@@ -159,7 +178,11 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []   # filled in after the clips are rendered (positions measured on frames of seg/<SEG>.mp4)
+POINTERS = [
+    ("C7", "ring", 4.2, 5.8, 5.0, {"c": (577, 782), "r": 140}),   # B9 "This is vitrification": the glassy vial in the flask (re-measured on the C7 re-render)
+    ("C9", "ring", 2.8, 4.75, 3.5, {"c": (485, 1000), "r": 105}),    # B12 "a vacuum in its walls ... dewar": the double wall
+    ("C13", "ring", 1.6, 3.3, 2.6, {"c": (380, 1270), "r": 125}),    # B17 "head down ... brain stays cold": a pod's lower end
+]
 
 def pointer_events(t0, t1):
     ev = []

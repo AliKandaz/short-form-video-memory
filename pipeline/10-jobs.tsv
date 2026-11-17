@@ -43,7 +43,7 @@ C3	606430c4-0585-425e-87fd-eeb6cac0ad5d	4 s
 C4A	0acf60d9-cfaa-4e38-a704-624b80e0626d	6 s
 C5	53d72955-a5a3-458e-acc2-00b12eadd2f4	3 s
 C6A	1739ac32-fd60-4e40-bf97-e4056405c5fc	3 s
-C7	74349970-910b-4539-8208-856e362cc5fb	8 s
+C7A	74349970-910b-4539-8208-856e362cc5fb	8 s (a raised wooden floor step mid-move; discarded)
 C8	0dba86bd-b3ac-469a-a044-eb4bd2dcf4ae	5 s
 C9	4140f173-013e-47e2-ba91-543346802b91	5 s
 C10	37a1e8de-b1bf-432b-9501-8e9b1e497dd5	3 s
@@ -57,3 +57,4 @@ C18	4e30ae37-6875-4f05-99eb-ccaa253b90d2	3 s
 C19	513e0223-28ac-41dd-b945-b9e992e47450	6 s
 C6	3a916d16-b755-45bc-bde1-0f975e4fd3ab	re-render, 4 s
 C4	88629d12-11eb-4878-bda6-8e01c77f7b61	re-render, 6 s
+C7	2bd6aba3-1b7a-4f4a-aaeb-7c637f1052ca	re-render, 8 s, flat solid floor
