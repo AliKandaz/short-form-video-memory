@@ -237,6 +237,48 @@ P.update({
        f"the block. {NITRO} {NOCHANGE} {NOBODY}",
 })
 REFS_REDO.update({"I0": ["I0B", "H0"]})
+# Round 5 (17 Nov 2026): the wall cross-section is now an edit of the accepted I0 (56ed67f9); T3w is dropped (C7 ends on T3 and
+# Kling frosts the vial; C17 goes T3 -> T4), so T4 is an edit of T3.
+P.update({
+ "L0": f"{STYLE} {POS} New camera position: low and close at the left edge of the front-left tank's big see-through window: the "
+       f"window's edge cuts straight through the tank's wall, so the wall's thickness shows in cross-section like a sandwich running "
+       f"from the top of the frame to the bottom: a shiny inner steel skin, a narrow dark empty gap, and a shiny outer steel skin. "
+       f"Through the window on the right, the pale liquid nitrogen and the long white pods show. The tank's base stands on the grey "
+       f"floor at the bottom of the frame. The cool white ceiling lights of the hall are on. {NITRO} {FLOORS} {NOBODY}",
+ "T4": f"{STYLE} {LOCKZ} Change only this: one sharp crack now runs across the clear, glassy pale-blue vial in the flask, from one "
+       f"side to the other. {KEEP} {NOBODY}",
+})
+REFS_REDO.update({"L0": ["I0"], "T4": ["T3"]})
+# Round 7 (17 Nov 2026). I2A (0699e8d8), I3A (331b0f0d) and T3A (7cacb914) grew a cake-cut of soil below the hall floor or the
+# counter (the STYLE line's "sliced open ... what is buried" leaking into close-ups; T3A even buried a jar under the counter), and
+# T3A stood the vial on top of the flask. INDOOR now goes into every close-up. L1 (22d53139) came back barely darker than L0, so
+# the power cut is made in the edit (a brightness dip over C10) and C10 has no middle keyframe. T4A (cecd6e06) was an edit of T3A.
+INDOOR = ("This is an indoor close-up: nothing is cut open, and there is no soil, no ground, no pit and nothing buried anywhere "
+"in the frame.")
+P.update({
+ "I2": f"{STYLE} {POS} New camera position: lower and closer than the reference, still outside the tank, looking in through the "
+       f"lower part of its big see-through window: the rounded head ends of two long white pods fill the middle of the frame, deep "
+       f"in the pale liquid nitrogen near the bottom of the tank, with the liquid's surface and the fog high above at the top of the "
+       f"frame. The tank stands on the solid grey floor of the hall. {INDOOR} {NITRO} {NOCHANGE} {NOBODY}",
+ "I3": f"{STYLE} {POS} New camera position: close on the middle column, looking in through the big see-through window between the "
+       f"pods: the stack of small white canisters, one above the other, fills the middle of the frame from top to bottom, the lower "
+       f"ones under the pale liquid nitrogen and the upper ones in the fog, with a long white pod on either side. The tank stands on "
+       f"the solid grey floor of the hall. {INDOOR} {NITRO} {NOCHANGE} {NOBODY}",
+ "T3": f"{STYLE} {POS} New camera position: closer on the right-hand end of the same tray, at the height of the vials, so the small "
+       f"open steel flask fills the middle of the frame. Change this: the flask is now full of clear, colourless liquid nitrogen, "
+       f"and the small vial of pale-blue liquid stands in it, its top half sticking up out of the smoking liquid; thick white vapour "
+       f"pours over the flask's rim and down its sides, and the vial is perfectly clear and glossy, like glass, with no ice and no "
+       f"crystals in it. The collapsed strawberry is just in view at the left edge. The white counter top fills the bottom of the "
+       f"frame and nothing below it is in view. {INDOOR} {NOBODY}",
+})
+# Round 8: I3B (893db592) framed the whole window again, almost the same view as I1, which would leave C14/C15 without a real move.
+P.update({
+ "I3": f"{STYLE} {POS} New camera position: much closer than the reference, almost touching the big see-through window. Extreme "
+       f"close-up: the middle column of small white canisters stacked one above the other fills most of the frame from top to "
+       f"bottom, the lower canisters under the pale liquid nitrogen and the upper ones frosted in the fog, with the edges of two "
+       f"long white pods cut off by the left and right sides of the frame. The window's steel frame is not in view. {INDOOR} "
+       f"{NITRO} {NOCHANGE} {NOBODY}",
+})
 # References per still (keys of 10-jobs.tsv). The first reference is the picture being edited.
 REFS = {"W0": [], "Wb": ["W0"], "D0": ["W0"], "D0f": ["D0"], "D1": ["D0f"], "T0": ["W0"], "T1": ["T0"], "T2": ["T1"],
         "T3": ["T2"], "T3w": ["T3"], "T4": ["T3w"], "B0": ["W0"], "B1": ["B0"], "H0": ["W0"], "H1": ["H0"], "L0": ["W0"],
