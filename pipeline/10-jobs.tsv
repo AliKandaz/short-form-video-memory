@@ -1,0 +1,24 @@
+key	job_id	note
+W0	5e848ad3-0771-4d1f-92fe-a4e09590b147	style key, first and last frame
+D0	40516e21-2ac7-4b9a-8e41-223939f80a8d	
+T0A	9f88bd07-51d3-4217-83e1-2946a1092609	
+B0A	cac6bbbe-e333-48db-847f-818cfda6cb31	
+H0	465aaeb5-34ca-4fe7-a8cf-ea39f056b80e	
+L0A	4166baa4-1ec2-4051-bda4-82d97e8dccb2	
+P0A	e50e3d32-ae9a-49f1-b0ff-6ffaf35232be	
+I0A	9c14ef0e-63b5-4adb-adc9-2b3bb1074d06	
+R0A	19394743-1d13-40fa-ad21-6641766be5dc	
+T0	70d255c5-ff26-4790-9853-65b24eb0cd2d	redo, from D0
+B0	0de51def-143f-40c0-9cf2-9d4aaaca3c39	redo, from D0
+I0B	6055cd4d-8683-49c9-85a4-7ac7766c5290	redo, refs W0 + H0
+R0	35a072d4-c79c-4c8b-acf0-37ddaff2e604	redo
+P0	81d94ec8-bdfe-49c2-b638-0cdac969c61c	redo, from H0
+WbA	3e82afae-0b40-441b-a228-b09454f8dce8	
+D0f	189117cc-d70d-404d-b21d-9e8a55e836f2	
+H1	21ec03e5-f747-4130-8168-57139801e2ef	
+I0	56ed67f9-4744-451c-9747-6c1c036c52ed	edit of I0B: long pods
+Wb	50a26ec0-576b-4449-ac41-956463fea5ed	redo: deep block, no pit
+D1	4e751520-86d3-40f0-9cdf-d7ea148be85a	
+T1	a7168757-2f7a-4ca9-9557-6a67bd443150	
+B1	402473b8-bcec-443c-abea-78806d91791d	
+P1	608a880f-1e05-4df0-b5f6-012c72bee56a	
