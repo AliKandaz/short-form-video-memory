@@ -25,15 +25,22 @@ C = {
  "C3": ("D0f", [], "D1", 4, "The camera keeps drifting slowly around the gurney the whole time. Ice cubes pour into the white tub "
         "around the white pod until it is packed to the rim, and the round rotor on the small white pump cart starts turning, its "
         "two clear tubes running into the pod. The monitor's line stays flat."),
+ # C4A (0acf60d9, 6 s): as the camera swooped low over the floor, a white pit with dead roots and stones opened in it (the
+ # cutaway STYLE leaking in). C4 says the floor is solid.
  "C4": ("D1", ["T0"], "T1", 6, "The camera swoops up and across the cooling room from the gurney to the white counter along the "
-        "back wall and down to a small steel lab tray, arriving very close. On the tray, the water in the left-hand glass vial "
-        f"freezes: white ice crystals grow through it, spike out of its top and crack the glass. {ONE}"),
+        "back wall and down to a small steel lab tray, arriving very close. The floor is solid grey and nothing is cut open: no "
+        "soil, no pit, no roots and no stones anywhere. On the tray, the water in the left-hand glass vial freezes: white ice "
+        f"crystals grow through it, spike out of its top and crack the glass. {ONE}"),
  "C5": ("T1", [], "T2", 3, "The camera slides slowly sideways along the tray toward the strawberry the whole time. The frosty red "
         "strawberry thaws: it softens, slumps and collapses into a shapeless red heap, leaking red juice onto its white dish. The "
         "frozen vial stays frozen."),
- "C6": ("T2", ["B0"], "B1", 3, "The camera pulls back from the tray and swings round to the steel operating table in the middle of "
-        "the cooling room, where the white pod lies with two tubes running into it from the pump cart. Pale-blue liquid flows down "
-        f"the tubes from the bags on the drip stand, pushing the dark red out of them, until both tubes run pale blue. {ONE}"),
+ # C6A (1739ac32, 3 s): mid-move a pit full of rubble opened in the floor under the table and the tray rode onto the table top;
+ # the tubes stayed dark red to the end, so the swap never showed. C6 is 4 s with the floor and the swap spelled out.
+ "C6": ("T2", ["B0"], "B1", 4, "The camera pulls back from the tray and swings round to the steel operating table in the middle of "
+        "the cooling room, where the white pod lies with two tubes running into it from the pump cart. The floor is solid grey and "
+        "nothing is cut open: no soil, no pit, no rubble. The tray stays on the counter. As the camera arrives, pale-blue liquid "
+        "flows down from the two bags on the drip stand and pushes the dark red out of both tubes, until both tubes run pale blue "
+        f"all the way into the pod. {ONE}"),
  "C7": ("B1", [], "T3", 8, "The camera pushes back in from the table to the counter and down to the steel tray, arriving very "
         "close on the small open steel flask. In the flask, the small vial of pale-blue liquid stands in clear, smoking liquid "
         "nitrogen; thick white vapour pours over the rim and down the sides, and the vial sets into perfectly clear glass, with no "
