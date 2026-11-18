@@ -8,7 +8,9 @@ Hashtags, typed in the app one at a time and picked from the suggestion list so 
 before posting; afterwards `tt_snapshot.py` should show them registered):
 #HowItWorks #Engineering #LearnOnTikTok #3DAnimation #Manhole #Winter
 
-AI-generated content: on. Cover: TikTok Studio on desktop → Edit cover → upload the 1080×1440 crop.
+AI-generated content: on. Cover: TikTok Studio on desktop → Edit cover → upload the 1080×1440 crop: cover B
+(`thumb/cover_B_3x4.jpg`, "300 POUNDS / 50 FEET UP" on the blast; the most eye-catching in the grid) or cover A
+(`thumb/cover_A_3x4.jpg`, "WHY FULL / OF HOLES?" on the vented lid, which matches the caption). Cover C is the plain frame.
 
 Pinned comment: Would you still step on one? Yes or no.
 
@@ -32,7 +34,9 @@ cooks it into gas and one spark throws a 300-pound lid into the air. Here's why 
 add sensors and latch some lids down. Would you still step on one? #Manhole #HowItWorks #3DAnimation
 
 Audience: No, it's not made for kids. Altered or synthetic content: leave unticked (a street sliced open like a cake can't be
-taken for real footage; 8.2). Cover: pick the frame at upload, the most satisfying cutaway moment with no caption word on it.
+taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program). The caption-free
+moments are 11.6-11.8 s (recommended: the whole sliced street over the vault, the pigeon on the lid, the salt truck), 32.9-33.1 s
+(the smoking hole with the blown lid beside it) and 59.6-59.8 s (the pigeon landing).
 Pin the comment question; reply to every comment in the first day.
 
 Facts behind the replies (checked 18 Nov 2026, search summaries): covers weigh 70–300 lb (Con Edison); Boston, 2 Apr 2017, a

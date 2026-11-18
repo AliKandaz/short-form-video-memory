@@ -182,6 +182,7 @@ POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (18 Nov 2026); time
     ("C4", "arrows", 1.6, 3.0, 2.4, {"p0": (560, 770), "p1": (560, 1040)}),   # B5 "drips ... onto the cables": down the drips
     ("C5", "ring", 3.6, 5.6, 4.6, {"c": (485, 1005), "r": 130}),               # B7 "salt water eats into it": the crust and crack
     ("C10", "arrows", 3.6, 5.4, 4.2, {"p0": (540, 880), "p1": (540, 600)}),    # B12 "the gas gets out": up through the holes
+    ("C12", "ring", 4.4, 5.85, 4.8, {"c": (530, 915), "r": 95}),               # B15 "sensors ... raise the alarm": the box
     ("C13", "ring", 3.3, 5.8, 4.5, {"c": (935, 1045), "r": 85}),               # B17 "latches": the right-hand latch
 ]
 
@@ -235,11 +236,17 @@ def at(beat, word=None, off=0.0):
 # cracks at 0.31 s; fx6's three beeps start at once; fx7's lid lifts with a hiss and clanks back at 1.52 s. The blast times are set
 # from the pilots: in C1 the pigeon takes off at ~0.45 s and the lid leaves the road on flame at ~0.58 s (measured
 # 18 Nov 2026), so the wings start at 0.12 s (peak 0.33 s in) and the blast at 0.5 s; C8's flash is set once it is rendered.
-FX = [("fx1_blast", at("B1", None, 0.5)), ("fx2_wings", at("B1", None, 0.12), 1.2), ("fx3_salt", at("B4", "trucks", -0.3)),
-      ("fx4_drips", at("B5", "drips", -0.5)), ("fx5_arc", at("B8", "jumps", -0.25)), ("fx1_blast", at("B10", "lights", -0.1)),
-      ("fx4_drips", at("B14", "let", -0.4)), ("fx6_beeps", at("B15", "raise", -0.05)), ("fx7_latch", at("B17", "lift", -1.0)),
-      ("fx2_wings", at("B18", "pigeon", 0.1), 1.2)]
-BED, BED_UNDER, FX_UNDER = 'bed_street', 19.0, 11.0      # dB under the voice (approved starting points, 3.4)
+FX = [("fx2_wings", at("B1", None, 0.12), 1.2), ("fx1_blast", at("B1", None, 0.5)),   # the pigeon lifts ~0.45 s, the lid ~0.58 s
+      ("fx3_salt", at("B4", "trucks", -0.3)),            # the truck spreading salt in the wide (C3)
+      ("fx4_drips", at("B5", "drips", 0.35)),            # loud 0.46-1.13 s in: on the first drop seen from under the lid (C4)
+      ("fx5_arc", at("B8", None, 0.2)),                  # C6B's bolts start ~0.25 s into the clip
+      ("fx1_blast", at("B10", None, 1.3)),               # C8's orange flash, ~1.25 s into the clip (played at ~0.92x)
+      ("fx4_drips", at("B14", "let", -0.4)),             # slush trickling into the holes (C12)
+      ("fx6_beeps", at("B15", "raise", -0.05)),          # the sensor's light blinking (C12)
+      ("fx7_latch", at("B16", None, 4.0)),               # the lid lifts ~4.0 s into C13, clanks back ~1.5 s later
+      ("fx2_wings", at("B18", None, 1.35), 1.2)]         # the pigeon lands, ~1.3-2.7 s into C14
+BED, BED_UNDER, FX_UNDER = 'bed_street', 14.0, 11.0      # dB under the voice by active RMS. 19 (the starting point) measured
+# 26 dB under in the quiet moments with this street bed (under_the_voice.py, 18 Nov 2026); 14 brings it into the 18-22 dB band.
 
 def mix(t0, t1, out, voice_only=False):
     voice = 'audio/narration_tight.wav'; v_db = rms_db(voice); T = t1 - t0

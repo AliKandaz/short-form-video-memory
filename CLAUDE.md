@@ -46,7 +46,12 @@ plan, the order and the budget are section 2; the evidence behind it is section 
 - **Video 11 (Himeji Castle, parked idea F3) was stopped by the user on 18 Nov 2026** at its quote (271.69 at 720p), with the
   message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
 - Three profile pictures without the mascot were made on 18 Nov 2026; the user hasn't picked one yet (8.3).
-- **Next:** the free re-cut test and the profile fixes (2.2), then the first of the ten (section 3), each quoted at 200 or less.
+- **Video 12 (V1, "Why Some Manhole Covers Are Full of Holes") was made on 18 Nov 2026**, the first of the ten and the first
+  under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. Not posted yet (9.2; copy in
+  `pipeline/12-post-copy.md`). Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
+  (3, V1).
+- **Next:** post video 12 (8.1, 8.2); V2 (the turkey) has to be posted by Tue 24 Nov 2026; the free re-cut test and the profile
+  fixes (2.2) are still to do. Each video quoted at 200 or less.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -169,7 +174,7 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 ### 2.3 The ten, in order (18 Nov 2026)
 | # | Idea (section 3) | The first second | Best proven demand | Why this slot |
 |---|---|---|---|---|
-| V1 | Why Manhole Covers Explode | a manhole lid blasts up on a column of flame | 2.0M (real footage); no animated version | Open topic, street-level like the hydrant, winter |
+| V1 | Why Manhole Covers Explode → **made 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** | a manhole lid blasts up on a column of flame | 2.0M (a Short); about nine small copies since Aug 2026, all under 3.2K (3, V1) | Street-level like the hydrant, winter |
 | V2 | Why Frozen Turkeys Explode in the Fryer | a frozen turkey hits the oil; fireball | 5.6M, 3.1M | Thanksgiving: post by Tue 24 Nov 2026 |
 | V3 | Why Nuclear Cooling Towers Are Empty Inside | the tower's wall slices open: empty | 72M (footage); nobody has animated the inside | The simplest set to draw; cold-day plumes |
 | V4 | The Ice Under This Court Cancelled an NBA Game | a floor panel lifts off white ice | 7.4M; 386K this month | NBA and NHL in season |
@@ -230,15 +235,24 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   the lid (close) → the arc (extreme close) → the vault filling with gas → the vented lid from below → the street, wide.
 - **Sounds:** bed: a city street in slush, distant traffic; effects: the blast, the lid clanging down, dripping, an electrical
   crackle, wings.
-- **Demand:** no Short uses the title; the best on the topic is "Why do manhole covers explode?" 2.0M (real footage, Oct 2024), then
-  news clips at 77K–153K; long videos: Half as Interesting 5.5M, Tom Scott 1.9M. No animated cutaway. Zack D. Films: none.
+- **Demand (corrected at Gate A, 18 Nov 2026):** the earlier check missed Shorts (12.2). About nine small Shorts on the plain
+  road-salt angle since Aug 2026, all under 3.2K: one with this exact title (114 views), Baguette Lab 3.1K, How Things Work in
+  Motion 2.0K (a labelled cutaway), Grid Matters 1.3K (the same 300-lb road-salt hook), Unseen Machines 1.3K (latches), Futurecraft
+  1.3K (photoreal 3D, a flaming lid in frame 0, 17 Nov). The topic's best, "Why do manhole covers explode?" 2.0M (Oct 2024), is a
+  Short with a sewer-gas explanation; long videos: Half as Interesting 5.5M, Tom Scott 1.9M. Zack D. Films: none.
+- **Made on 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** (no Shorts with that title): the script was
+  rewritten to 222 words with the fixes as But/So pairs (vented lids, "but holes let salt water in too", sensors, latches) and the
+  pigeon landing back on the lid for the loop. Script, beat sheet and everything else in `pipeline/12-*`.
 - **Checked ✔:** covers weigh 70–300 lb (Con Edison); in Boston on 2 Apr 2017 a cover flew at least 50 ft and nobody was hurt; the
   cause: salty meltwater wears down cable insulation, current arcs, the insulation smoulders, gas builds up and an arc lights it;
   Con Edison logged 3,369 "manhole events" in 2014, 32 of them explosions, about 90% from failed insulation; most happen January to
   March (FDNY data); vented covers since 2005 (more than 121,000 by about 2016), latched covers, gas and heat sensors (1,000 by
   2017, more than 3,600 later); a round lid can't fall through its own hole.
-- **⚠ before Gate A:** yearly counts vary by source ("thousands … a few dozen" is safe); flights of 200–300 ft are unverified; the
-  wording for latched covers ("locks some lids in place").
+- **Resolved at Gate A (18 Nov 2026, search summaries):** New York averages about 2,240 smoking manholes and 29 explosions a year
+  (Con Edison five-year averages); 50 ft (Boston, 2017) used, not 200–300 ft; latches: one design lifts slightly and settles back
+  once the pressure evens out (T&D World), about 3,300 latched covers (CBS New York); vent holes let more water and salt in (patent
+  background); sensors detect heat, gas and CO (about 4,800 devices, 2019); cable failure causes most manhole incidents, but the gas
+  is sometimes sewer or natural gas, so "it wasn't sewer gas" is said about one lid, never in a title.
 - **Watch out:** no utility name, city landmark or logo; don't show New York's steam stacks (a different system); nobody hurt.
 
 **V2. Why Frozen Turkeys Explode in the Fryer** (a back yard at Thanksgiving; post by Tue 24 Nov 2026)
@@ -752,6 +766,9 @@ between stills (15 Nov 2026).
 271.69 and stopped. About 80% is clips, and the clips ran long: video 10 planned 86 s of clips for a 76 s video, plus 18 s of
 re-renders.
 
+**The first video under the cap** (video 12, 18 Nov 2026): 186.50 for 63.7 s (stills 20.00, clips 144.00, two re-renders 22.50)
+against a 194.64 quote: the standard plan below held.
+
 **The standard plan under the cap (18 Nov 2026; my estimate from the prices above):**
 
 | Item | Plan | Credits |
@@ -899,7 +916,12 @@ YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies o
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
 
 ### 6.4 Scripts to copy (18 Nov 2026)
-Start each video from the latest set and rename the prefix: `10-prompts.py` (STYLE without water, WIDE, SET, CAMERA, POS, LOCK,
+**Start from video 12's set** (18 Nov 2026) and rename the prefix: `12-prompts.py` (STYLE, WIDE, SET, CAMERA, POS, LOCK, LOCKZ,
+STREETZ and VAULTZ, REFS), `12-mk.py` (still requests), `12-clips.py` (clip requests; lengths read from `12-plan.json`; start-only
+clips), `12-timing.py` (pause tightening, beats, clips rounded to the nearest second, OVERRIDE), `12-build.py` (the edit tools of
+Step 9 plus vertical whips), `12-thumbnail.py`, `12-flightmap.py`, `12-post-copy.md`, and `12-beat-sheet.md` (the latest beat sheet
+layout, with a production log). Whisper runs in the Higgsfield sandbox from a heredoc (the 10-whisper.py code with a new
+`initial_prompt`), reading the ElevenLabs take URLs directly. The set before it, kept for reference: `10-prompts.py` (STYLE without water, WIDE, SET, CAMERA, POS, LOCK,
 LOCKZ, INDOOR, REFS), `10-mk.py` (still requests), `10-clips.py` (clip requests, the floor line, middle keyframes), `10-whisper.py`,
 `10-timing.py` (pause tightening, beats, the clip plan), `10-build.py` (all the edit tools of Step 9), `09-build.py` (pointers with
 tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/analysis/` (the checks) and `pipeline/youtube/`
@@ -911,7 +933,10 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 
 ### 7.1 Stills (seedream)
 - **Stills take 1.6–1.8 tries each** in this look; budget for it. `seedream` takes about 8 jobs at once (more are refused with
-  429, no charge).
+  429, no charge). **Video 12 got all 16 on the first try** (18 Nov 2026): the wide made first as the set key, every other still an
+  edit of it or of a neighbour, and a STREETZ or VAULTZ line on every close-up so no cut ground leaked in.
+- **The set key can float** over a pale ground instead of reaching the bottom edge, whatever the deep-block line says (video 12):
+  it leaves a calm lower area for the captions, so keep it.
 - **The style key decides the layout; fit the plan to it** (video 10). Give the layout in its prompt ("the roof peak about 10%
   from the top, the pipe about 60% down, plain soil below") and the deep-block line (6.3).
 - **Real close-ups need "Extreme close-up: the [part] fills most of the frame"**; "close-up of" gives a wide shot. "Almost touching
@@ -945,6 +970,12 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **A change clip can come back with a dead-still camera:** add the move in the edit (`PUSH`), and ease the next clip out.
 - Kling invents people unless the prompt says "No people, no characters". Electricity, water, fire, steam and smoke animate well.
 - Big storms over a structure close under the waterline came out wrong twice (video 05): frame storms with plenty of water between.
+- **A clip that has to get from the street into an underground room can invent its own route** (video 12, C12A): the road cracked
+  open round the lid and the camera dived down a brick sewer shaft. Fix: a middle keyframe of the room's inside and "the camera
+  never goes through the lid; the road never breaks; no bricks anywhere".
+- **A start-only change clip can come back faint** (video 12, C6A: a thin thread of an arc). "On the first frame a big, bright arc
+  bursts out … lighting the whole close-up" got bolts that read on a phone.
+- Turning inside a cut-open room, Kling may glimpse the sky through the open front for half a second (video 12): accepted.
 
 ### 7.3 Camera and motion
 - **A crop of a still is not a camera position:** Kling zooms across a flat picture and it reads as still (video 08: 20% moving).
@@ -960,6 +991,10 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Draw ASS shapes from a top-left origin with `\an7` (libass misplaces shapes around negative coordinates).
 - Fonts: `npm pack @fontsource/montserrat@5.1.0`, then fontTools (`pip install fonttools brotli`) converts the 800 weight to a TTF
   named "HBX Caption".
+- **Round clip lengths to the nearest second, not up** (18 Nov 2026, `12-timing.py`): rounding up made 70 s of clips for a 65.6 s
+  video; nearest-second rounding and one pinned clip gave 64 s for 63.7 s, all played at 0.88–1.26×.
+- **Whips can be vertical** (`12-build.py`, WHIP takes an xfade direction): slideup for a dive down, slidedown for a flight up,
+  with vertical motion blur.
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -967,6 +1002,8 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - To fix a pronunciation, respell it in the text sent to the voice ("doo-er" for dewar); the captions keep the real word.
 - Room-tone beds come back very quiet (mean −64 dB): set every level by measurement, never a fixed gain.
 - Time each effect from its loud moment on the picture; cut a long effect short if the picture stops (the `FX` cut value).
+- **Check the bed with `under_the_voice.py`, not by its setting** (18 Nov 2026): BED_UNDER 19 put a steady street bed 26 dB under
+  the voice in the quiet moments; 14 brought it to 22 dB. Remix only the audio onto the finished picture (`mix()` and a stream copy).
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
@@ -980,7 +1017,10 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   `v16-webapp-prime.us.tiktok.com`.
 - **Not reachable:** `huggingface.co` (so Whisper runs in the Higgsfield sandbox), the upload CDN `d2ol7oe51mr4n9.cloudfront.net`
   (give those links to the user), and for WebFetch `en.wikipedia.org`, `cdc.gov`, `weather.gov` and many blogs (use search
-  summaries and say so).
+  summaries and say so); on 18 Nov 2026 also `cbsnews.com`, `thecity.nyc`, `lincolnsquarebid.org`, `tdworld.com` and
+  `lite.conedison.com`.
+- **ElevenLabs `account_get_usage` needs the connector reconnected with more permissions** (18 Nov 2026); estimates and
+  generations work, so the ElevenLabs balance can't be read from a session until then.
 - **The Higgsfield sandbox:** foreground calls time out at about 60 s (run Whisper and renders with `background:true`); pip fails
   there; it keeps outputs for about 24 hours.
 - **Local assembly works:** ffmpeg with libass, zoompan and xfade, Python and npm; a full render takes about 2 minutes.
@@ -1090,6 +1130,7 @@ label to 9 of 10 videos; no video shows a penalty. The YouTube uploads carry no 
 | 09 | What Lightning Does Inside Your House | 15 Nov | cutaway, travelling camera | 264.25 | no (no bolt in 3 s) |
 | 10 | Why These People Are Frozen Upside Down | 17 Nov | cutaway, travelling camera | 278.00 | no |
 | 11 | Why This Castle Was Built Like a Maze (Himeji) | — | cutaway, travelling camera | quoted 271.69 | stopped by the user at Gate B, 18 Nov 2026 |
+| 12 | Why Some Manhole Covers Are Full of Holes (V1) | 18 Nov | cutaway, travelling camera | 186.50 (quoted 194.64) | yes: the lid leaves the road on flame at ~0.6 s |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1105,6 +1146,10 @@ not reachable from a session, so give the links to the user or read them through
 - 10 cryonics: final `411ec54b-1d2d-4bcd-986a-ad5162a5d424`; voice-only `08f9539b-f60b-4c57-b18a-07b8ee5fdcc0`; clean master
   `92c26eb5-d5d7-46fb-b0da-d85613bda271`; flows: narration `veNoEzrTLWDaaHUTT1ie`, sound `shGklhH86OxmdJFiZJJ0`; Higgsfield folder
   `dc9cd687-a9ef-4334-a7db-29df6b684c68`; build `pipeline/10-build.py`, word timings `pipeline/10-words-takeA.json`.
+- 12 manhole covers (18 Nov 2026; 63.7 s; picture 97% moving, camera 83% moving, parallax 0.88 px, bed 22 dB under the voice,
+  -13.1 LUFS): final `4a06b2de-85f5-48ef-934c-127ab188feac`; voice-only `031bfa5e-7e50-4897-bf57-3de54b22f8fd`; clean master
+  `f14e85d8-2eaa-47d0-868e-56e19a64c57f`; flows: narration `mGH44upt45AU8OjNz4mT`, sound `JjjBUf6oJu5ocLnAJd3K`; Higgsfield folder
+  `25f62fea-3516-4722-a1d8-62520102b743`; build `pipeline/12-build.py`, word timings `pipeline/12-words-takeB.json`.
 - Every video's script, beat sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
 ### 9.3 What the ten videos taught (18 Nov 2026)
@@ -1244,6 +1289,10 @@ YouTube title. Log it in 9.2 as <NN>b and update both copies of the memory.
     and most popular Shorts, or who posted a Short; `handles.py <dir> yt|tt <handle>…`: is a handle taken.
 - **`yt_snapshot.py`'s save-to-playlist flag is unreliable** (18 Nov 2026): two runs minutes apart flipped it for two Shorts. Don't
   read a lone "save-to-playlist NO" as made-for-kids mode, which also turns comments off.
+- **YouTube's search page now lists Shorts as plain video results that open in the Shorts player** (18 Nov 2026).
+  `yt_saturation.py` counted them as long videos and reported "0 distinct Shorts" on pages that held a dozen; that is why V1's
+  demand note said no Short used its title. Fixed (`bba4c0d`): it now counts them, with age and channel. Ideas checked before the
+  fix may have missed Shorts, so rerun the check at each Gate A.
 - Frames without a download: `https://i.ytimg.com/vi/<id>/frame0.jpg` (the first frame) and `oar1.jpg`, `oar2.jpg`, `oar3.jpg`
   (about 25%, 50% and 75%; `oar2` is the default cover).
 - YouTube counts a Shorts view each time one starts playing, so a Short with tens of views was hardly shown.
@@ -1279,7 +1328,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 
 ### 13.2 Topics to avoid
 - **Made by us:** the mud house, the canoe, the fire hydrant, seawater to tap water, the underwater habitat (Aquarius), Petra, the
-  1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics.
+  1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics, the manhole covers (video 12).
 - **Made by Hidden By Design:** the storm drain, the water well and water tower, a road tunnel under a river, a landfill into a
   park, a bridge foundation (cofferdam), the sewer and treatment works, power lines, the gas station, the roof, the beach.
 - **Made by How Building Explained:** the nipa hut, an Amazon floating house, the igloo, the levee, a nuclear bunker, a nuclear
@@ -1317,4 +1366,6 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   video 11 (F3) scripted and quoted.
 - **18 Nov:** growth audit of both channels (`8a4a6da`, `1174f29`); profile pictures without the mascot (`13b080e`); the user
   approved the audit's recommendations, stopped video 11 and set the 200-credit cap; this file rewritten for the 10-video plan.
+- **18 Nov (later):** video 12 (V1, the manhole covers) made under the 200 cap, retitled at Gate A; the saturation check's Shorts
+  parser fixed (`bba4c0d`); the video's files from `679af8c` to the commit that logged it.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
