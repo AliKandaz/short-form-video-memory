@@ -45,7 +45,8 @@ plan, the order and the budget are section 2; the evidence behind it is section 
 - Videos 01–10 are made and posted on both platforms (9.2). Credits: 1,762.25 after video 10 (check `balance`).
 - **Video 11 (Himeji Castle, parked idea F3) was stopped by the user on 18 Nov 2026** at its quote (271.69 at 720p), with the
   message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
-- Three profile pictures without the mascot were made on 18 Nov 2026; the user hasn't picked one yet (8.3).
+- **A new profile picture and YouTube banner without the mascot** were made on 18 Nov 2026 (the user asked for eye-catching
+  ones), from the videos' own stills, no credits; the user hasn't picked yet (8.3).
 - **Video 12 (V1, "Why Some Manhole Covers Are Full of Holes") was made on 18 Nov 2026**, the first of the ten and the first
   under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. Not posted yet (9.2; copy in
   `pipeline/12-post-copy.md`). Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
@@ -1079,13 +1080,23 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **Bio on both platforms:** what you post and how often, in one line, e.g. "The hidden inside of everyday things, in 3D. New video
   every other day."
 - **Pin the three best TikTok videos:** seawater, the hydrant, and the best of the new ones as it emerges.
-- **A profile picture without the mascot** (made on 18 Nov 2026 at the user's request, in another session, no credits; the user
-  hasn't said which goes live, so check with `yt_snapshot.py` before saying which is up). Three 800×800 options in `branding/`:
-  **A, recommended:** `avatar-cutaway-house-800.png`, video 09's cutaway house on the old blueprint blue (what the videos look like;
-  the rooms blur at 24–32 px); **B and C:** `avatar-cutaway-icon-yellow-800.png` and `avatar-cutaway-icon-terracotta-800.png`, flat
-  icons of the same idea, the clearest at small sizes. How each looks on YouTube: `fit-check-avatar-cutaway.jpg`. The same files fit
-  TikTok's round picture, so both profiles can match. Rebuild: `pipeline/branding/make_avatar_cutaway.py <W0 still> <a 9:16 frame>
-  branding`. The banner (10 Nov 2026) still shows the mascot and "ONE PROBLEM AT A TIME"; a new one was offered, not asked for.
+- **The profile picture and the banner without the mascot** (18 Nov 2026, later; the user: "can you give me a eye catching
+  profile and banner image for my TikTok and YouTube account. I don't want it to include the character"). Made from the videos'
+  own stills, no credits, in `branding/`. The user hasn't said which goes live: check with `yt_snapshot.py` before saying which is up.
+  - **Profile picture** (800×800, one file for TikTok and YouTube; a yellow ring round a circle-safe crop): **A, recommended:**
+    `avatar-blast-800.png`, video 12's lid lifting off on a column of flame (one big shape that still reads at 24–32 px);
+    **B:** `avatar-hydrant-800.png`, the hydrant cut open down to the main (video 03, the 196K Short); **C:**
+    `avatar-portal-800.png`, the vented lid from below with daylight through its holes (striking, but grey at small sizes).
+  - **YouTube banner** (2560×1440 JPG, about 0.35 MB): "3D CUTAWAY EXPLAINERS / EVERYDAY THINGS, CUT OPEN. / NEW VIDEO EVERY
+    OTHER DAY", the second line sliced open with an orange core, beside three video cards (the hydrant, the manhole blast,
+    seawater) inside the phone box, plus four cards that only computers show. **Yellow, recommended as the most eye-catching:**
+    `banner-cutopen-yellow-2560x1440.jpg`; **ink** (navy, calmer): `banner-cutopen-ink-2560x1440.jpg`. TikTok has no banner.
+  - How they look: `fit-check-banners.jpg` (YouTube on a computer and in the app, the full upload) and `fit-check-avatars.jpg`
+    (sizes on light and dark, the TikTok profile and feed). Rebuild or change the words: `pipeline/branding/make_brand_v2.py
+    <stills dir> <fonts dir> branding --fetch` (`--line1`, `--line2`, `--eyebrow`, `--pill`; change the pill if the posting
+    rhythm changes). Older options, kept: the three mascot-free avatars made that morning (`avatar-cutaway-*.png`,
+    `make_avatar_cutaway.py`) and the mascot set of 10 Nov 2026 (`avatar-800.png`, `banner-2560x1440.png`), which the new
+    banner replaces.
 
 ### 8.4 After posting
 - Read the views at about 24 h and 72 h on both platforms (12.1, 12.2) and add them to the video log (9.2).
@@ -1367,5 +1378,6 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **18 Nov:** growth audit of both channels (`8a4a6da`, `1174f29`); profile pictures without the mascot (`13b080e`); the user
   approved the audit's recommendations, stopped video 11 and set the 200-credit cap; this file rewritten for the 10-video plan.
 - **18 Nov (later):** video 12 (V1, the manhole covers) made under the 200 cap, retitled at Gate A; the saturation check's Shorts
-  parser fixed (`bba4c0d`); the video's files from `679af8c` to the commit that logged it.
+  parser fixed (`bba4c0d`); the video's files from `679af8c` to the commit that logged it. Then an eye-catching profile picture
+  and YouTube banner without the mascot, from the videos' stills (`make_brand_v2.py`, 8.3).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
