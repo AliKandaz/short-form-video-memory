@@ -91,8 +91,8 @@ is not set. The kickoff prompt was renewed for them (section 5, **18/11/26**).
 has gone viral. Read from public pages (6.10): on TikTok the six videos since seawater all stopped at 330–454 views, the size of
 the first test; on YouTube the last five Shorts got 11–64 views, almost no test at all. In all six reference videos checked, the
 scene itself changes in the first 0.5–2 s (a hole is cut, a roof is covered, sand is dumped); of ours only the mud house, the canoe
-and the hydrant do, and those three all passed TikTok's first test. Videos 08–10 met every whole-video motion target and still
-stopped at the same point. Recommended, not yet approved: an opening in which the first verb happens on screen within about a
+and the hydrant do, and those three all passed TikTok's first test. Videos 09 and 10 met every whole-video motion target and
+still stopped at the same point. Recommended, not yet approved: an opening in which the first verb happens on screen within about a
 second, one lane for the next 15–20 videos, two or three stalled videos re-cut with new openings as a free test, and TikTok
 hashtags typed in the app (none has registered since video 02).
 
@@ -2194,8 +2194,8 @@ problem; reach is.
    The first lines drifted from a verb the picture shows ("If you stick a pipe on the water main…") to wishes and talk ("If you
    want to cheat death…", "If you want a hidden city…", "Everyone's heard it…"). `check_video.py` on the first 3 s does not
    separate these, because a camera travelling over a finished set counts as movement: judge openings from the frames. Videos
-   08–10 met every whole-video target (84–90% moving) and stopped at the same ~350 as 05–07, so the gains went into the middle,
-   past where most viewers decide (my read).
+   09 and 10 met every whole-video target (84% and 90% moving; 08 had 20%) and stopped at the same ~350 as 05–08, so the gains
+   went into the middle, past where most viewers decide (my read).
 3. **The direction changed after almost every video.** In 11 days: three looks (Classic mascot, Hidden By Design, Cutaway with a
    travelling camera), idea lists replaced on 11, 14, 15 and 16 Nov and a fortress list added on 18 Nov, and four reference
    accounts. TikTok filed the ten videos under five different sets of categories (Petra as Anime & Comics, because of the cartoon
