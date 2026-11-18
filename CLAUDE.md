@@ -962,9 +962,12 @@ stills. In this look a line without its own clip is only a fallback (3.2 rule 5)
   TikTok is still **@overthinkingyearly** (nickname "OT"). The 6.5 shortlist was not used.
 - Channel branding (made 10 Nov 2026, details in 6.8): profile picture = the mascot's head and shoulders on blueprint blue; banner =
   blueprint grid, "ONE PROBLEM / AT A TIME", tiles of the finished builds. Files in `branding/`. Brand colours: blueprint blue `#1F4E8C`,
-  hard-hat yellow `#FFC83D`; type: Barlow Condensed. Both were live on the YouTube channel on 15 Nov 2026. The mascot is retired from
-  the videos only: the user has not asked to change the artwork, so leave it unless they do. `branding/mascot-cutout.png` was made
-  for covers and thumbnails; Cutaway videos use a frame of the cutaway instead.
+  hard-hat yellow `#FFC83D`; type: Barlow Condensed. Both were live on the YouTube channel on 15 Nov 2026, and still on 18 Nov.
+  **18 Nov 2026: the user asked for a profile picture without the character.** Three were made at no credit cost (6.8): A, video
+  09's cutaway house on the same blueprint blue (recommended), and a flat icon of the same idea with a yellow (B) or terracotta (C)
+  roof. Which one goes live is the user's choice; check with `yt_snapshot.py` before saying which is up. The banner still shows the
+  mascot (its left wing, and the mud-house and canoe tiles); a new one was offered, not asked for. `branding/mascot-cutout.png` was
+  made for covers and thumbnails; Cutaway videos use a frame of the cutaway instead.
 
 ### 3.4b Video log
 YouTube ids, view counts and comments for the posted videos are in 6.1.
@@ -1979,6 +1982,13 @@ of 6.1.
   empty description, all things 6.4 advises against. The packaging advice is unproven, and "becomes beats why" (6.3) did not hold
   for us. The video had to do the work.
 
+**Snapshot on 18 Nov 2026 (YouTube only, read while making the new profile pictures, 6.8):** 310 subscribers, 10 Shorts, the mascot
+avatar and banner still live. Views (likes): hydrant 196,227 (6K), seawater 8,804 (357), mud house 2,106 (101), Aquarius 1,273 (67),
+canoe 201 (11), Petra 64 (3), 1959 vs 2009 car 42 (2), sewer 33 (3), lightning 17 (2), cryonics 11 (1). Videos 08–10, the first
+Cutaway videos, were two to three days old. **The snapshot's save-to-playlist flag is unreliable:** two runs a few minutes apart
+flipped it for the hydrant (NO, then yes) and for the mud house (yes, then NO). Don't read a lone "save-to-playlist NO" as
+made-for-kids mode, which also turns comments off (6.2).
+
 ### 6.2 Problems found, and the fix recommended to the user
 1. **Video 02 is served in made-for-kids mode**, which is why it has 7 views: comments are off, "Save to playlist" is missing, there is
    no "Original Sound" pivot, and the hashtags in its title are not links. The other five Shorts have none of this. Fix: Studio →
@@ -2105,10 +2115,11 @@ for its own reasons.
   `yt_search.py <dir> "<query>"` (saturation check), `yt_saturation.py <dir> "<query>"…` (the same check, summarised to the top
   Shorts and long videos per query, for vetting many topics at once), `handles.py <dir> yt|tt <handle>…` (is a handle in use).
 
-### 6.8 Channel branding (made 10 Nov 2026, no credits)
+### 6.8 Channel branding (made 10 Nov 2026; profile pictures without the character added 18 Nov 2026; no credits)
 The user asked for "an updated profile picture and something I can put in my banner that will fit". Delivered on 10 Nov 2026.
 **Both were live on the YouTube channel on 15 Nov 2026** (`yt_snapshot.py` prints the avatar and banner URLs). The mascot was retired
-from the videos that day; the user has not asked for new artwork, so don't change it unless they do.
+from the videos that day. **On 18 Nov 2026 the user asked for a new profile picture without the character** (the end of this
+section); the banner was not part of that request and still shows the mascot.
 - **Files** (repo `branding/`): `avatar-800.png` (800×800), `banner-2560x1440.png` (1.6 MB), `fit-check.png` (TV, desktop and phone
   mock-ups, the avatar at 160–24 px), `mascot-cutout.png` (the locked mascot as a transparent PNG, 424×858).
 - **Profile picture:** head and shoulders from the mascot reference (job f97004b9-…), scaled 1.95×, hat top at 11.5% of the height;
@@ -2124,6 +2135,34 @@ from the videos that day; the user has not asked for new artwork, so don't chang
   @fontsource/barlow-condensed@5.1.0 @fontsource/barlow-semi-condensed@5.1.0`. Stills: `jobs_wait` with `timeout_seconds: 0` on
   the job ids returns their CDN URLs. Swap in new END stills as the channel grows (keep 3 tiles; the phone box has no room for 4).
 - `remove_background` and `upscale_image` were not used: `remove_background` has no cost preflight, so it would need a quote.
+
+**Profile picture without the character (18 Nov 2026, no credits).** The user: "can you give me a new profile picture for my
+YouTube channel that doesn't include the character". The mascot avatar was still live that day. Three options were delivered, each
+an 800×800 PNG (YouTube's recommended size; it shows as a circle), with a sheet of how each looks on YouTube. The user has not yet
+said which one they will use.
+- **A, recommended: the house from the videos** (`branding/avatar-cutaway-house-800.png`). Video 09's wide still W0 (job
+  bceb6aeb-…: the storm house sliced open on its block of ground, in daylight), cut out of its sky, pole and road and set on the old
+  avatar's blueprint-blue glow and grid with a soft shadow. The block is trimmed to the same width on both sides of the house, so it
+  reads as a diorama slice. Why recommended: it is what the videos look like, and it keeps the old avatar's look (a 3D render on
+  blueprint blue). Its weakness: at 24–32 px (comments, the Shorts player) the rooms blur into beige and only the house shape and the
+  brown ground read.
+- **B: flat icon, yellow roof** (`branding/avatar-cutaway-icon-yellow-800.png`), and **C: the same with a terracotta roof**
+  (`branding/avatar-cutaway-icon-terracotta-800.png`). A drawn version of the same idea, seen nearly head-on like the videos' camera:
+  one block of ground cut toward the viewer (grass, topsoil, sand, clay and a cyan groundwater band), a house flush with the cut and
+  sliced open in the same plane (two floors, a bath upstairs, the attic), and a white pipe with a cyan core from the bath down into the
+  groundwater. The clearest of the three at 24–48 px; the yellow `#FFC83D` matches the banner, the terracotta the videos' houses.
+- **The sheet** (`branding/fit-check-avatar-cutaway.jpg`): each option on the channel page (light and dark), in the Shorts player
+  over a frame of the hydrant Short, beside a comment, and at 48, 32 and 24 px on light and dark.
+- **Tried and dropped:** a true isometric icon (the roof took over and the cut was squeezed; the near head-on camera fixed both),
+  and the photo house with its block running off the frame on one side only (it looked like a mistake; the symmetric trim fixed it).
+- **Rebuild** (free, about a minute): `python3 pipeline/branding/make_avatar_cutaway.py <W0 still> <a 9:16 frame> branding` writes
+  all four files (`pip install opencv-python-headless` first). The cutout's numbers (walls at x 154 and 721, the pole left of x 118,
+  the trim at x 107) were measured on that one still; another still needs its own. The icon is SVG written in code and screenshot at
+  2× with the preinstalled Playwright Chromium. An inline `<svg>` needs `display:block`: without it the page grows a few pixels, the
+  screenshot comes out 1600×1608, and squeezing it to a square shifts every edge by a pixel.
+- **Uploading is the user's job** (no tool here can change a channel's picture): YouTube Studio on a computer → Customization →
+  Profile (older layouts: Branding) → Picture → Change; or in the YouTube app, the channel page's edit pencil. Re-check the menu
+  names on YouTube's help page before quoting them.
 
 ### 6.9 What the views are worth (11 Nov 2026)
 The user asked whether $3,000 a month is realistic from faceless AI Shorts "once I'm monetized". Answer given: not from Shorts ads

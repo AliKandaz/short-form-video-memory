@@ -4,7 +4,7 @@ Project memory for vertical 3D "How [humble thing] Can Become [impressive thing]
 
 - `CLAUDE.md`: learnings from two reference accounts (@howbuildingexplained, @1hidden_by_design) and a NET FILES fortress video (section 7.9), the approved video ideas (X1–X5 and the fortress stories F1–F3), and the Higgsfield + ElevenLabs production runbook.
 - `pipeline/`: reusable scripts from video 01 (prompts, still requests, fetch, narration timing, assembly) plus its script, beat sheet and job ids.
-- `branding/`: the channel's profile picture, banner, fit check and a transparent mascot cutout; rebuilt by `pipeline/branding/` (section 6.8 of `CLAUDE.md`).
+- `branding/`: the channel's profile picture, banner, fit check and a transparent mascot cutout (10 Nov 2026), and three profile pictures without the character with their fit check (18 Nov 2026); rebuilt by `pipeline/branding/` (section 6.8 of `CLAUDE.md`).
 - `pipeline/youtube/`: read-only YouTube checks (channel snapshot with a made-for-kids check, competitor benchmarks, topic saturation search, handle availability). See section 6.7 of `CLAUDE.md`.
 - `pipeline/analysis/`: checks for a finished video or one we study: how much of it really moves, caption size, sharpness (`check_video.py`), how the camera moves (`camera_path.py`, the travelling-camera targets of 3.4 Rule 7), what sits under the voice (`under_the_voice.py`), and timestamped contact sheets (`contact_sheet.py`). See sections 3.4j, 7.5 and 7.7 of `CLAUDE.md`.
 
