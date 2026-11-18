@@ -31,22 +31,38 @@ def views_to_int(text):
     return int(n * {"": 1, "k": 1_000, "m": 1_000_000}[m.group(2)])
 
 
+def is_short(v):
+    """A videoRenderer that opens in the Shorts player (YouTube's search layout seen on 18 Nov 2026)."""
+    ep = v.get("navigationEndpoint", {})
+    if walk(ep, "reelWatchEndpoint", []):
+        return True
+    return any(isinstance(u, str) and u.startswith("/shorts/") for u in walk(ep, "url", []))
+
+
 def summarise(data):
+    # Shorts come in two layouts: the older shelf (shortsLockupViewModel) and, since about 18 Nov 2026, plain
+    # videoRenderer results whose link is /shorts/<id>. Before this fix the second kind was counted as a long video
+    # and the report said "0 distinct Shorts" on pages that held a dozen.
     shorts = []
     for s in walk(data, "shortsLockupViewModel", []):
         om = s.get("overlayMetadata", {})
         v = (om.get("secondaryText") or {}).get("content") or ""
         shorts.append((views_to_int(v.split("·")[0]), v, (om.get("primaryText") or {}).get("content") or ""))
+    vids = []
+    for v in walk(data, "videoRenderer", []):
+        views = text_of(v.get("viewCountText")) or ""
+        age = text_of(v.get("publishedTimeText")) or ""
+        owner = text_of(v.get("ownerText")) or ""
+        title = text_of(v.get("title")) or ""
+        if is_short(v):
+            shorts.append((views_to_int(views), f"{views} · {age} · {owner}".strip(" ·"), title))
+        else:
+            vids.append((views_to_int(views), views, age, owner, title))
     seen, uniq = set(), []
     for row in sorted(shorts, reverse=True):
         if row[2] not in seen:
             seen.add(row[2])
             uniq.append(row)
-    vids = []
-    for v in walk(data, "videoRenderer", []):
-        vids.append((views_to_int(text_of(v.get("viewCountText"))), text_of(v.get("viewCountText")) or "",
-                     text_of(v.get("publishedTimeText")) or "", text_of(v.get("ownerText")) or "",
-                     text_of(v.get("title")) or ""))
     return uniq, sorted(vids, reverse=True)
 
 
@@ -66,8 +82,8 @@ def main(out_dir, queries):
             continue
         shorts, vids = summarise(json.loads(m.group(1)))
         print(f"\n## {q}  [{len(shorts)} distinct Shorts on page]")
-        for n, v, t in shorts[:4]:
-            print(f"   S {v[:22]:<22} {t[:80]}")
+        for n, v, t in shorts[:8]:
+            print(f"   S {v[:58]:<58} {t[:70]}")
         for n, v, age, ch, t in vids[:3]:
             print(f"   V {v[:16]:<16} {age[:12]:<12} {ch[:22]:<22} {t[:60]}")
         time.sleep(3)

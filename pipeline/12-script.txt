@@ -1,0 +1,19 @@
+Why Some Manhole Covers Are Full of Holes   (alternative title: Why Manhole Covers Explode)
+(V1 from section 3, the manhole covers; Gate A draft on 18 Nov 2026, not yet approved; 222 words, ~63.4 s at 3.5 words/s)
+Cold-open shape: the lid blasts at ~0.5 s; the surprise ("It wasn't sewer gas") at ~3.7 s; the first "But" at ~10 s.
+Angle changed from the section 3 draft after the saturation check of 18 Nov 2026 (about nine small Shorts on the plain
+road-salt angle since Aug 2026, all under 3.2K views): the title asks about the holes, which the "that's why" answers.
+
+This three-hundred-pound manhole cover just flew fifty feet into the air. It wasn't sewer gas. It was road salt.
+
+Under this street there's no sewer, just a concrete room full of power cables. But in winter, trucks salt the road, and
+salty slush drips through the lid onto the cables. So every cable wears a thick coat of insulation. But salt water eats
+into it, winter after winter. One day the current breaks through and jumps. This is an arc. It cooks the coat into smoke
+and gas, and the room fills up. Then one more spark lights it, and the only way out is up.
+
+In New York, thousands of manholes smoke every year, and a few dozen blow. So the power company swaps solid lids for lids
+full of holes, and the gas gets out before it builds up. That's why so many lids in New York are full of holes. But holes
+let salt water in too. So sensors below sniff for heat and gas, and raise the alarm. But a big blast can still throw a
+lid. So some lids get latches. They lift a little, let the gas out, and settle back.
+
+And the pigeon that was sitting on this one? It's fine. Wire the street, vent the lid, and keep it on the ground.
