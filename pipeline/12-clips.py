@@ -75,8 +75,14 @@ for l in open(__file__.replace("12-clips.py", "12-jobs.tsv")):
         k, j = l.split("\t")[:2]; J[k] = j.strip()
 FOLDER = "25f62fea-3516-4722-a1d8-62520102b743"  # Higgsfield project "HBX – Why Some Manhole Covers Are Full of Holes"
 
+try:  # clip lengths from the real timings (12-timing.py writes plan.json; a copy is kept as 12-plan.json)
+    PLAN = {x["seg"]: x["clip_s"] for x in json.load(open(__file__.replace("12-clips.py", "12-plan.json")))["segments"]}
+except FileNotFoundError:
+    PLAN = {}
+
 def req(clip, secs=None):
     start, mids, end, s, motion, who = C[clip]
+    s = PLAN.get(clip, s)
     medias = [{"role": "start_image", "value": J[start]}] + [{"role": "image_references", "value": J[m]} for m in mids]
     if end: medias.append({"role": "end_image", "value": J[end]})
     return {"model": "kling4_0", "mode": "image-to-video", "resolution": "720p", "aspect_ratio": "9:16", "duration": secs or s,
