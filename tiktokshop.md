@@ -59,7 +59,7 @@ TikTok has several ways to earn. They are separate programs with separate rules.
 
 - So the goal is not "get monetized, then join TikTok Shop". The goal is **1,000 followers, then apply to TikTok Shop**.
 - Both programs can run on the same account. Our ~75-second explainers already fit Creator Rewards on length; that
-  program is covered in `CLAUDE.md` section 6.9.
+  program is covered in `CLAUDE.md` section 10.
 - Other ways to earn (LIVE gifts, subscriptions, brand deals) were not researched here.
 
 ---
@@ -176,7 +176,7 @@ Not settled:
 
 ### 4.1 Where the account is (13 Nov 2026, 22:30 UTC)
 
-**Update, 18 Nov 2026:** **54 followers**, 679 likes, 10 videos, 46,439 views (`CLAUDE.md` 6.10 has every video). That is about
+**Update, 18 Nov 2026:** **54 followers**, 679 likes, 10 videos, 46,439 views (`CLAUDE.md` 9.1 has every video). That is about
 2 new followers a day since 13 Nov, not the 10 a day assumed below, because the six videos since seawater all stopped at 330–454
 views. At 2 a day, 1,000 followers is more than a year away, so the timeline in 4.3 now rests on fixing the openings, a breakout
 or Promote. Followers per 1,000 views are 1.2 (How Building Explained 1.3, Hidden By Design 2.6): the gap is reach, not
@@ -195,30 +195,33 @@ conversion.
 
 What the numbers say (my estimates):
 - **Follow rate: about 1.3 followers per 1,000 views** (44 from 34,686). The reference account @1hidden_by_design had
-  about 2.9 per 1,000 (33.9K followers from about 11.9M views, `CLAUDE.md` section 4.1).
+  about 2.9 per 1,000 (33.9K followers from about 11.9M views on 8 Nov 2026; 2.6 on 18 Nov, `CLAUDE.md` 1.1).
 - **956 more followers = about 750,000 more views at our rate**, or about 335,000 at the reference account's rate.
 - **Pace:** 7 followers on 10 Nov, 44 on 13 Nov. That is about 10 a day, nearly all from the seawater video.
 - **Topics:** the two everyday "how does it work" questions (seawater, hydrant) did far better on TikTok than the two
   famous places (Aquarius, Petra). It is a small sample and the last two videos are young, but it matches what we saw
-  on @1hidden_by_design (`CLAUDE.md` section 4.2).
+  on @1hidden_by_design (`CLAUDE.md` 1.3).
 
 ### 4.2 The levers, strongest first
 
 1. **Turn more viewers into followers (free, do first).** Our follow rate is less than half the reference account's.
-   - Put a small animated FOLLOW button over the last 2–3 seconds. The reference account does this (`CLAUDE.md` 4.4).
-     Keep the loop ending and add no spoken call to action: their videos with a spoken one did worse (`CLAUDE.md` 4.2).
+   - Put a small animated FOLLOW button over the last 2–3 seconds. The reference account did this (seen 8 Nov 2026).
+     Keep the loop ending and add no spoken call to action: their videos with a spoken one did worse (seen 8 Nov 2026).
    - Give people a reason to come back: name the next build in the caption or a pinned comment.
    - Pin the seawater video to the top of the profile, and make the bio say what you post and how often.
    - Answer comments, and answer the best ones with a video reply. Each reply is another video in the feed.
 2. **Make more of what TikTok already rewarded.** For the sprint, lean on everyday mysteries with water in them.
    *Update, 14 Nov 2026:* the user asked for ideas that start arguments in the comments and approved four "Who wins?" matchups
-   (tanks, a submarine, pickup trucks, cars). The comment data behind them is in `CLAUDE.md` 7.4.
+   (tanks, a submarine, pickup trucks, cars). The comment data behind them is summarised in `CLAUDE.md` 1.3.
    *Update, 15 Nov 2026:* the user left the character look (the two videos without it hold 90% of our TikTok views) and
    replaced the matchups with five Cutaway ideas: `CLAUDE.md` section 2, with the record in 7.6. The one recommended first,
    the sewer trap in your house, is an everyday mystery with water in it.
    *Update, 16 Nov 2026:* the Cutaway list was replaced by five out-of-the-ordinary ideas with draft scripts, none about
    water (the Paris catacombs, Centralia's underground fire, the halo crash, the Alaska town in one building, cryonics):
    `CLAUDE.md` section 2, with the record in 7.8.
+   *Update, 18 Nov 2026:* `CLAUDE.md` was rewritten (the lists above are in its history at commit `1174f29`). The plan is
+   now ten videos in one lane, the hidden inside of everyday things, each opening on something happening in the first
+   second and costing at most 200 credits: `CLAUDE.md` sections 2 and 3. Growing reach is the way to 1,000 followers.
 3. **Post more often.** Third-party guides say one to three posts a day in one niche gets a new account to 1,000 in
    30 to 60 days; many accounts take 3 to 6 months; one breakout video can do it overnight. Our pipeline makes about
    one video a day at most. At about 160–175 credits per Middle video, the 2,665 credits left on 12 Nov cover about
@@ -395,3 +398,5 @@ directly next time, allow `seller-us.tiktok.com` and `support.tiktok.com` in the
   draft scripts (`CLAUDE.md` section 2 and 7.8).
 - **18 Nov 2026:** follower update in 4.1 (54, about 2 a day since 13 Nov) and a pointer to the growth audit of both channels
   (`CLAUDE.md` 6.10).
+- **18 Nov 2026 (later):** `CLAUDE.md` was rewritten for the 10-video plan; the pointers in this file now use its new section
+  numbers, and a line in 4.2 points to the plan.
