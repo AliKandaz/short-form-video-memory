@@ -38,9 +38,12 @@ C = {
  "C5": ("U0", ["C0"], "C1", 6, "The camera drops down the shaft to the cable racks and pushes in close on one thick black cable: "
         "a clear drop of meltwater lands on its coat and beads; then a white crust of salt spreads along the coat and a thin crack "
         f"opens in the middle of it. The cable stays on its rack. {FLOOR} {ONE}", NOBODY),
- "C6": ("C1", [], None, 4, "The camera drifts slowly closer to the crack the whole time. A bright blue-white electric arc crackles "
-        "and jumps across the crack in the cable's coat, flickering, throwing small sparks. The salt crust and the cable stay "
-        f"where they are. {FLOOR}", NOBODY),
+ # C6A (06695335, 4 s): the arc came back as a thin blue thread across the crack, too faint for the turning point of the story
+ # ("This is an arc."); C6 asks for a big, bright arc from the first frame.
+ "C6": ("C1", [], None, 4, "On the first frame a big, bright blue-white electric arc bursts out of the crack in the cable's "
+        "salt-crusted coat and keeps jumping across it, crackling and flickering, throwing showers of bright sparks and lighting "
+        "the whole close-up with flashes of blue-white light. The camera drifts slowly closer the whole time. The cable, the salt "
+        f"crust and the rack stay where they are. {FLOOR}", NOBODY),
  "C7": ("C1", [], "V1", 4, "The camera pulls back from the cracked cable across the concrete room as grey smoke pours off the "
         "cracked coat and spreads until it fills the whole room; the cables and racks show only dimly through it. "
         f"{FLOOR} {ONE}", NOBODY),
@@ -57,10 +60,16 @@ C = {
  "C11": ("U1", [], "R0", 3, "The camera rises up the shaft, out past the cut edge of the street block, and comes to rest just "
          f"above the road looking at {VENTED} from the side, with thin wisps of grey smoke rising from its holes and slush round "
          f"its rim; the orange salt truck works the far lane behind. {ONE}", NOBODY),
- "C12": ("R0", [], "SEN", 6, f"The camera pushes in slowly on {VENTED}: grey-white slush on the road beside it melts and trickles "
-         "into its holes. Then the camera dives down past the cut edge of the street block into the concrete room and comes to the "
-         "small grey sensor box on the wall beside the cables; its small green light starts blinking. The lid stays in place. "
-         f"{FLOOR} {ONE}", NOBODY),
+ # C12A (d250b40c, 6 s): from ~1.5 s the road cracked open round the lid and the camera dived through it down a round
+ # brick-lined shaft (a sewer, which the script says is not there) until ~3.8 s. C12 passes the clean vault (V0) as a middle
+ # keyframe, keeps the lid shut, and spells out the path down the cut face and the concrete with no bricks.
+ "C12": ("R0", ["V0"], "SEN", 6, f"The camera pushes in slowly on {VENTED}, which stays closed and in place on the road the whole "
+         "time: grey-white slush beside it melts and trickles into its holes. Then the camera moves away from the lid and drops "
+         "down past the front edge of the street block, where the cut face shows smooth layers of asphalt, grey concrete and "
+         "brown earth, into the concrete room through its open front, and comes to rest on the small grey sensor box bolted to "
+         "the room's concrete wall beside the cables; its small green light starts blinking. The camera never goes through the "
+         "lid and the road never breaks. The room's walls and the short shaft are smooth grey concrete: there are no bricks and "
+         f"no stones anywhere. {FLOOR} {ONE}", NOBODY),
  "C13": ("SEN", ["R2"], "R3", 7, f"The camera rises from the sensor box up past the cut edge of the street block to just above "
          f"the road beside {VENTED}. With a thump the lid lifts a finger's width straight up out of its frame on its four small "
          "steel latches, grey smoke puffs out all round its rim, and the lid settles back down into its frame; the smoke drifts "

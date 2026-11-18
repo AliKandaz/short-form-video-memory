@@ -178,7 +178,12 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []   # measured on the rendered segments (Step 10)
+POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (18 Nov 2026); times in seconds into the segment
+    ("C4", "arrows", 1.6, 3.0, 2.4, {"p0": (560, 770), "p1": (560, 1040)}),   # B5 "drips ... onto the cables": down the drips
+    ("C5", "ring", 3.6, 5.6, 4.6, {"c": (485, 1005), "r": 130}),               # B7 "salt water eats into it": the crust and crack
+    ("C10", "arrows", 3.6, 5.4, 4.2, {"p0": (540, 880), "p1": (540, 600)}),    # B12 "the gas gets out": up through the holes
+    ("C13", "ring", 3.3, 5.8, 4.5, {"c": (935, 1045), "r": 85}),               # B17 "latches": the right-hand latch
+]
 
 def pointer_events(t0, t1):
     ev = []

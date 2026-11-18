@@ -21,11 +21,13 @@ clip:C2	bae2b191-1dc7-4eb9-8910-71b509f03c8a	try A
 clip:C3	ddd5377d-e2f8-41f5-8282-a89fbe24883a	try A
 clip:C4	30085d0e-ab5a-498e-af1c-8fdc5f51c26d	try A
 clip:C5	9dfa2684-6a4a-4f57-b9be-f833d9f964b6	try A
-clip:C6	06695335-11f4-4197-8ab6-383ba410a0b9	try A
+clip:C6A	06695335-11f4-4197-8ab6-383ba410a0b9	try A, rejected: the arc is a thin, faint thread
 clip:C7	4dbd8f13-ec58-4c9f-9f69-a8b24a6a3b1c	try A
 clip:C8	952183e0-83b9-4d06-8f04-e329d8787361	try A
 clip:C9	eab20eec-4e11-4254-8ba1-baa5e8706940	try A
 clip:C11	5d9118af-59fd-4a48-88b9-326575547d89	try A
-clip:C12	d250b40c-8aa7-4d9f-ad68-90b7c8268742	try A
+clip:C12A	d250b40c-8aa7-4d9f-ad68-90b7c8268742	try A, rejected: the road cracks open and the camera dives down a brick shaft (1.5-3.8 s)
 clip:C13	c53fb1ba-45f8-4d6d-b064-d664df71bbb5	try A
 clip:C14	3af49b85-fef9-4dd6-8f44-7af65100b154	try A
+clip:C6	67d446e3-1c3f-4899-bfb4-912a5340767b	try B (re-render: a big bright arc)
+clip:C12	156e505a-12b0-4493-ba34-f5437d47244e	try B (re-render: V0 middle keyframe, lid stays shut, no bricks)
