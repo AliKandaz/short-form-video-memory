@@ -56,7 +56,7 @@ as the set key, because six of the eight positions take their parts from it; ST0
 | V1 | VAULT | V0 | Same framing: the room full of grey smoke, the cables dim inside it. S4 |
 | U0 | UNDER-LID | V0 | Looking straight up the neck at the solid lid's underside: clear drips falling from the pick hole past the camera. S2 |
 | C0 | CABLE | V0 | Extreme close-up: one thick black cable fills most of the frame on its steel rack, a clear drip landing on its coat. S2 |
-| C1 | CABLE | C0 | Same framing: the coat crusted white with salt along a crack. S3 |
+| C1 | CABLE | C0 | Closer than C0 (a real push-in, decided at Gate C because C0 came out a medium close-up): the coat crusted white with salt along a crack, filling the frame. S3 |
 | SEN | SENSOR | V0 | Close on a small grey box bolted to the vault wall beside the cables, a small green light on its face. S5 |
 | R0 | RIM | ST0 + H0 | Just above the street looking down at the vented lid: its grid of round holes, slush round the rim, thin wisps of smoke rising from the holes. S5 |
 | R3 | RIM | R0 | Same framing: small steel latches at four points round the rim. S6, settled |
@@ -83,7 +83,7 @@ as the set key, because six of the eight positions take their parts from it; ST0
 | B12 | So the power company swaps solid lids for lids full of holes, and the gas gets out before it builds up. | 6.0 | fix | HIGH → UNDER-LID: swoops down through the cut face and turns to look up | C10: H1 → U1, 6 s | Daylight through the holes; thin smoke streams out of them | arrows up through the holes | — |
 | B13 | That's why so many lids in New York are full of holes. | 3.4 | that's why | UNDER-LID → RIM: rises past the cut edge and looks down at the lid | C11: U1 → R0, 3 s | Wisps rise from the holes | — | — |
 | B14 | But holes let salt water in too. | 2.0 | twist | RIM: pushes in | C12: R0 → SEN, 5 s | Slush melts and trickles into the holes | — | fx4 drips |
-| B15 | So sensors below sniff for heat and gas, and raise the alarm. | 3.4 | fix | RIM → SENSOR: dives down the cut face to the wall | C12 | The box's light turns from green to blinking red | ring on the sensor | fx6 beeps |
+| B15 | So sensors below sniff for heat and gas, and raise the alarm. | 3.4 | fix | RIM → SENSOR: dives down the cut face to the wall | C12 | The box's green light blinks (it stays green: SEN, the end still, shows green, and a clip's keyframes must agree) | ring on the sensor | fx6 beeps |
 | B16 | But a big blast can still throw a lid. | 2.6 | problem | SENSOR → RIM: rises to the lid | C13: SEN → R3 (R2), 7 s | (the rise); a thump under the lid | — | — |
 | B17 | So some lids get latches. They lift a little, let the gas out, and settle back. | 4.6 | fix | RIM: drifts round | C13 | The lid lifts a finger's width on its latches, smoke puffs out round the rim, it settles back | ring on a latch | fx7 latch |
 | B18 | And the pigeon that was sitting on this one? It's fine. | 3.1 | joke | RIM → STREET: pulls back and down to slush level | C14: R3 → ST9, 6 s | The pigeon flutters down onto the lid and folds its wings | — | fx2 wings |
@@ -97,9 +97,15 @@ blast, where the cold open hands over to the story) and C8 → C9 (from the blas
 `PULL` onto ST9, which is ST0's framing, so the loop lands. Big moves: C1, C3, C4, C5, C7, C9, C10, C11, C12, C13 and C14, none
 more than ~8 s apart (Rule 7).
 
+**Real timings (Step 6, 18 Nov 2026):** take B, pauses tightened to ~0.15 s and played at 1.03×: 62.8 s spoken (3.50 words a
+second), 63.7 s of video with the 0.9 s tail. Clip lengths from `12-plan.json`, rounded to the nearest second (`12-timing.py` now
+rounds to the nearest second instead of always up; C3 pinned at 6 s): C1 4, C2 3, C3 6, C4 3, C5 6, C6 4, C7 4, C8 3, C9 4,
+C10 5, C11 3, C12 6, C13 7, C14 6 = **64 s (144.00 at 720p)**, played at 0.91-1.16× (C2 1.32×, `FULLFIT`). These replace the
+estimates in the table above.
+
 ## Pilots (Gate D)
 - **C1, the hook:** ST0 → (ST1) → H0, 4 s. Its frames at 0, 0.5, 1 and 2 s must show the blast by 1 s, big in the frame (Rule 0).
-- **C10, the riskiest move:** H1 → U1, 6 s: from high above the street, down through the cut face into the vault, turning to look
+- **C10, the riskiest move:** H1 → U1, 5 s: from high above the street, down through the cut face into the vault, turning to look
   up at the new lid full of holes. The open hole in H1 becomes the vented lid in U1 during the flight, so this is the clip to prove
   first.
 - Both measured with `camera_path.py` and `check_video.py` next to the power-lines video's numbers (66% camera moving, 0.46 px
@@ -129,3 +135,16 @@ more than ~8 s apart (Rule 7).
   (33.5 s at ~3.33 a second). Sound flow JjjBUf6oJu5ocLnAJd3K, nodes: bed Grnf3O2xIOeurG6bO8hi, fx1 YWz6zRQiJ8nk7h7Bu57A, fx2
   DEHZujWvYeXQ4yaNsPJZ, fx3 h3Um4q3cNsePoMhl5fF7, fx4 06n1Gf8BWlfgb2lXJoYZ, fx5 LKbcJIyNLYNEkoXAAM09, fx6 I94PCEIHmEsr3xtKxkiM,
   fx7 zOm28M0x0TBCN6FBkiI6. The ElevenLabs balance could not be read (the connector's usage call needs more permissions).
+- Approved at Gate B on 18 Nov 2026 at 720p.
+
+## Production log
+- Higgsfield project "HBX – Why Some Manhole Covers Are Full of Holes" (25f62fea-3516-4722-a1d8-62520102b743); job ids in
+  `12-jobs.tsv`.
+- **Stills (Gate C):** all 16 on the first try, 20.00 credits (27.50 planned); balance 1,742.25. W0 floats over a pale ground
+  instead of running to the bottom edge (kept: it leaves a calm lower area for the captions); R0 came out near street level
+  instead of top-down (kept: it reads clearly and sits close to frame 0's framing); C0 came out a medium close-up, so C1 became a
+  closer position. Sheets: `12-flightmap.jpg`, `12-keyframes.jpg`, `12-first-last.jpg`.
+- **Narration:** two takes, 2,258 ElevenLabs credits (takes A 70.2 s, B 70.6 s; both 222 words). Take B chosen: Whisper put full
+  stops where the script has them ("…insulation. But…", "…sewer gas. It was…"); take A ran those sentences together. Word timings
+  `12-words-takeB.json` (faster-whisper small.en in the Higgsfield sandbox, background).
+- **Sound:** bed and seven effects, one take each, 112 ElevenLabs credits (the 335 estimate priced default lengths).
