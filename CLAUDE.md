@@ -8,7 +8,9 @@ Full visual reference (frames, beat sheet, both reconstructed scripts):
 https://claude.ai/artifact/MPEu5jqcnUDLSsz3fiBc8N (private "How Building Explained Style Bible" artifact; open it with the Artifact tool's read action)
 
 A second reference account, **@1hidden_by_design** ("Hidden By Design": the same narration formula, aimed at the hidden engineering
-behind everyday things), was studied on 8 Nov 2026. Its learnings are in section 4.
+behind everyday things), was studied on 8 Nov 2026. Its learnings are in section 4. A third, **NET FILES** (TikTok @net.files6:
+3D stories of ancient engineering, mostly Chinese fortresses, bridges and tombs), was studied on 17–18 Nov 2026 for the fortress
+ideas F1–F3 (section 2); the record is in 7.9.
 
 The user's own YouTube channel was audited on 9–10 Nov 2026. Section 6 has the audit, the YouTube channels that lead this
 format (You Made It, You Built It), a topic-saturation check of the idea lists, and the YouTube upload checklist. Section 6.9
@@ -19,9 +21,10 @@ format (You Made It, You Built It), a topic-saturation check of the idea lists, 
 need to step away from the character figure animation and make similar ones to like the other two." The same day they approved six
 refinements to that look: animate nearly all of it; one cutaway, changed in place; move the camera instead of fading between
 pictures; hold the look steady; bigger captions on a quiet part of the frame; bolder pointers. The rules are in 3.4, the measurements
-and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 15/11/26 v2**, below). Later the same day they said "yes on the
+and reasons in 7.5. To make a video, paste the section 5 prompt (**renewed 18/11/26**, below). Later the same day they said "yes on the
 sound": a quiet bed and a few effects under the voice, no music (3.4). The idea list was redone for the look that day as well
-(five Cutaway ideas), and replaced on 16 Nov 2026 by five out-of-the-ordinary ideas with draft scripts (section 2).
+(five Cutaway ideas), and replaced on 16 Nov 2026 by five out-of-the-ordinary ideas with draft scripts (section 2), which three
+fortress stories joined on 18 Nov 2026 (F1–F3).
 
 **First Cutaway video (15 Nov 2026): 08, the sewer trap (idea C1).** Made the same day under the new rules, with the sound: 203.50
 credits against a 219.65 quote, no clip redos (3.4b). Every line has a clip (93% of the running time), but `check_video.py` counts
@@ -73,6 +76,16 @@ why these people are frozen upside down (cryonics). The user asked for ideas wit
 you fall off a cruise ship", turned down a first five that were all about water, and approved these with their scripts. None is
 about water, and none has been made by Zack D. Films, who owns the "what happens if you…" format on Shorts. They are section 2;
 the brief and the research are in 7.8. The order is not set. **X5 was made as video 10 (16–17 Nov 2026); X1–X4 are still open.**
+
+**Ideas added (18 Nov 2026): three fortress stories, F1–F3, beside X1–X4.** The user sent NET FILES' "How Ancient Engineers Built
+An Almost Impossible To Conquer Mountain Fortress 😱" (TikTok @net.files6, 1.3M views in its first day and a half) and asked for "3
+creative video ideas inspired by this … I want stories similar to this", then: "add these video ideas into claude.md without
+removing the other ones in section 2. update the copy and paste prompt accordingly and label the new renewed date". F1 why this
+rock has more tunnels than roads (Gibraltar), F2 the castle that beat an army and was then sold by its own guards (Malbork), F3
+why this castle was built like a maze (Himeji). Each keeps the reference's three moves: a defense puzzle (every line answers how
+an enemy could get in), the place named only at the end, and one line on what became of it. They are in section 2 after X5, with
+an opening and the story as numbered beats instead of a full script; the reference study and the research are in 7.9. The order
+is not set. The kickoff prompt was renewed for them (section 5, **18/11/26**).
 
 **Ideas before that (15 Nov 2026, removed 16 Nov 2026): five Cutaway ideas.** C1 (why your house doesn't smell like the sewer)
 was made as video 08 and C3 (what lightning does inside your house) as video 09; their script facts are in 3.4b. C2 (the ice rink
@@ -181,7 +194,8 @@ time, in 44 and 91 separate bursts, and the mix falls 28–33 dB below the voice
   Exception (section 4): an everyday thing works when its workings are hidden and it moves something the camera can follow
   (storm drain, 9.2M on @1hidden_by_design). Still avoid things whose workings are visible; the gas station flopped on both accounts.
   Since 15 Nov 2026 that exception is our main line: our two best videos and videos 08–09 are all of this kind. The 16 Nov list
-  (section 2) adds strange real places and true stories, each still one place cut open (7.8).
+  (section 2) adds strange real places and true stories, each still one place cut open (7.8), and the 18 Nov fortress stories
+  (F1–F3) add real strongholds told as defense puzzles, with the place named at the end (7.9).
 - Avoid topics the account has already done: nipa hut, Amazon floating house, igloo, levee, nuclear bunker,
   nuclear plant, Chernobyl, White House, Kremlin, particle accelerator, armored truck, gas station, car wash,
   oil well, septic, drive-thru, slot machine, car engine, fire/volcano/earthquake-proof house, Halloween station.
@@ -190,10 +204,14 @@ time, in 44 and 91 separate bursts, and the mix falls 28–33 dB below the voice
 
 ---
 
-## 2. Video ideas (approved 16 Nov 2026): five out-of-the-ordinary ideas, each with a draft script
+## 2. Video ideas: five out-of-the-ordinary ideas with draft scripts (approved 16 Nov 2026) and three fortress stories (added 18 Nov 2026)
+
+**Added by the user on 18 Nov 2026:** three fortress stories, F1–F3, after X5 ("add these video ideas into claude.md without
+removing the other ones in section 2"). Their brief, rules and notes are with them, below X5. Everything from here to X5 is the
+16 Nov list as it was.
 
 **Approved by the user on 16 Nov 2026:** "I approve these video Ideas, update the claude.md file, remove the other ideas. then
-stop". X1–X5 below are the whole list. The Cutaway list of 15 Nov 2026 (C1–C5) was removed: C1 and C3 were made as videos 08 and
+stop". X1–X5 below were the whole list until F1–F3 joined them on 18 Nov 2026. The Cutaway list of 15 Nov 2026 (C1–C5) was removed: C1 and C3 were made as videos 08 and
 09, and their script facts moved to their entries in 3.4b; C2 (the ice rink under a basketball court), C4 (the nuclear cooling
 tower) and C5 (where your bowling ball goes), with that list's reserves and checks, are in the repo history at commit `45b7846`.
 The brief and the research are in 7.8.
@@ -225,7 +243,8 @@ The brief and the research are in 7.8.
      before Gate A. Never plant a mistake to bait corrections.
   6. Before Gate A, run the saturation check on the exact title (6.7) and search "zack d films" with the topic: the numbers
      below come from topic searches.
-- **Order:** not set by the user. The user picked X5 first (made as video 10, 16–17 Nov 2026); X1–X4 are open.
+- **Order:** not set by the user. The user picked X5 first (made as video 10, 16–17 Nov 2026); X1–X4 are open, and so are F1–F3
+  (added 18 Nov 2026).
 - **How we'll know** (from outside; the user does not want to be asked for retention figures, 7.5): the video gets past where most
   of ours stopped (under about 2K views, 6.1); comments per 1,000 views beat our 0.23; saves and shares per 1,000 views beat
   seawater's 1.9 and 1.1.
@@ -401,7 +420,197 @@ results are in its 3.4b entry; the notes below are the draft as approved.
 - **Watch out:** death and bodies: sealed pods only, no faces; the first man is not named, and no company name or logo appears on
   screen. Keep it a bet, as the script does ("Nobody has ever been woken up").
 
-**Not in the list (16 Nov 2026): topics not to propose again without a new reason**
+**Fortress stories (added by the user on 18 Nov 2026): F1–F3**
+
+- **The brief** (the user, 17 Nov 2026): "give me 3 creative video ideas inspired by this
+  https://www.tiktok.com/@net.files6/video/7708777568689868064 … it doesn't have to match the length or animation style. I want
+  stories similar to this". The reference is NET FILES' "How Ancient Engineers Built An Almost Impossible To Conquer Mountain
+  Fortress 😱" (7.9). On 18 Nov 2026: "add these video ideas into claude.md without removing the other ones in section 2. update
+  the copy and paste prompt accordingly and label the new renewed date".
+- **What the three have in common** (the reference's three moves, 7.9): a defense puzzle, in which every "But" is a way an enemy
+  (or thirst, cold or hunger) could beat the place and every "So" answers it; the place named only at the end ("This is ___."),
+  with a title that hides it, as NET FILES' biggest fortress videos do; and one line on what became of it. Each is a real
+  fortress with a twist at the end and one place that can be cut open, and no Short found tells its story (7.9). None is in NET
+  FILES' 276 videos, and Zack D. Films has none of them.
+- **What the user saw and added:** for each idea, the title, the place revealed at the end, the opening (a cold claim, then "If
+  you…"), the story as numbered beats, the ending line, the set, the competition, the comment question and the ⚠ items, as
+  written below. There is no full script yet: write it at Gate A from the opening, the beats and the ending (3.3 Step 1). The draft
+  camera positions and the sounds are my notes for Gate A.
+- **Rules for these ideas** (on top of sections 1 and 5, and rules 1 and 3–6 of the X list above):
+  1. **Keep the name for the end.** The title, the TikTok caption and the narration don't name the place until the reveal line,
+     just before the loop ending ("This is the Rock of Gibraltar. Dig in, aim down, and never leave."). People in the story can
+     be named (Churchill, Fleming); the place can't. The cover can show the place, but not its name. NET FILES puts the name on
+     screen as a big title card; our look has no labels (3.4), so the reveal is spoken and carried by the one-word captions. Ask
+     at Gate A whether to allow one name card as an exception.
+  2. **Every "But" is an attack, every "So" is a defense.** Write each problem as a way in (from above, through the gate, by sea,
+     by thirst, by cold, by hunger) and each fix as the answer, at its own spot on the set, so the camera flies from the attackers
+     to the fix and back (3.4 Rules 2 and 3).
+  3. **The fate line is one sentence**, after the name: how it fell, or that it never did.
+  4. **Armies are small and anonymous:** small soldier figures, ships, cannons and fire are fine; nobody is shown hurt; no faces
+     of real people; no flags, coats of arms or wartime insignia on screen.
+  5. **Time passes on the one set.** F1 and F3 span centuries (1779 to 1997; the 1600s to 1945): show the jump with the set
+     changing (new tunnels, a new grade, the city around it), never a cut to another place.
+  6. These sets have water in them (the sea, a river and moats; a moat at the foot of F3's hill), so the STYLE line's
+     translucent cyan water stays, but keep it to the sea, the river and the moats, never inside walls or floors (3.4l, 3.4m).
+  7. ✔ was checked by web search on 17–18 Nov 2026 (search summaries; en.wikipedia.org could not be opened in that session);
+     ⚠ still needs checking before Gate A.
+
+**F1. Why This Rock Has More Tunnels Than Roads** (a siege and a secret: the Rock of Gibraltar, 1779 to 1997; named at the end)
+- **Set:** the Rock sliced open lengthwise like a cake: the cliff of the north face with cannon windows cut into it and the
+  galleries behind them, the reservoirs and the WWII city (hospital, power station, bakery) inside, the hidden room near the top,
+  the east slope covered in metal rain-catching sheets, the flat sand at its foot with the siege lines, and the sea with the
+  floating gun platforms. The camera climbs from the siege lines up the cliff and flies through the rock.
+- **Opening:** "This rock has nearly twice as many miles of tunnels inside it as roads outside. If you hold the rock at the gate to
+  the Mediterranean, every navy in Europe wants it."
+- **Story** (as shown to the user):
+  1. In 1779 Spain and France surround you: 40,000 men against your 7,000, dug in on the flat sand below your cliff.
+  2. But your cannons sit on top of the cliff and can't aim down at its foot. So you dig into the cliff by hand, and the hole you
+     blast for air becomes a window for a cannon. These are the Great Siege Tunnels.
+  3. But they come by sea, in floating gun platforms built to shrug off cannonballs, with water pumped through them to put out
+     fires. So you heat your cannonballs in furnaces until they glow red, and the platforms burn.
+  4. You hold out for 3 years and 7 months, the longest siege in British military history, and you never stop digging.
+  5. But a rock has no rivers. So you cover a whole slope in metal sheets to catch the rain, and pipe it into reservoirs carved
+     inside the rock.
+  6. In World War II you dig a whole city in there: a hospital, a power station, a bakery, and food for 16,000 men for 16 months.
+     The tunnels reach 34 miles.
+  7. Twist: if the rock ever fell, six volunteers would be walled into a secret room near the top with supplies, to watch enemy
+     ships for a year. Ian Fleming, who later wrote James Bond, helped plan it. Germany never came, the room was sealed, and
+     cavers found it in 1997.
+  8. That's why: legend says that if the monkeys leave, the British leave, so in 1944 Churchill ordered more monkeys. Europe's
+     only wild monkeys still live on the rock.
+- **Ending:** "This is the Rock of Gibraltar. Dig in, aim down, and never leave."
+- **Comment question:** "Would you volunteer to be sealed in for a year? Yes or no."
+- **Draft camera positions:** the rock and the sand, wide → down to the siege lines → the cannons on top, looking down the cliff
+  → inside the cliff as the tunnel is cut and the air hole opens → out over the sea to the floating platforms → the furnaces and
+  the red-hot shot → the platforms burning → the rain slope → the reservoirs inside → the WWII hospital and bakery → up to the
+  hidden room and its slit → the monkeys on the summit → the rock, wide.
+- **Sounds:** the bed is wind on a high rock with the sea far below; cannon fire, picks and a blast in the tunnel, a furnace roar,
+  burning timber, rain on metal sheets, a heavy door sealing shut.
+- **Demand** (17–18 Nov 2026): Shorts on Gibraltar's tunnels top out at 3K (one of them, "How a Rock Becomes Gibraltar", 2.7K, is
+  a copy of our format); the secret room has Shorts of 60K, 23K, 7.7K and 6K; a long video on it, "Buried Alive: The Secret WWII
+  Bunker Hidden Inside Gibraltar" (Calum), has 1.9M, and "Why Britain Built This Secret Underground City" 253K. Nobody has cut
+  the rock open. Zack D. Films: nothing on Gibraltar or Operation Tracer.
+- **Checked ✔:** about 34 miles (55 km) of tunnels, nearly twice the road network (29 km of roads in 2007); the Great Siege, 24
+  Jun 1779 to 7 Feb 1783, three years and seven months, the longest in British military history (Gibraltar Museum), with 7,000
+  defenders against 40,000 French and Spanish troops; the tunnel dug by hand from 25 May 1782 (Sergeant-Major Henry Ince's plan)
+  to cover a blind angle the guns on top couldn't reach, an opening through the face turned into a gun window, and four guns in
+  the Upper Gallery by the end of the siege; the floating batteries of 13 Sep 1782, with water piped through them against hot
+  shot, set on fire by red-hot shot heated in furnaces; rain caught on corrugated iron sheets over the east-side sand slope and
+  channelled to reservoirs cut inside the Rock from 1898 (5 million imperial gallons each), the catchments retired in the 1990s
+  for desalination; the WWII tunnels held a hospital, a power station, a bakery, water distillation and a telephone exchange, room
+  for the 16,000-strong garrison and food for 16 months; Operation Tracer: six men (a leader, two doctors and three wireless
+  operators) to be sealed into a hidden chamber to report enemy shipping if the Germans took Gibraltar, expected to stay about a
+  year with stores for seven, never used, the cave found by the Gibraltar Cave Group in 1997 and confirmed in 2008 by the last
+  surviving member; the legend of the macaques, and Churchill's directive of 2 Sep 1944 to keep their number at 24.
+- **⚠ before Gate A:** the order of events at the first gun window (sources differ on whether the opening was cut for air or for
+  the gun); how many floating batteries burned, blew up or were scuttled; Ian Fleming's part (sources credit him with the
+  stay-behind idea, and Admiral Godfrey is also named as its originator); that the hidden room is near the top and had a slit
+  for watching ships; "Europe's only wild monkeys"; "at the gate to the Mediterranean" is our wording for the Strait.
+- **Watch out:** WWII: no swastikas or German markings, and nobody shown hurt in the siege; the platforms burn, their crews are
+  not shown. Churchill and Fleming are named, not shown.
+
+**F2. This Castle Beat an Army. Then Its Own Guards Sold It.** (a medieval castle with a twist: Malbork, Poland, 1410 and 1457;
+named at the end)
+- **Set:** the red-brick castle on its river, cut open from the water to the tallest tower: the three castles in a row with the
+  moats and gates between them, the cellar furnace under the palace with its chamber of stones and the hot-air ducts up to the
+  floor vents, the summer hall with its single pillar and the stone ball in the wall above the fireplace, and the front gate. The
+  camera dives from the moat into the cellar and rises through a floor vent into the hall.
+- **Opening:** "This castle beat an entire army. Then its own guards sold it. If you need a fortress where there's no stone, you
+  build it out of brick. Lots of brick."
+- **Story** (as shown to the user):
+  1. You build on a river, so water guards one side.
+  2. But walls can be climbed. So you build three castles in a row, each behind its own moat and gate. If one falls, the next
+     keeps fighting.
+  3. But winter freezes a stone hall. So you hide a furnace in the cellar that heats a chamber of stones, and hot air rises through
+     holes in the floor that open and close with lids. In an 1822 test it warmed a hall from 43 °F to 72 °F in 20 minutes.
+  4. In 1410 the knights lose the Battle of Grunwald, one of the biggest battles of the Middle Ages, and the winners march straight
+     to your walls.
+  5. Your weak spot is the summer hall, whose whole roof stands on one pillar. Legend says the attackers fired a cannonball at it
+     while the knights met inside, and missed. That's why a stone cannonball is still stuck in the wall above the fireplace.
+  6. After two months, the army gives up and goes home.
+  7. Twist: 47 years later the knights are broke and can't pay the hired soldiers guarding the castle. So the guards do what no
+     army could: they sell it to the enemy king, who walks in through the front gate.
+- **Ending:** "This is Malbork, the biggest castle on Earth. Stack the walls, warm the floors, and always pay your guards."
+- **Comment question:** "Who's to blame: the knights or the guards?"
+- **Draft camera positions:** the castle on the river, wide → the brick walls rising → along the three castles and their moats →
+  down into the cellar furnace → up a hot-air duct and out of a floor vent → the summer hall and its pillar → out to the
+  attackers' cannons in 1410 → the ball hitting the wall → the army marching away → the guards at the gate, counting money → the
+  king riding in → the castle, wide.
+- **Sounds:** the bed is a river and wind on brick; a furnace, a vent lid scraping open, cannon fire, a stone ball striking brick,
+  marching feet, coins, a gate opening.
+- **Demand** (17–18 Nov 2026): the best Malbork Short has 59K ("The Siege of Malbork Castle"), then 19K, 8.3K and 6.5K; searches
+  for the sale ("castle sold by its own guards") and for the 1410 siege return no Shorts at all; long videos: "Malbork Castle: Why
+  is it so massive?" 434K, its heating ("What's Below The World's Largest Castle?") 269K, the Battle of Grunwald 2.6M. Zack D.
+  Films: nothing on Malbork.
+- **Checked ✔:** widely described as the largest castle in the world by land area (Guinness lists it as the largest brick castle);
+  the heat-storage hypocaust (a furnace in the cellar heats stones, and warm air rises through floor vents closed with covers),
+  with an 1822 experiment in which a hall went from 6 °C to 22.5 °C in 20 minutes (one source); the Summer Refectory's single
+  central pillar and, per the castle museum, a stone cannonball set into the east wall above the fireplace that legend says struck
+  there in the 1410 bombardment; the 1410 siege, about two months, unsuccessful; the Teutonic Order's unpaid mercenaries (over
+  400,000 florins owed by April 1455), who sold or handed the castle to King Casimir IV of Poland in 1457 (sources give 4–8 June
+  for his entry); the Order then moved its seat to Königsberg.
+- **⚠ before Gate A:** "the biggest castle on Earth" (say "the biggest castle in the world by area", or drop it); "where there's no
+  stone"; the three castles in a row, each behind its own moat and gate; the price (190,000 Hungarian florins in one source); the
+  1822 test (one source); the traitor in the cannonball legend (a travel blog only, so the story leaves the traitor out); whether
+  it was a sale, a pledge or a seizure (sources differ, so "sell it" needs a check).
+- **Watch out:** no flags, coats of arms or the Order's crosses painted large on screen; nobody shown hurt; the guards and the king
+  are small and anonymous.
+
+**F3. Why This Castle Was Built Like a Maze** (castle design and a survival story: Himeji Castle, Japan; named at the end)
+- **Set:** the castle's hill cut open like a cake: the white main tower on top, sliced to show its floors and its two great
+  pillars; the walls, gates and maze path spiralling up the slope, with gun holes, stone-drop chutes and dead ends; the town and
+  the plain around it. The camera follows the maze up the hill, then rises through the floors of the tower.
+- **Opening:** "To reach the top of this castle, you have to walk away from it. If you build your castle on a hill in the middle of
+  a flat plain, every army can see it and march straight at it."
+- **Story** (as shown to the user):
+  1. So you turn the path into a maze. It winds and doubles back, so a 430-foot walk becomes more than 1,000 feet, and attackers
+     heading for the tower get led away from it.
+  2. But they'll rush the gates. So no gate opens straight in, and every one forces a turn right under your walls.
+  3. The walls get holes shaped like circles, triangles and squares for guns and arrows, and chutes at the corners to drop stones
+     on anyone climbing.
+  4. From outside, the main tower looks like five floors. Inside there are seven.
+  5. You build all this for a war that never comes, and no army ever lays siege to it.
+  6. Twist 1: in 1871 the castle is auctioned for 23 yen to a man who plans to tear it down. Tearing it down costs too much, so it
+     stays.
+  7. Twist 2: in 1945 bombers burn most of the city around it. Workers cover the white tower in black nets so it won't shine at
+     night, and locals say a firebomb landed on the top floor and never went off. That's why it's one of only twelve original
+     castle towers left in Japan.
+- **Ending:** "This is Himeji Castle. Bend the path, hide the floors, and let them get lost."
+- **Comment question:** "Could you find your way to the top? Yes or no."
+- **Draft camera positions:** the hill and the plain, wide → the first gate → along the maze path as it doubles back → a gate
+  forcing a turn → a wall's gun holes from inside → a stone-drop chute at a corner → the tower from outside (five floors) → rising
+  through it inside (seven) → the auction in the courtyard → night, 1945: the city burning, the black net → the dud on the top
+  floor → the castle, wide, by day.
+- **Sounds:** the bed is wind over a hill with birds; footsteps on gravel, a heavy gate, a stone sliding down a chute, an
+  auctioneer's gavel, planes overhead, fire, a dull thud and then quiet.
+- **Demand** (17–18 Nov 2026): Himeji Shorts are travel clips (best 39K, then 21K, 18K and 17K); the bomb story has four Shorts of
+  about 1K ("A bomb hit this castle in 1945… and never exploded"); the defences have one long video, "What Made This Samurai
+  Castle Impossible to Invade?" (BBC Timestamp) 53K; no Short found on the auction. Zack D. Films: nothing on Himeji.
+- **Checked ✔:** the winding approach that doubles back, about 325 m of walking for about 130 m in a straight line from the Hishi
+  Gate to the keep (MLIT, Japan's tourism texts); gates that don't open straight into the compounds; loopholes shaped as circles,
+  triangles, squares and rectangles; chutes for dropping stones; the main keep looks like five storeys from outside and has six
+  floors and a basement inside; auctioned for about 23 yen after the domains were abolished, to a Himeji man who meant to pull it
+  down but found it too costly; a raid in July 1945 destroyed about 63% of the city's built-up area, and a black camouflage cover
+  was put over the keep (MLIT); MLIT calls the firebomb that landed and didn't go off a local story.
+- **⚠ before Gate A:** "no army ever lays siege to it": History Hit says it was never besieged, but MLIT says forces from Bizen
+  stormed Himeji in 1868 and forced its surrender, and others say they surrounded it and fired warning or blank shots (if needed,
+  say "it never fights a real siege"); the auction year (1869, 1871 or 1873 by source) and price (23 or 23.5 yen); "one of only
+  twelve original castle towers"; the walk in feet (130 m is 427 ft, 325 m is 1,066 ft); the firebomb is told as a local story,
+  as the story does ("locals say").
+- **Watch out:** no Japanese or American flags or insignia on screen; the bombers are distant shapes, and nobody is shown hurt;
+  the auction buyer is not named.
+
+**Not in the list (16 Nov 2026, added to on 18 Nov 2026): topics not to propose again without a new reason**
+- **Fortress stories already told on Shorts** (checked 17–18 Nov 2026 and dropped before the user saw the three; the user saw the
+  first four named as dropped): Château Gaillard taken through its toilet ("The Castle That Fell Through Its Toilet" 124K,
+  "Medieval Castle Toilets Became Secret Entrances" 144K, a 3D "ancient engineering" Short of it, and three more videos on it in
+  the week before); Mont-Saint-Michel's siege ("Why England Couldn't Conquer This Island for 30 Years" 655K); Sigiriya's king who
+  lost when his elephant turned ("A Palace 200 Meters Above the Ground—And a King's Fatal Mistake" 208K, with AI build Shorts at
+  224K and 514K); Janjira, the sea fort nobody conquered (a Hindi 3D animation of the story 1.7M, "How Is There Sweet Water Inside
+  Murud Janjira Fort?" 858K). Also checked, with small copies of our format already out: Krak des Chevaliers ("How to Build a
+  Castle No Army Can Take 🏰 Krak des Chevaliers" 10K), Harlech ("You build Harlech 🏰 Wales, 1286" 9.7K), Kenilworth's siege
+  lake (18K, 12K, 8.7K), Fort Jefferson ("…Built With 16 Million Bricks…" 10K); Suomenlinna's surrender of 1808 is open but has
+  little demand (best Short 5.2K). The details are in 7.9.
 - **Proposed the same day and turned down as a set (all water):** the pool on the edge of Victoria Falls (IShowSpeed's swim 58M,
   Jan 2026); the world's deepest pool, in Dubai (real dives 56M, 32M, 25M and 25M); the slot-canyon flash flood (5.5M); the
   Qiantang tidal bore (64M, 16M, 12M); and the hole in the lake at Monticello Dam (best Short 926K, with four small copies of the
@@ -491,9 +700,11 @@ stills. In this look a line without its own clip is only a fallback (3.2 rule 5)
 ### 3.3 Step-by-step
 
 **Step 1: Topic and script (free).**
-- Take the idea the user names: X1–X5 in section 2 (approved 16 Nov 2026), or their own topic. A section 2 idea brings its set,
-  a draft script the user approved with the idea (a cold claim, then "If you…"), the comment question, draft camera positions
-  and the facts already checked (✔) or still to check (⚠); the script is a draft. Write the script with the formula
+- Take the idea the user names: X1–X4 or F1–F3 in section 2 (X5 was made as video 10), or their own topic. An X idea brings its
+  set, a draft script the user approved with the idea (a cold claim, then "If you…"), the comment question, draft camera positions
+  and the facts already checked (✔) or still to check (⚠); the script is a draft. An F idea (added 18 Nov 2026) brings the same,
+  except that in place of a script it has an opening, the story as numbered beats and an ending line: write the script from them,
+  keeping the place's name for the reveal line at the end (section 2, F rules 1–3). Write the script with the formula
   and writing rules in section 1 and the script rules in the section 5 prompt. Target ~75 s, ~260–280 words; never under 60 s.
 - Write for the set (3.4 shot rule): every line must be something the viewer can see happen on the one cutaway set, and most lines
   should describe something moving, because every such line gets an animated clip (3.4 rule 1). Comparisons, stats and the "that's
@@ -1578,20 +1789,22 @@ and wastewater treatment, power grid, gas station, roof.
 
 ---
 
-## 5. Kickoff prompt, renewed 15/11/26 v2 (paste this to make a video)
-**Renewed 15/11/26 v2:** this is the current version. It adds the travelling camera the user approved after video 08 (3.4 Rules 2,
-3, 5, 6 and 7; 7.7). The prompt was renewed twice on 15 Nov 2026, so this one is marked v2: the first 15/11/26 version (the Cutaway
-look with one main view) is in the repo history at commit `db03adc`, and the 11/11/26 version, for the character look, at
-`f8bf298`. Fill in the three lines in angle brackets and paste the whole block into a new session. SOUND defaults to "bed and
-effects" (3.4). On 16 Nov 2026 the idea list was replaced (section 2), so the IDEA line names X1–X5 and the first script rule
-points to each idea's draft script; nothing else in the prompt changed.
+## 5. Kickoff prompt, renewed 18/11/26 (paste this to make a video)
+**Renewed 18/11/26:** this is the current version. On 18 Nov 2026 the user added three fortress stories, F1–F3, to section 2 and
+asked for this prompt to be updated to match, with the new date. The IDEA line now names the open ideas (X1–X4 and F1–F3; X5 was
+made as video 10), the first script rule says how to start from an F idea (it has an opening and numbered story beats, not a
+script), and a new rule carries the F ideas' structure: the place named only at the end, and every "But" a way an enemy could get
+in. Nothing else changed. The 15/11/26 v2 version (the travelling camera the user approved after video 08: 3.4 Rules 2, 3, 5, 6
+and 7; 7.7) is in the repo history at commit `309d785`; the first 15/11/26 version (the Cutaway look with one main view) is at
+`db03adc`, and the 11/11/26 version, for the character look, at `f8bf298`. Fill in the three lines in angle brackets and paste the
+whole block into a new session. SOUND defaults to "bed and effects" (3.4).
 ```
-KICKOFF PROMPT (renewed 15/11/26 v2)
+KICKOFF PROMPT (renewed 18/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make a video with the section 3 runbook.
 
-IDEA:   <X1, X2, X3, X4 or X5 from section 2, or your own topic>
+IDEA:   <X1, X2, X3 or X4, or F1, F2 or F3, from section 2, or your own topic>
 TIER:   <Middle | Full>   (Middle unless I say otherwise)
 SOUND:  <bed and effects | voice only>   (bed and effects unless I say otherwise)
 
@@ -1638,7 +1851,13 @@ Fixed choices (3.4):
 
 Script rules, on top of section 1:
 - For an idea from section 2, start from its set and its draft script there.
-  The script is a draft.
+  The script is a draft. An F idea has an opening, numbered story beats and an
+  ending line instead of a script: write the script from them.
+- For an F idea (a fortress story), keep the place's name out of the title, the
+  caption and the narration until the reveal line just before the ending
+  ("This is ___."), then give one line on what became of it. Every "But" is a
+  way an enemy (or thirst, cold or hunger) could beat the place, and every "So"
+  answers it at its own spot on the set.
 - Open with "If you..." and land the first "But" by ~3 s. If the idea also has a
   cold-claim opening in section 2, show me both at Gate A.
 - Aim for ~75 s: ~260-280 words at our 3.5 words/s. Never under 60 s.
@@ -1916,7 +2135,7 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
 
 ---
 
-## 7. User direction and the account the user likes (11–16 Nov 2026)
+## 7. User direction and the account the user likes (11–18 Nov 2026)
 - **Look:** Cutaway with no character since 15 Nov 2026 (locked in 3.4; the record is 7.5). Before that, Classic: on 11 Nov the user
   asked to go back to the mascot look of videos 01–02 after video 04 was made in the Hidden By Design look, and videos 05–07 were
   made in it.
@@ -1924,7 +2143,8 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   extreme stories, nothing boring. **Replaced on 14 Nov 2026** by four "Who wins?" matchups (7.3), one of which became video 07.
   **Replaced again on 15 Nov 2026** by five Cutaway ideas (7.6): things with hidden workings, each one place sliced open with
   something moving through it. **Replaced again on 16 Nov 2026** by five out-of-the-ordinary ideas with draft scripts, none
-  about water (section 2, 7.8).
+  about water (section 2, 7.8). **Joined on 18 Nov 2026** by three fortress stories, F1–F3, inspired by a NET FILES video
+  (section 2, 7.9).
 - **Credits:** Ultra plan since 11 Nov 2026 (3,000 credits); 2,824 left after video 05, which cost 176; 2,665.25 left after video 06,
   which cost 158.75; 2,508 left after video 07, which cost 157.25 (confirmed by `balance` on 15 Nov 2026; the look review spent
   nothing); 2,304.50 left after video 08, which cost 203.50 (confirmed by `balance` the same day); 2,040.25 left after video 09,
@@ -2355,3 +2575,94 @@ and every ⚠ for X1–X4 (X5's were done at its Gate A, 3.4b). X5's draft ran s
 - The water five: Atlas Obscura on Devil's Pool (https://atlasobscura.com/places/devil-s-swimming-pool); Deep Dive Dubai's FAQ
   (https://www.deepdivedubai.com/faqs); Wikipedia, Antelope Canyon (https://en.wikipedia.org/wiki/Antelope_Canyon); NTSLF on the
   bore (https://ntslf.org/node/8); the Bureau of Reclamation on Monticello Dam (https://www.usbr.gov/projects/index.php?id=186).
+
+### 7.9 Fortress stories from a NET FILES video (the user, 17–18 Nov 2026)
+The ideas that came out of this are F1–F3 in section 2. This is the record behind them.
+
+**What the user asked.** "give me 3 creative video ideas inspired by this
+https://www.tiktok.com/@net.files6/video/7708777568689868064?… it doesn't have to match the length or animation style. I want
+stories similar to this". After the answer: "add these video ideas into claude.md without removing the other ones in section 2.
+update the copy and paste prompt accordingly and label the new renewed date". The prompt was renewed as 18/11/26 (section 5).
+
+**The reference.** NET FILES (TikTok @net.files6), "How Ancient Engineers Built An Almost Impossible To Conquer Mountain
+Fortress 😱", posted 16 Nov 2026 (about 14:30 UTC), 125.9 s. On 17 Nov 2026, about 33 hours old: 1.3M views, 71.3K likes, 383
+comments (0.29 per 1,000 views) and 868 shares. Not listened to.
+- **How it was read:** yt-dlp, with `bytevc1_1080p_2261105-0` for the picture and `h264_540p_1937509-0` for the sound (both on the
+  v16 host; the bytevc1 formats carry no sound); one frame every two seconds as contact sheets; the sound sent to Higgsfield storage
+  (`media_upload`, a PUT, `media_confirm`) and transcribed with faster-whisper `small.en` in the Higgsfield sandbox (about a minute,
+  no credits; the audio file stays in the user's Higgsfield uploads).
+- **The story** (in my words; never reuse theirs): a city built in a valley between two mountains, which the narrator calls a
+  big mistake, because enemies on the ridges can shoot fire arrows down into it (0–10 s); so walls 4–5 m high and watchtowers
+  along both ridges, which also take away the blind spots (12–26 s); that leaves two ways in, the valleys at each end (26–32 s);
+  the north one is a steep, narrow stone path that siege engines and ladders can't use (32–51 s); a turn to the place's weak
+  point, the flat south gate (51–63 s), answered by a fort inside and a fort outside the gate, a trench 7–8 m wide and a
+  drawbridge (63–84 s); then the objection a viewer would raise, what if the enemy just surrounds it and waits (84–90 s),
+  answered by a spring that never stops and fields inside the walls, enough for years (90–109 s); the payoff (110–116 s); the
+  name, Wugucheng, a fortress of the Korean kingdom of Goguryeo, at 116 s, with a big title card in Chinese characters and
+  pinyin; and its fate in two lines: it came under the Tang dynasty when Goguryeo was defeated (117–126 s).
+- **Their wording, never to use:** "congratulations buddy", at the start and at the payoff ("Congratulations" is also How Building
+  Explained's sign-off, section 1); "even the strongest defenses have weaknesses"; "some people might ask".
+- **The look:** a game-engine landscape (Unreal-like), not a cutaway; small soldier figures, catapults, ladders and fire on the
+  town; a drone-like camera; small one-word white captions low in the frame; the name on a big title card.
+- **Why it works** (my read): (1) it is a defense puzzle: every line answers "how would an enemy get in?", and the objection
+  beat answers the comment before anyone writes it; (2) the place is named only at the end, so the viewer stays for the answer;
+  (3) one line on what became of it closes the story.
+
+**The account** (read on 17 Nov 2026 with `yt-dlp --flat-playlist -J`): 276 videos, 72.2M views. Ancient engineering, mostly
+Chinese (fortresses, passes, bridges, tombs, cliff temples, water machines), with a few modern builds. The biggest: a tomb
+defended with quicksand (Guozhuang) 10.2M; a bridge over a 70 m canyon 6.8M; London's Tower Bridge 5.8M; Vietnam's 100 km of war
+tunnels 3.4M; "How This Fortress Outmastered Entire Armies" (the Changba octagonal fortress) 2.9M; a tower over a subway 2.7M;
+"How Ancient Engineers Defended This Mountain Pass" (Niangziguan) 2.4M; the Great Wall into the sea 2.0M; Tibet's Bori bridge
+2.0M; "How Geography Made This City Impossible To Conquer" (a Chinese city that held off the Mongols) 654K; "How Ancient Engineers
+Built The Perfect Fortress" (a cross-shaped fortress in Gansu) 603K. The places behind the titles that hide them were read from
+the videos' last 24 seconds.
+- **Titles** (my read): their five biggest fortress videos (603K–2.9M) all keep the place out of the title. Fortress titles that
+  name the place or say "Ancient China" sit at 10K–83K, apart from Diaoyu Fortress (513K and 176K). Hidden titles flop too (four
+  of them at 15K–35K), so the title alone doesn't do it.
+- Most of their recent videos get 5K–15K: the account's views come from a few hits.
+
+**How the ideas were found.**
+- The filter: a real fortress with a defense puzzle, a twist at the end, one place that can be cut open, and no Short found that
+  already tells its story; not in NET FILES' list (its fortresses are Chinese, plus one general star-fort video) and not by Zack D.
+  Films (searched "zack d films" with each topic: nothing).
+- About thirty searches with `pipeline/youtube/yt_saturation.py`. Kept: Gibraltar (F1), Malbork (F2), Himeji (F3); their numbers
+  are in section 2. The dropped topics and their numbers are under "Not in the list" in section 2.
+- The pattern (my read): the fortress twists everyone knows are already Shorts, some animated (the toilet at Château Gaillard,
+  the elephant at Sigiriya, the 30-year siege of Mont-Saint-Michel, Janjira's sweet water); the open ones are told only in long
+  videos or travel clips (Gibraltar's sealed room 1.9M long, Malbork's heating 269K long, Himeji's defences 53K long).
+- A caution: castles as builds were found crowded on 9 Nov 2026 (14 near-identical Shorts, best 56K; 6.3), and landmarks did less
+  than survival or "your yard" topics on YouTube. F2 and F3 are real castles told as stories with a twist, not "How a ___ Becomes
+  a Castle" builds; keep the twist and the hidden name up front at Gate A.
+- Facts were checked by web search and marked ✔ or ⚠ in section 2. WebFetch could not open en.wikipedia.org in this session (it
+  is outside the network policy), so the checks used search summaries; a request to probe other hosts was refused by the session's
+  auto-mode check.
+
+**What the user saw:** the three moves above, then the three ideas as written in section 2 (title, the place named at the end,
+opening, numbered story, ending, set, competition, comment question, ⚠), and the four dropped topics (Château Gaillard,
+Mont-Saint-Michel, Sigiriya, Janjira) with the Shorts that already tell them. The sources were listed under the answer.
+
+**Open after this:** the order of X1–X4 and F1–F3; full scripts for F1–F3 (at Gate A); every ⚠; the exact-title saturation check
+before Gate A (the searches so far were by topic and angle); whether to allow one name card for the reveal (section 2, F rule 1).
+
+**Sources for the checked facts** (17–18 Nov 2026; search summaries, so reopen the page before quoting a number):
+- F1: Wikipedia, Great Siege Tunnels (https://en.wikipedia.org/wiki/Great_Siege_Tunnels); the Gibraltar Museum on the Great Siege
+  (https://www.gibmuseum.gi/our-history/military-history/great-siege-of-gibraltar); Wikipedia, The Defeat of the Floating
+  Batteries (https://en.wikipedia.org/wiki/The_Defeat_of_the_Floating_Batteries_at_Gibraltar,_September_1782); AquaGib on the
+  water supply (https://www.aquagib.gi/history/); gibraltar.com on the WWII tunnels
+  (https://gibraltar.com/en/travel/see-and-do/history-and-heritage/world-war-2-tunnels.php); War History Online on the 34 miles
+  (https://www.warhistoryonline.com/world-war-ii/rock-of-gibraltar-tunnels.html); Wikipedia, Operation Tracer
+  (https://en.wikipedia.org/wiki/Operation_Tracer); the Ministry for Heritage on the Stay Behind Cave
+  (https://www.ministryforheritage.gi/heritage-and-antiquities/stay-behind-cave-complex-1072); History Hit on Fleming
+  (https://www.historyhit.com/for-your-eyes-only-the-secret-gibraltar-hideout-built-by-bond-author-ian-fleming-in-world-war-two/);
+  Finest Hour on Churchill and the macaques
+  (https://winstonchurchill.org/publications/finest-hour/finest-hour-161/curiosities-churchill-and-the-barbary-macaques-a-visit-to-gibraltars-fabled-rock/).
+- F2: the Malbork Castle Museum on the Summer Refectory (https://zamek.malbork.pl/?p=3621); Low-tech Magazine, via Resilience, on
+  the heat-storage hypocaust (https://www.resilience.org/stories/2017-03-22/heat-storage-hypocausts-air-heating-middle-ages/); the
+  1410 siege (https://military-history.fandom.com/wiki/Siege_of_Marienburg_(1410)); Wikipedia, Siege of Marienburg (1457–1460)
+  (https://en.wikipedia.org/wiki/Siege_of_Marienburg_(1457%E2%80%931460)) and Malbork treaty
+  (https://en.wikipedia.org/wiki/Malbork_treaty); Islands on the largest castle by land area
+  (https://www.islands.com/1704197/world-largest-castle-poland-malbork-land-area-vibrant-impressive-beauty-europe).
+- F3: MLIT's tourism texts on Himeji's defences (https://www.mlit.go.jp/tagengo-db/en/R1-00693.html) and on Himeji in the modern
+  age (https://www.mlit.go.jp/tagengo-db/en/R1-00692.html); Wikipedia, Himeji Castle (https://en.wikipedia.org/wiki/Himeji_Castle);
+  History Hit (https://www.historyhit.com/locations/himeji-castle/); Muza-chan on the main keep's floors
+  (https://muza-chan.net/japan/index.php/blog/himeji-castle-main-keep).
