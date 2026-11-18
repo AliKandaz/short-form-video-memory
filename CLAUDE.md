@@ -1982,12 +1982,9 @@ of 6.1.
   empty description, all things 6.4 advises against. The packaging advice is unproven, and "becomes beats why" (6.3) did not hold
   for us. The video had to do the work.
 
-**Snapshot on 18 Nov 2026 (YouTube only, read while making the new profile pictures, 6.8):** 310 subscribers, 10 Shorts, the mascot
-avatar and banner still live. Views (likes): hydrant 196,227 (6K), seawater 8,804 (357), mud house 2,106 (101), Aquarius 1,273 (67),
-canoe 201 (11), Petra 64 (3), 1959 vs 2009 car 42 (2), sewer 33 (3), lightning 17 (2), cryonics 11 (1). Videos 08–10, the first
-Cutaway videos, were two to three days old. **The snapshot's save-to-playlist flag is unreliable:** two runs a few minutes apart
-flipped it for the hydrant (NO, then yes) and for the mud house (yes, then NO). Don't read a lone "save-to-playlist NO" as
-made-for-kids mode, which also turns comments off (6.2).
+**18 Nov 2026:** the latest numbers for both platforms are in 6.10. **`yt_snapshot.py`'s save-to-playlist flag is unreliable:** two
+runs a few minutes apart that day flipped it for the hydrant (NO, then yes) and for the mud house (yes, then NO). Don't read a lone
+"save-to-playlist NO" as made-for-kids mode, which also turns comments off (6.2).
 
 ### 6.2 Problems found, and the fix recommended to the user
 1. **Video 02 is served in made-for-kids mode**, which is why it has 7 views: comments are off, "Save to playlist" is missing, there is
@@ -2139,7 +2136,8 @@ section); the banner was not part of that request and still shows the mascot.
 **Profile picture without the character (18 Nov 2026, no credits).** The user: "can you give me a new profile picture for my
 YouTube channel that doesn't include the character". The mascot avatar was still live that day. Three options were delivered, each
 an 800×800 PNG (YouTube's recommended size; it shows as a circle), with a sheet of how each looks on YouTube. The user has not yet
-said which one they will use.
+said which one they will use. It also answers part of 6.10 finding 3, written the same day: a profile visitor saw a mascot channel
+next to cutaway videos. The same files fit TikTok's round profile picture if the user wants the two to match.
 - **A, recommended: the house from the videos** (`branding/avatar-cutaway-house-800.png`). Video 09's wide still W0 (job
   bceb6aeb-…: the storm house sliced open on its block of ground, in daylight), cut out of its sky, pole and road and set on the old
   avatar's blueprint-blue glow and grid with a soft shadow. The block is trimmed to the same width on both sides of the house, so it
