@@ -176,7 +176,13 @@ Not settled:
 
 ### 4.1 Where the account is (13 Nov 2026, 22:30 UTC)
 
-@overthinkingyearly: **44 followers**, 485 likes, 6 videos, 34,686 views.
+**Update, 18 Nov 2026:** **54 followers**, 679 likes, 10 videos, 46,439 views (`CLAUDE.md` 6.10 has every video). That is about
+2 new followers a day since 13 Nov, not the 10 a day assumed below, because the six videos since seawater all stopped at 330–454
+views. At 2 a day, 1,000 followers is more than a year away, so the timeline in 4.3 now rests on fixing the openings, a breakout
+or Promote. Followers per 1,000 views are 1.2 (How Building Explained 1.3, Hidden By Design 2.6): the gap is reach, not
+conversion.
+
+@overthinkingyearly on 13 Nov: **44 followers**, 485 likes, 6 videos, 34,686 views.
 
 | Posted | Video | Views | Likes | Shares | Saves |
 |---|---|---|---|---|---|
@@ -387,3 +393,5 @@ directly next time, allow `seller-us.tiktok.com` and `support.tiktok.com` in the
 - **15 Nov 2026:** updated that pointer. The matchups were replaced by five Cutaway ideas (`CLAUDE.md` section 2 and 7.6).
 - **16 Nov 2026:** updated that pointer again. The Cutaway ideas were replaced by five out-of-the-ordinary ideas with
   draft scripts (`CLAUDE.md` section 2 and 7.8).
+- **18 Nov 2026:** follower update in 4.1 (54, about 2 a day since 13 Nov) and a pointer to the growth audit of both channels
+  (`CLAUDE.md` 6.10).

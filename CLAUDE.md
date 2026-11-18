@@ -87,6 +87,15 @@ an enemy could get in), the place named only at the end, and one line on what be
 an opening and the story as numbered beats instead of a full script; the reference study and the research are in 7.9. The order
 is not set. The kickoff prompt was renewed for them (section 5, **18/11/26**).
 
+**Growth audit of both channels (18 Nov 2026): why the views stall.** The user asked why their views are inconsistent and nothing
+has gone viral. Read from public pages (6.10): on TikTok the six videos since seawater all stopped at 330–454 views, the size of
+the first test; on YouTube the last five Shorts got 11–64 views, almost no test at all. In all six reference videos checked, the
+scene itself changes in the first 0.5–2 s (a hole is cut, a roof is covered, sand is dumped); of ours only the mud house, the canoe
+and the hydrant do, and those three all passed TikTok's first test. Videos 08–10 met every whole-video motion target and still
+stopped at the same point. Recommended, not yet approved: an opening in which the first verb happens on screen within about a
+second, one lane for the next 15–20 videos, two or three stalled videos re-cut with new openings as a free test, and TikTok
+hashtags typed in the app (none has registered since video 02).
+
 **Ideas before that (15 Nov 2026, removed 16 Nov 2026): five Cutaway ideas.** C1 (why your house doesn't smell like the sewer)
 was made as video 08 and C3 (what lightning does inside your house) as video 09; their script facts are in 3.4b. C2 (the ice rink
 under a basketball court), C4 (what's inside a nuclear cooling tower) and C5 (where your bowling ball goes) were not made; they are
@@ -852,6 +861,9 @@ stills. In this look a line without its own clip is only a fallback (3.2 rule 5)
 **Step 12: Post copy (free).**
 - TikTok: the idea's title or a hook question with one emoji, then `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and 1–2 topic
   tags (video 04's pattern, 3.4f). The `social-media-skills:caption-writer` and `hook-writer` skills can help with alternates.
+- **TikTok hashtags must register as hashtags** (18 Nov 2026): from video 02 on, none of the tags in our captions did (6.10), most
+  likely because the caption was pasted. Tell the user to type each tag in the app, or pick it from the suggestion list, and check
+  that it shows as a link before posting.
 - **YouTube Shorts gets its own copy:** follow the upload checklist in 6.4 (a title in the idea's form: the question the video
   answers, `How a ___ Becomes ___` or `If You…`, with no hashtags or call to action; a written description; audience set to "not
   made for kids").
@@ -2039,7 +2051,10 @@ What it shows:
    three hashtags.
 4. Pin a comment that asks what to build next. Reply to every comment in the first day.
 5. "Altered content" disclosure: tick it when the scenes look photoreal (the Hidden By Design look). Re-check YouTube's help page for
-   the current rule.
+   the current rule. **18 Nov 2026:** YouTube's own announcement exempts clearly unrealistic content such as animation, and a set
+   sliced open like a cake can't be taken for footage, so I recommended that the user stop ticking it for the Cutaway videos. No
+   source says the label changes reach, and the collapse of 6.10 began with Petra, which was not photoreal. The user's decision
+   is open (6.10).
 6. Cover: pick the frame of the finished build or the most dramatic beat. Uploading a designed cover needs the Partner Program.
 7. Raise at Gate A and Gate C: the Cutaway look (locked by the user on 15 Nov 2026, see 3.4): no character, one set seen by a
    travelling camera (7.7), wide shots with the subject in the upper 60% of the frame, one caption style, and a closing line that is
@@ -2132,6 +2147,97 @@ calculator numbers from web-search summaries, not the platforms' own pages: **re
   for itself from Shorts ads alone.
 - **Reading the sources:** www.tubefilter.com, ppc.land and searchenginejournal.com are outside the Default environment's network
   policy (WebFetch can't resolve them); WebSearch summaries were used instead.
+
+### 6.10 Growth audit of both channels (18 Nov 2026)
+The user: "take a look at my TikTok and YouTube pages, why are my views not consistent and why have I not had a video that's gone
+viral yet. I want to increase my followers and viewership for both accounts what am I doing wrong?" Read from public pages on 18
+Nov 2026 (about 00:20–01:00 UTC) and answered in chat. Nothing here has been approved: the recommendations at the end are open
+decisions for the user. Conclusions marked "my read" are interpretation, not measurement.
+
+**Snapshot.** TikTok @overthinkingyearly ("OT"): 54 followers (44 on 13 Nov), 679 likes, 10 videos, 46.4K views; it follows
+nobody. YouTube @LetzBuildTogether: 310 subscribers (282 on 15 Nov), 10 Shorts, about 209K views.
+
+| Video | Posted | TikTok views (likes · comments · shares · saves) | TikTok's category for it | YouTube views (likes) |
+|---|---|---|---|---|
+| 10 Cryonics | 16–17 Nov | 359 (12 · 2 · 0 · 1) | Science, Education | 11 (1) |
+| 09 Lightning | 15 Nov | 340 (19 · 0 · 2 · 1) | none given | 17 (2) |
+| 08 Sewer | 15 Nov | 354 (16 · 0 · 1 · 2) | Home & Garden, Daily Life, Lifestyle | 33 (3) |
+| 07 1959 vs 2009 car | 14 Nov | 364 (24 · 0 · 0 · 2) | Cars, Auto & Vehicle | 42 (2) |
+| 06 Petra | 12 Nov | 330 (14 · 0 · 0 · 4) | Anime & Comics, Entertainment | 64 (3) |
+| 05 Aquarius | 11 Nov | 454 (25 · 1 · 0 · 3) | none given | 1,273 (67) |
+| 04 Seawater | 10–11 Nov | 33,900 (381 · 10 · 38 · 63) | Science, Education | 8,802 (356) |
+| 03 Fire hydrant | 9 Nov | 6,341 (117 · 0 · 3 · 8) | none given | 196,202 (about 6K) |
+| 02 Canoe | 7 Nov | 1,873 (25 · 1 · 2 · 2) | Science, Education | 201 (11) |
+| 01 Mud house | 6–7 Nov | 2,124 (46 · 1 · 2 · 5) | Humanities, Education | 2,106 (101) |
+
+**The reference accounts the same day.** @1hidden_by_design: 57.5K followers, 10 videos, 22.0M views (median 689K, lowest 49K),
+no post since 9 Nov. @howbuildingexplained: 31.4K followers, 22 videos, 23.3M views (median 308K, lowest 10.8K), no post since 3
+Nov, and its bio now reads "It was a good run, Zach was here". NET FILES (7.9): 276 videos, most recent ones at 5K–15K. Followers
+per 1,000 views: ours 1.2, How Building Explained 1.3, Hidden By Design 2.6, so turning viewers into followers is not the main
+problem; reach is.
+
+**What was found.**
+1. **Views are pass or fail at the first test.** On TikTok the six videos since seawater all stopped at 330–454 views, whatever
+   the topic or the look; three earlier ones passed one round (1.9K–6.3K) and seawater went further (33.9K). On YouTube the
+   first Shorts got 1.2K–9K each (the canoe was in made-for-kids mode), the hydrant 196K, and the last five 11–64. Different
+   videos broke out on each platform (the hydrant 196K on YouTube against 6.3K on TikTok; seawater 33.9K on TikTok against 8.8K
+   on YouTube), so a video that fails one test is not proven bad.
+2. **The opening (the biggest finding).** Frames at 0, 0.5, 1, 2 and 3 s, ours against six reference videos (Hidden By Design's
+   storm drain 10.1M, roof 4.5M, landfill 4.2M and beach 49K; How Building Explained's nipa hut 12M and car wash 10.8K). In every
+   reference video the scene itself changes in the first 0.5–2 s, on the first verb: a hole is cut in the street and fills with
+   rain, plywood covers the roof, a trench is dug and a truck dumps trash, a truck dumps sand, a bamboo raft appears, a hole is dug
+   and soap poured in. Frame 1 is the "before". Of ours, only the mud house (rocks stacked into a wall), the canoe (the log pushed
+   into the river) and the hydrant (water bursting out of the pipe at about 1.5–2 s) change in the first 3 s, and those three all
+   passed TikTok's first test. Six of the seven that open on a finished scene stopped at 330–454; the exception is seawater, with
+   water flowing from frame 1. The lightning video shows no bolt in its first 3 s, the car video is a frozen frame for 3 s, the
+   sewer video doesn't change for 3 s, and the cryonics video glides over a finished lab, then cuts to a covered body on a gurney.
+   The first lines drifted from a verb the picture shows ("If you stick a pipe on the water main…") to wishes and talk ("If you
+   want to cheat death…", "If you want a hidden city…", "Everyone's heard it…"). `check_video.py` on the first 3 s does not
+   separate these, because a camera travelling over a finished set counts as movement: judge openings from the frames. Videos
+   08–10 met every whole-video target (84–90% moving) and stopped at the same ~350 as 05–07, so the gains went into the middle,
+   past where most viewers decide (my read).
+3. **The direction changed after almost every video.** In 11 days: three looks (Classic mascot, Hidden By Design, Cutaway with a
+   travelling camera), idea lists replaced on 11, 14, 15 and 16 Nov and a fortress list added on 18 Nov, and four reference
+   accounts. TikTok filed the ten videos under five different sets of categories (Petra as Anime & Comics, because of the cartoon
+   mascot), so each new video is tested on a different first audience, and a profile visitor sees a mascot survival channel, a
+   cutaway channel and a history channel at once (my read).
+4. **TikTok hashtags don't register.** From video 02 on, every caption's hashtags are plain text: TikTok's `textExtra` and
+   `challenges` are empty, so they are not links and add no hashtag signal. Only video 01's three tags registered. The likely
+   cause is pasting the caption (3.3 Step 12).
+5. **What it isn't** (ruled out from outside): a penalty (every TikTok video shows `display_penalty_type` 0, not prohibited, not
+   under review); TikTok's AI label (TikTok applied it itself to 9 of 10 videos, seawater included: `moderationAigcLabelType` 1,
+   `ShowAIGC` true, `IsAigc` false); the follow rate (normal for the format); a TikTok watermark on the YouTube uploads (none in
+   the cover frames).
+6. **YouTube's collapse began with Petra (12 Nov), while the hydrant was going viral.** No public marker separates the dead Shorts
+   from the others (comments on, so not made for kids). My read, from creator reports rather than anything official: after a
+   breakout, a channel's next Shorts are tested first on viewers like the breakout's audience, and these came for hydrants; Petra,
+   a 1959 car and cryonics are off that topic, and none of the five opens with something happening. The post copy for videos
+   08–10 said to tick "altered or synthetic content"; YouTube's policy exempts clearly unrealistic content such as animation, and
+   no source says the label changes reach (6.4 item 5). The YouTube covers are auto-picked mid-video frames carrying a random
+   caption word ("WAY", "So", "COLORS").
+7. **Credits:** 1,762.25 left after video 10. At 265–280 a video, that is about six more videos at the current cost.
+
+**Recommended to the user (open, not approved).**
+1. Fix the first two seconds: frame 1 is the "before", and the first verb happens on screen within about a second; or open on
+   the most dramatic moment and explain backwards. The first line is a physical action the picture shows, never "If you want…" or
+   a remark. Proposed check at Gate A and Gate D: what happens on screen in the first second?
+2. A free test first: re-cut two or three stalled videos (lightning opening on the bolt hitting the house; cryonics on the pods
+   head down in the tank; the car on the impact) with one new first line from Daniel, post them as new videos and make the old
+   ones private. A normal first test on YouTube and more than about 2K on TikTok would show the opening was the block.
+3. One lane for the next 15–20 videos, judged after ten, not after one. The data favours the hidden inside of things everyone
+   walks past (the hydrant and seawater here; the storm drain, roof and landfill on Hidden By Design); the X and F ideas can come
+   back as single tests later. On YouTube that is also what the 300 subscribers came for.
+4. Small fixes: type the TikTok hashtags in the app; stop ticking "altered content" for clearly animated cutaways; pick a cover
+   frame at upload; rename TikTok @overthinkingyearly ("OT") to match the content and the YouTube name, with a bio that says what
+   you post; pin the three best videos.
+
+**How it was measured (to repeat it).** TikTok: `yt-dlp --flat-playlist -J https://www.tiktok.com/@overthinkingyearly` for
+views, likes, comments, shares and saves; each video page (`https://www.tiktok.com/@overthinkingyearly/video/<id>`, fetched with
+a browser user agent) carries `itemStruct` under `webapp.video-detail` in `__UNIVERSAL_DATA_FOR_REHYDRATION__`, with
+`diversificationLabels` (TikTok's category), `textExtra` and `challenges` (empty means the hashtags are not links),
+`moderationAigcLabelType`, `ShowAIGC` and `IsAigc` (the AI labels) and `penaltyContext`. The profile page gives followers and
+likes. YouTube: `yt_snapshot.py @LetzBuildTogether` and the `oar2.jpg` cover frames (6.7). Videos were downloaded with yt-dlp
+(formats on `v16-webapp-prime.us.tiktok.com`; one reference came from v19 this time) and cut into frames with ffmpeg.
 
 ---
 
