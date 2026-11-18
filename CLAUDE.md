@@ -117,6 +117,7 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
 | **You Made It**, YouTube @youmadeit3d | 128K subscribers, 13 Shorts; Cu Chi tunnels 36M, cave home 23.5M, hole in your yard → basement 8.8M (9 Nov) | Quality over volume ("about 12 hours a video"); true escape and war stories; "your yard" |
 | **You Built It**, YouTube @youbuilt_it | 64.7K subscribers, 60 Shorts; swimming pool 8.3M, road 5.6M, roof 3.4M (9 Nov) | Things you'd want at your own house |
 | **NET FILES**, TikTok @net.files6 | 276 videos, 72.2M views; quicksand tomb 10.2M; mountain fortress 1.3M in 33 h; most recent videos 5K–15K (17 Nov) | A defense puzzle, the place named only at the end; volume plus a few hits |
+| **Cutaway Instinct** (YouTube Shorts) | stadium and arena cutaways in our style; best Shorts 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov) | A direct rival in our look: search it before any stadium or arena idea (V4, V6) |
 | **Zack D. Films** (YouTube Shorts) | owns "what happens if you…" survival scenarios: cruise ship 50M, falling through ice 64M (16 Nov) | Avoid his topics; check every idea against him |
 | **@thewhatifstudio**, TikTok | 60.9K followers; what-if simulations median 457K, its builds median 35K (14 Nov) | A choice put to the viewer drives comments |
 
@@ -351,7 +352,8 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   ice is about an inch thick ("typically less than an inch", NHL.com; others give ¾–1¼ in); a resurfacer shaves about 1/16 in and
   lays hot water at about 140–160 °F; the Kings–76ers game in Philadelphia on 30 Nov 2016 was called off at 8:03 pm because the
   court was slippery, after the Flyers had played the night before; it was made up on 30 Jan 2017.
-- **⚠ before Gate A:** "brine colder than ice" (rinks run brine or glycol at roughly 16–18 °F: check); "players kept slipping"
+- **⚠ before Gate A:** search Cutaway Instinct (stadium and arena cutaways in our style, 1.4) for the ice under the court;
+  "brine colder than ice" (rinks run brine or glycol at roughly 16–18 °F: check); "players kept slipping"
   (reports say the floor was slick; keep the wording to what they say).
 - **Watch out:** no team names, logos or colours on the court or the ice; players and crew small and anonymous.
 
@@ -428,7 +430,8 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   × 403 ft and 40 in deep that weighs nearly 19 million lb, rides 546 steel wheels on 13 tracks and travels about 740 ft at about 15
   ft a minute (60–70 minutes; an operator keeps pressing a button); it spends days outside in the sun and comes in for games and
   cold nights; Allegiant Stadium in Las Vegas has a 9,500-ton tray (540 wheels) under a roof that doesn't open.
-- **⚠ before Gate A:** that grass dies under the roof (the reason given is sunlight; word it as "grass needs sun"); the drain pipes in
+- **⚠ before Gate A:** search Cutaway Instinct (a YouTube channel of stadium cutaways in our style, 1.4) for a rolling-field
+  video; that grass dies under the roof (the reason given is sunlight; word it as "grass needs sun"); the drain pipes in
   the tray; concerts and trade shows on the bare floor; "a tortoise could keep up" (giant tortoises walk about 0.2 mph, ~18 ft a
   minute: check); how the tray is driven (motors).
 - **Watch out:** no team names, logos or colours, and no stadium name on screen.
@@ -591,9 +594,10 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   the Track" from 15 Nov 2026 at 23.8K). Good material if it comes back: three sets of wheels (the up-stop wheel patented by John A.
   Miller in 1919), the anti-rollback ratchet that clicks on the lift hill, and the twist that America's first coaster was a coal
   railway at Mauch Chunk, Pennsylvania (1827), where mules rode down in their own car.
-- **Why NFL Fields Don't Freeze** (heating pipes under the grass; the 1967 "Ice Bowl" at Green Bay as the twist): smaller demand
-  than V6 (the best Short, "Why Lambeau Field's Frozen Tundra Never Freezes Solid", 123K; 18 Nov 2026). Facts to check if it comes
-  back.
+- **Why NFL Fields Don't Freeze** (heating pipes under the grass): **already made in our style.** Cutaway Instinct's "Why Lambeau
+  Field's Frozen Tundra Never Freezes Solid" (4 Nov 2026, 123K: pipes, boilers, SubAir, stitched fibres) was followed by five small
+  copies (2–17 Nov), one of them with the 1967 Ice Bowl twist. Parked; only ever as a story-led video, with "Frozen Tundra" and
+  "never freezes" kept out of the title.
 - **Seasonal and small:** frozen pipes (the burst happens away from the ice; best Short 26K), fire sprinklers (only the one over the
   fire goes off; 5.6K). Both fit the hydrant's YouTube audience if the ten go well.
 
