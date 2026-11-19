@@ -31,7 +31,8 @@ clip:C6	7dc5cf9f-6a38-4bc4-9e2c-a91499e91d71	try A
 clip:C7	7f2266f7-4ce1-448f-b57c-f3deffb8b57a	try A
 clip:C8	181b610b-9100-416b-af6a-bd93396ded75	try A
 clip:C9	2845ebb9-572e-4865-804a-089b15fd5f3e	try A
-clip:C10	8ee514ea-d984-408f-a667-0c426a66ba20	try A
 clip:C11	f22e44d7-1fec-421d-8e90-514b81f00d93	try A
 clip:C12	ea8c70c5-a702-41d3-83d4-b9d9fbd34049	try A
 clip:C13	843554ff-7f73-4d86-8b01-da078566ad3b	try A
+clip:C10A	8ee514ea-d984-408f-a667-0c426a66ba20	try A, rejected: mid-swoop the back wall closed into solid siding (1.25-2.25 s), then reopened room by room
+clip:C10	a36befd9-1769-46d3-aeda-92f08d054b0e	try B, accepted: the back wall stays open the whole way; a sliver of soil at the deck's right edge ~2.0-2.6 s at the frame edge (kept); camera 100%, parallax 4.73

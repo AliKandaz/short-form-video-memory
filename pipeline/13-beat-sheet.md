@@ -158,3 +158,22 @@ the hook line is longer than estimated (5.9 s with its pause), so C1 is 6 s.
   63Ak26VGZ2jM3qWzsCMr. Take B chosen (generation da97G6TDPJ14bygnAJgM): faster, and Whisper timed every word cleanly (take A's
   timing slipped on "Thanksgiving" after a long pause). Word timings `13-words-takeB.json` (faster-whisper small.en in the
   Higgsfield sandbox, background).
+- **Sound:** bed and six effects, one take each, 108 ElevenLabs credits (the estimate said 320), flow avATpdgcqMLLqG0moNqe.
+- **Pilots (Gate D):** C1 (the hook) passed first time: the bird drops in by 0.5-1 s, the foam is over the rim by 2 s, the fireball
+  bursts at ~3.5 s; camera 50% moving (still while the bird drops, as video 12's hook), parallax 0.74, picture 100% moving. C14
+  try A passed the numbers but, flying backwards out of the living room, turned the room into a block of earth with a grass-topped
+  soil roof and soil under the floor (1.0-2.75 s); try B passed the deck still (D0) as a middle keyframe with HOUSEZ and was clean
+  (camera 100%, parallax 1.41), landing on ST0.
+- **The other 12 clips:** one batch, all back within ~10 minutes. The same fix went on C7 and C13 (D0 as a middle keyframe) and
+  HOUSEZ on C10-C13: no earth anywhere. C10 try A closed the house's back wall into solid siding mid-swoop (1.25-2.25 s) and reopened
+  it room by room; try B ("the back wall stays cut away for the whole move") kept it open (a sliver of soil at the deck's right edge
+  ~2.0-2.6 s, at the frame edge: kept). C6 (the fridge) and C8 (the water test) came back with a still camera: `PUSH` in the edit.
+  C9 put the flames dying ~1 s early, during "But a spill can still reach the flame" (kept: the order is right).
+- **Spend:** 188.00 against the 197.23 quote (stills 23.75, clips 144.00, re-renders C14A 13.50 and C10A 6.75); balance 1,387.75.
+- **The final (19 Nov 2026):** 64.06 s; picture moving in 91% of the seconds (the one 5 s gap is the fridge, 26-31 s, where the frost
+  melts too slowly to register); camera moving 88%, parallax 0.68 px, 22 big-move seconds, longest gap 9 s, never still over 2 s;
+  captions ~57 px at 75% down; bed 19 dB under the voice in the quiet moments (BED_UNDER 15 gave 17 dB, so 17); -13.4 LUFS, true
+  peak -1.1 dBTP. The hook's frames: 0 s the frosted bird above the oil, 0.5 s dropping in, 1.0 s in the churning oil, 2.0 s foam over
+  the rim with flames at the base. The caption "THREE-HUNDRED-FIFTY-DEGREE" read tiny squeezed to 900 px: shown as "350°" (CAPMAP).
+- **Delivered:** final `419c4426-1b1e-42ad-9af5-fc6a6264afdb`, voice-only `cbce45a8-6a60-4683-a6ac-eb567c5ec7d2`, clean master
+  `e958d23f-8169-40a4-bb0a-9d1d1db6b09b` (Higgsfield uploads); covers in `13-covers/`; post copy `13-post-copy.md`.

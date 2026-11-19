@@ -41,7 +41,7 @@ plan, the order and the budget are section 2; the evidence behind it is section 
 5. Never reuse a reference account's wording, and never end on "Congratulations, you have built…" (How Building Explained's line).
 6. When the memory changes, update both copies (above).
 
-**Status on 18 Nov 2026:**
+**Status on 19 Nov 2026:**
 - Videos 01–10 are made and posted on both platforms (9.2). Credits: 1,762.25 after video 10 (check `balance`).
 - **Video 11 (Himeji Castle, parked idea F3) was stopped by the user on 18 Nov 2026** at its quote (271.69 at 720p), with the
   message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
@@ -51,8 +51,13 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. Not posted yet (9.2; copy in
   `pipeline/12-post-copy.md`). Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
   (3, V1).
-- **Next:** post video 12 (8.1, 8.2); V2 (the turkey) has to be posted by Tue 24 Nov 2026; the free re-cut test and the profile
-  fixes (2.2) are still to do. Each video quoted at 200 or less.
+- **Video 13 (V2, "Why Firefighters Drop Frozen Turkeys Into Fryers") was made on 19 Nov 2026**, the second of the ten: 64.06 s,
+  188.00 credits against a 197.23 quote (two clips re-rendered from the reserve); balance 1,387.75 after it. Not posted yet (9.2;
+  copy and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`). Its title changed at Gate A because nine small Shorts
+  titled "Why Frozen Turkeys Explode…" went up on 14–17 Nov 2026 (3, V2).
+- **Next:** post video 12 and video 13 on different days, video 13 by Tue 24 Nov 2026 (8.1, 8.2); V3 next. The free re-cut test
+  and the profile fixes (2.2) are still to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at
+  the cap, so check the Ultra plan's renewal date before V9.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -176,7 +181,7 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 | # | Idea (section 3) | The first second | Best proven demand | Why this slot |
 |---|---|---|---|---|
 | V1 | Why Manhole Covers Explode → **made 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** | a manhole lid blasts up on a column of flame | 2.0M (a Short); about nine small copies since Aug 2026, all under 3.2K (3, V1) | Street-level like the hydrant, winter |
-| V2 | Why Frozen Turkeys Explode in the Fryer | a frozen turkey hits the oil; fireball | 5.6M, 3.1M | Thanksgiving: post by Tue 24 Nov 2026 |
+| V2 | Why Frozen Turkeys Explode in the Fryer → **made 19 Nov 2026 as video 13, "Why Firefighters Drop Frozen Turkeys Into Fryers"** | a frozen turkey hits the oil; fireball | 5.6M, 3.1M; nine small copies 14–17 Nov 2026, all under 2.3K (3, V2) | Thanksgiving: post by Tue 24 Nov 2026 |
 | V3 | Why Nuclear Cooling Towers Are Empty Inside | the tower's wall slices open: empty | 72M (footage); nobody has animated the inside | The simplest set to draw; cold-day plumes |
 | V4 | The Ice Under This Court Cancelled an NBA Game | a floor panel lifts off white ice | 7.4M; 386K this month | NBA and NHL in season |
 | V5 | Why Water Heaters Can Launch Through the Roof | the tank rockets through the roof | small Shorts; MythBusters 1.65M long | The hydrant's audience: your house |
@@ -189,7 +194,8 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 ### 2.4 Budget and cadence
 - **At most 200 credits a video** (6.1), so the ten cost at most 2,000. The balance after video 10 was 1,762.25 (video 11 was
   stopped at its quote; check `balance`): about eight videos at the cap, or all ten at an average of 176. The Ultra plan's monthly
-  credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest.
+  credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
+  balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal.
 - **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
   dates: V2 by Tue 24 Nov 2026; V9 before mid-December.
 
@@ -290,9 +296,23 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   and dry it; turn the burner off before lowering; fry outdoors on level ground away from buildings and decks; never put water on
   an oil fire (US Fire Administration); Thanksgiving is the No. 1 day for US home cooking fires (1,446 on Thanksgiving 2023, NFPA);
   deep frying runs at 350–375 °F.
-- **⚠ before Gate A:** the water method for measuring the oil (common advice; find a source); "for days" (USDA's fridge thawing
-  time is about a day per 4–5 lb; check); two examples of fire departments' yearly fryer demos; TikTok's rules on fire in videos
-  (this is a safety demonstration).
+- **Resolved at Gate A (18 Nov 2026, search summaries; butterball.com and pbs.org can't be opened from a session):** the water
+  method: the bird in the empty pot, water until it is just covered, lift it out and mark the level, 3–5 in. left at the top
+  (Butterball, Blue Rhino, Food Network); fridge thawing about 24 h per 4–5 lb at 40 °F or below, a 15-lb bird about 3 days (USDA),
+  so the script says "a day for every four or five pounds"; burner off before lowering, relit once the bird is under, lowered
+  slowly (Oneida County Sheriff, Lafayette IN, Butterball via Fox 9); never in a garage or on a wooden deck (USFA via ABC News);
+  fire-department demos for the news in Nov 2025: Raleigh FD with the NC State Fire Marshal, Ossining FD with the state
+  firefighters' association (News12, a 14-lb frozen bird), Decatur IL (WAND), Clayton NC; TikTok's guidelines (2026-H2, read on
+  tiktok.com) allow "documentary or educational content that reports on dangerous activities … unless it enables copycat
+  behavior", while "activities that may lead to moderate physical harm" can be kept off the For You feed.
+- **Made on 19 Nov 2026 as video 13, "Why Firefighters Drop Frozen Turkeys Into Fryers"** (no Short with that title): the
+  saturation check found nine small Shorts titled "Why Frozen Turkeys Explode…" posted 14–17 Nov 2026 (396–2,202 views each, all
+  with the ice → steam → over-the-rim hook; two in 3D, one opening on a turkey on a hook above the pot), so the title asks about
+  the yearly news demos and the "that's why" answers it (shown on a TV in the cut-open living room). The script was rewritten to
+  224 words: the surprise "The oil didn't explode. The ice inside the bird did."; four But/So pairs escalating overflow → flame →
+  house (the water test, gas off then lower slowly, a wooden deck attached to the house); the fryer stays in the yard the whole
+  video; no uncle on screen: his frosted bird on the hook is the joke ("He swears this one's thawed") and loops into frame 0.
+  Script, beat sheet and everything else in `pipeline/13-*`.
 - **Watch out:** nobody hurt; the uncle is small and anonymous; no brand names on the fryer or the propane tank.
 
 **V3. Why Nuclear Cooling Towers Are Almost Empty Inside** (a cooling tower by a river; the user's own pick on 15 Nov 2026)
@@ -768,7 +788,8 @@ between stills (15 Nov 2026).
 re-renders.
 
 **The first video under the cap** (video 12, 18 Nov 2026): 186.50 for 63.7 s (stills 20.00, clips 144.00, two re-renders 22.50)
-against a 194.64 quote: the standard plan below held.
+against a 194.64 quote: the standard plan below held. **Video 13** (19 Nov 2026): 188.00 for 64.06 s (stills 23.75 from 20 tries,
+clips 144.00, two re-renders 20.25) against a 197.23 quote: held again.
 
 **The standard plan under the cap (18 Nov 2026; my estimate from the prices above):**
 
@@ -916,8 +937,13 @@ YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies o
   the event first ("On the first frame the manhole cover bursts upward on a column of smoke…") and says it starts on frame 1.
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
 
-### 6.4 Scripts to copy (18 Nov 2026)
-**Start from video 12's set** (18 Nov 2026) and rename the prefix: `12-prompts.py` (STYLE, WIDE, SET, CAMERA, POS, LOCK, LOCKZ,
+### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026)
+**Start from video 13's set** (19 Nov 2026) and rename the prefix: `13-prompts.py` (LAWNZ and DECKZ against cut ground in close
+views outdoors), `13-mk.py`, `13-clips.py` (HOUSEZ, and a middle keyframe for every flight in or out of a cut-open house),
+`13-timing.py`, `13-build.py` (as 12's, plus `on(seg, t)` to place each sound effect at a moment read off its clip, effects with a
+level offset and a low-pass, and CAPMAP to caption a long spoken number as digits), `13-thumbnail.py`, `13-flightmap.py` (also writes
+a sheet of all the stills), `13-post-copy.md` and `13-beat-sheet.md` (with its production log). Video 12's set, which it was made from:
+**video 12's set** (18 Nov 2026), renamed by prefix: `12-prompts.py` (STYLE, WIDE, SET, CAMERA, POS, LOCK, LOCKZ,
 STREETZ and VAULTZ, REFS), `12-mk.py` (still requests), `12-clips.py` (clip requests; lengths read from `12-plan.json`; start-only
 clips), `12-timing.py` (pause tightening, beats, clips rounded to the nearest second, OVERRIDE), `12-build.py` (the edit tools of
 Step 9 plus vertical whips), `12-thumbnail.py`, `12-flightmap.py`, `12-post-copy.md`, and `12-beat-sheet.md` (the latest beat sheet
@@ -930,7 +956,7 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 
 ---
 
-## 7. Production lessons that still apply (collected from videos 01–11; consolidated 18 Nov 2026)
+## 7. Production lessons that still apply (collected from videos 01–13; consolidated 18 Nov 2026, video 13 added 19 Nov 2026)
 
 ### 7.1 Stills (seedream)
 - **Stills take 1.6–1.8 tries each** in this look; budget for it. `seedream` takes about 8 jobs at once (more are refused with
@@ -958,6 +984,13 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **Lighting changes are surer in the edit** (`LIGHTS`); a lights-off re-grade came back almost as bright.
 - Wording that fixed specific drift: storm skies need "the whole sky is dark grey with low, heavy storm clouds … no island, no
   smoke, no volcano, no fire"; buried things need "completely buried: above the surface there is only smooth white snow".
+- **Close views outdoors dig pits too** (video 13, 19 Nov 2026): a deck seen from above and a burner seen low came back with a pit
+  of soil dug into the lawn. A line that names what is cut open and what stays whole fixed both ("only the pot is cut open; the
+  grass under the stand is whole, and there is no soil, no cut face of ground…"; for the deck "only the back wall of the house is
+  cut away…"). Ask for joins in so many words: "the deck's boards run right up to the back wall and are joined to it, with no
+  grass and no gap" (try B had left a strip of lawn between them).
+- **A set key can be made in its later state** (video 13): W0 showed the bird down in the oil (the state of the line that uses
+  it) and frame 0 (the frosted bird above the oil) was a POS edit of it that also changed the bird: it came out first time.
 
 ### 7.2 Clips (Kling)
 - `kling4_0` takes 12–13 jobs at once on Ultra and finishes them in 4–17 minutes. It returns about 724×1284 at 720p.
@@ -977,6 +1010,20 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **A start-only change clip can come back faint** (video 12, C6A: a thin thread of an arc). "On the first frame a big, bright arc
   bursts out … lighting the whole close-up" got bolts that read on a phone.
 - Turning inside a cut-open room, Kling may glimpse the sky through the open front for half a second (video 12): accepted.
+- **Flying in or out of a cut-open house turns the room into a block of earth** (video 13, C14A, 19 Nov 2026): backing out of the
+  living room, the room grew a slab of soil and grass for a roof and soil under its floor for ~1.7 s, though both stills were clean.
+  Fix, which worked on all three such flights (C7, C13, C14B): a middle keyframe on the path (the deck seen at head height, facing
+  the house) and HOUSEZ ("an ordinary one-storey house with … a dark grey shingle roof over all of its rooms: only its back wall is
+  cut away, and there is no grass, no soil and no layer of earth on its roof, above its rooms or under its floors"). Say which way
+  the camera faces ("keeps facing the house and flies backwards").
+- **A swoop toward a dollhouse cutaway can close the wall** (video 13, C10A): mid-flight the back wall turned into solid siding,
+  then reopened room by room. Fix: "the back wall stays cut away for the whole move … the house never closes up and no wall appears
+  across the opening".
+- **In a clip that covers two lines, the event lands early** (video 13, C9): the flames died during the problem line ("a spill can
+  still reach the flame"), ~1 s before "So you shut off the gas". Kept (the order was right); to pin it, give the event its own clip
+  or say when it happens in the clip.
+- **The hook can rise to a still made at the end state** (video 13, C1): frame 0 → the boil-over (middle) → the fireball seen from
+  high (H1) in 6 s came out first time: the bird in the oil by 0.5–1 s, foam over the rim by 2 s, the fireball at ~3.5 s.
 
 ### 7.3 Camera and motion
 - **A crop of a still is not a camera position:** Kling zooms across a flat picture and it reads as still (video 08: 20% moving).
@@ -996,6 +1043,11 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   video; nearest-second rounding and one pinned clip gave 64 s for 63.7 s, all played at 0.88–1.26×.
 - **Whips can be vertical** (`12-build.py`, WHIP takes an xfade direction): slideup for a dive down, slidedown for a flight up,
   with vertical motion blur.
+- **A whip also covers a jump in time or state** (video 13): from the fireball high above, down into the pot at the moment the
+  bird went in; from the burning fryer to the kitchen (the thaw); from the water test to the lit burner with oil in the pot.
+- **A long spoken number makes a tiny caption** (video 13): "THREE-HUNDRED-FIFTY-DEGREE" squeezed to 900 px was unreadable in the
+  hook; `CAPMAP` shows it as "350°". Captions run without a break once pauses are tightened to 0.15 s, so a YouTube cover frame
+  usually carries a word: pick one whose word names the picture ("FIREBALL" on the fireball).
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -1005,6 +1057,13 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Time each effect from its loud moment on the picture; cut a long effect short if the picture stops (the `FX` cut value).
 - **Check the bed with `under_the_voice.py`, not by its setting** (18 Nov 2026): BED_UNDER 19 put a steady street bed 26 dB under
   the voice in the quiet moments; 14 brought it to 22 dB. Remix only the audio onto the finished picture (`mix()` and a stream copy).
+  Video 13's back-yard bed (breeze and a muffled TV crowd): 15 gave 17 dB, 17 gave 19 dB. Every bed differs: measure it.
+- **Place each effect on its picture** (video 13): `on(seg, t)` in `13-build.py` turns a moment read off the clip into video time
+  (the speed fit, and half a whip earlier after a whip). To land the end of an effect on the picture (the burner roar cut off as
+  the flames die), cut the file's start first (`fx6b`).
+- **Take B can need no speed-up** (video 13): 224 words at 69.3 s raw tightened to 63.2 s, 3.55 words a second; Whisper split
+  hyphenated words into pieces ("three", "-hundred", …) and the timing script's matcher spread the time over them (224/224).
+- The sound estimate overstates again: 320 quoted, 108 charged (video 13); budget from the durations.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
@@ -1012,14 +1071,16 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Sizes: YouTube 1080×1920 JPG under 2 MB; TikTok's cover upload crops to 3:4, so upload the 1080×1440 crop (y 240–1680 of the
   1920 master). Keep the headline between y ≈ 300 and 1440, clear of TikTok's buttons (x > 940 below y ≈ 950).
 
-### 7.7 Sessions, network and tools (to 18 Nov 2026)
+### 7.7 Sessions, network and tools (to 19 Nov 2026)
 - **Reachable from a session:** the Higgsfield generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai`,
   `elevenlabsusercontent.com`, `www.youtube.com`, `i.ytimg.com`, `www.tiktok.com` and its video host
   `v16-webapp-prime.us.tiktok.com`.
 - **Not reachable:** `huggingface.co` (so Whisper runs in the Higgsfield sandbox), the upload CDN `d2ol7oe51mr4n9.cloudfront.net`
   (give those links to the user), and for WebFetch `en.wikipedia.org`, `cdc.gov`, `weather.gov` and many blogs (use search
   summaries and say so); on 18 Nov 2026 also `cbsnews.com`, `thecity.nyc`, `lincolnsquarebid.org`, `tdworld.com` and
-  `lite.conedison.com`.
+  `lite.conedison.com`; on 19 Nov 2026 `www.butterball.com` and `www.pbs.org`. TikTok's Community Guidelines can be read with curl
+  (`www.tiktok.com/community-guidelines/en/<section>` redirects to `www.tiktok.com/safety/…`; the full rules, "Allowed" lists
+  included, are URL-encoded inside the page).
 - **ElevenLabs `account_get_usage` needs the connector reconnected with more permissions** (18 Nov 2026); estimates and
   generations work, so the ElevenLabs balance can't be read from a session until then.
 - **The Higgsfield sandbox:** foreground calls time out at about 60 s (run Whisper and renders with `background:true`); pip fails
@@ -1142,6 +1203,7 @@ label to 9 of 10 videos; no video shows a penalty. The YouTube uploads carry no 
 | 10 | Why These People Are Frozen Upside Down | 17 Nov | cutaway, travelling camera | 278.00 | no |
 | 11 | Why This Castle Was Built Like a Maze (Himeji) | — | cutaway, travelling camera | quoted 271.69 | stopped by the user at Gate B, 18 Nov 2026 |
 | 12 | Why Some Manhole Covers Are Full of Holes (V1) | 18 Nov | cutaway, travelling camera | 186.50 (quoted 194.64) | yes: the lid leaves the road on flame at ~0.6 s |
+| 13 | Why Firefighters Drop Frozen Turkeys Into Fryers (V2) | 19 Nov | cutaway, travelling camera | 188.00 (quoted 197.23) | yes: the frosted bird drops into the oil by 0.5–1 s, foam over the rim by 2 s |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1161,6 +1223,11 @@ not reachable from a session, so give the links to the user or read them through
   -13.1 LUFS): final `4a06b2de-85f5-48ef-934c-127ab188feac`; voice-only `031bfa5e-7e50-4897-bf57-3de54b22f8fd`; clean master
   `f14e85d8-2eaa-47d0-868e-56e19a64c57f`; flows: narration `mGH44upt45AU8OjNz4mT`, sound `JjjBUf6oJu5ocLnAJd3K`; Higgsfield folder
   `25f62fea-3516-4722-a1d8-62520102b743`; build `pipeline/12-build.py`, word timings `pipeline/12-words-takeB.json`.
+- 13 frozen turkeys (19 Nov 2026; 64.06 s; picture 91% moving, camera 88% moving, parallax 0.68 px, bed 19 dB under the voice,
+  -13.4 LUFS): final `419c4426-1b1e-42ad-9af5-fc6a6264afdb`; voice-only `cbce45a8-6a60-4683-a6ac-eb567c5ec7d2`; clean master
+  `e958d23f-8169-40a4-bb0a-9d1d1db6b09b`; flows: narration `J0sBMOB3YlVvvka65eMy`, sound `avATpdgcqMLLqG0moNqe`; Higgsfield folder
+  `7377ac71-fa47-499b-b891-0d4c57eccc6d`; build `pipeline/13-build.py`, word timings `pipeline/13-words-takeB.json`; covers in
+  `pipeline/13-covers/`.
 - Every video's script, beat sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
 ### 9.3 What the ten videos taught (18 Nov 2026)
@@ -1339,7 +1406,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 
 ### 13.2 Topics to avoid
 - **Made by us:** the mud house, the canoe, the fire hydrant, seawater to tap water, the underwater habitat (Aquarius), Petra, the
-  1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics, the manhole covers (video 12).
+  1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics, the manhole covers (video 12), frozen turkeys in the fryer
+  (video 13).
 - **Made by Hidden By Design:** the storm drain, the water well and water tower, a road tunnel under a river, a landfill into a
   park, a bridge foundation (cofferdam), the sewer and treatment works, power lines, the gas station, the roof, the beach.
 - **Made by How Building Explained:** the nipa hut, an Amazon floating house, the igloo, the levee, a nuclear bunker, a nuclear
@@ -1380,4 +1448,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **18 Nov (later):** video 12 (V1, the manhole covers) made under the 200 cap, retitled at Gate A; the saturation check's Shorts
   parser fixed (`bba4c0d`); the video's files from `679af8c` to the commit that logged it. Then an eye-catching profile picture
   and YouTube banner without the mascot, from the videos' stills (`make_brand_v2.py`, 8.3).
+- **19 Nov:** video 13 (V2, the frozen turkeys) made under the 200 cap, retitled at Gate A to "Why Firefighters Drop Frozen Turkeys
+  Into Fryers"; the house-flight fix (a middle keyframe and HOUSEZ) and `on()` for placing sounds; files from `660ae9b` to the commit
+  that logged it.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).

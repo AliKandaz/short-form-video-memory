@@ -59,9 +59,10 @@ def seg_splice(name):
 # Kling held the camera still in C3 (the ice), C5 (the strawberry) and C17 (the crack), so the edit adds a slow push-in toward
 # the change, and the clip after each starts at that zoom and eases back out. C19 (the closing wide) also came back still: PULL
 # starts it zoomed in and pulls back to exactly the first frame's framing, so the loop lands on W0.
-PUSH = {}        # (focus x, focus y, zoom gained): set for any clip Kling leaves with a still camera
+PUSH = {"C6": (540, 860, 0.14), "C8": (540, 760, 0.14)}   # (focus x, focus y, zoom gained): C6 (the fridge, camera 0% moving) and C8
+                                                          # (the water test, 40%) came back with a still camera (measured 19 Nov 2026)
 PULL = {}        # (focus x, focus y, zoom at the start, back to 1.0 at the end)
-EASE_AFTER = {}; EASE_S = 0.8
+EASE_AFTER = {"C7": "C6"}; EASE_S = 0.8
 
 def zoom_xy(fx, fy):
     return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
@@ -180,7 +181,12 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []   # measured on the rendered segments (see the beat sheet: ring on the ice, arrows down the drops, ring on the tape, arrows down the drips)
+POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (19 Nov 2026); times in seconds into the segment
+    ("C2", "ring", 1.6, 3.25, 1.5, {"c": (540, 560), "r": 140}),               # B2 "The ice inside the bird did": the ice
+    ("C3", "arrows", 1.2, 3.4, 1.6, {"p0": (500, 1120), "p1": (500, 1380)}),   # B3 "the water sinks": down along the drops
+    ("C8", "arrows", 2.7, 4.7, 3.4, {"p0": (1080, 1025), "p1": (930, 1025)}),  # B9 "mark the line": in at the tape's end
+    ("C9", "arrows", 0.4, 1.4, 0.1, {"p0": (450, 880), "p1": (450, 1260)}),    # B10 "a spill can still reach the flame"
+]
 
 def pointer_events(t0, t1):
     ev = []
@@ -231,16 +237,29 @@ def at(beat, word=None, off=0.0):
 # (19 Nov 2026): fx1 (the oil erupting) is loud from its start to 0.7 s; fx2 (the fireball whoosh) peaks 0.38 s in; fx3 (boiling
 # pops) is loud 0.08-1.15 s; fx4 (the fridge door) 0.0-0.4 s; fx5 (water sloshing) 0.30-0.68 s; fx6 (the burner) roars from its
 # start and is cut off at ~1.8 s. Times are set on the picture once the clips are rendered.
-FX = [("fx1", at("B1", None, 0.6)),                     # the bird hits the oil (C1 ~0.5-0.8 s)
-      ("fx2", at("B1", None, 3.0)),                     # the fireball bursts (C1 ~3.3 s)
-      ("fx3", at("B4", "flashes", -0.1)),               # the drops burst into steam (C3)
-      ("fx1", at("B5", None, 0.4), 1.6, -3),            # the foam surges over the rim (C4)
-      ("fx2", at("B6", "goes", -0.3)),                  # the oil hits the flame and goes up (C5)
-      ("fx4", at("B7", None, 0.25)),                    # the kitchen, the fridge (C6)
-      ("fx5", at("B9", "lift", -0.3)),                  # the bird lifted out of the water (C8)
-      ("fx6", at("B11", "gas", -1.6)),                  # the burner roar cut off as the flames die (C9)
-      ("fx2", at("B15", None, 0.6), None, -4, 1200)]    # the fireball on the TV, muffled (C13)
-BED, BED_UNDER, FX_UNDER = 'bed', 19.0, 11.0            # dB under the voice by active RMS; checked with under_the_voice.py
+def on(seg, t_clip):
+    """Video time of a moment t_clip seconds into clips/<seg>.mp4, as seg_clip_raw plays it (the speed fit, and half a whip
+    earlier when a whip leads into the segment)."""
+    sg = SEG[seg]; L = sg['len'] + EXTRA.get(seg, 0); c = dur(f'clips/{seg}.mp4')
+    lo, hi = (0.8, 2.0) if seg in FULLFIT else (0.8, 1.2); sp = min(max(c / L, lo), hi)
+    pre = next((wd / 2 for (a_, b_), (wd, _k) in WHIP.items() if b_ == seg), 0.0)
+    return sg['start'] - pre + t_clip / sp
+# Event times read off the clips (19 Nov 2026): C1 the bird touches the oil ~0.5 s, the fireball bursts ~3.3-3.5 s; C3 the steam
+# bubbles swell from ~4.7 s; C4 the foam spills over the rim ~1.7-2.7 s; C5 the oil reaches the flame and fire flares ~3.0-3.7 s;
+# C8 the bird comes out of the water ~1.0-2.3 s; C9 the blue flames die ~0.7-1.0 s; C13 the TV's fireball ~3.3-4.0 s.
+# fx6b is fx6 from 0.9 s (the roar's last 0.9 s, then the cut-off), so its cut lands on the flames dying.
+FX = [("fx1", on("C1", 0.5)),                           # the bird hits the oil
+      ("fx2", on("C1", 3.0)),                           # the fireball bursts (peak 0.38 s in)
+      ("fx3", on("C3", 4.6)),                           # the drops burst into swelling steam bubbles
+      ("fx1", on("C4", 1.6), 1.6, -3),                  # the foam surges over the rim
+      ("fx2", on("C5", 2.7)),                           # the oil hits the flame and goes up
+      ("fx4", on("C6", 0.1)),                           # the kitchen, the open fridge
+      ("fx5", on("C8", 0.75)),                          # the bird lifted out of the water (loud 0.3-0.7 s in)
+      ("fx6b", on("C9", 0.85) - 0.9),                   # the burner roar, cut off as the blue flames die
+      ("fx2", on("C13", 3.4), None, -4, 1200)]          # the fireball on the TV, muffled
+BED, BED_UNDER, FX_UNDER = 'bed', 17.0, 11.0            # dB under the voice by active RMS. 15 measured 17 dB under in the quiet
+                                                        # moments (19 Nov 2026), so 17; video 12: 19 measured 26 dB
+                                                        # under in the quiet moments, 14 gave 22); checked with under_the_voice.py
 
 def mix(t0, t1, out, voice_only=False):
     voice = 'audio/narration_tight.wav'; v_db = rms_db(voice); T = t1 - t0
@@ -271,7 +290,9 @@ CAPFONT = ImageFont.truetype('fonts/HBXCaption.ttf', round(CAP_FS * 1000 / 1219)
 def ts(t):
     t = max(0, t); h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60
     return f"{h}:{m:02d}:{s:05.2f}"
-def cap(w): return re.sub(r"[^A-Za-z0-9'’\-]", "", w).upper()
+CAPMAP = {"THREE-HUNDRED-FIFTY-DEGREE": "350°"}   # a 26-letter word squeezed to 900 px read tiny in the hook (19 Nov 2026)
+def cap(w):
+    t = re.sub(r"[^A-Za-z0-9'’\-]", "", w).upper(); return CAPMAP.get(t, t)
 
 def caption_events(t0, t1):
     ev = []; words = [w for w in WORDS if t0 - 0.01 <= w[0] < t1]; prev_end = t0

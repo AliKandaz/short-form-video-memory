@@ -63,9 +63,13 @@ C = {
         "flames; then the blue flames shrink and go out. The camera rises up the side of the pot to the rim, where the thawed "
         "turkey on its hook slides slowly down into the calm golden oil, which rises a little but stays well below the rim. There "
         f"is no orange fire at any time. {OIL} {LAWN} {ONE}", NOBODY),
- "C10": ("PT2", [], "D0", 3, "The camera rises up from the fryer and swoops across the lawn toward the back of the house, "
-         "coming down onto the wooden deck, which is joined to the house, beside its empty folding lawn chair; the cut-open "
-         f"kitchen and living room glow warmly behind it. {HOUSEZ} {LAWN} {ONE}", NOBODY),
+ # C10 try A (8ee514ea): mid-swoop the house's back wall closed into solid siding (1.25-2.25 s) and then reopened room by room.
+ # Try B says in so many words that the back wall stays cut away for the whole move.
+ "C10": ("PT2", [], "D0", 3, "The camera rises up from the fryer and flies forward across the lawn toward the back of the house, "
+         "coming down onto the wooden deck, which is joined to the house, beside its empty folding lawn chair. The back wall of the "
+         "house stays cut away like a dollhouse for the whole move, so the warmly lit kitchen with its white fridge and the living "
+         "room with its sofa and TV stay in view from the first frame to the last; the house never closes up and no wall appears "
+         f"across the opening. {HOUSEZ} {LAWN} {ONE}", NOBODY),
  "C11": ("D0", [], "H0", 3, "The camera pulls back from the house and rises high above the lawn, tilting down, until the turkey "
          "fryer comes into view standing far out on the grass with a thin wisp of steam rising from its pot, a long stretch of "
          f"empty lawn between it and the deck. {HOUSEZ} {LAWN} {ONE}", NOBODY),
