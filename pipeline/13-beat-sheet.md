@@ -107,6 +107,12 @@ back to the thawing), C8 → C9 (from the water test down to the lit burner with
 the loop lands. Big moves: C1, C4, C5, C7, C9, C10, C11, C12, C13 and C14 plus the three whips, none more than ~7 s apart
 (Rule 7).
 
+**Real timings (Step 6, 19 Nov 2026):** take B, pauses tightened to ~0.15 s, no speed change (it already reads at 3.55 words a
+second): 63.2 s spoken, 64.06 s of video with the 0.9 s tail. Clip lengths from `13-plan.json`, rounded to the nearest second
+(`13-timing.py`, C3 pinned at 8 s and C14 at 6 s): C1 6, C2 3, C3 8, C4 4, C5 5, C6 4, C7 3, C8 5, C9 5, C10 3, C11 3, C12 5, C13 4,
+C14 6 = **64 s (144.00 at 720p)**, played at 0.88-1.11× (C7 1.51×, `FULLFIT`). These replace the estimates in the table above;
+the hook line is longer than estimated (5.9 s with its pause), so C1 is 6 s.
+
 ## Pilots (Gate D)
 - **C1, the hook:** ST0 → (ST1) → H1, 4 s. Its frames at 0, 0.5, 1 and 2 s must show the bird in the oil and the foam over the rim
   by 1 s, big in the frame (Rule 0).
@@ -137,3 +143,18 @@ the loop lands. Big moves: C1, C4, C5, C7, C9, C10, C11, C12, C13 and C14 plus t
   The hook at 1080p (+4.00, +4.60 with the reserve) would take it to 201.83, over the cap, so it stays at 720p.
 - ElevenLabs (outside the cap): narration 2,312 credits for two takes (estimate, 18 Nov 2026); sound about 107 by the durations
   (32 s at ~3.33 a second).
+- Approved at Gate B on 19 Nov 2026 at 720p.
+
+## Production log
+- Higgsfield project "HBX – Why Firefighters Drop Frozen Turkeys Into Fryers" (7377ac71-fa47-499b-b891-0d4c57eccc6d); job ids in
+  `13-jobs.tsv`.
+- **Stills (Gate C):** 16 on screen from 20 tries, 23.75 credits (27.50 planned; one try failed on Higgsfield and was refunded);
+  balance 1,552.00. W0 floats over a pale ground, as video 12's did (kept). D0 took three tries: A dug a pit with soil walls into
+  the lawn (the STYLE line's cut ground leaking in), B left a strip of lawn between the deck and the house, and C (on the deck at
+  head height, "joined to it, with no grass and no gap") worked. BU1 took two: A zoomed out and dug a pit under the stand; B with
+  LAWNZ kept BU0's framing. IN0 came out as a close view of the whole pot rather than an extreme close-up (kept: the ice and the
+  falling drops read clearly). Sheets: `13-flightmap.jpg`, `13-keyframes.jpg`, `13-stills.jpg`, `13-first-last.jpg`.
+- **Narration:** two takes, 2,312 ElevenLabs credits (take A 71.8 s, take B 69.3 s; 224 words), flow J0sBMOB3YlVvvka65eMy, node
+  63Ak26VGZ2jM3qWzsCMr. Take B chosen (generation da97G6TDPJ14bygnAJgM): faster, and Whisper timed every word cleanly (take A's
+  timing slipped on "Thanksgiving" after a long pause). Word timings `13-words-takeB.json` (faster-whisper small.en in the
+  Higgsfield sandbox, background).

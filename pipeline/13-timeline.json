@@ -1,0 +1,144 @@
+{
+ "take": "B",
+ "speed": 1.0,
+ "raw": 69.28,
+ "total": 64.057,
+ "beats": [
+  {
+   "beat": "B1",
+   "start": 0.0,
+   "end": 5.93,
+   "len": 5.93,
+   "first_word": 0,
+   "clip_s": 6
+  },
+  {
+   "beat": "B2",
+   "start": 5.93,
+   "end": 9.1,
+   "len": 3.17,
+   "first_word": 14,
+   "clip_s": 4
+  },
+  {
+   "beat": "B3",
+   "start": 9.1,
+   "end": 12.507,
+   "len": 3.407,
+   "first_word": 24,
+   "clip_s": 4
+  },
+  {
+   "beat": "B4",
+   "start": 12.507,
+   "end": 17.747,
+   "len": 5.24,
+   "first_word": 36,
+   "clip_s": 6
+  },
+  {
+   "beat": "B5",
+   "start": 17.747,
+   "end": 21.473,
+   "len": 3.726,
+   "first_word": 51,
+   "clip_s": 4
+  },
+  {
+   "beat": "B6",
+   "start": 21.473,
+   "end": 26.179,
+   "len": 4.706,
+   "first_word": 64,
+   "clip_s": 5
+  },
+  {
+   "beat": "B7",
+   "start": 26.179,
+   "end": 30.634,
+   "len": 4.455,
+   "first_word": 83,
+   "clip_s": 5
+  },
+  {
+   "beat": "B8",
+   "start": 30.634,
+   "end": 32.626,
+   "len": 1.992,
+   "first_word": 103,
+   "clip_s": 3
+  },
+  {
+   "beat": "B9",
+   "start": 32.626,
+   "end": 37.434,
+   "len": 4.808,
+   "first_word": 111,
+   "clip_s": 5
+  },
+  {
+   "beat": "B10",
+   "start": 37.434,
+   "end": 39.438,
+   "len": 2.004,
+   "first_word": 131,
+   "clip_s": 3
+  },
+  {
+   "beat": "B11",
+   "start": 39.438,
+   "end": 42.534,
+   "len": 3.096,
+   "first_word": 139,
+   "clip_s": 4
+  },
+  {
+   "beat": "B12",
+   "start": 42.534,
+   "end": 45.241,
+   "len": 2.707,
+   "first_word": 151,
+   "clip_s": 3
+  },
+  {
+   "beat": "B13",
+   "start": 45.241,
+   "end": 48.161,
+   "len": 2.92,
+   "first_word": 162,
+   "clip_s": 3
+  },
+  {
+   "beat": "B14",
+   "start": 48.161,
+   "end": 52.827,
+   "len": 4.666,
+   "first_word": 173,
+   "clip_s": 5
+  },
+  {
+   "beat": "B15",
+   "start": 52.827,
+   "end": 57.25,
+   "len": 4.423,
+   "first_word": 190,
+   "clip_s": 5
+  },
+  {
+   "beat": "B16",
+   "start": 57.25,
+   "end": 59.657,
+   "len": 2.407,
+   "first_word": 203,
+   "clip_s": 3
+  },
+  {
+   "beat": "B17",
+   "start": 59.657,
+   "end": 64.057,
+   "len": 4.4,
+   "first_word": 211,
+   "clip_s": 5
+  }
+ ]
+}
