@@ -16,6 +16,12 @@ WATER = "The pot holds clear water, not oil."
 LAWN = ("The grass under and around the fryer stays whole: no soil, no pit, no hole and no cut face of ground appears anywhere "
         "near the fryer.")
 INDOOR = "Inside the house the floors and walls stay solid and nothing in them is cut open: no soil, no pit, no steps."
+# C14 try A (263d739f): flying backwards out of the living room, Kling turned the room into a block of earth, with a slab of
+# soil and grass for a roof and soil under the floor (1.0-2.75 s), though both stills were clean. HOUSEZ goes on every clip that
+# shows the house, and the flights out of the house pass the deck still (D0) as a middle keyframe.
+HOUSEZ = ("The house is an ordinary one-storey house with grey siding and a dark grey shingle roof over all of its rooms: only "
+          "its back wall is cut away, and there is no grass, no soil and no layer of earth on its roof, above its rooms or under "
+          "its floors.")
 ONE = "One smooth, continuous camera move with no cuts."
 NOBODY = "No people, no characters."
 TVFIG = "No people, no characters; the only figures are the two tiny firefighters on the TV screen."
@@ -23,7 +29,7 @@ TAIL = "Motion starts on frame 1. No text, no captions, no letters."
 FROZEN = "a whole frozen turkey, frosted white with chunks of clear ice in its open cavity,"
 C = {
  # clip: (start key, middle keys, end key or None, seconds, motion, who)
- "C1": ("ST0", ["ST1"], "H1", 6, f"On the first frame {FROZEN} drops off its hook straight down into the hot oil. At once the oil "
+ "C1": ("ST0", ["ST1"], "H1", 6, f"On the first frame {FROZEN} drops straight down on its rack into the hot oil. At once the oil "
         "boils over violently: a churning mass of pale foam surges up through the cut-open pot and over the rim, golden oil pours "
         "down the outside onto the burner, and orange flames leap up around the pot. The camera rises fast and pulls back as a "
         "huge rolling ball of orange fire bursts up out of the pot, climbing high above the lawn and tilting down to look at the "
@@ -45,10 +51,10 @@ C = {
         "on the turkey lying on its tray melts away and the ice in its cavity disappears, leaving plain pale golden-pink skin, "
         "patted dry, with crumpled white paper towels on the tray beside it. The fridge light glows the whole time. "
         f"{INDOOR} {ONE}", NOBODY),
- "C7": ("K1", [], "R0", 3, "The camera pulls back out of the open fridge, out through the cut-away back wall of the house and "
-        "over the wooden deck, and flies low across the lawn to the turkey fryer, coming to rest level with the rim of its pot, "
-        "which is filled with clear water with the thawed turkey sitting under it on its rack. The burner under the pot is off, "
-        f"with no flames. {INDOOR} {LAWN} {ONE}", NOBODY),
+ "C7": ("K1", ["D0"], "R0", 3, "The camera keeps facing the house and flies backwards: it pulls back out of the open fridge, "
+        "out through the cut-away back wall of the house onto the wooden deck, and low across the lawn to the turkey fryer, coming "
+        "to rest level with the rim of its pot, which is filled with clear water with the thawed turkey sitting under it on its "
+        f"rack. The burner under the pot is off, with no flames. {HOUSEZ} {INDOOR} {LAWN} {ONE}", NOBODY),
  "C8": ("R0", [], "R1", 5, "The thawed turkey rises slowly up out of the clear water on its steel hook and hangs just above the "
         "rim, dripping; as it comes out, the water level in the pot drops a few inches, and a strip of bright blue tape appears "
         "along the inside wall of the pot at the new waterline. The camera drifts slowly round the pot. The burner stays off, "
@@ -59,21 +65,22 @@ C = {
         f"is no orange fire at any time. {OIL} {LAWN} {ONE}", NOBODY),
  "C10": ("PT2", [], "D0", 3, "The camera rises up from the fryer and swoops across the lawn toward the back of the house, "
          "coming down onto the wooden deck, which is joined to the house, beside its empty folding lawn chair; the cut-open "
-         f"kitchen and living room glow warmly behind it. {LAWN} {ONE}", NOBODY),
+         f"kitchen and living room glow warmly behind it. {HOUSEZ} {LAWN} {ONE}", NOBODY),
  "C11": ("D0", [], "H0", 3, "The camera pulls back from the house and rises high above the lawn, tilting down, until the turkey "
          "fryer comes into view standing far out on the grass with a thin wisp of steam rising from its pot, a long stretch of "
-         f"empty lawn between it and the deck. {LAWN} {ONE}", NOBODY),
+         f"empty lawn between it and the deck. {HOUSEZ} {LAWN} {ONE}", NOBODY),
  "C12": ("H0", [], "W0", 5, "The camera pulls back further and comes down in front of the yard until the whole sliced-open back "
          "yard is in view: the house with its cut-open kitchen, where steam rises from the pots on the stove, the deck with its "
          "empty lawn chair, the lawn with the fryer far out on it, and the cut face of the ground below. A few dry leaves drift "
-         f"down. {OIL} {ONE}", NOBODY),
- "C13": ("W0", [], "TV0", 4, "The camera flies forward over the lawn and the deck into the cut-open living room of the house and "
+         f"down. {HOUSEZ} {OIL} {ONE}", NOBODY),
+ "C13": ("W0", ["D0"], "TV0", 4, "The camera flies forward over the lawn and the deck into the cut-open living room of the house and "
          "comes to rest facing the flat TV on the wall, whose screen shows a turkey fryer erupting in a huge orange fireball in a "
-         f"parking lot, a red fire engine with no lettering and two tiny firefighters standing well back. {INDOOR} {ONE}", TVFIG),
- "C14": ("TV0", [], "ST0", 6, "The camera pulls back from the TV, out of the living room through the cut-away back wall, over the "
-         "deck and across the lawn, and comes down to the turkey fryer, settling close in front of its cut-open pot, where "
-         f"{FROZEN} hangs on the hook just above the calm, shimmering golden oil, with blue flames burning under the pot. "
-         f"{INDOOR} {OIL} {LAWN} {ONE}", NOBODY),
+         f"parking lot, a red fire engine with no lettering and two tiny firefighters standing well back. {HOUSEZ} {INDOOR} "
+         f"{ONE}", TVFIG),
+ "C14": ("TV0", ["D0"], "ST0", 6, "The camera keeps facing the house and flies backwards the whole time: it pulls back from "
+         "the TV, out of the living room through the cut-away back wall onto the wooden deck, then low across the lawn, and comes "
+         f"down to the turkey fryer, settling close in front of its cut-open pot, where {FROZEN} hangs on the hook just above the "
+         f"calm, shimmering golden oil, with blue flames burning under the pot. {HOUSEZ} {INDOOR} {OIL} {LAWN} {ONE}", NOBODY),
 }
 J = {}
 for l in open(__file__.replace("13-clips.py", "13-jobs.tsv")):
