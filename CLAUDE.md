@@ -47,7 +47,9 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
 - **A new profile picture and YouTube banner without the mascot** were made on 18 Nov 2026 (the user asked for eye-catching
   ones), from the videos' own stills, no credits. **On 20 Nov 2026 YouTube showed the terracotta cutaway-house icon** (from that
-  morning's set) as the profile picture **and still the old mascot banner**; the new banners aren't up (8.3).
+  morning's set) as the profile picture **and still the old mascot banner**; the new banners aren't up (8.3). **Later on 20 Nov
+  2026 the user asked for a set with nothing from the videos or the account:** brand set v3 (a cut-cube mark, a matching banner
+  and bios) is the recommendation now, not live yet (8.3).
 - **Video 12 (V1, "Why Some Manhole Covers Are Full of Holes") was made on 18 Nov 2026**, the first of the ten and the first
   under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. **Posted 18 Nov 2026** (TikTok
   at 22:07 UTC, 5:07 pm ET; YouTube the same day); about a day later: 202 views on TikTok, 7 on YouTube (9.1, 9.2). Copy in
@@ -59,8 +61,8 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`. Its title changed at Gate A because nine small Shorts
   titled "Why Frozen Turkeys Explode…" went up on 14–17 Nov 2026 (3, V2).
 - **Next:** V3; the 72 h reads (8.4) of video 12 after 22:07 UTC on Sat 21 Nov 2026 and of video 13 after 23:04 UTC on Sun 22
-  Nov. The free re-cut test and the rest of the profile fixes (the bios, the TikTok handle, the new banner; 2.2, 8.3) are still
-  to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at the cap, so check the Ultra plan's
+  Nov. The free re-cut test and the rest of the profile fixes (brand set v3's picture, banner and bios; the TikTok handle; 2.2,
+  8.3) are still to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at the cap, so check the Ultra plan's
   renewal date before V9.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
@@ -1150,8 +1152,36 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   is the YouTube name: check that `@letzbuildtogether` is free with `pipeline/youtube/handles.py <dir> tt letzbuildtogether`. TikTok
   allows a username change once every 30 days.
 - **Bio on both platforms:** what you post and how often, in one line, e.g. "The hidden inside of everyday things, in 3D. New video
-  every other day." Not done on 20 Nov 2026: both still open with "Start with something simple. Add problems…".
+  every other day." Not done on 20 Nov 2026: both still open with "Start with something simple. Add problems…". Brand set v3's
+  bios (below) replace that example.
 - **Pin the three best TikTok videos:** seawater, the hydrant, and the best of the new ones as it emerges.
+- **Brand set v3, drawn from scratch (20 Nov 2026; the recommendation now).** The user: "give me a high converting profile and
+  banner picture along with a bio I don't want it to include anything from my current videos or account. something that makes
+  sense on the type of educational videos I make". Nothing in it comes from the videos or the account (no stills, no character,
+  no channel name or numbers), so it works with any handle. Drawn in code, no credits: `pipeline/branding/make_brand_v3.py`
+  (fonts Anton and Inter, `npm pack @fontsource/anton@5.2.5 @fontsource/inter@5.2.5`). Not live yet: check with
+  `live_brand_check.py` before saying it is up.
+  - **The mark:** a white isometric cube with its top front corner cut away, showing coloured layers and the cut ends of a water
+    pipe and a cable: plain outside, interesting inside, the format in one shape. Hi-vis yellow (#FFD62E) behind it, ink
+    (#101A33) outlines. It still reads as a cube with an opening at 24 px, on light and dark, and sits above TikTok's follow
+    badge. One picture for both apps: `avatar-v3-1080.png` (TikTok) and `avatar-v3-800.png` (YouTube).
+  - **The banner** (`banner-v3-2560x1440.jpg`): ink navy with a faint isometric grid; inside the phone box "YOU'VE SEEN IT. /
+    NOW SEE INSIDE IT." (Anton, "INSIDE" in yellow), a yellow pill "NEW 3D EXPLAINER EVERY 2 DAYS", and the mark on a yellow
+    disc (the profile picture at banner size); faint cubes beside it for computers and TVs only. `fit-check-v3.jpg` shows the
+    picture at feed sizes and the banner as phones, computers and TVs crop it. Change the words with `--line1`, `--line2`,
+    `--highlight` and `--pill` (change the pill if the posting rhythm changes).
+  - **Bios** (counted 20 Nov 2026). TikTok (80 characters at most; an emoji counts as 2), on two lines:
+    "You've seen it. Now see inside it 👀" / "3D engineering explainers every 2 days" (75, recommended), or "The hidden engineering
+    in everyday things 👀" / "New 3D explainer every 2 days" (74). YouTube description (400 of 1,000 characters; the first line
+    shows under the channel name):
+    > You've seen it a thousand times. Now see inside it.
+    >
+    > Short 3D animations that slice everyday things open to show how they really work: the hidden parts inside the buildings,
+    > machines and streets you pass every day, what goes wrong with them, and the clever fixes engineers came up with.
+    >
+    > Every fact is checked before it's animated.
+    >
+    > New 3D explainer every 2 days. Subscribe to see what's inside next.
 - **The profile picture and the banner without the mascot** (18 Nov 2026, later; the user: "can you give me a eye catching
   profile and banner image for my TikTok and YouTube account. I don't want it to include the character"). Made from the videos'
   own stills, no credits, in `branding/`. **Live on 20 Nov 2026** (`pipeline/branding/live_brand_check.py`, 12.2): the YouTube
@@ -1483,4 +1513,6 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **20 Nov:** first-day check of videos 12 and 13 (posted 18 and 19 Nov, early evening ET): the hashtags register on TikTok now;
   YouTube still gives new Shorts almost no test; the YouTube picture is the terracotta icon, the banner still the mascot one
   (`live_brand_check.py`).
+- **20 Nov (later):** brand set v3 drawn from scratch at the user's request, with nothing from the videos or the account: the
+  cut-cube mark on yellow, a matching banner and bios (`make_brand_v3.py`, 8.3).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
