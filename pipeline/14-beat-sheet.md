@@ -163,3 +163,22 @@ C14 1.30×, `FULLFIT`).
   (DU0 → ST1 → ST0, 4 s): back from the duck, past the sprays and out the front by 2.0 s, the halves swing closed 2.8-3.4 s and
   it lands on ST0, the exact reverse of C1 (camera 75% moving, parallax 1.31, 2 big-move seconds of 4, never still over 1 s;
   picture 75%). Sheet `14-gateD.jpg`.
+- **The other 13 clips:** one batch of 12 and one single, all back within ~7 minutes, all kept (no re-renders; 126.00). C8 and C9
+  morphed the cut-open tower into the row's whole tower and back: in C8 the halves close as the camera rises to the row, in C9
+  the row's tower splits open as the camera swoops to its waist. With the lines ("a tube this tall", then "pinch its waist") it
+  reads as showing the whole tube and then cutting it open again, so both were kept. C11's cut wall doubles at ~1-2 s, which lands
+  on "The rest got thicker walls". C12 shows ~0.7 s of abstract concrete as it rushes up through the throat. Kling made the water
+  in the riser run down (a fall), not up: no arrows up the riser; a ring on it instead (B4). C1 and C10 came back with a still
+  camera (`PUSH`); C5 drifted on its own.
+- **The edit:** `14-build.py` (from 13's): chained whips C9 → C10 → C11 (the build joined only pairs; fixed), `PUSH` on C1 and
+  C10, `EASE_AFTER` C2, `FULLFIT` C6 and C14, seven effects placed on their pictures (the slice, the riser, the sprays, the gust,
+  the collapse, the duck, the soft close on the loop), four pointers (a ring on the riser, arrows up the hollow, a ring on the cut
+  wall, a ring on the baffles). BED_UNDER 17 measured 19 dB under the voice in the quiet moments.
+- **Spend:** 161.50 against the 188.60 quote (stills 17.50, clips 144.00, no re-renders); balance 1,226.25.
+- **The final (20 Nov 2026):** 63.90 s; picture moving in 97% of the seconds (longest stretch without movement 2 s); camera moving
+  91%, parallax 1.18 px, big moves in 25 seconds (longest gap 8 s), never still over 2 s; captions ~57 px at 75% down; bed 19 dB
+  under the voice; -13.1 LUFS, peak -0.9 dBFS. The hook's frames: 0 s the whole tower ("CUT"), 0.5 s the cut line down its middle,
+  1.0 s the halves parting over the rain, 2.0 s wide open with the rain pouring; the last frame is frame 0's whole tower.
+- **Delivered:** final `9a4e6630-8928-4f5f-86eb-20bc2cc8df3c`, voice-only `7e5f8668-f4fb-4206-aa39-ae21695c1854`, clean master
+  `b4af71fa-8567-41ff-a2bd-ce6765596143` (Higgsfield uploads); covers in `14-covers/` (A "IT RAINS / IN HERE" on ST1, B "THAT'S
+  NOT / SMOKE" on TO0, C the slice, plain); post copy `14-post-copy.md`.

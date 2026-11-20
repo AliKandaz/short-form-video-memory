@@ -58,9 +58,10 @@ def seg_splice(name):
 # Kling held the camera still in C3 (the ice), C5 (the strawberry) and C17 (the crack), so the edit adds a slow push-in toward
 # the change, and the clip after each starts at that zoom and eases back out. C19 (the closing wide) also came back still: PULL
 # starts it zoomed in and pulls back to exactly the first frame's framing, so the loop lands on W0.
-PUSH = {}        # (focus x, focus y, zoom gained): set from the rendered clips
+PUSH = {"C1": (540, 1150, 0.12), "C10": (540, 900, 0.08)}   # (focus x, focus y, zoom gained): C1 (the slice) and C10 (the
+                                                             # storm) came back with a dead-still camera (0% moving, 20 Nov 2026)
 PULL = {}        # (focus x, focus y, zoom at the start, back to 1.0 at the end)
-EASE_AFTER = {}; EASE_S = 0.8
+EASE_AFTER = {"C2": "C1"}; EASE_S = 0.8   # C10 is followed by a whip, which hides the zoom
 
 def zoom_xy(fx, fy):
     return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
@@ -98,17 +99,18 @@ def lights(name):
 def seg_clip(name):
     seg_clip_raw(name); post_zoom(name); lights(name)
 
-def whip_join(a, b, wd, out, kind="slideleft"):
+def whip_join(a, b, wd, out, kind="slideleft"):   # a, b: segment names or file paths (chained whips, 14)
     # xfade's slide transitions draw junk into the edge rows/columns on the first frame of the transition (a green strip in
     # video 10): fillborders smears the edges during the whip, where the motion blur hides it. The blur runs along the slide.
-    d0 = dur(f'seg/{a}.mp4'); win = f"between(t,{d0 - wd - 0.001:.3f},{d0:.3f})"
+    fa = a if a.endswith('.mp4') else f'seg/{a}.mp4'; fb_ = b if b.endswith('.mp4') else f'seg/{b}.mp4'
+    d0 = dur(fa); win = f"between(t,{d0 - wd - 0.001:.3f},{d0:.3f})"
     horiz = kind in ("slideleft", "slideright")
     fb = "fillborders=left=48:right=48:mode=smear" if horiz else "fillborders=top=48:bottom=48:mode=smear"
     blur = "gblur=sigma=30:sigmaV=1" if horiz else "gblur=sigma=1:sigmaV=30"
     fc = (f"[0:v][1:v]xfade=transition={kind}:duration={wd}:offset={d0 - wd:.3f},{fb}:enable='{win}',"
           f"{blur}:enable='between(t,{d0 - wd:.3f},{d0:.3f})'[v]")
-    run(['-i', f'seg/{a}.mp4', '-i', f'seg/{b}.mp4', '-filter_complex', fc, '-map', '[v]'] + ENC + [out])
-    print(f'  whip {a} -> {b}: {wd}s {kind}, joined {dur(out):.2f}s')
+    run(['-i', fa, '-i', fb_, '-filter_complex', fc, '-map', '[v]'] + ENC + [out])
+    print(f'  whip {os.path.basename(fa)} -> {os.path.basename(fb_)}: {wd}s {kind}, joined {dur(out):.2f}s')
 
 def seg_clip_raw(name):
     if name in SPLICE: return seg_splice(name)
@@ -179,7 +181,12 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []   # measured on 100 px grids over seg/<SEG>.mp4 once the clips are in
+POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (20 Nov 2026); times in seconds into the segment
+    ("C3", "ring", 3.0, 5.1, 3.4, {"c": (510, 950), "r": 150}),               # B4 "hundreds of thousands of gallons": the riser
+    ("C7", "arrows", 2.6, 5.1, 3.6, {"p0": (620, 1150), "p1": (620, 650)}),   # B9 natural draft: warm, wet air up the hollow
+    ("C11", "ring", 0.35, 1.6, 0.5, {"c": (585, 900), "r": 110}),             # B13 "The rest got thicker walls": the cut wall
+    ("C11", "ring", 4.9, 7.3, 5.6, {"c": (560, 515), "r": 130}),              # B14 "baffles above the sprays": the baffles
+]   # no arrows on the riser at B4: Kling made its water run down, so arrows pointing up it would contradict the picture
 
 def pointer_events(t0, t1):
     ev = []
@@ -234,7 +241,17 @@ def on(seg, t_clip):
     lo, hi = (0.8, 2.0) if seg in FULLFIT else (0.8, 1.2); sp = min(max(c / L, lo), hi)
     pre = next((wd / 2 for (a_, b_), (wd, _k) in WHIP.items() if b_ == seg), 0.0)
     return sg['start'] - pre + t_clip / sp
-FX = []   # set from the rendered clips
+# Event times read off the clips (20 Nov 2026): C1 the cut line at 0.4 s, the halves open 0.6-1.2 s; C3 the camera reaches the
+# riser ~3.0 s; C4 the sprays come into view ~1.6-2.0 s; C8 the rise into the wind ~1.0 s; C10 the cracks from ~0.6 s, the fold-
+# down ~1.4-2.4 s; C14 the duck close ~2.4 s; C15 the halves close ~2.8-3.4 s. Loud parts of the files (measured): fx1 0-1.2 s
+# (peak 0.4), fx2 0-1.2 (peak 0.1), fx3 0-1.8 (peak 1.5), fx4 0.2-1.3 (peak 0.7), fx5 0-1.0 (peak 0.2), fx6 0-1.1 (quack 0.9).
+FX = [("fx1", on("C1", 0.25)),                    # the cut runs down the tower and the halves part
+      ("fx2", on("C3", 3.0)),                     # the camera arrives at the rushing riser
+      ("fx3", on("C4", 1.6)),                     # the sprays come into view
+      ("fx4", on("C8", 1.0)),                     # the rise into the gale
+      ("fx5", on("C10", 0.9)),                    # the towers crack and fold down
+      ("fx6", on("C14", 1.7)),                    # the duck ("This duck")
+      ("fx1", on("C15", 2.6), 1.5, -6)]           # the halves close again (the loop), softer
 BED, BED_UNDER, FX_UNDER = 'bed', 17.0, 11.0   # dB under the voice by active RMS; starts at 17 (video 13's) and is set by
                                                 # measurement with under_the_voice.py (quiet moments 18-22 dB under)
 
@@ -304,12 +321,12 @@ def render(run_segs, tag):
     print(f'{tag}: {"+".join(run_segs)}  {t0:.2f}-{t1:.2f}s')
     for name in run_segs: seg_clip(name)
     files = []; i = 0
-    while i < len(run_segs):
-        name = run_segs[i]; nxt = run_segs[i + 1] if i + 1 < len(run_segs) else None
-        if nxt and (name, nxt) in WHIP:
-            out = f'tmp/whip_{name}_{nxt}.mp4'; whip_join(name, nxt, *WHIP[(name, nxt)][:1], out, WHIP[(name, nxt)][1]); files.append(f'../{out}'); i += 2
-        else:
-            files.append(f'../seg/{name}.mp4'); i += 1
+    while i < len(run_segs):   # whips chain: C9 -> C10 -> C11 becomes one file (14: the storm sits between two whips)
+        cur = f'seg/{run_segs[i]}.mp4'; j = i
+        while j + 1 < len(run_segs) and (run_segs[j], run_segs[j + 1]) in WHIP:
+            wd_, kind_ = WHIP[(run_segs[j], run_segs[j + 1])]; out = f'tmp/whip_{run_segs[j]}_{run_segs[j + 1]}.mp4'
+            whip_join(cur, f'seg/{run_segs[j + 1]}.mp4', wd_, out, kind_); cur = out; j += 1
+        files.append(f'../{cur}'); i = j + 1
     with open(f'tmp/{tag}_list.txt', 'w') as f:
         for fn in files: f.write(f"file '{fn}'\n")
     run(['-f','concat','-safe','0','-i',f'tmp/{tag}_list.txt','-c','copy',f'tmp/{tag}_clean.mp4'])

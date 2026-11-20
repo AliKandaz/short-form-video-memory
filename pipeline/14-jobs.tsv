@@ -23,3 +23,17 @@ C1.A	ccfeb7b1-2c13-43bf-8200-467e1ecf5fde	pilot: the slice, ST0 -> ST1, 4 s
 C15.A	353110b1-fe75-4ac3-bc78-7503f5c05193	pilot: the loop, DU0 -> (ST1) -> ST0, 4 s
 C1	ccfeb7b1-2c13-43bf-8200-467e1ecf5fde	accepted pilot (try A)
 C15	353110b1-fe75-4ac3-bc78-7503f5c05193	accepted pilot (try A)
+C2	99dbf40d-8476-4419-a871-2a54a5a32538	batch
+C3	9a6a09ae-81de-4fac-8510-7a486d65e575	batch
+C4	9cd0c9af-f30e-4e56-8ff3-ca25a597bbbb	batch
+C5	3272b94b-43e9-4769-9b5e-d5315fd9b1df	batch
+C6	d907ea34-d723-4723-a772-362652495992	batch
+C7	fbf5e34a-ea7e-4703-8ca5-0d6170001f30	batch
+C8	c7b97b04-1d34-4164-ad85-7b8889eed840	batch
+C9	3bbcdf4c-ef88-4cc4-b940-7ddae41cb4ce	batch
+C10	94d45afd-d627-4915-8d22-dd00eaf608df	batch
+C11	4fa04e71-a61d-4f14-9f92-7d21c5d8fdbb	batch
+C12	c68faf44-2038-4854-adbd-30bbda681e58	batch
+C13	006ee325-92b9-4a75-aeaf-5beb2d2e922e	batch
+C14	2a28cd26-4d6d-4110-a96f-60e875f87f1f	batch
+# all 15 clips accepted first time (20 Nov 2026): no re-renders; clip spend 144.00

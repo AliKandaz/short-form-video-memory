@@ -60,10 +60,15 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   (TikTok at 23:04 UTC, 6:04 pm ET; YouTube the same day); two hours later: 183 views on TikTok, 2 on YouTube (9.1, 9.2). Copy
   and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`. Its title changed at Gate A because nine small Shorts
   titled "Why Frozen Turkeys Explode…" went up on 14–17 Nov 2026 (3, V2).
-- **Next:** V3; the 72 h reads (8.4) of video 12 after 22:07 UTC on Sat 21 Nov 2026 and of video 13 after 23:04 UTC on Sun 22
-  Nov. The free re-cut test and the rest of the profile fixes (brand set v3's picture, banner and bios; the TikTok handle; 2.2,
-  8.3) are still to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at the cap, so check the Ultra plan's
-  renewal date before V9.
+- **Video 14 (V3, "Why It Rains Inside a Nuclear Cooling Tower") was made on 20 Nov 2026**, the third of the ten: 63.9 s,
+  161.50 credits against a 188.60 quote (every still and clip kept first time but three still edits; no re-renders); balance
+  1,226.25 after it. Not posted yet (9.2; copy and covers in `pipeline/14-post-copy.md` and `pipeline/14-covers/`). Its title
+  changed at Gate A because "Why Cooling Towers Are Empty Inside" went up on 18 Nov 2026 and four more small animated
+  cooling-tower Shorts on 8–19 Nov; the opening is the tower being cut open (3, V3).
+- **Next:** post video 14 (not on the same day as another video); V4; the 72 h reads (8.4) of video 12 after 22:07 UTC on Sat
+  21 Nov 2026 and of video 13 after 23:04 UTC on Sun 22 Nov. The free re-cut test and the rest of the profile fixes (brand set
+  v3's picture, banner and bios; the TikTok handle; 2.2, 8.3) are still to do. Each video quoted at 200 or less; the balance
+  (1,226.25) covers about six more at the cap (V4–V9), so check the Ultra plan's renewal date before V9.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -191,7 +196,7 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 |---|---|---|---|---|
 | V1 | Why Manhole Covers Explode → **made 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** | a manhole lid blasts up on a column of flame | 2.0M (a Short); about nine small copies since Aug 2026, all under 3.2K (3, V1) | Street-level like the hydrant, winter |
 | V2 | Why Frozen Turkeys Explode in the Fryer → **made 19 Nov 2026 as video 13, "Why Firefighters Drop Frozen Turkeys Into Fryers"** | a frozen turkey hits the oil; fireball | 5.6M, 3.1M; nine small copies 14–17 Nov 2026, all under 2.3K (3, V2) | Thanksgiving: post by Tue 24 Nov 2026 |
-| V3 | Why Nuclear Cooling Towers Are Empty Inside | the tower's wall slices open: empty | 72M (footage); nobody has animated the inside | The simplest set to draw; cold-day plumes |
+| V3 | Why Nuclear Cooling Towers Are Empty Inside → **made 20 Nov 2026 as video 14, "Why It Rains Inside a Nuclear Cooling Tower"** | the tower's wall slices open: empty | 72M (footage); five small animated copies 8–19 Nov 2026, all under 1.5K, one with the exact old title (3, V3) | The simplest set to draw; cold-day plumes |
 | V4 | The Ice Under This Court Cancelled an NBA Game | a floor panel lifts off white ice | 7.4M; 386K this month | NBA and NHL in season |
 | V5 | Why Water Heaters Can Launch Through the Roof | the tank rockets through the roof | small Shorts; MythBusters 1.65M long | The hydrant's audience: your house |
 | V6 | Why This NFL Field Rolls Outside | the whole field slides out of the stadium | 2.8M, 2.6M, 1.7M | NFL season |
@@ -204,7 +209,8 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 - **At most 200 credits a video** (6.1), so the ten cost at most 2,000. The balance after video 10 was 1,762.25 (video 11 was
   stopped at its quote; check `balance`): about eight videos at the cap, or all ten at an average of 176. The Ultra plan's monthly
   credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
-  balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal.
+  balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal. **20 Nov 2026:** V3 cost 161.50,
+  so the balance is 1,226.25: about six more at the cap (V4–V9); V10 needs the renewal.
 - **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
   dates: V2 by Tue 24 Nov 2026 (posted 19 Nov); V9 before mid-December.
 
@@ -361,6 +367,25 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   by the World Nuclear Association); about 420 gallons evaporated per MWh (EPA), thousands of gallons a minute for a big unit.
 - **⚠ before Gate A:** what changed in tower design after Ferrybridge ("now they're built stronger"); "seven inches" (6–7 in is
   safe).
+- **Made on 20 Nov 2026 as video 14, "Why It Rains Inside a Nuclear Cooling Tower"** (no Short with that title; the nearest are
+  real footage, "Water Drop Like Rain Inside Cooling Tower" 4.7K and "How a 5-Story Rain Machine Works" 22.9K). The saturation check
+  of 20 Nov 2026 found "Why Cooling Towers Are Empty Inside" (The Odd Encyclopedia, 18 Nov, 1.2K, a labelled 3D diorama about Brayton
+  Point's fish) and four more small animated cooling-tower Shorts on 8–19 Nov (MECHANIC DAILY 852, a labelled cut-open tower;
+  Cutaway Lab 216, photoreal but the inside drawn wrong; Blueprinted 1.3K; Unfoldwise 81), all on "empty / not smoke / the shape";
+  about 20 small "why are cooling towers shaped like that" Shorts (best 8.9K); Ferrybridge 1965 untold in Shorts. The script was
+  rewritten to 225 spoken words: "Cut open this nuclear cooling tower, and it's pouring rain inside." over the tower being cut open
+  (the "before", then the first verb); the condenser cut (not on the set) for "This water just cooled the plant's steam" over the
+  pipe from the plant; "hundreds of thousands of gallons a minute" (the draft's "thousands" was the evaporation); "about six
+  inches"; the baffles moved to just above the sprays; "The rest got thicker walls" for "now they're built stronger"; a duck in the
+  pond as the joke ("The only one who loves the weather in here? This duck."). Everything else in `pipeline/14-*`.
+- **Resolved at Gate A (20 Nov 2026, search summaries; the pages are blocked from a session):** Ferrybridge C, 1 Nov 1965: three of
+  eight 375-ft towers fell within an hour in high winds (Hansard, Historic England); the collapsed towers were rebuilt and the
+  standing ones strengthened with extra reinforced concrete (Hansard, May 1966; the towers had a single sheet of reinforcement, IASS
+  2024); no casualty figure found, so none is said; "today's towers get two layers of steel" could not be confirmed from the codes,
+  so it isn't said; the waist 16–18 cm in existing towers (a patent); drift eliminators sit above the fill and the sprays, not at
+  the mouth (patent); ~476,500 gpm for a typical 1,000 MW reactor, 2–4 pumps of 100,000+ gpm each (UCS); the cooling gear in
+  roughly the bottom 10 m, the rest an empty shell (Designing Buildings). Plume-made snow is documented for natural-draft towers
+  (1970s studies) but rare at nuclear plants: left out.
 - **Watch out:** How Building Explained built a nuclear plant: ours is the tower only; no radiation symbols and no real plant names;
   call the plume a cloud.
 
@@ -799,7 +824,9 @@ re-renders.
 
 **The first video under the cap** (video 12, 18 Nov 2026): 186.50 for 63.7 s (stills 20.00, clips 144.00, two re-renders 22.50)
 against a 194.64 quote: the standard plan below held. **Video 13** (19 Nov 2026): 188.00 for 64.06 s (stills 23.75 from 20 tries,
-clips 144.00, two re-renders 20.25) against a 197.23 quote: held again.
+clips 144.00, two re-renders 20.25) against a 197.23 quote: held again. **Video 14** (20 Nov 2026): 161.50 for 63.9 s (11 stills
+from 14 tries, 17.50; clips 144.00; no re-renders) against a 188.60 quote: fewer stills (11 for 9 positions) saved ~6 against the
+standard plan, and the reserve went unused.
 
 **The standard plan under the cap (18 Nov 2026; my estimate from the prices above):**
 
@@ -947,8 +974,13 @@ YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies o
   the event first ("On the first frame the manhole cover bursts upward on a column of smoke…") and says it starts on frame 1.
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
 
-### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026)
-**Start from video 13's set** (19 Nov 2026) and rename the prefix: `13-prompts.py` (LAWNZ and DECKZ against cut ground in close
+### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026; video 14's on 20 Nov 2026)
+**Start from video 14's set** (20 Nov 2026) and rename the prefix: `14-prompts.py` (TOWERZ and SKYZ against cut ground in views
+inside a cut-open structure and in the air; named-key edits like `W0.B` with their own REFS), `14-mk.py` (a key with a dot is its
+own prompt when it exists, else the base key's), `14-clips.py`, `14-timing.py`, `14-build.py` (as 13's, plus **chained whips**: a
+clip between two whips, C9 → C10 → C11, used to drop the second whip), `14-thumbnail.py` (a plain cover from a frame of the clean
+master, `frames/slice.png`), `14-flightmap.py`, `14-post-copy.md` and `14-beat-sheet.md`. Video 13's set, which it was made from:
+**video 13's set** (19 Nov 2026), renamed by prefix: `13-prompts.py` (LAWNZ and DECKZ against cut ground in close
 views outdoors), `13-mk.py`, `13-clips.py` (HOUSEZ, and a middle keyframe for every flight in or out of a cut-open house),
 `13-timing.py`, `13-build.py` (as 12's, plus `on(seg, t)` to place each sound effect at a moment read off its clip, effects with a
 level offset and a low-pass, and CAPMAP to caption a long spoken number as digits), `13-thumbnail.py`, `13-flightmap.py` (also writes
@@ -1001,6 +1033,15 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   grass and no gap" (try B had left a strip of lawn between them).
 - **A set key can be made in its later state** (video 13): W0 showed the bird down in the oil (the state of the line that uses
   it) and frame 0 (the frosted bird above the oil) was a POS edit of it that also changed the bird: it came out first time.
+- **A LOCK edit can swap two layers, and lose a third** (video 14, W0, 20 Nov 2026): try A put the zigzag baffles under the spray
+  pipes; "swap the two layers just above the sheets…" fixed the order (B) but faded the rain under the fill; a second LOCK edit
+  ("heavy rain now pours down from the whole underside…") brought it back (C). Sky grain went from 2.9 to 5.2 over the two edits:
+  mild, and the clips smoothed it.
+- **A cut-open structure seen from above can come back whole** (video 14, TO0): the mouth of a tower cut in half came back as a
+  full ring; a LOCKZ edit ("the near half of the rim and of the shell below it is gone, so only the far half remains, a half ring")
+  fixed it.
+- **The closed "before" of a cutaway is a LOCK edit of the cut-open still** (video 14, ST0 from ST1): "the tower is whole and
+  closed: its near half is NOT cut away" kept the framing exactly, which a slice reveal needs.
 
 ### 7.2 Clips (Kling)
 - `kling4_0` takes 12–13 jobs at once on Ultra and finishes them in 4–17 minutes. It returns about 724×1284 at 720p.
@@ -1034,6 +1075,19 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   or say when it happens in the clip.
 - **The hook can rise to a still made at the end state** (video 13, C1): frame 0 → the boil-over (middle) → the fireball seen from
   high (H1) in 6 s came out first time: the bird in the oil by 0.5–1 s, foam over the rim by 2 s, the fireball at ~3.5 s.
+- **A cut-open reveal works as the hook** (video 14, C1, 20 Nov 2026): start on the whole structure (ST0), end on the same framing
+  cut open (ST1), 4 s, "a straight cut runs down the middle … the near half drops away": Kling drew a cut line at 0.4 s and swung
+  the two halves open at 0.6–1.2 s (not dropping, but it reads as cutting it open); the inside filled the frame by 1.0 s. The
+  camera stays still (`PUSH` in the edit). The reverse (the cut-open view → the whole still) closes it again for the loop (C15).
+- **Kling morphs a cut-open structure into a whole one standing in the same place in the end still** (video 14, C8, C9): flying
+  from the cut-open tower up to a row of whole towers, the cut tower closed and became the row's middle tower, and the next clip
+  split that tower open again. Kept because the lines carried it ("a tube this tall", "pinch its waist"); otherwise give a middle
+  keyframe (the wide) or `SPLICE` the closing out.
+- **Water in a vertical cut-open pipe animates as falling** (video 14, the riser) even when the prompt says it surges up: measure
+  it (optical flow on the pipe against the whole frame) before putting arrows along it; a ring shows the pipe without a direction.
+- **A start-only storm clip can carry a collapse** (video 14, C10): "the three whole cooling towers shudder, crack and collapse
+  one after another, each folding down into itself" gave cracks at 0.6 s and the fold-down by 2.4 s, the towers behind falling
+  too; the camera stayed still (`PUSH`).
 
 ### 7.3 Camera and motion
 - **A crop of a still is not a camera position:** Kling zooms across a flat picture and it reads as still (video 08: 20% moving).
@@ -1058,6 +1112,8 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **A long spoken number makes a tiny caption** (video 13): "THREE-HUNDRED-FIFTY-DEGREE" squeezed to 900 px was unreadable in the
   hook; `CAPMAP` shows it as "350°". Captions run without a break once pauses are tightened to 0.15 s, so a YouTube cover frame
   usually carries a word: pick one whose word names the picture ("FIREBALL" on the fireball).
+- **Chained whips** (video 14): a clip between two whips (C9 → C10 → C11, to 1965 and back) lost its second whip because the build
+  joined clips in pairs; `14-build.py` chains them (`whip_join` takes file paths).
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -1073,13 +1129,19 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   the flames die), cut the file's start first (`fx6b`).
 - **Take B can need no speed-up** (video 13): 224 words at 69.3 s raw tightened to 63.2 s, 3.55 words a second; Whisper split
   hyphenated words into pieces ("three", "-hundred", …) and the timing script's matcher spread the time over them (224/224).
-- The sound estimate overstates again: 320 quoted, 108 charged (video 13); budget from the durations.
+- The sound estimate overstates again: 320 quoted, 108 charged (video 13); budget from the durations. Video 14: 335 quoted,
+  112 charged.
+- **Daniel's raw pace can sit at the slow end** (video 14): take A, 225 spoken words, ran 75.7 s raw (2.96 words a second),
+  69.3 s tightened, and needed `atempo` 1.1 (the limit) to reach 63.0 s. At that pace ~225 words is the ceiling; write 215–220
+  when the script has many short sentences. Take B paused after every "So," and was dropped for that.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
   that the picture matches the claim (a cyan glint read as water at tile size).
 - Sizes: YouTube 1080×1920 JPG under 2 MB; TikTok's cover upload crops to 3:4, so upload the 1080×1440 crop (y 240–1680 of the
   1920 master). Keep the headline between y ≈ 300 and 1440, clear of TikTok's buttons (x > 940 below y ≈ 950).
+- **The subject has to sit inside the 3:4 crop too** (video 14, cover B): the cloud over the whole tower (ST0) sat above y 240, so
+  "THAT'S NOT SMOKE" pointed at nothing in TikTok's crop; rebuilt on TO0, where the cloud fills the frame.
 
 ### 7.7 Sessions, network and tools (to 20 Nov 2026)
 - **Reachable from a session:** the Higgsfield generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai`,
@@ -1260,6 +1322,7 @@ every YouTube Short since Petra, the two new ones so far included, has had almos
 | 11 | Why This Castle Was Built Like a Maze (Himeji) | — | cutaway, travelling camera | quoted 271.69 | stopped by the user at Gate B, 18 Nov 2026 |
 | 12 | Why Some Manhole Covers Are Full of Holes (V1) | 18 Nov | cutaway, travelling camera | 186.50 (quoted 194.64) | yes: the lid leaves the road on flame at ~0.6 s |
 | 13 | Why Firefighters Drop Frozen Turkeys Into Fryers (V2) | 19 Nov | cutaway, travelling camera | 188.00 (quoted 197.23) | yes: the frosted bird drops into the oil by 0.5–1 s, foam over the rim by 2 s |
+| 14 | Why It Rains Inside a Nuclear Cooling Tower (V3) | 20 Nov | cutaway, travelling camera | 161.50 (quoted 188.60) | yes: a cut line down the whole tower at 0.5 s, the halves part over the rain by 1 s |
 
 **The ten after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K = tested normally):
 
@@ -1267,6 +1330,7 @@ every YouTube Short since Petra, the two new ones so far included, has had almos
 |---|---|---|---|---|---|
 | 12 (V1) | 18 Nov, 22:07 UTC (5:07 pm ET) | 202 at 27 h; every tag registered | due after 22:07 UTC, 21 Nov | 7 after about a day | due 21 Nov |
 | 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours | due 22 Nov |
+| 14 (V3) | not posted yet (made 20 Nov) | | | | |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1291,6 +1355,11 @@ not reachable from a session, so give the links to the user or read them through
   `e958d23f-8169-40a4-bb0a-9d1d1db6b09b`; flows: narration `J0sBMOB3YlVvvka65eMy`, sound `avATpdgcqMLLqG0moNqe`; Higgsfield folder
   `7377ac71-fa47-499b-b891-0d4c57eccc6d`; build `pipeline/13-build.py`, word timings `pipeline/13-words-takeB.json`; covers in
   `pipeline/13-covers/`.
+- 14 rain inside a cooling tower (20 Nov 2026; 63.9 s; picture 97% moving, camera 91% moving, parallax 1.18 px, bed 19 dB under
+  the voice, -13.1 LUFS): final `9a4e6630-8928-4f5f-86eb-20bc2cc8df3c`; voice-only `7e5f8668-f4fb-4206-aa39-ae21695c1854`; clean
+  master `b4af71fa-8567-41ff-a2bd-ce6765596143`; flows: narration `vabKbEA1HUlLqUsDI4hY`, sound `8A9jRAdWIDe3ZajNnCUO`; Higgsfield
+  folder `0bef4887-0b2b-4935-aa7d-409e5caab067`; build `pipeline/14-build.py`, word timings `pipeline/14-words-takeA.json` (take A
+  x1.1); covers in `pipeline/14-covers/`.
 - Every video's script, beat sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
 ### 9.3 What the ten videos taught (18 Nov 2026)
@@ -1472,7 +1541,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 ### 13.2 Topics to avoid
 - **Made by us:** the mud house, the canoe, the fire hydrant, seawater to tap water, the underwater habitat (Aquarius), Petra, the
   1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics, the manhole covers (video 12), frozen turkeys in the fryer
-  (video 13).
+  (video 13), the rain inside a nuclear cooling tower (video 14).
 - **Made by Hidden By Design:** the storm drain, the water well and water tower, a road tunnel under a river, a landfill into a
   park, a bridge foundation (cofferdam), the sewer and treatment works, power lines, the gas station, the roof, the beach.
 - **Made by How Building Explained:** the nipa hut, an Amazon floating house, the igloo, the levee, a nuclear bunker, a nuclear
@@ -1528,4 +1597,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **20 Nov (later):** studied @scapemagicc's septic-tank tiny house (9.8M; 1.4): photoreal AI, 50 shots in 80 s, no narration (build
   sounds, no music found); priced a recreation, nothing made: about 280–500 credits as a 1:1 copy (Wan 2.7 to Kling 4.0, reserve
   included), about 190 cut to ~30 shots under the cap, a two-clip pilot 21–30 (6.0).
+- **20 Nov (later):** video 14 (V3, the cooling tower) made under the 200 cap, retitled at Gate A to "Why It Rains Inside a Nuclear
+  Cooling Tower" (the old title was taken on 18 Nov); the cut-open reveal as the hook and its reverse as the loop; chained whips in
+  the build; files from `107c765` to the commit that logged it.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
