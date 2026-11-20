@@ -14,10 +14,10 @@ question about the hidden inside of something everyone uses or walks past, one p
 its first frame. No character, no on-screen labels, no music (a quiet bed and a few sound effects).
 
 **Channels** (both US-based, the user confirmed on 13 Nov 2026):
-- TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 54 followers, 10 videos,
-  46.4K views on 18 Nov 2026. Renaming it to match the content is part of the plan (8.3).
-- YouTube **@LetzBuildTogether** ("LetZBuildTogether", channel id `UCNaqNT-R3K2GmISUfLdfBzA`): 310 subscribers, 10 Shorts, about
-  209K views on 18 Nov 2026, 196K of them on the fire-hydrant Short.
+- TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 55 followers, 12 videos,
+  48.1K views on 20 Nov 2026 (54, 10 and 46.4K on 18 Nov). Renaming it to match the content is part of the plan (8.3).
+- YouTube **@LetzBuildTogether** ("LetZBuildTogether", channel id `UCNaqNT-R3K2GmISUfLdfBzA`): 314 subscribers, 12 Shorts, about
+  211K views on 20 Nov 2026 (310, 10 and 209K on 18 Nov), 198K of them on the fire-hydrant Short.
 
 **The plan (approved by the user on 18 Nov 2026): 10 videos in one lane, each opening on something happening in the first
 second.** The lane is the hidden inside of things everyone uses or walks past. The ideas, with draft scripts, are section 3; the
@@ -41,23 +41,27 @@ plan, the order and the budget are section 2; the evidence behind it is section 
 5. Never reuse a reference account's wording, and never end on "Congratulations, you have built…" (How Building Explained's line).
 6. When the memory changes, update both copies (above).
 
-**Status on 19 Nov 2026:**
+**Status on 20 Nov 2026:**
 - Videos 01–10 are made and posted on both platforms (9.2). Credits: 1,762.25 after video 10 (check `balance`).
 - **Video 11 (Himeji Castle, parked idea F3) was stopped by the user on 18 Nov 2026** at its quote (271.69 at 720p), with the
   message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
 - **A new profile picture and YouTube banner without the mascot** were made on 18 Nov 2026 (the user asked for eye-catching
-  ones), from the videos' own stills, no credits; the user hasn't picked yet (8.3).
+  ones), from the videos' own stills, no credits. **On 20 Nov 2026 YouTube showed the terracotta cutaway-house icon** (from that
+  morning's set) as the profile picture **and still the old mascot banner**; the new banners aren't up (8.3).
 - **Video 12 (V1, "Why Some Manhole Covers Are Full of Holes") was made on 18 Nov 2026**, the first of the ten and the first
-  under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. Not posted yet (9.2; copy in
-  `pipeline/12-post-copy.md`). Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
+  under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. **Posted 18 Nov 2026** (TikTok
+  at 22:07 UTC, 5:07 pm ET; YouTube the same day); about a day later: 202 views on TikTok, 7 on YouTube (9.1, 9.2). Copy in
+  `pipeline/12-post-copy.md`. Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
   (3, V1).
 - **Video 13 (V2, "Why Firefighters Drop Frozen Turkeys Into Fryers") was made on 19 Nov 2026**, the second of the ten: 64.06 s,
-  188.00 credits against a 197.23 quote (two clips re-rendered from the reserve); balance 1,387.75 after it. Not posted yet (9.2;
-  copy and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`). Its title changed at Gate A because nine small Shorts
+  188.00 credits against a 197.23 quote (two clips re-rendered from the reserve); balance 1,387.75 after it. **Posted 19 Nov 2026**
+  (TikTok at 23:04 UTC, 6:04 pm ET; YouTube the same day); two hours later: 183 views on TikTok, 2 on YouTube (9.1, 9.2). Copy
+  and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`. Its title changed at Gate A because nine small Shorts
   titled "Why Frozen Turkeys Explode…" went up on 14–17 Nov 2026 (3, V2).
-- **Next:** post video 12 and video 13 on different days, video 13 by Tue 24 Nov 2026 (8.1, 8.2); V3 next. The free re-cut test
-  and the profile fixes (2.2) are still to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at
-  the cap, so check the Ultra plan's renewal date before V9.
+- **Next:** V3; the 72 h reads (8.4) of video 12 after 22:07 UTC on Sat 21 Nov 2026 and of video 13 after 23:04 UTC on Sun 22
+  Nov. The free re-cut test and the rest of the profile fixes (the bios, the TikTok handle, the new banner; 2.2, 8.3) are still
+  to do. Each video quoted at 200 or less; the balance (1,387.75) covers about seven more at the cap, so check the Ultra plan's
+  renewal date before V9.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -84,7 +88,9 @@ Read from public pages only (12). "My read" marks interpretation rather than mea
   Design 2.6.
 - **After a breakout, YouTube seems to test the next Shorts on people like the breakout's viewers** (my read, from creator
   reports, nothing official). Our collapse to 11–64 views began with Petra (12 Nov), while the hydrant was going viral, and the
-  five Shorts that followed were off its topic. The 300 subscribers came for "how the stuff on your street works".
+  five Shorts that followed were off its topic. The 300 subscribers came for "how the stuff on your street works". **20 Nov
+  2026:** video 12, on a street-level topic like the hydrant's, still had 7 YouTube views after a day: the topic alone hasn't
+  brought the tests back so far (read it again at 72 h).
 
 ### 1.2 The first two seconds (measured 18 Nov 2026; the biggest finding)
 Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference videos (Hidden By Design's storm drain 10.1M, roof
@@ -138,8 +144,8 @@ Becomes ___" from mid-October 2026.
 
 ### 1.5 Packaging that matters, and what doesn't (18 Nov 2026)
 - **The first frame and the first second decide most of it** (1.2). The title is barely seen in the Shorts feed.
-- **TikTok:** the caption is a question with one emoji plus 4–6 hashtags that must register as hashtags (8.1): from video 02 on,
-  none of ours did.
+- **TikTok:** the caption is a question with one emoji plus 4–6 hashtags that must register as hashtags (8.1): from video 02 to
+  video 10 none of ours did; videos 12 and 13 registered every tag (20 Nov 2026).
 - **YouTube:** a title under ~60 characters that asks the question the video answers; a 2–3 sentence description; "not made for
   kids". Our best YouTube result had none of the packaging advice (hashtags in its title, no description): the video did the work.
 - **Covers:** a frame of the most satisfying cutaway moment. YouTube only lets us pick a frame until the channel joins the Partner
@@ -162,8 +168,8 @@ in 2.5, not after each video: in eleven days the account had three looks, five i
 The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 
 ### 2.2 Before the ten (free; do these first)
-1. **The profile fixes** (8.3) and the posting fixes (8.1, 8.2): hashtags typed in the app, "altered content" unticked on YouTube,
-   a chosen cover frame.
+1. **The profile fixes** (8.3) and the posting fixes (8.1, 8.2): hashtags typed in the app (done from video 12), "altered
+   content" unticked on YouTube, a chosen cover frame. Still to do on 20 Nov 2026: the bios, the TikTok handle, the banner.
 2. **The re-cut test.** Re-cut stalled videos so they open on their event, using the clips, timings and build scripts that exist
    (9.2), with no Higgsfield credits; paste-in prompt 11.2. Post each as a new video on both platforms and make the old one
    private. If they clear ~2K on TikTok and get a normal test on YouTube, the opening was the block (the old versions sit at
@@ -197,7 +203,7 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
   credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
   balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal.
 - **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
-  dates: V2 by Tue 24 Nov 2026; V9 before mid-December.
+  dates: V2 by Tue 24 Nov 2026 (posted 19 Nov); V9 before mid-December.
 
 ### 2.5 How we'll judge (from outside; never ask the user for retention)
 - **Each video at 72 h** (8.4): more than ~2K on TikTok = it passed the first test; more than ~1K on YouTube = it was tested
@@ -1071,7 +1077,7 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Sizes: YouTube 1080×1920 JPG under 2 MB; TikTok's cover upload crops to 3:4, so upload the 1080×1440 crop (y 240–1680 of the
   1920 master). Keep the headline between y ≈ 300 and 1440, clear of TikTok's buttons (x > 940 below y ≈ 950).
 
-### 7.7 Sessions, network and tools (to 19 Nov 2026)
+### 7.7 Sessions, network and tools (to 20 Nov 2026)
 - **Reachable from a session:** the Higgsfield generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai`,
   `elevenlabsusercontent.com`, `www.youtube.com`, `i.ytimg.com`, `www.tiktok.com` and its video host
   `v16-webapp-prime.us.tiktok.com`.
@@ -1081,6 +1087,9 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   `lite.conedison.com`; on 19 Nov 2026 `www.butterball.com` and `www.pbs.org`. TikTok's Community Guidelines can be read with curl
   (`www.tiktok.com/community-guidelines/en/<section>` redirects to `www.tiktok.com/safety/…`; the full rules, "Allowed" lists
   included, are URL-encoded inside the page).
+- **TikTok's profile pictures** are served from `p16-common-sign.tiktokcdn-us.com` and `p19-common-sign.tiktokcdn-us.com`, which
+  the network policy refused on 20 Nov 2026: which TikTok picture is live can't be checked from a session (ask the user). YouTube's
+  picture and banner (`yt3.googleusercontent.com`) can (`live_brand_check.py`, 8.3).
 - **ElevenLabs `account_get_usage` needs the connector reconnected with more permissions** (18 Nov 2026); estimates and
   generations work, so the ElevenLabs balance can't be read from a session until then.
 - **The Higgsfield sandbox:** foreground calls time out at about 60 s (run Whisper and renders with `background:true`); pip fails
@@ -1110,9 +1119,11 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   two topic tags.
 - **The hashtags must turn into links.** From video 02 on, none of ours registered (TikTok saw plain text; 1.5, 9.1). Type each tag
   in the app, or tap it from the suggestion list after typing "#", and check that it shows as a link before posting. After
-  posting, check from a session that `textExtra` is not empty (12.1).
+  posting, check from a session that `textExtra` is not empty (12.1). **It worked for videos 12 and 13** (all 5 and all 4 of
+  their tags registered, 20 Nov 2026).
 - **AI label:** TikTok has added its own AI-generated label to our videos (9 of 10, seawater included), and it didn't stop seawater.
-  Turn on "AI-generated content" when posting, as TikTok's rules ask for realistic AI scenes.
+  Turn on "AI-generated content" when posting, as TikTok's rules ask for realistic AI scenes. Videos 12 and 13 went up without
+  it (`IsAigc` false); TikTok labelled both itself (20 Nov 2026).
 - **Cover:** TikTok Studio on desktop → Edit cover → upload the 1080×1440 crop (7.6); otherwise pick the most satisfying frame.
 - **Pin a comment** with the comment question; reply to every comment in the first day.
 - **When:** early evening, US Eastern (our two best went out at about 6–7 pm ET). At most one video a day; never two a few hours
@@ -1135,15 +1146,18 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 
 ### 8.3 Profile fixes (do these before the first of the ten)
 - **Rename the TikTok account** to match the content and the YouTube channel: the handle @overthinkingyearly tells a visitor
-  nothing (the display name changed from "OT" to "overthinkingyearly" on 18 Nov 2026; the handle hasn't). The natural pick is the
-  YouTube name: check that `@letzbuildtogether` is free with `pipeline/youtube/handles.py <dir> tt letzbuildtogether`. TikTok
+  nothing (the display name changed from "OT" to "overthinkingyearly" on 18 Nov 2026; the handle hadn't by 20 Nov). The natural pick
+  is the YouTube name: check that `@letzbuildtogether` is free with `pipeline/youtube/handles.py <dir> tt letzbuildtogether`. TikTok
   allows a username change once every 30 days.
 - **Bio on both platforms:** what you post and how often, in one line, e.g. "The hidden inside of everyday things, in 3D. New video
-  every other day."
+  every other day." Not done on 20 Nov 2026: both still open with "Start with something simple. Add problems…".
 - **Pin the three best TikTok videos:** seawater, the hydrant, and the best of the new ones as it emerges.
 - **The profile picture and the banner without the mascot** (18 Nov 2026, later; the user: "can you give me a eye catching
   profile and banner image for my TikTok and YouTube account. I don't want it to include the character"). Made from the videos'
-  own stills, no credits, in `branding/`. The user hasn't said which goes live: check with `yt_snapshot.py` before saying which is up.
+  own stills, no credits, in `branding/`. **Live on 20 Nov 2026** (`pipeline/branding/live_brand_check.py`, 12.2): the YouTube
+  picture is the terracotta cutaway-house icon (`avatar-cutaway-icon-terracotta-800.png`, from the morning set below) and the
+  banner is still the old mascot one (`banner-2560x1440.png`); TikTok's picture can't be fetched from a session (7.7). Check
+  again before saying which is up.
   - **Profile picture** (800×800, one file for TikTok and YouTube; a yellow ring round a circle-safe crop): **A, recommended:**
     `avatar-blast-800.png`, video 12's lid lifting off on a column of flame (one big shape that still reads at 24–32 px);
     **B:** `avatar-hydrant-800.png`, the hydrant cut open down to the main (video 03, the 196K Short); **C:**
@@ -1168,25 +1182,31 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 
 ## 9. Channels, results and the video log
 
-### 9.1 Snapshot (18 Nov 2026, about 00:20–01:00 UTC; read from public pages, 12)
-TikTok @overthinkingyearly (display name "OT" until later that day): 54 followers (44 on 13 Nov), 679 likes, 10 videos, 46.4K views; it follows nobody.
-YouTube @LetzBuildTogether: 310 subscribers (282 on 15 Nov), 10 Shorts, about 209K views.
+### 9.1 Snapshot (20 Nov 2026, about 01:05 UTC; read from public pages, 12; 18 Nov 2026 figures in brackets)
+TikTok @overthinkingyearly (display name "overthinkingyearly"): 55 followers [54; 44 on 13 Nov], 725 likes [679], 12 videos,
+48.1K views [46.4K].
+YouTube @LetzBuildTogether: 314 subscribers [310; 282 on 15 Nov], 12 Shorts, about 211K views [209K].
 
-| Video | Posted | TikTok views (likes · comments · shares · saves) | TikTok's category for it | YouTube views (likes) |
+| Video | Posted | TikTok views [18 Nov] (likes · comments · shares · saves) | TikTok's category for it | YouTube views [18 Nov] (likes) |
 |---|---|---|---|---|
-| 10 Cryonics | 16–17 Nov | 359 (12 · 2 · 0 · 1) | Science, Education | 11 (1) |
-| 09 Lightning | 15 Nov | 340 (19 · 0 · 2 · 1) | none given | 17 (2) |
-| 08 Sewer | 15 Nov | 354 (16 · 0 · 1 · 2) | Home & Garden, Daily Life, Lifestyle | 33 (3) |
-| 07 1959 vs 2009 car | 14 Nov | 364 (24 · 0 · 0 · 2) | Cars, Auto & Vehicle | 42 (2) |
-| 06 Petra | 12 Nov | 330 (14 · 0 · 0 · 4) | Anime & Comics, Entertainment | 64 (3) |
-| 05 Aquarius | 11 Nov | 454 (25 · 1 · 0 · 3) | none given | 1,273 (67) |
-| 04 Seawater | 10–11 Nov | 33,900 (381 · 10 · 38 · 63) | Science, Education | 8,802 (356) |
-| 03 Fire hydrant | 9 Nov | 6,341 (117 · 0 · 3 · 8) | none given | 196,202 (about 6K) |
-| 02 Canoe | 7 Nov | 1,873 (25 · 1 · 2 · 2) | Science, Education | 201 (11) |
-| 01 Mud house | 6–7 Nov | 2,124 (46 · 1 · 2 · 5) | Humanities, Education | 2,106 (101) |
+| 13 Frozen turkeys | 19 Nov, 23:04 UTC | 183 at ~2 h (10 · 1 · 0 · 2) | Cooking, Food & Drink, Lifestyle | 2 (0) |
+| 12 Manhole covers | 18 Nov, 22:07 UTC | 202 at ~27 h (7 · 0 · 0 · 1) | Science, Education | 7 (1) |
+| 10 Cryonics | 16–17 Nov | 415 [359] (12 · 2 · 0 · 1) | Science, Education | 15 [11] (1) |
+| 09 Lightning | 15 Nov | 348 [340] (19 · 0 · 2 · 1) | none given | 23 [17] (2) |
+| 08 Sewer | 15 Nov | 361 [354] (16 · 0 · 1 · 2) | Home & Garden, Daily Life, Lifestyle | 40 [33] (4) |
+| 07 1959 vs 2009 car | 14 Nov | 480 [364] (40 · 0 · 0 · 2) | Cars, Auto & Vehicle | 48 [42] (2) |
+| 06 Petra | 12 Nov | 331 [330] (14 · 0 · 0 · 4) | Anime & Comics, Entertainment | 65 [64] (3) |
+| 05 Aquarius | 11 Nov | 460 [454] (25 · 1 · 0 · 3) | none given | 1,276 [1,273] (67) |
+| 04 Seawater | 10–11 Nov | 34,300 [33,900] (390 · 10 · 38 · 65) | Science, Education | 8,825 [8,802] (359) |
+| 03 Fire hydrant | 9 Nov | 6,459 [6,341] (117 · 0 · 3 · 8) | none given | 198,240 [196,202] (about 6K) |
+| 02 Canoe | 7 Nov | 1,930 [1,873] (25 · 1 · 2 · 2) | Science, Education | 201 [201] (11) |
+| 01 Mud house | 6–7 Nov | 2,615 [2,124] (50 · 1 · 2 · 5) | Humanities, Education | 2,109 [2,106] (101) |
 
-Also found on 18 Nov 2026 (12.1): from video 02 on, no caption hashtag registered on TikTok; TikTok added its own AI-generated
-label to 9 of 10 videos; no video shows a penalty. The YouTube uploads carry no TikTok watermark and are not in made-for-kids mode.
+Also found (12.1): videos 12 and 13 registered every caption hashtag (20 Nov 2026), where none had from video 02 to video 10;
+TikTok shows its own AI-generated label on 11 of 12 videos (not the sewer one); no video shows a penalty. The YouTube uploads
+carry no TikTok watermark and are not in made-for-kids mode (18 Nov 2026; all twelve had comments on, 20 Nov 2026). Between 18
+and 20 Nov 2026 the hydrant added about 1K YouTube views a day, and the mud house (+491) and the car (+116) picked up on TikTok;
+every YouTube Short since Petra, the two new ones so far included, has had almost no test (1.1).
 
 ### 9.2 Video log (condensed 18 Nov 2026; full notes for each video are in the repo history at commit `1174f29`)
 | # | YouTube title | Made | Look | Higgsfield credits | Opening: does the scene change by 1–2 s? |
@@ -1204,6 +1224,13 @@ label to 9 of 10 videos; no video shows a penalty. The YouTube uploads carry no 
 | 11 | Why This Castle Was Built Like a Maze (Himeji) | — | cutaway, travelling camera | quoted 271.69 | stopped by the user at Gate B, 18 Nov 2026 |
 | 12 | Why Some Manhole Covers Are Full of Holes (V1) | 18 Nov | cutaway, travelling camera | 186.50 (quoted 194.64) | yes: the lid leaves the road on flame at ~0.6 s |
 | 13 | Why Firefighters Drop Frozen Turkeys Into Fryers (V2) | 19 Nov | cutaway, travelling camera | 188.00 (quoted 197.23) | yes: the frosted bird drops into the oil by 0.5–1 s, foam over the rim by 2 s |
+
+**The ten after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K = tested normally):
+
+| # | Posted on TikTok | TikTok, first read | TikTok at 72 h | YouTube, first read | YouTube at 72 h |
+|---|---|---|---|---|---|
+| 12 (V1) | 18 Nov, 22:07 UTC (5:07 pm ET) | 202 at 27 h; every tag registered | due after 22:07 UTC, 21 Nov | 7 after about a day | due 21 Nov |
+| 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours | due 22 Nov |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1365,6 +1392,8 @@ YouTube title. Log it in 9.2 as <NN>b and update both copies of the memory.
   - `yt_saturation.py <dir> "<query>" …`: the saturation check (how many Shorts, the top Shorts and long videos per query).
   - `yt_search.py <dir> "<query>"`: the full search results; `yt_channels.py <dir> handle:@name shorts:<id>`: a channel's latest
     and most popular Shorts, or who posted a Short; `handles.py <dir> yt|tt <handle>…`: is a handle taken.
+  - `pipeline/branding/live_brand_check.py <avatar url> <banner url> branding <new dir>` (20 Nov 2026): which file in `branding/`
+    is the live profile picture and banner, from the two urls `yt_snapshot.py` prints, with a side-by-side sheet.
 - **`yt_snapshot.py`'s save-to-playlist flag is unreliable** (18 Nov 2026): two runs minutes apart flipped it for two Shorts. Don't
   read a lone "save-to-playlist NO" as made-for-kids mode, which also turns comments off.
 - **YouTube's search page now lists Shorts as plain video results that open in the Shorts player** (18 Nov 2026).
@@ -1451,4 +1480,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **19 Nov:** video 13 (V2, the frozen turkeys) made under the 200 cap, retitled at Gate A to "Why Firefighters Drop Frozen Turkeys
   Into Fryers"; the house-flight fix (a middle keyframe and HOUSEZ) and `on()` for placing sounds; files from `660ae9b` to the commit
   that logged it.
+- **20 Nov:** first-day check of videos 12 and 13 (posted 18 and 19 Nov, early evening ET): the hashtags register on TikTok now;
+  YouTube still gives new Shorts almost no test; the YouTube picture is the terracotta icon, the banner still the mascot one
+  (`live_brand_check.py`).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
