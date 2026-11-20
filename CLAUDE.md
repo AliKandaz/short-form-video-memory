@@ -139,6 +139,7 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
 | **Cutaway Instinct** (YouTube Shorts) | stadium and arena cutaways in our style; best Shorts 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov) | A direct rival in our look: search it before any stadium or arena idea (V4, V6) |
 | **Zack D. Films** (YouTube Shorts) | owns "what happens if you…" survival scenarios: cruise ship 50M, falling through ice 64M (16 Nov) | Avoid his topics; check every idea against him |
 | **@thewhatifstudio**, TikTok | 60.9K followers; what-if simulations median 457K, its builds median 35K (14 Nov) | A choice put to the viewer drives comments |
+| **@scapemagicc** ("Aiworkflows2"), TikTok | 722.5K followers, 85 videos, 382.6M views; posts daily at about 6 pm ET; its last 29 videos: median 375K, 7 over 1M, 10 under 50K, lowest 7.6K; a photoreal AI tiny house built inside plastic septic tanks 9.8M in 2 days (17 Nov), a garden turned into a tiny house 76.4M (27 Sep); the bio sells the workflow (20 Nov) | A different product: a photoreal AI builder, no narration, no facts, and TikTok labels it AI. Its devices: a conflict in the first second (the pool party next door splashes him; he glares with a black eye), one locked high view the video keeps returning to so the progress reads at a glance, a hard cut about every 1.4 s with tool close-ups between, build sounds only, and the last shot mirrors the first with the tables turned. Its topics are in 13.2 |
 
 Both reference accounts on TikTok have gone quiet, so the format's biggest TikTok audience has nobody posting to it right now
 (my read: an opening for an account that posts steadily). The YouTube side is crowded: hundreds of channels copied "How a ___
@@ -767,6 +768,7 @@ between stills (15 Nov 2026).
 | Stills (style key, camera positions, stages) | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"`; references as `medias` with role `image_references` | **1.25 an image** |
 | Clips | `generate_video` / `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, ordered middle frames in `image_references` | **2.25 a second at 720p, 3.25 at 1080p** |
 | Price checks | `estimate_image_cost`, `estimate_video_cost` (used for video 11 on 18 Nov 2026), or `get_cost:true` | one call per model, resolution and duration | free |
+| Other clip models (priced 20 Nov 2026; none tested in our pipeline) | `wan2_7` (2–15 s, own sound, start and end frames), `veo3_1_lite` (4, 6 or 8 s), `kling3_0`, `seedance_2_0`, `seedance_2_5`, `grok_video_v15_lite`, `kling_4_0_flash` | 720p, 9:16 | Wan 2.7 1.5 a second; Veo 3.1 Lite 6 a 4 s clip, sound or not; Kling 3.0 2 a second; Seedance 2.0 4.5 (3 at 480p); Seedance 2.5 7; Grok 1.5 Lite 1 (no sound); Kling 4.0 Flash 9 a 3 s clip. `kling4_0` bills at least 3 s (2 s is clamped to 3). Stills: `gpt_image_2_6` medium 1k 0.5 |
 | Narration | ElevenLabs `creative_generate_speech`, `eleven_v4`, Daniel (5) | `estimate_only:true` first | about 1 ElevenLabs credit a character: 1,400–1,540 a take |
 | Sound bed and effects | ElevenLabs flow: one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`), then one `creative_run_flow_nodes` | `estimate_only:true`, then `generations_count:1` | about 3.33 ElevenLabs credits a second of sound (the estimate prices each effect at its default length and overstates: budget from the durations) |
 | Word timings | Higgsfield `sandbox_exec`, faster-whisper `small.en` | `background:true` (foreground calls time out at ~60 s) | free |
@@ -1098,6 +1100,10 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   there; it keeps outputs for about 24 hours.
 - **Local assembly works:** ffmpeg with libass, zoompan and xfade, Python and npm; a full render takes about 2 minutes.
 - **Session restarts change the scratchpad path:** keep job ids in `NN-jobs.tsv` and commit often.
+- **Transcribing a TikTok** (20 Nov 2026): TikTok served no captions, and huggingface is blocked here, so: the audio as MP3
+  (`media_upload` gives an .mp3 slot even for a .wav name), PUT, `media_confirm`, then faster-whisper `small.en` in the sandbox
+  with `background:true` (about a minute). **TikTok comments can't be read from a session:** yt-dlp's `--write-comments` returned
+  none. **Counting cuts:** ffmpeg `select='gt(scene,0.28)',showinfo`, merging cuts under 0.4 s apart.
 
 ### 7.8 Things that go wrong, and the fix
 | What goes wrong | Fix |
@@ -1473,6 +1479,10 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   plant (our cooling tower is the tower only, never a plant), Chernobyl, the White House, the Kremlin, a particle accelerator, an
   armored truck, the gas station, the car wash, an oil well, the septic tank, a drive-thru, a slot machine, a car engine,
   fire-, volcano- and earthquake-proof houses, a Halloween station.
+- **Made by @scapemagicc** (photoreal AI builds, to 19 Nov 2026; 1.4): tiny houses inside plastic septic tanks (twice), concrete
+  pipes, a dumpster, a skip, a van, a wagon, two water tanks, a plastic pipe, a pit, a hole, a ditch by the road, three shipping
+  containers, an underground container, 200 pallets, a rooftop, a tent, a bus bunker, a man cave under a driveway, a backyard pool,
+  a garden.
 - **Zack D. Films' scenarios** (16 Nov 2026): falling off a cruise ship, through ice, into a grain bin; an avalanche; a tar pit;
   sinkholes; a plane losing oxygen and its masks; straightening Pisa; a power line on your car; the meteorite that hit a woman; the
   microwave's metal screen and ice in a microwave; the gold vault under Manhattan. Taken by others: quicksand, Niagara Falls in a
@@ -1515,4 +1525,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   (`live_brand_check.py`).
 - **20 Nov (later):** brand set v3 drawn from scratch at the user's request, with nothing from the videos or the account: the
   cut-cube mark on yellow, a matching banner and bios (`make_brand_v3.py`, 8.3).
+- **20 Nov (later):** studied @scapemagicc's septic-tank tiny house (9.8M; 1.4): photoreal AI, 50 shots in 80 s, no narration (build
+  sounds, no music found); priced a recreation, nothing made: about 280–500 credits as a 1:1 copy (Wan 2.7 to Kling 4.0, reserve
+  included), about 190 cut to ~30 shots under the cap, a two-clip pilot 21–30 (6.0).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
