@@ -19,3 +19,7 @@ RO1	3dcc46e3-59cb-498f-a4f2-24f31b5386df	try A, accepted
 FI0	4be69e38-c174-47ad-993e-d7e013948a6e	try A (ref ST1), accepted
 DU0	4c48d7bd-38be-4dc6-a4a2-9bfe40a9a5ea	try A, accepted
 # stills: 11 on screen from 14 tries (W0 x3, TO0 x2), 17.50 credits
+C1.A	ccfeb7b1-2c13-43bf-8200-467e1ecf5fde	pilot: the slice, ST0 -> ST1, 4 s
+C15.A	353110b1-fe75-4ac3-bc78-7503f5c05193	pilot: the loop, DU0 -> (ST1) -> ST0, 4 s
+C1	ccfeb7b1-2c13-43bf-8200-467e1ecf5fde	accepted pilot (try A)
+C15	353110b1-fe75-4ac3-bc78-7503f5c05193	accepted pilot (try A)

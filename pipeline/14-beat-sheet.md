@@ -155,3 +155,11 @@ C14 1.30×, `FULLFIT`).
   through, where take B pauses after every "So,". Whisper (faster-whisper small.en in the Higgsfield sandbox, background) matched
   224/224 words; it wrote "1965" as one word on take A. Word timings `14-words-takeA.json`.
 - **Sound:** bed and six effects, one take each, 112 ElevenLabs credits (the estimate said 335), flow 8A9jRAdWIDe3ZajNnCUO.
+- **Pilots (Gate D, 20 Nov 2026):** both first time, 18.00 credits; balance 1,352.25. C1 (ST0 → ST1, 4 s): a clean cut line
+  down the middle of the shell at 0.4 s, the halves part and swing open 0.6-1.2 s (not dropping into the ground as the prompt
+  said, but it reads as cutting it open), the inside fills the frame by 1.0 s, then the cut-open tower with the rain pouring;
+  the camera stays dead still (0% moving, parallax 0.03; picture 50% moving), as videos 12 and 13's hooks did during their
+  event: `PUSH` in the edit (with it, measured: camera 75% moving, a zoom, parallax 0.06) and C2 eases out of it. C15
+  (DU0 → ST1 → ST0, 4 s): back from the duck, past the sprays and out the front by 2.0 s, the halves swing closed 2.8-3.4 s and
+  it lands on ST0, the exact reverse of C1 (camera 75% moving, parallax 1.31, 2 big-move seconds of 4, never still over 1 s;
+  picture 75%). Sheet `14-gateD.jpg`.
