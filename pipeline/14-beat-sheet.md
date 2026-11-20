@@ -132,5 +132,26 @@ xfade wipe with a thin bright line on the cut), the same way out at the end of C
 - ElevenLabs (outside the cap): narration 2,348 credits for two takes (estimate, 20 Nov 2026); sound about 112 by the
   durations (33.5 s at ~3.33 a second).
 
+**Real timings (Step 6, 20 Nov 2026):** take A, pauses tightened to ~0.15 s, then `atempo` 1.1 (the limit): raw 75.68 s,
+tightened 69.30 s at 1.0, 63.00 s at 1.1 (3.56 words a second), 63.90 s of video with the 0.9 s tail. Clip lengths from
+`14-plan.json`, nearest second (`14-timing.py`, C2 pinned at 3 s and C5 at 6 s): C1 4, C2 3, C3 5, C4 4, C5 6, C6 3, C7 5, C8 3,
+C9 4, C10 4, C11 7, C12 4, C13 5, C14 3, C15 4 = **64 s (144.00 at 720p)**, the plan quoted; played at 0.86-1.12× (C6 1.22× and
+C14 1.30×, `FULLFIT`).
+
 ## Production log
-- 20 Nov 2026: Gate A approved (title, script, first second). Beat sheet and quote written; waiting for Gate B.
+- 20 Nov 2026: Gate A approved (title, script, first second). Beat sheet and quote written. Gate B approved at 188.60 (720p).
+- Higgsfield project "HBX – Why It Rains Inside a Nuclear Cooling Tower" (0bef4887-0b2b-4935-aa7d-409e5caab067); job ids in
+  `14-jobs.tsv`.
+- **Stills (Gate C):** 11 on screen from 14 tries, 17.50 credits (20.00 planned); balance 1,370.25. W0 took three: try A drew
+  everything right but put the zigzag baffles under the spray pipes; a LOCK edit swapping only those two layers (B) got the order
+  right but lost most of the rain under the fill; a LOCK edit of B (C) brought the downpour back. Sky grain went from 2.9 to 5.2
+  over the two edits (mild; denoise W0 before C13/C14 if it shows in the clips). TO0 try A drew the mouth as a full ring though
+  the tower is cut in half; a LOCKZ edit (B) cut it to a half ring. FI0 was made from ST1 instead of BA0 (ST1 shows the order of
+  the fill, the sprays and the baffles most clearly) and came out first time with the order right. RO0/RO1's middle tower stands
+  in a cyan pool joined to the river (kept). Everything else first time. Sheets: `14-flightmap.jpg`, `14-keyframes.jpg`,
+  `14-stills.jpg`, `14-first-last.jpg`.
+- **Narration:** two takes, 2,348 ElevenLabs credits (take A 75.68 s, take B 74.32 s raw; 224 words as written), flow
+  vabKbEA1HUlLqUsDI4hY, node z1GmxtidsBrXnRfOQDqq. Take A chosen (generation lHeqgnyUFgBhHBloDesG): it reads "So you" straight
+  through, where take B pauses after every "So,". Whisper (faster-whisper small.en in the Higgsfield sandbox, background) matched
+  224/224 words; it wrote "1965" as one word on take A. Word timings `14-words-takeA.json`.
+- **Sound:** bed and six effects, one take each, 112 ElevenLabs credits (the estimate said 335), flow 8A9jRAdWIDe3ZajNnCUO.

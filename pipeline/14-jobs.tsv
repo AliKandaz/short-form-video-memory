@@ -1,0 +1,21 @@
+key	job_id	note
+W0	f8db8273-ed98-4ffb-82e2-c14a61947f8e	set key, try A
+# narration flow vabKbEA1HUlLqUsDI4hY node z1GmxtidsBrXnRfOQDqq sessions U7Y6hyASihF1nNICbPjh (take A) 7t4mhTMnPuCBpeyT1HlC (take B), 1174 + 1174 ElevenLabs credits
+W0.B	3510ccfa-d8e7-4dec-bf24-d5ec399f69d0	LOCK edit of try A: sprays and baffles swapped (right order) but the rain under the fill faded
+W0.C	7d05f6f0-2a63-42db-89da-ad2d8bffc354	LOCK edit of W0.B: the downpour back; sky grain 2.9 -> 5.2 after two edits
+W0	7d05f6f0-2a63-42db-89da-ad2d8bffc354	accepted set key (try C)
+ST1	631340af-f5e1-4c21-ba1f-6fcd453f7602	try A, accepted
+RO0	ba99c19b-9d9f-42a9-963d-23ff5c7ba61b	try A, accepted
+TO0.A	f31d4855-5ff5-44a0-8f99-c3fecf16b922	try A: drew the rim as a full ring (the tower is cut in half); edit B
+# sound flow 8A9jRAdWIDe3ZajNnCUO: bed c1IuUiQvIR1Z2RYfsncI (20 s loop), fx1 WDYP0MPcuXLswvgASJsE slice, fx2 ll1uixv16pEmpb0NOMh4 surge, fx3 PJScQVTexZrsFqXXrjrg sprays, fx4 rJ8V33ZVkPMrk0WRdOhn gust, fx5 wYJpeChuFt6XDg8S9P2g gale+collapse, fx6 BEzSW7e4s1y7vikHJLBl duck; 112 ElevenLabs credits
+# narration: take A chosen (generation lHeqgnyUFgBhHBloDesG, 75.68 s raw; reads 'So you' straight through; take B pauses on 'So,')
+TO0.B	e4d8c89c-a59a-4733-87c8-008d70f3dd1b	LOCKZ edit of try A: half ring, accepted
+TO0	e4d8c89c-a59a-4733-87c8-008d70f3dd1b	accepted (try B)
+ST0	7eb89f2b-18c7-4c22-9d54-fdb7824e39dc	try A, accepted (the whole tower, ST1's framing)
+SH0	1ebf0eee-82c0-434a-9f5a-6197363aba1b	try A, accepted
+BA0	674c5954-05b6-4758-a29e-7372b2e68d56	try A, accepted
+ED0	7e25076f-f38a-4615-b9e0-89ad087a48e1	try A, accepted
+RO1	3dcc46e3-59cb-498f-a4f2-24f31b5386df	try A, accepted
+FI0	4be69e38-c174-47ad-993e-d7e013948a6e	try A (ref ST1), accepted
+DU0	4c48d7bd-38be-4dc6-a4a2-9bfe40a9a5ea	try A, accepted
+# stills: 11 on screen from 14 tries (W0 x3, TO0 x2), 17.50 credits
