@@ -20,6 +20,9 @@ TL = ("Time-lapse from a locked camera that never moves: between the first and t
       "blurred, tools and materials appearing and disappearing; the light stays the same. Motion starts on frame 1. The builder "
       "stays the same person.")
 RS = "Real speed, handheld with a slight drift: {what} Motion starts on frame 1."
+# C6 try A showed the builder twice for ~0.5 s (a blurred copy painting while the kneeling one stayed at the door), so C6.B adds:
+ONEB = ("There is only ever one builder in the picture: the kneeling builder gets up and does all the work himself, and he "
+        "never appears twice or in two places at once.")
 
 C = {
  # clip: (start key, end key or None, seconds, prompt, wan sound line)
@@ -49,7 +52,7 @@ C = {
         "Sound: fast hammering, a nail gun, a drill."),
  "C6": ("O4", "O5", 3,
         TL.format(what="the builder paints the cabin deep green with cream trim, builds a small cream porch with a railing and "
-        "two steps in front of the door, and paints the little hen house to match") + f" {YARD} {ONLY2} {TAIL}",
+        "two steps in front of the door, and paints the little hen house to match") + f" {ONEB} {YARD} {ONLY2} {TAIL}",
         "Sound: a paint roller, hammering, a saw."),
  "C7": ("O5", "O6", 3,
         TL.format(what="the builder hangs a black lantern beside the door, sets a planter of small evergreens and a doormat on "

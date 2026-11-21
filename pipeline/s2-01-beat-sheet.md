@@ -210,3 +210,12 @@ about 200 credits; fewer if wan2_7's own sound is kept.
   at 1.5–2.0 s, the dust peaking at the end, under an even bed of sound. The pine lining: both good (kling4_0 walls first, then
   the ceiling, done at 2.0 s; wan2_7 done at 2.5 s). Recommended wan2_7: the stronger first second, sound on the picture, and
   the other 15 clips cost 69.00 instead of 115.00. Waiting for Gate D.
+- 21 Nov 2026: Gate D approved ("approve wan"): the 15 other clips on wan2_7 (69.00; two batches), checked with
+  `s2-01-check.py`; C6 re-rendered once (4.50) for a doubled builder; windows trimmed in the edit: C1 to 2.3 s (the hens freeze
+  after), C8 to 2.4 s, C11 to 2.5 s, C14 to 2.4 s, C15 to 0–0.8 and 1.8–2.7 s, C16 to 2.5 s (a forest grows in the window). Two
+  ElevenLabs ambiences (flow `pvtHhV6Ln05XmrgRuOEP`, 40 credits) under the silent stretches. **Cut B: 32 shots, 40.7 s, median
+  1.2 s** (each time-lapse cut in two with a small jump: the first build, with the chain clips played whole, had an 11 s inside
+  take); **cut A: 6 takes, 40.1 s**; both −14.7 LUFS, 1080x1920, 30 fps. **Spend: 125.00 against 195.79** (stills 27.50, pilots
+  24.00, clips 69.00, re-render 4.50); balance 905.00. Uploaded: cut B `342478bb-0406-4f60-bbdb-6c3a7167287c`, cut A
+  `b994d86b-ed2f-49e0-ab87-000feaa424b8`. Covers in `s2-01-covers/`, copy in `s2-01-post-copy.md`. The cut sections above
+  describe the plan at Gate B; the shot lists as made are in `s2-01-build.py`.

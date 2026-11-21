@@ -47,3 +47,36 @@ C1.K	6fdd5cc7-6121-4dd3-94ca-51137d1e2347	pilot: the hook on kling4_0
 C11.K	1d52b3bc-4685-4766-9242-3a94f1c6b25f	pilot: pine lining on kling4_0
 C1.W	e75a2acf-a2ad-4ed2-a6be-8bb3da07a6d1	pilot: the hook on wan2_7 (own sound)
 C11.W	e052ebac-87f1-464e-9757-cbcba66f6878	pilot: pine lining on wan2_7 (own sound)
+# The rest on wan2_7 (Gate D approved "approve wan", 21 Nov 2026), 3 s at 4.50, C16 4 s at 6.00; C1 and C11 are the wan2_7 pilots
+C1	e75a2acf-a2ad-4ed2-a6be-8bb3da07a6d1	final: the wan2_7 hook pilot
+C11	e052ebac-87f1-464e-9757-cbcba66f6878	final: the wan2_7 pine-lining pilot
+C2.A	aa2f3eee-28df-4048-a0e2-eae12f2807ac	wan2_7
+C3.A	46bb55bf-79b2-4d98-a497-1411daef37ad	wan2_7
+C4.A	cf2f788c-5a6e-4830-ac56-16a5ac343b07	wan2_7
+C5.A	7aef4143-f37d-4b07-90c4-1da29eb39701	wan2_7
+C6.A	d87d8d5a-d5bc-4720-93ed-130d91a1d76f	wan2_7
+C7.A	dba2a25c-4835-4179-b439-c96265155dca	wan2_7
+C8.A	afe3fc47-29f9-4216-9dcb-1172d1f15308	wan2_7
+C9.A	fd99db2b-ec50-4e59-9efa-21f17c960bb6	wan2_7
+C10.A	c67cc3d7-d8fb-4e36-acd4-a85cf5690692	wan2_7
+C12.A	e1ac90d2-2ad2-4392-8e6b-93d045bf6b74	wan2_7
+C13.A	36ab5d45-14ab-4c8d-adc4-ec21c3e9bff4	wan2_7
+C14.A	3ea0163d-d513-41f0-a9dc-e597994f028d	wan2_7
+C15.A	dfc24bc6-ca76-4cff-a976-c388ed981441	wan2_7
+C16.A	ca2c88ba-4e3e-44f3-b491-b30e34542656	wan2_7, 4 s
+C17.A	2917a5a9-9ba1-4766-9fba-7eef6d1ca28b	wan2_7
+C6.B	8bb2a6ee-b2af-42dd-b539-b9d8e03692a2	wan2_7 re-render with ONEB (try A showed the builder twice at 0.3-0.8 s)
+C2	aa2f3eee-28df-4048-a0e2-eae12f2807ac	accepted
+C3	46bb55bf-79b2-4d98-a497-1411daef37ad	accepted
+C4	cf2f788c-5a6e-4830-ac56-16a5ac343b07	accepted
+C5	7aef4143-f37d-4b07-90c4-1da29eb39701	accepted
+C7	dba2a25c-4835-4179-b439-c96265155dca	accepted
+C8	afe3fc47-29f9-4216-9dcb-1172d1f15308	accepted (use 0-2.4 s: the hands leave the frame at 2.8 s)
+C9	fd99db2b-ec50-4e59-9efa-21f17c960bb6	accepted
+C10	c67cc3d7-d8fb-4e36-acd4-a85cf5690692	accepted
+C12	e1ac90d2-2ad2-4392-8e6b-93d045bf6b74	accepted
+C13	36ab5d45-14ab-4c8d-adc4-ec21c3e9bff4	accepted
+C14	3ea0163d-d513-41f0-a9dc-e597994f028d	accepted
+C15	dfc24bc6-ca76-4cff-a976-c388ed981441	accepted (use 0-0.8 s and 1.6-2.4 s: it wanders between)
+C16	ca2c88ba-4e3e-44f3-b491-b30e34542656	accepted (use 0-2.5 s: the window doubles and a forest appears from 2.6 s)
+C17	2917a5a9-9ba1-4766-9fba-7eef6d1ca28b	accepted (nearly still; nearly silent)

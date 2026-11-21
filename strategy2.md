@@ -4,8 +4,7 @@
 video I shared. pretty much I want the same thing as claude.md but for this style video on a different file so I can alternate
 between video styles". The video is @scapemagicc's septic-tank tiny house (1.2). This file is the second style's memory, laid out
 like `CLAUDE.md` (style 1, the 3D cutaway explainers). Every section carries a date; "my read" marks interpretation rather than
-measurement. Nothing in this style has been made yet: the plan, the prompt lines and the prices are drafts until the first video
-proves them.
+measurement. The first video, s2-01, was made on 21 Nov 2026; what it proved or changed is marked with its date (6, 7, 9).
 
 ## 0. Start here (21 Nov 2026)
 
@@ -31,16 +30,18 @@ shot. The AI label is on every time.
   "strategy2.md"). Scripts for style-2 videos go in `pipeline/` with the prefix `s2-NN-` (s2-01, s2-02, …).
 
 **Status on 21 Nov 2026.**
-- **s2-01 at Gate B (21 Nov 2026):** the kickoff asked for I1 (the gondola) with builder b and cut B plus A. I1 failed the Gate A
-  check and was dropped (3); I5, the chicken coop, was approved at Gate A and quoted at 195.79 (`pipeline/s2-01-beat-sheet.md`).
-  Nothing generated. The paste-in prompt is section 11.
+- **s2-01 made (21 Nov 2026): "From Old Chicken Coop to Cozy Guest Cabin"** (I5; I1 was dropped at Gate A, 3). Cut B 40.7 s
+  (32 shots, median 1.2 s) and cut A 40.1 s (6 takes); clips on `wan2_7`, chosen at Gate D over `kling4_0`, with their own sound
+  and two ElevenLabs ambiences; **125.00 credits against a 195.79 quote**; balance 905.00 after it. **Not posted yet:** copy,
+  covers and links in `pipeline/s2-01-post-copy.md` and `pipeline/s2-01-covers/`; post cut B, keep cut A for a later test of the
+  cut, never the same day as another video (style 1's video 15 is waiting too). Everything else in `pipeline/s2-01-*`.
 - **The hold in CLAUDE.md section 0 comes first:** the user's in-app checks of both accounts (YouTube Studio → Restrictions and
   youtube.com/features; TikTok → Account status). They decide whether a new YouTube channel is allowed (only if the old one is in
   good standing; never to get around a strike).
 - **Decisions (21 Nov 2026):** builder b (5); the first video is I5 (I1 was dropped at Gate A, 3); posting on TikTok and
   YouTube (the user). **Still open:** the main accounts or a new style-2 pair (2.1 recommends a new pair).
-- **Credits:** 1,030.00 on 21 Nov 2026, shared by both styles: about five videos at 185–200 before the Ultra plan renews (3,000 a
-  month since 11 Nov 2026; check the date).
+- **Credits:** 905.00 after s2-01 (21 Nov 2026), shared by both styles: about four style-1 videos at the cap, or six to seven
+  style-2 videos at s2-01's cost, before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date).
 
 **Map of this file:** 1 what works (evidence) · 2 the plan · 3 ideas · 4 the story · 5 the look · 6 runbook · 7 lessons ·
 8 posting · 9 video log · 10 topics to avoid · 11 paste-in prompt · 12 history.
@@ -346,8 +347,8 @@ The tools and how to call them are CLAUDE.md 6.0. For style 2:
 | Job | Tool | Cost on 21 Nov 2026 |
 |---|---|---|
 | Stills: the builder key, the two view keys, the stage ladders, the close-ups | `seedream_v5_pro`, `resolution:"1k"`, `aspect_ratio:"9:16"`, references as `image_references` | 1.25 an image (`gpt_image_2_6` medium 1k is 0.5, untested) |
-| Clips, the standard model | `kling4_0`, image-to-video, `start_image` + `end_image`, 720p, 9:16 | **7.50 a 3 s clip** (2.50 a second; it bills at least 3 s) |
-| Clips, the challenger (tested at the first video's Gate D) | `wan2_7`, start and end frames, 720p, makes its own sound, 2–15 s | 4.50 a 3 s clip (1.50 a second) |
+| Clips, **the standard model since s2-01's Gate D** (21 Nov 2026) | `wan2_7`, `start_image` (+ `end_image`), 720p, 9:16, 2–15 s; makes its own sound; put a "Sound: …" line at the end of the prompt | **4.50 a 3 s clip, 6.00 a 4 s** (1.50 a second) |
+| Clips, the fallback | `kling4_0`, image-to-video, `start_image` + `end_image`, 720p, 9:16; it makes sound too (found 21 Nov 2026) | 7.50 a 3 s clip (2.50 a second; it bills at least 3 s) |
 | Other clip models priced, not tested | `kling3_0` 6.00 a 3 s clip; `grok_video_v15_lite` 3.00 (no sound); `veo3_1_lite` 6.00 a 4 s clip | |
 | Build sounds and ambience | ElevenLabs flow of sfx nodes (CLAUDE.md 6.2 Step 6b) | about 3.33 ElevenLabs credits a second of sound |
 | Assembly, checks, uploads | local ffmpeg; `pipeline/analysis/`; `media_upload` → PUT → `media_confirm` | free |
@@ -368,6 +369,10 @@ The tools and how to call them are CLAUDE.md 6.0. For style 2:
   build sounds (fewer ElevenLabs credits).
 - **ElevenLabs (outside the cap):** with a silent model, about 60–70 s of sound (two build beds, 6–8 effects, one ambience), about
   200–230 ElevenLabs credits; budget from the durations (the estimate overstates, CLAUDE.md 7.5).
+- **What s2-01 cost (21 Nov 2026): 125.00** = stills 27.50 (22 tries for 19), the pilots on both models 24.00, 15 `wan2_7` clips
+  69.00, one re-render 4.50; ElevenLabs 40 for two ambiences. **From s2-02 on (`wan2_7` only):** the same 17 clips cost about
+  78 and the stills about 28, about 122 with the reserve. Spend the room under the cap on **tool close-ups** (a still and a 3 s
+  clip, about 5.75 each): they are what cut B lacks to reach the reference's pace (7).
 - The credit rules are CLAUDE.md 6.1: quote first, the 15% reserve, stop and ask if a run will go 10% over, one generation per
   request, re-render a bad clip once, never auto-retry after a timeout, `transactions` after the run.
 
@@ -403,7 +408,9 @@ builder key as a reference.
 
 **Step 5: Stills. GATE C.**
 - Each stage is an edit of its view's key with the previous stage as a second reference: VIEW (6.3) plus the change, naming
-  everything built so far. This keeps edit chains short (CLAUDE.md 7.1: grain grows with each edit).
+  everything built so far. This keeps edit chains short (CLAUDE.md 7.1: grain grows with each edit). **s2-01 (21 Nov 2026):** one
+  reference, the stage before, held the locked view (under 1 px of drift over eight stages); name the builder's place and action
+  in every stage, and use a lock line without hens, house or trees for the inside view (7).
 - Close-ups: CLOSE (6.3), with the builder key as a reference for the gloves and sleeves.
 - Batches of up to 8, `jobs_wait`, one `show_generation_by_ids`. Re-make a drifted still once; a stage that fails twice is merged
   into the next.
@@ -413,18 +420,24 @@ builder key as a reference.
 
 **Step 6: Sound (can start right after Gate B).** One ElevenLabs flow ("S2 NN [title]: sound"): the outside build bed and the
 inside build bed (`loop: true`, ~20 s each), 6–8 effects and one ambience, as CLAUDE.md 6.2 Step 6b (`estimate_only:true` first,
-then `generations_count:1`; never rerun to retry). Skip the beds if `wan2_7`'s own sound wins at Gate D.
+then `generations_count:1`; never rerun to retry). Skip the beds if `wan2_7`'s own sound wins at Gate D. **s2-01 (21 Nov 2026):**
+`wan2_7`'s own sound was kept; it comes back near-silent on quiet prompts (dusk, a reaction close-up, -50 to -60 dB), so make the
+sound after the clips: one short ambience per silent stretch (two, 40 ElevenLabs credits).
 
 **Step 7: Pilot clips. GATE D.**
 - Render two: **the hook** (O0 → O1, the event by 1.0 s) and **one inside chain clip** (I0 → I1 or later).
 - **First style-2 video only:** render the same two on `kling4_0` and on `wan2_7` from the same stills, and pick the model on the
-  result (the builder the same, hands, the event by 1 s, the joins, the sound).
+  result (the builder the same, hands, the event by 1 s, the joins, the sound). **Done at s2-01 (21 Nov 2026): `wan2_7` won**
+  (the roof down by 1.0 s against 1.5–2 s; its sound on the crash; 4.50 against 7.50). From s2-02 on, pilot on `wan2_7` only,
+  and use the pilots as the final clips.
 - **Show at Gate D:** the hook's frames at 0, 0.5, 1, 1.5 and 2 s (`contact_sheet.py --every 0.5`); the chain clip's last frame
   against the next still (the join must not jump); a face check.
 
 **Step 8: The rest of the clips.** Batches of up to 12, `jobs_wait`, one `show_generation_by_ids`. Check every clip on a sheet at
 about 5 frames a second: the builder the same person; no extra people; nothing fixed moves; the stage is reached by the last
-frame; no text or logos; hands and tools hold their shape.
+frame; no text or logos; hands and tools hold their shape. **Also (s2-01, 21 Nov 2026; `s2-01-check.py`):** the builder twice in
+one frame (a time-lapse ghost); the last 0.5–1 s held still (trim it); a start-only handheld clip drifting off the set late (the
+last touch grew a forest outside the window from 2.6 s: use the clean window).
 
 **Step 9: Assembly (free).** The first style-2 video writes `pipeline/s2-01-build.py` from `15-build.py`, keeping its clip
 loading, speed fitting, upscale, sound placing (`on()`) and loudness, and dropping captions, pointers and whips:
@@ -433,6 +446,11 @@ loading, speed fitting, upscale, sound placing (`on()`) and loudness, and droppi
 - **Cut A:** the same clips with each view's chain played straight through; a 2–3 frame blend at a join only if it jumps.
 - Upscale to 1080×1920 with `unsharp=5:5:0.6`; sound per shot (the bed under each view, effects on their picture); about
   −14 LUFS; keep a clean master of each cut.
+- **From s2-01 (21 Nov 2026), `pipeline/s2-01-build.py`:** neighbouring chain clips share a still and join seamlessly, so a run
+  of them plays as one long take (the first build had an 11 s take): in cut B, cut each time-lapse in two with a ~0.4 s jump.
+  Each shot keeps its clip's own sound (quiet ones lifted up to 14 dB, 15 ms fades); the ambiences go on as overlays. The build
+  sounds are percussive, so loudnorm stops short: a 3:1 compressor and a −9 dBFS limiter, the gain to −14 LUFS measured twice,
+  then a −3 dBFS limiter (−14.7 LUFS).
 
 **Step 10: Checks (free).** For each cut: the shot count and median (ffmpeg scene detection, CLAUDE.md 7.7); a sheet of the
 first 2 s; a sheet of every shot's middle frame (faces, hands, text); `check_video.py` (something moves in 90%+ of seconds);
@@ -461,7 +479,8 @@ TikTok and YouTube copy (8). Then log the video in section 9, add lessons to sec
   white plaster; tidy and lived-in; [dusk / snow / rain] outside the windows."
 - **TIMELAPSE** (chain clips): "Time-lapse from a locked camera that never moves: between the first and the last frame the
   builder [does this stage], moving fast and slightly blurred, tools and materials appearing and disappearing; the light stays the
-  same. Motion starts on frame 1. The builder stays the same person. [ONLY] No text, no logos."
+  same. Motion starts on frame 1. The builder stays the same person. There is only ever one builder in the picture: he never
+  appears twice or in two places at once. [ONLY] No text, no logos." (The last sentence before [ONLY] added after s2-01's C6.)
 - **REALSPEED** (close-ups, the last touch): "Real speed, handheld with a slight drift: [the action]. The hands have five fingers;
   the tool keeps its shape. [ONLY] No text, no logos."
 - **HOOK** (the first clip): "On the first frame [the event] starts, and by one second it is big in the frame: [what happens].
@@ -482,6 +501,38 @@ Add each lesson with its date and the video it came from.
   cozy cabin"), seven of our eight objects had 8–20 AI build Shorts (most at 0.5–3K views) and long AI story videos from the last
   few weeks; the first check, with plainer phrasing, missed them. Search their phrasing, date the Shorts, count the long ones (6.2
   Step 0). An object with real DIY demand and few AI copies (the chicken coop) is the opening.
+
+**From making s2-01 (21 Nov 2026; details in `pipeline/s2-01-beat-sheet.md`):**
+- **Stills (seedream): 19 from 22 tries** (1.16 a still, against 1.6–1.8 for style 1's cutaways); the outside view drifted under
+  1 px over eight stages with one reference each (the stage before).
+- **Seedream drew "tall enough to stand in" chest-high** in a busy yard: a LOCK edit naming the size against the builder ("its
+  eaves are higher than the builder's head") enlarged it and left the rest of the frame alone. Check the humble thing's scale
+  against the inside view before building the ladder: no guest room comes out of a chest-high coop.
+- **The inside "before" has to follow the hook:** a roof that caves in outside must be caved in inside too (I0 was redone so), and
+  the gutting plays right after the hook in both cuts.
+- **Inside views need their own lock line** ("the same builder"): "the same hens, house, fence and trees" means nothing indoors.
+- **A part added beside a second building can land on the wrong one** (the porch went on the house's back steps): say what it
+  attaches to and what stays ("the house's back steps stay exactly as they are").
+- **Give the builder a place and an action in every stage,** or he freezes in the last pose and blocks the bed or the witness.
+- **The inside window was redrawn twice** (taller at I2, a two-pane sash at I5) and the ceiling went from peaked to one slope at
+  I3; the time-lapse carried it. Name the window's size and shape in every inside stage when it matters.
+- **`wan2_7` beat `kling4_0` at the first pilot:** the hook's roof down with dust by 1.0 s (Kling: 1.5–2 s), sound that peaks on
+  the crash, 4.50 against 7.50 a 3 s clip. Both start and end exactly on their stills (0 px shift). `kling4_0` makes sound too.
+- **`wan2_7` clips hold their end still for the last 0.5–1 s** (motion near zero; the hook froze the hens mid-flap, as its end
+  still had them): trim the tail in the edit.
+- **A time-lapse can show the builder twice** (C6: a blurred copy painting while he still knelt at the door, ~0.5 s): the
+  re-render with "only ever one builder … never in two places at once" was clean (4.50).
+- **Start-only handheld clips drift off the set late:** the last touch grew a big window and a snowy forest from 2.6 s, a tool
+  close-up lost the hands at 2.8 s, another wandered off the board. Use the clean window; next time ask for "the camera barely
+  moves; the window stays exactly as it is".
+- **`wan2_7` makes quiet prompts nearly silent** (dusk, a reaction close-up: −50 to −60 dB): two short ElevenLabs ambiences (40
+  credits) filled them; the dusk wind low-passed under the indoor shots and opened up for the outside payoff.
+- **Cut B's pace:** neighbouring chain clips join seamlessly, so cut each time-lapse in two with a small jump; even so, scene
+  detection sees 17 view changes in 40.7 s (2.4 s each, against the reference's ~1.4 s), because the jumps inside one locked view
+  are small. With three close-ups (two tools, the witness) that is the ceiling: more tool close-ups are the way to the reference's
+  pace (6.1).
+- **Loudness:** percussive build sounds stop loudnorm at −15.5 to −16 LUFS with true peaks near 0; the chain in 6.2 Step 9 gets
+  −14.7.
 
 **Carried over from CLAUDE.md 7** (they're about the tools, not the look):
 - Seedream (7.1): references copy the whole layout, so use them for "the same scene, change X"; "Extreme close-up: the [part]
@@ -518,12 +569,19 @@ Add each lesson with its date and the video it came from.
 
 ## 9. Video log (style 2)
 
-The builder key (job id): not made yet. The accounts: TikTok and YouTube (the user, 21 Nov 2026); the main pair or a new
+The builder key (job id): `903c9854-5b4f-4909-a2d5-b8faac72aba4` (B, made for s2-01 on 21 Nov 2026; seedream_v5_pro; reuse it as the
+reference in every style-2 video). The accounts: TikTok and YouTube (the user, 21 Nov 2026); the main pair or a new
 style-2 pair still to confirm (2.1).
 
 | # | Title | Made | Cut | Clip model | Credits (quoted) | Length; shots, median | Posted (where, when) | TikTok at 72 h | YouTube at 72 h |
 |---|---|---|---|---|---|---|---|---|---|
-| s2-01 | (I5) the chicken coop that became a guest cabin | at Gate B, 21 Nov | B and A | kling4_0 or wan2_7 (Gate D) | (quoted 195.79) | | | | |
+| s2-01 | From Old Chicken Coop to Cozy Guest Cabin (I5) | 21 Nov | B (post) and A (reserve) | wan2_7, own sound + 2 ambiences | 125.00 (195.79) | B 40.7 s, 32 shots (17 view changes), median 1.2 s; A 40.1 s, 6 takes | not yet | | |
+
+s2-01's files (Higgsfield storage, not reachable from a session): cut B `342478bb-0406-4f60-bbdb-6c3a7167287c`, cut A
+`b994d86b-ed2f-49e0-ab87-000feaa424b8` (`https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`);
+Higgsfield project `44326d13-708b-4085-89e4-eaab34db660b`; ElevenLabs flow `pvtHhV6Ln05XmrgRuOEP`; job ids in
+`pipeline/s2-01-jobs.tsv`; the first 2 s: the roof caves in with dust and the hens flap off by 1.0 s, the cut to the wife
+laughing at 1.6 s; something moving in 93% of seconds (cut B), 85% (cut A).
 
 ---
 
@@ -621,3 +679,7 @@ lessons to section 7, and update both copies of the memory.
 - **21 Nov 2026 (later):** s2-01 started from the kickoff prompt (I1, builder b, cut B plus A). I1 dropped at the Gate A check (the
   gondola is farmed: about 20 AI Shorts and five long AI videos); I2–I4, I6 and I8 crowded too on a re-check with the farms'
   phrasing; I5, the chicken coop, passes and is at Gate A (`pipeline/s2-01-beat-sheet.md`).
+- **21 Nov 2026 (later):** s2-01 made: Gate A approved (I5, posting on TikTok and YouTube), Gate B 195.79, Gate C (19 stills from
+  22 tries; the coop enlarged to walk-in size, the inside "before" caved in to follow the hook), Gate D (`wan2_7` chosen over
+  `kling4_0`), the 15 other clips on `wan2_7` with one re-render, cut B and cut A built (`s2-01-build.py`), 125.00 credits. Not
+  posted yet. The runbook, prices and lessons updated from it (6, 7).

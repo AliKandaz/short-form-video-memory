@@ -15,6 +15,8 @@ its first frame. No character, no on-screen labels, no music (a quiet bed and a 
 **A second style** (from 21 Nov 2026, the user: "so I can alternate between video styles"): photoreal AI build stories, a
 humble thing turned into a cozy home in time-lapse, no narration. Its memory, plan, runbook and kickoff prompt are
 `strategy2.md`; for a style-2 video read this section's standing rules, then that file instead of sections 2–9 here.
+**The first style-2 video, s2-01 ("From Old Chicken Coop to Cozy Guest Cabin"), was made on 21 Nov 2026** for 125.00 credits
+(clips on `wan2_7`, its own sound); not posted yet (`strategy2.md` 0 and 9, `pipeline/s2-01-post-copy.md`).
 
 **Channels** (both US-based, the user confirmed on 13 Nov 2026):
 - TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 54 followers, 13 videos,
@@ -94,9 +96,9 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   cooling-tower Shorts on 8–19 Nov; the opening is the tower being cut open (3, V3).
 - **Next (21 Nov 2026):** the user's in-app checks (above), then the decision in 1.6 before any more credits. The 72 h reads (8.4) of video
   12 after 22:07 UTC on Sat 21 Nov 2026, of video 13 after 23:04 UTC on Sun 22 Nov and of video 14 after 20:00 UTC on Mon 23 Nov.
-  Post video 15 (made 21 Nov; not on the same day as another video). Still to do: the TikTok handle (8.3) and the free re-cut
-  test (2.2). Each video quoted at 200 or less; the balance (1,030.00 after video 15) covers about five more at the cap, so check
-  the Ultra plan's renewal date before the fifth.
+  Post video 15 and style 2's s2-01 (both made 21 Nov; never two videos the same day). Still to do: the TikTok handle (8.3) and
+  the free re-cut test (2.2). Each video quoted at 200 or less; the balance (905.00 after s2-01, 21 Nov 2026) covers about four
+  more at the cap, so check the Ultra plan's renewal date before the fourth.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -297,7 +299,8 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
   credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
   balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal. **20 Nov 2026:** V3 cost 161.50,
   so the balance is 1,226.25: about six more at the cap (V4–V9); V10 needs the renewal. **21 Nov 2026:** V6 cost 196.25 (kling4_0
-  now 2.50 a second; 6.1), so the balance is 1,030.00: about five more at the cap.
+  now 2.50 a second; 6.1), so the balance is 1,030.00: about five more at the cap. Then style 2's s2-01 cost 125.00
+  (`strategy2.md` 6.1), so the balance is 905.00: about four more at the cap.
 - **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
   dates: V2 by Tue 24 Nov 2026 (posted 19 Nov); V9 before mid-December.
 
@@ -1796,4 +1799,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   stories after @scapemagicc (all 86 of their videos read; their top four measured: one spine, two cuts); eight ideas checked
   against their list and YouTube; the standard plan 185.44 with the reserve at kling4_0's 2.50 a second; its own kickoff prompt.
   Open with the user: which accounts style 2 posts to (a separate pair recommended), the builder's look, the first idea.
+- **21 Nov (later):** style 2's first video, s2-01, made: the chicken coop that became a guest cabin (I1 was dropped at Gate A as
+  farmed), 19 stills, `wan2_7` chosen over `kling4_0` at Gate D, cut B (32 shots, 40.7 s) and cut A (40.1 s), 125.00 credits
+  against a 195.79 quote; not posted yet. Lessons and runbook changes in `strategy2.md` 6–7; files from `655600a` to the commit
+  that logged it.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
