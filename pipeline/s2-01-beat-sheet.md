@@ -147,9 +147,19 @@ C17 (3 s). No reaction and no close-ups. The chains join at shared stills, so ea
   ~0.5 s; dusk ambience (light snow, a hen clucking softly, quiet) ~6 s.
 - About 60 s of sound, about 200 ElevenLabs credits (outside the cap; budget from the durations).
 
-## Budget preview (the quote is Gate B)
-The standard plan (strategy2.md 6.1): 17 clips, 52 s on kling4_0 at 2.50 a second = 130.00; 19 stills, about 25 tries at 1.25 =
-31.25; base 161.25; reserve 24.19 (which also covers the wan2_7 pair at Gate D, 9.00); about 185.44.
+## Gate B quote (priced 21 Nov 2026 with estimate_video_cost and estimate_image_cost)
+| Item | Plan | Credits |
+|---|---|---|
+| Clips (kling4_0, 720p, 9:16) | 16 clips of 3 s at 7.50, and C16 at 4 s for 10.00 (52 s in all) | 130.00 |
+| The Gate D challenger (wan2_7, 720p) | C1 and C11 again on wan2_7 from the same stills, 2 × 4.50 | 9.00 |
+| Stills (seedream_v5_pro, 1k, 9:16) | 19 keyframes, budgeted at 25 tries × 1.25 | 31.25 |
+| Base | | 170.25 |
+| Reserve (15%) | one or two clip re-renders, a few still retries | 25.54 |
+| **Quote** | | **195.79** |
+
+Balance 1,030.00, 834.21 after it at worst. If wan2_7 wins at Gate D, the other 15 clips go on wan2_7 (14 × 4.50 + 6.00 = 69.00)
+and the run comes to about 124 before the reserve (about 143 with all of it). ElevenLabs (outside the cap): about 60 s of sound,
+about 200 credits; fewer if wan2_7's own sound is kept.
 
 ## Watch-outs
 - Animals unharmed: no hen in or under the coop when the roof falls; they flap away and are seen pecking again later.
@@ -158,4 +168,6 @@ The standard plan (strategy2.md 6.1): 17 clips, 52 s on kling4_0 at 2.50 a secon
 - The cabin is safe to copy: no fuel-burning heater inside, nothing sealed or buried.
 
 ## Production log
-- 21 Nov 2026: kickoff with I1; Gate A checks; I1 dropped; I5 planned (this file). Waiting for Gate A.
+- 21 Nov 2026: kickoff with I1; Gate A checks; I1 dropped; I5 planned (this file).
+- 21 Nov 2026: Gate A approved by the user ("approve i5 ill be posting on TikTok and YouTube"); the witness stays the wife.
+  Gate B quoted 195.79 (above). Waiting for Gate B.

@@ -31,14 +31,14 @@ shot. The AI label is on every time.
   "strategy2.md"). Scripts for style-2 videos go in `pipeline/` with the prefix `s2-NN-` (s2-01, s2-02, …).
 
 **Status on 21 Nov 2026.**
-- **s2-01 at Gate A (21 Nov 2026):** the kickoff asked for I1 (the gondola) with builder b and cut B plus A. I1 failed the Gate A
-  check and was dropped (3); the plan is I5, the chicken coop (`pipeline/s2-01-beat-sheet.md`). Nothing generated. The paste-in
-  prompt is section 11.
+- **s2-01 at Gate B (21 Nov 2026):** the kickoff asked for I1 (the gondola) with builder b and cut B plus A. I1 failed the Gate A
+  check and was dropped (3); I5, the chicken coop, was approved at Gate A and quoted at 195.79 (`pipeline/s2-01-beat-sheet.md`).
+  Nothing generated. The paste-in prompt is section 11.
 - **The hold in CLAUDE.md section 0 comes first:** the user's in-app checks of both accounts (YouTube Studio → Restrictions and
   youtube.com/features; TikTok → Account status). They decide whether a new YouTube channel is allowed (only if the old one is in
   good standing; never to get around a strike).
-- **Open decisions for the user** (asked on 21 Nov 2026): (1) which accounts style 2 posts to (2.1; a separate pair is
-  recommended); (2) the recurring builder's look (5); (3) the first idea (3; I1 is recommended).
+- **Decisions (21 Nov 2026):** builder b (5); the first video is I5 (I1 was dropped at Gate A, 3); posting on TikTok and
+  YouTube (the user). **Still open:** the main accounts or a new style-2 pair (2.1 recommends a new pair).
 - **Credits:** 1,030.00 on 21 Nov 2026, shared by both styles: about five videos at 185–200 before the Ultra plan renews (3,000 a
   month since 11 Nov 2026; check the date).
 
@@ -518,11 +518,12 @@ Add each lesson with its date and the video it came from.
 
 ## 9. Video log (style 2)
 
-The builder key (job id): not made yet. The accounts: not decided yet (2.1).
+The builder key (job id): not made yet. The accounts: TikTok and YouTube (the user, 21 Nov 2026); the main pair or a new
+style-2 pair still to confirm (2.1).
 
 | # | Title | Made | Cut | Clip model | Credits (quoted) | Length; shots, median | Posted (where, when) | TikTok at 72 h | YouTube at 72 h |
 |---|---|---|---|---|---|---|---|---|---|
-| s2-01 | (I5) the chicken coop that became a guest cabin | at Gate A, 21 Nov | B and A | kling4_0 or wan2_7 (Gate D) | (about 185) | | | | |
+| s2-01 | (I5) the chicken coop that became a guest cabin | at Gate B, 21 Nov | B and A | kling4_0 or wan2_7 (Gate D) | (quoted 195.79) | | | | |
 
 ---
 
