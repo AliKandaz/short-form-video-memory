@@ -202,3 +202,11 @@ about 200 credits; fewer if wan2_7's own sound is kept.
     before) held the locked view; the key as a second reference wasn't needed. (6) 22 tries for 19 stills (1.16 a still), against
     1.6–1.8 for style 1's cutaways.
   - Waiting for Gate C. Next, Gate D: C1 (O0 → O1) and C11 (I2 → I3) on kling4_0 (15.00) and wan2_7 (9.00).
+- 21 Nov 2026: Gate C approved ("approve"). **Gate D pilots, 24.00 credits** (C1 and C11 on kling4_0 at 7.50 and wan2_7 at
+  4.50; `s2-01-clips.py` holds all 17 prompts; `s2-01-pilot.py` checks a pilot): both models start and end on their stills
+  (0 px shift), keep the builder and the wife the same, and **both make their own sound** (kling4_0 too). The hook: wan2_7 has
+  the roof down with a burst of dust by 1.0 s, its sound peaking on the crash at 0.9–1.2 s, then freezes the hens mid-flap for
+  the last second (the end still has them so; the edit cuts before it); kling4_0 sags the coop by 1.0 s and brings the roof down
+  at 1.5–2.0 s, the dust peaking at the end, under an even bed of sound. The pine lining: both good (kling4_0 walls first, then
+  the ceiling, done at 2.0 s; wan2_7 done at 2.5 s). Recommended wan2_7: the stronger first second, sound on the picture, and
+  the other 15 clips cost 69.00 instead of 115.00. Waiting for Gate D.

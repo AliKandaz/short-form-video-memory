@@ -42,3 +42,8 @@ O6	9a48f20c-b7dc-433e-9987-aabd27119ec8	accepted finished cabin (try A; the buil
 I6	ecb1cf33-e743-430d-97c7-ff087a1f2dee	accepted dusk room, lamp off (try A)
 P.A	715c3d34-04e7-4893-abf7-b46618dfe0db	payoff at dusk, try A
 P	715c3d34-04e7-4893-abf7-b46618dfe0db	accepted payoff at dusk (try A)
+# Gate D pilots (21 Nov 2026), 3 s each: kling4_0 7.50, wan2_7 4.50
+C1.K	6fdd5cc7-6121-4dd3-94ca-51137d1e2347	pilot: the hook on kling4_0
+C11.K	1d52b3bc-4685-4766-9242-3a94f1c6b25f	pilot: pine lining on kling4_0
+C1.W	e75a2acf-a2ad-4ed2-a6be-8bb3da07a6d1	pilot: the hook on wan2_7 (own sound)
+C11.W	e052ebac-87f1-464e-9757-cbcba66f6878	pilot: pine lining on wan2_7 (own sound)
