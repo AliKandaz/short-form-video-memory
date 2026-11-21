@@ -36,3 +36,7 @@ SG.A	23eda156-c2d1-4343-85fa-19d037fc3f13	try A, from ST5.A and DOG
 ST5	5825770e-e9da-4550-9ce3-d8f958a45ef4	accepted (try B: one garage door)
 SG	23eda156-c2d1-4343-85fa-19d037fc3f13	accepted (try A): the sign close, the dog beside it with his head tilted
 # stills: 17 tries for 15 keyframes (F0.A stays as the wide reference of the set), 21.25 credits, 21 Nov 2026
+# Gate C approved by the user ("aprove", 21 Nov 2026, about 23:05 UTC): the stills, the dog and the dusk look
+# pilots for Gate D (kling4_0, 720p, 2.50 a second), submitted 21 Nov 2026 at 23:09 UTC: 22.50 credits
+C1.A	3f4e4ba5-9cff-462b-a3ac-84902e19bf81	pilot, try A: the hook, F0 -> F0b, 4 s (10.00)
+C3.A	6003b698-74dc-4502-8a3e-2b0571bfdb36	pilot, try A: the flight to the gutter, F1x -> GU, 5 s (12.50)
