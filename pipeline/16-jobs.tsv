@@ -40,3 +40,6 @@ SG	23eda156-c2d1-4343-85fa-19d037fc3f13	accepted (try A): the sign close, the do
 # pilots for Gate D (kling4_0, 720p, 2.50 a second), submitted 21 Nov 2026 at 23:09 UTC: 22.50 credits
 C1.A	3f4e4ba5-9cff-462b-a3ac-84902e19bf81	pilot, try A: the hook, F0 -> F0b, 4 s (10.00)
 C3.A	6003b698-74dc-4502-8a3e-2b0571bfdb36	pilot, try A: the flight to the gutter, F1x -> GU, 5 s (12.50)
+# pilots back 21 Nov 2026, 23:11-23:13 UTC, both first try; balance 861.25; measured in 16-beat-sheet.md (Step 7); at Gate D
+C1	3f4e4ba5-9cff-462b-a3ac-84902e19bf81	pilot in use (try A): the string whips up by 1 s, the roof edge lit by 2 s; camera still (PUSH and RAMP in the edit)
+C3	6003b698-74dc-4502-8a3e-2b0571bfdb36	pilot in use (try A): camera 80% moving, parallax 1.69 px

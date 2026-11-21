@@ -5,7 +5,9 @@ Idea B3 (section 3), the first video in the build format (CLAUDE.md 4). **Gate A
 stand-in). The script is `16-script.txt` (224 spoken words, ~64.0 s at 3.5 words a second, plus the 1.5 s street card); the
 bill is `16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat table and the quote for Gate B are at the end
 of this file. **Gate B approved by the user on 21 Nov 2026** ("approve": the quote of 199.81). The stills are made and
-logged at the end of this file; **the video is at Gate C** (the stills, the flight map and the dog key wait for approval).
+logged below. **Gate C approved by the user on 21 Nov 2026** ("aprove": the stills, the dog and the dusk look). The two
+pilots are made and logged at the end of this file; **the video is at Gate D** (the pilots wait for approval; the other
+eleven clips, 130.00 credits, are not rendered).
 
 ## Gate A
 
@@ -280,3 +282,61 @@ prompts in `16-prompts.py`. Sheets: `16-flightmap.jpg`, `16-keyframes.jpg`, `16-
 **Clips as their keyframes now stand** (lengths unchanged, 61 s): C1 F0 → F0b · C2 F0b → F1 → F1x · C3 F1x → GU · C4 GU → OU1 ·
 C5 OU1 (start only) · C6 OU1 → OU2 → F1 · C7 F1 → PX → HI3 · C8 HI3 → RO3 · C9 RO3 → RO4 · C10 RO4 → ST5 · C11 ST5 → SG ·
 C12 SG → FR6 · C13 FR6 (start only). **Pilots for Gate D:** C1 and C3 (22.50).
+
+## Step 7: the pilots (21 Nov 2026) → Gate D
+
+**Gate C approved** by the user on 21 Nov 2026 at about 23:05 UTC ("aprove"). The two pilots were submitted at 23:09 UTC
+(`kling4_0`, 720p, start and end stills) and both came back on the first try, C3 in about 2 minutes and C1 in about 4:
+**22.50 credits** (C1 4 s 10.00, C3 5 s 12.50), the quote's price. Balance 861.25. Spent so far 43.75 of the 199.81
+quoted (stills 21.25, pilots 22.50); the reserve of 26.06 is untouched. Job ids are in `16-jobs.tsv` (C1.A, C3.A). The clips
+are 724x1284 at 24 frames a second and carry a sound track of kling's own, which the edit drops.
+
+**The hook (C1, F0 → F0b, 4 s), frames at 0, 0.5, 1 and 2 s** (`16-gateD.jpg`, top row as rendered, bottom row as the edit
+plays it):
+- 0 s: the string hangs from the gutter's corner down the wall to a coil on the lawn; the dog sits wound in his own string.
+- 0.5 s: the loose end is in the air, whipping up the wall (it leaves the lawn at about 0.2 s: motion from frame 1).
+- 1.0 s: the string is up and over the gable, and the gable's bulbs are on.
+- 2.0 s: the whole roof edge is lit, gutter and gable; the dog looks down at his string.
+- The camera is dead still, as it was in the hooks of videos 14 and 15 (a change at one position): the edit adds the
+  push-in. One stray thing: the string's tail flicks past the gable's peak between 1.0 and 2.0 s and leaves the frame.
+
+**As the edit plays it** (`16-gateD.py`; free): RAMP, new, plays the clip's first 2 s at 1.4x and the rest at 0.64x, so the
+gable is lit at about 0.7 s and the whole roof edge at about 1.4 s (the premise line is about 4.6 s, the clip 4 s); PUSH adds
+a push-in of 3.7% a second toward the lawn's far edge, which keeps the roof line in view and the dog above the caption.
+
+| | Camera moving | Parallax | Big-move seconds | Longest still camera | Picture moving (`check_video.py`) |
+|---|---|---|---|---|---|
+| Reference: Hidden By Design's power lines (88 s) | 66% | 0.46 px | 22 of 88 (one in four) | 5 s | 70% |
+| Targets (section 5, Rules 1 and 7) | 65% or more | 0.3 px or more | one in eight | 5 s at most | 80% or more |
+| **C3, the flight to the gutter (5 s), as rendered** | **80%** | **1.69 px** | **3 of 5** | 1 s | 80% |
+| C1, the hook (4 s), as rendered | 0% | 0.02 px | 0 of 4 | 4 s | 0% (a thin line of lights: the script only counts movement that fills a good part of the frame) |
+| C1 as the edit plays it (RAMP and PUSH) | 80% | 0.04 px | 0 of 5 | 1 s | 20% |
+
+**Verdict.** C3 passes clearly: a real flight from the lawn up to the gutter (parallax 1.69 px against the reference's
+0.46), one house the whole way, no pit, no text, the dog left below, the window lit at 2.8 s and the faceted bulbs coming on
+from 4.2 s. C1 does what was asked (motion from frame 1, the string up by 1 s, the roof edge lit by 2 s) and nothing in it
+is wrong; its weakness is the subject: a string of lights is a line, not a mass, so the change is bright but thin in the
+frame. My recommendation is to keep it and use RAMP and PUSH: a re-render (10.00 of the reserve) could change the timing,
+which the edit already fixes for free, but not the size of a string of lights, and frame 0 was approved at Gate C.
+
+**The overlays, tried on the pilots for the first time** (`16-gateD-overlays.jpg`, five frames at phone size with the areas
+TikTok covers in red; `16-overlays.py`). What the first spec (CLAUDE.md section 5) became:
+- **The counter:** the pill is centred 11.5% down (y 222), so its top edge clears the 9% line; it has a 3 px yellow rim,
+  because ink on a dusk sky has no edge; digits at Fontsize 88 (the 44 px of the spec).
+- **A price:** "+$305" in white with the caption's black stroke, at the pill's right; it slides in over 0.15 s on the word
+  "So", waits 0.5 s, slides into the pill, and the total rolls up over 0.4 s and pops.
+- **Labels:** Fontsize 140 (70 px letters), yellow, centred 20% down. A term wider than 940 px goes on two lines and the
+  block moves down, so it never starts above y 296, under the pill (GROUND-FAULT / OUTLET, POWER / INJECTION,
+  FM / TRANSMITTER).
+- **A label waits for its picture:** LED goes on when the camera reaches the bulb (3.3 s into C3), not on the word, which
+  comes while the camera is still crossing the wall.
+- **The closing total** does not go to the middle of the frame: there it would cover the tree, the snowman and the arches
+  the narrator has just named. It grows where the last shot is calm, the sky above the roof: digits about 92 px tall
+  (Fontsize 184), centred 14.5% down.
+- **The sign's frequency** is pinned in the sign's close-up (SG) only: in the last shot the sign sits under TikTok's
+  buttons (x over 940).
+- The word times in these previews are estimates (3.5 words a second) and the previews are silent: there is no narration
+  yet (ElevenLabs: 34 credits left; a take needs 1,161).
+
+**After Gate D:** the other eleven clips in one batch (C2, C4–C13: 57 s, 130.00); then the narration (credits and the
+voice pick), the sound, the edit.

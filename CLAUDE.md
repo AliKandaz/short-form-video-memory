@@ -65,20 +65,23 @@ explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
    the edit (5); they are never asked of the image or video models.
 
 **Status on 21 Nov 2026 (read this first):**
-- **The build format is decided, and video 16 is at Gate C** (21 Nov 2026). The user chose B3 as the first build video ("How to
-  Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026), approved Gate A (the script of 224 words, the
-  set at blue dusk, the dog as a scruffy tan terrier; the narrator was not picked) and Gate B (the quote, 199.81 with the
-  reserve). **The 15 stills are made: 17 tries, 21.25 credits, the stills line of the quote exactly.** They, the flight map
-  and the dog key wait for the user's approval (`pipeline/16-flightmap.jpg`, `16-first-last.jpg`, `16-stills.jpg`,
-  `16-dog.jpg`, `16-keyframes.jpg`; the log is at the end of `16-beat-sheet.md`, the job ids in `16-jobs.tsv`). Next: the two
-  pilots (C1 the hook and C3, 22.50) for Gate D. The narration (2,322 ElevenLabs credits for two takes) waits for credits
-  and for the voice pick; the script and the bill ($2,107) are `16-script.txt` and `16-bill.md`.
+- **The build format is decided, and video 16 is at Gate D** (21 Nov 2026). The user chose B3 as the first build video ("How to
+  Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026) and approved Gate A (the script of 224 words,
+  the set at blue dusk, the dog as a scruffy tan terrier; the narrator was not picked), Gate B (the quote, 199.81 with the
+  reserve) and Gate C (the 15 stills, the dog key and the dusk look: 17 tries, 21.25 credits). **The two pilots are made,
+  both on the first try, for 22.50 credits:** the flight to the gutter (C3) measures 80% camera moving and 1.69 px
+  parallax; the hook (C1) lights the roof edge by 2 s with a still camera, so the edit plays its first 2 s at 1.4x under a
+  push-in (RAMP and PUSH, 7.4). They wait for the user's approval, with the first test of the overlays on them
+  (`pipeline/16-gateD.jpg`, `16-gateD-overlays.jpg`; the log is Step 7 of `16-beat-sheet.md`, the job ids in
+  `16-jobs.tsv`). Spent 43.75 of the 199.81 quoted; the reserve is untouched. Next: the other eleven clips (57 s, 130.00)
+  in one batch. The narration (2,322 ElevenLabs credits for two takes) waits for credits and for the voice pick; the script
+  and the bill ($2,107) are `16-script.txt` and `16-bill.md`.
 - **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take; the quota shown was 30,354 (7.7). A
   narration take needs about 1,400–1,540, so no video can be voiced until the quota renews or the user tops it up.
 - **The narrator is changing** (the user, 21 Nov 2026: "proceed with a different voice"). One audition take was made, Marcus
   (5); the other two voices failed for lack of credits. Marcus is the stand-in until the user picks by ear.
-- **Higgsfield: 883.75 credits** on 21 Nov 2026 after video 16's stills (`balance`; 905.00 before): four videos at the cap,
-  this one included, before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a
+- **Higgsfield: 861.25 credits** on 21 Nov 2026 after video 16's stills and pilots (`balance`; 905.00 before the video):
+  four videos at the cap, this one included, before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a
   second at 720p since 21 Nov 2026 (6.0).
 - **Video 15 is posted** ("Why This NFL Field Is Sitting on 546 Wheels"; found on 21 Nov 2026 at 22:00 UTC): TikTok on 21 Nov
   at 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14; YouTube the same evening. At about 20 h: 302 views on
@@ -368,7 +371,7 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 |---|---|---|---|---|
 | B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
 | B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
-| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: Gates A and B approved, the stills made, at Gate C (21 Nov 2026)** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
+| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: Gates A, B and C approved, the two pilots made, at Gate D (21 Nov 2026)** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
 | B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
 | B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
 | B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
@@ -378,7 +381,7 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 | B10 | How to Turn Your Garage Into a Fire Station | a red truck backs into the garage | weak on the search page (15K); fire trucks carry enthusiast channels (448K–705K, 1.6); no build video found | the set is a building cut open, our look's best case |
 
 ### 2.4 Budget and cadence
-- **At most 200 Higgsfield credits a video** (6.1). The balance was 905.00 on 21 Nov 2026 (883.75 after video 16's stills):
+- **At most 200 Higgsfield credits a video** (6.1). The balance was 905.00 on 21 Nov 2026 (861.25 after video 16's stills and pilots):
   four videos at the cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). Keeping the look
   keeps the cost: about 80% of a video is clips. A cheaper clip model would stretch the balance, only if the look holds and
   only if the user says so (6.1).
@@ -560,7 +563,7 @@ account.
   room and porch outlets often share one); the loops' terms are LED, GROUND-FAULT OUTLET, PIXELS, POWER INJECTION and FM
   TRANSMITTER; the closing line is "The bill: about two thousand dollars, and less than a dollar a night in power" ($2,107.22
   in `16-bill.md`; $0.19–$0.96 a night). The pinned comment names the dog. The set is at blue dusk: one phrase of the STYLE
-  line changes for this video, to be proved at Gate C.
+  line changes for this video (proved at Gate C: 6.3 DUSK).
 - **Resolved at Gate A (21 Nov 2026, search summaries; no seller's or agency's page opens from a session, 7.7):** a
   100-count incandescent mini string draws about 40 W and an LED one 4–7 W; a 15-amp circuit carries 1,800 W (1,440 W
   continuous), so 51 incandescent strings (about 2,040 W) trip it; a GFCI trips on a 4–6 mA imbalance in a fraction of a
@@ -873,8 +876,8 @@ summaries (7.7); the bill file says so, and the user is asked to look at its big
   scruffy tan terrier with a white chest, one folded ear and a red collar, a shape that still reads when he is small in the
   frame. The first build video asks viewers to name him (8.1). **Drawn on 21 Nov 2026** (video 16): he came out with both
   ears folded, so his words are "a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a red collar";
-  the dog key is Higgsfield job `51460339-c4b8-4537-9078-bd28de9305f8` (`pipeline/16-dog.jpg`), waiting for the user's approval
-  at Gate C.
+  the dog key is Higgsfield job `51460339-c4b8-4537-9078-bd28de9305f8` (`pipeline/16-dog.jpg`), approved by the user at
+  Gate C on 21 Nov 2026.
 
 ---
 
@@ -933,19 +936,28 @@ more than 5 s. Reference (power-lines video): 66%, 0.46 px, 22 big-move seconds 
 **Overlays for the build format (21 Nov 2026).** Added in the edit as text and shapes, never asked of seedream or Kling (their
 prompts still say "No text"). Besides the caption and the counter, one at a time.
 - **Term labels:** when the narrator names a fix (most often "This is a …"), the term appears in ALL CAPS in the caption face
-  (Montserrat ExtraBold) in our yellow (#FFD62E) with the caption's black stroke, letters about 70 px tall, centred about 20%
-  down the frame, for the length of that sentence (1–2 s), with a quick pop in. Four or five a video. The accounts we studied
-  put theirs about a fifth of the way down too (1.7); ours differ in face and colour.
-- **The bill counter** (4.4): a small pill centred about 11% down the frame (below TikTok's tabs, clear of the buttons on
-  the right), yellow digits about 44 px tall on ink (#101A33). It shows the running total from frame 0. At each "So" the
-  fix's price slides in beside it ("+ $9,000") and the total rolls up over about 0.4 s with a tick. On the closing line the
-  total grows to the middle of the frame, digits about 150 px tall, and holds until the card.
+  (Montserrat ExtraBold) in our yellow (#FFD62E) with the caption's black stroke, letters about 70 px tall (ASS Fontsize
+  140), centred about 20% down the frame, for the length of that sentence (1–2 s), with a quick pop in. Four or five a
+  video. A term wider than 940 px goes on two lines, and the block moves down so that it never starts above y 296, under
+  the counter (GROUND-FAULT / OUTLET). **A label waits for its picture:** when the camera reaches the part after the word
+  is spoken, the label goes on as the part comes into view (video 16: LED, when the flight arrives at the bulb). The
+  accounts we studied put theirs about a fifth of the way down too (1.7); ours differ in face and colour.
+- **The bill counter** (4.4): a small pill centred 11.5% down the frame (y 222, so its top edge clears TikTok's tabs),
+  yellow digits about 44 px tall (Fontsize 88) on ink (#101A33) with a 3 px yellow rim, which gives the pill an edge on a
+  dark sky. It shows the running total from frame 0. At each "So" the fix's price ("+$305", white with the caption's
+  black stroke) slides in at the pill's right over 0.15 s, waits 0.5 s and slides into the pill, and the total rolls up
+  over 0.4 s with a tick and a small pop. On the closing line the total grows **where the last shot is calm, usually the
+  sky above the finished build, never over the build or the dog**, and holds until the card: on video 16 digits about 92 px
+  tall (Fontsize 184), centred 14.5% down. (The first spec said the middle of the frame at 150 px: there it covered the
+  three finishing touches the narrator had just named.)
 - **The street card** (4.5): 1.5 s at the very end, ink background, yellow tile borders, one tile a build.
 - **The safe box:** overlays stay between 9% and 80% of the height and left of x = 940 below y ≈ 950 (TikTok's buttons, 7.6).
   The caption keeps its place at 75%.
 - **Words inside the scene** (a frequency on a yard sign, a scoreboard) are overlays pinned to the object like a pointer
-  (Rule 6), never generated text.
-- These sizes are a first spec: check them on a phone-sized sheet at video 16's Gate D and correct them here.
+  (Rule 6), never generated text. Pin them in the shot where the object is big and inside the safe box (video 16: the
+  sign's close-up; in the last shot the sign sits under TikTok's buttons).
+- These sizes were checked on a phone-sized sheet at video 16's Gate D (21 Nov 2026: `pipeline/16-gateD-overlays.jpg`,
+  drawn by `16-overlays.py`) and corrected above. Look at them once more on the first finished build video.
 
 **Sound (approved 15 Nov 2026: "yes on the sound").** A quiet, steady bed that fits the place, with no tune, about 19 dB under the
 voice for the whole video; four to eight short effects on the moments where something visibly happens, about 11 dB under the voice;
@@ -1139,6 +1151,10 @@ either has made it since 21 Nov 2026.
   a big move one second in four) **and the hook's frames at 0, 0.5, 1 and 2 s** (`contact_sheet.py`): the naive step must be
   moving on frame 0 and the scene changed by 1 s, big in the frame. A pilot that zooms across a flat picture (parallax near
   0) fails however it looks. Fix the stills or the prompt and render once more; don't batch the rest until both pass.
+- **Also show each pilot as the edit will play it** (21 Nov 2026; `16-gateD.py`, free): fitted to its line, with the
+  caption, the counter and a label on it, and the hook with any RAMP and PUSH, so the first second and the overlay sizes are
+  judged on the real picture. Silent, with estimated word times, when there is no narration yet. A hook that is a change at
+  one position comes back with a still camera (videos 14, 15 and 16): that is PUSH's job, not a failed pilot.
 
 **Step 8: The rest of the clips.**
 - Batches of up to 12 (`kling4_0` takes 12–13 at once on Ultra; 4–17 minutes), `jobs_wait`, one `show_generation_by_ids`.
@@ -1148,7 +1164,8 @@ either has made it since 21 Nov 2026.
 
 **Step 9: Assembly (free; template `pipeline/15-build.py`).**
 - Fit each clip to its measured line: play at 0.8–1.15×; a 3 s clip over a ~2 s line plays whole at up to 1.7× (`FULLFIT`).
-- Edit tools: `PUSH` (add a push-in to a still-camera clip, 3% a second or more) with `EASE_AFTER` on the next clip, `SPLICE`
+- Edit tools: `PUSH` (add a push-in to a still-camera clip, 3% a second or more) with `EASE_AFTER` on the next clip, `RAMP`
+  (play a clip's first seconds faster and the rest slower, so the opening event lands earlier; video 16, 7.4), `SPLICE`
   (cut a bad stretch out of a clip and join the clean parts with a 0.3 s whip or a 0.25 s dissolve), `WHIP` (with
   `fillborders` against the junk first frame of ffmpeg's slide transitions), `LIGHTS` (a lights-out dip made in the edit),
   `POINTERS` with tracking (`09-build.py`). `PULL` (the last clip pulls back to frame 0's framing) now lands the finished
@@ -1221,7 +1238,11 @@ video's street tile (`pipeline/street/NN.jpg`). Then log the video in 9.2 and up
 **For a build video (from video 16; 21 Nov 2026):** start from video 15's set as below. The edit needs three things its build
 script doesn't have yet: LABELS (a term on screen for one sentence), BILL (the counter, its jumps and the final total) and
 STREET (the end card from `pipeline/street/`). Write them into `16-build.py` as overlays beside the captions (7.4, section
-5's spec), add `16-bill.md`, and name them here once they have run.
+5's spec), add `16-bill.md`, and name them here once they have run. **LABELS and BILL exist and ran at Gate D (21 Nov
+2026):** `16-overlays.py` (`label_events`, `bill_events` and their ASS `STYLES`, imported by the build) and `16-gateD.py`
+(the two pilots as the edit plays them, with RAMP and PUSH, plus the two Gate D sheets; needs
+`fonts/HBXCaption.ttf`, 7.4). STREET is still to write. Video 16's other files: `16-prompts.py` and `16-mk.py` (stills;
+the DUSK style, the dog), `16-clips.py` (clips; ONEHOUSE, WHOLE, BLANK), `16-flightmap.py`.
 
 **Start from video 15's set** (21 Nov 2026) and rename the prefix: `15-prompts.py` (AIRLOT names the lot whole in outdoor and
 aerial stills; named-key fixes like `HI0.C` and `TO0.B` with their own REFS), `15-mk.py`, `15-clips.py` (FLATLOT and AIRLOTC on
@@ -1379,6 +1400,16 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **A middle keyframe carries a dive and a rise in one clip** (video 15, C2, SIDE1 → WH0 → RF0, 4 s): down to the wheels, the
   close-up at 1.6 s, then up along the cut to the open roof: camera 100% moving, parallax 8.5.
 - **Start-only orbits come back slow** (video 15, C12: 33–57% camera moving): add `PUSH`.
+- **A string that clips itself up and lights bulb by bulb works as a hook, but it is a thin one** (video 16, C1, F0 → F0b,
+  4 s, 21 Nov 2026): first time, the loose end left the lawn at 0.2 s, was over the gable with the gable's bulbs on at
+  1.0 s, and the whole roof edge was lit at 2.0 s. The camera stayed still, and `check_video.py` read 0% moving, because a
+  line of small lights is a small part of the frame however bright it is. The edit fixed the timing and the camera for free
+  (RAMP and PUSH, 7.4). When the naive step is a thin thing (a string, a hose, a rope), frame frame 0 closer at Gate C.
+- **A flight from a lawn up to a roof edge came out first time** (video 16, C3, F1x → GU, 5 s): camera 80% moving, parallax
+  1.69 px, one house the whole way, with ONEHOUSE and "Nothing is cut open on the way: the wall and the roof stay whole".
+  The change at the end of the flight (the bulbs come back on) landed as the camera arrived, at 4.2 s of 5.
+- **`kling4_0` clips carry a sound track of their own** (21 Nov 2026: AAC, on both pilots); the edit drops it. Two clips
+  came back in 2 and 4 minutes.
 
 ### 7.3 Camera and motion
 - **A crop of a still is not a camera position:** Kling zooms across a flat picture and it reads as still (video 08: 20% moving).
@@ -1393,7 +1424,8 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Measure pointer and arrow positions on a gridded frame of the rendered segment, not on the still (Kling drifts from the keyframe).
 - Draw ASS shapes from a top-left origin with `\an7` (libass misplaces shapes around negative coordinates).
 - Fonts: `npm pack @fontsource/montserrat@5.1.0`, then fontTools (`pip install fonttools brotli`) converts the 800 weight to a TTF
-  named "HBX Caption".
+  named "HBX Caption". It has to be rebuilt in each new container (21 Nov 2026): the file is
+  `package/files/montserrat-latin-800-normal.woff2`; set name records 1, 4 and 16 and save it as `fonts/HBXCaption.ttf`.
 - **Round clip lengths to the nearest second, not up** (18 Nov 2026, `12-timing.py`): rounding up made 70 s of clips for a 65.6 s
   video; nearest-second rounding and one pinned clip gave 64 s for 63.7 s, all played at 0.88–1.26×.
 - **Whips can be vertical** (`12-build.py`, WHIP takes an xfade direction): slideup for a dive down, slidedown for a flight up,
@@ -1409,7 +1441,17 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   for its whole span; CAPMAP still handles single words ("SEVENTY-SIX" → "76", "NINETEEN" → "19").
 - **A push of about 3% a second counts as camera movement** in `camera_path.py` (video 15): 0.24 over an 8 s clip (2.4–2.9%/s)
   left a 7 s "still" stretch; 0.28 fixed it. Push-ins fix still stretches but lower the median parallax: 0.17 px with five held
-  clips, against the flights' 2–8.5 px. Fewer change clips at one position keeps it up.
+  clips, against the flights' 2–8.5 px. Fewer change clips at one position keeps it up. **Video 16:** 0.12 over the 4.6 s
+  hook measured 2.4% a second and read as still; 0.17 measured 3.6% and read as moving. Aim at 3.5% a second, and put the
+  focus where the zoom keeps the subject in view and the dog clear of the caption (the hook: x 560, y 900).
+- **RAMP** (video 16, `16-gateD.py`): `setpts='if(lt(T,a),T/s1,a/s1+(T-a)/s2)/TB'` plays a clip's first `a` seconds at speed
+  `s1` and the rest at whatever fills the line. The hook's lit roof edge moved from 2.0 s to 1.4 s (a = 2.0, s1 = 1.4; the
+  rest at 0.64x). Slow only a near-still tail that far, under a push-in; never a camera move.
+- **A still made into a segment needs `-framerate 30` on its input** (video 16): `-loop 1 -t L -i still.png` feeds zoompan
+  25 frames a second, so the segment came out 5/6 of its length and a later frame grab silently returned the previous image.
+- **The overlays are ASS events like the captions** (video 16, `16-overlays.py`): the pill is a stadium-shaped drawing from
+  a top-left origin (`\an7`) with the number as a separate centred event; a roll-up or a grow is one event a frame; text
+  widths come from PIL with the same font file (Fontsize x 1000 / 1219 = the em in px for Montserrat).
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -2114,5 +2156,9 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   summaries, the bill at $2,107. The user approved Gate A; the beat sheet (13 clips, 61 s, 15 keyframes) and the quote of
   199.81 were shown at Gate B and approved. The 15 stills were made in 17 tries for 21.25 credits (a closer frame 0 after
   the first key came back small; the dog key from frame 0) and shown at Gate C (`pipeline/16-*`).
+- **21 Nov (about 23:10 UTC):** the user approved Gate C. The two pilots (C1 the hook, C3 the flight to the gutter) came
+  back first try for 22.50 credits and were measured; the overlays were drawn for the first time (`16-overlays.py`) and
+  tried on the pilots (`16-gateD.py`): the counter got a yellow rim, two-line labels moved down, and the closing total moved
+  from the middle of the frame to the sky above the build (5). RAMP added to the edit tools. Shown at Gate D.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`),
   18/11/26 v2 (`a9abd35`).
