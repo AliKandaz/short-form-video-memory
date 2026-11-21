@@ -19,6 +19,10 @@ CUTSIDE = ("The near side stays cut away for the whole move: the cut face of the
            "and nothing closes up across it.")
 ONEFIELD = "There is only one football field: it never doubles, splits, bends or appears in two places."
 NOPIT = "No holes, pits or trenches open in the ground or in the floor."
+FLATLOT = ("The ground in the foreground is plain, flat desert sand the whole time: no block of soil, no slab, no cut face of "
+           "ground and no layers appear anywhere in the frame.")  # C6 try A grew a cut slab of ground beside the rail (21 Nov)
+AIRLOTC = ("The desert ground of the lot stays whole and flat all round the tray and the rails the whole time: no trench, no pit, "
+           "no hole, no block of soil and no cut face of ground appears anywhere in the frame.")  # C12 try A opened a pit (21 Nov)
 ONE = "One smooth, continuous camera move with no cuts."
 NOBODY = "No people, no characters."
 TORTONLY = "No people, no characters; the only animal is one desert tortoise."
@@ -49,7 +53,7 @@ C = {
         f"rails run on toward the stadium's opening. {ONEFIELD} {NOPIT} {ONE}", NOBODY),
  "C6": ("RA0", [], None, 4, OUT, "The camera pushes in slowly on the nearest big steel wheel and the small grey electric motor "
         "on its axle; the motor turns the wheel slowly and the wheel rolls a little way along the steel rail, and the huge steel "
-        f"tray above creeps along with it. {NOPIT} {ONE}", NOBODY),
+        f"tray above creeps along with it. {FLATLOT} {NOPIT} {ONE}", NOBODY),
  "C7": ("RA0", [], "HI0", 3, OUT, "The camera rises fast from the ground beside the tray, climbing high above the sunny desert "
         "lot until it looks back down at the stadium and the whole green field sitting on its rails in the lot; the shadows of the "
         f"cacti and of the tray sweep slowly across the ground as time passes. {ONEFIELD} {ONE}", NOBODY),
@@ -70,7 +74,7 @@ C = {
          f"the whole green field sitting on its rails in the lot. {ONEFIELD} {ONE}", NOBODY),
  "C12": ("HI0", [], None, 7, OUT, "The camera circles slowly high above the desert lot, like a TV blimp camera, looking down at "
          "the whole green football field sitting on its steel rails beside the stadium in bright sun; soft cloud shadows drift "
-         f"slowly across the ground. The field does not move. {ONEFIELD} {ONE}", NOBODY),
+         f"slowly across the ground. The field does not move. {AIRLOTC} {ONEFIELD} {ONE}", NOBODY),
  "C13": ("HI0", [], "TO0", 3, OUT, "The camera swoops down from high above the lot to the ground beside the long side of the "
          "field's steel tray, landing low next to a desert tortoise that is walking along beside the rail; the huge tray creeps "
          f"along slowly beside it and the tortoise steadily pulls ahead of it. {ONEFIELD} {ONE}", TORTONLY),

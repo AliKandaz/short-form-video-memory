@@ -59,9 +59,12 @@ def seg_splice(name):
 # Kling held the camera still in C3 (the ice), C5 (the strawberry) and C17 (the crack), so the edit adds a slow push-in toward
 # the change, and the clip after each starts at that zoom and eases back out. C19 (the closing wide) also came back still: PULL
 # starts it zoomed in and pulls back to exactly the first frame's framing, so the loop lands on W0.
-PUSH = {}   # (focus x, focus y, zoom gained): set from the rendered clips
-PULL = {}        # (focus x, focus y, zoom at the start, back to 1.0 at the end)
-EASE_AFTER = {}; EASE_S = 0.8
+PUSH = {"C1": (440, 1300, 0.10), "C4": (620, 1300, 0.13), "C10": (540, 900, 0.24)}   # (focus x, focus y, zoom gained):
+        # C1 (the face drops), C4 (the field rolls out) and C10 (the court, 8 s) came back with a dead-still camera (21 Nov);
+        # about 3% a second, so camera_path.py counts the seconds as moving
+PULL = {"C14": (440, 1300, 0.12)}   # (focus x, focus y, zoom at the start, back to 1.0 at the end): C14 (the face rises
+                                     # back) came back still; it ends exactly on frame 0, so the loop lands
+EASE_AFTER = {"C2": "C1", "C5": "C4", "C11": "C10"}; EASE_S = 0.8
 
 def zoom_xy(fx, fy):
     return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
@@ -181,7 +184,11 @@ def ring_path(r):
 # Pointers, positions measured on a 100 px grid over a frame of the segment (seg/<SEG>.mp4 at 1080x1920), at t_anchor seconds
 # into the segment, when the camera has arrived. kind 'arrows': three solid arrows slide from p0 to p1, 0.35 s apart;
 # kind 'ring': one ring of radius r. (segment, kind, t_on, t_off, t_anchor, geometry) - times in seconds into the segment.
-POINTERS = []   # set from the rendered clips (measured on 100 px grids over seg/<SEG>.mp4)
+POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (21 Nov 2026); times in seconds into the segment
+    ("C4", "arrows", 0.8, 3.6, 2.9, {"p0": (430, 1100), "p1": (800, 1600)}),   # B6 "and roll it outside": along the rails
+    ("C6", "ring", 0.8, 4.0, 3.0, {"c": (480, 1300), "r": 140}),             # B9 "Only seventy-six have motors": the motor
+    ("C9", "arrows", 0.6, 3.4, 2.5, {"p0": (620, 500), "p1": (520, 1250)}),    # B12 through the sand and the mat into the pipe
+]
 
 def pointer_events(t0, t1):
     ev = []
@@ -236,7 +243,22 @@ def on(seg, t_clip):
     lo, hi = (0.8, 2.0) if seg in FULLFIT else (0.8, 1.2); sp = min(max(c / L, lo), hi)
     pre = next((wd / 2 for (a_, b_), (wd, _k) in WHIP.items() if b_ == seg), 0.0)
     return sg['start'] - pre + t_clip / sp
-FX = []   # (file stem, video time, optional cut length, level offset dB, low-pass Hz): set from the rendered clips
+# Event times read off the clips (21 Nov 2026): C1 the face starts dropping ~0.3 s; C2 the wheel close-up ~1.4-1.8 s; C3 the roof
+# slot narrows 0-1.5 s; C4 the field slides 0.6-3.2 s; C6 the push-in to the motor from ~0.3 s; C8 the sprinklers burst on ~2.0 s;
+# C9 water streaks down from ~1.2 s and spills from the pipe ~2.9 s; C13 the tortoise in view ~1.7 s; C14 the face rises ~0.9-2.5 s.
+# Loud parts of the files (measured): fx1 0-0.95 s (peak 0.40), fx2 0-1.9 (peak 1.2), fx3 0-1.7 (peak 0.75), fx4 0-1.95,
+# fx5 0-2.0, fx6 0.05-2.15 (peak 0.65), fx7 0-0.65 (one bounce, peak 0.35), fx8 0-1.85 (very quiet; levels are set by measurement).
+FX = [("fx1", on("C1", 0.25)),                    # the solid face drops away
+      ("fx2", on("C2", 1.2)),                     # the wheels start to roll ("And it's about to drive right out")
+      ("fx3", on("C3", 0.1)),                     # the roof panels rumble shut
+      ("fx2", on("C4", 0.6), None, -4),           # the field rolls out of the stadium, a little quieter
+      ("fx4", on("C6", 0.3)),                     # the motor on the wheel
+      ("fx5", on("C8", 1.9)),                     # the sprinklers burst on
+      ("fx6", on("C9", 1.4)),                     # water trickles down into the pipe
+      ("fx7", None),                              # the bounce on "basketball's" (set below from the word timings)
+      ("fx8", on("C13", 1.6)),                    # the tortoise's steps
+      ("fx1", on("C14", 0.9), 1.5, -6)]           # the face rises back into place (the loop), softer
+FX[7] = ("fx7", at("B14", "basketball's"))
 BED, BED_UNDER, FX_UNDER = 'bed', 17.0, 11.0   # dB under the voice by active RMS; starts at 17 (videos 13-14) and is set by
                                                 # measurement with under_the_voice.py (quiet moments 18-22 dB under)
 

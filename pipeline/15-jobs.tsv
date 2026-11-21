@@ -41,3 +41,19 @@ C1	03ce18bd-6e35-430b-b112-ecd3c19467ca	accepted pilot (try A): the face drops 0
 C2	43619590-a742-424b-8abd-c36cb4271194	accepted pilot (try A): dive to the wheels (WH0 at 1.6 s), up to the open roof
 C4	ddb5f8dc-691c-4dc9-b5c6-c6ab0bae8184	accepted pilot (try A): the field slides out 0.6-3.2 s as one piece; camera still (PUSH)
 # pilots: 27.50 credits (11 s); balance 1,180.00
+C3.A	9cd057bd-59b4-4609-86d0-44dcbd50b4d6	batch
+C5.A	b3d97ebf-59ad-4f53-9871-f9256cb3f10f	batch
+C6.A	a37a09b9-e47b-4b71-891e-f836d7f1a251	batch
+C7.A	9041d5b9-181a-43c6-8e63-bb0f15110839	batch
+C8.A	3b910d53-5c33-4e45-8d93-f001046cf197	batch
+C9.A	4316f882-fdf1-4c89-95de-f814fbbfb963	batch
+C10.A	cd3e9d26-3095-41e0-b4f7-7dd5916612ea	batch
+C11.A	8137ac9d-aad5-4f2f-9853-80945955c902	batch
+C12.A	b5425273-46e8-4d02-9f64-26c064079d76	batch
+C13.A	151e7f74-ea53-4517-ab29-b76c7dabbff8	batch
+C14.A	02ca4e10-6b5e-463a-b460-bca638be4f47	batch
+# C6.A grew a cut slab of sandy ground in the foreground from 0.6 s (the STYLE leak): one re-render with FLATLOT, 10.00 from the reserve
+C6.B	5fd88e6b-445b-4d0e-9d95-dce4b0191a1f	re-render of C6 with FLATLOT
+C6	5fd88e6b-445b-4d0e-9d95-dce4b0191a1f	accepted (try B): the push-in to the motor over flat sand
+# C12.A orbited well but opened a pit in the lower-right lot from 1 s (the STYLE leak): one re-render at 6 s with AIRLOTC, 15.00 from the reserve
+C12.B	51a429af-f7cb-4aee-b650-e61661d07b74	re-render of C12, 6 s
