@@ -31,7 +31,9 @@ shot. The AI label is on every time.
   "strategy2.md"). Scripts for style-2 videos go in `pipeline/` with the prefix `s2-NN-` (s2-01, s2-02, …).
 
 **Status on 21 Nov 2026.**
-- Nothing made yet. The paste-in prompt to start one is section 11.
+- **s2-01 at Gate A (21 Nov 2026):** the kickoff asked for I1 (the gondola) with builder b and cut B plus A. I1 failed the Gate A
+  check and was dropped (3); the plan is I5, the chicken coop (`pipeline/s2-01-beat-sheet.md`). Nothing generated. The paste-in
+  prompt is section 11.
 - **The hold in CLAUDE.md section 0 comes first:** the user's in-app checks of both accounts (YouTube Studio → Restrictions and
   youtube.com/features; TikTok → Account status). They decide whether a new YouTube channel is allowed (only if the old one is in
   good standing; never to get around a strike).
@@ -163,7 +165,17 @@ if more than about three AI build videos on the same object went up in the last 
 For each: frame 0 → the event by 1 s; the outside ladder (one locked view); the inside ladder (one locked view from the door); the
 last touch; the witness for cut B; watch-outs; demand.
 
-**I1. The ski gondola that became a treehouse** (a snowy backyard; ski season, post in December)
+**Re-checked later on 21 Nov 2026 with the content farms' own phrasing** ("abandoned / old <object> turned into a cozy / tiny
+home", "restoring old <object>"), which the first check missed, and with the Shorts dated (`yt_channels.py shorts:<id>`): **the
+genre is farmed on YouTube.** Seven of the eight objects have a cluster of AI build Shorts (most at 0.5–3K views) and long AI
+story videos from the last few weeks: I1 the gondola (about 20 Shorts from Feb to Oct, the best 1.8M; five long ones 5 days to 4
+weeks old), I2 the signal box (about 12; long ones 11 days, 13 days and 3 weeks old), I3 the fire lookout (about 20; a long one 8
+days old), I4 the turbine blade (about 8), I6 the windmill (about 14; long ones 5 days to a month old), I8 the grain silo (about 14,
+the best 155K, labelled AI; long ones a day to a month old): all over the topic rule. I7 the glass cottage is at the limit (three
+since 14 Nov). **I5 the chicken coop passes** (six AI coop-to-home Shorts, 27 Jul to 21 Oct, 1.0K–6.0K; one in the last 30 days, a
+kitten cottage) and became s2-01.
+
+**I1. The ski gondola that became a treehouse** (a snowy backyard; ski season, post in December). **Dropped 21 Nov 2026: crowded.**
 - **Frame 0:** a snowy backyard with a bare oak; a dented, faded red gondola cabin on a flatbed truck, the builder beside it.
   **By 1 s:** a crane lifts it and it swings toward the camera, snow sliding off its roof.
 - **Outside:** a platform built between the oak's branches → the gondola set on it → a ladder and a small railed deck → the
@@ -176,7 +188,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Demand:** "Restoring an old mountain cable car into a cozy tiny cabin" 1.8M (a Short), a ski-village Short 989K; no other
   gondola builds on the page.
 
-**I2. The railway signal box that became a home** (a country branch line)
+**I2. The railway signal box that became a home** (a country branch line). **Crowded (21 Nov 2026).**
 - **Frame 0:** an abandoned brick-and-timber signal box beside the tracks, boarded windows, ivy. **By 0.5 s:** a train thunders
   past in the foreground; the box shakes, leaves and dust fly.
 - **Outside** (locked view from across the tracks, low, behind a fence): ivy off → new windows → the roof re-slated → paint in
@@ -188,7 +200,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Demand:** railway-enthusiast Shorts (a signalman 467K), a night in a signal box 11K (Short) and 273K (long); no conversion
   builds on the page. An enthusiast audience, the kind CLAUDE.md 1.6 found gets reach.
 
-**I3. The fire lookout that became a sky cabin** (a forested ridge)
+**I3. The fire lookout that became a sky cabin** (a forested ridge). **Crowded (21 Nov 2026).**
 - **Frame 0:** a rickety wooden fire lookout on a ridge in fog, its glass cab broken. **By 1 s:** a gust rips the old tin roof off
   the cab and it tumbles away down the slope (nobody near it).
 - **Outside** (locked view from a rock beside it, the tower filling the frame): new stairs → a new cab frame → wraparound windows
@@ -200,7 +212,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Demand:** lookout-life Shorts 5.6M, 2.6M, 1.6M; restorations in long videos 2.7M (two months old) and 2.7M (one month): a hot
   topic, with no AI build Shorts on the page.
 
-**I4. The wind-turbine blade that became a cabin** (a windy hill by the sea)
+**I4. The wind-turbine blade that became a cabin** (a windy hill by the sea). **Crowded (21 Nov 2026).**
 - **Frame 0:** an empty grassy hill by the sea, cows grazing. **By 1 s:** a giant white blade on an extra-long truck swings round
   the bend; the cows scatter.
 - **Outside:** a section of the blade set on a stone base → glass at both ends → a deck at the round end → lights at dusk, the wind
@@ -211,7 +223,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Watch out:** dust masks when cutting fibreglass; no turbine-maker logos.
 - **Demand:** nothing on the page (the results are small home turbines): untested, and the most novel picture of the eight.
 
-**I5. The chicken coop that became a guest cabin** (a suburban backyard)
+**I5. The chicken coop that became a guest cabin** (a suburban backyard). **Passes (21 Nov 2026): s2-01, at Gate A.**
 - **Frame 0:** a sagging old wooden coop with hens pecking. **By 1 s:** its roof gives way in a puff of straw and feathers; the
   hens scatter, unhurt.
 - **Outside:** the hens moved to a new little coop beside it → the old coop's frame rebuilt bigger → windows → a porch → paint →
@@ -222,7 +234,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Watch out:** animals unharmed; no real people named.
 - **Demand:** coop builds are big on Shorts (5.2M, 2.4M, 1.0M); a coop turned into a guest cabin isn't on the page.
 
-**I6. The broken windmill that became a round home** (a hill in farmland)
+**I6. The broken windmill that became a round home** (a hill in farmland). **Crowded (21 Nov 2026).**
 - **Frame 0:** a derelict brick windmill with broken sails. **By 1 s:** a broken sail snaps in the wind and crashes into the field
   (nobody near it).
 - **Outside:** scaffolding → a new cap → new sails turning → windows → a railed balcony round the middle → lights.
@@ -232,7 +244,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Watch out:** no real mill names; a harness at height.
 - **Demand:** little conversion content (a windmill stay 4.6K); "He Built A Windmill From Junk" 15M is a different topic.
 
-**I7. The heap of old windows that became a glass cottage** (a garden in late autumn)
+**I7. The heap of old windows that became a glass cottage** (a garden in late autumn). **At the limit (21 Nov 2026).**
 - **Frame 0:** a muddy garden and a big tarp over a heap. **By 1 s:** the builder whips the tarp off: hundreds of old wooden
   windows.
 - **Outside:** a timber frame → the windows fitted as a patchwork wall → a roof of old glass doors → the frames painted in colours
@@ -243,7 +255,7 @@ last touch; the witness for cut B; watch-outs; demand.
 - **Watch out:** gloves for glass; nothing shatters near anyone.
 - **Demand:** modest: real DIY Shorts 22K–116K; long videos 1.6–3.5M.
 
-**I8. The grain bin that became a round home** (a farm field) — check first
+**I8. The grain bin that became a round home** (a farm field). **Crowded (21 Nov 2026).**
 - **Frame 0:** a rusty corrugated grain bin in stubble. **By 1 s:** pigeons burst out of its door as the builder pulls it open.
 - **Outside:** windows cut (sparks) → a wraparound deck → a new roof cone with a skylight → stain → lights.
 - **Inside:** the round shell → insulation → floor and a spiral stair → a ring kitchen → a loft bedroom under the cone → cozy.
@@ -364,6 +376,8 @@ The tools and how to call them are CLAUDE.md 6.0. For style 2:
 **Step 0: Start.** `balance` (and the renewal date if it's low). Read CLAUDE.md section 0, then this file. Re-fetch @scapemagicc's
 list (`PYTHONPATH=<dir> python3 -m yt_dlp --flat-playlist -J https://www.tiktok.com/@scapemagicc`, CLAUDE.md 12.1) and rerun the
 idea's saturation check (`pipeline/youtube/yt_saturation.py <dir> "<object> tiny house build" "<object> turned into home"`).
+**Search the farms' phrasing too** (`yt_search.py <dir> "abandoned <object> turned into cozy cabin" "old <object> turned into tiny
+home" "restoring old <object>"`), date the Shorts (`yt_channels.py <dir> shorts:<id>`), and count long AI story videos too (3).
 
 **Step 1: The story (free). GATE A.**
 - The idea (section 3 or the user's), and why it passed the checks: not on @scapemagicc's list, the topic rule, demand.
@@ -463,7 +477,11 @@ TikTok and YouTube copy (8). Then log the video in section 9, add lessons to sec
 
 ## 7. Production lessons (style 2)
 
-**None of our own yet** (nothing made by 21 Nov 2026). Add each lesson with its date and the video it came from.
+Add each lesson with its date and the video it came from.
+- **The genre is farmed on YouTube** (21 Nov 2026, s2-01 Gate A): searched with the farms' own titles ("abandoned X turned into a
+  cozy cabin"), seven of our eight objects had 8–20 AI build Shorts (most at 0.5–3K views) and long AI story videos from the last
+  few weeks; the first check, with plainer phrasing, missed them. Search their phrasing, date the Shorts, count the long ones (6.2
+  Step 0). An object with real DIY demand and few AI copies (the chicken coop) is the opening.
 
 **Carried over from CLAUDE.md 7** (they're about the tools, not the look):
 - Seedream (7.1): references copy the whole layout, so use them for "the same scene, change X"; "Extreme close-up: the [part]
@@ -504,7 +522,7 @@ The builder key (job id): not made yet. The accounts: not decided yet (2.1).
 
 | # | Title | Made | Cut | Clip model | Credits (quoted) | Length; shots, median | Posted (where, when) | TikTok at 72 h | YouTube at 72 h |
 |---|---|---|---|---|---|---|---|---|---|
-| s2-01 | | | | | | | | | |
+| s2-01 | (I5) the chicken coop that became a guest cabin | at Gate A, 21 Nov | B and A | kling4_0 or wan2_7 (Gate D) | (about 185) | | | | |
 
 ---
 
@@ -599,3 +617,6 @@ lessons to section 7, and update both copies of the memory.
   videos and measured three more of their top four (the 91.5M mud cave, the 76.5M garden, the 28.3M tires): one spine, two cuts
   (1.3–1.4). Eight ideas checked against their list and YouTube (3). Priced at the day's rates (kling4_0 2.50 a second): the
   standard plan 185.44 with the reserve (6.1). Nothing made.
+- **21 Nov 2026 (later):** s2-01 started from the kickoff prompt (I1, builder b, cut B plus A). I1 dropped at the Gate A check (the
+  gondola is farmed: about 20 AI Shorts and five long AI videos); I2–I4, I6 and I8 crowded too on a re-check with the farms'
+  phrasing; I5, the chicken coop, passes and is at Gate A (`pipeline/s2-01-beat-sheet.md`).
