@@ -56,3 +56,15 @@ C10.A	3f4dcaa9-7d88-4f12-9671-86d0fb41cb25	try A: off the roof to the street, th
 C11.A	a07a0625-fc07-4fe7-8f09-16348595b65c	try A: the cars tune in, then in to the sign, ST5 -> SG, 8 s
 C12.A	99512e05-6755-4111-9579-04ba5c97469a	try A: back to the front, the tree, arches and snowman, SG -> FR6, 4 s
 C13.A	bb7de469-2413-4ac2-b1ef-365dd65429f9	try A: the finished show, FR6 start only, 5 s
+# all eleven back 21 Nov 2026, 23:48-23:58 UTC, every one usable on the first try (13 of 13 with the pilots); no re-render; clips 152.50 as quoted
+C2	cd0325e6-27cd-48de-8e12-4be889a1fd6e	accepted (try A): strings on 0.8-2.0 s, blackout at 3.0 s; camera still (PULL in the edit)
+C4	6c0bdd64-6373-4e6a-81ca-82002189004a	accepted (try A): rain from 0.4 s, at the outlet by 2.2 s, the strings dark by 3.6 s; camera 75%, parallax 1.55
+C5	2dc355c7-7f7c-4233-a66a-89dbc35ee7be	accepted (try A): the blue glow crawls 0.2-3.0 s, spark 3.2-3.8 s, red button out from 4.0 s; a real push-in (camera 100%)
+C6	77b83c7f-ecb3-4b4a-893a-965615fbdc24	accepted (try A): boxes shut by 0.4 s, lights on 1.0 s, back at the wide 2.8 s, blink 3.2-3.6 s; camera 75%, parallax 0.68
+C7	7a0f5dd4-c21a-455a-8e9b-0c8d02e94bd4	accepted (try A): at the bulb 1.8 s, pixels red then green 2.2-3.2 s, high view from 4.4 s; camera 83%, parallax 1.71
+C8	f67826d2-152a-4742-a748-8fd7034b076e	accepted (try A): at the roof edge 2.2 s, white by 2.0 s, pink at the far end from 3.4 s; camera 75%, parallax 0.97
+C9	a5ee1020-3ea5-4dad-8ca9-84ac23cf4514	accepted (try A): cable up 0.2-1.0 s, pink to white 2.0-3.0 s; camera still (PUSH in the edit)
+C10	3f4dcaa9-7d88-4f12-9671-86d0fb41cb25	accepted (try A): off the roof 0.6 s, at the street 1.8 s; camera 100%, parallax 0.87
+C11	a07a0625-fc07-4fe7-8f09-16348595b65c	accepted (try A): dashboard glows from 0.6 s, glide to the sign 3.4-6.0 s, head tilt 7.2 s; camera 88%, parallax 0.83
+C12	99512e05-6755-4111-9579-04ba5c97469a	accepted (try A): wide by 1.4 s, tree 1.2 s, arches 1.8-2.4 s, snowman 2.4 s, antlers 3.2 s; camera 50%, parallax 3.32
+C13	bb7de469-2413-4ac2-b1ef-365dd65429f9	accepted (try A): the show plays; a real slow push-in (4.9% a second, camera 100%)
