@@ -57,3 +57,5 @@ C6.B	5fd88e6b-445b-4d0e-9d95-dce4b0191a1f	re-render of C6 with FLATLOT
 C6	5fd88e6b-445b-4d0e-9d95-dce4b0191a1f	accepted (try B): the push-in to the motor over flat sand
 # C12.A orbited well but opened a pit in the lower-right lot from 1 s (the STYLE leak): one re-render at 6 s with AIRLOTC, 15.00 from the reserve
 C12.B	51a429af-f7cb-4aee-b650-e61661d07b74	re-render of C12, 6 s
+C12	51a429af-f7cb-4aee-b650-e61661d07b74	accepted (try B, 6 s): a gentle orbit over a flat lot, no pit; played at 0.82x with a PUSH
+# clips: 14 on screen from 16 renders (C6 and C12 twice); C12 at 6 s instead of 7

@@ -40,8 +40,10 @@ wheels and 13 rails, and rolls outside for the sun, while the bare floor inside 
 Four. Real grass or turf? #NFL #Stadium #HowItWorks
 
 Audience: No, it's not made for kids. Altered or synthetic content: leave unticked (a field sliced open like a cake can't be
-taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program); the frames to pick are
-listed below once the final is cut.
+taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program). The captions run without a
+break, so the frames to pick carry a word that matches the picture: **3.2-4.4 s, "546" on the row of wheels (recommended: it is
+the title's picture)**; 55.8-56.5 s, "OUTSIDE" on the field parked beside the stadium, inside the white ring. The only
+caption-free stretch is the last ~1.1 s (61.9-63.05 s), frame 0's solid face.
 Pin the comment question; reply to every comment in the first day.
 
 Facts behind the replies (checked 20-21 Nov 2026, search summaries; the source pages can't be opened from a session): the tray is

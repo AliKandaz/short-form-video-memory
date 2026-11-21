@@ -6,7 +6,8 @@
 #   A  the title's picture (SIDE1, the cut-open field): "IT'S ON / 546 WHEELS" with an arrow to the row of wheels
 #   B  the twist on the aerial (HI0, the field parked in the lot beside the stadium): "IT LIVES / OUTSIDE" with an arrow to the
 #      field
-#   C  plain frame with no text: the solid face dropping away from the field (a frame of the clean master)
+#   C  plain frame with no text: the solid face dropping away from the field, the wheels coming into view (the clean master
+#      at 1.2 s, frames/slice.png)
 import os, sys, math
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 W, H = 1080, 1920
@@ -94,7 +95,7 @@ def concept_C():   # plain frame, no text: the solid face dropping away (a frame
     return vignette(cv, 0.18).convert('RGBA')
 CONCEPTS = {'A': concept_A, 'B': concept_B, 'C': concept_C}
 # arrow targets (1080x1920 cover coordinates), measured on the rendered covers
-WHEELS_A = (700, 1330)   # the row of wheels on the rail
+WHEELS_A = (600, 1370)   # the row of wheels on the rail (measured on the rendered cover)
 FIELD_B = (760, 1280)    # the field parked in the lot
 
 def rounded(im, r):

@@ -166,3 +166,26 @@ C14 4 = **61 s (152.50 at 720p)**, the plan quoted; played at 0.90-1.09×.
   HI0, 4 s): the whole field slides out of the opening as one flat piece from ~0.6 s and stops in the lot by ~3.2 s, no second
   field (camera 0%, parallax 0.03; check_video says 0% because the field is 13-19% of the frame, under its whole-frame threshold;
   optical flow 5-19% of the frame each second): `PUSH` in the edit. Sheet `15-gateD.jpg`.
+- **The other 11 clips (21 Nov 2026):** one batch, back within ~15 minutes, 125.00. Kept first time: C3 (the roof slot narrows,
+  the camera sinks to the field), C5 (the swoop down to the tray's side), C7 (the rise back), C8 (the swoop to the cut face; the
+  sprinklers burst on at ~2.2 s), C9 (water streaks down the sand and spills from the pipe), C10 (the court assembles from ~2.3 s;
+  camera dead still: `PUSH`), C11 (out through the opening into the sun and up; ~0.4 s of bare desert mid-flight), C13 (down to
+  the tortoise; ~0.4 s mid-swoop where the tray looks sunk in a trench, kept), C14 (the face rises back and lands on SIDE0;
+  camera still: `PULL` from 1.12x so the last frame is frame 0). Re-rendered once each from the reserve: C6 (try A grew a cut
+  slab of sandy ground in the foreground from 0.6 s; try B with FLATLOT clean, 10.00) and C12 (try A orbited well but opened a
+  pit in the lower-right lot from 1 s; try B at 6 s with AIRLOTC clean, 15.00; played at 0.82x with a `PUSH`).
+- **The edit:** `15-build.py` (from 14's): three whips (C3 -> C4, C9 -> C10, C13 -> C14), `PUSH` on C1, C4, C10 and C12 (C10 at
+  0.24 measured 2.4-2.9 %/s and left a 7 s "still" stretch; 0.28 fixed it), `PULL` on C14, `EASE_AFTER` on C2, C5, C11 and C13,
+  ten effects placed on their pictures, four pointers (arrows along the rails as the field rolls out, a ring on the motor, arrows
+  down through the sand into the pipe, a ring round the parked field), MERGE captions "Five hundred and forty-six" as one "546"
+  cue, CAPMAP 76, 19 and 13 as digits. BED_UNDER 17 measured 19 dB under the voice in the quiet moments.
+- **Spend:** 196.25 against the 196.94 quote (stills 18.75, clips 152.50, two re-renders 25.00); balance 1,030.00.
+- **The final (21 Nov 2026):** 63.05 s; picture moving in 87% of the seconds (longest stretch without movement 2 s); camera moving
+  89%, big moves in 21 seconds (longest gap 9 s), never still over 3 s; median parallax 0.17 px, under the 0.3 target, because
+  five clips are changes seen from a held position with a push added in the edit (the flights alone measure 2-8.5 px); captions
+  ~57 px at 75% down; bed 19 dB under the voice. The hook's frames: 0 s the solid face ("CUT"), 0.5 s the face starting to drop
+  with the sand showing above it, 1.0 s the layers and the steel tray in the lower half, 2.0 s the row of wheels; the last frame
+  is frame 0's solid face.
+- **Delivered:** final `62246da2-14c5-4b73-8146-42c40da7e9a0`, voice-only `f062abfb-7392-44a3-844b-586dc6e0d299`, clean master
+  `f9af1d63-cb62-4743-978e-efe65ef6dbd4` (Higgsfield uploads); covers in `15-covers/` (A "IT'S ON / 546 WHEELS" on SIDE1, B "IT
+  LIVES / OUTSIDE" on HI0, C the reveal at 1.2 s, plain); post copy `15-post-copy.md`.

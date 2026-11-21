@@ -59,12 +59,13 @@ def seg_splice(name):
 # Kling held the camera still in C3 (the ice), C5 (the strawberry) and C17 (the crack), so the edit adds a slow push-in toward
 # the change, and the clip after each starts at that zoom and eases back out. C19 (the closing wide) also came back still: PULL
 # starts it zoomed in and pulls back to exactly the first frame's framing, so the loop lands on W0.
-PUSH = {"C1": (440, 1300, 0.10), "C4": (620, 1300, 0.13), "C10": (540, 900, 0.24)}   # (focus x, focus y, zoom gained):
+PUSH = {"C1": (440, 1300, 0.10), "C4": (620, 1300, 0.13), "C10": (540, 900, 0.28), "C12": (650, 1300, 0.22)}   # (focus x, focus y, zoom gained):
         # C1 (the face drops), C4 (the field rolls out) and C10 (the court, 8 s) came back with a dead-still camera (21 Nov);
-        # about 3% a second, so camera_path.py counts the seconds as moving
+        # about 3% a second, so camera_path.py counts the seconds as moving (C10 at 0.24 measured 2.4-2.9%/s: 7 s 'still');
+        # C12 (the orbit, re-rendered at 6 s, played at 0.82x) circles too slowly to count, so it gets a slow push too
 PULL = {"C14": (440, 1300, 0.12)}   # (focus x, focus y, zoom at the start, back to 1.0 at the end): C14 (the face rises
                                      # back) came back still; it ends exactly on frame 0, so the loop lands
-EASE_AFTER = {"C2": "C1", "C5": "C4", "C11": "C10"}; EASE_S = 0.8
+EASE_AFTER = {"C2": "C1", "C5": "C4", "C11": "C10", "C13": "C12"}; EASE_S = 0.8
 
 def zoom_xy(fx, fy):
     return (f"max(0,min(iw-iw/zoom,{fx/W}*iw-iw/zoom/2))", f"max(0,min(ih-ih/zoom,{fy/H}*ih-ih/zoom/2))")
@@ -188,6 +189,7 @@ POINTERS = [   # measured on 100 px grids over seg/<SEG>.mp4 (21 Nov 2026); time
     ("C4", "arrows", 0.8, 3.6, 2.9, {"p0": (430, 1100), "p1": (800, 1600)}),   # B6 "and roll it outside": along the rails
     ("C6", "ring", 0.8, 4.0, 3.0, {"c": (480, 1300), "r": 140}),             # B9 "Only seventy-six have motors": the motor
     ("C9", "arrows", 0.6, 3.4, 2.5, {"p0": (620, 500), "p1": (520, 1250)}),    # B12 through the sand and the mat into the pipe
+    ("C12", "ring", 3.2, 7.2, 4.0, {"c": (560, 1255), "r": 400}),            # B17 "a football field parked outside": the field
 ]
 
 def pointer_events(t0, t1):

@@ -51,11 +51,16 @@ plan, the order and the budget are section 2; the evidence behind it is section 
 - **The next video is on hold** (recommended to the user on 21 Nov 2026) until the user reports the in-app checks: YouTube
   Studio → Content → the Restrictions column, and youtube.com/features (strikes); TikTok → Settings and privacy → Account →
   Account status. Then decide with the user: a fresh YouTube channel for new videos (only if the old one is in good standing),
-  the topic rule, the lane and the length (1.6). **At that moment another session had video 15 (V6, "Why This NFL Field Is
-  Sitting on 546 Wheels") at Gate B, quoted at 196.94** (`pipeline/15-*`, commit `f84face`): its own Gate A check found about
-  20 Shorts on the rolling NFL field since Sep 2026 (Cutaway Instinct 32K in our look; one with the draft's title and hook), so
-  it was retitled, which is the pattern 1.6 says hasn't worked. Don't render it until the user decides. **kling4_0 rose to 2.50
-  a second at 720p on 21 Nov 2026** (from 2.25; `15-beat-sheet.md`), so 64 s of clips now cost 160, not 144.
+  the topic rule, the lane and the length (1.6). **Video 15 (V6) went ahead anyway:** another session had it at Gate B (196.94)
+  when this hold was written; shown the hold and the topic rule at Gate C, the user approved Gates C and D there, and it was
+  made on 21 Nov 2026 (next bullet). Its Gate A check had found about 20 Shorts on the rolling NFL field since Sep 2026
+  (Cutaway Instinct 32K in our look), so it was retitled, the pattern 1.6 says hasn't worked: read its 72 h numbers with that
+  in mind. The in-app checks are still the next step before V4. **kling4_0 rose to 2.50 a second at 720p on 21 Nov 2026** (from
+  2.25), so the standard plan is now 61 s of clips (6.1).
+- **Video 15 (V6, "Why This NFL Field Is Sitting on 546 Wheels") was made on 21 Nov 2026**, the fourth of the ten: 63.05 s,
+  196.25 credits against a 196.94 quote (two clips re-rendered from the reserve); balance 1,030.00 after it. Not posted yet
+  (copy and covers in `pipeline/15-post-copy.md` and `pipeline/15-covers/`). The opening: the solid face under the field drops
+  away from ~0.3 s and the row of wheels shows by ~2 s; the twist is that the field lives outside most days (3, V6).
 
 **Status on 20 Nov 2026:**
 - Videos 01–10 are made and posted on both platforms (9.2). Credits: 1,762.25 after video 10 (check `balance`).
@@ -85,8 +90,9 @@ plan, the order and the budget are section 2; the evidence behind it is section 
   cooling-tower Shorts on 8–19 Nov; the opening is the tower being cut open (3, V3).
 - **Next (21 Nov 2026):** the user's in-app checks (above), then the decision in 1.6 before any more credits. The 72 h reads (8.4) of video
   12 after 22:07 UTC on Sat 21 Nov 2026, of video 13 after 23:04 UTC on Sun 22 Nov and of video 14 after 20:00 UTC on Mon 23 Nov.
-  Still to do: the TikTok handle (8.3) and the free re-cut test (2.2). Each video quoted at 200 or less; the balance (1,226.25)
-  covers about six more at the cap, so check the Ultra plan's renewal date before the sixth.
+  Post video 15 (made 21 Nov; not on the same day as another video). Still to do: the TikTok handle (8.3) and the free re-cut
+  test (2.2). Each video quoted at 200 or less; the balance (1,030.00 after video 15) covers about five more at the cap, so check
+  the Ultra plan's renewal date before the fifth.
 
 **Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
 · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
@@ -161,7 +167,7 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
 | **You Made It**, YouTube @youmadeit3d | 128K subscribers, 13 Shorts; Cu Chi tunnels 36M, cave home 23.5M, hole in your yard → basement 8.8M (9 Nov) | Quality over volume ("about 12 hours a video"); true escape and war stories; "your yard" |
 | **You Built It**, YouTube @youbuilt_it | 64.7K subscribers, 60 Shorts; swimming pool 8.3M, road 5.6M, roof 3.4M (9 Nov) | Things you'd want at your own house |
 | **NET FILES**, TikTok @net.files6 | 276 videos, 72.2M views; quicksand tomb 10.2M; mountain fortress 1.3M in 33 h; most recent videos 5K–15K (17 Nov) | A defense puzzle, the place named only at the end; volume plus a few hits |
-| **Cutaway Instinct** (YouTube Shorts) | stadium and arena cutaways in our style; best Shorts 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov) | A direct rival in our look: search it before any stadium or arena idea (V4, V6) |
+| **Cutaway Instinct** (YouTube Shorts, @CutawayInstinct) | stadium and arena cutaways in our style, photoreal with labels; 21.4K subscribers, 90 videos (20 Nov 2026); best Shorts "Crypto.com Arena: What's Under the Lakers' Court?" 1.3M (V4's topic) and Barclays Center's truck turntable 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov); State Farm Stadium's rolling field 32K (25 Oct 2026, V6's topic) | A direct rival in our look: search it before any stadium or arena idea; it already has V4's and V6's topics |
 | **Zack D. Films** (YouTube Shorts) | owns "what happens if you…" survival scenarios: cruise ship 50M, falling through ice 64M (16 Nov) | Avoid his topics; check every idea against him |
 | **@thewhatifstudio**, TikTok | 60.9K followers; what-if simulations median 457K, its builds median 35K (14 Nov) | A choice put to the viewer drives comments |
 | **@scapemagicc** ("Aiworkflows2"), TikTok | 722.5K followers, 85 videos, 382.6M views; posts daily at about 6 pm ET; its last 29 videos: median 375K, 7 over 1M, 10 under 50K, lowest 7.6K; a photoreal AI tiny house built inside plastic septic tanks 9.8M in 2 days (17 Nov), a garden turned into a tiny house 76.4M (27 Sep); the bio sells the workflow (20 Nov) | A different product: a photoreal AI builder, no narration, no facts, and TikTok labels it AI. Its devices: a conflict in the first second (the pool party next door splashes him; he glares with a black eye), one locked high view the video keeps returning to so the progress reads at a glance, a hard cut about every 1.4 s with tool close-ups between, build sounds only, and the last shot mirrors the first with the tables turned. Its topics are in 13.2 |
@@ -275,7 +281,7 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
 | V3 | Why Nuclear Cooling Towers Are Empty Inside → **made 20 Nov 2026 as video 14, "Why It Rains Inside a Nuclear Cooling Tower"** | the tower's wall slices open: empty | 72M (footage); five small animated copies 8–19 Nov 2026, all under 1.5K, one with the exact old title (3, V3) | The simplest set to draw; cold-day plumes |
 | V4 | The Ice Under This Court Cancelled an NBA Game | a floor panel lifts off white ice | 7.4M; 386K this month | NBA and NHL in season |
 | V5 | Why Water Heaters Can Launch Through the Roof | the tank rockets through the roof | small Shorts; MythBusters 1.65M long | The hydrant's audience: your house |
-| V6 | Why This NFL Field Rolls Outside | the whole field slides out of the stadium | 2.8M, 2.6M, 1.7M | NFL season |
+| V6 | Why This NFL Field Rolls Outside → **made 21 Nov 2026 as video 15, "Why This NFL Field Is Sitting on 546 Wheels"** | the solid face under the field drops away; wheels | 2.8M, 2.6M, 1.7M; about 20 Shorts since Sep 2026, Cutaway Instinct 32K (3, V6) | NFL season |
 | V7 | What's Hiding Under a Wave Pool | a wave bursts out of the dark opening | 47.6M, 24.6M, 4.35M | The biggest demand of the ten |
 | V8 | What's Hiding Behind the Pins at a Bowling Alley | a strike; the camera follows the ball | 62M, 25M | Hardest machinery: after the set-building is routine |
 | V9 | The Airport Baggage System That Ate Suitcases | a cart crashes and a suitcase bursts | 18.4M (footage) | Before Christmas travel (mid-December) |
@@ -286,7 +292,8 @@ The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
   stopped at its quote; check `balance`): about eight videos at the cap, or all ten at an average of 176. The Ultra plan's monthly
   credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
   balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal. **20 Nov 2026:** V3 cost 161.50,
-  so the balance is 1,226.25: about six more at the cap (V4–V9); V10 needs the renewal.
+  so the balance is 1,226.25: about six more at the cap (V4–V9); V10 needs the renewal. **21 Nov 2026:** V6 cost 196.25 (kling4_0
+  now 2.50 a second; 6.1), so the balance is 1,030.00: about five more at the cap.
 - **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
   dates: V2 by Tue 24 Nov 2026 (posted 19 Nov); V9 before mid-December.
 
@@ -501,7 +508,8 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   court was slippery, after the Flyers had played the night before; it was made up on 30 Jan 2017.
 - **⚠ 21 Nov 2026: already made by a small rival:** How Things Work's "Why Doesn't Hockey Ice Melt" (1.4K; 1.6). Under the
   topic rule in 1.6 this idea needs a fresh count before anything is spent.
-- **⚠ before Gate A:** search Cutaway Instinct (stadium and arena cutaways in our style, 1.4) for the ice under the court;
+- **⚠ before Gate A:** Cutaway Instinct (1.4) **already has it** (found 21 Nov 2026): "Crypto.com Arena: What's Under the
+  Lakers' Court?", 1.3M, so V4 only as the story title (the 2016 cancelled game), or dropped under the topic rule (1.6);
   "brine colder than ice" (rinks run brine or glycol at roughly 16–18 °F: check); "players kept slipping"
   (reports say the floor was slick; keep the wording to what they say).
 - **Watch out:** no team names, logos or colours on the court or the ice; players and crew small and anonymous.
@@ -586,6 +594,26 @@ these topics gained small 3D copies between 15 and 18 Nov 2026.
   the tray; concerts and trade shows on the bare floor; "a tortoise could keep up" (giant tortoises walk about 0.2 mph, ~18 ft a
   minute: check); how the tray is driven (motors).
 - **Watch out:** no team names, logos or colours, and no stadium name on screen.
+- **Made on 21 Nov 2026 as video 15, "Why This NFL Field Is Sitting on 546 Wheels"** (no Short with that title). The saturation
+  check of 20 Nov 2026 found about 20 Shorts on "this NFL field rolls outside" since Sep 2026: The World Is Smarter Than's "Why
+  This NFL Stadium Rolls Its Entire Field Outside" (4 Sep, 85K), Cutaway Instinct's "State Farm Stadium's Retractable Field: How
+  It Rolls Outside" (25 Oct, 32K, our look with labels), Builders Input's "Why This NFL Field Rolls Outside to Sunbathe" (15 Nov,
+  3.2K: the draft's title and hook), EngineeringBites (18 Nov, the draft's But/So chain), @builtin60 (18 Nov, the 2023 Super Bowl
+  slip) and eight more at 0.9K–4.4K; the topic's biggest is Hindt Media's "This 19-Million-Pound Football Field Can MOVE" (1 Oct
+  2026, 2.8M, photoreal, frame 0 the tray on its rails). Zack D. Films: none. So the angle changed: the field cut open to show its
+  wheels as the hook (none of the 20 opens that way), the 76 one-horsepower motors, "it lives outside most days" as the twist,
+  the 2024 Final Four broadcast as the "that's why", and a desert tortoise that could outrun it as the joke; 219 spoken words.
+  Under 1.6's later topic rule it would have been dropped, not retitled. Everything else in `pipeline/15-*`.
+- **Resolved at Gate A (20–21 Nov 2026, search summaries; uni-engineer.com and operations.nfl.com are blocked from a session):**
+  76 of the 546 wheels have 1-hp electric motors, 76 hp in all (Uni-Systems; a Review-Journal "48 motors" not used); the one-way
+  trip is ~741 ft in ~75 min at ~1/8 mph (NFL Operations, AP; the stadium says 70 min), so "over an hour"; a desert tortoise
+  walks ~0.2 mph (NPS Joshua Tree, Oakland Zoo), faster than the field; the root zone is sand with stabilizer fibres over a
+  Draincore mat, with pipes to a main drain under the tray (Turf Magazine, Invisible Structures); the roof seals the stadium for
+  air conditioning and the grass goes out for sunlight; the field is inside on game days and outside on the others, and comes in
+  on some cold winter nights (so "most days"); with the field out the floor is bare concrete for concerts, trade shows and the
+  2017 and 2024 Final Fours (the stadium; Carbonhouse; Cronkite News); the 2024 Final Four broadcast on TBS showed the grass
+  outside (12News). The 2023 Super Bowl slip has no agreed cause (overwatering, too much ryegrass, or condensation on the
+  rails): left out.
 
 **V7. What's Hiding Under a Wave Pool** (a water park)
 - **Titles:** YouTube "What's Hiding Under a Wave Pool" (no match found); TikTok "What's behind that dark hole in the wave pool? 🌊"
@@ -873,7 +901,7 @@ between stills (15 Nov 2026).
 | Job | Tool | Settings | Cost |
 |---|---|---|---|
 | Stills (style key, camera positions, stages) | Higgsfield `generate_image` / `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"`; references as `medias` with role `image_references` | **1.25 an image** |
-| Clips | `generate_video` / `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, ordered middle frames in `image_references` | **2.25 a second at 720p, 3.25 at 1080p** |
+| Clips | `generate_video` / `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, ordered middle frames in `image_references` | **2.50 a second at 720p, 3.75 at 1080p** (from 21 Nov 2026; 2.25 and 3.25 before) |
 | Price checks | `estimate_image_cost`, `estimate_video_cost` (used for video 11 on 18 Nov 2026), or `get_cost:true` | one call per model, resolution and duration | free |
 | Other clip models (priced 20 Nov 2026; none tested in our pipeline) | `wan2_7` (2–15 s, own sound, start and end frames), `veo3_1_lite` (4, 6 or 8 s), `kling3_0`, `seedance_2_0`, `seedance_2_5`, `grok_video_v15_lite`, `kling_4_0_flash` | 720p, 9:16 | Wan 2.7 1.5 a second; Veo 3.1 Lite 6 a 4 s clip, sound or not; Kling 3.0 2 a second; Seedance 2.0 4.5 (3 at 480p); Seedance 2.5 7; Grok 1.5 Lite 1 (no sound); Kling 4.0 Flash 9 a 3 s clip. `kling4_0` bills at least 3 s (2 s is clamped to 3). Stills: `gpt_image_2_6` medium 1k 0.5 |
 | Narration | ElevenLabs `creative_generate_speech`, `eleven_v4`, Daniel (5) | `estimate_only:true` first | about 1 ElevenLabs credit a character: 1,400–1,540 a take |
@@ -908,17 +936,20 @@ re-renders.
 against a 194.64 quote: the standard plan below held. **Video 13** (19 Nov 2026): 188.00 for 64.06 s (stills 23.75 from 20 tries,
 clips 144.00, two re-renders 20.25) against a 197.23 quote: held again. **Video 14** (20 Nov 2026): 161.50 for 63.9 s (11 stills
 from 14 tries, 17.50; clips 144.00; no re-renders) against a 188.60 quote: fewer stills (11 for 9 positions) saved ~6 against the
-standard plan, and the reserve went unused.
+standard plan, and the reserve went unused. **Video 15** (21 Nov 2026, the first at 2.50 a second): 196.25 for 63.05 s (12 stills
+from 15 tries, 18.75; clips 152.50 for 61 s; two re-renders 25.00, both for the cut-ground leak outdoors, 7.2) against a 196.94
+quote.
 
-**The standard plan under the cap (18 Nov 2026; my estimate from the prices above):**
+**The standard plan under the cap (updated 21 Nov 2026 for kling4_0 at 2.50 a second; the 18 Nov plan was 64 s of clips, 144.00,
+and 27.50 of stills, 197.23 with the reserve):**
 
 | Item | Plan | Credits |
 |---|---|---|
-| Clips | every line a clip, 720p, about 64 s in total for a 62–64 s video (no more than ~1 s over the lines) | 144.00 |
-| Stills | 7–9 camera positions and their stages: about 16 keyframes on screen, at most 22 tries | 27.50 |
-| Base | | 171.50 |
-| Reserve (15%) | one clip re-render, a few still retries | 25.73 |
-| **Quote** | | **197.23** |
+| Clips | every line a clip, 720p, about 61 s in total for a 62–64 s video (played at 0.9–1.1×; ~1 s under the lines) | 152.50 |
+| Stills | 7–8 camera positions and their stages: about 12 keyframes on screen, at most 15 tries | 18.75 |
+| Base | | 171.25 |
+| Reserve (15%) | one or two clip re-renders, a still retry | 25.69 |
+| **Quote** | | **196.94** |
 
 - Spend the reserve only on what breaks; a run that has used it stops and asks before going further.
 - **Where the savings come from:** about 220-word scripts instead of 270 (4.3); clips planned at the length of their lines (6.1
@@ -1056,8 +1087,13 @@ YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies o
   the event first ("On the first frame the manhole cover bursts upward on a column of smoke…") and says it starts on frame 1.
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
 
-### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026; video 14's on 20 Nov 2026)
-**Start from video 14's set** (20 Nov 2026) and rename the prefix: `14-prompts.py` (TOWERZ and SKYZ against cut ground in views
+### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026; video 14's on 20 Nov 2026; video 15's on 21 Nov 2026)
+**Start from video 15's set** (21 Nov 2026) and rename the prefix: `15-prompts.py` (AIRLOT names the lot whole in outdoor and
+aerial stills; named-key fixes like `HI0.C` and `TO0.B` with their own REFS), `15-mk.py`, `15-clips.py` (FLATLOT and AIRLOTC on
+outdoor clips; ONEFIELD wherever the moving object shows), `15-timing.py`, `15-build.py` (as 14's, plus MERGE: a run of spoken
+words captioned as one cue, "Five hundred and forty-six" → "546"), `15-flightmap.py` (the flight map as a diagram of position
+thumbnails, when no single wide shows every position), `15-thumbnail.py`, `15-post-copy.md` and `15-beat-sheet.md`. Video 14's set,
+which it was made from: **video 14's set** (20 Nov 2026), renamed by prefix: `14-prompts.py` (TOWERZ and SKYZ against cut ground in views
 inside a cut-open structure and in the air; named-key edits like `W0.B` with their own REFS), `14-mk.py` (a key with a dot is its
 own prompt when it exists, else the base key's), `14-clips.py`, `14-timing.py`, `14-build.py` (as 13's, plus **chained whips**: a
 clip between two whips, C9 → C10 → C11, used to drop the second whip), `14-thumbnail.py` (a plain cover from a frame of the clean
@@ -1123,7 +1159,19 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   full ring; a LOCKZ edit ("the near half of the rim and of the shell below it is gone, so only the far half remains, a half ring")
   fixed it.
 - **The closed "before" of a cutaway is a LOCK edit of the cut-open still** (video 14, ST0 from ST1): "the tower is whole and
-  closed: its near half is NOT cut away" kept the framing exactly, which a slice reveal needs.
+  closed: its near half is NOT cut away" kept the framing exactly, which a slice reveal needs. It worked again for a field (video
+  15, SIDE0 from SIDE1: "one plain, solid, flat face of smooth grey concrete … no layers … no wheels show").
+- **The STYLE line's cut ground leaks into outdoor and aerial views** (video 15, 21 Nov 2026): a LOCK edit of the aerial dug a
+  trench of rocks into the lot in front of the field (HI0.B), and the tortoise's LOCKZ edit dug a pit beside it (TO0.A). Naming
+  the lot whole fixed both first time (AIRLOT: "the desert ground of the lot is whole and flat all round the tray and the rails:
+  there is no trench, no pit, no hole and no cut face of ground anywhere in the lot"). Put it on every outdoor still from the start.
+- **A set key can come back better than planned** (video 15, SIDE1): asked for a straight view of the cut face, seedream gave a
+  three-quarter view toward the huge opening with the rails running out to it, so the opening the field rolls through was in
+  frame 0. Kept, and the plan fitted to it.
+- **A reverse aerial invents the outside of a building the key shows only from inside** (video 15, HI0 from SIDE1): it drew grass
+  inside the bowl as well as the field parked outside. "Inside the stadium there is no grass at all" fixed it, but the LOCK edit
+  that also closed the roof zoomed in (HI0.B); redoing the fix from the first try with "the camera stays far back: the whole
+  stadium and the whole field fit in the frame, exactly as in the reference" held the framing (HI0.C) and kept the chain short.
 
 ### 7.2 Clips (Kling)
 - `kling4_0` takes 12–13 jobs at once on Ultra and finishes them in 4–17 minutes. It returns about 724×1284 at 720p.
@@ -1170,6 +1218,20 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **A start-only storm clip can carry a collapse** (video 14, C10): "the three whole cooling towers shudder, crack and collapse
   one after another, each folding down into itself" gave cracks at 0.6 s and the fold-down by 2.4 s, the towers behind falling
   too; the camera stayed still (`PUSH`).
+- **A huge object sliding out of a building works as a change clip** (video 15, C4, HI1 → HI0, 4 s: the same aerial with the field
+  inside and outside): Kling slid the whole field out of the opening as one flat piece in 0.6–3.2 s, first time, with ONEFIELD
+  ("there is only one football field: it never doubles, splits, bends or appears in two places"). The camera stayed still (`PUSH`).
+- **A slab dropping away to show what's under a flat thing works as the hook** (video 15, C1, SIDE0 → SIDE1, 3 s): the solid face
+  under the field dropped from ~0.3 s, the layers showed by 1.0 s and the wheels by ~2 s; its reverse (C14) closed the loop on
+  frame 0 exactly.
+- **The cut-ground leak hits outdoor clips too** (video 15): C6 grew a slab of sandy ground in the foreground from 0.6 s, and C12
+  opened a pit in the lot from 1 s, though both start stills were clean. Re-rendered once each with FLATLOT ("the ground in the
+  foreground is plain, flat desert sand the whole time: no block of soil, no slab, no cut face of ground and no layers appear
+  anywhere in the frame") or AIRLOTC (the lot named whole): both clean. Put them on every outdoor clip from the start (the two
+  re-renders cost 25.00 of the reserve).
+- **A middle keyframe carries a dive and a rise in one clip** (video 15, C2, SIDE1 → WH0 → RF0, 4 s): down to the wheels, the
+  close-up at 1.6 s, then up along the cut to the open roof: camera 100% moving, parallax 8.5.
+- **Start-only orbits come back slow** (video 15, C12: 33–57% camera moving): add `PUSH`.
 
 ### 7.3 Camera and motion
 - **A crop of a still is not a camera position:** Kling zooms across a flat picture and it reads as still (video 08: 20% moving).
@@ -1196,6 +1258,11 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   usually carries a word: pick one whose word names the picture ("FIREBALL" on the fireball).
 - **Chained whips** (video 14): a clip between two whips (C9 → C10 → C11, to 1965 and back) lost its second whip because the build
   joined clips in pairs; `14-build.py` chains them (`whip_join` takes file paths).
+- **MERGE** (video 15, `15-build.py`): a run of spoken words captioned as one cue, so "Five hundred and forty-six" shows as "546"
+  for its whole span; CAPMAP still handles single words ("SEVENTY-SIX" → "76", "NINETEEN" → "19").
+- **A push of about 3% a second counts as camera movement** in `camera_path.py` (video 15): 0.24 over an 8 s clip (2.4–2.9%/s)
+  left a 7 s "still" stretch; 0.28 fixed it. Push-ins fix still stretches but lower the median parallax: 0.17 px with five held
+  clips, against the flights' 2–8.5 px. Fewer change clips at one position keeps it up.
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -1216,6 +1283,9 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **Daniel's raw pace can sit at the slow end** (video 14): take A, 225 spoken words, ran 75.7 s raw (2.96 words a second),
   69.3 s tightened, and needed `atempo` 1.1 (the limit) to reach 63.0 s. At that pace ~225 words is the ceiling; write 215–220
   when the script has many short sentences. Take B paused after every "So," and was dropped for that.
+- **219 spoken words fit well** (video 15): take A 72.8 s raw (3.0 words a second), 67.1 s tightened, `atempo` 1.08 → 62.15 s
+  (3.49 words a second), a 63.05 s video. Take B ran "heat, but grass" together (a weak "But") and was dropped. Sound: bed and
+  eight effects, 131 ElevenLabs credits (the estimate said 390).
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
@@ -1225,7 +1295,7 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **The subject has to sit inside the 3:4 crop too** (video 14, cover B): the cloud over the whole tower (ST0) sat above y 240, so
   "THAT'S NOT SMOKE" pointed at nothing in TikTok's crop; rebuilt on TO0, where the cloud fills the frame.
 
-### 7.7 Sessions, network and tools (to 20 Nov 2026)
+### 7.7 Sessions, network and tools (to 21 Nov 2026)
 - **Reachable from a session:** the Higgsfield generation CDN (`d8j0ntlcm91z4.cloudfront.net`), `upload.higgsfield.ai`,
   `elevenlabsusercontent.com`, `www.youtube.com`, `i.ytimg.com`, `www.tiktok.com` and its video host
   `v16-webapp-prime.us.tiktok.com`.
@@ -1248,6 +1318,10 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   (`media_upload` gives an .mp3 slot even for a .wav name), PUT, `media_confirm`, then faster-whisper `small.en` in the sandbox
   with `background:true` (about a minute). **TikTok comments can't be read from a session:** yt-dlp's `--write-comments` returned
   none. **Counting cuts:** ffmpeg `select='gt(scene,0.28)',showinfo`, merging cuts under 0.4 s apart.
+- **kling4_0 went up to 2.50 a second at 720p (3.75 at 1080p) on 21 Nov 2026** (2.25 and 3.25 the day before): price every plan
+  with `estimate_video_cost` on the day; under the cap that now means ~61 s of clips and ~12 stills (6.1).
+- **Another session can push to the repo while a video is in progress** (21 Nov 2026: the ban/reach check of 1.6 landed mid-video
+  and recommended holding it): fetch (`--depth=50`) and rebase before each push, and read what changed before going on.
 
 ### 7.8 Things that go wrong, and the fix
 | What goes wrong | Fix |
@@ -1408,6 +1482,7 @@ the three new ones included, has had almost no test, which tiny rival channels d
 | 12 | Why Some Manhole Covers Are Full of Holes (V1) | 18 Nov | cutaway, travelling camera | 186.50 (quoted 194.64) | yes: the lid leaves the road on flame at ~0.6 s |
 | 13 | Why Firefighters Drop Frozen Turkeys Into Fryers (V2) | 19 Nov | cutaway, travelling camera | 188.00 (quoted 197.23) | yes: the frosted bird drops into the oil by 0.5–1 s, foam over the rim by 2 s |
 | 14 | Why It Rains Inside a Nuclear Cooling Tower (V3) | 20 Nov | cutaway, travelling camera | 161.50 (quoted 188.60) | yes: a cut line down the whole tower at 0.5 s, the halves part over the rain by 1 s |
+| 15 | Why This NFL Field Is Sitting on 546 Wheels (V6) | 21 Nov | cutaway, travelling camera | 196.25 (quoted 196.94) | yes: the solid face under the field drops from ~0.3 s, the layers by 1 s, the wheels by ~2 s |
 
 **The ten after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K = tested normally):
 
@@ -1416,6 +1491,7 @@ the three new ones included, has had almost no test, which tiny rival channels d
 | 12 (V1) | 18 Nov, 22:07 UTC (5:07 pm ET) | 202 at 27 h, 208 at 50 h; every tag registered | due after 22:07 UTC, 21 Nov | 7 after about a day, 10 at 2 days | due 21 Nov |
 | 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h, 333 at 25 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours, 21 at 25 h | due 22 Nov |
 | 14 (V3) | 20 Nov, 20:00 UTC (3:00 pm ET) | 48 at 4.5 h; every tag registered; no AI label yet | due after 20:00 UTC, 23 Nov | 2 at 4.5 h | due 23 Nov |
+| 15 (V6) | not posted yet (made 21 Nov) | | | | |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1445,6 +1521,11 @@ not reachable from a session, so give the links to the user or read them through
   master `b4af71fa-8567-41ff-a2bd-ce6765596143`; flows: narration `vabKbEA1HUlLqUsDI4hY`, sound `8A9jRAdWIDe3ZajNnCUO`; Higgsfield
   folder `0bef4887-0b2b-4935-aa7d-409e5caab067`; build `pipeline/14-build.py`, word timings `pipeline/14-words-takeA.json` (take A
   x1.1); covers in `pipeline/14-covers/`.
+- 15 the NFL field on 546 wheels (21 Nov 2026; 63.05 s; picture 87% moving, camera 89% moving, parallax 0.17 px, bed 19 dB under
+  the voice): final `62246da2-14c5-4b73-8146-42c40da7e9a0`; voice-only `f062abfb-7392-44a3-844b-586dc6e0d299`; clean master
+  `f9af1d63-cb62-4743-978e-efe65ef6dbd4`; flows: narration `UCxI18VeiuCypyNn3e6Z`, sound `AKioHqCpAkthrmOv0mix`; Higgsfield folder
+  `7537e99d-691b-4212-8723-c068ec0f29ba`; build `pipeline/15-build.py`, word timings `pipeline/15-words-takeA.json` (take A x1.08);
+  covers in `pipeline/15-covers/`.
 - Every video's script, beat sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
 ### 9.3 What the ten videos taught (18 Nov 2026)
@@ -1640,7 +1721,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 ### 13.2 Topics to avoid
 - **Made by us:** the mud house, the canoe, the fire hydrant, seawater to tap water, the underwater habitat (Aquarius), Petra, the
   1959 vs 2009 crash, the sewer trap, lightning in a house, cryonics, the manhole covers (video 12), frozen turkeys in the fryer
-  (video 13), the rain inside a nuclear cooling tower (video 14).
+  (video 13), the rain inside a nuclear cooling tower (video 14), the NFL field that rolls outside on 546 wheels (video 15).
 - **Made by Hidden By Design:** the storm drain, the water well and water tower, a road tunnel under a river, a landfill into a
   park, a bridge foundation (cofferdam), the sewer and treatment works, power lines, the gas station, the roof, the beach.
 - **Made by How Building Explained:** the nipa hut, an Amazon floating house, the igloo, the levee, a nuclear bunker, a nuclear
@@ -1704,4 +1785,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   (tiny rival channels get 1–2K a Short, we get 2–67; we rank at the bottom for our own titles); every plan topic had 5–10 AI
   copies the same week. The next video (V6, at Gate B in another session, 196.94) recommended on hold for the user's in-app
   checks; brand set v3 found live on YouTube; `tt_snapshot.py` now prints the moderation fields.
+- **21 Nov (later):** video 15 (V6, the rolling NFL field) made, retitled at Gate A to "Why This NFL Field Is Sitting on 546
+  Wheels" (about 20 rolling-field Shorts since Sep, Cutaway Instinct among them); kling4_0 found at 2.50 a second, so the plan cut
+  to 61 s of clips and 12 stills; the user approved Gates C and D after seeing the hold recommendation; the cut-ground leak into
+  outdoor shots fixed with AIRLOT and FLATLOT; MERGE captions; files from `f84face` to the commit that logged it.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
