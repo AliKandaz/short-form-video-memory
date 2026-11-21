@@ -12,6 +12,9 @@ notes from videos 01–07, superseded tool notes) is in the repo history: the la
 to each change and away again, narrated in second person ("you") by an AI voice, with one-word captions. Each video answers one
 question about the hidden inside of something everyone uses or walks past, one problem and one fix at a time, and loops back to
 its first frame. No character, no on-screen labels, no music (a quiet bed and a few sound effects).
+**A second style** (from 21 Nov 2026, the user: "so I can alternate between video styles"): photoreal AI build stories, a
+humble thing turned into a cozy home in time-lapse, no narration. Its memory, plan, runbook and kickoff prompt are
+`strategy2.md`; for a style-2 video read this section's standing rules, then that file instead of sections 2–9 here.
 
 **Channels** (both US-based, the user confirmed on 13 Nov 2026):
 - TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 54 followers, 13 videos,
@@ -24,8 +27,9 @@ second.** The lane is the hidden inside of things everyone uses or walks past. T
 plan, the order and the budget are section 2; the evidence behind it is section 1.
 
 **Where things live:**
-- This file and `tiktokshop.md` (the TikTok Shop affiliate project) in the GitHub repo `AliKandaz/short-form-video-memory`, with
-  the reusable scripts in `pipeline/` and the channel artwork in `branding/`.
+- This file, `strategy2.md` (style 2, photoreal AI build stories, 21 Nov 2026) and `tiktokshop.md` (the TikTok Shop affiliate
+  project) in the GitHub repo `AliKandaz/short-form-video-memory`, with the reusable scripts in `pipeline/` (style 2's with the
+  prefix `s2-`) and the channel artwork in `branding/`. The artifact below carries `strategy2.md` and `tiktokshop.md` as files.
 - A live copy: the "Short-Form Video Memory" artifact, https://claude.ai/artifact/Fvbzc2HQyDxne7Y8NsrgvX (Artifact tool, action
   "read"). **When this file changes, update both copies:** commit and push, then republish the artifact by its url.
 - The old visual reference for How Building Explained's look (mascot era, kept for the record only):
@@ -170,7 +174,7 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
 | **Cutaway Instinct** (YouTube Shorts, @CutawayInstinct) | stadium and arena cutaways in our style, photoreal with labels; 21.4K subscribers, 90 videos (20 Nov 2026); best Shorts "Crypto.com Arena: What's Under the Lakers' Court?" 1.3M (V4's topic) and Barclays Center's truck turntable 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov); State Farm Stadium's rolling field 32K (25 Oct 2026, V6's topic) | A direct rival in our look: search it before any stadium or arena idea; it already has V4's and V6's topics |
 | **Zack D. Films** (YouTube Shorts) | owns "what happens if you…" survival scenarios: cruise ship 50M, falling through ice 64M (16 Nov) | Avoid his topics; check every idea against him |
 | **@thewhatifstudio**, TikTok | 60.9K followers; what-if simulations median 457K, its builds median 35K (14 Nov) | A choice put to the viewer drives comments |
-| **@scapemagicc** ("Aiworkflows2"), TikTok | 722.5K followers, 85 videos, 382.6M views; posts daily at about 6 pm ET; its last 29 videos: median 375K, 7 over 1M, 10 under 50K, lowest 7.6K; a photoreal AI tiny house built inside plastic septic tanks 9.8M in 2 days (17 Nov), a garden turned into a tiny house 76.4M (27 Sep); the bio sells the workflow (20 Nov) | A different product: a photoreal AI builder, no narration, no facts, and TikTok labels it AI. Its devices: a conflict in the first second (the pool party next door splashes him; he glares with a black eye), one locked high view the video keeps returning to so the progress reads at a glance, a hard cut about every 1.4 s with tool close-ups between, build sounds only, and the last shot mirrors the first with the tables turned. Its topics are in 13.2 |
+| **@scapemagicc** ("Aiworkflows2"), TikTok | 722.5K followers (20 Nov); all 86 videos (21 Nov): median 467K, 30 over 1M, 7 under 50K; posts daily at about 6 pm ET; a photoreal AI tiny house built inside plastic septic tanks 20.2M (17 Nov; 9.8M on 20 Nov), a mud cave 91.5M, a garden 76.5M; the bio sells the workflow. Studied in full in `strategy2.md` 1 | A different product: a photoreal AI builder, no narration, no facts, and TikTok labels it AI. Its devices: a conflict in the first second (the pool party next door splashes him; he glares with a black eye), one locked high view the video keeps returning to so the progress reads at a glance, a hard cut about every 1.4 s with tool close-ups between, build sounds only, and the last shot mirrors the first with the tables turned. Its topics are in 13.2 |
 
 Both reference accounts on TikTok have gone quiet, so the format's biggest TikTok audience has nobody posting to it right now
 (my read: an opening for an account that posts steadily). The YouTube side is crowded: hundreds of channels copied "How a ___
@@ -1566,6 +1570,7 @@ not reachable from a session, so give the links to the user or read them through
 
 ### 11.1 Kickoff prompt (renewed 18/11/26 v2: the 10-video plan and the 200-credit cap)
 Fill in the line in angle brackets and paste the whole block into a new session. The earlier versions are listed in 13.3.
+For a style-2 video (photoreal AI build stories) the kickoff prompt is `strategy2.md` 11.1, not this one.
 ```
 KICKOFF PROMPT (renewed 18/11/26 v2)
 
@@ -1728,10 +1733,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   plant (our cooling tower is the tower only, never a plant), Chernobyl, the White House, the Kremlin, a particle accelerator, an
   armored truck, the gas station, the car wash, an oil well, the septic tank, a drive-thru, a slot machine, a car engine,
   fire-, volcano- and earthquake-proof houses, a Halloween station.
-- **Made by @scapemagicc** (photoreal AI builds, to 19 Nov 2026; 1.4): tiny houses inside plastic septic tanks (twice), concrete
-  pipes, a dumpster, a skip, a van, a wagon, two water tanks, a plastic pipe, a pit, a hole, a ditch by the road, three shipping
-  containers, an underground container, 200 pallets, a rooftop, a tent, a bus bunker, a man cave under a driveway, a backyard pool,
-  a garden.
+- **Made by @scapemagicc** (photoreal AI builds; all 86 videos to 21 Nov 2026 are listed in `strategy2.md` 10): tiny houses inside
+  septic tanks, pipes, dumpsters, containers, buses, tires, pallets and pools, and in caves, pits and gardens.
 - **Zack D. Films' scenarios** (16 Nov 2026): falling off a cruise ship, through ice, into a grain bin; an avalanche; a tar pit;
   sinkholes; a plane losing oxygen and its masks; straightening Pisa; a power line on your car; the meteorite that hit a woman; the
   microwave's metal screen and ice in a microwave; the gold vault under Manhattan. Taken by others: quicksand, Niagara Falls in a
@@ -1789,4 +1792,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   Wheels" (about 20 rolling-field Shorts since Sep, Cutaway Instinct among them); kling4_0 found at 2.50 a second, so the plan cut
   to 61 s of clips and 12 stills; the user approved Gates C and D after seeing the hold recommendation; the cut-ground leak into
   outdoor shots fixed with AIRLOT and FLATLOT; MERGE captions; files from `f84face` to the commit that logged it.
+- **21 Nov (later):** `strategy2.md` created at the user's request, to alternate between two styles: style 2 is photoreal AI build
+  stories after @scapemagicc (all 86 of their videos read; their top four measured: one spine, two cuts); eight ideas checked
+  against their list and YouTube; the standard plan 185.44 with the reserve at kling4_0's 2.50 a second; its own kickoff prompt.
+  Open with the user: which accounts style 2 posts to (a separate pair recommended), the builder's look, the first idea.
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
