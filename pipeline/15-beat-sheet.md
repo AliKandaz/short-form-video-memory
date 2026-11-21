@@ -134,5 +134,27 @@ and the same way out at the end of C14 if its closing fails.
 - ElevenLabs (outside the cap): narration 2,362 credits for two takes (estimate, 21 Nov 2026); sound about 130 by the durations
   (39 s at ~3.33 a second).
 
+**Real timings (Step 6, 21 Nov 2026):** take A, pauses tightened to ~0.15 s, then `atempo` 1.08: raw 72.80 s, tightened 67.12 s
+at 1.0, 62.15 s at 1.08 (3.49 words a second), 63.05 s of video with the 0.9 s tail. Clip lengths from `15-plan.json`, nearest
+second (`15-timing.py`, C5 pinned at 6 s): C1 3, C2 4, C3 5, C4 4, C5 6, C6 4, C7 3, C8 3, C9 4, C10 8, C11 3, C12 7, C13 3,
+C14 4 = **61 s (152.50 at 720p)**, the plan quoted; played at 0.90-1.09×.
+
 ## Production log
-- 21 Nov 2026: Gate A approved (title, script, first second). Beat sheet and quote written.
+- 21 Nov 2026: Gate A approved (title, script, first second). Beat sheet and quote written. Gate B approved at 196.94 (720p).
+- Higgsfield project "HBX – Why This NFL Field Is Sitting on 546 Wheels" (7537e99d-691b-4212-8723-c068ec0f29ba); job ids in
+  `15-jobs.tsv`.
+- **Narration:** two takes, 2,362 ElevenLabs credits (take A 72.83 s, take B 74.11 s raw), flow UCxI18VeiuCypyNn3e6Z, node
+  dPKL2B7N7uOiJDQLiRNf. Take A chosen (generation crpWP2pRbhDDDSbqo1Gk): it reads "So you" straight through and breaks the
+  sentence before every "But" (take B runs "heat, but grass" together). Whisper (faster-whisper small.en in the Higgsfield
+  sandbox, background, about a minute) matched 219/219 words on both takes. Word timings `15-words-takeA.json` (x1.08).
+- **Sound:** bed and eight effects, one take each, 131 ElevenLabs credits (the estimate said 390), flow AKioHqCpAkthrmOv0mix.
+- **Stills (Gate C):** 12 on screen from 15 tries, 18.75 credits (the budget); balance 1,207.50. SIDE1 came back as a
+  three-quarter view toward the huge opening, with the rails running out beside the tray, not straight at the cut face: kept,
+  and the plan fitted to it (7.1). HI0 took three: try A drew grass inside the bowl as well as the field outside, and left the
+  roof open; a LOCK edit (B) closed the roof and emptied the bowl but zoomed in and dug a trench of rocks into the lot; C redid
+  the fix from A, holding the framing and naming the lot whole and flat (AIRLOT). TO0 try A drew the tortoise well but zoomed in
+  and dug a pit beside it; B redid it from RA0 with AIRLOT (the tortoise faces the tray, not the stadium). Everything else first
+  time. Sheets: `15-flightmap.jpg`, `15-keyframes.jpg`, `15-stills.jpg`, `15-first-last.jpg`.
+- 21 Nov 2026 (later): another session's ban/reach check (CLAUDE.md 1.6, commit `21581e7`) recommended holding V6 until the
+  user's in-app checks, and a topic rule that V6 fails (about 20 AI Shorts on the rolling field since Sep 2026). Gate C shown
+  to the user with that choice; no clips rendered.

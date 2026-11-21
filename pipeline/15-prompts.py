@@ -129,6 +129,13 @@ P["HI0.C"] = (f"{STYLE} {LOCK} The camera stays far back and high: the whole sta
               f"whole and flat all round the tray and the rails: there is no trench, no pit, no hole and no cut face of ground "
               f"anywhere in the lot. {KEEP} {NOWATER} {NOBODY}")
 REFS["HI0.C"] = ["HI0.A"]
+# TO0 try A (18ded007) drew the tortoise well but zoomed in and dug a pit of rocks into the ground beside it (the STYLE line's cut
+# ground again): TO0.B redoes it from RA0 with AIRLOT and the foreground named whole.
+P["TO0.B"] = (f"{STYLE} {LOCKZ} Change only this: {TORT} walks on the ground beside the rail in the foreground, about a quarter "
+              f"of the frame, heading the same way as the tray, toward the stadium. The ground under and around the tortoise is "
+              f"whole, flat pale tan desert ground: nothing is cut open in the foreground. {AIRLOT} {KEEP} {NOWATER} No people; "
+              f"the only animal is the tortoise.")
+REFS["TO0.B"] = ["RA0"]
 AR = {}
 
 if __name__ == "__main__":

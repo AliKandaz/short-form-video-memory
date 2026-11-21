@@ -27,3 +27,10 @@ HI0.C	cfb5393a-4836-4241-9158-d5b69e416a29	LOCK edit of HI0.A: no grass inside, 
 HI0	cfb5393a-4836-4241-9158-d5b69e416a29	accepted (try C)
 HI1.A	d3756bda-01aa-4844-8fbc-550599fce179	batch 4 (from HI0.C)
 RA0.A	05bed610-b36d-4330-8e0a-7449fb0c6c64	batch 4 (from HI0.C)
+HI1	d3756bda-01aa-4844-8fbc-550599fce179	accepted (try A): the lot empty, the field inside
+RA0	05bed610-b36d-4330-8e0a-7449fb0c6c64	accepted (try A): the hub on the nearest wheel stands in for the motor
+TO0.A	18ded007-c342-48bf-a825-142f39a6f561	LOCKZ edit of RA0: the tortoise
+# TO0.A zoomed in and dug a pit of rocks beside the tortoise: redo from RA0 as TO0.B
+TO0.B	5fe36c7f-5b19-41e3-a001-828210764689	redo from RA0 with AIRLOT
+TO0	5fe36c7f-5b19-41e3-a001-828210764689	accepted (try B): RA0 framing, no pit; the tortoise faces the tray
+# stills: 12 on screen from 15 tries (HI0 x3, TO0 x2), 18.75 credits (the budget); balance 1,207.50
