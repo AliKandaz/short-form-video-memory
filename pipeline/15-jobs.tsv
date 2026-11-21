@@ -1,0 +1,29 @@
+key	job_id	note
+# narration flow UCxI18VeiuCypyNn3e6Z node dPKL2B7N7uOiJDQLiRNf sessions gOvzXgtAgL2bAZRVNXwo (take A) PrrGHJfDUTDu2urNQzmm (take B), 1181 + 1181 ElevenLabs credits
+# Higgsfield project 7537e99d-691b-4212-8723-c068ec0f29ba
+SIDE1.A	e2a44ba8-eb19-4aeb-bd4d-e61173aa998b	set key, try A
+SIDE1	e2a44ba8-eb19-4aeb-bd4d-e61173aa998b	accepted set key (try A; a three-quarter view toward the opening)
+SIDE0.A	0bf3103b-a617-41e1-819a-20d6cb2c53e4	batch 2
+WH0.A	3b6ec4dd-aae9-4723-8b15-900c78acd842	batch 2
+RF0.A	16d94998-ef08-4f36-81ae-4208490ab331	batch 2
+HI0.A	53bb8e49-289f-49e4-9c97-414ea6b17db3	batch 2
+LA0.A	9521cee1-81be-4e91-b171-18c340375fd9	batch 2
+FL0.A	32fab5f3-55a3-49a5-bbe4-e307a78a4a36	batch 2
+SIDE0	0bf3103b-a617-41e1-819a-20d6cb2c53e4	accepted (try A): the solid face, SIDE1 framing
+WH0	3b6ec4dd-aae9-4723-8b15-900c78acd842	accepted (try A)
+RF0	16d94998-ef08-4f36-81ae-4208490ab331	accepted (try A): roof open, the opening at the far end
+LA0	9521cee1-81be-4e91-b171-18c340375fd9	accepted (try A): sprinkler heads read as pins
+FL0	32fab5f3-55a3-49a5-bbe4-e307a78a4a36	accepted (try A): bare floor, the field outside through the opening
+# HI0.A drew grass inside the bowl as well as the field outside, and left the roof open: LOCK edit B
+HI0.B	13f3d385-73d5-4d24-a31d-43a926916019	LOCK edit of HI0.A: no grass inside, roof closed
+RF1.A	68de654c-8699-4d61-bd0f-b052dd6c9f03	batch 3
+FL1.A	86356d79-cb32-4739-b917-5a7aaa6c2334	batch 3
+# sound flow AKioHqCpAkthrmOv0mix: bed pibw5udX2DepuiMKFMXp (20 s loop), fx1 3uVLGJQsvtWPLlAbfwSQ slab, fx2 hCZ740QuDOctFMCe1RKB wheels, fx3 pc3IElQOXRokuislv8R7 roof, fx4 OPjy0NQqpqyl8zycrwEd motor, fx5 G4caIDff8qYLAuauQqdF sprinklers, fx6 dowxvlSdR9vsX4OaagcV drain, fx7 lmyeC6x9wYcwXciSBsqf basketball, fx8 hl2vJ3Z2Xnsrit7KE9YO tortoise; 131 ElevenLabs credits (estimate said 390)
+# narration: take A chosen (generation crpWP2pRbhDDDSbqo1Gk, 72.83 s raw; reads "So you" straight through; take B runs "heat, but grass" together), x1.08 -> 62.15 s, video 63.05 s
+# HI0.B zoomed in and dug a trench of rocks into the lot in front of the tray: redo from try A as HI0.C
+RF1	68de654c-8699-4d61-bd0f-b052dd6c9f03	accepted (try A): roof closed, field in flat shade
+FL1	86356d79-cb32-4739-b917-5a7aaa6c2334	accepted (try A): the court on the bare floor
+HI0.C	cfb5393a-4836-4241-9158-d5b69e416a29	LOCK edit of HI0.A: no grass inside, roof closed, lot whole; accepted
+HI0	cfb5393a-4836-4241-9158-d5b69e416a29	accepted (try C)
+HI1.A	d3756bda-01aa-4844-8fbc-550599fce179	batch 4 (from HI0.C)
+RA0.A	05bed610-b36d-4330-8e0a-7449fb0c6c64	batch 4 (from HI0.C)
