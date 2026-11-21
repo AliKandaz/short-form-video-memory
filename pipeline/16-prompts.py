@@ -16,7 +16,9 @@ STYLE = ("Photoreal 3D cutaway render: the ground is sliced open like a cake tow
 NOWATER = "There is no water anywhere."
 WIDE = ("Vertical 9:16 composition: the subject sits in the upper 60% of the frame, and the lower 40% is plain, calm, low-detail "
 "ground.")
-DOGW = "a small scruffy tan terrier with a white chest, one folded ear, one upright ear and a red collar"
+DOGW0 = "a small scruffy tan terrier with a white chest, one folded ear, one upright ear and a red collar"  # F0's words
+# The dog as F0 drew him and the dog key (DOG try A, 51460339) fixed him: both ears folded.
+DOGW = "a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a red collar"
 SET = ("an ordinary two-storey suburban family house in early winter, shown as a cutaway model: pale grey horizontal siding with "
 "white trim, a dark grey shingle roof with a straight white gutter along the whole front roof edge, a small covered front porch "
 "with a white rail and a dark red front door, two windows upstairs and two downstairs, and a one-storey attached garage on the "
@@ -54,7 +56,7 @@ P = {
         f"gutter at the left end of the front roof edge, and one string of small clear Christmas bulbs on a green wire hangs along "
         f"the gutter: its left half is clipped neatly along the roof edge, its right half still hangs loose in a sagging loop down "
         f"to a small coil on the lawn. None of the bulbs is lit. A porch lamp glows by the front door and the downstairs left "
-        f"window glows warm from inside; the other windows are dark. On the lawn in the middle, small in the frame, sits {DOGW}, "
+        f"window glows warm from inside; the other windows are dark. On the lawn in the middle, small in the frame, sits {DOGW0}, "
         f"wound up in a second unlit string of the same bulbs, looking up at the roof. {NOWATER} {DOGONLY}"),
  "F0b": (f"{STYLE} {LOCK} Change only this: the string of bulbs is now clipped along the whole front roof edge, from the left end "
          f"to the right corner of the house, with no loose loop and no coil on the lawn, and every bulb on it is lit and glowing bright "
@@ -66,10 +68,11 @@ P = {
         f"rail and its posts, round the garage door and along the garage's roof edge, and draped over the three bushes; every "
         f"bulb is lit. There is no loose string, no coil on the lawn and no ladder. The string wound round the dog is lit. The "
         f"porch lamp and the lit window stay as they are. {KEEP} {NOWATER} {DOGONLY}"),
+ # F1x: the breaker panel is outside the close FRONT view (F0.B crops the garage end), so no spark is asked for.
  "F1x": (f"{STYLE} {LOCK} Change only this: the power is out: every string of bulbs is dark, the porch lamp is off and every "
          f"window is dark, so the house is a dark shape against the blue dusk sky; the unlit strings are all still in place, and "
-         f"the string round the dog is dark too. Inside the cut-open garage, one small bright blue-white spark shows at the grey "
-         f"breaker panel on the back wall. The sky and its glow stay exactly as they are. {KEEP} {NOWATER} {DOGONLY}"),
+         f"the string round the dog is dark too. The sky and its glow stay exactly as they are, and the dog stays where "
+         f"it is. {KEEP} {NOWATER} {DOGONLY}"),
  "FR6": (f"{STYLE} {LOCK} Change only this, the finished light show: the ladder, the string of bulbs on the gutter and "
          f"the coil on the lawn are gone, and the house wears {PIXELS}, outlining every edge of the house, the windows, the door and the garage, and showing a smooth wave of colour "
          f"from red at the left through orange, yellow, green and blue to violet at the right. On the lawn at the left stands a "
@@ -100,9 +103,9 @@ P = {
          f"two plug-and-socket joins between green light cords lie in a shallow puddle. Light rain is falling, and the wall and "
          f"the paving are wet. Change: strings of small clear bulbs on green wire hang round the garage door and along the "
          f"garage's roof edge above, and every bulb is dark. The paving is whole. {WHOLE} {NOBODY}"),
- "OU2": (f"{STYLE} {LOCKZ} Change only this: each of the two plug joins on the paving now sits inside its own small closed "
-         f"dark green plastic box, the cords passing through sealed slots at its two ends, and the red button on the outlet is "
-         f"pressed in flat; the strings of bulbs on the wall and along the roof edge above are lit again, warm white. The rain "
+ "OU2": (f"{STYLE} {LOCKZ} Change only this: every plug join lying on the paving now sits inside its own small closed "
+         f"dark green plastic box, the cords passing through sealed slots at its two ends, so no bare plug or socket shows on "
+         f"the ground; the strings of bulbs on the wall and along the roof edge above are lit again, warm white. The rain "
          f"keeps falling and the puddle stays. {KEEP} {WHOLE} {NOBODY}"),
  # ---- HIGH: HI3 the roof line in pixels, the controller in the garage ----
  "HI3": (f"{STYLE} {POS} New camera position: high in the air above the front lawn, looking down at the house at about 40 "
@@ -119,8 +122,8 @@ P = {
          f"pixels, {PIXELS}, and every one of them, from the nearest to the farthest, is pure bright white. Halfway along, one black cable comes up from "
          f"under the eave and joins the line at a small black T-shaped connector. Behind the line, the dark grey shingles slope "
          f"up; beyond the far end of the house, the deep blue dusk sky. {WHOLE} {NOWATER} {NOBODY}"),
- "RO3": (f"{STYLE} {LOCKZ} Change only this: there is no cable coming up from under the eave and no T-shaped connector; the "
-         f"pixels nearest the camera are pure bright white, but from halfway along the line they shade gradually into pale pink, "
+ "RO3": (f"{STYLE} {LOCKZ} Change only this: the black cable that crosses the gutter and its black connector on the line "
+         f"are gone, so the line of lights runs unbroken; the lights nearest the camera are pure bright white, but from halfway along the line they shade gradually into pale pink, "
          f"and the farthest ones are dim pink. {KEEP} {WHOLE} {NOWATER} {NOBODY}"),
  # ---- STREET: ST5 the cars, the sign, the aerial, the dog howling; SG the sign close ----
  "ST5": (f"{STYLE} {POS} New camera position: low on the dark asphalt road at the left side of the lot, near its front corner, "

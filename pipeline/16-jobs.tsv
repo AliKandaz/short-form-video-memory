@@ -12,3 +12,16 @@ GU.A	e938cea5-ca68-465d-8b1a-4692fb5c4ba5	try A (batch 2)
 OU1.A	6b44f842-d0c6-48d8-b139-f5583c435419	try A (batch 2)
 RO4.A	1f622bcc-5643-4247-b652-3fb8a4dfe0f2	try A (batch 2)
 HI3.A	8f4bde05-fa62-4619-bb59-ffabcccec959	try A (batch 2), from F0.A
+F0b	a5804f2c-2ef2-462a-9da0-2e82ecb284bf	accepted (try A): the string lit along the roof edge and up the gable
+F1	aa4b9523-8f9e-4195-9c92-d9a3fe884953	accepted (try A): fifty-one strings
+DOG	51460339-c4b8-4537-9078-bd28de9305f8	accepted (try A): the dog key
+GU	e938cea5-ca68-465d-8b1a-4692fb5c4ba5	accepted (try A)
+OU1	6b44f842-d0c6-48d8-b139-f5583c435419	accepted (try A)
+RO4	1f622bcc-5643-4247-b652-3fb8a4dfe0f2	accepted (try A)
+HI3	8f4bde05-fa62-4619-bb59-ffabcccec959	accepted (try A)
+F1x.A	f6dd960e-800f-4208-9e19-51c6fa625609	try A (batch 3)
+PX.A	6aa28796-0a79-4220-8e9a-42c6894db454	try A (batch 3)
+OU2.A	cc74d2e4-6f1f-4121-ae9e-ecaf3efc0ee9	try A (batch 3)
+RO3.A	77dfa6cc-e7f2-4a91-add3-e0b01a492676	try A (batch 3)
+ST5.A	7846e873-b897-4c4b-b877-6300c5610d2d	try A (batch 3), from F0.A and DOG
+FR6.A	63eb08d0-f9cd-4046-9c11-ea581deae212	try A (batch 3), from F0 and DOG
