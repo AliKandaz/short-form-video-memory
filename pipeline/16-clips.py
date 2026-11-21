@@ -10,6 +10,9 @@
 # the sign is blank in every frame (its words are an overlay); "No people, no characters" on every clip, the dog named as the
 # only animal where he shows; "Motion starts on frame 1". The dog is in C1, C2, C3 (left behind), C6 (at the end), C7 (at the
 # start), C10, C11, C12 and C13.
+# After the pilots (Gate D, 21 Nov 2026; C1 and C3 came back first try and are unchanged): C5 asks for a glow that reads on a
+# phone and a real push-in (start-only clips can move); C11 drifts sideways in its first half for parallax; C12 says where the
+# camera ends; EDGE replaces CUTFACE / WHOLE on the flights where the block's cut edge is in only one of the two views.
 import importlib.util, json, sys
 spec = importlib.util.spec_from_file_location("p16", __file__.replace("16-clips.py", "16-prompts.py")); p16 = importlib.util.module_from_spec(spec); spec.loader.exec_module(p16)
 STYLE = p16.STYLE
@@ -18,6 +21,8 @@ DUSK = ("It is blue dusk the whole time: the sky stays deep blue with an orange 
 ONEHOUSE = "There is only one house: it never doubles, stretches, grows extra floors or changes shape."
 WHOLE = "The lawn, the paving and the road stay whole: no hole, pit, trench or new cut face of ground appears anywhere."
 CUTFACE = "The cut face of soil at the bottom of the frame stays exactly as it is."
+EDGE = ("The lawn, the paving and the driveway stay whole: no hole, pit or trench opens in them. The only cut face of ground is "
+        "the straight edge of the block the house stands on, where the wide view shows it.")
 BLANK = "The sign stays plain white and blank the whole time: nothing is ever written on it."
 ONE = "One smooth, continuous camera move with no cuts."
 NOBODY = "No people, no characters, no animals."
@@ -46,27 +51,28 @@ C = {
         "the pale paving. Rain begins to fall on the way down; the wall and the paving turn wet and shiny, a shallow puddle "
         "spreads round the plug joins, and the lit bulbs flicker and go dark, every one. "
         f"{WHOLE} {ONEHOUSE} {ONE}", NOBODY),
- "C5": ("OU1", [], None, 5, "Rain falls steadily and drops splash in the puddle round the plug joins. The camera pushes in slowly "
-        "on the outdoor outlet in the wall. A thin thread of pale blue light runs from the wet plug joins on the paving up the "
-        "green cord to the outlet; then, with one clear, bright blue-white spark that lights the wall for an instant, the small "
-        "red button on the outlet pops out and the thread of blue light vanishes. The strings of bulbs round the garage door stay "
-        f"dark the whole time. {WHOLE}", NOBODY),
+ "C5": ("OU1", [], None, 5, "Rain falls steadily and drops splash in the puddle round the plug joins. The camera pushes in "
+        "steadily toward the outdoor outlet in the wall, moving closer the whole time, and ends very close to it. On the first "
+        "frame a bright pale blue glow starts at the wet plug joins in the puddle and crawls along the green cord up to the "
+        "outlet, clearly visible, like a slow pulse of light. When it reaches the outlet there is one clear, bright blue-white "
+        "spark that lights the whole wall for an instant; the small red button on the outlet pops out, and the glow on the cord "
+        f"vanishes at once. The strings of bulbs round the garage door stay dark the whole time. {WHOLE}", NOBODY),
  "C6": ("OU1", ["OU2"], "F1", 4, "Small dark green plastic boxes snap shut over each plug join on the wet paving, one after "
         "another, and the strings of bulbs round the garage door light up again, warm white. Then the camera pulls back and up, "
         "away from the wall and out over the lawn, to a view of the whole front of the house covered in lit strings, with the dog "
         "sitting on the lawn; as it arrives the rain stops, and all the lights on the house blink off and on together, twice. "
-        f"{CUTFACE} {ONEHOUSE} {ONE}", DOGONLY),
+        f"{EDGE} {ONEHOUSE} {ONE}", DOGONLY),
  "C7": ("F1", ["PX"], "HI3", 6, "The camera flies up and in to the front roof edge, leaving the dog below, and comes very close to "
         "one bulb on the gutter, which changes into a clear bullet-shaped pixel with a tiny green circuit board and a small black "
         "chip inside it, glowing red; its neighbours glow orange, yellow, green and blue. Then the camera pulls away and climbs "
         "high above the front lawn, looking down at the whole house: every edge of the house is now outlined in pixels, and waves "
         "of colour run along the roof edges, round the windows and across the garage, changing all the time. "
-        f"{WHOLE} {ONEHOUSE} {ONE}", DOGONLY),
+        f"{EDGE} {ONEHOUSE} {ONE}", DOGONLY),
  "C8": ("HI3", [], "RO3", 4, "The camera swoops down from high above the lawn to the left end of the front roof edge and levels "
         "out just in front of the gutter, looking along the line of lights toward the far end of the house. On the way down the "
         "running colours all turn white. As the camera arrives, the lights from the middle of the line to its far end fade from "
         "white to pale pink and grow dim, while the nearest ones stay pure bright white. "
-        f"{WHOLE} {ONEHOUSE} {ONE}", NOBODY),
+        f"{EDGE} {ONEHOUSE} {ONE}", NOBODY),
  "C9": ("RO3", [], "RO4", 4, "A black cable rises from under the eave, bends over the white gutter and clicks into the line of "
         "lights at its middle with a small black connector. At once the pink lights beyond it brighten and turn pure white, one "
         "after another, all the way to the far end of the line. The camera drifts slowly forward along the roof edge. "
@@ -75,17 +81,19 @@ C = {
          "and the curb, to a low view from the road between two parked cars, looking back at the house, whose lights now pulse in "
          "colour to a beat. On the lawn beside a blank white sign, the dog throws its head back and howls. Far up the road, the "
          f"windows of other houses light up one after another. {BLANK} {WHOLE} {ONEHOUSE} {ONE}", DOGONLY),
- "C11": ("ST5", [], "SG", 8, "For the first half of the clip the camera holds low on the road between the two parked cars: "
-         "inside each car the dashboard lights up with a soft warm glow, first one car and then the other; the windows of the "
-         "houses far up the road go dark again; the dog stops howling, lowers its head and tilts it to one side. For the second "
-         "half the camera glides slowly forward over the curb to the edge of the lawn and comes in close on the blank white sign "
-         "on its wooden post, with the dog sitting beside the post. The lights on the house keep pulsing softly in colour. "
+ "C11": ("ST5", [], "SG", 8, "For the first half of the clip the camera drifts slowly sideways, low on the road between the two "
+         "parked cars, so the cars slide across the foreground: inside each car the dashboard lights up with a soft warm glow, "
+         "first one car and then the other; the windows of the houses far up the road go dark again; the dog stops howling, "
+         "lowers its head and tilts it to one side. For the second half the camera glides forward over the curb to the edge of "
+         "the lawn and comes in close on the blank white sign on its wooden post, with the dog sitting beside the post. The "
+         "lights on the house keep pulsing softly in colour. "
          f"{BLANK} {WHOLE} {ONEHOUSE} {ONE}", DOGONLY),
- "C12": ("SG", [], "FR6", 4, "The camera pulls back and up from the sign, away from the road, to a wide view of the front of the "
-         "house from the edge of the lawn. As it pulls back, a tall cone-shaped tree made of strings of green light rises on the "
+ "C12": ("SG", [], "FR6", 4, "The camera pulls back and up from the sign and turns toward the house, until the sign is small at "
+         "the right edge of the lawn and the whole front of the house fills the upper part of the frame, seen from in front of "
+         "the lawn. As it pulls back, a tall cone-shaped tree made of strings of green light rises on the "
          "lawn and a white star lights on its top; four candy-striped arches of light pop up one after another in a row across "
          "the driveway; a snowman made of white lights lights up beside the porch. The dog trots across the lawn and sits down in "
-         f"the middle of it, wearing small reindeer antlers that glow. {BLANK} {CUTFACE} {ONEHOUSE} {ONE}", DOGONLY),
+         f"the middle of it, wearing small reindeer antlers that glow. {BLANK} {EDGE} {ONEHOUSE} {ONE}", DOGONLY),
  "C13": ("FR6", [], None, 5, "The finished light show plays. Colours run in waves along the lights on the roof edges and round "
          "the windows; bands of light spiral up the cone-shaped tree; the four arches light up one after another, so the light "
          "seems to leap from arch to arch; the snowman's round mouth opens and closes as if it were singing. The dog's antlers "

@@ -338,5 +338,5 @@ TikTok covers in red; `16-overlays.py`). What the first spec (CLAUDE.md section 
 - The word times in these previews are estimates (3.5 words a second) and the previews are silent: there is no narration
   yet (ElevenLabs: 34 credits left; a take needs 1,161).
 
-**After Gate D:** the other eleven clips in one batch (C2, C4–C13: 57 s, 130.00); then the narration (credits and the
+**After Gate D:** the other eleven clips in one batch (C2, C4–C13: 52 s, 130.00); then the narration (credits and the
 voice pick), the sound, the edit.

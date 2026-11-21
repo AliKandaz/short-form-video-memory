@@ -73,7 +73,7 @@ explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
   parallax; the hook (C1) lights the roof edge by 2 s with a still camera, so the edit plays its first 2 s at 1.4x under a
   push-in (RAMP and PUSH, 7.4). They wait for the user's approval, with the first test of the overlays on them
   (`pipeline/16-gateD.jpg`, `16-gateD-overlays.jpg`; the log is Step 7 of `16-beat-sheet.md`, the job ids in
-  `16-jobs.tsv`). Spent 43.75 of the 199.81 quoted; the reserve is untouched. Next: the other eleven clips (57 s, 130.00)
+  `16-jobs.tsv`). Spent 43.75 of the 199.81 quoted; the reserve is untouched. Next: the other eleven clips (52 s, 130.00)
   in one batch. The narration (2,322 ElevenLabs credits for two takes) waits for credits and for the voice pick; the script
   and the bill ($2,107) are `16-script.txt` and `16-bill.md`.
 - **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take; the quota shown was 30,354 (7.7). A
