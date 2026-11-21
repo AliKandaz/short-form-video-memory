@@ -65,18 +65,21 @@ explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
    the edit (5); they are never asked of the image or video models.
 
 **Status on 21 Nov 2026 (read this first):**
-- **The build format is decided, and video 16 is at Gate B** (21 Nov 2026). The user chose B3 as the first build video ("How to
-  Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026) and approved Gate A ("approve": the script of
-  224 words, the set at blue dusk, the dog as a scruffy tan terrier; the narrator was not picked). The beat sheet (13 clips,
-  61 s; 14 stills and the dog key) and the quote, **199.81 with the reserve**, are in `pipeline/16-beat-sheet.md`; the script
-  and the bill ($2,107) are `16-script.txt` and `16-bill.md`. Nothing is spent: the next step is the user's approval of the
-  quote, then the stills (Gate C). The narration (2,322 ElevenLabs credits for two takes) waits for credits.
+- **The build format is decided, and video 16 is at Gate C** (21 Nov 2026). The user chose B3 as the first build video ("How to
+  Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026), approved Gate A (the script of 224 words, the
+  set at blue dusk, the dog as a scruffy tan terrier; the narrator was not picked) and Gate B (the quote, 199.81 with the
+  reserve). **The 15 stills are made: 17 tries, 21.25 credits, the stills line of the quote exactly.** They, the flight map
+  and the dog key wait for the user's approval (`pipeline/16-flightmap.jpg`, `16-first-last.jpg`, `16-stills.jpg`,
+  `16-dog.jpg`, `16-keyframes.jpg`; the log is at the end of `16-beat-sheet.md`, the job ids in `16-jobs.tsv`). Next: the two
+  pilots (C1 the hook and C3, 22.50) for Gate D. The narration (2,322 ElevenLabs credits for two takes) waits for credits
+  and for the voice pick; the script and the bill ($2,107) are `16-script.txt` and `16-bill.md`.
 - **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take; the quota shown was 30,354 (7.7). A
   narration take needs about 1,400–1,540, so no video can be voiced until the quota renews or the user tops it up.
 - **The narrator is changing** (the user, 21 Nov 2026: "proceed with a different voice"). One audition take was made, Marcus
   (5); the other two voices failed for lack of credits. Marcus is the stand-in until the user picks by ear.
-- **Higgsfield: 905.00 credits** on 21 Nov 2026 (`balance`): four videos at the cap before the Ultra plan renews (3,000 a
-  month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a second at 720p since 21 Nov 2026 (6.0).
+- **Higgsfield: 883.75 credits** on 21 Nov 2026 after video 16's stills (`balance`; 905.00 before): four videos at the cap,
+  this one included, before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a
+  second at 720p since 21 Nov 2026 (6.0).
 - **Video 15 is posted** ("Why This NFL Field Is Sitting on 546 Wheels"; found on 21 Nov 2026 at 22:00 UTC): TikTok on 21 Nov
   at 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14; YouTube the same evening. At about 20 h: 302 views on
   TikTok (16 likes, every tag registered) and 4 on YouTube (9.1, 9.2).
@@ -365,7 +368,7 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 |---|---|---|---|---|
 | B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
 | B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
-| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: Gate A approved, at Gate B (21 Nov 2026)** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
+| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: Gates A and B approved, the stills made, at Gate C (21 Nov 2026)** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
 | B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
 | B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
 | B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
@@ -375,9 +378,10 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 | B10 | How to Turn Your Garage Into a Fire Station | a red truck backs into the garage | weak on the search page (15K); fire trucks carry enthusiast channels (448K–705K, 1.6); no build video found | the set is a building cut open, our look's best case |
 
 ### 2.4 Budget and cadence
-- **At most 200 Higgsfield credits a video** (6.1). The balance is 905.00 on 21 Nov 2026: four videos at the cap before the
-  Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). Keeping the look keeps the cost: about 80% of a video
-  is clips. A cheaper clip model would stretch the balance, only if the look holds and only if the user says so (6.1).
+- **At most 200 Higgsfield credits a video** (6.1). The balance was 905.00 on 21 Nov 2026 (883.75 after video 16's stills):
+  four videos at the cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). Keeping the look
+  keeps the cost: about 80% of a video is clips. A cheaper clip model would stretch the balance, only if the look holds and
+  only if the user says so (6.1).
 - **ElevenLabs is the other limit** (2.2): about 1,400–1,540 credits a narration take and about 130 for the sound.
 - **One video every one to two days** as credits allow; early evening, US Eastern, on both platforms (8). Fixed date: B3 by
   about Sat 5 Dec 2026.
@@ -867,7 +871,10 @@ summaries (7.7); the bill file says so, and the user is asked to look at its big
   is never hurt, and never frightened for more than a beat. His look is agreed in words at video 16's Gate A and fixed at its
   Gate C by one still (the dog key, 1.25 credits); that still is a reference in every later video (6.3 DOG). Proposed: a small
   scruffy tan terrier with a white chest, one folded ear and a red collar, a shape that still reads when he is small in the
-  frame. The first build video asks viewers to name him (8.1).
+  frame. The first build video asks viewers to name him (8.1). **Drawn on 21 Nov 2026** (video 16): he came out with both
+  ears folded, so his words are "a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a red collar";
+  the dog key is Higgsfield job `51460339-c4b8-4537-9078-bd28de9305f8` (`pipeline/16-dog.jpg`), waiting for the user's approval
+  at Gate C.
 
 ---
 
@@ -1201,8 +1208,14 @@ video's street tile (`pipeline/street/NN.jpg`). Then log the video in 9.2 and up
   the event first ("On the first frame the manhole cover bursts upward on a column of smoke…") and says it starts on frame 1.
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
 - **DOG** (21 Nov 2026; only the stills and clips the dog is in): the dog key as an image reference, and "The dog is the same
-  dog as in the dog reference: [his look, in the words fixed at video 16's Gate C]. He is small in the frame, [where he is and what he is
-  doing]." Everywhere else, add "No animals." to the people line.
+  dog as in the dog reference: a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a red collar. He
+  is small in the frame, [where he is and what he is doing]." The key is job `51460339-c4b8-4537-9078-bd28de9305f8` (video
+  16). Everywhere else, add "No animals." to the people line. A pose asked for in words held with the key as the second
+  reference (howling, head tilted, wearing antlers), first time each.
+- **DUSK** (video 16, 21 Nov 2026; only where light is the subject): in STYLE, "Bright soft daylight, warm tones, soft
+  shadows" and "translucent cyan water" become "Blue dusk just after sunset: a deep blue sky with a soft orange glow low on the
+  horizon, soft even light with no hard shadows, warm light from bulbs and windows". It held across all 15 stills of video 16
+  (mean brightness 60–100 of 255), with no re-grade of a day still needed.
 
 ### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026; video 14's on 20 Nov 2026; video 15's on 21 Nov 2026)
 **For a build video (from video 16; 21 Nov 2026):** start from video 15's set as below. The edit needs three things its build
@@ -1294,6 +1307,18 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   inside the bowl as well as the field parked outside. "Inside the stadium there is no grass at all" fixed it, but the LOCK edit
   that also closed the roof zoomed in (HI0.B); redoing the fix from the first try with "the camera stays far back: the whole
   stadium and the whole field fit in the frame, exactly as in the reference" held the framing (HI0.C) and kept the chain short.
+- **A set key can come back too small for the hook: move in, and keep the wide** (video 16, 21 Nov 2026). F0.A drew the
+  whole lot under a third of empty sky, so the naive step (a string of lights on the gutter) was a line of dots. A POS edit
+  ("the same three-quarter view, but much closer … the house and its garage span almost the whole width of the frame; the roof
+  peak about 14% from the top") gave frame 0 in one try. The wide stayed useful as the reference for the high and street
+  views, which need the parts the close view crops.
+- **A LOCK edit that adds big things pulls the camera back** (video 16, FR6): asked to keep frame 0's framing and add a
+  tree, arches and a snowman, seedream stepped back to fit them. Kept (the same side, a few steps further); to hold the
+  framing, say so as in HI0.C, or add fewer things.
+- **A POS edit can add a part the set doesn't have** (video 16, ST5: a second garage door). A LOCKZ edit that names only
+  that ("one single white garage door … where the second door was, the wall is plain siding") fixed it and touched nothing else.
+- **15 keyframes in 17 tries** (video 16): every still an edit of the key or of a neighbour, a "nothing is cut open in this
+  view" line on every close view and an "is whole and flat" line on the aerial; no pit, trench or soil leak in any of them.
 
 ### 7.2 Clips (Kling)
 - `kling4_0` takes 12–13 jobs at once on Ultra and finishes them in 4–17 minutes. It returns about 724×1284 at 720p.
@@ -2087,6 +2112,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   (video 16). Step 0 and Gate A done with nothing spent: both accounts' lists re-fetched (clear), YouTube checked with both
   title shapes (no animated build), the shunt loop swapped for power injection, every fact and price read through search
   summaries, the bill at $2,107. The user approved Gate A; the beat sheet (13 clips, 61 s, 15 keyframes) and the quote of
-  199.81 were shown at Gate B (`pipeline/16-*`).
+  199.81 were shown at Gate B and approved. The 15 stills were made in 17 tries for 21.25 credits (a closer frame 0 after
+  the first key came back small; the dog key from frame 0) and shown at Gate C (`pipeline/16-*`).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`),
   18/11/26 v2 (`a9abd35`).
