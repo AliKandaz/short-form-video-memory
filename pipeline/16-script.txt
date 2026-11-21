@@ -1,5 +1,5 @@
 How to Turn Your House Into a Christmas Light Show
-(B3 from section 3, the first video in the build format; Gate A draft of 21 Nov 2026, not approved yet; 224 spoken words,
+(B3 from section 3, the first video in the build format; approved at Gate A on 21 Nov 2026; 224 spoken words,
 ~64.0 s at 3.5 words a second, plus the 1.5 s street card)
 Format (CLAUDE.md 4.1): the premise line over the naive step, five loops of "But... So you... This is...", "Add...", then our
 closing line with the bill. The premise ends at ~4.6 s and the first "But" lands at ~4.6-5 s.

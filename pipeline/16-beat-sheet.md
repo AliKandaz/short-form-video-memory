@@ -1,8 +1,10 @@
 # 16 The Christmas light show: beat sheet (Cutaway look, build format)
 
-Idea B3 (section 3), the first video in the build format (CLAUDE.md 4). **Gate A draft of 21 Nov 2026: not approved yet.**
-The script is `16-script.txt` (224 spoken words, ~64.0 s at 3.5 words a second, plus the 1.5 s street card); the bill is
-`16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat table (Step 2) is written after Gate A.
+Idea B3 (section 3), the first video in the build format (CLAUDE.md 4). **Gate A approved by the user on 21 Nov 2026**
+("approve": the script, the dusk set and the dog's look as proposed; the narrator was not picked, so Marcus stays the
+stand-in). The script is `16-script.txt` (224 spoken words, ~64.0 s at 3.5 words a second, plus the 1.5 s street card); the
+bill is `16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat table and the quote for Gate B are at the end
+of this file. **Nothing is spent until Gate B is approved.**
 
 ## Gate A
 
@@ -124,3 +126,108 @@ snowman, the dog in antlers. The last still is S6 from FRONT.
   https://dnews.com/local-news/christmas-music-drives-pullman-light-showd0a2bc34
 - LED against incandescent: https://www.kiplinger.com/personal-finance/how-to-save-money/christmas-lights-and-your-energy-bill-how-to-save-money
 - Prices, watts and the circuit: `16-bill.md`.
+
+## Step 2: the beat sheet (21 Nov 2026)
+
+Est. seconds = words / 3.5; the real timings come from the narration (Step 6) and replace these. Every beat is a clip; no
+holds are planned. Labels, the counter, the pointers and the street card are overlays made in the edit (section 5); the image
+and video models are never asked for text.
+
+### The picture's one changed phrase
+STYLE for video 16, byte-identical in every still and clip: "Photoreal 3D cutaway render: the ground is sliced open like a cake
+toward the camera, showing clean layers and what is buried in them. Blue dusk just after sunset: a deep blue sky with a soft
+orange glow low on the horizon, soft even light with no hard shadows, warm light from bulbs and windows, mild depth of field,
+clean realistic materials, tidy and uncluttered. No text, no letters, no numbers, no captions, no logos, no watermark." It is
+section 6.3's STYLE with "bright soft daylight, warm tones, soft shadows" and "translucent cyan water" replaced. Fallback if
+the stills are too dark on a phone: "the last light of the day, the sky still pale blue".
+
+### Stages
+- **S0** the house dark, one string half clipped along the gutter, unlit (F0: frame 0); then lit to the corner (F0b).
+- **S1** fifty-one strings on: the roof line, the eaves, the windows, the porch rail, the bushes (F1); the same, all dark, a
+  spark at the breaker panel in the cut-open garage (F1x). **S2** looks like S1 from FRONT (the sealed boxes only show at the
+  outlet: OU1 without them in the rain, OU2 with them).
+- **S3** the roof line in pixels, colour running; the controller box in the garage (HI3, PX). **S4** the same with the
+  injection wire and its T-joint; the roof line one even white (RO4; RO3 is the fault before it: white fading to pink).
+- **S5** the aerial on the garage eave, a blank sign on a post at the lawn's edge, two cars at the curb (ST5, SG).
+- **S6** the tree, the four arches over the driveway, the singing snowman, the dog in antlers (FR6: the last still, from
+  frame 0's position).
+
+### Camera positions (7) and stills (14 and the dog key)
+Every position is a real still: an edit of the set key (F0) or of a neighbour, never a crop; no chain is longer than three
+edits. The dog is drawn into F0 from the words agreed at Gate A; the dog key is then made from F0 (the dog alone on a plain
+ground) and is a reference for ST5 and FR6.
+
+| Still | Position | Made from | What it shows |
+|---|---|---|---|
+| F0 | FRONT | (set key) | The house from the front lawn, filling the upper 60%: the front whole, the right end (garage and attic) cut away, the ground cut straight down in front; a ladder at the gutter, one string half clipped along the roof edge, unlit; the dog on the lawn wound up in a spare string. S0. **Frame 0** |
+| F0b | FRONT | F0 (LOCK) | The string clipped to the corner and lit, warm white; the dog's string lit. S0 lit |
+| F1 | FRONT | F0 (LOCK) | Fifty-one strings on: every edge of the house, the porch, the bushes. S1 |
+| F1x | FRONT | F1 (LOCK) | Every light off, the windows dark, the sky unchanged; a small spark at the breaker panel in the garage. S1 dark |
+| GU | GUTTER | F1 (POS) | Extreme close along the roof edge: a row of LED bulbs on clips on the gutter, glowing warm white, the wall and the dusk sky behind. S1 |
+| OU1 | OUTLET | F1 (POS and change) | Low by the outside wall: an outdoor outlet with two small buttons, two plug joins lying on wet paving in light rain, the strings above dark. S1 in the rain |
+| OU2 | OUTLET | OU1 (LOCKZ) | Each join inside a closed plastic box; the strings lit again; rain still falling. S2 |
+| PX | GUTTER | GU (LOCKZ) | Extreme close on one pixel: a clear bullet-shaped node with a tiny square chip and three small lights inside, glowing one colour. S3 |
+| HI3 | HIGH | F1 (POS and change) | From high above the front yard: the whole house, its roof line and edges in pixels showing a wave of colour; the controller box on the wall of the cut-open garage. S3 |
+| RO4 | ROOF | F1 (POS and change) | At the left end of the roof line, looking along the gutter: a single line of pixels, all white to the far end, a wire up through the eave to a small T-joint in the middle. S4 |
+| RO3 | ROOF | RO4 (LOCKZ) | The same with no wire and no joint: the near pixels white, the far half fading to pink. S3, the fault |
+| ST5 | STREET | F1 (POS and changes) | Low on the road at the curb: two parked cars in front, the house behind with its pixels running, a blank white sign on a post at the lawn's edge, a small aerial on the garage eave, the dog on the lawn with his head up, lit windows up the street. S5 |
+| SG | SIGN | ST5 (POS) | Close on the blank sign on its post, big in the frame, the house and its lights soft behind. S5 |
+| FR6 | FRONT | F1 (LOCK) | F0's framing, the finished build: the pixel roof line, a tall cone tree of light on the lawn, four glowing arches over the driveway, a snowman of lights by the porch, the sign, the dog beside the snowman in antlers. S6. **Last still** |
+| DOG | (key) | F0 | The dog alone on a plain pale ground, whole body, three-quarter view |
+
+### The beats
+| Beat | Line begins | Words | Est. s (starts) | Camera | Stills | What moves, big in the frame | Label | Counter | Pointer | Sound | Clip |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| B1 | If you clip one string of lights… | 16 | 4.6 (0.0) | FRONT, wide, a slow push toward the roof edge | F0 → F0b | the clips run to the corner and the bulbs come on one by one, lit across the roof by 1.0 s; the dog's string lights | | $3 | | clips and bulbs ticking on | **C1, 4 s (hook)** |
+| B2 | But you plug in fifty more strings… | 19 | 5.4 (4.6) | FRONT, pushing toward the garage end | F0b → F1 → F1x | fifty strings snap on over the whole house; the breaker trips and everything goes dark, a spark at the panel | | | ring on the panel | the breaker's clunk | C2, 5 s |
+| B3 | So you swap every bulb for an LED… | 18 | 5.1 (10.0) | flies up from FRONT to GUTTER | F1x → GU | the bulbs come back as LEDs, glowing along the gutter | LED | +$305 → $308 | | tick | C3, 5 s |
+| B4 | But the first rain gets into the plugs… | 13 | 3.7 (15.1) | sinks from GUTTER to OUTLET | GU → OU1 | rain starts, the plug joins sit in a puddle, the lights flicker out | | | | rain | C4, 4 s |
+| B5 | The outlet felt power leaking… | 13 | 3.7 (18.9) | OUTLET, pushing in on the outlet | OU1 (start only) | the outlet's button pops out; a faint thread of leaking current fades | | | ring on the button | a sharp click | C5, 5 s |
+| B6 | This is a ground-fault outlet. | 5 | 1.4 (22.6) | (C5) | | | GROUND-FAULT OUTLET | | | | (C5) |
+| B7 | So every plug goes inside a sealed box. | 8 | 2.3 (24.0) | OUTLET, then back and up toward FRONT | OU1 → OU2 → F1 | boxes snap shut over the plugs and the lights come back | | +$120 → $428 | | tick | C6, 4 s |
+| B8 | But all your lights can do is blink. | 8 | 2.3 (26.3) | arrives at FRONT | (C6) | every light blinks off and on together | | | | | (C6) |
+| B9 | So every bulb gets its own tiny chip… | 19 | 5.4 (28.6) | dives to one bulb on the roof line, then rises to HIGH | F1 → PX → HI3 | the bulb becomes a pixel with a chip inside; colour runs along the roof in waves | | +$715 → $1,143 | | a shimmer, no tune; tick | C7, 6 s |
+| B10 | These are pixels. | 3 | 0.9 (34.0) | (C7) | | | PIXELS | | | | (C7) |
+| B11 | But halfway along the roof, white turns pink… | 15 | 4.3 (34.9) | swoops from HIGH to ROOF | HI3 → RO3 | the pixels go white and the far half fades to pink | | | | | C8, 4 s |
+| B12 | So you feed fresh power into the middle… | 11 | 3.1 (39.1) | ROOF, drifting along the line | RO3 → RO4 | a wire comes up through the eave and clicks into the middle; pink turns white to the end | | +$52 → $1,195 | arrows along the new wire | a click; tick | C9, 4 s |
+| B13 | This is power injection. | 4 | 1.1 (42.3) | (C9) | | | POWER INJECTION | | | | (C9) |
+| B14 | But the music wakes the whole street. | 7 | 2.0 (43.4) | swoops down from ROOF to STREET | RO4 → ST5 | windows light up along the street; the dog howls | | | | a muffled thump and a howl | C10, 3 s |
+| B15 | So you send it out from a tiny radio transmitter… | 17 | 4.9 (45.4) | STREET, drifting along the cars | ST5 → SG | the cars' dashboards light one by one, the neighbours' windows go dark, the dog tilts his head | FM TRANSMITTER | +$140 → $1,335 | arrows from the aerial to the cars | a radio tuning in; tick | C11, 8 s |
+| B16 | That's why light-show houses post a radio station… | 14 | 4.0 (50.3) | pushes in to the SIGN | (C11) | the camera arrives at the sign | | | the frequency, pinned on the sign | | (C11) |
+| B17 | Add a tree made of lights, arches…, a snowman that sings. | 15 | 4.3 (54.3) | pulls back and up from SIGN to FRONT | SG → FR6 | the tree rises, the arches spring over the driveway, the snowman lights up | | +$772 → $2,107 | | tick | C12, 4 s |
+| B18 | That's your light show. | 4 | 1.1 (58.6) | FRONT, frame 0's position | FR6 (start only) | the show plays: colour spirals up the tree and leaps the arches, the snowman sings, the dog's antlers blink | | | | | C13, 5 s |
+| B19 | The bill: about two thousand dollars… | 15 | 4.3 (59.7) | FRONT, a slow push, then PULL to frame 0's framing | (C13) | | | the total grows to the middle: $2,107 | | the till | (C13) |
+| card | the street | | 1.5 (64.0) | | | one tile (this video's last frame) and nine empty lots | | | | | (edit) |
+
+**Clips:** 13, 61 s in all (the lines come to 64.0 s, so the clips play at about 0.95×; C10 is 3 s over a 2 s line and plays
+whole and faster). Eight of the thirteen fly the camera between two positions (C3, C4, C6, C7, C8, C10, C11, C12); the others
+push in, with `PUSH` added in the edit if a clip comes back still. First big move at 10 s (the hook holds the wide view);
+none more than 10 s apart after that. **Pilots for Gate D:** C1 (the hook) and C3 (the flight to the gutter).
+
+**The dog:** F0 to F1x (the first shot and the blackout), ST5 (he howls, then tilts his head) and FR6 (antlers). Every other
+prompt says "No animals."
+
+**Sound:** a bed (a quiet street at dusk in December, about 20 s, looped) and eight short effects: bulbs ticking on, the
+breaker's clunk, rain, a sharp click (the outlet, the injection joint and, quieter, the counter's tick), a shimmer for the
+pixels (no tune), a muffled thump with a dog's howl, a car radio tuning in, and the till. About 46 s of sound in all.
+
+## Step 3: the quote for Gate B (21 Nov 2026)
+
+Prices read with the estimate tools on 21 Nov 2026: `kling4_0` image-to-video at 720p is 2.50 a second (3 s 7.50, 4 s 10.00,
+5 s 12.50, 6 s 15.00, 8 s 20.00); `seedream_v5_pro` at 1k is 1.25 a still.
+
+| Item | Plan | Credits |
+|---|---|---|
+| Clips | 13 clips, 61 s at 720p | 152.50 |
+| Stills | 15 keyframes (14 of the set and the dog key), and 2 retries | 21.25 |
+| Base | | 173.75 |
+| Reserve (15%) | two clip re-renders, or more still retries | 26.06 |
+| **Quote** | | **199.81** |
+
+Balance: 905.00. After the base 731.25; if the whole reserve is used, 705.19. Spending comes in stages with a stop at each
+gate: the stills first (about 21 credits, Gate C), then the two pilots (22.50, Gate D), then the other eleven clips (130.00).
+
+**ElevenLabs (outside the cap):** the narration is 1,161 characters: 2,322 credits for two takes, 1,161 for one (the
+estimate of 21 Nov 2026, flow `r5l5knyfRALPrOQwQ3Tk`, nothing generated). The sound is about 150 credits by its durations. The
+last balance seen was 34 credits, and it can't be read from a session, so the narration waits for credits; the stills and
+the pilots don't need it.
