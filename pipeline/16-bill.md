@@ -35,3 +35,24 @@ out and listed at the bottom, so the total is a floor.
 - The price of power: 18.16 ¢ a kWh, the US residential average for Aug 2026 (EIA Electric Power Monthly table 5.6.A, read
   through priceofelectricity.com and energyfactbook.com; 18.19 ¢ for Jan–Jul 2026).
 - For scale, not said in the video: the same 51 strings as incandescent would draw about 2,040 W, 10.2 kWh, about $1.85 a night.
+
+## Links (as the searches returned them on 21 Nov 2026; open them in a browser to check a line)
+- Incandescent and LED strings: https://www.homedepot.com/b/Holiday-Decorations-Christmas-Decorations-Christmas-Lights/Mini/N-5yc1vZc3tbZ1z0z79f ·
+  https://www.homedepot.com/b/Holiday-Decorations-Christmas-Decorations-Christmas-Lights-Christmas-String-Lights/Mini/LED/N-5yc1vZc3t9Z1z0z79fZ1z11erc ·
+  https://financebuzz.com/news/walmart-vs-home-depot-christmas-decor
+- Cord covers: https://www.walmart.com/c/kp/weatherproof-connection-box · https://twistandseal.com/ ·
+  https://www.lowes.com/pd/SOCKiTBOX-The-Original-Weatherproof-Connection-Box-Large-Indoor-and-Outdoor-Electrical-Power-Cord-Enclosure-Green-Medium/7609184
+- Controller: https://pixelcontroller.com/store/featured/95-f16v5rtr.html · https://wiredwatts.com/falf16v5
+- Pixels: https://rgb2go.com/collections/in-stock-items/products/copy-of-12v-resistor-bullet-pixels-xconnect-50ct ·
+  https://yourpixelstore.com/product/ws2811-pixels-12v-bullet-resistor-sets/ ·
+  https://www.holidaycoro.com/6-Inch-Pixel-Node-String-12v-EasyPlug3-xConnect-p/712-wp.htm
+- Power injection: https://www.holidaycoro.com/product-p/1308.htm · https://visionarylightshows.com/products/power-injection-tees
+- FM transmitter: https://wholehousefmtransmitter.com/pages/fm-transmitter-for-xmas-and-christmas-lights-to-music-display-like-light-o-rama ·
+  https://www.wowlights.com/ProductList.asp?Category=10
+- Mega tree, arches, snowman: https://boscoyostudio.com/products/mega-tree-kit-16-32 ·
+  https://www.holidaycoro.com/Four-Pixel-Arches-Kit-p/817.htm · https://www.holidaycoro.com/Singing-Snowman-p/105.htm
+- Electricity price: https://www.priceofelectricity.com/electricity-cost · https://energyfactbook.com/electric-power-monthly/
+- Watts per string and the circuit: https://www.christmaslightsetc.com/pages/how-much-power.htm ·
+  https://www.christmaslightsetc.com/pages/how-many-watts-amps-do-christmas-lights-use.htm ·
+  https://www.energysage.com/electricity/house-watts/how-much-electricity-do-christmas-lights-use/ ·
+  https://www.cooltoday.com/blog/how-many-christmas-lights-can-i-plug-into-a-circuit

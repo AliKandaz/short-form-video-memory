@@ -111,3 +111,16 @@ snowman, the dog in antlers. The last still is S6 from FRONT.
   the narration waits for credits.
 - **The narrator:** Marcus is the stand-in until the user picks (section 5).
 - **Higgsfield:** 905 credits on 21 Nov 2026. The quote comes at Gate B, at most 200 with the reserve.
+
+### Links for the facts (as the searches returned them on 21 Nov 2026)
+- GFCI and rain: https://www.christmasdesigners.com/blog/gfcis-and-christmas-lights-how-to-overcome-gfi-related-problems/ ·
+  https://mrelectric.com/blog/christmas-lights-gfci-outlets ·
+  https://thechristmaslightemporium.com/blogs/all-about-christmas-lights/gfci-tripping-christmas-lights-fix
+- Pink pixels and power injection: https://learnchristmaslighting.com/blog/why-are-some-of-my-pixels-turning-brown-or-pink-5-ways-to-solve-this-problem%2F ·
+  https://doityourselfchristmas.com/wiki/index.php/Power_Injection ·
+  https://support.enttec.com/pixel/pixel-general-knowledge/managing-voltage-drop-and-pinking-in-high-density-pixel-and-neon-flex-runs
+- The radio: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-15/subpart-C ·
+  https://www.angi.com/articles/how-to-make-christmas-light-show.htm ·
+  https://dnews.com/local-news/christmas-music-drives-pullman-light-showd0a2bc34
+- LED against incandescent: https://www.kiplinger.com/personal-finance/how-to-save-money/christmas-lights-and-your-energy-bill-how-to-save-money
+- Prices, watts and the circuit: `16-bill.md`.
