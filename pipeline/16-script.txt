@@ -1,0 +1,24 @@
+How to Turn Your House Into a Christmas Light Show
+(B3 from section 3, the first video in the build format; Gate A draft of 21 Nov 2026, not approved yet; 224 spoken words,
+~64.0 s at 3.5 words a second, plus the 1.5 s street card)
+Format (CLAUDE.md 4.1): the premise line over the naive step, five loops of "But... So you... This is...", "Add...", then our
+closing line with the bill. The premise ends at ~4.6 s and the first "But" lands at ~4.6-5 s.
+Changed from the section 3 draft after the Gate A checks of 21 Nov 2026: the shunt loop is out (five small AI Shorts on "one
+bulb kills the string / the hidden wire in every bulb" went up in the last two weeks) and power injection is in; rain for
+snow (the set stays the same); "takes the oven with it" became the porch and the living room (an oven has its own circuit);
+the nightly power line is "less than a dollar" (it holds across the whole range in 16-bill.md).
+Terms on screen (labels, added in the edit): LED, GROUND-FAULT OUTLET, PIXELS, POWER INJECTION, FM TRANSMITTER.
+
+If you clip one string of lights to your gutter, you have a Christmas light show.
+
+But you plug in fifty more strings, and the breaker trips: the porch and the living room go dark. So you swap every bulb for
+an LED: the same glow, on about a tenth of the power. But the first rain gets into the plugs, and everything shuts off again.
+The outlet felt power leaking and cut it before it could shock you. This is a ground-fault outlet. So every plug goes inside a
+sealed box. But all your lights can do is blink. So every bulb gets its own tiny chip, and a controller sets each one's color
+in time with music. These are pixels. But halfway along the roof, white turns pink: the power is fading down the wire. So you
+feed fresh power into the middle of the line. This is power injection. But the music wakes the whole street. So you send it
+out from a tiny radio transmitter, and every car out front tunes in. That's why light-show houses post a radio station on a
+sign in the yard.
+
+Add a tree made of lights, arches over the driveway, and a snowman that sings. That's your light show. The bill: about two
+thousand dollars, and less than a dollar a night in power.

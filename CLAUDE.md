@@ -65,8 +65,11 @@ explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
    the edit (5); they are never asked of the image or video models.
 
 **Status on 21 Nov 2026 (read this first):**
-- **The build format is decided; nothing in it has been made yet.** The first build video is number 16 (B1, 3). Before it:
-  the steps in 2.2.
+- **The build format is decided, and video 16 is at Gate A** (21 Nov 2026). The user chose B3 as the first build video ("How to
+  Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026). The script (224 words), the bill ($2,107) and
+  the Gate A sheet with the facts and the saturation numbers are `pipeline/16-script.txt`, `16-bill.md` and
+  `16-beat-sheet.md`. Nothing is spent and nothing is approved: the next step is the user's answer on Gate A, then the beat
+  sheet and the quote (6.2). The steps in 2.2 still stand.
 - **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take; the quota shown was 30,354 (7.7). A
   narration take needs about 1,400–1,540, so no video can be voiced until the quota renews or the user tops it up.
 - **The narrator is changing** (the user, 21 Nov 2026: "proceed with a different voice"). One audition take was made, Marcus
@@ -361,7 +364,7 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 |---|---|---|---|---|
 | B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
 | B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
-| B3 | How to Turn Your House Into a Christmas Light Show | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
+| B3 | How to Turn Your House Into a Christmas Light Show → **at Gate A as video 16 (21 Nov 2026), the first build video** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
 | B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
 | B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
 | B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
@@ -420,10 +423,10 @@ account.
 7. **Nobody has built it:** not on the lists in 13.2, and the topic rule of 1.6 and 1.7 on YouTube with both title shapes. If
    more than about three animated build videos of the same object went up in the last 30 days, drop it; don't retitle it.
 
-**B1. How to Hide a Swimming Pool Under Your Lawn** (a back yard with a pool; make first)
+**B1. How to Hide a Swimming Pool Under Your Lawn** (a back yard with a pool)
 - **Title** (both platforms): "How to Hide a Swimming Pool Under Your Lawn". **Caption:** the title, "Guess the bill 💸", the
-  four standing tags, #Pool. **Pinned comment:** "Name the dog 🐶 And what do we build next?" (the first build video names
-  the dog, 4.5).
+  four standing tags, #Pool. **Pinned comment:** "Would you swim under your own lawn? And what do we build next?" (the dog is
+  named on video 16, the first build video, 4.5).
 - **Set:** one back yard cut open like a cake through the pool: the lawn and patio on top, the pool's concrete shell and
   cyan water in the cut face, the floor's steel frame with its floats, the cables and pulleys on the pool bottom, a small
   plant room with a hydraulic cylinder beside it under the lawn; the back of the house and its door behind.
@@ -544,6 +547,24 @@ account.
   strings' share of the power (the US Department of Energy says at least 75% less); what trips first with fifty
   incandescent strings on a 15-amp circuit (do the sum); that a GFCI trips on wet connections; "pixels" and the controller;
   the low-power FM transmitter that light shows use and its rules; every price and the nightly cost.
+- **At Gate A as video 16 (21 Nov 2026; `pipeline/16-*`), not approved yet.** The user picked B3 as the first build video.
+  What the checks changed in the draft above: **the shunt loop is out** (five small AI Shorts on "one bulb kills the string"
+  and "the hidden wire in every bulb" went up on 8–15 Nov, best 8.5K) and **power injection is in** (halfway along the roof
+  white turns pink as the voltage sags; power is fed into the middle of the line); rain for snow, so the set keeps its
+  colours; "takes the oven with it" became "the porch and the living room go dark" (an oven has its own circuit; living
+  room and porch outlets often share one); the loops' terms are LED, GROUND-FAULT OUTLET, PIXELS, POWER INJECTION and FM
+  TRANSMITTER; the closing line is "The bill: about two thousand dollars, and less than a dollar a night in power" ($2,107.22
+  in `16-bill.md`; $0.19–$0.96 a night). The pinned comment names the dog. The set is at blue dusk: one phrase of the STYLE
+  line changes for this video, to be proved at Gate C.
+- **Resolved at Gate A (21 Nov 2026, search summaries; no seller's or agency's page opens from a session, 7.7):** a
+  100-count incandescent mini string draws about 40 W and an LED one 4–7 W; a 15-amp circuit carries 1,800 W (1,440 W
+  continuous), so 51 incandescent strings (about 2,040 W) trip it; a GFCI trips on a 4–6 mA imbalance in a fraction of a
+  second (the "1/40 of a second" often quoted wasn't found, so it isn't said) and rain in the plugs is the usual cause; a
+  smart pixel is an addressable RGB light with its own WS2811 chip; "pinking" at the end of a run is voltage drop and the fix
+  is called power injection (no "every N pixels" rule found, none said); unlicensed FM is limited to 250 microvolts a metre
+  at 3 metres (47 CFR 15.239), about 200 feet, and shows post the frequency on a yard sign. Saturation: neither build account
+  has a Christmas or lights build; on YouTube no animated build under either title shape, one near copy (Sticker Shovel,
+  1.2K); real footage 13.5M, 4.5M, 626K.
 - **Watch out:** no carols or any tune (no music, 5); no brand names; no Santa from a film; the sign carries no words in
   the generated picture (the frequency is an overlay, 5).
 
@@ -830,7 +851,8 @@ don't do; and it gives us a closing line of our own.
 6. **It is a story device, not a quote:** the YouTube description says "rough US prices, 2026".
 7. **The caption invites a guess** ("Guess the bill 💸", 8.1).
 How it looks on screen is in 5 (overlays). **Judged after ten videos** (2.5): comments per 1,000 views, and whether videos
-with a bigger bill travel further.
+with a bigger bill travel further. **Video 16 (21 Nov 2026):** from a session, prices can only be read through web-search
+summaries (7.7); the bill file says so, and the user is asked to look at its biggest lines in a browser.
 
 ### 4.5 The street and the dog (ours; proposed and accepted on 21 Nov 2026)
 - **The street.** An end card of 1.5 s after the bill line: every build so far as a tile (each video's last frame), the new
@@ -1442,6 +1464,12 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **Real 3D drawn in code runs here** (21 Nov 2026; set aside, 1.8): three.js from npm in the preinstalled headless Chromium
   draws 1080×1920 with shadows at about 0.35 s a frame, with no launch flags (software rendering). `require('playwright')`
   works from a CommonJS script, not from an ES module.
+- **No seller's or agency's page opened for video 16's bill** (21 Nov 2026; WebFetch and curl both, "host not found"):
+  `homedepot.com`, `lowes.com`, `pixelcontroller.com`, `wiredwatts.com`, `wallyslights.com`, `holidaycoro.com`,
+  `boscoyostudio.com`, `wholehousefmtransmitter.com`, `visionarylightshows.com`, `twistandseal.com`,
+  `christmaslightsetc.com`, `energy.gov`, `fcc.gov`, `osha.gov`, `mrelectric.com`, `manual.xlights.org` and the hobby sites.
+  Don't send a fetch agent after prices or quotes (two came back empty): use WebSearch, extended mode for prices, write in
+  the bill that it rests on search summaries, and ask the user to check the biggest lines in a browser.
 
 ### 7.8 Things that go wrong, and the fix
 | What goes wrong | Fix |
@@ -1956,20 +1984,20 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   arena, a log cabin, a zombie base, a zombie escape vehicle, an alien-proof house, a warm house in winter, a dinosaur-proof
   house, a last-person-on-Earth survival base, a ski resort, an NFL stadium from a street, a WWE arena from a mattress, the
   Golden Gate Bridge, a bank vault from a mattress, a Black Friday sale, an ice rink, a helipad.
-- **Made by @youbuiltit** (all 96 to 21 Nov 2026; `research/youbuiltit-videos.tsv`; re-fetch before each Gate A). *Home and
+- **Made by @youbuiltit** (all 97 to 21 Nov 2026; `research/youbuiltit-videos.tsv`; re-fetch before each Gate A). *Home and
   street:* a swimming pool, a toilet, running water, a fireplace, a septic tank, a refrigerator, a washing machine, a road, a
   roof, a stove, an air conditioner, a shower, a dishwasher, a clothes dryer, central heating, house electricity, a garage
   door, a foundation, a hot tub, a front door, a vending machine, a water tower, a car wash, a gas station, a sprinkler
-  system, an escalator, a fire hydrant (twice), a storm shelter, a bank vault, a traffic light, an ATM, a railroad crossing,
-  a tower crane, an automatic door, a garbage truck, an elevator, an airport baggage system, a concrete mixer truck, an
-  airplane toilet, a fire sprinkler, a subway, a burglar alarm, a rain gutter, a chicken coop, a treehouse. *Fun:* a roller
-  coaster (twice), a bowling alley, a claw machine, a soft-serve machine, an ice rink, a water slide, a ski chairlift, a
-  carousel, a wave pool, a lazy river, an infinity pool, a Ferris wheel, a splash pad. *Survival and history:* a log cabin,
-  a pyramid, a Viking ship, the Colosseum, a lighthouse, a Roman aqueduct, a shelter in the woods, a trebuchet, a campfire, a
-  fish trap, a windmill, clean drinking water, an island shelter, Stonehenge, a rope bridge, a Roman bath, the Great Escape
-  tunnel, an igloo, a dam, a smokehouse, a castle, a cathedral, a raft, drinking water from sand, the Great Wall, the Statue
-  of Liberty, a drawbridge, a jungle stilt hut, a dugout canoe, the Easter Island heads, a tipi, maple syrup, a reed boat, a
-  bark canoe, an earth oven, a cooking pot.
+  system, an escalator, a fire hydrant (twice), a storm shelter, a bank vault, a traffic light, an ATM, a railroad crossing, a
+  tower crane, an automatic door, a garbage truck, an elevator, an airport baggage system, a concrete mixer truck, an airplane
+  toilet, a fire sprinkler, a subway, a burglar alarm, a rain gutter, a chicken coop, a treehouse, a lawn mower (21 Nov).
+  *Fun:* a roller coaster (twice), a bowling alley, a claw machine, a soft-serve machine, an ice rink, a water slide, a ski
+  chairlift, a carousel, a wave pool, a lazy river, an infinity pool, a Ferris wheel, a splash pad. *Survival and history:* a
+  log cabin, a pyramid, a Viking ship, the Colosseum, a lighthouse, a Roman aqueduct, a shelter in the woods, a trebuchet, a
+  campfire, a fish trap, a windmill, clean drinking water, an island shelter, Stonehenge, a rope bridge, a Roman bath, the
+  Great Escape tunnel, an igloo, a dam, a smokehouse, a castle, a cathedral, a raft, drinking water from sand, the Great Wall,
+  the Statue of Liberty, a drawbridge, a jungle stilt hut, a dugout canoe, the Easter Island heads, a tipi, maple syrup, a
+  reed boat, a bark canoe, an earth oven, a cooking pot.
 - **Built by other channels on YouTube** (found 21 Nov 2026; 1.7, 3.1): a bunker (a dozen), a rocket launch pad, a skate
   bowl, an airport, an NBA arena, a zip line, a drive-in cinema, a pond and a koi pond, a secret room behind a wardrobe, a
   closet or a fridge, a hideout under a doghouse, a Mars base, a bathtub submarine and cruise ship, a storm shelter and a
@@ -2054,5 +2082,9 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **21 Nov (about 22:00 UTC):** while logging video 12's 72 h read (209 on TikTok, 10 on YouTube, under both bars), video 15
   was found posted on both platforms (TikTok at 01:45 UTC, 5 h 45 min after video 14): 302 and 4 views at about 20 h (9.1,
   9.2). s2-01 is on neither main account.
+- **21 Nov (later):** the user started the first build video from the renewed prompt with B3, the Christmas light show
+  (video 16). Step 0 and Gate A done with nothing spent: both accounts' lists re-fetched (clear), YouTube checked with both
+  title shapes (no animated build), the shunt loop swapped for power injection, every fact and price read through search
+  summaries, the bill at $2,107. Waiting for the user's approval of Gate A (`pipeline/16-*`).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`),
   18/11/26 v2 (`a9abd35`).
