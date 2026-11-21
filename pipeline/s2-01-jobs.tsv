@@ -1,0 +1,44 @@
+key	job_id	note
+# Higgsfield project 44326d13-708b-4085-89e4-eaab34db660b ("S2 – The chicken coop that became a guest cabin"), workspace d1f0d921-cd8c-419d-a40d-ab6543322720
+B.A	903c9854-5b4f-4909-a2d5-b8faac72aba4	builder key, try A
+R.A	8532ae9b-0578-4f47-b3c6-6eacd715363e	witness close-up and key, try A
+CA.A	e33a11d1-ef22-4fcd-9fc3-1d0dcddf25ba	impact driver close-up, try A
+CB.A	83de08ac-dfc2-4448-add0-241ffb62de54	nail gun close-up, try A
+B	903c9854-5b4f-4909-a2d5-b8faac72aba4	accepted builder key (try A)
+R	8532ae9b-0578-4f47-b3c6-6eacd715363e	accepted witness close-up (try A; she sits on the steps)
+CA	e33a11d1-ef22-4fcd-9fc3-1d0dcddf25ba	accepted impact driver close-up (try A)
+O0.A	ef735c47-3a98-43d2-b3c6-251c3bac9ccf	outside key (frame 0), try A
+I0.A	5feecfb7-8e22-4d63-94b3-d8fbba63b3d2	inside key, try A
+CB	83de08ac-dfc2-4448-add0-241ffb62de54	accepted nail gun close-up (try A)
+I0.A	5feecfb7-8e22-4d63-94b3-d8fbba63b3d2	inside key try A kept as the base for I0.B (a walk-in coop, the roof whole)
+O0.B	9025c11f-57e3-4635-9ea2-fd977857155b	outside key try B: LOCK edit of O0.A, the coop enlarged to walk-in size (O0.A drew it chest-high)
+I0.B	9013cf84-7aa1-4dee-a00d-1befe001eb7b	inside key try B: LOCK edit of I0.A, the roof caved in (the inside follows the hook)
+O0	9025c11f-57e3-4635-9ea2-fd977857155b	accepted outside key = frame 0 (try B: walk-in coop)
+I0	9013cf84-7aa1-4dee-a00d-1befe001eb7b	accepted inside key (try B: the roof caved in)
+O1.A	c1a0174a-eb15-47fe-a00e-3145c8e5cf30	the roof collapse, try A
+O2.A	ef1f40d8-d9a5-46ab-91d2-32490d60a25c	frame stripped on new posts, hen house at the left, try A
+I1.A	e3db2044-750d-454a-b9b3-c08a9de756bf	gutted, open to the sky, try A
+O1	c1a0174a-eb15-47fe-a00e-3145c8e5cf30	accepted roof collapse (try A)
+O2	ef1f40d8-d9a5-46ab-91d2-32490d60a25c	accepted stripped frame on new posts, hen house at the left (try A)
+I1	e3db2044-750d-454a-b9b3-c08a9de756bf	accepted gutted, open to the sky (try A)
+O3.A	9e686133-6ef5-42fd-a0d3-bfac09a3948a	roof and sheathing, try A
+I2.A	d9080835-dfe1-43b0-9d6d-51c1151f097f	new roof, studs and insulation, try A
+O3	9e686133-6ef5-42fd-a0d3-bfac09a3948a	accepted roof and sheathing (try A; the front gable still open)
+I2	d9080835-dfe1-43b0-9d6d-51c1151f097f	accepted new roof and insulation (try A; the window drawn taller, kept from here on)
+O4.A	47d9e511-057d-4346-8a57-c2478141c38e	window, glazed door, board-and-batten, try A
+I3.A	ac44425f-d674-4d59-b0de-e9948bfb913f	pine lining and plank floor, try A
+O4	47d9e511-057d-4346-8a57-c2478141c38e	accepted window, glazed door, cladding (try A)
+I3	ac44425f-d674-4d59-b0de-e9948bfb913f	accepted pine lining (try A; the ceiling drawn as one slope)
+O5.A	95451ab4-e850-4718-99d5-0ef55c9a57cb	porch, deep green and cream, hen house to match, try A
+I4.A	0928d186-bcab-4f2d-b17a-bb9c1cca839b	bed, desk, shelves, try A
+I4	0928d186-bcab-4f2d-b17a-bb9c1cca839b	accepted bed, desk, shelves (try A)
+O5.B	f3eb9976-bac7-4a25-8aa3-c18f85ec1841	paint and porch, try B from O4 (try A put the porch on the house steps and hid the woman)
+I5.A	724ecb5f-60d7-4d41-88fd-4bc402bf1f7b	furnished, lamp off, builder by the desk, try A
+O5	f3eb9976-bac7-4a25-8aa3-c18f85ec1841	accepted paint and porch (try B)
+I5	724ecb5f-60d7-4d41-88fd-4bc402bf1f7b	accepted furnished, lamp off (try A; the window drawn as a taller two-pane sash, kept)
+O6.A	9a48f20c-b7dc-433e-9987-aabd27119ec8	finished: lantern, planter, doormat, boards gone, try A
+I6.A	ecb1cf33-e743-430d-97c7-ff087a1f2dee	dusk, snow outside, lamp off, builder reaching, try A
+O6	9a48f20c-b7dc-433e-9987-aabd27119ec8	accepted finished cabin (try A; the builder nearer the camera at the right)
+I6	ecb1cf33-e743-430d-97c7-ff087a1f2dee	accepted dusk room, lamp off (try A)
+P.A	715c3d34-04e7-4893-abf7-b46618dfe0db	payoff at dusk, try A
+P	715c3d34-04e7-4893-abf7-b46618dfe0db	accepted payoff at dusk (try A)

@@ -43,13 +43,18 @@ Nothing generated; balance 1,030.00. Clips at 720p. Budget: at most 200 Higgsfie
 - **The witness:** a woman in her forties with dark hair in a loose bun, an oversized cream knit cardigan over a grey top, jeans
   and slippers, a white mug in her hands.
 - **The hens:** five hens, three russet brown and two white, never hurt.
+- **The coop (21 Nov 2026, at the stills):** an old walk-in coop like a small garden shed on short legs, about 2.5 m wide,
+  its eaves at the builder's head; a hatch with a little ramp at the gable end and a rusty wire run along its left. O0.A drew
+  it chest-high, which no guest room could come from and which the inside view (a walk-in coop) contradicted, so O0.B
+  enlarged it with a LOCK edit; everything else in the frame stayed put.
 - **The outside view (locked, O0–O6 and P):** from the far corner of the back yard, about 2.5 m up, looking back toward the
   house at a slight downward angle: the coop in the middle of the frame and big (about a third of it); the house's back steps and
   door behind it, upper left; a low wooden fence and bare trees on the right; frosty lawn with fallen leaves; late-autumn morning
   light. The framing never changes.
 - **The inside view (locked, I0–I6):** from the coop's doorway at chest height with a wide lens, looking in at the back wall and
   its small window, the floor and both side walls in frame.
-- **Light:** frosty morning outside (O0–O2), clear afternoon (O3–O6), dusk with the first light snow (P); inside, daylight
+- **Light:** frosty morning outside (O0–O6: one light kept through the chain so each LOCK edit changes only the build;
+  changed at the stills, 21 Nov 2026), dusk with the first light snow (P); inside, daylight
   through the window (I0–I5), dusk with falling snow (I6).
 
 ## Stage ladders
@@ -57,20 +62,24 @@ Nothing generated; balance 1,030.00. Clips at 720p. Budget: at most 200 Higgsfie
 - O0: the "before" (frame 0, above).
 - O1: the roof collapsed into the coop, a cloud of straw and dust, the hens flapping off, the builder stepping back, the witness
   laughing.
-- O2: the collapsed roof cleared away, the old coop stripped to its frame and extended on new posts with a raised floor; the
-  hens moved into a small new hen house built at the right side.
+- O2: the collapsed roof cleared away, the old coop stripped to its frame and set on new posts with a raised floor, the same
+  size; the hens moved into a small new hen house built where the old wire run was, at its left (there was no room at the
+  right, where the builder stands).
 - O3: new rafters and a dark grey metal roof on the frame; the walls sheathed in plywood.
 - O4: a big front window and a glazed door fitted; board-and-batten cladding.
 - O5: a small porch with a rail and two steps; painted deep green with cream trim; the hen house painted to match.
-- O6: finished in afternoon light: a porch lantern (off), a planter of evergreens, a doormat; the hens pecking round their house.
+- O6: finished: a porch lantern (off), a planter of evergreens, a doormat; the hens pecking round their house.
 - P (payoff): the same at dusk, light snow falling, the windows glowing warm and the lantern on; the hen house glowing too; a hen
   on the porch rail peering in; the witness on the back steps, mug in hand, staring.
 
 **Inside (I), the same coop seen from its door:**
-- I0: the old coop's guts: roosting bars, nest boxes with straw, a droppings board, cobwebs, dusty light through gaps in the
-  boards; the builder inside.
-- I1: stripped: roosts, nest boxes and straw gone; bare old boards with light through the gaps.
-- I2: insulated: insulation between the studs, the gaps sealed, a new plywood subfloor.
+- I0: the old coop's guts under the caved-in roof (changed at the stills, 21 Nov 2026, so the inside follows the hook): broken
+  boards and torn tar paper hanging from a ragged hole with sky through it, roosting bars, nest boxes with straw, cobwebs,
+  dusty light through gaps in the boards; the builder looking up at the hole, a hand on his head.
+- I1: gutted: roosts, nest boxes, straw and the broken roof gone; the bare old board walls open to the sky, light through the
+  gaps.
+- I2: a new roof and insulation: the old boards gone, insulation between new studs and joists, no light through the walls, a
+  new plywood subfloor.
 - I3: lined: warm pine boards on the walls and ceiling, a wide-plank floor.
 - I4: built in: a bed against the back wall under the small window, a little desk under the side window, two shelves.
 - I5: furnished, daylight: a quilt and pillows, a wool throw, a rug, books, a plant, a bedside lamp (off).
@@ -87,8 +96,8 @@ Nothing generated; balance 1,030.00. Clips at 720p. Budget: at most 200 Higgsfie
 | C6 | O4 → O5 | 3 | TIMELAPSE | porch, steps, paint; the hen house painted to match |
 | C7 | O5 → O6 | 3 | TIMELAPSE | lantern, planter, doormat; the hens settle |
 | C8 | CA (start only) | 3 | REALSPEED | gloved hands drive a long screw into a new rafter with an impact driver, sawdust |
-| C9 | I0 → I1 | 3 | TIMELAPSE | roosts, nest boxes and straw out |
-| C10 | I1 → I2 | 3 | TIMELAPSE | insulation, gaps sealed, subfloor |
+| C9 | I0 → I1 | 3 | TIMELAPSE | roosts, nest boxes, straw and the broken roof out |
+| C10 | I1 → I2 | 3 | TIMELAPSE | new roof, studs, insulation, subfloor |
 | C11 | I2 → I3 | 3 | TIMELAPSE | pine walls and ceiling, plank floor |
 | C12 | I3 → I4 | 3 | TIMELAPSE | bed, desk, shelves |
 | C13 | I4 → I5 | 3 | TIMELAPSE | quilt, throw, rug, books, plant, lamp |
@@ -105,24 +114,24 @@ Nothing generated; balance 1,030.00. Clips at 720p. Budget: at most 200 Higgsfie
 | 1 | 0.0–1.6 | C1 0.0–1.6 | frame 0; the roof gives way, straw and dust, hens flap off by 1.0 s |
 | 2 | 1.6–2.8 | C2 0.3–1.5 | the witness laughing behind her mug |
 | 3 | 2.8–4.2 | C1 1.6–3.0 | dust settling, hens across the lawn, his hand on his head |
-| 4 | 4.2–5.7 | C3 0.0–1.5 | wreck cleared, the hen house going up |
-| 5 | 5.7–6.7 | C8 0.4–1.4 | close: the screw into the rafter, sawdust |
-| 6 | 6.7–8.2 | C3 1.5–3.0 | frame stripped and extended, hens in their new house |
-| 7 | 8.2–9.7 | C4 0.0–1.5 | rafters going up |
-| 8 | 9.7–11.2 | C4 1.5–3.0 | the metal roof, sheathing |
-| 9 | 11.2–12.4 | C2 1.8–3.0 | the witness: her grin fading, mug lowered |
-| 10 | 12.4–13.9 | C5 0.0–1.5 | the window going in |
-| 11 | 13.9–15.4 | C5 1.5–3.0 | the glazed door, cladding |
-| 12 | 15.4–16.2 | C8 1.8–2.6 | close: the screw seats |
-| 13 | 16.2–17.7 | C6 0.0–1.5 | porch and steps |
-| 14 | 17.7–19.2 | C6 1.5–3.0 | paint; the hen house painted to match |
-| 15 | 19.2–20.7 | C7 0.0–1.5 | lantern, planter, doormat |
-| 16 | 20.7–22.2 | C7 1.5–3.0 | finished, afternoon light |
-| 17 | 22.2–24.0 | C9 0.0–1.8 | INSIDE: roosts, nest boxes, straw, cobwebs |
-| 18 | 24.0–25.2 | C9 1.8–3.0 | stripped bare |
-| 19 | 25.2–26.7 | C10 0.0–1.5 | insulation between the studs |
+| 4 | 4.2–5.7 | C9 0.0–1.5 | INSIDE: under the broken roof, roosts, nest boxes, straw, cobwebs |
+| 5 | 5.7–7.2 | C9 1.5–3.0 | gutted, the broken roof gone, open to the sky |
+| 6 | 7.2–8.7 | C3 0.0–1.5 | OUTSIDE: wreck cleared, the hen house going up |
+| 7 | 8.7–9.7 | C8 0.4–1.4 | close: the screw into the rafter, sawdust |
+| 8 | 9.7–11.2 | C3 1.5–3.0 | frame stripped, on new posts, hens in their new house |
+| 9 | 11.2–12.7 | C4 0.0–1.5 | rafters going up |
+| 10 | 12.7–14.2 | C4 1.5–3.0 | the metal roof, sheathing |
+| 11 | 14.2–15.4 | C2 1.8–3.0 | the witness: her grin fading, mug lowered |
+| 12 | 15.4–16.9 | C5 0.0–1.5 | the window going in |
+| 13 | 16.9–18.4 | C5 1.5–3.0 | the glazed door, cladding |
+| 14 | 18.4–19.2 | C8 1.8–2.6 | close: the screw seats |
+| 15 | 19.2–20.7 | C6 0.0–1.5 | porch and steps |
+| 16 | 20.7–22.2 | C6 1.5–3.0 | paint; the hen house painted to match |
+| 17 | 22.2–23.7 | C7 0.0–1.5 | lantern, planter, doormat |
+| 18 | 23.7–25.2 | C7 1.5–3.0 | finished, afternoon light |
+| 19 | 25.2–26.7 | C10 0.0–1.5 | INSIDE: a new roof, insulation between the studs |
 | 20 | 26.7–27.7 | C15 0.4–1.4 | close: a pine board pressed in, a nail |
-| 21 | 27.7–29.2 | C10 1.5–3.0 | gaps sealed, subfloor |
+| 21 | 27.7–29.2 | C10 1.5–3.0 | no light through the walls, subfloor |
 | 22 | 29.2–32.2 | C11 0.0–3.0 | pine walls and ceiling, plank floor |
 | 23 | 32.2–33.0 | C15 1.8–2.6 | close: the next board |
 | 24 | 33.0–36.0 | C12 0.0–3.0 | bed, desk, shelves |
@@ -131,12 +140,14 @@ Nothing generated; balance 1,030.00. Clips at 720p. Budget: at most 200 Higgsfie
 | 27 | 42.0–46.0 | C16 0.0–4.0 | the last touch: the lamp on, the pillow plumped |
 | 28 | 46.0–49.0 | C17 0.0–3.0 | payoff: dusk, snow, glowing windows, the hen on the rail, the witness staring |
 
-Inside share: 22.2–46.0 s, about 49% (all four reference videos run 45–65%). Clips play at 1.0×; the edit may run time-lapse
+Inside share: 4.2–7.2 s and 25.2–46.0 s, about 49% (all four reference videos run 45–65%). The gutting follows the hook
+(changed at the stills, 21 Nov 2026): the inside "before" shows the roof the hook brought down, so the story runs in order. Clips play at 1.0×; the edit may run time-lapse
 pieces at up to 1.3× (strategy2.md 6.2 Step 9). Times shift once the clips are in.
 
-## Cut A, the one-take time-lapse (same clips, about 43 s, 4 shots)
-C1 → C3 → C4 → C5 → C6 → C7 straight through (18 s, one outside take) → C9 → … → C14 (18 s, one inside take) → C16 (4 s) →
-C17 (3 s). No reaction and no close-ups. The chains join at shared stills, so each view plays as one continuous take.
+## Cut A, the one-take time-lapse (same clips, about 43 s, 6 takes)
+C1 (3 s, the hook) → C9 (3 s, inside: the gutting) → C3 → C4 → C5 → C6 → C7 straight through (15 s, one outside take) →
+C10 → … → C14 (15 s, one inside take) → C16 (4 s) → C17 (3 s); changed at the stills (21 Nov 2026) to follow the hook.
+No reaction and no close-ups. The chains join at shared stills, so each view plays as one continuous take.
 
 ## Sound (ElevenLabs sfx, after Gate B; the beds dropped if wan2_7 wins Gate D with its own sound)
 - Beds (~15 s, looped): a frosty back yard in the morning (a soft breeze, distant birds, hens clucking); the outside build in
@@ -171,3 +182,23 @@ about 200 credits; fewer if wan2_7's own sound is kept.
 - 21 Nov 2026: kickoff with I1; Gate A checks; I1 dropped; I5 planned (this file).
 - 21 Nov 2026: Gate A approved by the user ("approve i5 ill be posting on TikTok and YouTube"); the witness stays the wife.
   Gate B quoted 195.79 (above). Waiting for Gate B.
+- 21 Nov 2026: Gate B approved ("approve"). Higgsfield project "S2 – The chicken coop that became a guest cabin"
+  (`44326d13-708b-4085-89e4-eaab34db660b`). **Stills: 19 accepted from 22 tries, 27.50 credits** (31.25 budgeted); balance
+  1,002.50. Job ids in `s2-01-jobs.tsv`, prompts in `s2-01-prompts.py` (`s2-01-mk.py` builds the requests), the Gate C sheet
+  and drift check from `s2-01-sheet.py`.
+  - **Changed at the stills:** the coop is a walk-in coop (O0.B, a LOCK edit of O0.A, which drew it chest-high); the inside
+    "before" shows the caved-in roof (I0.B), so cut B and cut A move the gutting (C9) to right after the hook, and I1 is open to
+    the sky; the hen house went where the old wire run was, at the left; one light outside through O0–O6; O5 retried (try A put
+    the porch on the house's back steps and the builder in front of the woman).
+  - **Drift:** the outside view moved under 1 px between neighbouring stages, all eight (phase correlation of the top 40%: the
+    house, the fence, the trees). The inside view held its framing, but the window was redrawn taller at I2 and as a two-pane
+    sash at I5, and the ceiling went from a gable (I2) to one slope (I3): kept, the time-lapse carries the change.
+  - **Lessons (for strategy2.md 7 at the end):** (1) seedream drew "tall enough to stand in" chest-high in a busy scene; a LOCK
+    edit naming the size against the builder ("its eaves are higher than the builder's head") fixed it and left the rest of the
+    frame alone. (2) Inside views need their own lock line (LOCKI): "the same hens, house, fence and trees" means nothing indoors.
+    (3) A part added beside a second building can land on the wrong one (O5.A's porch went on the house's steps): name what it
+    attaches to and what stays ("the house's back steps stay exactly as they are"). (4) Give the builder a place and an action
+    in every stage, or he freezes in the last pose and blocks the subject or the witness. (5) One reference per stage (the stage
+    before) held the locked view; the key as a second reference wasn't needed. (6) 22 tries for 19 stills (1.16 a still), against
+    1.6–1.8 for style 1's cutaways.
+  - Waiting for Gate C. Next, Gate D: C1 (O0 → O1) and C11 (I2 → I3) on kling4_0 (15.00) and wan2_7 (9.00).
