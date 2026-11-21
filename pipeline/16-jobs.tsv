@@ -1,3 +1,14 @@
 key	job_id	note
-# video 16 (B3): nothing generated yet (21 Nov 2026, waiting at Gate B)
+# video 16 (B3): Gate B approved by the user on 21 Nov 2026 (quote 199.81); stills from here
+# Higgsfield project 5499c25c-bcd8-441c-9b78-0efb488ac8fe
 # narration estimate flow r5l5knyfRALPrOQwQ3Tk (estimate only: 2,322 ElevenLabs credits for two takes)
+F0.A	9a77b1ac-6303-4011-8578-1a82f5df88ff	set key and frame 0, try A
+F0.B	f5406fb1-b462-4a12-92d8-fba22a1df496	closer three-quarter view from F0.A, try B
+F0	f5406fb1-b462-4a12-92d8-fba22a1df496	accepted as frame 0 and the FRONT key (try B, the closer view); F0.A stays as the wide of the same set
+F0b.A	a5804f2c-2ef2-462a-9da0-2e82ecb284bf	try A (batch 2)
+F1.A	aa4b9523-8f9e-4195-9c92-d9a3fe884953	try A (batch 2)
+DOG.A	51460339-c4b8-4537-9078-bd28de9305f8	try A (batch 2), from F0
+GU.A	e938cea5-ca68-465d-8b1a-4692fb5c4ba5	try A (batch 2)
+OU1.A	6b44f842-d0c6-48d8-b139-f5583c435419	try A (batch 2)
+RO4.A	1f622bcc-5643-4247-b652-3fb8a4dfe0f2	try A (batch 2)
+HI3.A	8f4bde05-fa62-4619-bb59-ffabcccec959	try A (batch 2), from F0.A

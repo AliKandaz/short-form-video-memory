@@ -57,8 +57,9 @@ P = {
         f"window glows warm from inside; the other windows are dark. On the lawn in the middle, small in the frame, sits {DOGW}, "
         f"wound up in a second unlit string of the same bulbs, looking up at the roof. {NOWATER} {DOGONLY}"),
  "F0b": (f"{STYLE} {LOCK} Change only this: the string of bulbs is now clipped along the whole front roof edge, from the left end "
-         f"to the right corner of the house, with no loose loop and no coil on the lawn, and every bulb on it is lit, glowing warm "
-         f"white; the string wound round the dog is lit too. The ladder, the porch lamp, the lit window and the dog stay exactly "
+         f"to the right corner of the house, with no loose loop and no coil on the lawn, and every bulb on it is lit and glowing bright "
+         f"warm white, each with a soft halo that lights the roof edge and the wall behind it; the string wound round the dog "
+         f"is lit the same way. The ladder, the porch lamp, the lit window and the dog stay exactly "
          f"where they are. {KEEP} {NOWATER} {DOGONLY}"),
  "F1": (f"{STYLE} {LOCK} Change only this: the house is covered in lit strings of small warm white Christmas bulbs: along the "
         f"whole front roof edge and up both sloping edges of the roof, round all four windows and the front door, along the porch "
@@ -69,8 +70,8 @@ P = {
          f"window is dark, so the house is a dark shape against the blue dusk sky; the unlit strings are all still in place, and "
          f"the string round the dog is dark too. Inside the cut-open garage, one small bright blue-white spark shows at the grey "
          f"breaker panel on the back wall. The sky and its glow stay exactly as they are. {KEEP} {NOWATER} {DOGONLY}"),
- "FR6": (f"{STYLE} {LOCK} Change only this, the finished light show: the warm white strings on the house are replaced by "
-         f"{PIXELS}, outlining every edge of the house, the windows, the door and the garage, and showing a smooth wave of colour "
+ "FR6": (f"{STYLE} {LOCK} Change only this, the finished light show: the ladder, the string of bulbs on the gutter and "
+         f"the coil on the lawn are gone, and the house wears {PIXELS}, outlining every edge of the house, the windows, the door and the garage, and showing a smooth wave of colour "
          f"from red at the left through orange, yellow, green and blue to violet at the right. On the lawn at the left stands a "
          f"tall cone-shaped tree made only of strings of light running from a ring on the ground up to the top of a thin pole, as "
          f"tall as the upstairs windows, glowing green with a white star of light on top. Over the driveway on the right stand "
@@ -97,8 +98,8 @@ P = {
          f"up: a white outlet with two sockets and, between them, two small rectangular buttons, one black and one red; the red "
          f"button stands out a little. A green extension cord is plugged into it and runs down to the pale concrete paving, where "
          f"two plug-and-socket joins between green light cords lie in a shallow puddle. Light rain is falling, and the wall and "
-         f"the paving are wet. Change: the strings of bulbs that hang on the wall and along the roof edge above are all dark. The "
-         f"paving is whole. {WHOLE} {NOBODY}"),
+         f"the paving are wet. Change: strings of small clear bulbs on green wire hang round the garage door and along the "
+         f"garage's roof edge above, and every bulb is dark. The paving is whole. {WHOLE} {NOBODY}"),
  "OU2": (f"{STYLE} {LOCKZ} Change only this: each of the two plug joins on the paving now sits inside its own small closed "
          f"dark green plastic box, the cords passing through sealed slots at its two ends, and the red button on the outlet is "
          f"pressed in flat; the strings of bulbs on the wall and along the roof edge above are lit again, warm white. The rain "
@@ -106,16 +107,16 @@ P = {
  # ---- HIGH: HI3 the roof line in pixels, the controller in the garage ----
  "HI3": (f"{STYLE} {POS} New camera position: high in the air above the front lawn, looking down at the house at about 40 "
          f"degrees, the whole house in the frame with lawn round it: the roof, the front wall, the porch, and the garage on the "
-         f"right with its end cut open. Change: the warm white strings are gone and every edge of the house is outlined in "
-         f"{PIXELS} instead: along the roof edges and the gutter, round the windows, the door and the garage, showing a smooth "
+         f"right with its end cut open. Change: the ladder, the string of bulbs and the coil on the lawn are gone, and every edge of "
+         f"the house is outlined in {PIXELS}: along the roof edges and the gutter, round the windows, the door and the garage, showing a smooth "
          f"wave of colour from red at the left through orange, yellow, green and blue to violet at the right. On the back wall of "
          f"the cut-open garage, beside the breaker panel, hangs a grey plastic box with its door open: inside it a green circuit "
          f"board and a silver metal power supply. The dog is not in this view. {AIR} {NOWATER} {NOBODY}"),
  # ---- ROOF: RO4 power injected, all white; RO3 the fault before it, white fading to pink ----
  "RO4": (f"{STYLE} {POS} New camera position: at the left end of the front roof edge, level with the gutter and just in front of "
          f"it, looking along the roof edge toward the right end of the house; the gutter runs away from the camera from the lower "
-         f"left to the middle right of the frame. Change: along the gutter runs one single line of pixels, {PIXELS}, and every "
-         f"one of them, from the nearest to the farthest, is pure bright white. Halfway along, one black cable comes up from "
+         f"left to the middle right of the frame. Change: the ladder and the string of bulbs are gone; along the gutter runs one single line of "
+         f"pixels, {PIXELS}, and every one of them, from the nearest to the farthest, is pure bright white. Halfway along, one black cable comes up from "
          f"under the eave and joins the line at a small black T-shaped connector. Behind the line, the dark grey shingles slope "
          f"up; beyond the far end of the house, the deep blue dusk sky. {WHOLE} {NOWATER} {NOBODY}"),
  "RO3": (f"{STYLE} {LOCKZ} Change only this: there is no cable coming up from under the eave and no T-shaped connector; the "
@@ -125,8 +126,8 @@ P = {
  "ST5": (f"{STYLE} {POS} New camera position: low on the dark asphalt road at the left side of the lot, near its front corner, "
          f"looking diagonally across the concrete curb at the front of the house. In the foreground two ordinary cars are parked "
          f"along the curb, seen from behind and from the side, dark and empty, with their dashboards dark. Behind them, the lawn "
-         f"and the house. Changes: every edge of the house is outlined in {PIXELS}, showing a wave of colour; at the edge of the "
-         f"lawn by the curb stands a blank white rectangular sign on a short wooden post, with nothing written on it; a thin "
+         f"and the house. Changes: the ladder, the string of bulbs and the coil on the lawn are gone; every edge of the house is "
+         f"outlined in {PIXELS}, showing a wave of colour; at the edge of the lawn by the curb stands a blank white rectangular sign on a short wooden post, with nothing written on it; a thin "
          f"metal aerial as long as a forearm stands on the corner of the garage's roof edge with a small black box at its foot; "
          f"far up the road, the windows of two other houses are lit. The dog is the same dog as in the second reference image: "
          f"{DOGW}; it sits on the lawn near the sign, small in the frame, with its head thrown back, howling, and it is not "
@@ -142,9 +143,26 @@ P = {
          "camera, on a plain, flat, pale grey ground with a soft shadow under it. No string of lights, no house, no lawn, "
          "nothing else in the picture. No text, no letters, no logos, no watermark. No people."),
 }
-REFS = {"F0": [], "F0b": ["F0"], "F1": ["F0"], "F1x": ["F1"], "FR6": ["F1", "DOG"], "GU": ["F1"], "PX": ["GU"],
-        "OU1": ["F1"], "OU2": ["OU1"], "HI3": ["F1"], "RO4": ["F1"], "RO3": ["RO4"], "ST5": ["F1", "DOG"], "SG": ["ST5"],
-        "DOG": ["F0"]}
+# F0 try A (9a77b1ac) came back as a handsome dusk three-quarter view from the front left, but small: the house fills about a
+# quarter of the frame's height under a third of empty sky, so the string of lights along the gutter (the naive step, and the
+# change at 1.0 s) is a thin line of dots. F0.B moves the camera closer on the same set so the hook is big in the frame (Rule 0).
+P["F0.B"] = (f"{STYLE} {POS} New camera position: the same three-quarter view from the front left, but much closer, so the house "
+             f"is big in the frame: the house and its garage span almost the whole width of the frame; the roof peak is about 14% "
+             f"from the top of the frame, with only a narrow band of deep blue dusk sky above it; the front roof edge and its "
+             f"white gutter run across the frame about 36% down; the porch and the red front door are at the lower left of the "
+             f"house, and the garage with its cut-open end is at the right edge of the frame. Below the house, the front lawn "
+             f"with the dog sitting in the middle of it, about 66% down; the cut face of the soil with the grey conduit fills the "
+             f"frame from about 76% down to the bottom edge; there is no ground in front of the block and no dark empty ground "
+             f"below it. Nothing in view changes: the ladder at the left end of the gutter, the string of small clear bulbs "
+             f"clipped along the roof edge and hanging loose at the right corner of the house down to a small coil on the lawn, "
+             f"the glowing porch lamp, the one lit downstairs window, the three bushes, and the dog wound in his own string all "
+             f"stay exactly as they are. None of the bulbs is lit: they are dark, clear glass, not glowing. {NOWATER} {DOGONLY}")
+# After F0.B was accepted as F0 (frame 0, the close FRONT view), the references changed: F0.A stays as the wide view of the
+# same set (it shows the cut-open end of the garage, which F0 crops), so HIGH and STREET are made from it; the close positions
+# and the FRONT stages are made from F0. Longest chain: F0.A -> F0 -> F1 -> F1x, and F0.A -> F0 -> GU -> PX (three edits).
+REFS = {"F0": [], "F0b": ["F0"], "F1": ["F0"], "F1x": ["F1"], "FR6": ["F0", "DOG"], "GU": ["F0"], "PX": ["GU"],
+        "OU1": ["F0"], "OU2": ["OU1"], "HI3": ["F0.A"], "RO4": ["F0"], "RO3": ["RO4"], "ST5": ["F0.A", "DOG"], "SG": ["ST5"],
+        "DOG": ["F0"], "F0.B": ["F0.A"]}
 AR = {"DOG": "1:1"}
 
 if __name__ == "__main__":
