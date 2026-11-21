@@ -1,0 +1,44 @@
+# TikTok @whatifplus, all 42 videos, read from public pages on 21 Nov 2026 (CLAUDE.md 1.7). words to first_but_s come from a local transcript of the narration.
+n	id	posted_utc	duration_s	views	likes	comments	shares	saves	tiktok_category	words	words_per_s	buts	named_terms	first_but_s	title
+1	7697310896355314976	2026-10-16 16:57	76.4	2900000	179100	520	4950	15600	Science	243	3.18	4	1	5.12	How a Hole in Your Yard Becomes a Bunker
+2	7698008838594710816	2026-10-18 14:05	66.6	312200	13600	88	540	1106	Science	200	3.00	4	3	4.56	How a Hole in Your Yard Becomes a Hot Tub
+3	7698393708890180896	2026-10-19 14:59	69.0	2000000	155900	500	5875	12600	Science	216	3.13	5	3	6.48	How to turn Your Yard into a Slip n Slide
+4	7698765045630520609	2026-10-20 15:00	72.6	134300	5621	56	261	1003	Science	221	3.04	6	2	5.28	How to turn Your Yard into a Treehouse
+5	7699146769069886753	2026-10-21 15:41	66.0	180300	7420	65	276	938	Science	199	3.02	6	3	3.76	How to turn Your Yard into an Underground Trampoline Pit
+6	7699223748687416609	2026-10-21 20:40	65.5	75200	1587	19	65	205	Science	198	3.02	4	3	4.48	How a Hole in Your Yard Becomes a Sauna
+7	7700223760569224481	2026-10-24 13:20	76.5	23400	478	5	18	81	Video Games	242	3.16	7	1	5.12	How a Hole in Your Yard Becomes an Underground Garage
+8	7700290496479890720	2026-10-24 17:39	76.6	27500	842	8	22	133	Video Games	247	3.22	7	1	7.12	How a Hole in Your Yard Becomes a Gaming Room
+9	7700346265992711456	2026-10-24 21:16	70.3	138100	5777	40	206	777	Science	222	3.16	7	3	4.8	How to turn your Yard into a Bouncy Castle
+10	7700654869295811872	2026-10-25 17:13	62.4	1000000	56800	244	2859	5878	Video Games	192	3.08	7	4	4.24	How to turn Your Yard into a Go Kart Track
+11	7701399975900597536	2026-10-27 17:25	58.3	29800	551	10	23	111	Video Games	192	3.29	6	4	4.24	How to turn Your Yard into a Golf Course
+12	7701767323119602976	2026-10-28 17:10	58.6	110900	1755	25	79	410	Video Games	182	3.11	6	2	5.6	How a Hole in Your Yard Becomes an Underground Aquarium
+13	7701826440307821857	2026-10-28 21:00	54.2	580800	37700	150	826	3898	Video Games	165	3.05	5	1	6.16	How to turn Your Yard into a Bumper Car Arena
+14	7702090000673852704	2026-10-29 14:02	36.4	19200	411	8	27	92	Video Games	111	3.05	4	0	5.84	How to turn Your Yard into a Drive Thru Car Wash
+15	7702486048848317728	2026-10-30 15:39	65.2	100300	2290	18	162	486	Video Games	207	3.18	8	0	4.8	How to turn Your Yard into a Waterpark
+16	7702520805078355233	2026-10-30 17:54	63.4	15400	486	9	17	79	Video Games	203	3.20	8	0	5.2	How to turn Your Yard into a Backyard Gym
+17	7702562223935278369	2026-10-30 20:35	70.4	532000	54000	237	4365	5046	Video Games	210	2.98	7	6	4.72	How to turn Your Yard into a Formula 1 Circuit
+18	7702965165884575009	2026-10-31 22:39	67.9	851200	41500	179	1793	3404	Video Games	213	3.14	6	5	4.88	How to turn Your Yard into a NASCAR track
+19	7703271724426595617	2026-11-01 18:28	63.1	45800	2281	43	48	333	Video Games	192	3.04	7	1	6.0	How to turn Your Yard into a Football Stadium
+20	7703670952655129889	2026-11-02 20:17	83.6	262300	10500	75	532	1011	Video Games	264	3.16	8	7	5.84	How to turn Your Yard into a MotoGP Track
+21	7704734294110932246	2026-11-05 17:04	74.9	31200	1073	16	32	136	Video Games	229	3.06	6	6	7.12	How to turn Your Yard into an Indoor Skydiving Tunnel
+22	7704794870422048022	2026-11-05 20:59	71.6	61900	1139	15	16	179	Video Games	227	3.17	7	7	4.72	How to turn Your Yard into a Monster Truck Arena
+23	7705161268411256086	2026-11-06 20:41	81.2	14800	283	9	16	79	Video Games	268	3.30	7	5	6.48	How to turn Your Yard into a Ninja Warrior Course
+24	7705560841185332482	2026-11-07 22:31	85.0	43700	1043	23	21	195	Video Games	265	3.12	8	6	5.28	How to turn Your Yard into a Drag Strip
+25	7705901036208246038	2026-11-08 20:31	71.6	155100	2165	27	64	360	Science	231	3.23	6	1	4.0	How the Mona Lisa painting turned into The Louvre
+26	7706240194273447190	2026-11-09 18:27	82.8	95200	2629	37	158	532	Video Games	260	3.14	7	7	5.04	How to turn Your Yard into a Roller Coaster
+27	7706946498898038038	2026-11-11 16:08	81.7	19800	531	5	10	119	Video Games	249	3.05	7	7	5.2	How to turn Your Yard into a Paintball Arena
+28	7707001932723883287	2026-11-11 19:43	75.9	54600	2102	32	101	498	Video Games	224	2.95	6	4	6.16	How a Pile of Logs turn into a Log Cabin
+29	7707038916519529750	2026-11-11 22:07	70.7	2500000	231800	655	16800	25200	Video Games	232	3.28	7	5	4.72	How to turn your House into a Zombie Base
+30	7707410730315681046	2026-11-12 22:10	72.2	80200	2559	24	158	488	Video Games	232	3.21	6	4	6.24	How to turn your Car into a Zombie Escape Vehicle
+31	7707771374252641558	2026-11-13 21:29	75.6	155300	3014	31	265	701	Video Games	226	2.99	6	4	5.52	How to turn your Home into an Alien Proof House
+32	7708051574555299094	2026-11-14 15:36	64.2	17800	623	12	32	103	Video Games	191	2.98	6	4	4.72	How to turn your House from Freezing Cold to Warm this Winter
+33	7708146345936194838	2026-11-14 21:44	65.6	27300	593	22	41	133	Video Games	192	2.93	5	3	6.48	How to transform your Home into a Dinosaur Proof House
+34	7708403837693955330	2026-11-15 14:23	68.3	222800	9289	41	518	948	Video Games	202	2.96	5	3	6.24	How to build a Survival Base if you were the Last Person on Earth
+35	7708501151909465366	2026-11-15 20:41	65.9	8050	202	5	10	24	Video Games	206	3.12	6	2	4.32	How to turn Your Yard into a Ski Resort
+36	7708836175535951126	2026-11-16 18:21	68.2	114900	1551	24	40	401	Video Games	211	3.10	7	2	4.16	How to turn your Street into a NFL Stadium
+37	7708888564662013206	2026-11-16 21:44	71.7	283100	8242	130	847	1845	Science	209	2.92	7	6	5.2	How a Mattress turns into a WWE Arena
+38	7709210555537427734	2026-11-17 18:34	76.7	10000	212	8	12	31	Science	208	2.71	7	6	4.32	How a Rope between Two Cliffs becomes the Golden Gate Bridge
+39	7709562267032997123	2026-11-18 17:19	68.6	793600	28500	308	1355	1719	Video Games	223	3.25	6	4	3.2	How to turn Your Mattress into a Bank Vault
+40	7709599363185806615	2026-11-18 19:43	67.8	7728	151	4	3	21	Video Games	217	3.20	6	4	4.48	How a store manages a Black Friday Sale
+41	7709992442317180183	2026-11-19 21:08	72.4	6626	172	9	3	29	Video Games	237	3.27	6	4	4.48	How to turn Your Yard into a Ice Rink
+42	7710263707929955606	2026-11-20 17:19	69.0	595400	17100	76	1041	1749	Video Games	219	3.17	5	5	4.0	How to turn Your Lawn into a Helipad

@@ -3,7 +3,7 @@
 **Created on 21 Nov 2026** at the user's request: "create a step by step prompt to create videos similar or inspired by this
 video I shared. pretty much I want the same thing as claude.md but for this style video on a different file so I can alternate
 between video styles". The video is @scapemagicc's septic-tank tiny house (1.2). This file is the second style's memory, laid out
-like `CLAUDE.md` (style 1, the 3D cutaway explainers). Every section carries a date; "my read" marks interpretation rather than
+like `CLAUDE.md` (style 1: the 3D cutaway videos, explainers until 21 Nov 2026 and builds since). Every section carries a date; "my read" marks interpretation rather than
 measurement. The first video, s2-01, was made on 21 Nov 2026; what it proved or changed is marked with its date (6, 7, 9).
 
 ## 0. Start here (21 Nov 2026)
@@ -30,11 +30,16 @@ shot. The AI label is on every time.
   "strategy2.md"). Scripts for style-2 videos go in `pipeline/` with the prefix `s2-NN-` (s2-01, s2-02, …).
 
 **Status on 21 Nov 2026.**
+- **Paused on 21 Nov 2026 (later that day).** Style 1 moved to the build format (`CLAUDE.md` 0, 2, 4) after its explainer
+  plan stalled, and the pause was my recommendation to the user in that change list ("I'd pause it until ten new-format
+  videos are judged, so the test audience isn't split again"); they went ahead with the changes. So no new style-2 video
+  is planned until the ten build videos have been judged (`CLAUDE.md` 2.5), **unless the user asks for one**, which lifts
+  the pause. s2-01 is still to be posted (next bullet). Everything below stays ready to use.
 - **s2-01 made (21 Nov 2026): "From Old Chicken Coop to Cozy Guest Cabin"** (I5; I1 was dropped at Gate A, 3). Cut B 40.7 s
   (32 shots, median 1.2 s) and cut A 40.1 s (6 takes); clips on `wan2_7`, chosen at Gate D over `kling4_0`, with their own sound
   and two ElevenLabs ambiences; **125.00 credits against a 195.79 quote**; balance 905.00 after it. **Not posted yet:** copy,
   covers and links in `pipeline/s2-01-post-copy.md` and `pipeline/s2-01-covers/`; post cut B, keep cut A for a later test of the
-  cut, never the same day as another video (style 1's video 15 is waiting too). Everything else in `pipeline/s2-01-*`.
+  cut, never the same day as another video (style 1's video 15 went up on 21 Nov 2026 at 01:45 UTC). Everything else in `pipeline/s2-01-*`.
 - **The hold in CLAUDE.md section 0 comes first:** the user's in-app checks of both accounts (YouTube Studio → Restrictions and
   youtube.com/features; TikTok → Account status). They decide whether a new YouTube channel is allowed (only if the old one is in
   good standing; never to get around a strike).
@@ -141,6 +146,8 @@ numbers separately in its own log.
 - One video a day at most across both styles, in the early evening US Eastern (6–7 pm ET, the reference account's slot too).
 - Alternate by the plan's checkpoints, not after each video: style 1's ten keep their order (CLAUDE.md 2.3); style-2 videos go in
   between them.
+- **21 Nov 2026 (later):** paused while style 1's build run is tested (section 0); the alternating starts again when the
+  user asks for a style-2 video or the ten build videos have been judged.
 
 ### 2.3 Budget
 - At most 200 Higgsfield credits a video, the reserve included (CLAUDE.md 6.1), the same cap as style 1. The standard plan is
@@ -683,3 +690,7 @@ lessons to section 7, and update both copies of the memory.
   22 tries; the coop enlarged to walk-in size, the inside "before" caved in to follow the hook), Gate D (`wan2_7` chosen over
   `kling4_0`), the 15 other clips on `wan2_7` with one re-render, cut B and cut A built (`s2-01-build.py`), 125.00 credits. Not
   posted yet. The runbook, prices and lessons updated from it (6, 7).
+- **21 Nov 2026 (later):** style 1 changed to the build format (`CLAUDE.md` 0, 1.7, 4) and style 2 was paused on my
+  recommendation until its ten build videos are judged, unless the user asks for a style-2 video (section 0). Nothing else
+  in this file changed; its references into `CLAUDE.md` (0, 1.6, 2.1–2.5, 5 Rule 0 and Rule 7, 6.0–6.2, 7, 8, 9, 10, 12,
+  13) were checked against the revised file.

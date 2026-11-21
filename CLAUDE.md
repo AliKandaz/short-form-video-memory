@@ -1,114 +1,107 @@
-# Short-Form 3D Cutaway Explainers: Project Memory
+# Short-Form 3D Cutaway Builds: Project Memory
 
-**Rewritten from scratch on 18 Nov 2026** at the user's request: "with everything you've learned and found out, I want you to
-completely redo my claude.md file … set the file up for success, I will be creating 10 videos with the recommendations you made
-in this session … get inspiration from the successful channels … mark the date on all the new information in the file and remove
-any irrelevant or dated information." Every section carries a date. What was removed (the mascot look, old idea lists, per-video
-notes from videos 01–07, superseded tool notes) is in the repo history: the last version before the rewrite is commit `1174f29`.
+**Revised on 21 Nov 2026 for the build format** at the user's request, after a study of TikTok @whatifplus and the account it
+follows, @youbuiltit (1.7): "I want to shift my content towards this style. my current strategy is not working"; then "lets make
+the changes … add our own little twist to the video styles so its not an exact 1 to 1 copy"; then "keep our current animation
+style visually the way it looks right now but proceed with a different voice … following the 'if you' and 'you Have a' format.
+make the necessary changes other then the animation visual style." **What changed on 21 Nov 2026:** the script format (4), the
+topics and the plan (2, 3), the on-screen add-ons (the labels, the bill, the street and the dog: 4.4, 4.5, 5), the narrator (5),
+posting (8) and the paste-in prompt (11.1). **What did not change:** the look and the way it is made (5, 6.3, 7). The file was
+last rewritten from scratch on 18 Nov 2026 and every section carries a date. What this revision removed (the 10-video "hidden
+inside" plan and its ten ideas with draft scripts) is in the repo history: the last version before it is commit `a9abd35`; the
+last before the 18 Nov rewrite is `1174f29`.
 
-## 0. Start here (18 Nov 2026)
+## 0. Start here (21 Nov 2026)
 
-**What we make.** Vertical 3D explainers, about 62–64 s: one real place sliced open like a cake, seen by a camera that flies in
-to each change and away again, narrated in second person ("you") by an AI voice, with one-word captions. Each video answers one
-question about the hidden inside of something everyone uses or walks past, one problem and one fix at a time, and loops back to
-its first frame. No character, no on-screen labels, no music (a quiet bed and a few sound effects).
+**What we make.** Vertical 3D build stories, about 62–64 s, in the Cutaway look: one yard, pool, garage or house sliced open
+like a cake, where a one-step idea ("If you roll turf over your pool, you have a hidden pool") is turned into the real thing one
+problem and one fix at a time. Narrated in second person ("you") by an AI voice, with one-word captions, each fix's real name on
+screen for a second or two, and a price counter that runs from the first step to the final bill. Nobody stands in for "you";
+the same small dog turns up in every video; no music (a quiet bed and a few sound effects).
+**The look is the one locked on 15–18 Nov 2026, and it stays** (the user, 21 Nov 2026: "keep our current animation style
+visually the way it looks right now"): section 5, made the way sections 6 and 7 describe.
+**What is ours,** so the videos are not a copy of the accounts we studied: the Cutaway look, the bill (4.4), the street and the
+dog (4.5), checked facts and prices, and our own topics and wording (never theirs: rule 5).
 **A second style** (from 21 Nov 2026, the user: "so I can alternate between video styles"): photoreal AI build stories, a
-humble thing turned into a cozy home in time-lapse, no narration. Its memory, plan, runbook and kickoff prompt are
-`strategy2.md`; for a style-2 video read this section's standing rules, then that file instead of sections 2–9 here.
-**The first style-2 video, s2-01 ("From Old Chicken Coop to Cozy Guest Cabin"), was made on 21 Nov 2026** for 125.00 credits
-(clips on `wan2_7`, its own sound); not posted yet (`strategy2.md` 0 and 9, `pipeline/s2-01-post-copy.md`).
+humble thing turned into a cozy home in time-lapse, no narration; its memory is `strategy2.md`. **Paused on 21 Nov 2026** until
+the ten build videos have been judged (2.5), so the accounts test one format at a time: my recommendation in the change list,
+which the user went ahead with; a style-2 video is still made whenever the user asks for one. Its first video, s2-01 ("From
+Old Chicken Coop to Cozy Guest Cabin", 125.00 credits), is made and waits to be posted (2.2).
 
-**Channels** (both US-based, the user confirmed on 13 Nov 2026):
-- TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 54 followers, 13 videos,
-  48.8K views on 21 Nov 2026 (55, 12 and 48.1K on 20 Nov). Renaming it to match the content is part of the plan (8.3).
-- YouTube **@LetzBuildTogether** ("LetZBuildTogether", channel id `UCNaqNT-R3K2GmISUfLdfBzA`): 315 subscribers, 13 Shorts, about
-  211K views on 21 Nov 2026 (314, 12 and 211K on 20 Nov), 199K of them on the fire-hydrant Short.
+**Channels** (both US-based, the user confirmed on 13 Nov 2026). The user on 21 Nov 2026: "TikTok has slacked off and YouTube
+is completely dead."
+- TikTok **@overthinkingyearly** (display name "overthinkingyearly"; it was "OT" until 18 Nov 2026): 54 followers, 14 videos,
+  50.2K views on 21 Nov 2026 (22:00 UTC). Renaming it to match the content is still to do (8.3).
+- YouTube **@LetzBuildTogether** ("LetZBuildTogether", channel id `UCNaqNT-R3K2GmISUfLdfBzA`): 314 subscribers, 14 Shorts,
+  about 212K views on 21 Nov 2026 (22:00 UTC), 199K of them on the fire-hydrant Short. The channel looks held back (1.6);
+  whether the build videos start on a fresh channel waits for the user's check in Studio (2.2).
 
-**The plan (approved by the user on 18 Nov 2026): 10 videos in one lane, each opening on something happening in the first
-second.** The lane is the hidden inside of things everyone uses or walks past. The ideas, with draft scripts, are section 3; the
-plan, the order and the budget are section 2; the evidence behind it is section 1.
+**The plan (21 Nov 2026): ten build videos, B1–B10,** in one lane: dream builds on what's yours ("How to turn your yard into
+a …"). The ideas are section 3, the plan, the order and the budget section 2, the evidence 1.7. It replaces the 10-video
+explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
 
 **Where things live:**
-- This file, `strategy2.md` (style 2, photoreal AI build stories, 21 Nov 2026) and `tiktokshop.md` (the TikTok Shop affiliate
-  project) in the GitHub repo `AliKandaz/short-form-video-memory`, with the reusable scripts in `pipeline/` (style 2's with the
-  prefix `s2-`) and the channel artwork in `branding/`. The artifact below carries `strategy2.md` and `tiktokshop.md` as files.
+- This file, `strategy2.md` (style 2, paused) and `tiktokshop.md` (the TikTok Shop affiliate project) in the GitHub repo
+  `AliKandaz/short-form-video-memory`, with the reusable scripts in `pipeline/` (style 2's with the prefix `s2-`), the channel
+  artwork in `branding/` and the numbers behind 1.7 in `research/`. The artifact below carries `strategy2.md` and
+  `tiktokshop.md` as files.
 - A live copy: the "Short-Form Video Memory" artifact, https://claude.ai/artifact/Fvbzc2HQyDxne7Y8NsrgvX (Artifact tool, action
   "read"). **When this file changes, update both copies:** commit and push, then republish the artifact by its url.
 - The old visual reference for How Building Explained's look (mascot era, kept for the record only):
   https://claude.ai/artifact/MPEu5jqcnUDLSsz3fiBc8N.
 
-**Standing rules (all still in force on 18 Nov 2026):**
+**Standing rules (all in force on 21 Nov 2026):**
 1. Never spend Higgsfield credits before the user approves the quote at Gate B (6.1). Script, beat sheet and quote are free.
    **At most 200 Higgsfield credits a video, reserve included** (the user, 18 Nov 2026: "I want at most 200 credits per video").
 2. Stop at the four gates: A script, B quote, C stills, D pilot clips (6.2).
 3. Don't ask the user for retention or watch-time figures ("forget about the retention graphs", 15 Nov 2026). Work from what can
    be read from outside (12).
-4. Fact-check every number before Gate A; cut what can't be checked; never plant a mistake to bait comments.
-5. Never reuse a reference account's wording, and never end on "Congratulations, you have built…" (How Building Explained's line).
+4. Fact-check every number before Gate A, **every price on the bill included** (4.4); cut what can't be checked; never plant a
+   mistake to bait comments.
+5. Never reuse a reference account's wording, and never end on "Congratulations, you have built…" (How Building Explained's
+   line, which @whatifplus and @youbuiltit use word for word). Our closing line is the bill (4.1).
 6. When the memory changes, update both copies (above).
+7. The look doesn't change unless the user asks (21 Nov 2026). Labels, the price counter and the end card are overlays added in
+   the edit (5); they are never asked of the image or video models.
 
 **Status on 21 Nov 2026 (read this first):**
-- **The user asked why reach had dropped and whether the accounts are banned (21 Nov 2026, about 00:30 UTC). Answer in 1.6:**
-  neither account is banned. TikTok shows no restriction at all: its full moderation record is identical on all 13 videos, the
-  two hits included, and new videos still reach non-followers; they just don't pass the first test. **YouTube looks held back
-  at the channel level:** tiny channels in our niche (14 and 42 subscribers) get 1–2K on nearly every Short while our last nine
-  got 2–67, and our Shorts rank below 2-view Shorts even for their own titles. The drop began on 11–12 Nov, a week before the
-  plan, and the plan's three videos haven't reversed it (TikTok 208, 333 and 48; YouTube 10, 21 and 2).
-- **The next video is on hold** (recommended to the user on 21 Nov 2026) until the user reports the in-app checks: YouTube
-  Studio → Content → the Restrictions column, and youtube.com/features (strikes); TikTok → Settings and privacy → Account →
-  Account status. Then decide with the user: a fresh YouTube channel for new videos (only if the old one is in good standing),
-  the topic rule, the lane and the length (1.6). **Video 15 (V6) went ahead anyway:** another session had it at Gate B (196.94)
-  when this hold was written; shown the hold and the topic rule at Gate C, the user approved Gates C and D there, and it was
-  made on 21 Nov 2026 (next bullet). Its Gate A check had found about 20 Shorts on the rolling NFL field since Sep 2026
-  (Cutaway Instinct 32K in our look), so it was retitled, the pattern 1.6 says hasn't worked: read its 72 h numbers with that
-  in mind. The in-app checks are still the next step before V4. **kling4_0 rose to 2.50 a second at 720p on 21 Nov 2026** (from
-  2.25), so the standard plan is now 61 s of clips (6.1).
-- **Video 15 (V6, "Why This NFL Field Is Sitting on 546 Wheels") was made on 21 Nov 2026**, the fourth of the ten: 63.05 s,
-  196.25 credits against a 196.94 quote (two clips re-rendered from the reserve); balance 1,030.00 after it. Not posted yet
-  (copy and covers in `pipeline/15-post-copy.md` and `pipeline/15-covers/`). The opening: the solid face under the field drops
-  away from ~0.3 s and the row of wheels shows by ~2 s; the twist is that the field lives outside most days (3, V6).
+- **The build format is decided; nothing in it has been made yet.** The first build video is number 16 (B1, 3). Before it:
+  the steps in 2.2.
+- **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take; the quota shown was 30,354 (7.7). A
+  narration take needs about 1,400–1,540, so no video can be voiced until the quota renews or the user tops it up.
+- **The narrator is changing** (the user, 21 Nov 2026: "proceed with a different voice"). One audition take was made, Marcus
+  (5); the other two voices failed for lack of credits. Marcus is the stand-in until the user picks by ear.
+- **Higgsfield: 905.00 credits** on 21 Nov 2026 (`balance`): four videos at the cap before the Ultra plan renews (3,000 a
+  month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a second at 720p since 21 Nov 2026 (6.0).
+- **Video 15 is posted** ("Why This NFL Field Is Sitting on 546 Wheels"; found on 21 Nov 2026 at 22:00 UTC): TikTok on 21 Nov
+  at 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14; YouTube the same evening. At about 20 h: 302 views on
+  TikTok (16 likes, every tag registered) and 4 on YouTube (9.1, 9.2).
+- **Finished and not posted:** style 2's s2-01 (`pipeline/s2-01-post-copy.md`); it is on neither main account. Post it on a
+  day of its own, before video 16.
+- **Still owed by the user, the in-app checks** (asked on 21 Nov 2026, not reported yet): YouTube Studio → Content → the
+  Restrictions column, and youtube.com/features (strikes); TikTok → Settings and privacy → Account → Account status. Neither
+  account is banned as far as public pages show (1.6): TikTok shows no restriction; YouTube looks held back at the channel
+  level. A fresh YouTube channel for the build videos only if the old one is in good standing, never to get around a strike.
+- **72 h reads** (8.4, 9.2): video 12's is in, 209 on TikTok and 10 on YouTube, under both bars. Still to log: video 13
+  after 23:04 UTC on 22 Nov 2026 (629 on TikTok and 27 on YouTube at 47 h), video 14 after 20:00 UTC on 23 Nov (52 and 9 at
+  26 h) and video 15 after 01:45 UTC on 24 Nov.
+- **Profile:** brand set v3 (the cut-cube mark, banner and bios) is live on YouTube and the TikTok bio is v3's (8.3). Its
+  wording is about explainers and wants a refresh for builds (8.3); the mark still fits.
+- **The explainer plan of 18 Nov 2026** made and posted four of its ten (videos 12–15); none has passed either platform's
+  first test (2.6). Video 11 (Himeji Castle) was stopped at its quote on 18 Nov 2026. Their ideas are parked (13.1).
 
-**Status on 20 Nov 2026:**
-- Videos 01–10 are made and posted on both platforms (9.2). Credits: 1,762.25 after video 10 (check `balance`).
-- **Video 11 (Himeji Castle, parked idea F3) was stopped by the user on 18 Nov 2026** at its quote (271.69 at 720p), with the
-  message "I want at most 200 credits per video". Its approved script and beat sheet stay in `pipeline/11-*` (13.1).
-- **A new profile picture and YouTube banner without the mascot** were made on 18 Nov 2026 (the user asked for eye-catching
-  ones), from the videos' own stills, no credits. **On 20 Nov 2026 YouTube showed the terracotta cutaway-house icon** (from that
-  morning's set) as the profile picture **and still the old mascot banner**; the new banners aren't up (8.3). **Later on 20 Nov
-  2026 the user asked for a set with nothing from the videos or the account:** brand set v3 (a cut-cube mark, a matching banner
-  and bios). **Live by 21 Nov 2026:** YouTube's picture and banner are v3 (`live_brand_check.py`: 0.4 and 0.5), the YouTube
-  description is v3's, and the TikTok bio is v3's recommended one; TikTok's picture can't be checked from a session (8.3).
-- **Video 12 (V1, "Why Some Manhole Covers Are Full of Holes") was made on 18 Nov 2026**, the first of the ten and the first
-  under the cap: 63.7 s, 186.50 credits against a 194.64 quote; balance 1,575.75 after it. **Posted 18 Nov 2026** (TikTok
-  at 22:07 UTC, 5:07 pm ET; YouTube the same day); about a day later: 202 views on TikTok, 7 on YouTube (9.1, 9.2). Copy in
-  `pipeline/12-post-copy.md`. Its title changed at Gate A because the plain road-salt angle already had about nine small Shorts
-  (3, V1).
-- **Video 13 (V2, "Why Firefighters Drop Frozen Turkeys Into Fryers") was made on 19 Nov 2026**, the second of the ten: 64.06 s,
-  188.00 credits against a 197.23 quote (two clips re-rendered from the reserve); balance 1,387.75 after it. **Posted 19 Nov 2026**
-  (TikTok at 23:04 UTC, 6:04 pm ET; YouTube the same day); two hours later: 183 views on TikTok, 2 on YouTube (9.1, 9.2). Copy
-  and covers in `pipeline/13-post-copy.md` and `pipeline/13-covers/`. Its title changed at Gate A because nine small Shorts
-  titled "Why Frozen Turkeys Explode…" went up on 14–17 Nov 2026 (3, V2).
-- **Video 14 (V3, "Why It Rains Inside a Nuclear Cooling Tower") was made on 20 Nov 2026**, the third of the ten: 63.9 s,
-  161.50 credits against a 188.60 quote (every still and clip kept first time but three still edits; no re-renders); balance
-  1,226.25 after it. **Posted 20 Nov 2026** (TikTok at 20:00 UTC, 3:00 pm ET; YouTube the same day); 4.5 hours later: 48 views
-  on TikTok, 2 on YouTube (9.2; copy and covers in `pipeline/14-post-copy.md` and `pipeline/14-covers/`). Its title
-  changed at Gate A because "Why Cooling Towers Are Empty Inside" went up on 18 Nov 2026 and four more small animated
-  cooling-tower Shorts on 8–19 Nov; the opening is the tower being cut open (3, V3).
-- **Next (21 Nov 2026):** the user's in-app checks (above), then the decision in 1.6 before any more credits. The 72 h reads (8.4) of video
-  12 after 22:07 UTC on Sat 21 Nov 2026, of video 13 after 23:04 UTC on Sun 22 Nov and of video 14 after 20:00 UTC on Mon 23 Nov.
-  Post video 15 and style 2's s2-01 (both made 21 Nov; never two videos the same day). Still to do: the TikTok handle (8.3) and
-  the free re-cut test (2.2). Each video quoted at 200 or less; the balance (905.00 after s2-01, 21 Nov 2026) covers about four
-  more at the cap, so check the Ultra plan's renewal date before the fourth.
-
-**Map of this file:** 1 what works (evidence) · 2 the 10-video plan · 3 the ten ideas with draft scripts · 4 writing the script
-· 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the video log ·
-10 money · 11 paste-in prompts · 12 reading the platforms from a session · 13 parked ideas, topics to avoid and history.
+**Map of this file:** 1 what works (evidence; 1.7 is the study behind the build format) · 2 the build run · 3 the ten build
+ideas · 4 writing the script, the bill, the street and the dog · 5 the look and the overlays · 6 production runbook ·
+7 production lessons · 8 posting and profile · 9 channels, results and the video log · 10 money · 11 paste-in prompts ·
+12 reading the platforms from a session · 13 parked ideas, topics to avoid and history.
 
 ---
 
-## 1. What works in this format (evidence to 18 Nov 2026)
+## 1. What works in this format (evidence to 21 Nov 2026)
 
-Read from public pages only (12). "My read" marks interpretation rather than measurement.
+Read from public pages only (12). "My read" marks interpretation rather than measurement. **1.1–1.6 were written for the
+explainer plan of 18 Nov 2026 and stay as the record of what we measured on our own videos; 1.7 and 1.8 (21 Nov 2026) are the
+study behind the build format and correct them where marked.**
 
 ### 1.1 How the platforms decide (18 Nov 2026)
 - **Each video is tested on a small audience first.** If enough of them keep watching, it is shown to more people; if not, it
@@ -150,6 +143,8 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
   openings by looking at frames 0–2 s (4.2, 6.2 Gate D).
 
 ### 1.3 Topics that win and topics that lose (to 18 Nov 2026)
+- **21 Nov 2026: for the build format, what wins and loses is in 1.7.** The list below is about explainers and our own
+  first ten videos.
 - **Win:** the hidden workings of something everyone uses or walks past, with something moving through it that the camera can
   follow (water, fire, power, a ball): Hidden By Design's storm drain 10.1M, roof 4.5M, landfill 4.2M, water well 1.0M; our hydrant
   196K and seawater 33.9K. On YouTube, "your yard" builds and true escape stories (You Made It's Cu Chi tunnels 36M, You Built It's
@@ -172,15 +167,18 @@ Frames at 0, 0.5, 1, 2 and 3 s of all ten of our videos against six reference vi
 | **How Building Explained**, TikTok @howbuildingexplained | 31.4K followers, 22 videos, 23.3M; nipa hut 12M, levee 1.9M; bio now "It was a good run, Zach was here"; no post since 3 Nov (18 Nov) | The But/So formula, a short tight script (the 12M hit is 66 s), the build visibly starting by 2 s. Mundane utilities flopped (car wash 10.8K) |
 | **You Made It**, YouTube @youmadeit3d | 128K subscribers, 13 Shorts; Cu Chi tunnels 36M, cave home 23.5M, hole in your yard → basement 8.8M (9 Nov) | Quality over volume ("about 12 hours a video"); true escape and war stories; "your yard" |
 | **You Built It**, YouTube @youbuilt_it | 64.7K subscribers, 60 Shorts; swimming pool 8.3M, road 5.6M, roof 3.4M (9 Nov) | Things you'd want at your own house |
+| **You Built It on TikTok**, @youbuiltit (found 21 Nov 2026; the audit had looked for @youbuilt_it) | 217.2K followers, 96 videos since 11 Oct, 119.9M views; median 659K, lowest 35.9K; swimming pool 13.4M, a shelter in the woods 11.0M; two to three videos a day (21 Nov) | The build format's leader on TikTok: "If you…, you have a…", a loop of But/So/This is, a term on screen for each fix (1.7) |
+| **What If +**, TikTok @whatifplus (the user's reference on 21 Nov 2026) | 25.0K followers, 42 videos since 16 Oct, 14.6M views; median 98K, lowest 6.6K; bunker 2.9M, zombie base 2.5M, slip-n-slide 2.0M (21 Nov) | Dream builds on what's yours ("How to turn your yard into a…"); studied in full in 1.7 |
 | **NET FILES**, TikTok @net.files6 | 276 videos, 72.2M views; quicksand tomb 10.2M; mountain fortress 1.3M in 33 h; most recent videos 5K–15K (17 Nov) | A defense puzzle, the place named only at the end; volume plus a few hits |
 | **Cutaway Instinct** (YouTube Shorts, @CutawayInstinct) | stadium and arena cutaways in our style, photoreal with labels; 21.4K subscribers, 90 videos (20 Nov 2026); best Shorts "Crypto.com Arena: What's Under the Lakers' Court?" 1.3M (V4's topic) and Barclays Center's truck turntable 1.3M; Lambeau's heated field 123K (4 Nov 2026), then copied five times (18 Nov); State Farm Stadium's rolling field 32K (25 Oct 2026, V6's topic) | A direct rival in our look: search it before any stadium or arena idea; it already has V4's and V6's topics |
 | **Zack D. Films** (YouTube Shorts) | owns "what happens if you…" survival scenarios: cruise ship 50M, falling through ice 64M (16 Nov) | Avoid his topics; check every idea against him |
 | **@thewhatifstudio**, TikTok | 60.9K followers; what-if simulations median 457K, its builds median 35K (14 Nov) | A choice put to the viewer drives comments |
 | **@scapemagicc** ("Aiworkflows2"), TikTok | 722.5K followers (20 Nov); all 86 videos (21 Nov): median 467K, 30 over 1M, 7 under 50K; posts daily at about 6 pm ET; a photoreal AI tiny house built inside plastic septic tanks 20.2M (17 Nov; 9.8M on 20 Nov), a mud cave 91.5M, a garden 76.5M; the bio sells the workflow. Studied in full in `strategy2.md` 1 | A different product: a photoreal AI builder, no narration, no facts, and TikTok labels it AI. Its devices: a conflict in the first second (the pool party next door splashes him; he glares with a black eye), one locked high view the video keeps returning to so the progress reads at a glance, a hard cut about every 1.4 s with tool close-ups between, build sounds only, and the last shot mirrors the first with the tables turned. Its topics are in 13.2 |
 
-Both reference accounts on TikTok have gone quiet, so the format's biggest TikTok audience has nobody posting to it right now
-(my read: an opening for an account that posts steadily). The YouTube side is crowded: hundreds of channels copied "How a ___
-Becomes ___" from mid-October 2026.
+**Wrong, corrected on 21 Nov 2026:** this paragraph said that both reference accounts on TikTok had gone quiet and nobody was
+posting to the format's TikTok audience. Hidden By Design and How Building Explained are quiet, but @youbuiltit has posted two
+to three build videos a day since 11 Oct 2026 and @whatifplus about one a day since 16 Oct (1.7). The YouTube side is crowded:
+hundreds of channels copied "How a ___ Becomes ___" from mid-October 2026, and new objects still break out there (1.7).
 
 ### 1.5 Packaging that matters, and what doesn't (18 Nov 2026)
 - **The first frame and the first second decide most of it** (1.2). The title is barely seen in the Shorts feed.
@@ -242,611 +240,629 @@ proceeding with the recommendations you have made. are my accounts banned or res
   not the only one; Gate A retitled crowded topics instead of dropping them; the 18 Nov audit never benchmarked small new
   channels, which is what shows YouTube's problem is the channel.
 - **Recommended on 21 Nov 2026 (awaiting the user):** (1) the in-app checks (section 0); (2) hold the next video (V6 at Gate
-  B, 196.94) until they're back; (3) if
-  YouTube is in good standing, put new videos on a fresh YouTube channel (new videos only: re-uploads get cut by the October
-  originality update; never to get around a strike, which breaks YouTube's rules); (4) a new topic rule: if more than about
-  three AI Shorts on the same subject went up in the last 30 days, drop the topic, don't retitle it; V4 and V5 are already
-  made by How Things Work, and V6 fails the rule (about 20 since Sep); (5) for the user to decide: a vertical with an enthusiast audience, and a 30–45 s test cut, which
-  would also roughly halve the credits a video.
+  B, 196.94) until they're back; (3) if YouTube is in good standing, put new videos on a fresh YouTube channel (new videos
+  only: re-uploads get cut by the October originality update; never to get around a strike, which breaks YouTube's rules); (4)
+  a new topic rule: if more than about three AI Shorts on the same subject went up in the last 30 days, drop the topic, don't
+  retitle it; V4 and V5 are already made by How Things Work, and V6 fails the rule (about 20 since Sep); (5) for the user to
+  decide: a vertical with an enthusiast audience, and a 30–45 s test cut, which would also roughly halve the credits a video.
+- **What happened next (21 Nov 2026, later):** the user answered (5) with a different move: the build format of 1.7, in the
+  same look (section 4). The in-app checks (1) are still owed; the topic rule (4) stays and 1.7 sharpens it; the 30–45 s cut
+  was not taken up (the build accounts run 62–76 s).
+
+### 1.7 The build accounts: @whatifplus and @youbuiltit (studied 21 Nov 2026)
+The user (21 Nov 2026): "look at this TikTok video and account … learn everything there is to learn about it. I want to shift
+my content towards this style. my current strategy is not working." The video is @whatifplus's "How to turn Your Lawn into a
+Helipad". Read from public pages (12): all 42 of @whatifplus's videos were downloaded, their first 4.5 s put side by side,
+every narration transcribed on this machine (7.7, 12.5), and motion, camera and cuts measured on 16. Nothing was listened to. The
+per-video numbers are in `research/whatifplus-videos.tsv` and `research/youbuiltit-videos.tsv`.
+
+- **@whatifplus** ("What If +", TikTok; posts from the UK): created 13 Oct 2026, first video 16 Oct; on 21 Nov 2026 25.0K
+  followers, 42 videos in 36 days, 14.6M views. **Median 98K, lowest 6.6K, highest 2.9M;** 4 over 1M, 21 over 100K, 9 under
+  20K; the top five hold 63% of the views. Likes 6.1% of views, saves 6.1 and shares 3.0 per 1,000, comments 0.26 per 1,000
+  (ours 0.23); 1.7 followers per 1,000 views. It posted on 29 of 36 days, between 13:20 and 22:40 UTC, with no time-of-day
+  pattern; ten days had two or three videos and show no harm (the day's last video was its best on seven of the ten). The
+  caption is the title plus `#Engineering #[Topic] #HowItWorks #Science #learnontiktok`, no emoji, and all five tags registered
+  on all 42. TikTok shows its AI label on all 42 (the creator's own switch is off) and no penalty on any; it files 32 under
+  "Video Games, Games, Entertainment" and 10 under "Science, Education" (seven of those among the first nine videos). 38 of 42
+  run over a minute (median 70 s). The bio sells "learn how to create my videos" through a store link. No YouTube channel
+  found (the YouTube handles @whatifplus and @whatif_plus are other people's).
+- **@youbuiltit** ("You Built It", TikTok; the account the 18 Nov audit missed): 217.2K followers, 96 videos since 11 Oct 2026,
+  **119.9M views, median 659K, lowest 35.9K, highest 13.4M** (a swimming pool), two to three videos a day. Titles are "How a
+  [humble thing] Becomes a [thing]": everyday utilities (toilet 6.2M, road 3.4M, septic tank 2.9M, roof 2.2M, air conditioner
+  2.1M, traffic light 2.0M), survival builds (a shelter in the woods 11.0M, a dugout canoe 5.0M, a log cabin 3.9M) and
+  landmarks. Its two fire-hydrant videos sit near its floor (62K and 76K). It uses the same skeleton as @whatifplus at a
+  faster pace (260–289 words at about 4 words a second in the five transcribed), the same hashtags, and the same house, lawn
+  and soil cut as @whatifplus's first videos: @whatifplus is modelled on it.
+- **The skeleton (42 of 42 scripts):** "If you [one naive step], you have a [thing]." Then five to eight "But [a failure you
+  can see]. So you [fix]. This is a [real term]." Then, in 25 of 42, "Add [three finishing touches]." Then "Congratulations!
+  You have built a [thing]!" (How Building Explained's line, word for word; 8 add "Follow for more builds"). Median 216 words
+  (111–268) in 70 s, 3.1 words a second; 6 "But"s (4–8); 4 named terms (0–7); the premise sentence is done by about 4.2–4.5 s
+  and the first "But" lands at 5.1 s (median). The narration runs wall to wall (hardly a gap over 0.35 s). A recurring cast
+  appears in 14 scripts (your dad, your mom, your brother, your friends) and the neighbours in 13.
+- **The helipad video** (20 Nov 2026, 17:19 UTC; 595K views in its first day; 69.0 s; 219 words): frame 0 is a bucket and
+  brush already painting the H; the premise is done by 3.4 s and the first "But" lands at 4.0 s (the skids sink into the
+  mud); five loops, each ending "This is a …" with the term on screen for 1–2 s about a fifth of the way down the frame
+  (LANDING PAD, SAFETY ZONE, WINDSOCK, FUEL TANK, HANGAR); two gauges (a clock "+2 DAYS", a fuel dial "LOW FUEL!"); the closing
+  line at 65.3 s over the helicopter lifting off. One continuous camera with no cuts, something moving in 99% of seconds, the
+  camera moving in 72%; one-word Title Case captions about 51 px tall, 63% down; 1080×1920 at 60 real frames a second;
+  −14.4 LUFS, mono. Sound, as measured: narration, an effect on each action and short chimes; no steady music bed found in the
+  eight videos tested.
+- **Hits and flops share the skeleton; the topic separates them.** Top ten against bottom ten: 215 against 213 words, 3.13
+  against 3.14 words a second, first "But" at 4.7 against 4.9 s. The ice rink moves in 96% of its seconds and got 6.6K; the
+  bunker moves in 69% and got 2.9M. The first videos have no cuts at all, the later ones a median of 18, with no visible
+  effect on views.
+- **What wins** (TikTok views on 21 Nov 2026): things a teenager wishes they had at home, above all racing, defence and
+  water. Bunker 2.9M, zombie base 2.5M, slip-n-slide 2.0M, go-kart track 1.0M, NASCAR track 851K, a bank vault from a mattress
+  794K, helipad 595K, bumper cars 581K, F1 circuit 532K. **What loses:** winter scenes on white frames (ice rink 6.6K, ski
+  resort 8K, a warm house 17.8K); things that aren't yours (a store's Black Friday 7.7K, the Golden Gate Bridge 10K); chores
+  (gym 15K, car wash 19K, golf course 30K). **Sequels fade:** the zombie escape vehicle got 80K a day after the zombie base;
+  the drag strip 44K and the monster trucks 62K after the racing hits.
+- **The format is a land grab, and timing decides** (YouTube, 21 Nov 2026). The bunker title: From The Ground Up 20.9M
+  (16 Oct), digs 11.6M (25 Oct), You Made It 2.9M (17 Oct), HealthspanCut 1.1M (12 Oct), then a dozen later copies between 846
+  and 116K. New objects still hit for small channels: hole story 3d's doghouse hideout 8.1M (16 Nov), Cazarade's pond 4.0M
+  (13 Nov), You Build Different's airport 3.0M (31 Oct), Low Poly Films' bumper cars 2.9M (13 Nov), Built From Scraps' NBA
+  arena 1.7M (15 Nov), Kevin Builds' bathtub submarine 1.7M (22 Oct), The Building Box's flood-proofing 874K (4 Nov). **An
+  object nobody has built yet is worth more than a better version of one that is taken** (my read), which sharpens the topic
+  rule of 1.6: count the animated build videos of the same object, and mind their dates.
+- **What it corrects in this file:** (1) 1.4's "both reference accounts on TikTok have gone quiet, so nobody is posting to the
+  format's audience" was wrong: @youbuiltit has posted two to three a day since 11 Oct 2026, and the audit looked for it under
+  the handle @youbuilt_it and found nothing; (2) the formula of our first two videos was not the problem: @youbuiltit's
+  dugout canoe got 5.0M on 15 Nov 2026 and ours 1.9K (the mascot look, the account and the pace differed); (3) everyday
+  infrastructure does work when it is framed as a build ("How a hole in your yard becomes a septic tank") instead of a
+  "Why…?" question; (4) "no labels on screen" and the loop ending were our choices, not what the winners do.
+- **What we take:** the premise line and the loop (4.1), a term on screen for each fix (5), dream-build topics about what's
+  yours (3), the title as the caption (8.1). **What we don't:** their wording and their closing line (rule 5), their topics
+  (13.2), their house and their look.
+
+### 1.8 How those accounts are made, and what we decided (21 Nov 2026)
+- **They are real 3D drawn in code, not AI video** (my read, on strong signs): the geometry holds from every angle, text
+  inside the scene is exact, and all 60 frames a second are unique. Public kits for the genre pair Claude Code with three.js
+  and export frame by frame at 1080×1920 and 60 fps; @whatifplus's, Hidden By Design's and @thewhatifstudio's bios all sell a
+  how-to. Their store pages can't be opened from a session, so the exact engine is not confirmed.
+- **Tested here, then set aside by the user's choice.** This container drew a simple three.js yard at 1080×1920 in 0.35 s a
+  frame (headless Chromium, software rendering): about 12 minutes for a 70 s video at 30 fps and no Higgsfield credits.
+  Higgsfield quoted 7 credits (Hunyuan 3D) to 25 (Meshy, low-poly, rigged or not) for a generated 3D model. It was offered
+  together with a floating-block look; **the user kept the Cutaway look** ("keep our current animation style visually the way
+  it looks right now", 21 Nov 2026). It remains an option if credits ever become the limit (13.1).
+- **So our build videos differ from the copies in three ways:** the photoreal Cutaway look and its flying camera (5), the
+  bill (4.4), and the street and the dog (4.5).
 
 ---
 
-## 2. The 10-video plan (approved by the user on 18 Nov 2026)
+## 2. The build run: ten videos in the build format (21 Nov 2026)
 
-The user: "I will be creating 10 videos with the recommendations you made in this session following the updates you gave me";
-then "I stopped video 11 I want at most 200 credits per video". The recommendations were those of the growth audit (1.1–1.3).
+The user (21 Nov 2026): "lets make the changes, TikTok has slacked off and YouTube is completely dead"; then "make the
+necessary changes other then the animation visual style." This replaces the 10-video explainer plan of 18 Nov 2026 (2.6). The
+evidence is 1.7.
 
 ### 2.1 The lane
-**The hidden inside of something everyone uses or walks past**, cut open, with something moving through it and a big event in
-the first second. It is what both platforms rewarded for us (the hydrant, seawater) and for Hidden By Design (the storm drain, the
-roof, the landfill), and what the hydrant's 300 YouTube subscribers came for. **One lane for all ten,** judged at the checkpoints
-in 2.5, not after each video: in eleven days the account had three looks, five idea lists and four reference accounts (9.3).
-The approved earlier ideas (X1–X4, F1–F3) are parked (13.1), not dropped.
+**Dream builds on what's yours:** "How to turn your [yard, pool, driveway, garage, house] into a [thing you wish you had]",
+built on one sliced-open set, one problem and one fix at a time, with the bill running (4). One lane and one format for all
+ten, judged at the checkpoints in 2.5 and not after each video: changing direction after almost every video is what 9.3 warns
+about, and this is the sixth change since 6 Nov 2026.
 
-### 2.2 Before the ten (free; do these first)
-1. **The profile fixes** (8.3) and the posting fixes (8.1, 8.2): hashtags typed in the app (done from video 12), "altered
-   content" unticked on YouTube, a chosen cover frame. Still to do on 20 Nov 2026: the bios, the TikTok handle, the banner.
-2. **The re-cut test.** Re-cut stalled videos so they open on their event, using the clips, timings and build scripts that exist
-   (9.2), with no Higgsfield credits; paste-in prompt 11.2. Post each as a new video on both platforms and make the old one
-   private. If they clear ~2K on TikTok and get a normal test on YouTube, the opening was the block (the old versions sit at
-   330–364 on TikTok and 11–42 on YouTube).
-   - **09 Lightning:** the first strike lands at about 3 s (the end of clip C1, beat B2, "Here's what the bolt actually does."). Cut
-     B1–B2 and start on the frame where the bolt hits the ridge, with a new first line in Daniel's voice ("Lightning just hit this
-     house. Watch where it goes."), then B3 onwards ("It hits your roof, hunting for the ground…").
-   - **10 Cryonics:** a 2 s cold open on the pods hanging head down in the cut-open tank (clips C12–C13, beats B16–B17, about 45–52 s
-     into the original), with a new first line ("These people are frozen. Upside down."), then the video from its start.
-   - **07 Car** (optional): a 1.5 s cold open on the crash itself, under the original first line ("Only one of these drivers walks
-     away."), then the video from its start.
-   Log them in 9.2 as 09b, 10b and 07b.
+### 2.2 Before the first build video (free unless marked)
+1. **Post what is finished:** style 2's s2-01, on a day of its own (`pipeline/s2-01-post-copy.md`). Video 15 went up on
+   21 Nov 2026 (9.2).
+2. **ElevenLabs credits:** 34 left on 21 Nov 2026 (7.7). Nothing can be voiced until the quota renews or is topped up; check
+   it at Step 0 and again at Gate B.
+3. **The narrator** (5): the user picks by ear. Marcus's audition take exists; the other two candidates still need one take
+   each (about 200 ElevenLabs credits a take) or the user can play their previews in ElevenLabs' voice library.
+4. **The in-app checks** still owed (section 0). They decide where the build videos go on YouTube (1.6).
+5. **The TikTok handle and the profile wording** (8.3).
+6. **The dog** (4.5): his look is agreed in words at video 16's Gate A and fixed at its Gate C by one still (1.25 credits,
+   inside that video's quote).
 
-### 2.3 The ten, in order (18 Nov 2026)
-| # | Idea (section 3) | The first second | Best proven demand | Why this slot |
+### 2.3 The ten, in order (21 Nov 2026)
+Every idea was checked on 21 Nov 2026 against @whatifplus's 42 and @youbuiltit's 96 videos (none is on either list) and on
+YouTube with both title shapes (12.2). Check again at each Gate A: objects are being taken within days (1.7).
+
+| # | Idea (section 3) | The naive step, on frame 0 | Demand, and who is near (21 Nov 2026) | Why this slot |
 |---|---|---|---|---|
-| V1 | Why Manhole Covers Explode → **made 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** | a manhole lid blasts up on a column of flame | 2.0M (a Short); about nine small copies since Aug 2026, all under 3.2K (3, V1) | Street-level like the hydrant, winter |
-| V2 | Why Frozen Turkeys Explode in the Fryer → **made 19 Nov 2026 as video 13, "Why Firefighters Drop Frozen Turkeys Into Fryers"** | a frozen turkey hits the oil; fireball | 5.6M, 3.1M; nine small copies 14–17 Nov 2026, all under 2.3K (3, V2) | Thanksgiving: post by Tue 24 Nov 2026 |
-| V3 | Why Nuclear Cooling Towers Are Empty Inside → **made 20 Nov 2026 as video 14, "Why It Rains Inside a Nuclear Cooling Tower"** | the tower's wall slices open: empty | 72M (footage); five small animated copies 8–19 Nov 2026, all under 1.5K, one with the exact old title (3, V3) | The simplest set to draw; cold-day plumes |
-| V4 | The Ice Under This Court Cancelled an NBA Game | a floor panel lifts off white ice | 7.4M; 386K this month | NBA and NHL in season |
-| V5 | Why Water Heaters Can Launch Through the Roof | the tank rockets through the roof | small Shorts; MythBusters 1.65M long | The hydrant's audience: your house |
-| V6 | Why This NFL Field Rolls Outside → **made 21 Nov 2026 as video 15, "Why This NFL Field Is Sitting on 546 Wheels"** | the solid face under the field drops away; wheels | 2.8M, 2.6M, 1.7M; about 20 Shorts since Sep 2026, Cutaway Instinct 32K (3, V6) | NFL season |
-| V7 | What's Hiding Under a Wave Pool | a wave bursts out of the dark opening | 47.6M, 24.6M, 4.35M | The biggest demand of the ten |
-| V8 | What's Hiding Behind the Pins at a Bowling Alley | a strike; the camera follows the ball | 62M, 25M | Hardest machinery: after the set-building is routine |
-| V9 | The Airport Baggage System That Ate Suitcases | a cart crashes and a suitcase bursts | 18.4M (footage) | Before Christmas travel (mid-December) |
-| V10 | How Do Fish Get Past a Dam? | a salmon fired out of a tube | 24.6M, 16.4M | The most 3D competition: last |
+| B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
+| B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
+| B3 | How to Turn Your House Into a Christmas Light Show | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
+| B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
+| B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
+| B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
+| B7 | How to Turn a Doghouse Into a Mansion | a door is cut in a cardboard box and the dog walks in | real dog mansions 6.1M, 2.3M; "How a Doghouse Becomes a Secret Hideout" 8.1M (16 Nov, a different build) | the dog's own episode |
+| B8 | How to Turn Your Pool Into an Olympic Diving Pool | a plank is bolted to the pool's edge | diving Shorts 50M, 17M; no build video found | water and sport |
+| B9 | How to Turn Your Yard Into a Demolition Derby | two old cars bump on the lawn | derby Shorts 3.4M, 242K; no build video found | racing; the hardest motion to draw, so late |
+| B10 | How to Turn Your Garage Into a Fire Station | a red truck backs into the garage | weak on the search page (15K); fire trucks carry enthusiast channels (448K–705K, 1.6); no build video found | the set is a building cut open, our look's best case |
 
 ### 2.4 Budget and cadence
-- **At most 200 credits a video** (6.1), so the ten cost at most 2,000. The balance after video 10 was 1,762.25 (video 11 was
-  stopped at its quote; check `balance`): about eight videos at the cap, or all ten at an average of 176. The Ultra plan's monthly
-  credits (3,000 since 11 Nov 2026; check the renewal date) cover the rest. **19 Nov 2026:** V1 cost 186.50 and V2 188.00, so the
-  balance is 1,387.75: about seven more at the cap, one short of V3–V10 without the renewal. **20 Nov 2026:** V3 cost 161.50,
-  so the balance is 1,226.25: about six more at the cap (V4–V9); V10 needs the renewal. **21 Nov 2026:** V6 cost 196.25 (kling4_0
-  now 2.50 a second; 6.1), so the balance is 1,030.00: about five more at the cap. Then style 2's s2-01 cost 125.00
-  (`strategy2.md` 6.1), so the balance is 905.00: about four more at the cap.
-- **One video every one to two days**, never two the same day; post in the early evening, US Eastern, on both platforms. Fixed
-  dates: V2 by Tue 24 Nov 2026 (posted 19 Nov); V9 before mid-December.
+- **At most 200 Higgsfield credits a video** (6.1). The balance is 905.00 on 21 Nov 2026: four videos at the cap before the
+  Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). Keeping the look keeps the cost: about 80% of a video
+  is clips. A cheaper clip model would stretch the balance, only if the look holds and only if the user says so (6.1).
+- **ElevenLabs is the other limit** (2.2): about 1,400–1,540 credits a narration take and about 130 for the sound.
+- **One video every one to two days** as credits allow; early evening, US Eastern, on both platforms (8). Fixed date: B3 by
+  about Sat 5 Dec 2026.
 
 ### 2.5 How we'll judge (from outside; never ask the user for retention)
 - **Each video at 72 h** (8.4): more than ~2K on TikTok = it passed the first test; more than ~1K on YouTube = it was tested
-  normally; 10K+ = a breakout for us. Record both in 9.2, with the frames-0–2 s verdict.
-- **Checkpoint after five:** if three or more passed TikTok's first test, keep the lane and the formula. If not, look at the
-  openings first (frames 0–2 s against 1.2) before touching the topics. **21 Nov 2026:** none of the first three is on course
-  to pass on either platform, though all three open on an event by 1 s; the openings weren't the whole block, and the next
-  video should wait for the decision in 1.6.
-- **After ten:** review with the user: which openings and topics passed, the follower and subscriber change, and the next ten.
-  Don't change the plan in the middle on one result.
+  normally; 10K+ = a breakout for us. Record both in 9.2 with the frames-0–2 s verdict. For scale: @whatifplus's weakest
+  video has 6.6K and @youbuiltit's 35.9K, but both started with a hit and we start from 54 followers.
+- **Checkpoint after four** (what the balance buys): if two or more passed TikTok's first test, keep the lane and the
+  format. If none did, compare each video's topic and first five seconds with 1.7 before spending on a fifth, and ask the
+  user whether the look or the account is the block.
+- **After ten:** review with the user: which objects passed, the follower and subscriber change, the bill and the end card
+  (did comments per view move?), and the next ten. Don't change the format in the middle on one result.
+
+### 2.6 What became of the explainer plan of 18 Nov 2026
+Ten videos on "the hidden inside of something everyone uses or walks past", each opening on an event in the first second.
+Four were made and posted (read on 21 Nov 2026 at 22:00 UTC): V1 the manhole covers (video 12: 209 views on TikTok and 10 on
+YouTube at 72 h), V2 the frozen turkeys (video 13: 629 and 27 at 47 h), V3 the cooling tower (video 14: 52 and 9 at 26 h) and
+V6 the rolling NFL field (video 15: 302 and 4 at 20 h). All four open on an event by 1 s, and none has passed either
+platform's first test (the 72 h reads of the last three still go in 9.2). Each topic turned out to have 5–20 AI Shorts on the
+same facts (1.6). V4, V5 and V7–V10, the reserves and the free re-cut test are parked (13.1, 11.2); their full entries are in
+this file at commit `a9abd35`.
 
 ---
 
-## 3. The ten ideas, with draft scripts (18 Nov 2026)
+## 3. The ten build ideas (proposed 21 Nov 2026; the user picks, and Gate A settles each)
 
-All ten are in the lane of section 2: the hidden inside of something everyone uses or walks past, one place cut open, with a big
-event for the first second. Order and timing are in 2.3. For each: the titles, the comment question, the set, **the first second**
-(Rule 0), a draft script (about 220 words; the user approved the plan, so these are drafts for Gate A), draft camera positions,
-the sounds, the demand on 18 Nov 2026, and the facts: ✔ checked by web search on 15–18 Nov 2026 (search summaries: reopen a page
-before quoting a number), ⚠ still to check before Gate A. **Rerun the saturation check on the exact title before Gate A:** four of
-these topics gained small 3D copies between 15 and 18 Nov 2026.
+All ten are in the lane of section 2 and the format of section 4. Order and timing are in 2.3. B1–B4 have a full draft script
+(about 220 words); B5–B10 have the ladder a script is written from. Facts and prices marked ⚠ are unchecked and every one is
+checked before Gate A (rule 4); a bill lists what gets a price, never a made-up figure. No line below comes from a reference
+account.
 
-**V1. Why Manhole Covers Explode** (a city street in winter; make first)
-- **Titles:** YouTube "Why Manhole Covers Explode"; TikTok "Why do manhole covers explode? 💥" + the four standing tags, #Manhole
-  #Winter. **Comment question:** "Would you still step on one? Yes or no."
-- **Set:** one winter city street cut open like a cake: slushy asphalt and a round iron lid on top; below it the concrete vault,
-  thick power cables on wall racks, salty meltwater dripping in, the duct bank running off under the street; a salt truck passing;
-  a pigeon on the lid. Water only as slush and drips.
-- **First second:** frame 0 the pigeon on the lid, low and close; by 0.5 s the lid blasts upward on a column of flame and smoke and
-  the pigeon flaps off; the camera rises with the lid, then dives into the hole.
-- **Script** (draft, 214 words):
-  > That iron lid weighs up to three hundred pounds, and it just flew fifty feet into the air. It wasn't sewer gas. It was road
-  > salt.
+### 3.0 How an idea gets on the list (from 1.7)
+1. **The premise fits one line and three seconds:** "If you [one naive step], you have a [thing]." The step must be something
+   that can be seen happening from frame 0, and harmless to copy.
+2. **The thing is a wish:** something a teenager, or their dad, would love to have at home. Racing, defence and water did
+   best for the accounts we studied; chores, snow-white scenes, shops and famous landmarks did worst.
+3. **It is yours:** your yard, pool, driveway, garage, house.
+4. **Five failures you can see, five fixes with real names and real prices.** Each failure happens to a thing, not to a
+   person.
+5. **The cutaway earns its place:** something under the ground or inside a wall is part of at least two fixes. It is what
+   our look shows and theirs doesn't.
+6. **A bright first frame:** grass, water, sky. No opening on snow or at night unless lights are the subject.
+7. **Nobody has built it:** not on the lists in 13.2, and the topic rule of 1.6 and 1.7 on YouTube with both title shapes. If
+   more than about three animated build videos of the same object went up in the last 30 days, drop it; don't retitle it.
+
+**B1. How to Hide a Swimming Pool Under Your Lawn** (a back yard with a pool; make first)
+- **Title** (both platforms): "How to Hide a Swimming Pool Under Your Lawn". **Caption:** the title, "Guess the bill 💸", the
+  four standing tags, #Pool. **Pinned comment:** "Name the dog 🐶 And what do we build next?" (the first build video names
+  the dog, 4.5).
+- **Set:** one back yard cut open like a cake through the pool: the lawn and patio on top, the pool's concrete shell and
+  cyan water in the cut face, the floor's steel frame with its floats, the cables and pulleys on the pool bottom, a small
+  plant room with a hydraulic cylinder beside it under the lawn; the back of the house and its door behind.
+- **First second:** frame 0 the open pool with a tarp pulled tight across it, a roll of turf at one end, big in the frame;
+  by 1 s the turf is unrolling across the tarp by itself and the pool is disappearing under lawn. The dog trots after the roll.
+- **Script** (draft, about 221 words with the total):
+  > If you stretch a tarp over your pool and roll turf across it, you have a hidden pool.
   >
-  > If you run a city's power under its streets, you put the cables in concrete rooms below the road, with a round iron lid on
-  > top. This is a manhole. But in winter, trucks salt the road, and salty meltwater drips through the lid onto the cables. So
-  > the cables wear thick insulation. But salt water eats it, slowly, for years. One day the current jumps the gap. This is an
-  > arc. The insulation smoulders, and the little room fills with gas. Then one more spark lights it. In New York there are
-  > thousands of smoking manholes a year, and a few dozen explode. That's why it happens most from January to March. So the
-  > power company swaps solid lids for lids full of holes, so the gas leaks out before it builds up. It locks some lids in
-  > place. And it hangs sensors below that smell the gas first. And the pigeon that was sitting on this one? It's fine. The lid
-  > is round for a reason: a circle can't fall through its own hole. Wire the street, vent the lid, and keep it on the ground.
-- **Camera (8):** the street low by the lid → up with the lid → down into the vault → the cables on their racks → the drip through
-  the lid (close) → the arc (extreme close) → the vault filling with gas → the vented lid from below → the street, wide.
-- **Sounds:** bed: a city street in slush, distant traffic; effects: the blast, the lid clanging down, dripping, an electrical
-  crackle, wings.
-- **Demand (corrected at Gate A, 18 Nov 2026):** the earlier check missed Shorts (12.2). About nine small Shorts on the plain
-  road-salt angle since Aug 2026, all under 3.2K: one with this exact title (114 views), Baguette Lab 3.1K, How Things Work in
-  Motion 2.0K (a labelled cutaway), Grid Matters 1.3K (the same 300-lb road-salt hook), Unseen Machines 1.3K (latches), Futurecraft
-  1.3K (photoreal 3D, a flaming lid in frame 0, 17 Nov). The topic's best, "Why do manhole covers explode?" 2.0M (Oct 2024), is a
-  Short with a sewer-gas explanation; long videos: Half as Interesting 5.5M, Tom Scott 1.9M. Zack D. Films: none.
-- **Made on 18 Nov 2026 as video 12, "Why Some Manhole Covers Are Full of Holes"** (no Shorts with that title): the script was
-  rewritten to 222 words with the fixes as But/So pairs (vented lids, "but holes let salt water in too", sensors, latches) and the
-  pigeon landing back on the lid for the loop. Script, beat sheet and everything else in `pipeline/12-*`.
-- **Checked ✔:** covers weigh 70–300 lb (Con Edison); in Boston on 2 Apr 2017 a cover flew at least 50 ft and nobody was hurt; the
-  cause: salty meltwater wears down cable insulation, current arcs, the insulation smoulders, gas builds up and an arc lights it;
-  Con Edison logged 3,369 "manhole events" in 2014, 32 of them explosions, about 90% from failed insulation; most happen January to
-  March (FDNY data); vented covers since 2005 (more than 121,000 by about 2016), latched covers, gas and heat sensors (1,000 by
-  2017, more than 3,600 later); a round lid can't fall through its own hole.
-- **Resolved at Gate A (18 Nov 2026, search summaries):** New York averages about 2,240 smoking manholes and 29 explosions a year
-  (Con Edison five-year averages); 50 ft (Boston, 2017) used, not 200–300 ft; latches: one design lifts slightly and settles back
-  once the pressure evens out (T&D World), about 3,300 latched covers (CBS New York); vent holes let more water and salt in (patent
-  background); sensors detect heat, gas and CO (about 4,800 devices, 2019); cable failure causes most manhole incidents, but the gas
-  is sometimes sewer or natural gas, so "it wasn't sewer gas" is said about one lid, never in a title.
-- **Watch out:** no utility name, city landmark or logo; don't show New York's steam stacks (a different system); nobody hurt.
+  > But the first lawn chair you set on it sinks straight to the bottom. So you swap the tarp for a solid deck. But now it
+  > weighs as much as a truck, and nothing can lift it. So you let the pool do the lifting. The deck floats, and cables on
+  > the pool's bottom pull it down. This is a movable floor. But as it rises, a pool's worth of water rides on top. So you
+  > leave a slot along every edge, and the water pours off as the floor comes up. But that slot is just wide enough to
+  > swallow a foot. So a flap swings across it the moment the floor reaches the top. But a floor that floats bobs like a
+  > raft when you walk on it. So spring-loaded pins shoot out of its edges and lock into the walls. These are locking
+  > pins. And with the lid shut, the heat stays in: most of a pool's heat escapes from its surface. That's why a covered
+  > pool is still warm in the morning. Add turf on top, a table and chairs, and one button by the back door. That's your
+  > hidden pool. The bill: about [TOTAL].
+- **Labels:** MOVABLE FLOOR, LOCKING PINS (two so far: name the deck and the edge flap too if Gate A finds their real
+  names). **The bill** (each ⚠ to source): a tarp and a roll of turf (the starting
+  figure); a structural pool deck; the movable floor with its floats, cables and hydraulic drive (the big one); edge flaps;
+  locking pins; artificial turf and patio furniture; the control. The total is said in round words.
+- **The dog:** follows the turf roll in frame 0; in the last shot the floor stops ankle-deep and he paddles across it.
+- **Camera (8):** the pool from the back door, wide (frame 0 and the last shot) → the tarp and the sinking chair, close → down
+  the cut face to the deck's floats → the cables and pulleys on the pool bottom → the plant room under the lawn → the edge
+  slot with water pouring off, close → the flap, extreme close → a pin sliding into the wall, close → the lawn at dusk with
+  steam under the lid's edge → back to the first position.
+- **Sounds:** bed: a quiet back yard in summer, a pool pump's hum; effects: turf unrolling, a splash, a winch whirr under
+  water, water pouring off, a flap's clack, pins thunking home, the counter's tick, the till.
+- **Demand, and who is near (21 Nov 2026):** real footage "A swimming pool that turns into a floor" 17.2M, "Innovative Hidden
+  Swimming Pool with a Movable Floor" 1.6M, "He Built A Secret Swimming Pool Inside His House" 3.3M. Pools as builds:
+  @youbuiltit's swimming pool 13.4M (TikTok), Low Poly Films 9.1M (YouTube), CUTAWAY's "How a Swimming Pool Becomes a Secret
+  Bunker" 556K (18 Nov). No build video of a hidden or moving-floor pool found.
+- **Checked ✔ (a search summary, 21 Nov 2026):** the floor is a stainless frame with foam buoyancy packs, so it floats;
+  steel cables run through pulleys on the pool bottom to a hydraulic cylinder that pulls it down; at the set depth
+  spring-loaded tapered pins lock it (WaterShapes, Building magazine, patent US10072432).
+- **⚠ before Gate A:** how the water passes the floor as it moves (a slot at the edge, or gaps in the deck) and what closes
+  the edge gap; the weight of a deck this size; the load a raised floor carries; "most of a pool's heat escapes from its
+  surface" (the US Department of Energy gives evaporation about 70%: reopen it); every price.
+- **Watch out:** nobody falls in; the chair sinks, not a person; no maker's name on the floor.
 
-**V2. Why Frozen Turkeys Explode in the Fryer** (a back yard at Thanksgiving; post by Tue 24 Nov 2026)
-- **Titles:** YouTube "Why Frozen Turkeys Explode in the Fryer"; TikTok "Why does a frozen turkey explode in the fryer? 🦃🔥" + #Thanksgiving
-  #TurkeyFryer. **Comment question:** "Fried, roasted or smoked? Pick one."
-- **Set:** a back yard cut open like a cake: a propane fryer on the lawn, its pot sliced open to show the oil and the turkey with
-  ice in its cavity; a few steps away the wooden deck and the back of the house, cut open to show the kitchen fridge with a bird
-  thawing on a tray; a bucket of water and a marker for the oil line; an uncle in a lawn chair on the deck. Water only in the
-  bucket (the oil is golden).
-- **First second:** frame 0 a frozen turkey on a hook an inch above shimmering oil, big in the frame; by 0.5 s it touches, the oil
-  foams over the rim onto the flame, and a fireball rolls up past the camera.
-- **Script** (draft, 212 words):
-  > Lower a frozen turkey into 350-degree oil, and this happens. It's the ice inside the bird.
+**B2. How to Turn Your Yard Into a Motocross Track** (a big back yard)
+- **Title:** "How to Turn Your Yard Into a Motocross Track". **Caption:** the title, "Guess the bill 💸", the standing tags,
+  #Motocross #DirtBike. **Pinned comment:** "Would your neighbors survive this? And what do we build next?"
+- **Set:** one large yard cut open like a cake: lawn at first, then a clay track with banked corners, a tabletop jump whose
+  packed core shows in the cut face, a drain pipe under the low spot, a steel starting gate, the house and a fence behind.
+  Riders are small and anonymous, in helmets.
+- **First second:** frame 0 a dirt bike already carving a tight circle on the green lawn, low and close, turf spraying off
+  the back tire; by 1 s the circle is a brown ring and the dog is chasing the bike.
+- **Script** (draft, about 222 words with the total):
+  > If you ride your dirt bike in circles on the lawn, you have a motocross track.
   >
-  > Water is heavier than oil, so the ice sinks to the hot bottom and turns to steam in an instant. Steam takes up about 1,700
-  > times more room than water. So it shoves the oil up and over the rim. This is a boil-over. But right under the pot is an
-  > open flame. The oil hits it, and you get a fireball. So you thaw the bird in the fridge for days, and pat it dry. But even a
-  > thawed bird pushes the oil up. So before you heat anything, you lower it into plain water and mark the line. That's all the
-  > oil you need. But it's cold out, so you set up on the wooden deck. So you move it out to the middle of the yard. And you
-  > turn the flame off before the bird goes in, then lower it slowly. Here's the catch: Thanksgiving is the number one day of
-  > the year for kitchen fires. That's why firefighters drop frozen turkeys into fryers on the news every November. And your
-  > uncle still wants to do it on the deck. Thaw the bird, measure the oil, and keep the fire in the yard.
-- **Camera (8):** the pot (the fireball) → inside the pot (the ice sinking, the steam bubble) → the rim → the burner → the fridge
-  through the cut wall → the bucket and the line → the deck → the middle of the yard (the burner valve, the slow lowering) → the
-  yard, wide.
-- **Sounds:** bed: a suburban back yard in late November, a game on a TV indoors; effects: the oil roar, the fireball's whoosh, the
-  burner, a splash in the bucket.
-- **Demand:** "The Dangerous Truth Behind Deep Frying a Frozen Turkey" 5.6M; "How to fry a turkey SAFELY" 3.1M; a Thanksgiving fryer
-  warning 2.1M; "Frying Frozen Turkey Explodes Into Fireball" 335K; long videos 1.08M and 446K. Zack D. Films has turkey recipe
-  gags (13–14M), and his "Water On A Grease Fire 🤯" (6.75M, 3D) covers the same physics in a pan: ours is the turkey, the yard
-  and the fixes, at Thanksgiving.
-- **Checked ✔:** water is denser than oil (1.00 against 0.91–0.93 g/cm³) and sinks; steam takes about 1,700 times the water's
-  volume; the ice flashes to steam and drives the oil over the rim (NPR and PBS NewsHour, Nov 2023); thaw the bird in the fridge
-  and dry it; turn the burner off before lowering; fry outdoors on level ground away from buildings and decks; never put water on
-  an oil fire (US Fire Administration); Thanksgiving is the No. 1 day for US home cooking fires (1,446 on Thanksgiving 2023, NFPA);
-  deep frying runs at 350–375 °F.
-- **Resolved at Gate A (18 Nov 2026, search summaries; butterball.com and pbs.org can't be opened from a session):** the water
-  method: the bird in the empty pot, water until it is just covered, lift it out and mark the level, 3–5 in. left at the top
-  (Butterball, Blue Rhino, Food Network); fridge thawing about 24 h per 4–5 lb at 40 °F or below, a 15-lb bird about 3 days (USDA),
-  so the script says "a day for every four or five pounds"; burner off before lowering, relit once the bird is under, lowered
-  slowly (Oneida County Sheriff, Lafayette IN, Butterball via Fox 9); never in a garage or on a wooden deck (USFA via ABC News);
-  fire-department demos for the news in Nov 2025: Raleigh FD with the NC State Fire Marshal, Ossining FD with the state
-  firefighters' association (News12, a 14-lb frozen bird), Decatur IL (WAND), Clayton NC; TikTok's guidelines (2026-H2, read on
-  tiktok.com) allow "documentary or educational content that reports on dangerous activities … unless it enables copycat
-  behavior", while "activities that may lead to moderate physical harm" can be kept off the For You feed.
-- **Made on 19 Nov 2026 as video 13, "Why Firefighters Drop Frozen Turkeys Into Fryers"** (no Short with that title): the
-  saturation check found nine small Shorts titled "Why Frozen Turkeys Explode…" posted 14–17 Nov 2026 (396–2,202 views each, all
-  with the ice → steam → over-the-rim hook; two in 3D, one opening on a turkey on a hook above the pot), so the title asks about
-  the yearly news demos and the "that's why" answers it (shown on a TV in the cut-open living room). The script was rewritten to
-  224 words: the surprise "The oil didn't explode. The ice inside the bird did."; four But/So pairs escalating overflow → flame →
-  house (the water test, gas off then lower slowly, a wooden deck attached to the house); the fryer stays in the yard the whole
-  video; no uncle on screen: his frosted bird on the hook is the joke ("He swears this one's thawed") and loops into frame 0.
-  Script, beat sheet and everything else in `pipeline/13-*`.
-- **Watch out:** nobody hurt; the uncle is small and anonymous; no brand names on the fryer or the propane tank.
+  > But the back tire chews the grass into a mud pit, and you slide out on every turn. So you scrape the lawn off, truck in
+  > clay, and pack it into a banked wall around each corner. This is a berm. But a track with no jumps is just a muddy
+  > road. So you build a ramp and a landing. But come up short, and you slam into the face of the landing. So you fill the
+  > gap between them flat. This is a tabletop. But the first storm turns every low spot into a pond. So you bury a pipe
+  > under each one to carry the water away. This is a culvert. But everyone takes off when they feel like it, and it's a
+  > pile-up at the first corner. So a steel gate holds every front wheel and drops them all at once. This is the starting
+  > gate. But a rider goes down behind a jump, where the next one can't see him. So someone stands on every jump with a
+  > yellow flag. These are flaggers. Add a row of bumps called whoops, foam blocks to mark the lanes, and a checkered flag.
+  > That's your motocross track. The bill: about [TOTAL].
+- **Labels:** BERM, TABLETOP, CULVERT, STARTING GATE, FLAGGERS. **The bill** (each ⚠): a tank of gas (the starting figure);
+  clay by the truckload and a day of a small bulldozer; the tabletop's dirt; drain pipe; a starting gate; flags, foam
+  blocks and a water hose.
+- **The dog:** chases the bike in frame 0; in the last shot he sits on the tabletop with the checkered flag in his mouth.
+- **Camera (8):** the lawn low by the bike (frame 0) → up and over the yard as the track appears → a berm, low on the
+  outside → the ramp and the gap from the side → down the cut face through the tabletop's core → the low spot and the pipe
+  under it (the cutaway) → the starting gate from in front, low → a jump's crest with the flag → the first position, wide.
+- **Sounds:** bed: a breezy back yard, a far-off two-stroke; effects: an engine rasp, dirt spraying, a truck tipping, a
+  thump on the landing, water in a pipe, the gate's clang, the counter's tick, the till.
+- **Demand, and who is near (21 Nov 2026):** real builds lead: a backyard pump track 11M, "landscaping, but make it moto"
+  469K, a pit-bike track 308K, "Dream Backyard Motocross Track" 249K, long videos 2.4M and 997K. Racing builds on TikTok:
+  go-karts 1.0M, NASCAR 851K, F1 532K, MotoGP 262K (@whatifplus). No motocross build video found on either list or on
+  YouTube.
+- **⚠ before Gate A:** that a tabletop is the safer jump because a short landing meets flat ground; what tracks are built
+  from (clay or a clay and sand mix); the yellow flag's meaning in the rule book; the starting gate's action (it drops
+  toward the riders); "whoops"; every price.
+- **Watch out:** nobody hurt: the fallen rider sits up; no bike brands, numbers or sponsor colours; don't reuse the
+  go-kart video's "neighbor calls the police" beat.
 
-**V3. Why Nuclear Cooling Towers Are Almost Empty Inside** (a cooling tower by a river; the user's own pick on 15 Nov 2026)
-- **Titles:** YouTube "Why Nuclear Cooling Towers Are Empty Inside" (the nearest title, "What's Inside A Nuclear Cooling Tower?",
-  has 173K); TikTok "What's actually inside a nuclear cooling tower? ☁️" + #Nuclear #CoolingTower. **Comment question:** "Did you
-  think it was smoke? Yes or no."
-- **Set:** one curved cooling tower sliced open like a cake beside a river, with a plain plant building behind it (never the
-  reactor) and two more towers in a row: the open base with air rushing in, the rain falling through the fill near the bottom, the
-  pool under it, and nothing above but rising mist up to the mouth; the pipes from the condenser.
-- **First second:** frame 0 the tower huge and close, its white plume rolling; by 1 s its near wall slices away top to bottom and
-  the inside is empty air, with rain falling only near the bottom.
-- **Script** (draft, 227 words):
-  > This giant tower is almost completely empty inside. And that isn't smoke.
+**B3. How to Turn Your House Into a Christmas Light Show** (a house on a street at dusk; post by about Sat 5 Dec 2026)
+- **Title:** "How to Turn Your House Into a Christmas Light Show". **Caption:** the title, "Guess the bill 💸", the standing
+  tags, #Christmas #ChristmasLights. **Pinned comment:** "Guess the power bill. And what do we build next?"
+- **Set:** one two-storey house cut open like a cake at dusk: the roof line and gutter, the breaker panel in the garage,
+  the oven in the kitchen, the outlets on the outside wall, a controller box in the attic, the front yard and the street
+  with a few parked cars. The night look is a re-grade of the day still (6.3 NIGHT); the lights are the subject, so this
+  one may open at dusk (3.0 rule 6).
+- **First second:** frame 0 a dark house against a deep blue sky, one string of lights half clipped along the gutter, big
+  in the frame; by 1 s the clips have run to the corner and the string comes on bulb by bulb. The dog is wrapped in a
+  spare string.
+- **Script** (draft, about 225 words with the totals):
+  > If you clip one string of lights to your gutter, you have a Christmas light show.
   >
-  > If you boil water to spin a turbine, the steam has to turn back into water. So you run cold water past it. This is the
-  > condenser. But that water comes out hot, thousands of gallons a minute. So you cool it: you rain it down over stacks of
-  > slats near the bottom, and a little of it evaporates and carries the heat away. This is the fill. But still air cools
-  > nothing, and giant fans would eat your power. So you build a chimney around the rain. Warm, wet air rises on its own and
-  > pulls cool air in at the open base. This is natural draft. But a tube this tall has to stand up to a gale. So you pinch its
-  > waist. That curve keeps a concrete shell about seven inches thick stiff enough to stand. In 1965, in England, three towers
-  > built close together blew down in one storm. Now they're built stronger. But the wind carries drops out of the top. So
-  > baffles catch them, and a few percent of the water still floats away each pass. That's why the cloud on top is biggest on
-  > cold, damp days. It's just water, and it never touches the reactor. Rain it down, pull the air up, and let it drift away.
-- **Camera (8):** the tower close (the wall slicing open) → the condenser pipes at the base → the rain over the fill → the open
-  base, air pulled in → up through the empty shell → the waist → the row of three towers in a gale (a storm re-grade, for 1965) →
-  the baffles at the mouth → the tower, wide, on a cold day.
-- **Sounds:** bed: rain falling inside a huge concrete hall (the echo the 72M Short is about); effects: pumps starting, a gust, a
-  deep rumble for 1965.
-- **Demand:** real footage "Inside a Nuclear Plant Cooling Tower: The Wildest Natural Reverb" 72M and another at 71M; "What Really
-  Happens Inside a Cooling Tower" 1.9M; a Hindi animation 1.1M; the nearest title 173K; nobody has animated the empty inside (one
-  1.5K cartoon of the whole plant, 17 Nov 2026). Long: Practical Engineering 9.5M.
-- **Checked ✔:** natural draft (warm, moist air rises and pulls cool air in at the base; no fans); the fill spreads the water and
-  evaporation does most of the cooling; the fill and rain zone sit in roughly the bottom 10 m and the shell above is empty; drift
-  eliminators are baffles; the plume is condensed water, biggest on cold, humid days; shells about 16–18 cm (6–7 in) thick at the
-  waist; Ferrybridge, England, 1 Nov 1965: three of eight towers blew down in a gale; the tower's water only cools the condenser
-  and never touches the reactor; a few percent of the water leaves on each pass (about 1% for every 10 °F of cooling; up to 5%
-  by the World Nuclear Association); about 420 gallons evaporated per MWh (EPA), thousands of gallons a minute for a big unit.
-- **⚠ before Gate A:** what changed in tower design after Ferrybridge ("now they're built stronger"); "seven inches" (6–7 in is
-  safe).
-- **Made on 20 Nov 2026 as video 14, "Why It Rains Inside a Nuclear Cooling Tower"** (no Short with that title; the nearest are
-  real footage, "Water Drop Like Rain Inside Cooling Tower" 4.7K and "How a 5-Story Rain Machine Works" 22.9K). The saturation check
-  of 20 Nov 2026 found "Why Cooling Towers Are Empty Inside" (The Odd Encyclopedia, 18 Nov, 1.2K, a labelled 3D diorama about Brayton
-  Point's fish) and four more small animated cooling-tower Shorts on 8–19 Nov (MECHANIC DAILY 852, a labelled cut-open tower;
-  Cutaway Lab 216, photoreal but the inside drawn wrong; Blueprinted 1.3K; Unfoldwise 81), all on "empty / not smoke / the shape";
-  about 20 small "why are cooling towers shaped like that" Shorts (best 8.9K); Ferrybridge 1965 untold in Shorts. The script was
-  rewritten to 225 spoken words: "Cut open this nuclear cooling tower, and it's pouring rain inside." over the tower being cut open
-  (the "before", then the first verb); the condenser cut (not on the set) for "This water just cooled the plant's steam" over the
-  pipe from the plant; "hundreds of thousands of gallons a minute" (the draft's "thousands" was the evaporation); "about six
-  inches"; the baffles moved to just above the sprays; "The rest got thicker walls" for "now they're built stronger"; a duck in the
-  pond as the joke ("The only one who loves the weather in here? This duck."). Everything else in `pipeline/14-*`.
-- **Resolved at Gate A (20 Nov 2026, search summaries; the pages are blocked from a session):** Ferrybridge C, 1 Nov 1965: three of
-  eight 375-ft towers fell within an hour in high winds (Hansard, Historic England); the collapsed towers were rebuilt and the
-  standing ones strengthened with extra reinforced concrete (Hansard, May 1966; the towers had a single sheet of reinforcement, IASS
-  2024); no casualty figure found, so none is said; "today's towers get two layers of steel" could not be confirmed from the codes,
-  so it isn't said; the waist 16–18 cm in existing towers (a patent); drift eliminators sit above the fill and the sprays, not at
-  the mouth (patent); ~476,500 gpm for a typical 1,000 MW reactor, 2–4 pumps of 100,000+ gpm each (UCS); the cooling gear in
-  roughly the bottom 10 m, the rest an empty shell (Designing Buildings). Plume-made snow is documented for natural-draft towers
-  (1970s studies) but rare at nuclear plants: left out.
-- **Watch out:** How Building Explained built a nuclear plant: ours is the tower only; no radiation symbols and no real plant names;
-  call the plume a cloud.
+  > But one bulb burns out and the whole string goes dark. So each bulb gets a tiny bypass wire that takes over when it
+  > dies. This is a shunt. But you hang fifty more strings, and the breaker trips and takes the oven with it. So you swap
+  > every bulb for an LED, which sips about a tenth of the power. But the first wet snow gets into the plugs, and the
+  > outlet shuts itself off. This is a ground-fault outlet: it cuts the power before a wet wire can shock you. So every
+  > connection goes in a sealed box. But lights that only switch on and off are boring by the second night. So every bulb
+  > gets its own chip, and a controller plays them like a screen, in time with music. These are pixels. But the music
+  > wakes the whole street. So you send it out from a tiny radio transmitter, and the cars out front tune in. That's why
+  > light-show houses put a radio station on a sign in the yard. Add a tree made of lights, arches over the driveway, and
+  > a snowman that sings. That's your light show. The bill: about [TOTAL], plus [X] a night in power.
+- **Labels:** SHUNT, GROUND-FAULT OUTLET, PIXELS (named in the script); LED and FM TRANSMITTER on the words "LED" and
+  "transmitter". **The bill** (each ⚠): one string of lights (the
+  starting figure); fifty strings of LEDs; weatherproof boxes and outdoor cords; pixel strings, power supplies and a
+  controller; the transmitter; the tree, the arches and the snowman; and the nightly electricity, worked out from the
+  wattage.
+- **The dog:** tangled in a blinking string in frame 0; in the last shot he wears antlers that light in time with the house.
+- **Camera (8):** the gutter and the string, close (frame 0) → along the string to the dead bulb, extreme close (the
+  shunt) → through the wall to the breaker panel and the dark oven → the outside outlet in the snow, close → one pixel,
+  extreme close, then the whole wall changing colour → the attic controller → the street with the cars → the house, wide.
+- **Sounds:** bed: a quiet street on a winter evening; effects: clips clicking, a bulb's pop, a breaker's clunk, a hiss of
+  wet snow, a soft chord as the pixels come on (not a tune), a car radio's static, the counter's tick, the till.
+- **Demand, and who is near (21 Nov 2026):** "Animated Pixel Christmas Lights" 13.5M (a month old), light-kit Shorts 559K and
+  311K, "Use the extra red tip bulbs to make the Christmas lights twinkle" 103K. Build copies: "How One String of Lights
+  Becomes a $2.3 Billion Christmas Display" 1.2K (Sticker Shovel, 11 Nov) and nothing else. Winter topics flopped for
+  @whatifplus on white frames (1.7); this one is dark blue and full of colour.
+- **⚠ before Gate A:** which strings go dark with one dead bulb (old series-wired mini lights) and how the shunt works; LED
+  strings' share of the power (the US Department of Energy says at least 75% less); what trips first with fifty
+  incandescent strings on a 15-amp circuit (do the sum); that a GFCI trips on wet connections; "pixels" and the controller;
+  the low-power FM transmitter that light shows use and its rules; every price and the nightly cost.
+- **Watch out:** no carols or any tune (no music, 5); no brand names; no Santa from a film; the sign carries no words in
+  the generated picture (the frequency is an overlay, 5).
 
-**V4. The Ice Under This Court Cancelled an NBA Game** (an arena floor)
-- **Titles:** YouTube "The Ice Under This Court Cancelled an NBA Game"; TikTok "This NBA game got cancelled because of what's under
-  the court 🏀🧊" + #NBA #NHL. **Comment question:** "Hockey or basketball: which would you rather watch here?"
-- **Set:** an arena floor cut open like a cake: the concrete slab with brine pipes, an inch of white-painted ice, the insulated
-  panels, the hardwood court; the boards and glass; the seats rising behind; a big air-drying duct.
-- **First second:** frame 0 the court close and gleaming, a ball bouncing; by 1 s a crew lifts a square of the floor and white ice
-  shines under it, and a hockey puck slides out.
-- **Script** (draft, 215 words):
-  > There's an ice rink under this basketball court. One night, it cancelled an NBA game.
+**B4. How to Turn Your Driveway Into a Soapbox Derby** (a sloping driveway and street)
+- **Title:** "How to Turn Your Driveway Into a Soapbox Derby". **Caption:** the title, "Guess the bill 💸", the standing
+  tags, #SoapboxDerby #Racing. **Pinned comment:** "Would you have used the magnet? Yes or no."
+- **Set:** one sloping driveway and the street below it, cut open like a cake along the hill: the house and garage at the
+  top, a wooden starting ramp with steel paddles, two painted lanes, a finish line with a light beam, hay bales at the
+  bottom; one racer cut open to show the steering cable, the weights bolted to its floor and the brake pad.
+- **First second:** frame 0 a red wagon already rolling down the driveway toward the camera, low and close, the dog
+  sitting in it; by 1 s it is wobbling and he hops out as it tips into the hedge.
+- **Script** (draft, about 223 words with the total):
+  > If you roll down your driveway in a wagon, you have a soapbox derby.
   >
-  > If you want hockey and basketball in one building, you freeze the floor and never let it melt. Pipes in the concrete carry
-  > brine colder than ice, and an inch of ice sits on top, painted white. But you can't dribble on ice. So you cover it:
-  > insulated panels first, then the court, piece by piece, like a puzzle. But the hockey boards are in the way. So they lift
-  > out in sections. But the cold still seeps up through the floor. Warm, wet air from the crowd hits the cold wood and turns to
-  > water. This is condensation. So giant dryers pull the water out of the air. But in Philadelphia, in 2016, hockey was played
-  > the night before, the day was warm and damp, and the floor wouldn't stay dry. Players kept slipping, and the game was called
-  > off. And tomorrow is hockey again. So the court comes up, the panels come off, and the ice is scarred. So a machine shaves a
-  > thin layer off and lays down hot water that freezes glass smooth. That's why the ice looks so white: it's painted, under the
-  > top. Freeze the floor, cover it over, and swap it by morning.
-- **Camera (8):** the court (the panel lifting) → down into the cut layers → the brine pipes → the panels going down → the court
-  pieces, top-down → the boards lifting out → the cold wood beading with water → the 2016 night, players slipping (small figures)
-  → the resurfacer → the arena, wide.
-- **Sounds:** bed: an empty arena's hum; effects: a bouncing ball, panels dropping, sneakers squeaking and sliding, the
-  resurfacer's motor.
-- **Demand:** real changeover time-lapses 7.4M, 2M, 495K; "Lakers' Court Is Hiding GIANT ICE" 386K (real, 13 Nov 2026); explainers
-  78K and 43K. Since 23 Oct 2026 about six small 3D copies of the plain idea, all at 3.1K or less (one, "There's an Ice Rink Under
-  This NBA Court", 15 Nov, 658 views): hence the story title.
-- **Checked ✔:** the ice stays down all season under insulated panels with the court on top; the boards and glass come out in
-  sections; changeovers take a few hours; arenas run dehumidifiers to stop condensation; the ice is painted white and sealed; NHL
-  ice is about an inch thick ("typically less than an inch", NHL.com; others give ¾–1¼ in); a resurfacer shaves about 1/16 in and
-  lays hot water at about 140–160 °F; the Kings–76ers game in Philadelphia on 30 Nov 2016 was called off at 8:03 pm because the
-  court was slippery, after the Flyers had played the night before; it was made up on 30 Jan 2017.
-- **⚠ 21 Nov 2026: already made by a small rival:** How Things Work's "Why Doesn't Hockey Ice Melt" (1.4K; 1.6). Under the
-  topic rule in 1.6 this idea needs a fresh count before anything is spent.
-- **⚠ before Gate A:** Cutaway Instinct (1.4) **already has it** (found 21 Nov 2026): "Crypto.com Arena: What's Under the
-  Lakers' Court?", 1.3M, so V4 only as the story title (the 2016 cancelled game), or dropped under the topic rule (1.6);
-  "brine colder than ice" (rinks run brine or glycol at roughly 16–18 °F: check); "players kept slipping"
-  (reports say the floor was slick; keep the wording to what they say).
-- **Watch out:** no team names, logos or colours on the court or the ice; players and crew small and anonymous.
+  > But the wagon wobbles, swerves, and tips you into the hedge. So you build a long, low car, lie back inside it, and
+  > steer with a cable. But one kid gets a shove and the other doesn't. So both cars lean on steel paddles that drop at
+  > the same instant. This is the starting gate. But the heavier car always wins. So every car goes on a scale with its
+  > driver, and the lighter ones bolt in weights until they match. But one lane is always a little faster. So you race
+  > twice, swap lanes and wheels in between, and add up the times. But two cars cross the line together and everyone
+  > argues. So a beam of light across the finish times each one to a thousandth of a second. But at the bottom you're
+  > doing thirty miles an hour with no engine and no way to stop. So a pedal shoves a rubber pad down onto the road. This
+  > is a drag brake. In 1973, the champion hid a magnet in the nose of his car to pull it off the steel gate. He was
+  > caught. Add hay bales, a finish banner, and a trophy. That's your soapbox derby. The bill: about [TOTAL].
+- **Labels:** STARTING GATE, DRAG BRAKE (named in the script); the year 1973 on the true story; the weights and the timer
+  get labels only if Gate A finds what racers call them. **The bill** (each ⚠): a wagon (the starting figure); a racer
+  kit with wheels; the starting ramp and gate; a scale and weights; the finish-line timer; hay bales, a banner and a
+  trophy.
+- **The dog:** rides the wagon in frame 0 and hops out; in the last shot he sits in the winning car wearing goggles.
+- **Camera (8):** the wagon low on the driveway (frame 0) → the hedge → the racer cut open, close → the gate's paddles, low
+  and in front → the scale → down the lanes with the cars → the finish beam, close → the brake pad on the road, extreme
+  close → the hill, wide.
+- **Sounds:** bed: a suburban street on a summer morning; effects: wagon wheels on concrete, a hedge's rustle, the paddles'
+  clack, a scale's clunk, wheels humming, a beep at the line, rubber dragging, the counter's tick, the till.
+- **Demand, and who is near (21 Nov 2026):** "The Genius Cheat With a Hidden MAGNET" 4M; "Why Soapbox Driver Sit in Such a
+  Tiny Space!" 96K; "85 Year Old Grandpa WINS Soapbox Derby" 35K. No soapbox build video found.
+- **⚠ before Gate A:** the starting gate's paddles; the weight limits by division; the lane and wheel swap and how the
+  times are combined; the finish timer's precision; top speed on a derby hill; how the brake works; the 1973 magnet (how it
+  was switched on, and that the winner was disqualified); what racers call the added weights and the finish timer; every
+  price.
+- **Watch out:** the 1973 racer was a child: never named or shown, one sentence only; no derby logos; the dog is out of
+  the wagon before it tips.
 
-**V5. Why Water Heaters Can Launch Through the Roof** (a house with a basement)
-- **Titles:** YouTube "Why Water Heaters Can Launch Through the Roof" (a 1.7K 3D cutaway is titled "Your Water Heater Can Go Through
-  the Roof."); TikTok "Can your water heater really launch through the roof? 🚀" + #WaterHeater #HomeSafety. **Comment question:**
-  "Have you ever checked yours? Yes or no."
-- **Set:** a two-storey house cut open like a cake, the water heater in the basement up front (its tank cut open to show the water,
-  the thermostat, the backup cut-off, the brass valve on top and its pipe down to the floor, the small tank on the cold pipe); a car
-  in the driveway; the neighbour's yard beside.
-- **First second:** frame 0 the house at rest, the tank big in the frame; by 0.5 s the tank splits at its base and a jet of steam
-  drives it up through the floors and out of the roof, over the car.
-- **Script** (draft, 219 words):
-  > This water heater just went through the roof. All it had inside was hot water.
-  >
-  > If you want hot water on tap, you heat it in a sealed steel tank. But a thermostat can fail, and the heat keeps coming.
-  > Under pressure, water doesn't boil at 212 degrees. It just gets hotter, past 300, and stays liquid. This is superheated
-  > water. But a tank can only hold so much. When a seam splits, the pressure drops, the water flashes to steam all at once, and
-  > the tank becomes a rocket. One small tank holds enough energy to throw a car 125 feet up. So you add a backup switch that
-  > cuts the heat. And a brass valve on top that opens at 210 degrees or 150 pounds of pressure, and lets it all out. This is a
-  > T&P valve. But it sprays scalding water. So a pipe carries it down to six inches above the floor. That's why your water
-  > heater has a pipe that stops just above the floor. But the valve drips, so someone screws a cap on it. In 1993, in
-  > Minnesota, a heater whose valve didn't work blasted out of a basement, through the roof, and landed in the neighbor's yard.
-  > Nobody was hurt. Heat the tank, trust the valve, and never cap the pipe.
-- **Camera (8):** the basement (the blast) → up through the floors after the tank → back down into the tank cutaway → the water past
-  300 (shimmering) → the seam → the backup switch → the brass valve on top → the pipe down to the floor (and the cap) → the tank in
-  the neighbour's yard (1993) → the house, wide.
-- **Sounds:** bed: a quiet basement with a furnace hum; effects: a rumble and hiss, the blast, a valve hissing, water on concrete, a
-  car alarm.
-- **Demand:** the on-topic Shorts are small (MythBusters clips at 45.6K and 30.0K, a 3D one at 29.1K, 25.7K); several tiny 3D
-  copies (one tells the 2001 Burien story); long: MythBusters 1.65M and 1.34M. Zack D. Films: none. A modest ceiling, a strong
-  opening, and it is the hydrant's YouTube audience (the hidden stuff in your house).
-- **Checked ✔:** at 90 psi water boils at about 331 °F (Watts); a 30-gallon tank at 90 psi and 332 °F holds about 314,000 ft-lb,
-  enough to lift a 2,500-lb car about 125 ft (National Board); when the tank splits, the water flashes to steam; a backup high-limit
-  cut-off; the T&P valve opens at no more than 150 psi or 210 °F; its pipe ends no more than 6 in above the floor so scalding water
-  isn't aimed at anyone (ICC); South St. Paul, Minnesota (UPI, 2 Jun 1993): a 50-gallon heater shot out of a basement, through the
-  roof, and landed about 150 ft away in a neighbour's yard; the two adults inside weren't hurt; fire officials blamed a relief
-  valve that didn't work.
-- **⚠ 21 Nov 2026: already made by a small rival:** How Things Work's "A Water Heater Can Launch Through Your Roof" (1.0K;
-  1.6), on top of the tiny 3D copies above. Under the topic rule in 1.6, drop it unless the count says otherwise.
-- **⚠ before Gate A:** "throw a car 125 feet up" (the source says lift; keep "a small tank" and "lift"); a source for capping a
-  dripping valve as a known bad fix, or keep it as the joke without a claim. Never use the 1982 Spencer, Oklahoma school
-  explosion.
-- **Watch out:** nobody hurt; no brand names on the heater.
+**B5. How to Turn Your House Into a Flood-Proof House** (a house by a river)
+- **Title:** "How to Turn Your House Into a Flood-Proof House". **Tags:** #Flood #Engineering. **Pinned comment:** "Would you
+  let the water in? Yes or no."
+- **Set:** one house with a basement, cut open like a cake down to the ground water, a river behind it; brown flood water
+  that rises stage by stage; the sewer pipe, the floor drain and the toilet in the cut.
+- **First second:** frame 0 brown water creeping across the lawn toward the front door, low and close; by 1 s sandbags are
+  thumping into a wall at the door and the dog is watching from the top step.
+- **Ladder:** premise "If the river's rising and you stack sandbags at the door, you have a flood-proof house." → water
+  seeps between the bags and under the door → a steel barrier that clamps into the door frame on a rubber seal (FLOOD
+  BARRIER) → the flood comes up through the floor drain and the toilet instead → a flap in the sewer pipe that only opens
+  outward (BACKWATER VALVE) → ground water pushes up through the basement floor → a pit in the lowest corner and a pump
+  (SUMP PUMP) → the storm cuts the power and the pump stops → a battery that takes over (BACKUP) → six feet of water
+  outside leans on the walls until they crack → openings that let the water flow through the bottom level so the pressure
+  is the same on both sides (FLOOD VENTS), with everything that matters moved upstairs → the fix beyond all of those: the
+  house floats up on four posts (AMPHIBIOUS FOUNDATION). **Add:** the furnace on a platform, the outlets at chest height, a
+  boat tied to the porch. **Close:** "That's your flood-proof house. The bill: about [TOTAL]."
+- **The bill** (each ⚠): sandbags (the starting figure); a door barrier; a backwater valve fitted; a sump pit and pump; a
+  battery backup; flood vents; raising or floating a house (the big one).
+- **The dog:** on the top step in frame 0; in the last shot on the porch of the floating house, tail going.
+- **Demand, and who is near (21 Nov 2026):** real footage 28M (a door dam), 9.2M, 8.6M, 4.8M, 4.4M. One build video: The
+  Building Box's "How to Protect Your House From A Flood.." 874K (4 Nov); also "How a Tree in Your Yard Becomes a Flood-Proof
+  Treehouse" 22K. One recent build video is inside the topic rule; count again at Gate A.
+- **⚠ before Gate A:** sewer backflow in floods and the valve that stops it; what flood vents are for and where the building
+  code asks for them; amphibious foundations that really exist (the Netherlands, Louisiana); wall failure from water
+  pressure; every price.
+- **Watch out:** nobody in the water; no real town, river or disaster named; water is the enemy here, so mind the user's
+  note about lists that are all water (1.3): B1, B5 and B8 are spaced out.
 
-**V6. Why This NFL Field Rolls Outside** (a desert stadium; NFL season)
-- **Titles:** YouTube "Why This NFL Field Rolls Outside"; TikTok "Why does this NFL field roll outside? 🏈☀️" + #NFL #Stadium.
-  **Comment question:** "Real grass or turf? Pick one."
-- **Set:** a desert stadium cut open like a cake: the closed roof, the seats, the end wall with a giant door, the field as a steel
-  tray on rails (cut open to show the grass, the sand and gravel, the drain pipes, the wheels on the rails), the bare concrete floor
-  where the tray sits, and the sunny lot outside where the field basks. A tortoise by the rail.
-- **First second:** frame 0 the stadium from outside, its end wall open; by 1 s (sped up) the whole field slides out through the
-  door into the sun.
-- **Script** (draft, 212 words):
-  > This whole football field just rolled out of the stadium. It goes outside to get some sun.
-  >
-  > If you want real grass in a desert stadium, you need a roof against the heat. But grass under a roof dies. So you grow the
-  > field on a giant steel tray, and roll the whole thing outside. The tray is 234 feet by 403, and with the grass and the soil,
-  > it weighs about 19 million pounds. But nothing that heavy slides on its own. So it rides on 546 steel wheels, along 13
-  > rails. It moves about fifteen feet a minute. A tortoise could keep up. So the trip takes about an hour. But grass needs
-  > water, and water has to drain. So the tray is forty inches deep: grass on top, then sand and gravel, with pipes underneath
-  > that carry the water away. But on game day, the grass has to come in. So it rolls back inside, and the roof closes over it.
-  > And when the field is out, the bare floor underneath hosts concerts and trade shows. Here's the twist: Las Vegas has one
-  > too, inside a stadium whose roof never opens. Its grass lives outside and only comes in for games. Grow it outside, roll it
-  > in, and play.
-- **Camera (8):** outside, the field sliding out → along the tray's edge (wheels on rails) → the cut tray (the layers and pipes) →
-  the tortoise beside the rail → back inside, the roof closing → the bare floor with a concert stage → the Las Vegas line over a
-  pull-back → the stadium, wide.
-- **Sounds:** bed: a desert breeze and a big empty stadium; effects: motors humming, steel wheels on rails, the roof closing, a
-  crowd for game day.
-- **Demand:** "The INSANE Retractable Grass Field for Super Bowl 58" 2.8M; "This 19-Million-Pound Football Field Can MOVE🤯" 2.6M;
-  "Incredible retractable football field, the entire lawn is hidden underground" 1.7M; "Real Madrid's RETRACTABLE Pitch Explained"
-  566K; long: "University Of Phoenix - Moving field" 1.05M, the Raiders' tray 807K. Zack D. Films: none. Check at Gate A which of the
-  top Shorts are 3D.
-- **Checked ✔** (search summaries, 18 Nov 2026): Arizona's stadium (State Farm Stadium, Glendale) grows its field on a tray about 234
-  × 403 ft and 40 in deep that weighs nearly 19 million lb, rides 546 steel wheels on 13 tracks and travels about 740 ft at about 15
-  ft a minute (60–70 minutes; an operator keeps pressing a button); it spends days outside in the sun and comes in for games and
-  cold nights; Allegiant Stadium in Las Vegas has a 9,500-ton tray (540 wheels) under a roof that doesn't open.
-- **⚠ before Gate A:** search Cutaway Instinct (a YouTube channel of stadium cutaways in our style, 1.4) for a rolling-field
-  video; that grass dies under the roof (the reason given is sunlight; word it as "grass needs sun"); the drain pipes in
-  the tray; concerts and trade shows on the bare floor; "a tortoise could keep up" (giant tortoises walk about 0.2 mph, ~18 ft a
-  minute: check); how the tray is driven (motors).
-- **Watch out:** no team names, logos or colours, and no stadium name on screen.
-- **Made on 21 Nov 2026 as video 15, "Why This NFL Field Is Sitting on 546 Wheels"** (no Short with that title). The saturation
-  check of 20 Nov 2026 found about 20 Shorts on "this NFL field rolls outside" since Sep 2026: The World Is Smarter Than's "Why
-  This NFL Stadium Rolls Its Entire Field Outside" (4 Sep, 85K), Cutaway Instinct's "State Farm Stadium's Retractable Field: How
-  It Rolls Outside" (25 Oct, 32K, our look with labels), Builders Input's "Why This NFL Field Rolls Outside to Sunbathe" (15 Nov,
-  3.2K: the draft's title and hook), EngineeringBites (18 Nov, the draft's But/So chain), @builtin60 (18 Nov, the 2023 Super Bowl
-  slip) and eight more at 0.9K–4.4K; the topic's biggest is Hindt Media's "This 19-Million-Pound Football Field Can MOVE" (1 Oct
-  2026, 2.8M, photoreal, frame 0 the tray on its rails). Zack D. Films: none. So the angle changed: the field cut open to show its
-  wheels as the hook (none of the 20 opens that way), the 76 one-horsepower motors, "it lives outside most days" as the twist,
-  the 2024 Final Four broadcast as the "that's why", and a desert tortoise that could outrun it as the joke; 219 spoken words.
-  Under 1.6's later topic rule it would have been dropped, not retitled. Everything else in `pipeline/15-*`.
-- **Resolved at Gate A (20–21 Nov 2026, search summaries; uni-engineer.com and operations.nfl.com are blocked from a session):**
-  76 of the 546 wheels have 1-hp electric motors, 76 hp in all (Uni-Systems; a Review-Journal "48 motors" not used); the one-way
-  trip is ~741 ft in ~75 min at ~1/8 mph (NFL Operations, AP; the stadium says 70 min), so "over an hour"; a desert tortoise
-  walks ~0.2 mph (NPS Joshua Tree, Oakland Zoo), faster than the field; the root zone is sand with stabilizer fibres over a
-  Draincore mat, with pipes to a main drain under the tray (Turf Magazine, Invisible Structures); the roof seals the stadium for
-  air conditioning and the grass goes out for sunlight; the field is inside on game days and outside on the others, and comes in
-  on some cold winter nights (so "most days"); with the field out the floor is bare concrete for concerts, trade shows and the
-  2017 and 2024 Final Fours (the stadium; Carbonhouse; Cronkite News); the 2024 Final Four broadcast on TBS showed the grass
-  outside (12News). The 2023 Super Bowl slip has no agreed cause (overwatering, too much ryegrass, or condensation on the
-  rails): left out.
+**B6. How to Turn Your Yard Into a Railroad** (a big yard with a slope)
+- **Title:** "How to Turn Your Yard Into a Railroad". **Tags:** #Trains #Railroad. **Pinned comment:** "Steam or diesel? Pick
+  one."
+- **Set:** one yard cut open like a cake along the track: lawn, a bed of crushed stone under wooden ties and steel rails, a
+  shallow cutting through a rise and the dirt piled into the dip beyond it, a side track with a switch, a ride-on train.
+- **First second:** frame 0 a wooden cart on two planks laid across the lawn, the dog sitting in it, low and close; by 1 s
+  it is rolling and the planks are bowing into the grass.
+- **Ladder:** premise "If you lay two planks across the lawn and push a cart along them, you have a railroad." → the cart
+  slides off at the first bend → steel rails, and a lip on the inside of every wheel (FLANGE) → the rails sink into the wet
+  lawn and spread apart → wooden ties on a bed of crushed stone that locks them and lets the rain through (BALLAST) → the
+  yard has a hill and steel wheels just spin on steel rails → dig through the top and pile the dirt into the dip (CUT AND
+  FILL): that's why railways look so flat → a second train is coming the other way → a side track and a moving piece of
+  rail (SWITCH, SIDING) → a loaded train takes the whole yard to stop, and a coupling can break → brakes that air pressure
+  holds off, so a broken hose puts them on (AIR BRAKE). **Add:** a platform, a water tower, a whistle. **Close:** "That's
+  your railroad. The bill: about [TOTAL]."
+- **The bill** (each ⚠): two planks and a cart (the starting figure); rail by the foot; ties and stone; a day of digging; a
+  switch; a ride-on locomotive and cars (the big one); brakes.
+- **The dog:** in the cart in frame 0; in the last shot he rides the locomotive's roof with his ears back.
+- **Demand, and who is near (21 Nov 2026):** garden and backyard railways 7.4M, 744K, 718K, 504K (real footage); "How a Log
+  Road Becomes a Railroad" 413K and "How a Plank on Wheels Becomes a Train" 104K are history builds, not a yard. @youbuiltit
+  has a railroad crossing (617K): leave the crossing out.
+- **⚠ before Gate A:** flanges and why wheels stay on; what ballast does; the steepest grade a train climbs; how a switch
+  works; the fail-safe air brake; every price (ride-on trains run on 7½-inch track: check).
+- **Watch out:** train wheels as cones is crowded on Shorts (13.2): one clause at most; no railway company colours.
 
-**V7. What's Hiding Under a Wave Pool** (a water park)
-- **Titles:** YouTube "What's Hiding Under a Wave Pool" (no match found); TikTok "What's behind that dark hole in the wave pool? 🌊"
-  + #WavePool #WaterPark. **Comment question:** "Deep end or shallow end? Pick one."
-- **Set:** a wave pool sliced lengthwise like a cake: the deep-end wall with its barred openings, the tall concrete chambers behind
-  it, the blower room with fans and valves, the floor sloping up to a beach, the side grates and the return channel; small
-  swimmers; a lone flip-flop.
-- **First second:** frame 0 the flat, calm pool from the water line, the dark barred opening big in the deep-end wall; by 0.5 s a
-  surge bursts out of it and a wall of water rolls toward the camera.
-- **Script** (draft, 224 words):
-  > Every wave in this pool comes out of that dark hole in the wall.
-  >
-  > If you want waves in a pool, the deep end can't just be a wall. So behind it you hide a row of tall concrete rooms, open at
-  > the bottom to the pool. These are the chambers. But water won't move by itself. So giant fans blow air into a chamber, and
-  > it shoves the water down and out through the hole. That surge is your wave. But one surge is a splash, not a wave. So the
-  > chambers fire one after another, and valves open and shut them on a timer. But a wave in deep water just rolls. So the floor
-  > slopes up to a beach, and the wave trips and breaks. But all that water piles up at the shallow end. So grates along the
-  > sides drain it back behind the wall for the next one. That's why the waves always start at the deep end, and why that barred
-  > opening is there. In 1969, in the Arizona desert, the first surf pool in North America made its waves with a giant flush:
-  > fifteen gates, like toilet flappers, dumping a whole reservoir into the pool. And somebody's flip-flop is still riding every
-  > wave. Blow the air, trip the wave, and pull it back for the next one.
-- **Camera (8):** the opening at water level (the surge) → through the bars into a chamber → the blower room → the valves → the row
-  of chambers firing, from the side → the sloped floor (the wave tripping) → the beach → the side grates → the pool, wide (the 1969
-  line plays over the pull-back; the flip-flop rides the last wave).
-- **Sounds:** bed: a water park, distant splashing and voices; effects: fans spinning up, a rush of air, the surge, a wave
-  breaking.
-- **Demand:** footage "Korea Wave Pool" 47.6M and 24.6M; "Never Go Near This In A Wave Pool 😰" 4.35M (a talking head whose first
-  frame is the barred opening: our angle); explainers 449K and 140K; 3D rivals: "How a wave pool works, one failure at a time"
-  115.5K (29 Oct 2026, our formula, with a character) and 40.7K. Zack D. Films: none (his 41.8M pool Short is about a drain).
-- **Checked ✔:** air-powered chambers are by far the most common: fans push air into chambers behind the deep-end wall, the water
-  inside drops and surges out through underwater openings (Watershapes); valves fire the chambers in sequence; the floor slopes up
-  so the waves break at the shallow end; the water comes back through side grates and channels; Big Surf, Tempe, Arizona, 1969: the
-  first inland surfing facility in North America (ASME landmark), its 15 underwater gates working "much like a toilet flapper",
-  dumping a raised reservoir into a 2.5-million-gallon lagoon; closed 2020, demolished 2022.
-- **⚠ before Gate A:** "on a timer" (sequence control ✔; check the word); leave out Action Park's "Grave Pool" (listicles only) and
-  "vacuum" wave makers (not confirmed).
-- **Watch out:** swimmers small and anonymous; nobody hurt; no park names or logos.
+**B7. How to Turn a Doghouse Into a Mansion** (a corner of a back yard)
+- **Title:** "How to Turn a Doghouse Into a Mansion". **Tags:** #Dogs #DogHouse. **Pinned comment:** "What would your dog
+  add? And what do we build next?"
+- **Set:** one corner of a yard cut open like a cake through a doghouse: the lawn and cold wet ground below, the house's
+  raised floor and insulation in the cut face, the inner wall behind the door, a heated pad, a flap door, a small porch.
+  The set is small, so every shot is close.
+- **First second:** frame 0 a cardboard box on the lawn with a door half cut in it, a blade finishing the cut, big in the
+  frame; by 1 s the flap falls out and the dog walks in and turns round.
+- **Ladder:** premise "If you cut a door in a cardboard box, you have a doghouse." → the first rain turns it to mush →
+  timber walls and a sloped shingle roof with an overhang → the cold ground pulls the heat out through the floor → the
+  floor raised on legs with insulation under it (RAISED FLOOR) → the wind blows straight in at the door → the door moved
+  to one side with a wall inside it (WINDBREAK) → you build it huge and he still shivers, because his body is the only
+  heater → a snug sleeping room and a pad that warms when he lies on it (HEATED PAD): that's why good doghouses are small →
+  a raccoon moves in and eats his dinner → a door that reads the chip under his skin and opens only for him (MICROCHIP
+  DOOR). **Add:** a porch, a fan for August, a camera that throws him a treat. **Close:** "That's his mansion. The bill:
+  about [TOTAL]."
+- **The bill** (each ⚠): a cardboard box (the starting figure, nothing); timber and shingles; insulation; a heated pad; a
+  microchip door; a porch, a fan and a camera.
+- **The dog:** the client: in every shot, never cold or scared for more than a beat.
+- **Demand, and who is near (21 Nov 2026):** real builds 6.1M ("DOG MANSION?!"), 2.3M, 1.5M, 1.4M. The nearest build video is
+  hole story 3d's "How a Doghouse Becomes a Secret Hideout" 8.1M (16 Nov) and a 22K copy: a hideout for a child under a
+  doghouse, not a house for the dog. Count again at Gate A.
+- **⚠ before Gate A:** that a doghouse should be only a little bigger than the dog; raised and insulated floors; the offset
+  door; pads that heat under the dog's weight; doors that read a microchip; every price.
+- **Watch out:** the raccoon is unhurt; no pet brands.
 
-**V8. What's Hiding Behind the Pins at a Bowling Alley** (a bowling lane)
-- **Titles:** YouTube "What's Hiding Behind the Pins at a Bowling Alley"; TikTok "What's actually behind the pins at a bowling
-  alley? 🎳" + #Bowling. **Comment question:** "Hook or straight: how do you bowl?"
-- **Set:** the far end of a lane sliced lengthwise like a cake: the pin deck, the hanging curtain and the pit, the machine above
-  (wheel, turret, table, sweep bar), the ball lift and the return track under the floor between lanes; the lane's surface with a
-  faint sheen of oil on its front part under a raking light. The pin boy is a re-grade of the same pit (old, sepia).
-- **First second:** frame 0 the ball an arm's length from the head pin, low and close; at 0.5 s a strike, pins exploding toward the
-  camera; the camera follows the ball into the dark behind them.
-- **Script** (draft, 223 words):
-  > Where does your bowling ball go after this? Behind the pins is a machine with a second set waiting inside.
-  >
-  > For decades, a pin boy sat above the pit, dodging flying pins, and set them back up by hand. So you build a machine to do
-  > his job. But the ball has to stop. So it slams into a heavy hanging curtain and drops into the pit. This is the cushion. But
-  > it has to get back to you. So a spinning wheel lifts it, and a fast belt fires it down a track under the floor, between the
-  > lanes. That's why there's a pause before it pops out. But the pins are a jumbled heap. So a wheel scoops them up, and a
-  > turret drops each one into its own slot. But three are still standing. So a table comes down and lifts them clear, a bar
-  > sweeps the fallen pins away, and the table puts the three back exactly where they stood. But the next frame can't wait. So
-  > the second set is already loaded and drops into place. Here's the twist: the lane hides something too. A film of oil you
-  > can't see covers more than half of it, so your ball slides, then hooks on the dry end. Catch the ball, lift the pins, and
-  > set them up again.
-- **Camera (8):** the pins (the strike) → behind them, the curtain → the pit (the pin-boy re-grade) → the ball lift → the track
-  under the floor → the turret dropping pins → the table coming down → the sweep → the lane's oil, low and raking → the lane, wide.
-- **Sounds:** bed: a bowling alley's hum; effects: the strike, the curtain's thud, the ball rumbling under the floor, the sweep,
-  pins dropping into the turret.
-- **Demand:** footage 62M ("Ever wondered how the pins got put back?"), 25M, 24M; "How does a bowling pinsetter work?" 2.6M; an
-  animated ball's-eye view, "Where Do Bowling Balls Really Go?", 959K (Dec 2025); "How you invented the bowling pinsetter!" 579K;
-  small 3D copies of "Where Does Your Bowling Ball Go?" since October (one 1.9K on 17 Nov 2026): hence the new title. Long:
-  Veritasium 19.1M.
-- **Checked ✔:** pin boys set pins by hand before machines; the ball hits a hanging cushion and drops into the pit; a lift raises it
-  and an accelerator sends it back on a track under the floor between lanes; a wheel lifts the pins to a turret that fills ten
-  slots; the table lifts the standing pins, the sweep clears the fallen ones and the table puts them back; oil covers only the front
-  of the 60-ft lane (a 34-ft pattern leaves 26 ft dry), so the ball skids, then hooks.
-- **⚠ before Gate A:** "a second set waiting inside" (patents describe a reserve set; 20 pins not reconfirmed); "a fast belt fires
-  it" (the accelerator's mechanism); Zack D. Films on pinsetters (not checked on 18 Nov).
-- **Watch out:** machinery is the hardest thing to draw: keep six parts (curtain, pit, lift, track, turret, table and sweep) and
-  prove them at Gate C; no brand names on the machine.
+**B8. How to Turn Your Pool Into an Olympic Diving Pool** (a back-yard pool)
+- **Title:** "How to Turn Your Pool Into an Olympic Diving Pool". **Tags:** #Diving #Olympics. **Pinned comment:** "Would you
+  jump from the top? Yes or no."
+- **Set:** one pool cut open like a cake: shallow at first, then dug to a deep blue well; a springboard on its stand, a
+  concrete tower, sprayers at the surface, a pipe grid in the pool floor that sends up bubbles, a small hot tub at the side.
+  Divers are small and anonymous.
+- **First second:** frame 0 a plank being bolted to the pool's edge, close; by 1 s it springs and a cannonball splash
+  fills the frame (the dog shakes off the spray).
+- **Ladder:** premise "If you bolt a plank to the edge of your pool, you have a diving pool." → the plank barely bends and
+  you belly-flop → a board on a roller that slides to set the bounce (SPRINGBOARD, FULCRUM) → you go in head first and the
+  bottom is five feet down → dig the pool to sixteen feet (the depth under a ten-metre platform) → a tower as high as a
+  three-storey house (PLATFORM) → from up there the water looks like glass and you can't tell where it starts → sprayers
+  ripple the surface so you can see it (SURFACE SPRAYERS) → a new dive gone wrong hits like a slap at thirty miles an
+  hour → a machine in the floor sends up a cushion of bubbles while you learn (BUBBLER) → you wait your turn wet and your
+  muscles go cold → a hot tub and showers by the pool: that's why divers shower between dives. **Add:** judges' chairs, a
+  scoreboard, a tiny towel. **Close:** "That's your diving pool. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a plank and bolts (the starting figure); a competition springboard and stand; digging and lining a
+  deep well (the big one); a concrete tower; sprayers; a bubble machine; a hot tub.
+- **The dog:** shakes off the splash in frame 0; in the last shot he stands at the end of the springboard and thinks about it.
+- **Demand, and who is near (21 Nov 2026):** "Why they make pools 5FT deep…" 50M; extreme high diving 17M; "How To Dive for
+  Swimming" 12M. No diving-pool build video found.
+- **⚠ before Gate A:** the depth the rules ask for under a 10 m platform; the speed at the water from 10 m; surface sprayers
+  and why; the bubble machine's real name and use; why divers shower and use a small towel; every price.
+- **Watch out:** the naive step is a plank at the pool's edge, never a jump from a roof (nothing a child could copy and get
+  hurt, 4.3); nobody hits the bottom on screen.
 
-**V9. The Airport Baggage System That Ate Suitcases** (an airport, 1994 and now; post before Christmas travel)
-- **Titles:** YouTube "The Airport Baggage System That Ate Suitcases"; TikTok "This airport's baggage system ate suitcases 🧳" +
-  #Airport #Travel. **Comment question:** "Has an airline ever lost your bag? Yes or no."
-- **Set:** one airport cut open like a cake, seen at two times on the same set: in 1994 a test track with little carts under the
-  floor; now the belt dropping from the check-in desk, the scanner tunnel, the early-bag racks, the tilt-tray loop, the chutes to
-  the gates and a baggage cart on the apron. A lone sock on the belt.
-- **First second:** frame 0 a little cart carrying a suitcase races along a track; by 0.5 s it slams into a bend, the suitcase
-  bursts open and clothes fly.
-- **Script** (draft, 216 words):
-  > In 1994, this airport's brand-new baggage system ate suitcases in front of the press.
-  >
-  > If you check a bag, it has to find one plane out of hundreds. So it gets a tag with a ten-digit number and a barcode. But
-  > nobody can read thousands of tags by hand. So your bag drops onto a belt, and scanners read the tag as it rolls past. But
-  > every bag has to be checked for explosives. So it rides through a scanner, and if anything looks wrong, it's pulled aside
-  > for a person to open. But bags show up hours early. So they wait in racks until their flight is called. Then trays tilt and
-  > drop each bag down a chute to its gate, where handlers load the carts. Big airports hide miles of these belts under the
-  > floor. Denver tried to skip the belts: four thousand little carts racing around 21 miles of track. In the demo, carts
-  > crashed, bags jammed, and clothes went flying. The airport opened sixteen months late, and the system was scrapped in 2005.
-  > That's why the number on your tag stub matters. It's how a lost bag gets found. And somewhere down there, one sock is still
-  > riding the belt alone. Tag it, scan it, and let the belts do the rest.
-- **Camera (9):** the cart crash (1994) → the check-in desk (the tag) → the belt dropping under the floor → the scanner tunnel →
-  the side room where a bag is opened → the racks → the tilt trays → the chute and the handlers → the 1994 track again → the sock on
-  the belt → the airport, wide.
-- **Sounds:** bed: rollers and belts in a long basement; effects: the cart crash, belt motors, a scanner's beep, a tray tipping, a
-  bag thumping down a chute.
-- **Demand:** crowded right now: about 25 Shorts with nearly the plain title ("where your suitcase goes"), most 1–5 weeks old at 2.4K
-  or less, the best 662K (22 Oct 2026); animated ones: You Built It 39K (28 Oct), Pocket Factory 23.6K; the topic's biggest Shorts
-  are real footage, 18.4M and 4.7M; long: a GoPro ride 5.2M. Zack D. Films: none. Hence Denver leads.
-- **Checked ✔:** the tag's 10-digit number (a leading digit, the airline's 3-digit code and a 6-digit serial; IATA); tracking at four
-  points since 1 Jun 2018 (IATA Resolution 753); every US checked bag screened for explosives since the 2001 security act;
-  early-bag storage (Dubai T3: 4,500 slots); tilt-tray sorters; Heathrow T5 has about 11 miles of conveyor; Denver: at an April 1994
-  press demonstration the system chewed up bags and spilled clothes; the airport opened in February 1995, 16 months late; 4,000
-  carts on 21 miles of track; the delay cost about $1.1M a day; United scrapped the system in 2005; 4.9 mishandled bags per 1,000
-  passengers in 2025 (SITA).
-- **⚠ before Gate A:** Denver's total cost (sources give $186M–$232M: don't say it); the month it was scrapped (one source); don't give
-  a share of bags hand-searched (the 5% figure is old).
-- **Watch out:** no airline or airport names or logos on screen (the narration names Denver); people small and anonymous.
+**B9. How to Turn Your Yard Into a Demolition Derby** (a muddy yard)
+- **Title:** "How to Turn Your Yard Into a Demolition Derby". **Tags:** #DemolitionDerby #Cars. **Pinned comment:** "Which
+  car would you bring? One word."
+- **Set:** one yard cut open like a cake: lawn, then a watered mud arena inside a ring of concrete blocks; old cars, one
+  of them cut open to show the small fuel tank strapped where the back seat was and the battery on the passenger floor.
+- **First second:** frame 0 two old cars nose to nose on the lawn, close; by 1 s one has backed into the other and a
+  bumper is spinning across the grass.
+- **Ladder:** premise "If you bump two old cars together in your yard, you have a demolition derby." → the windows burst and
+  the yard is full of glass → every pane comes out before the start (NO GLASS) → a hit from behind splits the fuel tank →
+  a small steel tank strapped inside the car where the back seat was (FUEL CELL) → one hit in the driver's door and it's
+  over → the door is painted bright and nobody is allowed to hit it (the DRIVER'S DOOR rule) → the cars are too fast on
+  dry ground → a water truck turns the arena to mud: that's why derbies are always muddy → the radiator bursts in the
+  first head-on hit → drivers hit with the back of the car: that's why they drive backwards → a car slides toward the
+  crowd → a ring of concrete blocks (BARRIER). **Add:** a stick on the roof to snap when you give up, a flag man, a trophy
+  for the last car moving. **Close:** "That's your demolition derby. The bill: about [TOTAL]."
+- **The bill** (each ⚠): two old cars (the starting figure); a fuel cell; paint; a water truck for a day; concrete blocks;
+  a trophy.
+- **The dog:** watches from the porch roof in frame 0 and the last shot, in ear muffs.
+- **Demand, and who is near (21 Nov 2026):** "A Demo Derby Secret They Don't Want You To Know!" 3.4M; derby prep 242K; 185K.
+  No derby build video found. Sequels to racing faded on @whatifplus (1.7), so judge it against B2's result first.
+- **⚠ before Gate A:** each rule (glass out, the tank moved, the battery moved, the painted door, hitting with the rear,
+  the watered arena, the stick on the roof, the time limit between hits): they differ by track, so say "most"; every price.
+- **Watch out:** drivers are helmets behind mesh, nobody hurt, no fire on a person; no car makes or badges; this is the
+  hardest motion on the list for the video model (many cars): prove it at Gate D before the batch.
 
-**V10. How Do Fish Get Past a Dam?** (a river dam)
-- **Titles:** YouTube "How Do Fish Get Past a Dam?" (a near title, "How Fish Climb Dams", has 22.9K); TikTok "How do fish get past a
-  dam? 🐟💨" + #Salmon #Dam. **Comment question:** "Would you ride the salmon cannon? Yes or no."
-- **Set:** one river dam cut open like a cake: the reservoir above, the river below, a fish ladder of step pools down one side (cut
-  open to show water spilling pool to pool), a fish-lift tank, a truck on the bank, the cannon's tube over the dam, a far taller dam
-  upriver in the haze, and an underwater viewing window with a counter clicking a tally.
-- **First second:** frame 0 a salmon in a dark tube; by 0.5 s it shoots out of the end over the dam and splashes into the
-  reservoir.
-- **Script** (draft, 225 words):
-  > This salmon just got fired over a dam. On purpose.
-  >
-  > If you're a salmon, you swim back up the river you were born in, to lay your eggs and die. But someone built a dam. So the
-  > dam gets a staircase of little pools, each a step higher than the last. This is a fish ladder. But a ladder climbs only
-  > about a foot for every ten feet of length. On a really tall dam, it would be nearly a mile long. So some dams build an
-  > elevator instead: fish swim into a tank, and it lifts them over the top. But some dams are too tall even for that. So people
-  > catch the fish, load them into trucks, and drive them around. But that's slow. So someone took a tube built for moving
-  > apples and tried it on fish. It carries them on a rush of air, up to 22 miles an hour. This is the salmon cannon. But one
-  > dam got nothing at all. Grand Coulee was built with no way past, and for about 80 years no salmon got above it, until 2019,
-  > when tribes trucked thirty of them around and let them go. That's why at Bonneville Dam you can stand at an underwater
-  > window and watch salmon climb the ladder. Build the steps, lift the tank, and fire the fish.
-- **Camera (8):** the tube's end (the shot) → down the dam face to the river → the ladder pools → along the ladder (its length) →
-  the lift tank rising → the truck → the tube → the tall dam upriver (Grand Coulee) → the viewing window and the counter → the dam,
-  wide.
-- **Sounds:** bed: a river below a dam; effects: a rush of air, a splash, water spilling down the ladder, a lift motor, a tally
-  counter clicking.
-- **Demand:** footage leads: "Salmon Cannon" 24.6M (Jun 2024), a natural fishway 16.4M; 3D rivals since Aug 2026 with the
-  ladder-to-cannon chain: "The Salmon That Shoots Over a Dam" 147.7K (5 Oct), 85.8K, 34.9K; long: Last Week Tonight 5.7M, Practical
-  Engineering 2.8M and 1.7M. Zack D. Films: none. Our edge: the cut-open ladder, the apple tube and Grand Coulee.
-- **Checked ✔:** Pacific salmon return to their home streams, spawn once and die within a week or two; ladders rise about 1 ft per 10
-  ft of length, impractical on very tall dams (US Army Corps of Engineers); fish lifts raise a hopper of fish over a dam (Conowingo,
-  since 1972); trap and haul (Cowlitz River, since 1996); the salmon cannon moves fish on air pressure at 11–22 mph, 40–60 a minute,
-  and began as a tube for apples; Grand Coulee (about 550 ft, completed 1942) got no fish passage and cut salmon off from 1,140
-  miles of spawning grounds; on 16 Aug 2019 the Colville Tribes released 30 Chinook above it, the first salmon there in about 80
-  years; underwater viewing windows at Bonneville Dam.
-- **⚠ before Gate A:** "trucked thirty of them around" (they were released above the dam: say "carried thirty of them above it" if
-  the trip isn't confirmed); the year Grand Coulee cut the runs (say "when it was built").
-- **Watch out:** real tribes named, nobody shown; no agency logos.
+**B10. How to Turn Your Garage Into a Fire Station** (a house with a garage)
+- **Title:** "How to Turn Your Garage Into a Fire Station". **Tags:** #FireTruck #Firefighter. **Pinned comment:** "Pole or
+  stairs? Pick one."
+- **Set:** one two-storey building cut open like a cake: the bunk room upstairs, a brass pole through a hole in the floor,
+  the truck bay below with folding doors, a hose on the truck's exhaust pipe, boots standing inside their trousers by the
+  truck, a hose tower at the back, a traffic light on the street outside.
+- **First second:** frame 0 a red fire truck backing into an ordinary garage with an inch to spare, close; by 1 s the door
+  is rolling down behind its bumper and the dog jumps into the cab.
+- **Ladder:** premise "If you back a red truck into your garage, you have a fire station." → the call comes at three in the
+  morning and the stairs take forever → a hole in the bedroom floor and a brass pole (FIRE POLE; the first one, Chicago,
+  1878) → the garage door takes twenty seconds to roll up → doors that fold open sideways in a few seconds (FOUR-FOLD
+  DOORS) → the engine fills the garage and the bedroom above with exhaust → a hose that clamps on the tailpipe and lets go
+  by itself as the truck pulls out (EXHAUST CAPTURE) → getting dressed takes longer than the drive → boots standing inside
+  the trousers, ready to step into (TURNOUT GEAR) → the truck meets every red light → a signal from the truck turns the
+  lights green ahead of it (PREEMPTION) → wet hoses rot → a tower to hang them in: that's why old fire stations have
+  towers. **Add:** a bell, a kitchen table for the crew, a spot on the truck for the dog. **Close:** "That's your fire
+  station. The bill: about [TOTAL]."
+- **The bill** (each ⚠): nothing for parking (the starting figure); a fire truck (the big one, new or used); a pole; fold
+  doors; an exhaust system; turnout gear; a signal emitter; a tower.
+- **The dog:** in the cab from frame 0; in the last shot he rides up front in a small helmet.
+- **Demand, and who is near (21 Nov 2026):** weak on the search page (15K, 3K); enthusiast channels do well with fire trucks
+  (Tick & Click: a hose popping off a fire truck 448K, 1.6). No fire-station build video found. Unproven demand: make it
+  last, or swap in a reserve.
+- **⚠ before Gate A:** the 1878 pole; fold doors' opening time against a roll-up door's; exhaust hoses that release as the
+  truck leaves; signal preemption; hose towers; every price.
+- **Watch out:** no department names, numbers or badges; firefighters small and anonymous.
 
-### 3.1 Reserves (18 Nov 2026)
-- **Why You Never Throw Water on a Grease Fire:** big demand, but Zack D. Films has it in 3D (6.75M) and four small copies came out in
-  Oct–Nov 2026. Only with a new angle: the sensor button in the middle of new electric coil burners (a UL 858 rule: a pan of oil on
-  high for 30 minutes must not ignite; coil cooktops made after June 2018). The checked facts are in V2's.
-- **Why Roller Coasters Don't Fly Off the Track:** weak (about 25 small copies, best 28.5K; a 3D "Movies Lied: Coasters Can't Fly Off
-  the Track" from 15 Nov 2026 at 23.8K). Good material if it comes back: three sets of wheels (the up-stop wheel patented by John A.
-  Miller in 1919), the anti-rollback ratchet that clicks on the lift hill, and the twist that America's first coaster was a coal
-  railway at Mauch Chunk, Pennsylvania (1827), where mules rode down in their own car.
-- **Why NFL Fields Don't Freeze** (heating pipes under the grass): **already made in our style.** Cutaway Instinct's "Why Lambeau
-  Field's Frozen Tundra Never Freezes Solid" (4 Nov 2026, 123K: pipes, boilers, SubAir, stitched fibres) was followed by five small
-  copies (2–17 Nov), one of them with the 1967 Ice Bowl twist. Parked; only ever as a story-led video, with "Frozen Tundra" and
-  "never freezes" kept out of the title.
-- **Seasonal and small:** frozen pipes (the burst happens away from the ice; best Short 26K), fire sprinklers (only the one over the
-  fire goes off; 5.6K). Both fit the hydrant's YouTube audience if the ten go well.
+### 3.1 Reserves and what the check ruled out (21 Nov 2026)
+- **Reserves** (open on 21 Nov 2026, weaker or harder): a UFC octagon in your garage (real Shorts 1.2M and "How Much A UFC
+  Octagon Cost To Build!" 260K; two fighters are hard for the video model); a music festival in your yard (little proven
+  demand); a rally stage or a lawn-mower race track (racing sequels); a zoo in your yard (animals are hard to hold steady).
+- **Ruled out, already built by others** (YouTube, 21 Nov 2026): a rocket launch pad (seven videos, the best 110K); a skate
+  bowl (4.5M and 600K); an airport or runway (3.0M, 287K, 77K); an NBA arena (Built From Scraps 1.7M, 15 Nov); a zip line
+  (You Build This 149K, 20 Nov); a drive-in cinema (Low Poly Films 253K, 14 Nov); a koi pond (4.0M); a secret room behind a
+  closet or wardrobe (five videos, to 413K); a Mars base (four); a bathtub submarine (six, the best 1.7M); a storm shelter
+  or tornado room (3.4M, 531K, 461K); a hurricane-proof house (two small). The lists of @whatifplus and @youbuiltit are in
+  13.2.
 
-## 4. Writing the script (18 Nov 2026)
+## 4. Writing the script: the build format (21 Nov 2026)
+
+The format the user asked for on 21 Nov 2026 ("following the 'if you' and 'you Have a' format"), measured on 42 scripts in
+1.7, with our own closing line and add-ons. It replaces the explainer formula of 18 Nov 2026 (the cold open, the twist, the
+joke and the loop ending; in this file at commit `a9abd35`).
 
 ### 4.1 The formula
 ```
-OPENING (0-1 s)  The scene itself changes on the first word: a burst, a strike, a floor lifting, a fireball.
-                 The line says what the picture is doing (a physical verb, or a claim the picture proves right now).
-HOOK (1-4 s)     The surprise or the stakes ("It wasn't sewer gas. It was road salt."). In the "before" shape, the first
-                 "But" lands by about 3 s.
-LOOP x6-7        But [problem]. So [fix]. (This is [REAL TERM].)   Each problem and fix at its own spot on the set.
-TWIST (~2/3)     One true story or surprise, in one or two sentences, with nobody shown hurt.
-THAT'S WHY       "That's why [something the viewer can go and check]." Shown on the set.
-JOKE             One small human moment (somebody's lost tennis ball, the crew's coffee thermos). Shown on the set.
-ENDING           A three-beat imperative that loops into the first frame: "Bury the pipes, pave the road, and let it rain."
+PREMISE (0-4.5 s)  "If you [one naive step], you have a [THING]."
+                   The step is already happening on frame 0. The counter shows what it costs.
+LOOP x5            "But [a failure you can see]. So you [fix]. This is a [REAL TERM]."
+                   About 30-40 words a loop, each at its own spot on the set. The term goes on screen; the counter jumps.
+                   One loop may carry a "That's why [something the viewer can go and check]" or one true story in a sentence.
+FINISH             "Add [three finishing touches]."
+THE BILL           "That's your [THING]. The bill: about [TOTAL]."   Over the finished build, seen from frame 0's position.
+END CARD (1.5 s)   The street (4.5). No narration.
 ```
-Never "Congratulations, you have built…" and never a spoken call to action. The comment question goes in the TikTok caption or a
-pinned comment, never in the voice-over.
+Never "Congratulations, you have built…" (rule 5) and never a spoken call to action ("Follow for more builds" is theirs). The
+comment question goes in the caption or a pinned comment (8.1), never in the voice-over.
 
-### 4.2 The opening rules (approved by the user on 18 Nov 2026; the evidence is 1.2)
-1. **Frame 1 is the "before", or the event itself.** Never an establishing shot of a finished thing.
-2. **The scene changes by 1.0 s**, not just the camera: something bursts, drops, lifts, ignites, floods or flies, big in the
-   frame. A camera gliding over a still set does not count.
-3. **The first line names what the picture is doing.** "This manhole cover just flew forty feet into the air." "If you cut a hole
-   in your street, the rain has somewhere to go." Never "If you want…", never a remark ("Everyone's heard it…").
+### 4.2 The opening rules (21 Nov 2026; the evidence is 1.2 and 1.7)
+1. **Frame 1 is the naive step under way:** the "before", with its first verb already moving. Never an establishing shot and
+   never the finished build.
+2. **The scene changes by 1.0 s**, not just the camera: something unrolls, pours, drops, rolls or lights up, big in the
+   frame (kept from 18 Nov 2026).
+3. **The first word is "If", and the line names what the picture is doing:** "If you roll turf over your pool, you have a
+   hidden pool." Never "If you want…", never a remark.
 4. **The subject fills at least a third of the frame** in the first second, readable on a phone.
-5. **A surprise by about 4 s:** in the "before" shape, the first "But" by about 3 s; in the cold-open shape, the line right
-   after the event ("It wasn't sewer gas. It was road salt."), with the first "But" following within about 10 s.
-6. **Two shapes that work:**
-   - **The event first, then the why** (a cold open): the most dramatic moment plays in the first 1–2 s, then the story starts
-     ("Never throw water on a grease fire. Here's what happens inside the pan.").
-   - **The "before", then the first verb** (Hidden By Design's shape): an empty street, and the hole is cut as the narrator says
-     "cut".
-7. **It is checked twice:** at Gate A as a three-line plan (frame 0, what has changed by 1 s, the first line), and at Gate D on the
-   hook pilot's frames at 0, 0.5, 1 and 2 s (6.2).
+5. **The premise is finished by about 4.5 s and the first "But" lands by about 5 s** (their median is 5.1 s, their top ten
+   4.7 s), with the failure visible on the word.
+6. **One shape only:** the naive step, then the first failure. The cold open (the event first, then the why) belonged to
+   the explainers.
+7. **A bright first frame** (3.0 rule 6).
+8. **It is checked twice:** at Gate A as three lines (frame 0; what has changed by 1.0 s; the premise line and when the
+   first "But" lands), and at Gate D on the hook pilot's frames at 0, 0.5, 1 and 2 s (6.2).
 
-### 4.3 Writing rules (carried over from 7–16 Nov 2026, updated 18 Nov 2026)
-- Second person, present tense: the viewer is the builder or the person it happens to.
-- One action or one problem per sentence. Short, mostly one-syllable words; no filler, no hedging.
-- Every "But" escalates: nuisance → weather or wear → a hidden danger → the worst case.
-- Name the real term after the key fixes ("This is a trap."), spoken only; the look has no labels.
-- At least one surprising number, fact-checked. Comparisons only if the set can show them (a gauge on the pipe, a tub beside the
-  hydrant); cut any that would need a picture of something else.
-- **Write for the set and the camera:** every line is something you can see happen on the one sliced-open set; most lines describe
-  something moving; each problem and fix happens at its own spot, so the camera has somewhere to fly on every "But" and "So".
-- **Length: about 220 words** (215–225), which is 62–64 s at our pace of about 3.5 words a second (18 Nov 2026). It is what the
-  200-credit cap allows (6.1), and shorter videos finish more often. Never under 61 s: TikTok's Creator Rewards pays only on
-  videos over a minute (for later). Videos 08–10 ran 75–80 s.
-- Real people and deaths: one sentence each, nobody shown hurt, no faces of real people, no brand names, logos or team colours.
-- Never reuse a reference account's wording; write every line fresh.
+### 4.3 Writing rules (21 Nov 2026; what carries over from 7–18 Nov is marked)
+- **Second person, present tense** (carried over): "you" build it. The cast is you, your family, your friends, the
+  neighbours and the dog. People are named in the words and shown small and anonymous, or by their things (a lawn chair, a
+  parked car), because the look has no characters (5).
+- **Each "But" is a failure you can watch happen on the set:** physical, a little funny, and it happens to a thing. Nobody
+  is hurt.
+- **The loops escalate:** a nuisance → damage → danger → the crowd (now everyone wants in).
+- **Each fix is a real thing with a real name.** Say the name after it ("This is a berm.") in four or five of the loops; it
+  goes on screen (5).
+- **Every number is checked, prices included** (rule 4, 4.4). Comparisons only if the set can show them (carried over).
+- **Write for the set and the camera** (carried over): every line is something you can see happen on the one sliced-open
+  set, and each problem and fix has its own spot, so the camera has somewhere to fly on every "But" and "So". At least two
+  fixes are under the ground or inside a wall, where our cutaway shows them and theirs doesn't.
+- **Length: about 220 words** (215–225): 62–64 s at about 3.5 words a second once the pauses are tightened, which is what the
+  200-credit cap buys (6.1). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute). Their median is
+  216 words in 70 s. The new narrator's pace is measured on its first full take (7.5) and the word count follows it.
+- **Nothing a child could copy and get hurt:** the naive step is harmless or plainly make-believe, and a danger is shown as
+  the "But", never as the instruction. TikTok keeps "activities that may lead to moderate physical harm" off the For You
+  feed.
+- **Real people** (carried over): one sentence, never named if a child, nobody shown hurt; no faces, brand names, logos or
+  team colours.
+- **Never reuse a reference account's wording; write every line fresh** (rule 5). Their recurring beats are theirs too: the
+  neighbours who peek over the fence and are sold tickets, the neighbour who calls the police about the noise, "a queue of
+  your friends".
+
+### 4.4 The bill (ours; proposed and accepted on 21 Nov 2026)
+A small price counter starts at the cost of the naive step and jumps with every fix; the video ends on the total instead of
+"Congratulations". My read of why it helps: it plants a question in the first second that only the end answers; it gives
+people a number to argue about (their comment rate is 0.26 per 1,000 views, ours 0.23); it uses the fact-checking the copies
+don't do; and it gives us a closing line of our own.
+1. **Every fix gets a price:** what it costs in the US in 2026 to buy and fit a yard-sized version, from a source that can be
+   reopened (a supplier's page, a trade guide, a news report). Round it and say "about".
+2. **The counter starts at the naive step's cost** (a can of paint, a wagon, nothing) and jumps at each "So".
+3. **Where sources disagree,** take the middle and keep the range in the script file. Where no source can be found, the fix
+   stays in the story, adds nothing to the counter, and the script file says so. Never invent a figure (rule 4).
+4. **The total is spoken in round words** in the closing line ("about four hundred thousand dollars") and shown in digits.
+5. **The script file carries the bill:** item, price, source, date read (`pipeline/NN-bill.md`). Gate A shows it.
+6. **It is a story device, not a quote:** the YouTube description says "rough US prices, 2026".
+7. **The caption invites a guess** ("Guess the bill 💸", 8.1).
+How it looks on screen is in 5 (overlays). **Judged after ten videos** (2.5): comments per 1,000 views, and whether videos
+with a bigger bill travel further.
+
+### 4.5 The street and the dog (ours; proposed and accepted on 21 Nov 2026)
+- **The street.** An end card of 1.5 s after the bill line: every build so far as a tile (each video's last frame), the new
+  one dropping into its place, and empty lots for what is still to come, in our navy and yellow (8.3). It is made in the edit
+  from frames we already have, with no credits. The pinned comment asks what to build next (8.1); when an idea comes from a
+  comment, the caption says so, and TikTok's reply-to-comment video becomes an option. My read of why it helps: their videos
+  reset every time, which gives little reason to follow (1.7 followers per 1,000 views); ours add up to something. It was
+  first proposed as a pull-back over a 3D neighbourhood; with the Cutaway look kept, it is a card.
+- **The dog.** The same small dog in every video (the look already welcomed one small living thing per video, 5): a recurring
+  face without a mascot standing in for "you". He is in the first shot and the last, and reacts to one failure in between; he
+  is never hurt, and never frightened for more than a beat. His look is agreed in words at video 16's Gate A and fixed at its
+  Gate C by one still (the dog key, 1.25 credits); that still is a reference in every later video (6.3 DOG). Proposed: a small
+  scruffy tan terrier with a white chest, one folded ear and a red collar, a shape that still reads when he is small in the
+  frame. The first build video asks viewers to name him (8.1).
 
 ---
 
-## 5. The look: Cutaway, no character, a travelling camera (locked 15 Nov 2026; Rule 0 added 18 Nov 2026)
+## 5. The look: Cutaway, no character, a travelling camera (locked 15 Nov 2026; Rule 0 added 18 Nov 2026; kept on 21 Nov 2026)
+
+**21 Nov 2026: the look stays.** The user: "keep our current animation style visually the way it looks right now." The
+picture, the set, the camera and the captions below are unchanged for the build format. What the build format adds is laid
+over the picture in the edit (the overlays, below); it also changes how a video ends and who narrates it.
 
 **What it is.** A bright, clean, photoreal-leaning 3D render of one place sliced open like a cake, in soft daylight, with
-translucent cyan water where there is water, seen by a camera that flies around and into it like a drone. "You" is the viewer and
-nobody stands in for them: hands, small anonymous workers or machines appear only where the work needs them. One small living
-thing per video is welcome (a dog, a yellow fish). Captions are one word at a time; nothing else is written on the picture. The
-video ends on its first frame, so it loops. The user locked this on 15 Nov 2026 after the two videos without the mascot took 90%
-of our TikTok views and 98% of our YouTube views; the camera rules came the same day, modelled on Hidden By Design's power-lines
-video ("as long as it accomplishes the same video as the one I referenced").
+translucent cyan water where there is water, seen by a camera that flies around and into it like a drone. "You" is the viewer
+and nobody stands in for them: hands, small anonymous workers or machines appear only where the work needs them. One small
+living thing per video is welcome; from 21 Nov 2026 it is the same dog every time (4.5). Captions are one word at a time; the
+only other things written on the picture are the build format's overlays (below). An explainer ended on its first frame, so it
+looped; a build video ends on the finished build, seen from frame 0's camera position, and then the street card (4.5). The user
+locked this on 15 Nov 2026 after the two videos without the mascot took 90% of our TikTok views and 98% of our YouTube views;
+the camera rules came the same day, modelled on Hidden By Design's power-lines video ("as long as it accomplishes the same video
+as the one I referenced").
 
 **Rule 0. The first second (18 Nov 2026).** The scene changes by 1.0 s, big in the frame, on the first word (4.2). The hook clip
 is planned, priced and checked before any other clip.
@@ -857,7 +873,7 @@ Target: something moves inside the picture in 80% or more of the seconds (`check
 
 **Rule 2. One set, a travelling camera.** One sliced-open set for the whole video; each fix is added to it. 7–9 camera positions
 under the 200-credit cap (18 Nov 2026; it was 8–12):
-the wide view only to open (unless the opening event is a close one), to close the loop and to step back once or twice; every
+the wide view only to open (unless the opening event is a close one), to close and to step back once or twice; every
 problem and every fix seen up close from its own position. Anything that needs another place is shown on the set or cut.
 
 **Rule 3. Every clip flies the camera** from one position to another, and each position is a real still of the set from there,
@@ -868,7 +884,8 @@ setting truly changes.
 
 **Rule 4. Hold the look steady.** Every still is an edit of the wide still or of a neighbouring position, so the set keeps its
 parts, colours and materials from every angle. The shared style line names no objects and no place. Night and storm are re-grades
-of the same picture (or made in the edit). The first and last frames match part for part.
+of the same picture (or made in the edit). In an explainer the first and last frames match part for part; in a build video
+the last frame is the finished build from frame 0's camera position, so the before and the after share one framing.
 
 **Rule 5. Captions:** one word at a time, ALL CAPS, Montserrat ExtraBold, white with a 7 px black stroke and a soft shadow, letters
 about 57 px tall at 1080×1920, centred about 75% down the frame. Wide shots keep the subject in the upper 60% with plain ground
@@ -883,25 +900,52 @@ or more, a big move (a quarter of the frame in a second) at least one second in 
 more than 5 s. Reference (power-lines video): 66%, 0.46 px, 22 big-move seconds in 88 s, 5 s. Videos 09 and 10 met every target
 (78% and 91%, 0.44 and 0.40 px).
 
+**Overlays for the build format (21 Nov 2026).** Added in the edit as text and shapes, never asked of seedream or Kling (their
+prompts still say "No text"). Besides the caption and the counter, one at a time.
+- **Term labels:** when the narrator names a fix (most often "This is a …"), the term appears in ALL CAPS in the caption face
+  (Montserrat ExtraBold) in our yellow (#FFD62E) with the caption's black stroke, letters about 70 px tall, centred about 20%
+  down the frame, for the length of that sentence (1–2 s), with a quick pop in. Four or five a video. The accounts we studied
+  put theirs about a fifth of the way down too (1.7); ours differ in face and colour.
+- **The bill counter** (4.4): a small pill centred about 11% down the frame (below TikTok's tabs, clear of the buttons on
+  the right), yellow digits about 44 px tall on ink (#101A33). It shows the running total from frame 0. At each "So" the
+  fix's price slides in beside it ("+ $9,000") and the total rolls up over about 0.4 s with a tick. On the closing line the
+  total grows to the middle of the frame, digits about 150 px tall, and holds until the card.
+- **The street card** (4.5): 1.5 s at the very end, ink background, yellow tile borders, one tile a build.
+- **The safe box:** overlays stay between 9% and 80% of the height and left of x = 940 below y ≈ 950 (TikTok's buttons, 7.6).
+  The caption keeps its place at 75%.
+- **Words inside the scene** (a frequency on a yard sign, a scoreboard) are overlays pinned to the object like a pointer
+  (Rule 6), never generated text.
+- These sizes are a first spec: check them on a phone-sized sheet at video 16's Gate D and correct them here.
+
 **Sound (approved 15 Nov 2026: "yes on the sound").** A quiet, steady bed that fits the place, with no tune, about 19 dB under the
 voice for the whole video; four to eight short effects on the moments where something visibly happens, about 11 dB under the voice;
-no music, never a copyrighted or trending track. Keep a voice-only master too. Check with `under_the_voice.py`: the quietest
+no music, never a copyrighted or trending track. Keep a voice-only master too. In a build video the counter's tick and the
+till on the final bill are two of those effects (21 Nov 2026). Check with `under_the_voice.py`: the quietest
 moments 18–22 dB under the voice.
 
-**Narrator (locked 7 Nov 2026):** ElevenLabs, model `eleven_v4`, "Daniel's Voice - Warm, Low, Confident", voice_id
-`rFhx8PVgXxOyaeAGq9fq`. One continuous take of the whole script.
+**Narrator (changing; 21 Nov 2026).** The user: "proceed with a different voice." Daniel ("Daniel's Voice - Warm, Low,
+Confident", voice_id `rFhx8PVgXxOyaeAGq9fq`, locked 7 Nov 2026) narrated videos 01–15 and is retired for the build format.
+**The stand-in until the user picks by ear is Marcus** ("Marcus - Bright, Upbeat and Clear", ElevenLabs library, voice_id
+`y0s2ExEMuum3muUnA6Zd`, model `eleven_v4`): one audition take exists (ElevenLabs flow `Idb5dUzpF2h6h736llXR`; 39 words in
+12.0 s, 3.3 words a second raw; median pitch about 148 Hz). **Two more candidates** failed for lack of credits and still need a
+take: Todd ("Todd - Clear, Engaging and Educational", `g14YnDYCsy3k7XLlcKlO`) and Hope ("Hope - upbeat and clear",
+`tnSpp4vdxKPjI9w0GnoV`, the nearest in pitch to @whatifplus's narrator, which measures about 185 Hz). When the user has picked,
+write the voice here as locked, with the date. One continuous take of the whole script.
 
 **Format:** 9:16, 1080×1920, 30 fps, H.264 + AAC, about −14 LUFS. Kling clips at 720p are upscaled with a light sharpen (6.2 Step 9).
 
-**Retired (for the record):** the mascot look of videos 01–02 and 05–07 (retired 15 Nov 2026; its reference image, Higgsfield job
-`f97004b9-f63f-4971-ab16-e0519314a404`, is kept for the channel artwork only); on-screen term labels (15 Nov 2026); cross-fades
-between stills (15 Nov 2026).
+**Retired (for the record):** the mascot look of videos 01–02 and 05–07 (retired 15 Nov 2026; its reference image, Higgsfield
+job `f97004b9-f63f-4971-ab16-e0519314a404`, is kept for the channel artwork only); on-screen term labels (15 Nov 2026; back on
+21 Nov 2026 as edit overlays for the build format, above); cross-fades between stills (15 Nov 2026); Daniel's voice and the loop
+ending (21 Nov 2026, with the explainers).
 
 ---
 
-## 6. Production runbook (for Claude: follow it when asked to make a video; rewritten 18 Nov 2026 from videos 08–11)
+## 6. Production runbook (for Claude: follow it when asked to make a video; rewritten 18 Nov 2026; build steps 21 Nov 2026)
 
-> Trigger phrases: "make video #N", "make V3", "run the runbook on [topic]", or the paste-in prompt (11.1).
+> Trigger phrases: "make video #N", "make B1", "run the runbook on [topic]", or the paste-in prompt (11.1).
+> The tools, the prices, the stills and the clips are as before (the look didn't change); the script, the beat sheet, the
+> overlays and the ending follow the build format (4, 5).
 > **Never generate anything (images, clips, audio) before Gate B is approved.** Script, beat sheet and quote are free.
 
 ### 6.0 Tools and prices (checked 15–18 Nov 2026; re-check, prices change)
@@ -911,9 +955,10 @@ between stills (15 Nov 2026).
 | Clips | `generate_video` / `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, ordered middle frames in `image_references` | **2.50 a second at 720p, 3.75 at 1080p** (from 21 Nov 2026; 2.25 and 3.25 before) |
 | Price checks | `estimate_image_cost`, `estimate_video_cost` (used for video 11 on 18 Nov 2026), or `get_cost:true` | one call per model, resolution and duration | free |
 | Other clip models (priced 20 Nov 2026; none tested in our pipeline) | `wan2_7` (2–15 s, own sound, start and end frames), `veo3_1_lite` (4, 6 or 8 s), `kling3_0`, `seedance_2_0`, `seedance_2_5`, `grok_video_v15_lite`, `kling_4_0_flash` | 720p, 9:16 | Wan 2.7 1.5 a second; Veo 3.1 Lite 6 a 4 s clip, sound or not; Kling 3.0 2 a second; Seedance 2.0 4.5 (3 at 480p); Seedance 2.5 7; Grok 1.5 Lite 1 (no sound); Kling 4.0 Flash 9 a 3 s clip. `kling4_0` bills at least 3 s (2 s is clamped to 3). Stills: `gpt_image_2_6` medium 1k 0.5 |
-| Narration | ElevenLabs `creative_generate_speech`, `eleven_v4`, Daniel (5) | `estimate_only:true` first | about 1 ElevenLabs credit a character: 1,400–1,540 a take |
+| Narration | ElevenLabs `creative_generate_speech`, `eleven_v4`, the narrator named in 5 (the quota ran out on 21 Nov 2026: 7.7) | `estimate_only:true` first | about 1 ElevenLabs credit a character: 1,400–1,540 a take |
 | Sound bed and effects | ElevenLabs flow: one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`), then one `creative_run_flow_nodes` | `estimate_only:true`, then `generations_count:1` | about 3.33 ElevenLabs credits a second of sound (the estimate prices each effect at its default length and overstates: budget from the durations) |
 | Word timings | Higgsfield `sandbox_exec`, faster-whisper `small.en` | `background:true` (foreground calls time out at ~60 s) | free |
+| Word timings, on this machine (21 Nov 2026) | `pipeline/analysis/transcribe.py` (sherpa-onnx with the Parakeet model from GitHub releases; 7.7) | one-time setup of about 30 s | free; about 5 s a narration; word starts only (6.2 Step 6) |
 | Assembly, captions, mix | local ffmpeg with libass, zoompan, xfade | — | free |
 | Checks | `pipeline/analysis/check_video.py`, `camera_path.py`, `under_the_voice.py`, `contact_sheet.py` | `pip install numpy opencv-python-headless` | free |
 | Upload | `media_upload` → PUT (headers `Content-Type`, `If-None-Match: *`) → `media_confirm` | — | free |
@@ -964,42 +1009,66 @@ and 27.50 of stills, 197.23 with the reserve):**
   fewer clips are re-rendered (7.2); positions made from neighbours so fewer stills are retried (7.1).
 - **Not at the expense of the opening:** the hook clip is planned first and gets the most care (Rule 0). 1080p for the hook (+3–6)
   only if the quote has room under 200.
+- **The dog key** (21 Nov 2026; first build video only): one still, 1.25, inside that video's quote (4.5).
+- **A cheaper clip model, only if the look holds and the user says so** (21 Nov 2026): `wan2_7` costs 1.50 a second against
+  `kling4_0`'s 2.50 and won style 2's pilot (`strategy2.md` 7), but it has never drawn a cutaway flight between two stills.
+  It can be offered at a Gate B as a side-by-side of the two pilots at Gate D (about 10.50 more). If the user sees no
+  difference, the standard plan drops to about 125 credits and the 905 balance buys seven videos, not four.
 
-### 6.2 Step by step
+### 6.2 Step by step (build-format steps written 21 Nov 2026; Steps 4, 5, 6b, 7 and 8 as proven on videos 08–15)
 
-**Step 0: Start.** `balance` (and the plan's renewal date if the balance is low). Read the idea in section 3 and its ⚠ items.
+**Step 0: Start.** `balance` (and the plan's renewal date if the balance is low). The ElevenLabs credits: `account_get_usage`
+if the connector allows it (7.7); otherwise the narration estimate at Step 3 and a warning to the user that the quota ran out
+on 21 Nov 2026. Read the idea in section 3 and its ⚠ items. Re-fetch the two build accounts' lists (`PYTHONPATH=<dir> python3
+-m yt_dlp --flat-playlist -J https://www.tiktok.com/@whatifplus`, and the same for `@youbuiltit`; 12.1) and drop the idea if
+either has made it since 21 Nov 2026.
 
 **Step 1: Script (free). GATE A.**
-- Start from the idea's draft script (section 3). Keep about 220 words (4.3), the opening rules (4.2) and the formula (4.1).
-- Fact-check every ⚠ with web search; cut what can't be checked.
-- Saturation check on the exact title: `python3 pipeline/youtube/yt_saturation.py <dir> "<title>" "<topic>" "zack d films <topic>"`
-  (12.2). Report near-identical Shorts and the best views; if the topic has been animated in our format since the idea was
-  written, change the angle.
-- **Show at Gate A:** the title (TikTok and YouTube), the script, **the first second as three lines (frame 0; what has changed by
-  1.0 s; the first line)**, where the camera is on each line, the lines cut or moved onto the set, the facts checked, and the
-  saturation numbers.
+- Start from the idea's draft script or ladder (section 3). Keep the formula (4.1), the opening rules (4.2) and about 220
+  words (4.3).
+- Fact-check every ⚠ with web search, prices included; cut what can't be checked. Write the bill (4.4) as
+  `pipeline/NN-bill.md`: item, price, source, date read.
+- Saturation check with both title shapes: `python3 pipeline/youtube/yt_saturation.py <dir> "how to turn your <place> into a
+  <thing>" "how a <humble thing> becomes a <thing>" "<thing> build"` (12.2), and date the near ones with `yt_channels.py <dir>
+  shorts:<id>`. The topic rule (1.6, 1.7): if more than about three animated build videos of the same object went up in the
+  last 30 days, drop the idea; don't retitle it.
+- **Show at Gate A:** the title; the script; **the first 5 seconds as three lines (frame 0; what has changed by 1.0 s; the
+  premise line and the second its first "But" lands)**; the loop table (`problem | fix | term on screen | price and its
+  source | camera position`); the bill's total; where the dog appears; the facts checked; the saturation numbers and the two
+  lists' verdict.
 
 **Step 2: Beat sheet (free).**
 - One beat per sentence or But/So unit: `beat | words | est. s (words ÷ 3.5) | camera position and the move to the next | start
-  still → end still | what moves (big in the frame) | pointer | sound | clip`. Every beat is a clip; plan no holds.
-- **The stage ladder:** the set's state after each fix (S0 → S_n). The last frame matches the first.
-- **The camera path:** 7–9 positions under the cap (wide only to open if the event is wide, to close, and once to step back); on
-  "But" push in or swoop, on "So" pull away or fly on; a big move at least every 8 s on average and never more than 15 s apart; no
-  still camera for more than 5 s; moves named (swoop, rise, push in, pull away, fly along, orbit, drift, whip).
-- **The hook clip:** its own row, with frame 0, the event and the state at 1.0 s.
+  still → end still | what moves (big in the frame) | label | counter | pointer | sound | clip`. Every beat is a clip; plan
+  no holds.
+- **The stage ladder is the build:** S0 the naive step, S1 to S5 the set after each fix, S6 the finished build with its
+  three finishing touches. **The last still is S6 seen from frame 0's camera position,** so the before and the after share a
+  framing (no loop back to frame 0: that was the explainers').
+- **The camera path:** 7–9 positions under the cap (wide only to open if the naive step is wide, to close, and once to step
+  back); on "But" push in or swoop, on "So" pull away or fly on; a big move at least every 8 s on average and never more than
+  15 s apart; no still camera for more than 5 s; moves named (swoop, rise, push in, pull away, fly along, orbit, drift, whip).
+- **The hook clip:** its own row, with frame 0 (the naive step under way), the state at 1.0 s, and where the picture is when
+  the first "But" lands (about 5 s).
+- **The dog:** which stills and clips he is in (the first, the last and one reaction); every other prompt keeps him out
+  (6.3 DOG).
 
 **Step 3: Quote (free). GATE B.**
-- `balance`; estimates for every still and clip length at 720p; the narration (`creative_generate_speech` with
-  `estimate_only:true`) and the sound (by durations, ~3.33 a second; ElevenLabs credits, outside the cap).
+- `balance`; estimates for every still and clip length at 720p (and the dog key, 1.25, on the first build video); the
+  narration (`creative_generate_speech` with `estimate_only:true`) and the sound (by durations, ~3.33 a second; ElevenLabs
+  credits, outside the cap).
 - **The quote with its reserve must be 200 or less** (6.1); if it isn't, cut before showing it.
-- Show: positions and stills, clips and seconds, the total with the reserve, the balance after. **Wait for approval.**
+- Show: positions and stills, clips and seconds, the total with the reserve, the balance after, and the ElevenLabs estimate
+  against the credits left (if they are short, the stills and clips can still go ahead; the narration waits). **Wait for
+  approval.**
 
 **Step 4: Project and style key.**
 - `create_project` named `HBX – [title]` and reuse its folder on every generation.
 - STYLE, WIDE and the other prompt lines are in 6.3, byte-identical in every prompt. One SET line per video carries the place and
   its colours (colours, not objects).
-- The style key is frame 0 of the video: the "before" of the opening event (or the wide, if the event starts wide). **Fit the plan
-  to the style key's layout** rather than fighting it (7.1).
+- The style key is frame 0 of the video: the naive step under way, before the scene has changed (or the wide, if the step
+  starts wide). **Fit the plan to the style key's layout** rather than fighting it (7.1).
+- **The dog key** (first build video only): one still of the dog alone on a plain ground, in the look agreed at Gate A
+  (4.5); from then on it is a reference in every still he appears in.
 
 **Step 5: Stills. GATE C.**
 - Each camera position is an edit of the style key or of a neighbouring position (POS, 6.3); each change at a position is an edit
@@ -1007,63 +1076,78 @@ and 27.50 of stills, 197.23 with the reserve):**
   fills most of the frame" gets a real close-up.
 - Batches of up to 8 (`seedream` refuses more with 429; resend later), `jobs_wait`, one `show_generation_by_ids`. Re-make a drifted
   still once.
-- **Show at Gate C:** a flight map (the positions in order, the move between each pair, the stages at each), the set matching from
-  every angle, and the first and last frames matching part for part. (`10-flightmap.py` draws it.)
+- **Show at Gate C:** a flight map (the positions in order, the move between each pair, the stages S0 to S6 at each), the set
+  matching from every angle, the dog matching his key, and the first and last frames from the same position (the naive step
+  and the finished build). (`15-flightmap.py` draws it.)
 
-**Step 6: Narration (can start right after Gate B).**
-- Daniel, the whole script as one continuous take; two takes come back; pick the one that reads "So you…" straight through.
-- Pause tightening to 0.15 s (`10-timing.py`), then `atempo` up to 1.1 to reach about 3.5 words a second. Daniel's raw pace has
-  run 2.9–3.3 words a second.
+**Step 6: Narration (can start right after Gate B, if ElevenLabs has the credits).**
+- The narrator named in section 5, the whole script as one continuous take; two takes come back; pick the one that reads
+  "So you…" straight through.
+- Pause tightening to 0.15 s (`15-timing.py`), then `atempo` up to 1.1 to reach about 3.5 words a second. Measure the new
+  voice's raw pace on its first full take and note it in 7.5 (Daniel's ran 2.9–3.3; Marcus's audition 3.3).
 - Word timings: faster-whisper `small.en` in the Higgsfield sandbox (background job, about a minute), with the rare words in
-  `initial_prompt`; the script supplies the text, Whisper only the timing (`10-whisper.py`). These timings replace the estimates.
+  `initial_prompt`; the script supplies the text, Whisper only the timing. These timings replace the estimates.
+  `pipeline/analysis/transcribe.py` does it on this machine in about 5 s (7.7) but gives each word's start only, and
+  `15-timing.py` needs the ends for the pause tightening: for our own narration it is the fallback (take the pauses from
+  ffmpeg's `silencedetect`), not the default.
 
 **Step 6b: Sound.**
 - One ElevenLabs flow ("HBX NN [title]: sound"); one sfx node per sound with `model_parameters`
   `{"duration_seconds": N, "loop": false, "prompt_influence": 0.5}` (`loop: true` for the bed, ~20 s); `estimate_only:true`; then the
   same run with `generations_count:1`. Poll `creative_get_flow_run_status`; never run again to retry (it bills again).
 - Prompts name the sound, its texture and the space, no visual words ("Small metal flap swinging shut inside a plastic pipe, short
-  hollow clank").
+  hollow clank"). A build video also needs the counter's tick (a short, dry click) and the till for the final bill.
 - Mix: loop the bed (`-stream_loop -1`) with short fades; set levels from measured loudness on the mono fold-down (`rms_db()` in
   `08-build.py`): bed 19 dB and effects 11 dB under the voice; copy the mono voice to both channels (`pan=stereo|c0=c0|c1=c0`) and
   give every sound `aformat=channel_layouts=stereo` before `amix`. Place each effect's loud moment on its picture (measure the
   frame), not just on the word.
 
 **Step 7: Pilot clips. GATE D.**
-- Render two: **the hook** (frame 0 → the event by 1.0 s → the first camera move) and **one travel clip** between two positions.
+- Render two: **the hook** (frame 0 → the state at 1.0 s → the picture when the first "But" lands) and **one travel clip**
+  between two positions.
 - **Show at Gate D:** each pilot with its `camera_path.py` and `check_video.py` numbers next to the reference's (66%, 0.46 px,
-  a big move one second in four) **and the hook's frames at 0, 0.5, 1 and 2 s** (`contact_sheet.py`): the event must be visible
-  by 1 s and big in the frame. A pilot that zooms across a flat picture (parallax near 0) fails however it looks. Fix the stills or
-  the prompt and render once more; don't batch the rest until both pass.
+  a big move one second in four) **and the hook's frames at 0, 0.5, 1 and 2 s** (`contact_sheet.py`): the naive step must be
+  moving on frame 0 and the scene changed by 1 s, big in the frame. A pilot that zooms across a flat picture (parallax near
+  0) fails however it looks. Fix the stills or the prompt and render once more; don't batch the rest until both pass.
 
 **Step 8: The rest of the clips.**
 - Batches of up to 12 (`kling4_0` takes 12–13 at once on Ultra; 4–17 minutes), `jobs_wait`, one `show_generation_by_ids`.
 - Check every clip on a sheet at about 5 frames a second: the right stage, no drift, no text, motion from frame 1, the thing the
-  line describes really moves, the planned camera move (`camera_path.py`), and no pit, step or soil opening in an indoor floor.
+  line describes really moves, the planned camera move (`camera_path.py`), no pit, step or soil opening in an indoor floor,
+  and the dog only where he was planned.
 
-**Step 9: Assembly (free; template `pipeline/10-build.py`).**
+**Step 9: Assembly (free; template `pipeline/15-build.py`).**
 - Fit each clip to its measured line: play at 0.8–1.15×; a 3 s clip over a ~2 s line plays whole at up to 1.7× (`FULLFIT`).
-- Edit tools: `PUSH` (add a push-in to a still-camera clip, 3% a second or more) with `EASE_AFTER` on the next clip, `PULL` (the
-  last clip pulls back to frame 0's framing so the loop lands), `SPLICE` (cut a bad stretch out of a clip and join the clean parts
-  with a 0.3 s whip or a 0.25 s dissolve), `WHIP` (with `fillborders` against the junk first frame of ffmpeg's slide transitions),
-  `LIGHTS` (a lights-out dip made in the edit), `POINTERS` with tracking (`09-build.py`).
+- Edit tools: `PUSH` (add a push-in to a still-camera clip, 3% a second or more) with `EASE_AFTER` on the next clip, `SPLICE`
+  (cut a bad stretch out of a clip and join the clean parts with a 0.3 s whip or a 0.25 s dissolve), `WHIP` (with
+  `fillborders` against the junk first frame of ffmpeg's slide transitions), `LIGHTS` (a lights-out dip made in the edit),
+  `POINTERS` with tracking (`09-build.py`). `PULL` (the last clip pulls back to frame 0's framing) now lands the finished
+  build on the opening framing; it no longer closes a loop.
 - Upscale the 720p clips to 1080×1920 with a light sharpen (`unsharp=5:5:0.6`).
-- Narration at full level, sound under it (Step 6b), about −14 LUFS. Keep a voice-only mix and a clean master (no captions or
-  pointers).
+- Narration at full level, sound under it (Step 6b), about −14 LUFS. Keep a voice-only mix and a clean master (no captions,
+  labels, counter or pointers).
 - Check the master: `check_video.py` (80%+ moving), `camera_path.py` (Rule 7), `under_the_voice.py` (18–22 dB), and **a sheet of the
   first 2 s** (Rule 0).
 
-**Step 10: Captions and pointers (free).** One word per cue from the Whisper timings, text from the script, ALL CAPS "HBX Caption"
-(Montserrat 800), ASS `Fontsize` 114 (57 px letters), centred at `CAPY` ≈ 1440, long words fitted to 900 px (`MAXW`); a short
-word pushes the next one back so two words never share the screen (`07-build.py` cue timing). Pointers per Rule 6, drawn as ASS
-shapes from a top-left origin (`\an7`). Verify: duration within 0.2 s of the master, every word once, three spot frames readable.
-Fallback: deliver the clean master and an `.srt` for CapCut.
+**Step 10: Captions, labels, the counter, pointers and the end card (free).**
+- Captions: one word per cue from the word timings, text from the script, ALL CAPS "HBX Caption" (Montserrat 800), ASS
+  `Fontsize` 114 (57 px letters), centred at `CAPY` ≈ 1440, long words fitted to 900 px (`MAXW`); a short word pushes the next
+  one back so two words never share the screen (`07-build.py` cue timing). Pointers per Rule 6, drawn as ASS shapes from a
+  top-left origin (`\an7`).
+- **Labels, the counter and the street card** per section 5's overlay spec: the label on from the first word of "This is
+  a …" to the end of that sentence; the counter's jump on the word "So" of each loop; the total's grow on "The bill"; the
+  card after the last word. They are new in video 16's build script (6.4).
+- Verify: duration within 0.2 s of the master plus the card, every word once, every label spelled as in the script, the
+  counter's last number equal to the bill file's total, three spot frames readable and inside the safe box. Fallback:
+  deliver the clean master and an `.srt` for CapCut.
 
 **Step 11: Delivery.** Upload the final, the voice-only version and the clean master (`media_upload` → PUT → `media_confirm`); give the
 links; report the length, credits quoted against spent (`transactions`), the motion and camera numbers, the first-second check and
 any line that lost its clip.
 
-**Step 12: Covers and post copy (free).** Three covers (`10-thumbnail.py`), one of them a plain frame with no text; TikTok and
-YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies of the memory.
+**Step 12: Covers and post copy (free).** Three covers (`15-thumbnail.py`), one of them a plain frame with no text; a build
+cover can pair the naive step with the finished build. TikTok and YouTube copy per 8.1 and 8.2. Save the last frame as the
+video's street tile (`pipeline/street/NN.jpg`). Then log the video in 9.2 and update both copies of the memory.
 
 ### 6.3 Prompt lines (paste byte-identical; collected 15–17 Nov 2026)
 - **STYLE** (every still and clip): "Photoreal 3D cutaway render: the ground is sliced open like a cake toward the camera, showing
@@ -1093,8 +1177,16 @@ YouTube copy per 8.1 and 8.2. Then log the video in 9.2 and update both copies o
 - **Hook clip** (18 Nov 2026): frame 0 → the state at 1.0 s as a middle keyframe → the first camera position; the prompt names
   the event first ("On the first frame the manhole cover bursts upward on a column of smoke…") and says it starts on frame 1.
 - Every prompt without people ends "No people, no characters" (Kling invents figures otherwise).
+- **DOG** (21 Nov 2026; only the stills and clips the dog is in): the dog key as an image reference, and "The dog is the same
+  dog as in the dog reference: [his look, in the words fixed at video 16's Gate C]. He is small in the frame, [where he is and what he is
+  doing]." Everywhere else, add "No animals." to the people line.
 
 ### 6.4 Scripts to copy (18 Nov 2026; video 13's set added 19 Nov 2026; video 14's on 20 Nov 2026; video 15's on 21 Nov 2026)
+**For a build video (from video 16; 21 Nov 2026):** start from video 15's set as below. The edit needs three things its build
+script doesn't have yet: LABELS (a term on screen for one sentence), BILL (the counter, its jumps and the final total) and
+STREET (the end card from `pipeline/street/`). Write them into `16-build.py` as overlays beside the captions (7.4, section
+5's spec), add `16-bill.md`, and name them here once they have run.
+
 **Start from video 15's set** (21 Nov 2026) and rename the prefix: `15-prompts.py` (AIRLOT names the lot whole in outdoor and
 aerial stills; named-key fixes like `HI0.C` and `TO0.B` with their own REFS), `15-mk.py`, `15-clips.py` (FLATLOT and AIRLOTC on
 outdoor clips; ONEFIELD wherever the moving object shows), `15-timing.py`, `15-build.py` (as 14's, plus MERGE: a run of spoken
@@ -1293,6 +1385,9 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - **219 spoken words fit well** (video 15): take A 72.8 s raw (3.0 words a second), 67.1 s tightened, `atempo` 1.08 → 62.15 s
   (3.49 words a second), a 63.05 s video. Take B ran "heat, but grass" together (a weak "But") and was dropped. Sound: bed and
   eight effects, 131 ElevenLabs credits (the estimate said 390).
+- **The new narrator's first numbers** (21 Nov 2026): Marcus's audition take ran 3.3 words a second raw (39 words in 12.0 s;
+  Daniel's ran 2.9–3.3) and read "The bill: about…" with a rising tone, like a question; try "The bill? About…" or a full
+  stop if a full take does the same. Measure the first full take before fixing a script's word count.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
@@ -1329,6 +1424,24 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   with `estimate_video_cost` on the day; under the cap that now means ~61 s of clips and ~12 stills (6.1).
 - **Another session can push to the repo while a video is in progress** (21 Nov 2026: the ban/reach check of 1.6 landed mid-video
   and recommended holding it): fetch (`--depth=50`) and rebase before each push, and read what changed before going on.
+- **ElevenLabs ran out of credits on 21 Nov 2026:** a 197-credit take went through and the next two failed with "This request
+  exceeds your quota of 30354. You have 34 credits remaining". A failed generation costs nothing. `estimate_only` prices a
+  run but does not warn that the quota is short; the run itself does. Ask the user for the renewal date before a narration.
+- **Speech to text works on this machine** (21 Nov 2026): `pip install --target <dir> sherpa-onnx` and the Parakeet model
+  from the k2-fsa/sherpa-onnx GitHub releases (482 MB, about 30 s to fetch) transcribe a 70 s narration in about 5 s, with
+  punctuation and a time for every word (`pipeline/analysis/transcribe.py`). No upload, no Higgsfield sandbox.
+- **Uploading other people's audio to Higgsfield was refused** by the session's safety check on 21 Nov 2026 (a zip of 42
+  narrations for the sandbox's Whisper: "sensitive information leakage"). Don't route around it; transcribe locally.
+- **Reading words off a picture** (21 Nov 2026): `pip install --target <dir> rapidocr-onnxruntime` carries its models in the
+  wheel; `pipeline/analysis/labels.py` lists a video's on-screen labels with their times and positions.
+- **More on what a session can reach (21 Nov 2026).** Reachable: GitHub release downloads, `raw.githubusercontent.com`, the
+  npm and PyPI registries, `fonts.googleapis.com`, `storage.googleapis.com` (ElevenLabs' voice previews). Not reachable:
+  `payhip.com`, `www.skool.com`, `hotmart.com`, `postiz.com`; TikTok's caption host `v16m-webapp.tiktokcdn-us.com` (so
+  TikTok's own captions can't be fetched); `kenney.nl`, `quaternius.com`, `poly.pizza`, `polyhaven`, `sketchfab.com` and
+  `www.mixamo.com` (free 3D models); `cdn.jsdelivr.net`, `unpkg.com`, `openaipublic.azureedge.net`, `download.pytorch.org`.
+- **Real 3D drawn in code runs here** (21 Nov 2026; set aside, 1.8): three.js from npm in the preinstalled headless Chromium
+  draws 1080×1920 with shadows at about 0.35 s a frame, with no launch flags (software rendering). `require('playwright')`
+  works from a CommonJS script, not from an ES module.
 
 ### 7.8 Things that go wrong, and the fix
 | What goes wrong | Fix |
@@ -1337,19 +1450,25 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 | A travel clip only zooms (parallax near 0) | Its two stills are one view at two sizes: make the end still a real position |
 | The set changes between positions (pipes move, colours shift) | Make each position from the wide or a neighbour with POS; compare them at Gate C |
 | A still of something in motion looks frozen | Give the line a clip; never cut to a still of a pour, splash or needle |
-| The last frame doesn't match the first | Make the END still from the last stage still; `PULL` in the edit |
+| The last frame doesn't match the first (explainers), or the finished build isn't seen from frame 0's position (builds) | Make the END still from the last stage still at frame 0's position; `PULL` in the edit |
 | A night or storm still redraws the set | Re-grade the day still ("the same water colour; nothing glows") or do it in the edit |
 | The sound competes with the voice | Lower the bed to 18–22 dB under the voice; drop an effect that lands on a stressed word |
 | The balance is below the quote | Offer a shorter script or fewer positions, and name the lines that would lose their clip; never start a run you can't finish |
 | The narration runs long | Cut words; don't speed it past 1.1× |
+| The premise runs past 5 s (build format) | Cut words from the premise or shorten the naive step; the first "But" lands by about 5 s (4.2) |
+| A label or the counter sits under TikTok's tabs or buttons | Keep overlays inside the safe box (5) and check three frames on a phone-sized sheet |
+| A price can't be sourced | The fix stays in the story, the counter doesn't move for it, and the bill file says so (4.4) |
+| The dog changes between shots | Every still he is in takes the dog key as a reference; everywhere else the prompt says "No animals" (6.3) |
 
 ---
 
-## 8. Posting and profile (approved by the user on 18 Nov 2026 unless marked)
+## 8. Posting and profile (approved by the user on 18 Nov 2026 unless marked; build-format copy 21 Nov 2026)
 
 ### 8.1 TikTok, every video
-- **Caption:** the question the video answers, with one emoji, then `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and one or
-  two topic tags.
+- **Caption (build format, 21 Nov 2026):** the title as a plain line ("How to hide a swimming pool under your lawn"), then
+  "Guess the bill 💸", then `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and one or two topic tags. @whatifplus and
+  @youbuiltit caption every video with the bare title and five tags (1.7). (The explainers used the question the video
+  answers, with one emoji.)
 - **The hashtags must turn into links.** From video 02 on, none of ours registered (TikTok saw plain text; 1.5, 9.1). Type each tag
   in the app, or tap it from the suggestion list after typing "#", and check that it shows as a link before posting. After
   posting, check from a session that `textExtra` is not empty (12.1). **It worked for videos 12 and 13** (all 5 and all 4 of
@@ -1358,15 +1477,18 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   Turn on "AI-generated content" when posting, as TikTok's rules ask for realistic AI scenes. Videos 12 and 13 went up without
   it (`IsAigc` false); TikTok labelled both itself (20 Nov 2026).
 - **Cover:** TikTok Studio on desktop → Edit cover → upload the 1080×1440 crop (7.6); otherwise pick the most satisfying frame.
-- **Pin a comment** with the comment question; reply to every comment in the first day.
+- **Pin a comment:** "What do we build next?" with the idea's own question (3); the first build video also asks for the
+  dog's name (4.5). Reply to every comment in the first day; an idea taken from a comment gets credit in that video's caption.
 - **When:** early evening, US Eastern (our two best went out at about 6–7 pm ET). At most one video a day; never two a few hours
-  apart (videos 08 and 09 went out 2.4 h apart and split their first tests).
-- Don't delete a video that stalls. For the re-cut test (2.2), set the old version to private when the new one goes up.
+  apart (videos 08 and 09 went out 2.4 h apart and split their first tests). **21 Nov 2026:** @whatifplus posted two or three
+  a day on ten days with no visible harm (1.7), so two in a day are allowed if two are ever ready; the credits make it rare.
+- Don't delete a video that stalls. For a re-cut (11.2, parked), set the old version to private when the new one goes up.
 
 ### 8.2 YouTube Shorts, every video
-- **Title:** the question the video answers, under ~60 characters, no hashtags, no call to action.
+- **Title (build format, 21 Nov 2026):** the same title as TikTok's caption line ("How to Turn Your … Into a …"), under ~60
+  characters, no hashtags, no call to action. (The explainers used the question the video answers.)
 - **Description:** two or three sentences that retell the premise with the named problems, one question for the comments, then at
-  most three hashtags.
+  most three hashtags. For a build video add "Rough US prices, 2026." and ask for a guess at the bill (4.4).
 - **Audience:** "No, it's not made for kids" on the upload, and as the channel default (made-for-kids mode killed video 02 at
   7 views until it was fixed).
 - **Altered or synthetic content: leave it unticked** for these cutaways. YouTube's own announcement exempts clearly unrealistic
@@ -1378,6 +1500,13 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 - Post the same day as TikTok.
 
 ### 8.3 Profile fixes (do these before the first of the ten)
+- **For the build format (21 Nov 2026; nothing is changed until the user says so).** The cut-cube mark still fits (a thing
+  cut open). The words don't: the banner says "YOU'VE SEEN IT. / NOW SEE INSIDE IT." and "NEW 3D EXPLAINER EVERY 2 DAYS",
+  and the bios promise explainers. Proposed: the banner as `make_brand_v3.py --line1 "YOUR YARD." --line2 "ANY BUILD."
+  --highlight "ANY" --pill "ONE PROBLEM AT A TIME · NEW BUILD EVERY 2 DAYS"`; the TikTok bio on two lines, "Your yard. Any
+  build. One problem at a time 🔨" / "New 3D build every 2 days" (72 of 80 characters); the YouTube description opening
+  "Your yard. Any build. One problem at a time." and then "Short 3D builds that turn something you own into something you
+  wish you had, with every fix named and the bill added up. Every fact and price is checked. New build every 2 days."
 - **Rename the TikTok account** to match the content and the YouTube channel: the handle @overthinkingyearly tells a visitor
   nothing (the display name changed from "OT" to "overthinkingyearly" on 18 Nov 2026; the handle hadn't by 20 Nov). The natural pick
   is the YouTube name: check that `@letzbuildtogether` is free with `pipeline/youtube/handles.py <dir> tt letzbuildtogether`. TikTok
@@ -1443,36 +1572,42 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 
 ## 9. Channels, results and the video log
 
-### 9.1 Snapshot (21 Nov 2026, about 00:30 UTC; read from public pages, 12; 20 Nov 2026 figures in brackets)
-TikTok @overthinkingyearly (display name "overthinkingyearly"): 54 followers [55; 44 on 13 Nov], 738 likes [725], 13 videos
-(the profile still counted 12), 48.8K views [48.1K]. Bio: brand set v3's.
-YouTube @LetzBuildTogether: 315 subscribers [314; 282 on 15 Nov], 13 Shorts, about 211K views [211K]. Picture, banner and
+### 9.1 Snapshot (21 Nov 2026, about 22:00 UTC; read from public pages, 12; that morning's 00:30 UTC figures in brackets)
+TikTok @overthinkingyearly (display name "overthinkingyearly"): 54 followers [54; 44 on 13 Nov], 762 likes [738], 14 videos,
+50.2K views [48.8K]. Bio: brand set v3's.
+YouTube @LetzBuildTogether: 314 subscribers [315; 282 on 15 Nov], 14 Shorts, about 212K views [211K]. Picture, banner and
 description: brand set v3's.
 
-| Video | Posted | TikTok views [20 Nov] (likes · comments · shares · saves) | TikTok's category for it | YouTube views [20 Nov] (likes) |
+| Video | Posted | TikTok views [00:30 UTC] (likes · comments · shares · saves) | TikTok's category for it | YouTube views [00:30 UTC] (likes) |
 |---|---|---|---|---|
-| 14 Cooling tower | 20 Nov, 20:00 UTC | 48 at ~4.5 h (1 · 0 · 0 · 0) | Science, Education | 2 (1) |
-| 13 Frozen turkeys | 19 Nov, 23:04 UTC | 333 at ~25 h [183] (12 · 1 · 0 · 2) | Cooking, Food & Drink, Lifestyle | 21 [2] (1) |
-| 12 Manhole covers | 18 Nov, 22:07 UTC | 208 at ~50 h [202] (7 · 0 · 0 · 1) | Science, Education | 10 [7] (1) |
-| 10 Cryonics | 16–17 Nov | 423 [415] (12 · 2 · 0 · 1) | Science, Education | 16 [15] (1) |
-| 09 Lightning | 15 Nov | 382 [348] (22 · 0 · 2 · 2) | none given | 25 [23] (2) |
-| 08 Sewer | 15 Nov | 363 [361] (16 · 0 · 1 · 2) | Home & Garden, Daily Life, Lifestyle | 42 [40] (4) |
-| 07 1959 vs 2009 car | 14 Nov | 480 [480] (40 · 0 · 0 · 2) | Cars, Auto & Vehicle | 52 [48] (2) |
-| 06 Petra | 12 Nov | 331 [331] (14 · 0 · 0 · 4) | Anime & Comics, Entertainment | 67 [65] (3) |
-| 05 Aquarius | 11 Nov | 461 [460] (25 · 1 · 0 · 3) | none given | 1,279 [1,276] (67) |
-| 04 Seawater | 10–11 Nov | 34,400 [34,300] (394 · 10 · 38 · 66) | Science, Education | 8,831 [8,825] (359) |
-| 03 Fire hydrant | 9 Nov | 6,523 [6,459] (117 · 0 · 3 · 8) | none given | 198,672 [198,240] (about 6K) |
-| 02 Canoe | 7 Nov | 1,940 [1,930] (25 · 1 · 2 · 2) | Science, Education | 203 [201] (11) |
-| 01 Mud house | 6–7 Nov | 2,861 [2,615] (53 · 1 · 2 · 6) | Humanities, Education | 2,110 [2,109] (101) |
+| 15 NFL field | 21 Nov, 01:45 UTC | 302 at ~20 h (16 · 0 · 0 · 1) | none given | 4 (0) |
+| 14 Cooling tower | 20 Nov, 20:00 UTC | 52 at ~26 h [48] (1 · 0 · 0 · 0) | Science, Education | 9 [2] (1) |
+| 13 Frozen turkeys | 19 Nov, 23:04 UTC | 629 at ~47 h [333] (14 · 1 · 0 · 3) | Cooking, Food & Drink, Lifestyle | 27 [21] (1) |
+| 12 Manhole covers | 18 Nov, 22:07 UTC | 209 at 72 h [208] (7 · 0 · 0 · 1) | Science, Education | 10 [10] (1) |
+| 10 Cryonics | 16–17 Nov | 429 [423] (12 · 2 · 0 · 1) | Science, Education | 16 [16] (1) |
+| 09 Lightning | 15 Nov | 383 [382] (22 · 0 · 2 · 2) | none given | 25 [25] (2) |
+| 08 Sewer | 15 Nov | 363 [363] (16 · 0 · 1 · 2) | Home & Garden, Daily Life, Lifestyle | 43 [42] (4) |
+| 07 1959 vs 2009 car | 14 Nov | 485 [480] (40 · 0 · 0 · 2) | Cars, Auto & Vehicle | 52 [52] (2) |
+| 06 Petra | 12 Nov | 331 [331] (14 · 0 · 0 · 4) | Anime & Comics, Entertainment | 67 [67] (3) |
+| 05 Aquarius | 11 Nov | 461 [461] (25 · 1 · 0 · 3) | none given | 1,279 [1,279] (67) |
+| 04 Seawater | 10–11 Nov | 34,700 [34,400] (396 · 10 · 38 · 66) | Science, Education | 8,833 [8,831] (359) |
+| 03 Fire hydrant | 9 Nov | 6,594 [6,523] (117 · 0 · 3 · 8) | none given | 198,986 [198,672] (about 6K) |
+| 02 Canoe | 7 Nov | 1,953 [1,940] (25 · 1 · 2 · 2) | Science, Education | 203 [203] (11) |
+| 01 Mud house | 6–7 Nov | 3,272 [2,861] (57 · 1 · 2 · 6) | Humanities, Education | 2,111 [2,110] (101) |
 
-Also found (12.1): videos 12, 13 and 14 registered every caption hashtag, where none had from video 02 to video 10; TikTok
-shows its own AI-generated label on 11 of 13 videos (not the sewer one, and not yet on video 14); `IsAigc` (the creator's own
-label) is still off on all 13. TikTok's full moderation record is identical on all 13, the hits included (1.6). The YouTube
-uploads carry no TikTok watermark and are not in made-for-kids mode; all thirteen had comments on (21 Nov 2026). The hydrant
-still adds a few hundred YouTube views a day, and the mud house (+246) picked up on TikTok; every YouTube Short since Petra,
-the three new ones included, has had almost no test, which tiny rival channels don't suffer (1.6).
+Also found (12.1): videos 12–15 registered every caption hashtag, where none had from video 02 to video 10; TikTok shows its
+own AI-generated label on 12 of 14 videos (not the sewer one, and still not on video 14); `IsAigc` (the creator's own label)
+is off on all 14. TikTok's moderation record is still identical on all 14, the hits included (1.6). The YouTube uploads are
+not in made-for-kids mode and all fourteen have comments on. Between 00:30 and 22:00 UTC the hydrant added 314 views on
+YouTube and the mud house 411 on TikTok; video 13 nearly doubled on its second day (333 to 629), still far under the ~2K bar;
+video 14 has the fewest views of any of our TikTok videos, and video 15 went up 5 h 45 min after it (8.1 asks for a day
+between). Every YouTube Short since Petra, the four explainer-plan videos included, has had almost no test, which tiny rival
+channels don't suffer (1.6).
 
 ### 9.2 Video log (condensed 18 Nov 2026; full notes for each video are in the repo history at commit `1174f29`)
+Videos 12–15 were the explainer plan (2.6). **From video 16 the format is the build format** (4): log the look as "cutaway
+build", and note the bill's total and whether the first "But" landed by 5 s beside the opening verdict.
+
 | # | YouTube title | Made | Look | Higgsfield credits | Opening: does the scene change by 1–2 s? |
 |---|---|---|---|---|---|
 | 01 | How Mud Becomes a House in the Desert | 7 Nov | mascot, Lite | 106.25 | yes: rocks stacked into a wall |
@@ -1491,14 +1626,15 @@ the three new ones included, has had almost no test, which tiny rival channels d
 | 14 | Why It Rains Inside a Nuclear Cooling Tower (V3) | 20 Nov | cutaway, travelling camera | 161.50 (quoted 188.60) | yes: a cut line down the whole tower at 0.5 s, the halves part over the rain by 1 s |
 | 15 | Why This NFL Field Is Sitting on 546 Wheels (V6) | 21 Nov | cutaway, travelling camera | 196.25 (quoted 196.94) | yes: the solid face under the field drops from ~0.3 s, the layers by 1 s, the wheels by ~2 s |
 
-**The ten after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K = tested normally):
+**The explainer plan's four after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K =
+tested normally). Build videos join this table from video 16, as B1, B2, ….
 
-| # | Posted on TikTok | TikTok, first read | TikTok at 72 h | YouTube, first read | YouTube at 72 h |
+| # | Posted on TikTok | TikTok, first reads | TikTok at 72 h | YouTube, first reads | YouTube at 72 h |
 |---|---|---|---|---|---|
-| 12 (V1) | 18 Nov, 22:07 UTC (5:07 pm ET) | 202 at 27 h, 208 at 50 h; every tag registered | due after 22:07 UTC, 21 Nov | 7 after about a day, 10 at 2 days | due 21 Nov |
-| 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h, 333 at 25 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours, 21 at 25 h | due 22 Nov |
-| 14 (V3) | 20 Nov, 20:00 UTC (3:00 pm ET) | 48 at 4.5 h; every tag registered; no AI label yet | due after 20:00 UTC, 23 Nov | 2 at 4.5 h | due 23 Nov |
-| 15 (V6) | not posted yet (made 21 Nov) | | | | |
+| 12 (V1) | 18 Nov, 22:07 UTC (5:07 pm ET) | 202 at 27 h, 208 at 50 h; every tag registered | **209** (7 likes): under the bar | 7 after about a day, 10 at 2 days | **10**: under the bar |
+| 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h, 333 at 25 h, 629 at 47 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours, 21 at 25 h, 27 at 47 h | due 22 Nov |
+| 14 (V3) | 20 Nov, 20:00 UTC (3:00 pm ET) | 48 at 4.5 h, 52 at 26 h; every tag registered; no AI label yet | due after 20:00 UTC, 23 Nov | 2 at 4.5 h, 9 at 26 h | due 23 Nov |
+| 15 (V6) | 21 Nov, 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14 | 302 at 20 h (16 likes); every tag registered; TikTok's AI label on | due after 01:45 UTC, 24 Nov | 4 at about 20 h | due 24 Nov |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1547,6 +1683,19 @@ not reachable from a session, so give the links to the user or read them through
 - **Changing direction after almost every video** (three looks, five idea lists and four reference accounts in eleven days) left
   each video tested on a different audience (my read). The plan holds one lane for ten videos (2).
 
+### 9.4 What the explainer plan and the 21 Nov study taught (21 Nov 2026)
+- **Opening on an event was not enough.** All four explainer videos of the plan open on an event by 1 s, and none has
+  passed either platform's first test (2.6).
+- **The topics were crowded before we made them:** each had 5–20 AI Shorts on the same facts, and a new title on the same
+  subject changed nothing (1.6).
+- **The audit missed the biggest account in our own first format.** It looked for "You Built It" on TikTok under its
+  YouTube handle and concluded nobody was posting there (1.4, 1.7). Check a name several ways (`handles.py` with and without
+  the underscore) before saying an audience is unserved.
+- **In the build format, structure and polish don't separate hits from flops; the object does** (1.7). Our two best videos
+  were also our cheapest (9.3). The effort goes into the idea and the first five seconds.
+- **This is the sixth change of direction since 6 Nov 2026** (mascot builds, cutaway explainers, famous places, matchups,
+  the one-lane explainer plan, the build format). The build run holds for ten videos (2.5).
+
 ---
 
 ## 10. Money and monetisation (figures from web searches on 9–13 Nov 2026; re-check before quoting)
@@ -1565,72 +1714,97 @@ not reachable from a session, so give the links to the user or read them through
   personas giving advice are not eligible for ads, judged across the whole channel. Researched, original scripts and a single,
   consistent format are the defence.
 - **Cost side (18 Nov 2026):** at most 200 Higgsfield credits a video (6.1) plus about 1,400–1,540 ElevenLabs credits a narration
-  take and ~130 for the sound.
+  take and ~130 for the sound. **21 Nov 2026:** the build format costs the same (the look and the pipeline didn't change);
+  the ElevenLabs quota ran out that day (7.7), so the narration is now a limit of its own.
+- **How the build accounts earn (21 Nov 2026):** @whatifplus, Hidden By Design and @thewhatifstudio each sell a how-to or a
+  kit from the link in their bio, and public kits for code-drawn 3D shorts sell for about $12–49 (search summaries; the
+  pages can't be opened from a session). A possible later line for us, not a plan.
+- **YouTube's "inauthentic content" rule weighs more in a format hundreds of channels share** (21 Nov 2026, my read): the
+  Cutaway look, the bill and checked prices are our case that these are not template videos.
 
 ---
 
 ## 11. Paste-in prompts
 
-### 11.1 Kickoff prompt (renewed 18/11/26 v2: the 10-video plan and the 200-credit cap)
+### 11.1 Kickoff prompt (renewed 21/11/26: the build format, "If you… you have a…", with the bill)
 Fill in the line in angle brackets and paste the whole block into a new session. The earlier versions are listed in 13.3.
-For a style-2 video (photoreal AI build stories) the kickoff prompt is `strategy2.md` 11.1, not this one.
+For a style-2 video (photoreal AI build stories, paused on 21 Nov 2026) the kickoff prompt is `strategy2.md` 11.1, not this one.
 ```
-KICKOFF PROMPT (renewed 18/11/26 v2)
+KICKOFF PROMPT (renewed 21/11/26: the build format)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make the video with the section 6 runbook.
 
-IDEA:   <V1 ... V10 from section 3, or my own topic in the same lane>
+IDEA:   <B1 ... B10 from section 3, or my own "turn your ___ into a ___">
 SOUND:  bed and effects (unless I say voice only)
 
 Budget (6.1): at most 200 Higgsfield credits for this video, the 15% reserve included.
-Check the balance first. If the plan prices above 200, cut it (shorter script, fewer
-camera positions, shorter clips) before you show me the quote. Clips at 720p.
+Check the Higgsfield balance and the ElevenLabs credits first. If the plan prices above
+200, cut it (shorter script, fewer camera positions, shorter clips) before you show me
+the quote. Clips at 720p.
 
-The opening (Rule 0, section 4.2): frame 1 is the "before" or the event itself; the
-scene changes, big in the frame, by 1.0 s; the first line says what the picture is
-doing. Never an establishing shot, never "If you want...", never a remark. A
-surprise by about 4 s (the first "But", or the line right after a cold open).
+The format (section 4): the script opens "If you [one naive step], you have a
+[thing]." with that step already happening on frame 1. The premise is done by about
+4.5 s and the first "But" lands by about 5 s. Then five loops: "But [a failure you can
+see]. So you [fix]. This is a [real term]." Then "Add [three finishing touches]." Then
+our closing line: "That's your [thing]. The bill: about [total]." About 220 words
+(62-64 s). Never "Congratulations..."; never a reference account's wording; no spoken
+call to action; nothing a child could copy and get hurt.
 
-The look (section 5): Cutaway, no character; one place sliced open like a cake; a
-travelling camera with 7-9 positions, each a real still; every line a clip; one-word
-ALL CAPS captions about 57 px tall, 75% down; solid white pointers that ride with the
-camera; a quiet bed and a few effects, no music; the last frame matches the first.
-Narrator Daniel, video model kling4_0.
+Ours (4.4, 4.5 and the overlays in section 5): the bill (a price counter that starts
+at the naive step's cost and jumps with every fix; every price sourced, rounded and
+kept with its source in the bill file); each real term on screen for 1-2 s; the street
+end card; the dog in the first and last shots and in one reaction.
 
-The script (section 4): about 220 words (62-64 s); a But/So chain with each problem
-and fix at its own spot on the set; one true twist, one "that's why" and one small
-joke, all shown on the set; a three-beat ending that loops into the first frame; never
-"Congratulations..."; no spoken call to action. Fact-check every ⚠ before Gate A and
-run the saturation check on the exact title (with "zack d films" + the topic).
+The look (section 5) does not change: Cutaway, one place sliced open like a cake,
+nobody standing in for "you"; a travelling camera with 7-9 positions, each a real
+still; every line a clip; the scene changes, big in the frame, by 1.0 s; one-word ALL
+CAPS captions about 57 px tall, 75% down; solid white pointers that ride with the
+camera; a quiet bed and a few effects, no music. The last shot is the finished build
+from frame 1's camera position. Labels, the counter and the end card are added in the
+edit, never asked of the image or video models. Narrator: the voice named in section
+5. Video model kling4_0.
+
+Before Gate A: re-fetch @whatifplus's and @youbuiltit's video lists and drop the idea
+if either has made it; run the YouTube saturation check with both title shapes ("how
+to turn your ... into a ..." and "how a ... becomes a ..."); if more than about three
+animated build videos of the same object went up in the last 30 days, drop the idea,
+don't retitle it. Fact-check every number and every price.
 
 Stop for my approval at:
-- Gate A: titles, the script, the first second as three lines (frame 0 / what has
-  changed by 1 s / the first line), the camera position on each line, the facts
-  checked, the saturation numbers.
-- Gate B: the quote at 720p, 200 or less with the reserve, and the balance after.
-- Gate C: the stills as a flight map; the set matching from every angle; the first
-  and last frames matching.
+- Gate A: the title; the script; the first 5 seconds as three lines (frame 0 / what
+  has changed by 1 s / the premise line and when the first "But" lands); the loop
+  table (problem / fix / term on screen / price and source / camera position); the
+  bill's total; where the dog appears; the facts checked; the saturation numbers.
+- Gate B: the quote at 720p, 200 or less with the reserve, the balance after, and
+  the ElevenLabs estimate against the credits left.
+- Gate C: the stills as a flight map with the build's stages; the set matching from
+  every angle; the dog matching his key; the first and last frames from the same
+  position.
 - Gate D: the hook pilot's frames at 0, 0.5, 1 and 2 s, and both pilots'
   camera_path.py and check_video.py numbers next to the reference.
 Spend nothing before Gate B, and don't render the rest until the pilots pass.
 
 When it's done, give me: the final MP4 link and the voice-only version; the motion
 and camera numbers and the first-second check; credits quoted against spent; any line
-that lost its clip; 3 covers (one a plain frame); TikTok copy (the question with one
-emoji, and the hashtags for me to type in the app) and YouTube copy (a title under ~60
-characters, a 2-3 sentence description, not made for kids, altered content
-unticked). Then log the video in 9.2, add any new lessons to section 7, and update
-both copies of the memory.
+that lost its clip; 3 covers (one a plain frame); TikTok copy (the title, "Guess the
+bill", the hashtags for me to type in the app, and the pinned comment) and YouTube
+copy (the same title under ~60 characters, a 2-3 sentence description with "Rough US
+prices, 2026", not made for kids, altered content unticked). Then log the video in
+9.2, save its street tile, add any new lessons to section 7, and update both copies of
+the memory.
 ```
 
-### 11.2 Re-cut prompt (18/11/26: the free opening test of section 2.2)
+### 11.2 Re-cut prompt (18/11/26; parked on 21 Nov 2026 with the explainer plan, kept in case an old video is re-cut)
+The test it served (new openings for videos 09, 10 and 07 from their existing clips) was section 2.2 of this file at commit
+`a9abd35`.
 ```
 RE-CUT PROMPT (18/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first. Then re-cut video <09 | 10 | 07> with the new opening described for
-it in section 2.2, spending no Higgsfield credits:
+it in section 2.2 of that file at commit a9abd35 (git show a9abd35:CLAUDE.md),
+spending no Higgsfield credits:
 - Use the clips, word timings and build script that already exist (9.2 lists them).
 - Only the opening changes: frame 1 shows the event and the scene changes by 1 s.
   Check the frames at 0, 0.5, 1 and 2 s.
@@ -1668,6 +1842,11 @@ YouTube title. Log it in 9.2 as <NN>b and update both copies of the memory.
 - **Downloads:** `PYTHONPATH=<dir> python3 pipeline/tiktok/ttdl.py <out_dir> <video url>…` picks a format served from
   `v16-webapp-prime.us.tiktok.com` (the `-0`/`-1` suffix doesn't map to a fixed host). The `bytevc1` formats carry no sound; take
   the sound from an `h264` format.
+- **Everything about an account saved for later reading (21 Nov 2026):** `PYTHONPATH=<dir> python3 pipeline/tiktok/tt_items.py
+  <handle> <out_dir>` writes the video list with stats, the profile (followers, bio, bio link, creation time) and each
+  video's detail JSON. `locationCreated` is the country a video was posted from.
+- **TikTok's own captions** exist for most videos (`video.claInfo.captionInfos`, WebVTT), but every link leads to
+  `v16m-webapp.tiktokcdn-us.com`, which a session can't reach (21 Nov 2026). Transcribe the sound instead (12.5).
 
 ### 12.2 YouTube
 - The environment allows `www.youtube.com`, `i.ytimg.com`, `yt3.ggpht.com` and `yt3.googleusercontent.com`. `/shorts/<id>` and
@@ -1702,17 +1881,37 @@ YouTube title. Log it in 9.2 as <NN>b and update both copies of the memory.
   side with a reference's; judge whether the scene itself changes by 1 s (1.2, 4.2).
 - **The whole video:** `pipeline/analysis/contact_sheet.py` (one frame a second), `check_video.py` (share of seconds moving,
   caption size, sharpness), `camera_path.py` (the camera's moves), `under_the_voice.py` (what sits under the narration).
-- Nothing has been listened to; sound is measured, not judged by ear.
+- **Added 21 Nov 2026:** `pipeline/analysis/hooks_sheet.py` (the first seconds of every video of an account, one row a video,
+  ranked by views), `transcribe.py` (speech to text with a time for every word, on this machine) and `labels.py` (the words
+  on the picture, with times and positions).
+- Nothing has been listened to; sound is measured, not judged by ear. Pitch can be measured (a voice's median, by
+  autocorrelation) and a steady music bed looked for (narrow peaks that persist between words), but a voice is chosen by
+  the user's ear.
 
 ### 12.4 Web research
 - WebSearch summaries work; WebFetch can't open `en.wikipedia.org`, `cdc.gov`, `weather.gov`, `seller-us.tiktok.com`,
   `support.tiktok.com` and many blogs. Say when a fact rests on a search summary, and reopen the page before quoting a number.
 
+### 12.5 Studying a reference account end to end (the method of 21 Nov 2026)
+What produced 1.7, in order; about an hour for a 42-video account, no credits.
+1. `tt_items.py <handle> <dir>` (12.1): the list, the profile and every video's detail. Read the spread of views (median,
+   lowest, share over 100K), posting days and hours, the category, the tags that registered and the AI label.
+2. `ttdl.py` (12.1) for every video; `hooks_sheet.py` for the first seconds ranked by views; look at the top and bottom
+   sheets side by side.
+3. `transcribe.py` on every video; then count per script the words, the pace, the "But"s, the named terms, when the first
+   "But" lands, the first and the last sentence. Compare the top ten with the bottom ten before believing any rule.
+4. `check_video.py`, `camera_path.py` and the cut count (7.7) on about 16 videos across the range; `labels.py` on a few.
+5. Who else makes it: `handles.py` for the account's name on the other platform (try spellings), `yt_saturation.py` on
+   its best titles, `yt_channels.py shorts:<id>` for who posted the big ones and when.
+6. How it is made: the bio link, a web search for kits and tutorials, and the frame rate and whether every frame is
+   unique (real 3D) or frames repeat.
+Write what was measured, what is "my read", and what couldn't be checked (comments, covers, anything by ear).
+
 ---
 
-## 13. Parked ideas, topics to avoid, and history (18 Nov 2026)
+## 13. Parked ideas, topics to avoid, and history (to 21 Nov 2026)
 
-### 13.1 Parked ideas (approved by the user on 16–18 Nov 2026; parked on 18 Nov 2026 for the one-lane plan)
+### 13.1 Parked ideas (X and F ideas: approved 16–18 Nov 2026, parked 18 Nov; the explainer plan's: parked 21 Nov 2026)
 Their full entries (draft scripts or story beats, sets, camera positions, checked facts, sources) are in section 2 of the file at
 commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 1 the "before" or the event, a change by 1 s.
 - **X1 There Are More People Under Paris Than In It** (the catacombs): footage leads (22M); no animated cutaway. Built-in event: the
@@ -1725,6 +1924,17 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   (Malbork): story beats only, place named at the end (NET FILES' device).
 - **F3 Why This Castle Was Built Like a Maze** (Himeji): script approved at Gate A and beat sheet in `pipeline/11-*`; quoted at
   271.69 and stopped by the user on 18 Nov 2026. Under the cap it would need about 220 words and 7–9 positions.
+- **Parked on 21 Nov 2026 with the explainer plan** (titles, draft scripts, sets and checked facts are in section 3 of this
+  file at commit `a9abd35`): V4 The Ice Under This Court Cancelled an NBA Game (Cutaway Instinct has the court at 1.3M; Built
+  From Scraps built an NBA arena, 1.7M, 15 Nov); V5 Why Water Heaters Can Launch Through the Roof; V7 What's Hiding Under a
+  Wave Pool (@youbuiltit's wave pool 1.8M, 8 Nov); V8 What's Hiding Behind the Pins at a Bowling Alley (@youbuiltit 226K);
+  V9 The Airport Baggage System That Ate Suitcases (@youbuiltit 158K); V10 How Do Fish Get Past a Dam? (@youbuiltit's dam
+  1.4M); and the reserves (the grease fire, roller coasters, NFL fields that don't freeze, frozen pipes, fire sprinklers).
+  Their checked facts can feed a build video's "that's why" lines.
+- **The free re-cut test** of videos 09, 10 and 07 (new openings from their existing clips; prompt 11.2): parked on 21 Nov
+  2026.
+- **Code-drawn 3D** (1.8): tested on 21 Nov 2026 and set aside when the user kept the look; an option if credits become
+  the limit. **The floating-block look** (the yard as a cut cube, like our logo) was offered the same day and not taken.
 
 ### 13.2 Topics to avoid
 - **Made by us:** the mud house, the canoe, the fire hydrant, seawater to tap water, the underwater habitat (Aquarius), Petra, the
@@ -1738,6 +1948,33 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   fire-, volcano- and earthquake-proof houses, a Halloween station.
 - **Made by @scapemagicc** (photoreal AI builds; all 86 videos to 21 Nov 2026 are listed in `strategy2.md` 10): tiny houses inside
   septic tanks, pipes, dumpsters, containers, buses, tires, pallets and pools, and in caves, pits and gardens.
+- **Made by @whatifplus** (all 42 to 20 Nov 2026; `research/whatifplus-videos.tsv`; re-fetch before each Gate A): a bunker, a
+  hot tub, a slip-n-slide, a treehouse, an underground trampoline pit, a sauna, an underground garage, a gaming room, a
+  bouncy castle, a go-kart track, a golf course, an underground aquarium, a bumper-car arena, a drive-thru car wash, a
+  waterpark, a backyard gym, an F1 circuit, a NASCAR track, a football stadium, a MotoGP track, an indoor skydiving tunnel, a
+  monster-truck arena, a ninja-warrior course, a drag strip, the Louvre from the Mona Lisa, a roller coaster, a paintball
+  arena, a log cabin, a zombie base, a zombie escape vehicle, an alien-proof house, a warm house in winter, a dinosaur-proof
+  house, a last-person-on-Earth survival base, a ski resort, an NFL stadium from a street, a WWE arena from a mattress, the
+  Golden Gate Bridge, a bank vault from a mattress, a Black Friday sale, an ice rink, a helipad.
+- **Made by @youbuiltit** (all 96 to 21 Nov 2026; `research/youbuiltit-videos.tsv`; re-fetch before each Gate A). *Home and
+  street:* a swimming pool, a toilet, running water, a fireplace, a septic tank, a refrigerator, a washing machine, a road, a
+  roof, a stove, an air conditioner, a shower, a dishwasher, a clothes dryer, central heating, house electricity, a garage
+  door, a foundation, a hot tub, a front door, a vending machine, a water tower, a car wash, a gas station, a sprinkler
+  system, an escalator, a fire hydrant (twice), a storm shelter, a bank vault, a traffic light, an ATM, a railroad crossing,
+  a tower crane, an automatic door, a garbage truck, an elevator, an airport baggage system, a concrete mixer truck, an
+  airplane toilet, a fire sprinkler, a subway, a burglar alarm, a rain gutter, a chicken coop, a treehouse. *Fun:* a roller
+  coaster (twice), a bowling alley, a claw machine, a soft-serve machine, an ice rink, a water slide, a ski chairlift, a
+  carousel, a wave pool, a lazy river, an infinity pool, a Ferris wheel, a splash pad. *Survival and history:* a log cabin,
+  a pyramid, a Viking ship, the Colosseum, a lighthouse, a Roman aqueduct, a shelter in the woods, a trebuchet, a campfire, a
+  fish trap, a windmill, clean drinking water, an island shelter, Stonehenge, a rope bridge, a Roman bath, the Great Escape
+  tunnel, an igloo, a dam, a smokehouse, a castle, a cathedral, a raft, drinking water from sand, the Great Wall, the Statue
+  of Liberty, a drawbridge, a jungle stilt hut, a dugout canoe, the Easter Island heads, a tipi, maple syrup, a reed boat, a
+  bark canoe, an earth oven, a cooking pot.
+- **Built by other channels on YouTube** (found 21 Nov 2026; 1.7, 3.1): a bunker (a dozen), a rocket launch pad, a skate
+  bowl, an airport, an NBA arena, a zip line, a drive-in cinema, a pond and a koi pond, a secret room behind a wardrobe, a
+  closet or a fridge, a hideout under a doghouse, a Mars base, a bathtub submarine and cruise ship, a storm shelter and a
+  tornado room, a hurricane-proof house, flood protection (one), a pool turned into a bunker, and YouTube copies of
+  @whatifplus's F1, NASCAR, MotoGP, bumper-car, go-kart and helipad titles.
 - **Zack D. Films' scenarios** (16 Nov 2026): falling off a cruise ship, through ice, into a grain bin; an avalanche; a tar pit;
   sinkholes; a plane losing oxygen and its masks; straightening Pisa; a power line on your car; the meteorite that hit a woman; the
   microwave's metal screen and ice in a microwave; the gold vault under Manhattan. Taken by others: quicksand, Niagara Falls in a
@@ -1803,4 +2040,19 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   farmed), 19 stills, `wan2_7` chosen over `kling4_0` at Gate D, cut B (32 shots, 40.7 s) and cut A (40.1 s), 125.00 credits
   against a 195.79 quote; not posted yet. Lessons and runbook changes in `strategy2.md` 6–7; files from `655600a` to the commit
   that logged it.
-- Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`).
+- **21 Nov (later):** the user shared @whatifplus's helipad video and asked to shift toward that style. All 42 of its videos
+  were studied (stats, first seconds, every script transcribed locally) with @youbuiltit, the account it follows and the 18
+  Nov audit missed (1.7); the genre turned out to be real 3D drawn in code (1.8). A change list was shown and nothing changed.
+- **21 Nov (later):** the user asked for a twist of our own before any change; offered: the Block (a floating cut-cube
+  look), the Bill, the Neighbourhood and the Dog.
+- **21 Nov (later):** the user kept the look ("keep our current animation style visually the way it looks right now"),
+  asked for a different voice and for the "If you…, you have a…" format with the add-ons. This file revised: the build
+  format (4), ten build ideas checked against both accounts and YouTube (3), the build run (2), the overlays (5), the
+  runbook steps (6.2), posting (8) and the paste-in prompt renewed 21/11/26 (11.1). One audition take made (Marcus, 197
+  ElevenLabs credits); two more failed because ElevenLabs ran out (34 credits left). Style 2 paused. New tools:
+  `tt_items.py`, `hooks_sheet.py`, `transcribe.py`, `labels.py`; the numbers in `research/`. No Higgsfield credits spent.
+- **21 Nov (about 22:00 UTC):** while logging video 12's 72 h read (209 on TikTok, 10 on YouTube, under both bars), video 15
+  was found posted on both platforms (TikTok at 01:45 UTC, 5 h 45 min after video 14): 302 and 4 views at about 20 h (9.1,
+  9.2). s2-01 is on neither main account.
+- Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`),
+  18/11/26 v2 (`a9abd35`).
