@@ -139,7 +139,9 @@ P = {
         f"The sign fills about a third of the frame, a little left of centre and in the upper half, facing the camera: a plain "
         f"white rectangle with nothing written on it. Behind it, soft and out of focus, the house with its lines of coloured "
         f"pixel lights; at the right edge of the frame, part of a parked car, its dashboard glowing softly through the "
-        f"windscreen. The dog is not in this view. {WHOLE} {NOWATER} {NOBODY}"),
+        f"windscreen. The dog is the same dog as in the second reference image: {DOGW}; it sits on the grass just beside the "
+        f"sign's post, small in the frame, with its head tilted to one side and its mouth closed, looking toward the road. "
+        f"{WHOLE} {NOWATER} {DOGONLY}"),
  # ---- the dog key: made from F0, a reference for ST5 and FR6 (4.5) ----
  "DOG": ("Photoreal 3D render, soft even light, clean realistic materials, mild depth of field. The same dog as in the "
          f"reference image, alone: {DOGW}. It stands on all four legs, whole body in view, turned three-quarters toward the "
@@ -160,12 +162,18 @@ P["F0.B"] = (f"{STYLE} {POS} New camera position: the same three-quarter view fr
              f"clipped along the roof edge and hanging loose at the right corner of the house down to a small coil on the lawn, "
              f"the glowing porch lamp, the one lit downstairs window, the three bushes, and the dog wound in his own string all "
              f"stay exactly as they are. None of the bulbs is lit: they are dark, clear glass, not glowing. {NOWATER} {DOGONLY}")
+# ST5 try A (7846e873) is right in everything (the cars, the blank sign, the dog howling, the aerial, lit windows up the road)
+# except that it drew the garage with two doors; the set has one. ST5.B fixes only that.
+P["ST5.B"] = (f"{STYLE} {LOCKZ} Change only this: the garage has one single white garage door in the middle of its front wall, "
+              f"not two: where the second door was, the wall is plain pale grey siding like the rest of the house. The lights "
+              f"round the garage, the house, the sign, the dog, the cars and the road stay exactly as they are. {KEEP} {WHOLE} "
+              f"{NOWATER} {DOGONLY}")
 # After F0.B was accepted as F0 (frame 0, the close FRONT view), the references changed: F0.A stays as the wide view of the
 # same set (it shows the cut-open end of the garage, which F0 crops), so HIGH and STREET are made from it; the close positions
 # and the FRONT stages are made from F0. Longest chain: F0.A -> F0 -> F1 -> F1x, and F0.A -> F0 -> GU -> PX (three edits).
 REFS = {"F0": [], "F0b": ["F0"], "F1": ["F0"], "F1x": ["F1"], "FR6": ["F0", "DOG"], "GU": ["F0"], "PX": ["GU"],
-        "OU1": ["F0"], "OU2": ["OU1"], "HI3": ["F0.A"], "RO4": ["F0"], "RO3": ["RO4"], "ST5": ["F0.A", "DOG"], "SG": ["ST5"],
-        "DOG": ["F0"], "F0.B": ["F0.A"]}
+        "OU1": ["F0"], "OU2": ["OU1"], "HI3": ["F0.A"], "RO4": ["F0"], "RO3": ["RO4"], "ST5": ["F0.A", "DOG"], "SG": ["ST5", "DOG"],
+        "DOG": ["F0"], "F0.B": ["F0.A"], "ST5.B": ["ST5.A"]}
 AR = {"DOG": "1:1"}
 
 if __name__ == "__main__":

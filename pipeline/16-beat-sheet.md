@@ -4,7 +4,8 @@ Idea B3 (section 3), the first video in the build format (CLAUDE.md 4). **Gate A
 ("approve": the script, the dusk set and the dog's look as proposed; the narrator was not picked, so Marcus stays the
 stand-in). The script is `16-script.txt` (224 spoken words, ~64.0 s at 3.5 words a second, plus the 1.5 s street card); the
 bill is `16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat table and the quote for Gate B are at the end
-of this file. **Nothing is spent until Gate B is approved.**
+of this file. **Gate B approved by the user on 21 Nov 2026** ("approve": the quote of 199.81). The stills are made and
+logged at the end of this file; **the video is at Gate C** (the stills, the flight map and the dog key wait for approval).
 
 ## Gate A
 
@@ -231,3 +232,51 @@ gate: the stills first (about 21 credits, Gate C), then the two pilots (22.50, G
 estimate of 21 Nov 2026, flow `r5l5knyfRALPrOQwQ3Tk`, nothing generated). The sound is about 150 credits by its durations. The
 last balance seen was 34 credits, and it can't be read from a session, so the narration waits for credits; the stills and
 the pilots don't need it.
+
+## Steps 4 and 5: the stills (21 Nov 2026) → Gate C
+
+Higgsfield project `5499c25c-bcd8-441c-9b78-0efb488ac8fe` ("HBX – How to Turn Your House Into a Christmas Light Show").
+**15 keyframes in 17 tries, 21.25 credits** (the stills line of the quote exactly); balance 883.75. Job ids in `16-jobs.tsv`,
+prompts in `16-prompts.py`. Sheets: `16-flightmap.jpg`, `16-keyframes.jpg`, `16-first-last.jpg`, `16-dog.jpg`, `16-stills.jpg`
+(`16-flightmap.py` draws them from the accepted stills).
+
+**What the stills changed in the plan**
+- **Frame 0 is a closer view than first asked.** The set key (F0.A) came back as a handsome dusk three-quarter view from the
+  front left, but with the house filling only a quarter of the frame's height under a third of empty sky: the string along the
+  gutter was a thin line of dots, too small for the change at 1.0 s. F0.B moved the camera closer on the same set and is
+  frame 0 (F0). F0.A stays as the wide of the set and was the reference for the high and street views.
+- **Positions:** FRONT, GUTTER, OUTLET, HIGH, ROOF, STREET and SIGN. The GARAGE position is gone: the close FRONT view crops
+  the cut-open end of the garage, so the breaker panel isn't in it; C2 shows the blackout itself (every string, the porch lamp
+  and the living-room window go dark, as the line says) with no ring on the panel. The cut-open garage, with the breaker
+  panel and the controller box beside it, shows in HIGH. SIGN is the close view the "that's why" ends on.
+- **The last still (FR6) is from the same side as frame 0, a few steps further back:** the tree, the arches and the snowman
+  needed the room, and the LOCK edit pulled the camera back. Kept: everything in the finished show fits. It can be re-made at
+  frame 0's exact framing for 1.25 if the user prefers.
+- **The arches** came out as four candy-striped arches in a row across the driveway, the size hobby "leaping arches" really
+  are, not arches tall enough to drive under.
+- **The dog** was drawn into frame 0 from the words agreed at Gate A; the dog key was made from that still and used as the
+  second reference for ST5, SG and FR6: he howls in ST5, tilts his head beside the sign in SG and wears antlers in FR6. Both
+  ears came out folded, so his words are now "a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a
+  red collar".
+
+| Still | Position | Made from | Tries | What it shows |
+|---|---|---|---|---|
+| F0 | FRONT | F0.A (POS, closer) | 2 (F0.A the wide, F0.B accepted) | Frame 0: the string clipped along the gutter and hanging loose at the corner down to a coil on the lawn, unlit; a ladder; the porch lamp and the living-room window lit; the dog on the lawn wound in a second string |
+| F0b | FRONT | F0 (LOCK) | 1 | The string lit along the roof edge and up the gable; the dog's string lit |
+| F1 | FRONT | F0 (LOCK) | 1 | Fifty-one strings: roof edges, windows, door, porch, garage, bushes; no ladder |
+| F1x | FRONT | F1 (LOCK) | 1 | The blackout: every string, the porch lamp and the windows dark |
+| GU | GUTTER | F0 (POS) | 1 | Extreme close along the gutter: faceted LED bulbs glowing warm white |
+| PX | GUTTER | GU (LOCKZ) | 1 | The same view with pixels: clear bullet nodes with a tiny circuit board and chip inside, red, orange, yellow, green, blue |
+| OU1 | OUTLET | F0 (POS and change) | 1 | Low by the garage wall: the outdoor outlet with its cover up, plug joins lying on wet paving, the strings round the garage door dark |
+| OU2 | OUTLET | OU1 (LOCKZ) | 1 | Every join inside a closed green box; the strings lit; rain |
+| HI3 | HIGH | F0.A (POS and change) | 1 | The whole house from above, every edge in a rainbow of pixels; the garage's cut-open end with the breaker panel and the controller box |
+| RO4 | ROOF | F0 (POS and change) | 1 | Along the roof edge: a line of white lights to the far end, a black cable joining it in the middle |
+| RO3 | ROOF | RO4 (LOCKZ) | 1 | The fault: no cable; white near the camera fading to pink at the far end |
+| ST5 | STREET | F0.A and DOG (POS), then a LOCKZ fix | 2 (try A drew two garage doors; B has one) | From the road past two parked cars: the house in coloured lights, the blank sign, the aerial on the garage roof, the dog howling, lit windows up the street |
+| SG | SIGN | ST5 and DOG (POS) | 1 | Close on the blank sign; the dog beside its post with his head tilted; a car's dashboard glowing |
+| FR6 | FRONT, a step back | F0 and DOG (LOCK) | 1 | The finished build: the house in coloured pixels, the tree of light with its star, the snowman, four candy-striped arches across the driveway, the sign, the aerial, the dog in antlers |
+| DOG | (key) | F0 | 1 | The dog alone on a plain ground |
+
+**Clips as their keyframes now stand** (lengths unchanged, 61 s): C1 F0 → F0b · C2 F0b → F1 → F1x · C3 F1x → GU · C4 GU → OU1 ·
+C5 OU1 (start only) · C6 OU1 → OU2 → F1 · C7 F1 → PX → HI3 · C8 HI3 → RO3 · C9 RO3 → RO4 · C10 RO4 → ST5 · C11 ST5 → SG ·
+C12 SG → FR6 · C13 FR6 (start only). **Pilots for Gate D:** C1 and C3 (22.50).

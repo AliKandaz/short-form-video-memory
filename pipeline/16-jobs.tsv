@@ -25,3 +25,14 @@ OU2.A	cc74d2e4-6f1f-4121-ae9e-ecaf3efc0ee9	try A (batch 3)
 RO3.A	77dfa6cc-e7f2-4a91-add3-e0b01a492676	try A (batch 3)
 ST5.A	7846e873-b897-4c4b-b877-6300c5610d2d	try A (batch 3), from F0.A and DOG
 FR6.A	63eb08d0-f9cd-4046-9c11-ea581deae212	try A (batch 3), from F0 and DOG
+F1x	f6dd960e-800f-4208-9e19-51c6fa625609	accepted (try A)
+PX	6aa28796-0a79-4220-8e9a-42c6894db454	accepted (try A)
+OU2	cc74d2e4-6f1f-4121-ae9e-ecaf3efc0ee9	accepted (try A)
+RO3	77dfa6cc-e7f2-4a91-add3-e0b01a492676	accepted (try A)
+FR6	63eb08d0-f9cd-4046-9c11-ea581deae212	accepted (try A): the finished build; the same side as frame 0, a step further back
+ST5	7846e873-b897-4c4b-b877-6300c5610d2d	try A in use as the reference for SG (two garage doors: ST5.B fixes that)
+ST5.B	5825770e-e9da-4550-9ce3-d8f958a45ef4	try B (one garage door), from ST5.A
+SG.A	23eda156-c2d1-4343-85fa-19d037fc3f13	try A, from ST5.A and DOG
+ST5	5825770e-e9da-4550-9ce3-d8f958a45ef4	accepted (try B: one garage door)
+SG	23eda156-c2d1-4343-85fa-19d037fc3f13	accepted (try A): the sign close, the dog beside it with his head tilted
+# stills: 17 tries for 15 keyframes (F0.A stays as the wide reference of the set), 21.25 credits, 21 Nov 2026
