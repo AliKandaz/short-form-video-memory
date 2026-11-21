@@ -157,4 +157,12 @@ C14 4 = **61 s (152.50 at 720p)**, the plan quoted; played at 0.90-1.09×.
   time. Sheets: `15-flightmap.jpg`, `15-keyframes.jpg`, `15-stills.jpg`, `15-first-last.jpg`.
 - 21 Nov 2026 (later): another session's ban/reach check (CLAUDE.md 1.6, commit `21581e7`) recommended holding V6 until the
   user's in-app checks, and a topic rule that V6 fails (about 20 AI Shorts on the rolling field since Sep 2026). Gate C shown
-  to the user with that choice; no clips rendered.
+  to the user with that choice; no clips rendered. The user approved Gate C.
+- **Pilots (Gate D, 21 Nov 2026):** all three first time, 27.50 credits; balance 1,180.00. C1 (SIDE0 -> SIDE1, 3 s): the solid
+  face starts dropping at ~0.3 s, the sand layers and the steel tray show by 1.0 s, the wheels by ~2 s (just before the word
+  "wheels"); the camera stays dead still (0% moving, parallax 0.07; picture 33%, optical flow 21-46% of the frame each second):
+  `PUSH` in the edit. C2 (SIDE1 -> (WH0) -> RF0, 4 s): dives to the cut face, the wheel close-up at 1.6 s, then up along the cut
+  to the open roof looking at the opening (camera 100% moving, parallax 8.5, 3 big-move seconds of 4, never still). C4 (HI1 ->
+  HI0, 4 s): the whole field slides out of the opening as one flat piece from ~0.6 s and stops in the lot by ~3.2 s, no second
+  field (camera 0%, parallax 0.03; check_video says 0% because the field is 13-19% of the frame, under its whole-frame threshold;
+  optical flow 5-19% of the frame each second): `PUSH` in the edit. Sheet `15-gateD.jpg`.

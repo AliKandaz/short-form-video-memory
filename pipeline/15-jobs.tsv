@@ -34,3 +34,10 @@ TO0.A	18ded007-c342-48bf-a825-142f39a6f561	LOCKZ edit of RA0: the tortoise
 TO0.B	5fe36c7f-5b19-41e3-a001-828210764689	redo from RA0 with AIRLOT
 TO0	5fe36c7f-5b19-41e3-a001-828210764689	accepted (try B): RA0 framing, no pit; the tortoise faces the tray
 # stills: 12 on screen from 15 tries (HI0 x3, TO0 x2), 18.75 credits (the budget); balance 1,207.50
+C1.A	03ce18bd-6e35-430b-b112-ecd3c19467ca	pilot: the hook, SIDE0 -> SIDE1, 3 s
+C2.A	43619590-a742-424b-8abd-c36cb4271194	pilot: the travel, SIDE1 -> (WH0) -> RF0, 4 s
+C4.A	ddb5f8dc-691c-4dc9-b5c6-c6ab0bae8184	pilot: the field rolls out, HI1 -> HI0, 4 s
+C1	03ce18bd-6e35-430b-b112-ecd3c19467ca	accepted pilot (try A): the face drops 0.3-1.8 s, wheels in by ~2 s; camera still (PUSH)
+C2	43619590-a742-424b-8abd-c36cb4271194	accepted pilot (try A): dive to the wheels (WH0 at 1.6 s), up to the open roof
+C4	ddb5f8dc-691c-4dc9-b5c6-c6ab0bae8184	accepted pilot (try A): the field slides out 0.6-3.2 s as one piece; camera still (PUSH)
+# pilots: 27.50 credits (11 s); balance 1,180.00
