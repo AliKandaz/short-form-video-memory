@@ -398,14 +398,25 @@ def rms_db(path):
     act = e[e > e.max() * 0.1]
     return 20 * np.log10(np.sqrt((act**2).mean()))
 def fx_list():
-    """(file stem in audio/, start time, optional cut length, optional level offset dB, optional low-pass Hz). Event times
-    read off the clips (16-jobs.tsv). fx1 bulbs ticking on, fx2 the breaker's clunk, fx3 rain, fx4 a sharp click, fx5 the
-    pixels' shimmer, fx6 a muffled thump and a howl, fx7 a car radio tuning in, fx8 the till."""
-    b = bill(); ticks = [("fx4", t + ov.CHIP_IN + ov.CHIP_HOLD, 0.35, -5) for t, _ in b['steps']]     # the counter's tick, quieter
-    return [("fx1", on("C1", 0.6)), ("fx2", on("C2", 2.95)), ("fx3", on("C4", 0.4), 6.5), ("fx4", on("C5", 3.9)),
-            ("fx4", on("C6", 0.15), 0.6, -3), ("fx5", on("C7", 2.1)), ("fx4", on("C9", 1.0), 0.6, -2), ("fx6", on("C10", 1.4)),
-            ("fx7", on("C11", 0.6)), ("fx8", b['final'] + 0.15)] + ticks
-BED, BED_UNDER, FX_UNDER = 'bed', 17.0, 11.0     # dB under the voice by active RMS; then set by under_the_voice.py (18-22 dB)
+    """(file stem in audio/, start time, optional cut length, optional level offset dB, optional low-pass Hz). The files are
+    cut by 16-sound.py from what Higgsfield's sound model returned; event times are read off the clips (16-jobs.tsv).
+    fx1 ten bulb ticks, fx2 the breaker's clunk, fx3 rain, fx4 a click, fx6 a bass thump, fx7 radio static, fx8 the till.
+    (fx5, the pixels' shimmer, came back as low thumps and is left out.)"""
+    b = bill(); ticks = [("fx4", t + ov.CHIP_IN + ov.CHIP_HOLD, None, -6) for t, _ in b['steps']]     # the counter's tick, quieter
+    return [("fx1", on("C1", 0.25)),                        # the string clips itself up and the bulbs come on
+            ("fx2", on("C2", 2.95)),                        # the blackout
+            ("fx3", on("C4", 0.4)),                         # the rain, through to the outlet tripping
+            ("fx4", on("C5", 3.3), None, 2),                # the outlet's button pops
+            ("fx4", on("C6", 0.10), None, -2), ("fx4", on("C6", 0.22), None, -3), ("fx4", on("C6", 0.34), None, -2),   # the boxes snap shut
+            ("fx4", on("C9", 1.0)),                         # the injection joint clicks in
+            ("fx6", at("B14", "music", -0.05), None, -3), ("fx6", at("B14", "music", 0.55), 0.8, -5),   # the music, heard from the street
+            ("fx7", on("C11", 0.6), None, 3),               # a car's radio comes on
+            ("fx8", b['final'] + 0.15)] + ticks             # the till, as the total grows
+BED, BED_UNDER, FX_UNDER = 'bed', 15.0, 11.0     # dB under the voice by active RMS; set by under_the_voice.py (18-22 dB):
+                                                 # 17 measured 23 dB under in the quiet moments, 15 measured 21
+POST_GAIN, LIMIT = 0.6, 0.79                     # after loudnorm: Harrison's voice is dense, and the +2.6 dB / 0.84 that suited
+                                                 # Daniel gave -12.1 LUFS with the AAC peaks over 0 dB; this gave -13.9 LUFS
+                                                 # and a true peak of -2.0 dB on the final
 
 def mix(t0, t1, out, voice_only=False):
     voice = 'audio/narration_tight.wav'; v_db = rms_db(voice); T = t1 - t0
@@ -428,7 +439,7 @@ def mix(t0, t1, out, voice_only=False):
             fc.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,{trim}volume={g:.2f}dB,adelay={d_ms}|{d_ms}[f{k}]")
             parts.append(f'[f{k}]'); k += 1
     fc.append(''.join(parts) + f"amix=inputs={len(parts)}:normalize=0:duration=first,atrim=0:{T:.3f},"
-              f"loudnorm=I=-14:TP=-1.5:LRA=11,volume=2.6dB,alimiter=limit=0.84:level=false,aresample=48000[a]")
+              f"loudnorm=I=-14:TP=-1.5:LRA=11,volume={POST_GAIN}dB,alimiter=limit={LIMIT}:level=false,aresample=48000[a]")
     run(inputs + ['-filter_complex', ';'.join(fc), '-map', '[a]', '-ac', '2', '-c:a', 'pcm_s16le', out])
 
 def render(run_segs, tag, card=False):

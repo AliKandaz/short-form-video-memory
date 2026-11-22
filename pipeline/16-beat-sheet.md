@@ -7,8 +7,9 @@ bill is `16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat 
 of this file. **Gate B approved by the user on 21 Nov 2026** ("approve": the quote of 199.81). The stills are made and
 logged below. **Gate C approved by the user on 21 Nov 2026** ("aprove": the stills, the dog and the dusk look). **Gate D
 approved on 21 Nov 2026** ("approve": the pilots; the hook kept, with the edit's fix). All 13 clips are made, every one on
-the first try, and the picture is assembled with every overlay as a silent preview (the end of this file). **What is
-left is the sound:** the narration and the bed and effects wait for ElevenLabs credits (34 left) and the voice pick.
+the first try. **The video is finished (22 Nov 2026):** narrated by Harrison and with its bed and effects, all through
+Higgsfield (the user's choices), 68.1 s with the end card, 197.99 credits of the 199.81 quoted. The log of every step is
+below; the last section has the final's numbers and links.
 
 ## Gate A
 
@@ -445,3 +446,65 @@ credits: 5.52 a take for this script (`estimate_audio_cost`), 1.15 for a short a
 voices (a different list from ElevenLabs' library; their previews can't be fetched from a session). Two takes would bring
 the video to 184.79, inside the 199.81 quoted. It is a new line in the quote, so it waits for the user's word. Sound
 effects there (`mirelo_text_to_audio`, 5.00 for 20 s) are marked for the game pipeline and are untested.
+
+## The voice and the sound, through Higgsfield (22 Nov 2026)
+
+**The user's choices** (asked on 22 Nov 2026, with the silent preview): "Use Higgsfield for the voice", then, after three
+auditions, narrator **Harrison** and "Higgsfield sound".
+
+- **Higgsfield's "Marcus" is not ElevenLabs' "Marcus".** One audition take (1.15 credits) was compared with the ElevenLabs
+  Marcus samples by voice print (`pipeline/analysis/voiceprint.py`): 0.59–0.62, where two takes of the same voice score
+  0.80 and ElevenLabs' Marcus against Todd 0.75–0.81. Its pitch is lower (131 Hz against 144–162).
+- **The 45 male presets were screened** in the Higgsfield sandbox, where their preview files can be fetched (they can't from
+  a session): voice print against the ElevenLabs Marcus, median pitch, pitch range, brightness. Nearest by voice print:
+  Marcus 0.52, Bram 0.50, then Alexey, Julian, Caspian, Ken, Harrison 0.35.
+- **Three auditions** of the video's first lines (41 words; 3.45 credits) went to the user:
+
+  | Voice (Higgsfield preset) | Length | Pace, raw | Median pitch | Pitch range | Brightness | Like ElevenLabs' Marcus |
+  |---|---|---|---|---|---|---|
+  | Marcus `6f98d3dd-324f-4845-8c28-c1d1647a06cd` | 14.4 s | 2.84 w/s | 131 Hz | 13.1 st | 909 Hz | 0.62 |
+  | **Harrison `573e5163-59b3-4926-aab1-951ef2985f81`** (picked) | 13.6 s | 3.01 w/s | 144 Hz | 16.7 st | 1,446 Hz | 0.41 |
+  | Bram `549ff70a-3ee7-4f04-a4d9-89a24fab7709` | 13.5 s | 3.04 w/s | 195 Hz | 15.4 st | 1,679 Hz | 0.48 |
+
+- **The narration:** two takes of the whole script, `elevenlabs_v4` through Higgsfield, 5.52 credits each (11.04). Take A
+  77.56 s raw (2.89 words a second), take B 76.04 s. Whisper (`small.en`, in the sandbox) found take A word for word and a
+  stray sound after "outlet" in take B ("it."), so **take A** is used: pauses tightened to 0.15 s, then `atempo` 1.1: 65.69 s,
+  3.41 words a second. Both takes read "The bill:" with a rise, like a question; it works as a question and its answer.
+- **The sound:** `mirelo_text_to_audio`, nine sounds, 39 s, 9.75 credits (0.25 a second). None was listened to; each was
+  measured and cut to the part that is the sound asked for (`16-sound.py` lists what came back): the bed's first 10 s as a
+  seamless loop (its last 6 s are 5 dB louder), ten ticks built from the one click "bulbs ticking on" returned, the first
+  of the breaker's four clunks, the rain whole, the click, the bass thump (no howl came with it), faint radio static and
+  the till's first bell. The pixels' shimmer came back as low thumps and is left out.
+- **The mix:** bed 21 dB under the voice in the quiet moments (`BED_UNDER` 15; 17 measured 23), effects 11 dB under,
+  −13.9 LUFS, true peak −2.0 dB. The first mix, with the gain that suited Daniel's voice, came out at −12.1 LUFS with the
+  AAC peaks over 0 dB; the gain after `loudnorm` went from +2.6 to +0.6 dB and the limiter from 0.84 to 0.79.
+
+## The final (22 Nov 2026)
+
+**68.08 s** (66.58 s and the 1.5 s street card), 1080×1920, 30 fps, H.264 and AAC, −13.9 LUFS. The premise ends, and the
+first "But" lands, at **3.73 s**. No line lost its clip: 13 clips, 13 lines.
+
+| | Camera moving | Parallax | Big-move seconds | Longest still camera | Picture moving |
+|---|---|---|---|---|---|
+| Reference (Hidden By Design's power lines) | 66% | 0.46 px | one in four | 5 s | 70% |
+| Video 16, final | **84%** | 0.18 px | 15 of 67 (one in four and a half) | 3 s | **82%** |
+
+The parallax is under its 0.3 px target (three clips have a camera made in the edit, a zoom with no depth), and the tool
+reads no big move in the last 21 s because it scores the pull-back from the sign as parallax. Captions 57 px, 75% down
+(78% in the closing shot, clear of the dog). With the real narration the clips play at 0.81–1.07× (C10 whole at 1.65×, C6
+at 0.81× after its 0.3 s hold).
+
+**Credits** (`transactions`, 22 Nov 2026): stills 21.25 (17 tries), clips 152.50 (13 clips, no re-render), auditions 3.45,
+narration 11.04, sound 9.75: **197.99 of the 199.81 quoted**; the balance is 707.01. ElevenLabs: nothing spent (two test
+lines failed for lack of credits, at no cost).
+
+**Files** (Higgsfield storage; the links open in a browser, not from a session):
+- final: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/a28f4631-2293-409a-9826-b46a5fe85f65.mp4
+- voice only: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/f50c94df-d6ce-4fba-900f-44619fe452b6.mp4
+- clean master (full sound; no captions, labels, counter or pointers; the sign's words are part of the picture):
+  https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/c3b51b0e-9bc0-467f-8bec-5d83142a9a43.mp4
+- in the repo: `16-words-takeA.json` (word times), `16-plan.json`, `16-timeline.json`, `16-covers/`, `16-post-copy.md`,
+  `street/16.jpg`, `16-first-2s.jpg`, `16-preview-sheet.jpg`.
+
+**Not checked, because it can't be from here:** how the voice and the sounds sound. Everything about the audio above is
+measured, not heard.

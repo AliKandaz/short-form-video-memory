@@ -87,3 +87,9 @@ SND.fx5	a4b445c8-ba22-4012-942a-ae1d278fbf80	3 s: the pixels shimmer
 SND.fx6	f24f06be-9ea8-4bf7-9e34-376a67aa52df	3 s: muffled thump and a howl
 SND.fx7	529a804a-ed8d-4bab-b2ff-44ad15606535	3 s: a car radio tuning in
 SND.fx8	87bae831-ad75-4e75-969a-927a8197ec55	2 s: the till
+# accepted: narration take A (take B has a stray sound after "outlet"); the sound as cut by 16-sound.py (fx5 left out)
+NARR	4d1e2545-f4d6-4965-82cc-a2657277e13f	accepted (take A): 77.56 s raw, x1.1 after tightening = 65.69 s
+# final uploaded 22 Nov 2026 (Higgsfield storage media ids): 68.08 s, 197.99 credits in all
+FINAL	a28f4631-2293-409a-9826-b46a5fe85f65	final.mp4
+VOICEONLY	f50c94df-d6ce-4fba-900f-44619fe452b6	final_voiceonly.mp4
+CLEAN	c3b51b0e-9bc0-467f-8bec-5d83142a9a43	final_clean.mp4

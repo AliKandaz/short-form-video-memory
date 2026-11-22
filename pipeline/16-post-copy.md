@@ -1,5 +1,8 @@
 # 16 How to Turn Your House Into a Christmas Light Show: post copy
 
+Final (22 Nov 2026, 68.1 s with the end card): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/a28f4631-2293-409a-9826-b46a5fe85f65.mp4
+Voice only: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/f50c94df-d6ce-4fba-900f-44619fe452b6.mp4
+
 The first build-format video (B3). Post early evening, US Eastern, the same day on both platforms, by about Sat 5 Dec 2026;
 at most one video a day. s2-01 (the chicken-coop cabin) is still waiting for a day of its own before this one.
 
@@ -47,8 +50,10 @@ transmitter to get there. Guess the bill before the end, and name the dog. Rough
 
 Audience: No, it's not made for kids. Altered or synthetic content: leave unticked (a yard sliced open like a cake can't be
 taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program). The captions run
-without a break, so pick a frame whose word fits the picture; the frames are listed with the final video's times when the
-narration is in. Pin the comment question; reply to every comment in the first day.
+almost without a break, so pick a frame whose word fits the picture: **61.1–61.3 s, "SHOW" on the finished light show with
+the dog in his antlers (recommended: it is the title's picture)**; or 34.7–35.4 s, "PIXELS" twice (label and caption) on the
+house outlined in colour, seen from above. The one caption-free stretch is 65.4–66.5 s, the finished show under the big
+$2,107, which gives the bill away. Pin the comment question; reply to every comment in the first day.
 
 Facts behind the replies (checked 21 Nov 2026 through search summaries; the sellers' and agencies' pages can't be opened from
 a session, so the three biggest lines of the bill are worth a look in a browser: `16-bill.md` has the links): a 100-count

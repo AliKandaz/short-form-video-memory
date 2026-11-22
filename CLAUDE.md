@@ -64,32 +64,37 @@ explainer plan of 18 Nov 2026, which stopped after four videos (2.6).
 7. The look doesn't change unless the user asks (21 Nov 2026). Labels, the price counter and the end card are overlays added in
    the edit (5); they are never asked of the image or video models.
 
-**Status on 21 Nov 2026 (read this first):**
-- **The build format is decided, and video 16's picture is finished; it waits for its sound** (22 Nov 2026). The user chose
-  B3 as the first build video ("How to Turn Your House Into a Christmas Light Show"; post by about Sat 5 Dec 2026) and
-  approved all four gates (A the script of 224 words, the dusk set and the dog; B the quote, 199.81 with the reserve; C the
-  15 stills; D the pilots). **All 13 clips came back usable on the first try: 173.75 credits spent** (stills 21.25, clips
-  152.50), no re-render, the reserve of 26.06 untouched. The picture is assembled with every overlay (labels, the counter
-  to $2,107, pointers, "TUNE TO 88.7 FM" on the yard sign, the street card) as a **silent preview of 66.4 s with estimated
-  word times**: camera moving 86%, picture moving 80%, parallax 0.17 px (`pipeline/16-preview-sheet.jpg`,
-  `16-first-2s.jpg`; the log is the end of `16-beat-sheet.md`). Covers, post copy and the street tile are made
-  (`16-covers/`, `16-post-copy.md`, `street/16.jpg`). **Left: the narration and the sound**, then the free steps
-  (`16-timing.py A|B`, `16-build.py`, the uploads, the log in 9.2). Both wait for ElevenLabs credits (next bullet) and the
-  voice pick; the same voice model through Higgsfield is priced at 5.52 credits a take and not used (6.0).
-- **ElevenLabs is out of credits:** 34 left on 21 Nov 2026 after one audition take, and still 34 on 22 Nov at 15:35 UTC
-  (a 78-credit test line failed both days; a failed run costs nothing); the quota shown is 30,354 (7.7). Video 16 needs
-  1,161 for one take of its narration (2,322 for two) and about 137 for the sound, so nothing can be voiced until the quota
-  renews or the user tops it up.
-- **The narrator is changing** (the user, 21 Nov 2026: "proceed with a different voice"). One audition take was made, Marcus
-  (5); the other two voices failed for lack of credits. Marcus is the stand-in until the user picks by ear.
-- **Higgsfield: 731.25 credits** on 22 Nov 2026 after video 16's stills and clips (`balance`; 905.00 before the video):
-  three more videos at the cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). `kling4_0`
-  costs 2.50 a second at 720p since 21 Nov 2026 (6.0).
+**Status on 22 Nov 2026 (read this first; each bullet carries its own date):**
+- **Video 16, the first build video, is finished and not posted** (22 Nov 2026): "How to Turn Your House Into a Christmas
+  Light Show" (B3), 68.1 s with the street card, narrated by Harrison, with a bed and effects. The user approved all four
+  gates (A the script of 224 words, the dusk set and the dog; B the quote, 199.81 with the reserve; C the 15 stills; D the
+  pilots), then chose the voice route and the narrator (next bullets). **197.99 Higgsfield credits of the 199.81 quoted**
+  (stills 21.25; clips 152.50, all 13 usable on the first try; auditions 3.45; narration 11.04; sound 9.75); nothing on
+  ElevenLabs. The premise ends and the first "But" lands at 3.73 s; camera moving 84%, picture moving 82%, parallax
+  0.18 px (under the 0.3 target, 7.4); −13.9 LUFS, the bed 21 dB under the voice; the bill $2,107. The final, the
+  voice-only version and the clean master are in 9.2; covers, post copy and the street tile are made
+  (`pipeline/16-covers/`, `16-post-copy.md`, `street/16.jpg`); the log of every step is `16-beat-sheet.md`. **To do: post
+  it by about Sat 5 Dec 2026**, early evening US Eastern, the same day on both platforms, after s2-01 has had a day of its
+  own (below); then log the 24 h and 72 h reads (8.4, 9.2). **Its audio was measured, never heard** (12.3): the user
+  should play it once before posting. It runs 68 s, not 62–64, because Harrison reads slower than Daniel did and the clips
+  were already made (7.5).
+- **ElevenLabs is still out of credits:** 34 left on 21 Nov 2026 after one audition take, and still 34 on 22 Nov at 15:35
+  UTC (a 78-credit test line failed both days; a failed run costs nothing); the quota shown is 30,354 (7.7). **So video
+  16's voice and sound went through Higgsfield, at the user's word** (22 Nov 2026: "Use Higgsfield for the voice", then
+  "Higgsfield sound"): the same voice model (`elevenlabs_v4`) at 5.52 credits a take of the whole script, and
+  `mirelo_text_to_audio` for the sound at 0.25 a second (6.0). From now on a build video's quote carries both (6.1).
+- **The narrator is locked: Harrison** (the user, 22 Nov 2026, chosen from three audition takes): Higgsfield preset voice
+  `573e5163-59b3-4926-aab1-951ef2985f81`, model `elevenlabs_v4` through Higgsfield (5). Higgsfield's presets are not
+  ElevenLabs' library: its "Marcus" is a different voice from the ElevenLabs Marcus auditioned on 21 Nov (7.5).
+- **Higgsfield: 707.01 credits** on 22 Nov 2026 after video 16 (`balance`; 905.00 before it): three more videos at the cap
+  before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). `kling4_0` costs 2.50 a second at 720p
+  since 21 Nov 2026 (6.0).
 - **Video 15 is posted** ("Why This NFL Field Is Sitting on 546 Wheels"; found on 21 Nov 2026 at 22:00 UTC): TikTok on 21 Nov
   at 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14; YouTube the same evening. At about 20 h: 302 views on
   TikTok (16 likes, every tag registered) and 4 on YouTube (9.1, 9.2).
-- **Finished and not posted:** style 2's s2-01 (`pipeline/s2-01-post-copy.md`); it is on neither main account. Post it on a
-  day of its own, before video 16.
+- **Finished and not posted:** style 2's s2-01 (`pipeline/s2-01-post-copy.md`) and video 16 (`pipeline/16-post-copy.md`).
+  s2-01 was on neither main account on 21 Nov 2026 at 22:00 UTC (not read since). Post s2-01 on a day of its own, then
+  video 16 on another.
 - **Still owed by the user, the in-app checks** (asked on 21 Nov 2026, not reported yet): YouTube Studio → Content → the
   Restrictions column, and youtube.com/features (strikes); TikTok → Settings and privacy → Account → Account status. Neither
   account is banned as far as public pages show (1.6): TikTok shows no restriction; YouTube looks held back at the channel
@@ -356,10 +361,10 @@ about, and this is the sixth change since 6 Nov 2026.
 ### 2.2 Before the first build video (free unless marked)
 1. **Post what is finished:** style 2's s2-01, on a day of its own (`pipeline/s2-01-post-copy.md`). Video 15 went up on
    21 Nov 2026 (9.2).
-2. **ElevenLabs credits:** 34 left on 21 Nov 2026 (7.7). Nothing can be voiced until the quota renews or is topped up; check
-   it at Step 0 and again at Gate B.
-3. **The narrator** (5): the user picks by ear. Marcus's audition take exists; the other two candidates still need one take
-   each (about 200 ElevenLabs credits a take) or the user can play their previews in ElevenLabs' voice library.
+2. **ElevenLabs credits:** 34 left on 21 and 22 Nov 2026 (7.7). **Settled on 22 Nov 2026:** the voice and the sound go
+   through Higgsfield (6.0), so ElevenLabs no longer holds a video up; if its quota renews, the sound can go back there.
+3. **The narrator** (5): **done on 22 Nov 2026.** The user chose Harrison, a Higgsfield preset voice, from three audition
+   takes.
 4. **The in-app checks** still owed (section 0). They decide where the build videos go on YouTube (1.6).
 5. **The TikTok handle and the profile wording** (8.3).
 6. **The dog** (4.5): his look is agreed in words at video 16's Gate A and fixed at its Gate C by one still (1.25 credits,
@@ -373,7 +378,7 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 |---|---|---|---|---|
 | B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
 | B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
-| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: all four gates approved, the picture finished, waiting for its narration (22 Nov 2026)** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
+| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: finished on 22 Nov 2026 (68.1 s, 197.99 credits), not posted yet** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
 | B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
 | B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
 | B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
@@ -383,11 +388,13 @@ YouTube with both title shapes (12.2). Check again at each Gate A: objects are b
 | B10 | How to Turn Your Garage Into a Fire Station | a red truck backs into the garage | weak on the search page (15K); fire trucks carry enthusiast channels (448K–705K, 1.6); no build video found | the set is a building cut open, our look's best case |
 
 ### 2.4 Budget and cadence
-- **At most 200 Higgsfield credits a video** (6.1). The balance was 905.00 on 21 Nov 2026 and 731.25 on 22 Nov after video 16's stills and clips:
-  three more videos at the cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date). Keeping the look
-  keeps the cost: about 80% of a video is clips. A cheaper clip model would stretch the balance, only if the look holds and
-  only if the user says so (6.1).
-- **ElevenLabs is the other limit** (2.2): about 1,400–1,540 credits a narration take and about 130 for the sound.
+- **At most 200 Higgsfield credits a video** (6.1). The balance was 905.00 on 21 Nov 2026 and 707.01 on 22 Nov after video
+  16 (197.99): three more videos at the cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date).
+  Keeping the look keeps the cost: about 80% of a video is clips. A cheaper clip model would stretch the balance, only if
+  the look holds and only if the user says so (6.1).
+- **The voice and the sound are inside that cap now** (22 Nov 2026): Harrison is a Higgsfield voice (5.52 credits a take)
+  and the sound was made there too (0.25 a second), so the standard plan gives up a few seconds of clips for them (6.1).
+  ElevenLabs (34 credits left) is no longer needed for a video.
 - **One video every one to two days** as credits allow; early evening, US Eastern, on both platforms (8). Fixed date: B3 by
   about Sat 5 Dec 2026.
 
@@ -415,7 +422,8 @@ this file at commit `a9abd35`.
 ## 3. The ten build ideas (proposed 21 Nov 2026; the user picks, and Gate A settles each)
 
 All ten are in the lane of section 2 and the format of section 4. Order and timing are in 2.3. B1–B4 have a full draft script
-(about 220 words); B5–B10 have the ladder a script is written from. Facts and prices marked ⚠ are unchecked and every one is
+(about 220 words, written before the narrator was chosen: trim to about 210 at Gate A, 4.3); B5–B10 have the ladder a
+script is written from. Facts and prices marked ⚠ are unchecked and every one is
 checked before Gate A (rule 4); a bill lists what gets a price, never a made-up figure. No line below comes from a reference
 account.
 
@@ -834,9 +842,11 @@ comment question goes in the caption or a pinned comment (8.1), never in the voi
 - **Write for the set and the camera** (carried over): every line is something you can see happen on the one sliced-open
   set, and each problem and fix has its own spot, so the camera has somewhere to fly on every "But" and "So". At least two
   fixes are under the ground or inside a wall, where our cutaway shows them and theirs doesn't.
-- **Length: about 220 words** (215–225): 62–64 s at about 3.5 words a second once the pauses are tightened, which is what the
-  200-credit cap buys (6.1). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute). Their median is
-  216 words in 70 s. The new narrator's pace is measured on its first full take (7.5) and the word count follows it.
+- **Length: about 210 words for Harrison** (205–215; 22 Nov 2026): 62–64 s at his 3.41 words a second once the pauses are
+  tightened and the take plays at 1.1×, which is what the 200-credit cap buys (6.1). The rule was "about 220 words" for
+  Daniel's 3.5 words a second; video 16's 224 words, written to it before the narrator was chosen, made 66.6 s before the
+  card (7.5). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute). Their median is 216 words in
+  70 s.
 - **Nothing a child could copy and get hurt:** the naive step is harmless or plainly make-believe, and a danger is shown as
   the "But", never as the instruction. TikTok keeps "activities that may lead to moderate physical harm" off the For You
   feed.
@@ -966,22 +976,29 @@ prompts still say "No text"). Besides the caption and the counter, one at a time
 - **The caption may sit lower for one shot** (video 16, the last two beats, 78% down): when the dog or the subject ends up
   on the caption's usual line, move the caption inside the safe box rather than cover him (`CAP_Y_AT`).
 - These sizes were checked on a phone-sized sheet at video 16's Gate D (21 Nov 2026: `pipeline/16-gateD-overlays.jpg`,
-  drawn by `16-overlays.py`) and corrected above. Look at them once more on the first finished build video.
+  drawn by `16-overlays.py`) and corrected above. Seen again on the finished video 16 (22 Nov 2026,
+  `pipeline/16-preview-sheet.jpg`): the counter, the labels, the closing total and the card sit where this spec says.
 
 **Sound (approved 15 Nov 2026: "yes on the sound").** A quiet, steady bed that fits the place, with no tune, about 19 dB under the
 voice for the whole video; four to eight short effects on the moments where something visibly happens, about 11 dB under the voice;
 no music, never a copyrighted or trending track. Keep a voice-only master too. In a build video the counter's tick and the
 till on the final bill are two of those effects (21 Nov 2026). Check with `under_the_voice.py`: the quietest
-moments 18–22 dB under the voice.
+moments 18–22 dB under the voice. **From video 16 (22 Nov 2026) the bed and the effects are made on Higgsfield** (the user:
+"Higgsfield sound"; 6.0, 6.2 Step 6b); video 16's bed sits 21 dB under the voice.
 
-**Narrator (changing; 21 Nov 2026).** The user: "proceed with a different voice." Daniel ("Daniel's Voice - Warm, Low,
-Confident", voice_id `rFhx8PVgXxOyaeAGq9fq`, locked 7 Nov 2026) narrated videos 01–15 and is retired for the build format.
-**The stand-in until the user picks by ear is Marcus** ("Marcus - Bright, Upbeat and Clear", ElevenLabs library, voice_id
-`y0s2ExEMuum3muUnA6Zd`, model `eleven_v4`): one audition take exists (ElevenLabs flow `Idb5dUzpF2h6h736llXR`; 39 words in
-12.0 s, 3.3 words a second raw; median pitch about 148 Hz). **Two more candidates** failed for lack of credits and still need a
-take: Todd ("Todd - Clear, Engaging and Educational", `g14YnDYCsy3k7XLlcKlO`) and Hope ("Hope - upbeat and clear",
-`tnSpp4vdxKPjI9w0GnoV`, the nearest in pitch to @whatifplus's narrator, which measures about 185 Hz). When the user has picked,
-write the voice here as locked, with the date. One continuous take of the whole script.
+**Narrator (locked 22 Nov 2026): Harrison.** The user on 21 Nov 2026: "proceed with a different voice"; on 22 Nov 2026 they
+chose Harrison from three audition takes of the video's first lines. **Harrison is a Higgsfield preset voice, voice_id
+`573e5163-59b3-4926-aab1-951ef2985f81`, read by the model `elevenlabs_v4` through Higgsfield** (6.0). He is not in ElevenLabs'
+library, so the narration is made on Higgsfield and costs Higgsfield credits (5.52 a take of video 16's script). Measured on
+his audition and on video 16: median pitch about 144 Hz; 2.9–3.0 words a second raw, 3.41 once the pauses are tightened and
+the take is played at 1.1× (7.5). One continuous take of the whole script. Daniel ("Daniel's Voice - Warm, Low, Confident",
+ElevenLabs voice_id `rFhx8PVgXxOyaeAGq9fq`, locked 7 Nov 2026) narrated videos 01–15 and is retired for the build format.
+**The voices tried on the way, for the record:** ElevenLabs' Marcus ("Marcus - Bright, Upbeat and Clear",
+`y0s2ExEMuum3muUnA6Zd`; one audition take on 21 Nov 2026, flow `Idb5dUzpF2h6h736llXR`, 3.3 words a second raw, about 148 Hz),
+whom the user first named when asked on 22 Nov; ElevenLabs' Todd (`g14YnDYCsy3k7XLlcKlO`) and Hope (`tnSpp4vdxKPjI9w0GnoV`),
+which never got a take for lack of credits; and, on Higgsfield, "Marcus" (`6f98d3dd-324f-4845-8c28-c1d1647a06cd`, which
+turned out to be a different voice from ElevenLabs' Marcus, 7.5) and Bram (`549ff70a-3ee7-4f04-a4d9-89a24fab7709`).
+@whatifplus's narrator measures about 185 Hz.
 
 **Format:** 9:16, 1080×1920, 30 fps, H.264 + AAC, about −14 LUFS. Kling clips at 720p are upscaled with a light sharpen (6.2 Step 9).
 
@@ -1006,9 +1023,9 @@ ending (21 Nov 2026, with the explainers).
 | Clips | `generate_video` / `generate_video_batch`, **`kling4_0`** | `mode:"image-to-video"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, ordered middle frames in `image_references` | **2.50 a second at 720p, 3.75 at 1080p** (from 21 Nov 2026; 2.25 and 3.25 before) |
 | Price checks | `estimate_image_cost`, `estimate_video_cost` (used for video 11 on 18 Nov 2026), or `get_cost:true` | one call per model, resolution and duration | free |
 | Other clip models (priced 20 Nov 2026; none tested in our pipeline) | `wan2_7` (2–15 s, own sound, start and end frames), `veo3_1_lite` (4, 6 or 8 s), `kling3_0`, `seedance_2_0`, `seedance_2_5`, `grok_video_v15_lite`, `kling_4_0_flash` | 720p, 9:16 | Wan 2.7 1.5 a second; Veo 3.1 Lite 6 a 4 s clip, sound or not; Kling 3.0 2 a second; Seedance 2.0 4.5 (3 at 480p); Seedance 2.5 7; Grok 1.5 Lite 1 (no sound); Kling 4.0 Flash 9 a 3 s clip. `kling4_0` bills at least 3 s (2 s is clamped to 3). Stills: `gpt_image_2_6` medium 1k 0.5 |
-| Narration | ElevenLabs `creative_generate_speech`, `eleven_v4`, the narrator named in 5 (the quota ran out on 21 Nov 2026: 7.7) | `estimate_only:true` first | about 1 ElevenLabs credit a character: 1,400–1,540 a take |
-| Narration through Higgsfield (priced 21 Nov 2026, never used; needs the user's word, because it spends Higgsfield credits outside the quote's lines) | `generate_audio`, `elevenlabs_v4`: `dialogue` = one turn with the whole script, `voice_type:"preset"` and a `voice_id` from `list_voices` (Higgsfield's own presets, not ElevenLabs' library; their previews are on hosts a session can't reach) | `estimate_audio_cost` first | 5.52 a take for video 16's 1,161 characters; 1.15 for a 215-character audition; sound effects (`mirelo_text_to_audio`, marked "game pipeline only") 5.00 for 20 s, untested |
-| Sound bed and effects | ElevenLabs flow: one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`), then one `creative_run_flow_nodes` | `estimate_only:true`, then `generations_count:1` | about 3.33 ElevenLabs credits a second of sound (the estimate prices each effect at its default length and overstates: budget from the durations) |
+| Narration (from video 16, 22 Nov 2026; the user: "Use Higgsfield for the voice") | Higgsfield `generate_audio_batch`, one request a take: `model:"elevenlabs_v4"`, `dialogue` = one turn with the whole script, `voice_type:"preset"`, `voice_id` = the narrator's (5), `batch_size:1`. The presets are listed by `list_voices`; they are Higgsfield's own, not ElevenLabs' library | `estimate_audio_cost` first; inside the video's quote (6.1) | **5.52 a take** of video 16's 1,161 characters; 1.15 for a 215-character audition |
+| Sound bed and effects (from video 16, 22 Nov 2026; the user: "Higgsfield sound") | Higgsfield `generate_audio_batch`, one request a sound: `model:"mirelo_text_to_audio"`, `prompt`, `duration` in seconds (1 to 16 used). The model list marks it "game pipeline only"; it ran as an ordinary audio job | `estimate_audio_cost` first; inside the video's quote (6.1) | **0.25 a second** (video 16: nine sounds, 39 s, 9.75). What comes back is only roughly what was asked: measure and cut every file (7.5, `16-sound.py`) |
+| Narration and sound on ElevenLabs (videos 08–15; out of credits since 21 Nov 2026, 7.7, and Harrison is not in its library) | `creative_generate_speech` with `eleven_v4`; the sound as one flow with one `creative_add_flow_node` per sound (`node_type:"sfx"`, `model_id:"eleven_text_to_sound_v2"`), then one `creative_run_flow_nodes` | `estimate_only:true`, then `generations_count:1` | about 1 ElevenLabs credit a character (1,400–1,540 a take); about 3.33 ElevenLabs credits a second of sound (the estimate prices each effect at its default length and overstates: budget from the durations) |
 | Word timings | Higgsfield `sandbox_exec`, faster-whisper `small.en` | `background:true` (foreground calls time out at ~60 s) | free |
 | Word timings, on this machine (21 Nov 2026) | `pipeline/analysis/transcribe.py` (sherpa-onnx with the Parakeet model from GitHub releases; 7.7) | one-time setup of about 30 s | free; about 5 s a narration; word starts only (6.2 Step 6) |
 | Assembly, captions, mix | local ffmpeg with libass, zoompan, xfade | — | free |
@@ -1019,7 +1036,8 @@ ending (21 Nov 2026, with the explainers).
 ### 6.1 Budget and credit rules (hard; the cap was set by the user on 18 Nov 2026)
 0. **At most 200 Higgsfield credits a video, the 15% reserve included** ("I want at most 200 credits per video", 18 Nov 2026).
    A plan that prices above 200 is cut before it is shown (shorter script, fewer positions, shorter clips), never shown as is.
-   ElevenLabs credits (narration and sound) are separate.
+   **Since 22 Nov 2026 the narration and the sound are Higgsfield credits and count toward the 200** (6.0); ElevenLabs
+   credits, if the sound is ever made there again, are separate.
 1. Script, beat sheet, prompts and the quote are free; do them first.
 2. Before Gate B, price the exact plan (one estimate per model, resolution and duration), add a **15% reserve**, show the total
    and the balance after it, and wait for approval. Stop and ask if a run will go more than 10% over its quote.
@@ -1042,21 +1060,30 @@ clips 144.00, two re-renders 20.25) against a 197.23 quote: held again. **Video 
 from 14 tries, 17.50; clips 144.00; no re-renders) against a 188.60 quote: fewer stills (11 for 9 positions) saved ~6 against the
 standard plan, and the reserve went unused. **Video 15** (21 Nov 2026, the first at 2.50 a second): 196.25 for 63.05 s (12 stills
 from 15 tries, 18.75; clips 152.50 for 61 s; two re-renders 25.00, both for the cut-ground leak outdoors, 7.2) against a 196.94
-quote.
+quote. **Video 16** (22 Nov 2026, the first build video, and the first with its voice and sound on Higgsfield): 197.99 for
+68.1 s (15 keyframes from 17 tries, 21.25; clips 152.50 for 61 s, no re-renders; three auditions 3.45; two narration takes
+11.04; nine sounds 9.75) against a 199.81 quote. The quote had no line for the voice or the sound: the reserve that no
+re-render used paid for them, with the user's word for each. That was luck, not a plan.
 
-**The standard plan under the cap (updated 21 Nov 2026 for kling4_0 at 2.50 a second; the 18 Nov plan was 64 s of clips, 144.00,
-and 27.50 of stills, 197.23 with the reserve):**
+**The standard plan under the cap (22 Nov 2026: the voice and the sound are Higgsfield credits now, so the clips give up
+about 4 s; it is priced again and approved at each Gate B. The 21 Nov plan was 61 s of clips, 152.50, and 18.75 of stills,
+196.94 with the reserve, and nothing for the voice or the sound):**
 
 | Item | Plan | Credits |
 |---|---|---|
-| Clips | every line a clip, 720p, about 61 s in total for a 62–64 s video (played at 0.9–1.1×; ~1 s under the lines) | 152.50 |
-| Stills | 7–8 camera positions and their stages: about 12 keyframes on screen, at most 15 tries | 18.75 |
-| Base | | 171.25 |
-| Reserve (15%) | one or two clip re-renders, a still retry | 25.69 |
-| **Quote** | | **196.94** |
+| Clips | every line a clip, 720p, about 57 s in total for a 62–63 s video (played at about 0.8–1.1×, as video 16's 61 s played over 66.6 s) | 142.50 |
+| Stills | 7–8 camera positions and their stages: about 12 keyframes on screen, at most 14 tries | 17.50 |
+| Narration | one take of the whole script (about 210 words for Harrison, 7.5) | 5.52 |
+| Sound | a 10 s bed (it is looped) and seven or eight effects, about 30 s in all | 7.50 |
+| Base | | 173.02 |
+| Reserve (15%) | a second narration take if the first fails its check (5.52), one or two clip re-renders, a still retry | 25.95 |
+| **Quote** | | **198.97** |
 
 - Spend the reserve only on what breaks; a run that has used it stops and asks before going further.
-- **Where the savings come from:** about 220-word scripts instead of 270 (4.3); clips planned at the length of their lines (6.1
+- **The voice and the sound are lines of the quote** (22 Nov 2026), never an afterthought paid from what is left. If the
+  ElevenLabs quota renews, the sound can go back there (about 130 ElevenLabs credits, outside the cap) and the clips get
+  their 3 s back; the narration can't, because Harrison is a Higgsfield voice.
+- **Where the savings come from:** about 210-word scripts instead of 270 (4.3); clips planned at the length of their lines (6.1
   rule 6) and played at 0.8–1.15× (`FULLFIT`); 7–9 positions instead of 9–12; the FLOOR line and middle keyframes up front so
   fewer clips are re-rendered (7.2); positions made from neighbours so fewer stills are retried (7.1).
 - **Not at the expense of the opening:** the hook clip is planned first and gets the most care (Rule 0). 1080p for the hook (+3–6)
@@ -1069,14 +1096,14 @@ and 27.50 of stills, 197.23 with the reserve):**
 
 ### 6.2 Step by step (build-format steps written 21 Nov 2026; Steps 4, 5, 6b, 7 and 8 as proven on videos 08–15)
 
-**Step 0: Start.** `balance` (and the plan's renewal date if the balance is low). The ElevenLabs credits: `account_get_usage`
-if the connector allows it (7.7); otherwise the narration estimate at Step 3 and a warning to the user that the quota ran out
-on 21 Nov 2026. Read the idea in section 3 and its ⚠ items. Re-fetch the two build accounts' lists (`PYTHONPATH=<dir> python3
--m yt_dlp --flat-playlist -J https://www.tiktok.com/@whatifplus`, and the same for `@youbuiltit`; 12.1) and drop the idea if
-either has made it since 21 Nov 2026.
+**Step 0: Start.** `balance` (and the plan's renewal date if the balance is low). The voice and the sound are made on
+Higgsfield since 22 Nov 2026 (Steps 6 and 6b), so ElevenLabs' credits matter only if the sound is to go back there (one
+probe line tells, 7.5; the quota ran out on 21 Nov 2026). Read the idea in section 3 and its ⚠ items. Re-fetch the two
+build accounts' lists (`PYTHONPATH=<dir> python3 -m yt_dlp --flat-playlist -J https://www.tiktok.com/@whatifplus`, and the
+same for `@youbuiltit`; 12.1) and drop the idea if either has made it since 21 Nov 2026.
 
 **Step 1: Script (free). GATE A.**
-- Start from the idea's draft script or ladder (section 3). Keep the formula (4.1), the opening rules (4.2) and about 220
+- Start from the idea's draft script or ladder (section 3). Keep the formula (4.1), the opening rules (4.2) and about 210
   words (4.3).
 - Fact-check every ⚠ with web search, prices included; cut what can't be checked. Write the bill (4.4) as
   `pipeline/NN-bill.md`: item, price, source, date read.
@@ -1105,13 +1132,12 @@ either has made it since 21 Nov 2026.
   (6.3 DOG).
 
 **Step 3: Quote (free). GATE B.**
-- `balance`; estimates for every still and clip length at 720p (and the dog key, 1.25, on the first build video); the
-  narration (`creative_generate_speech` with `estimate_only:true`) and the sound (by durations, ~3.33 a second; ElevenLabs
-  credits, outside the cap).
+- `balance`; estimates for every still and clip length at 720p; the narration (`estimate_audio_cost`, `elevenlabs_v4`, the
+  script's characters) and the sound (`mirelo_text_to_audio`, 0.25 a second, by durations). **All four are Higgsfield
+  credits and lines of the quote since 22 Nov 2026** (6.1).
 - **The quote with its reserve must be 200 or less** (6.1); if it isn't, cut before showing it.
-- Show: positions and stills, clips and seconds, the total with the reserve, the balance after, and the ElevenLabs estimate
-  against the credits left (if they are short, the stills and clips can still go ahead; the narration waits). **Wait for
-  approval.**
+- Show: positions and stills, clips and seconds, the narration and the sound, the total with the reserve and the balance
+  after. **Wait for approval.**
 
 **Step 4: Project and style key.**
 - `create_project` named `HBX – [title]` and reuse its folder on every generation.
@@ -1132,27 +1158,40 @@ either has made it since 21 Nov 2026.
   matching from every angle, the dog matching his key, and the first and last frames from the same position (the naive step
   and the finished build). (`15-flightmap.py` draws it.)
 
-**Step 6: Narration (can start right after Gate B, if ElevenLabs has the credits).**
-- The narrator named in section 5, the whole script as one continuous take; two takes come back; pick the one that reads
-  "So you…" straight through.
-- Pause tightening to 0.15 s (`15-timing.py`), then `atempo` up to 1.1 to reach about 3.5 words a second. Measure the new
-  voice's raw pace on its first full take and note it in 7.5 (Daniel's ran 2.9–3.3; Marcus's audition 3.3).
-- Word timings: faster-whisper `small.en` in the Higgsfield sandbox (background job, about a minute), with the rare words in
-  `initial_prompt`; the script supplies the text, Whisper only the timing. These timings replace the estimates.
-  `pipeline/analysis/transcribe.py` does it on this machine in about 5 s (7.7) but gives each word's start only, and
-  `15-timing.py` needs the ends for the pause tightening: for our own narration it is the fallback (take the pauses from
-  ffmpeg's `silencedetect`), not the default.
+**Step 6: Narration (after Gate B; on Higgsfield and inside the quote since 22 Nov 2026).**
+- The narrator named in section 5 (Harrison), the whole script as one continuous take: `generate_audio_batch`,
+  `elevenlabs_v4`, one request a take (6.0). Order one take, check it, and order a second only if it fails (video 16
+  ordered two at once: A was clean, B had a stray sound).
+- **The check and the word timings are one job:** faster-whisper `small.en` in the Higgsfield sandbox (background job,
+  about a minute; it reads the take's result URL directly), with the rare words in `initial_prompt`. A take passes when
+  Whisper returns the script word for word (an extra word is a stray sound, a missing one a swallowed word) and it reads
+  "So you…" straight through, with no pause after "So". The script supplies the caption text, Whisper only the timing;
+  these timings replace the estimates the silent preview was built on (`16-timing.py EST`).
+- Pause tightening to 0.15 s (`16-timing.py A|B [speed]`), then `atempo` up to 1.1. Harrison runs 2.9–3.0 words a second
+  raw and 3.41 after both (7.5; Daniel reached about 3.5), so the script is about 210 words (4.3).
+- `pipeline/analysis/transcribe.py` does the word times on this machine in about 5 s (7.7) but gives each word's start
+  only, and the timing script needs the ends for the pause tightening: for our own narration it is the fallback (take the
+  pauses from ffmpeg's `silencedetect`), not the default.
 
-**Step 6b: Sound.**
-- One ElevenLabs flow ("HBX NN [title]: sound"); one sfx node per sound with `model_parameters`
-  `{"duration_seconds": N, "loop": false, "prompt_influence": 0.5}` (`loop: true` for the bed, ~20 s); `estimate_only:true`; then the
-  same run with `generations_count:1`. Poll `creative_get_flow_run_status`; never run again to retry (it bills again).
+**Step 6b: Sound (after Gate B; on Higgsfield and inside the quote since 22 Nov 2026).**
+- One `generate_audio_batch`: one request a sound, `mirelo_text_to_audio`, a `prompt` and a `duration` (6.0): a 10 s bed
+  (it is looped in the mix), each effect at 1–3 s, a texture like rain at up to 7 s. Never submit again to retry (it bills
+  again).
 - Prompts name the sound, its texture and the space, no visual words ("Small metal flap swinging shut inside a plastic pipe, short
-  hollow clank"). A build video also needs the counter's tick (a short, dry click) and the till for the final bill.
+  hollow clank"). Ask for one plain sound a file: a run of ticks, or two sounds in one prompt, came back as one of them
+  (7.5). A build video also needs the counter's tick (a short, dry click) and the till for the final bill.
+- **Measure every file before it goes in the mix** (`16-sound.py` is the pattern): the level every 50 ms and the strongest
+  tones. Cut each file to the part that is the sound asked for, build a run from one good hit when the run didn't come,
+  and leave out what came back as something else. Make the bed a seamless loop (cross-fade its end into its start).
 - Mix: loop the bed (`-stream_loop -1`) with short fades; set levels from measured loudness on the mono fold-down (`rms_db()` in
   `08-build.py`): bed 19 dB and effects 11 dB under the voice; copy the mono voice to both channels (`pan=stereo|c0=c0|c1=c0`) and
   give every sound `aformat=channel_layouts=stereo` before `amix`. Place each effect's loud moment on its picture (measure the
-  frame), not just on the word.
+  frame), not just on the word. Then measure the result, not the settings: `under_the_voice.py` for the bed, and the
+  final's loudness and true peak (about −14 LUFS, under −1 dB; 7.5).
+- **On ElevenLabs** (videos 08–15; only if its quota is back and the user wants the sound there): one flow ("HBX NN
+  [title]: sound"); one sfx node per sound with `model_parameters` `{"duration_seconds": N, "loop": false,
+  "prompt_influence": 0.5}` (`loop: true` for the bed, ~20 s); `estimate_only:true`; then the same run with
+  `generations_count:1`. Poll `creative_get_flow_run_status`; never run again to retry (it bills again).
 
 **Step 7: Pilot clips. GATE D.**
 - Render two: **the hook** (frame 0 → the state at 1.0 s → the picture when the first "But" lands) and **one travel clip**
@@ -1259,7 +1298,11 @@ STREET (the end card from `pipeline/street/`). Write them into `16-build.py` as 
 yet, and the speed each already-rendered clip must play at), `16-overlays.py`, `16-build.py` (as 15's, plus LABELS and
 BILL from the narration's words, SIGN, STREET, RAMP, EASE_FROM, HOLD_START, CAP_Y_AT, REUSE, and a silent mode that runs
 when `audio/` holds no narration), `16-thumbnail.py` (a cover can carry the counter's pill), `16-post-copy.md`,
-`16-bill.md` and `16-beat-sheet.md` (the log of every step).
+`16-bill.md` and `16-beat-sheet.md` (the log of every step). **For the voice and the sound on Higgsfield (22 Nov 2026):**
+`16-timing.py A 1.1` (the real word times replace the estimates), `16-sound.py` (cuts the nine sounds Higgsfield returned
+into the bed and the effects the mix uses, and says what each file really held), the audio settings at the top of
+`16-build.py` (`BED_UNDER`, `FX_UNDER`, `POST_GAIN`, `LIMIT`) with `fx_list()` (each effect placed on its picture with
+`on()`, the counter's ticks from `bill()`), and `pipeline/analysis/voiceprint.py` (are two recordings the same voice; 7.5).
 
 **Start from video 15's set** (21 Nov 2026) and rename the prefix: `15-prompts.py` (AIRLOT names the lot whole in outdoor and
 aerial stills; named-key fixes like `HI0.C` and `TO0.B` with their own REFS), `15-mk.py`, `15-clips.py` (FLATLOT and AIRLOTC on
@@ -1505,10 +1548,12 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   shrinks (under 190 px wide, nothing). It runs on the segment before the overlays, so the clean master has the words too.
 - **`REUSE=1`** (video 16): the full build takes about 6.5 minutes now (zoompan passes, two encodes, the sign pass);
   with `REUSE=1` the segments in `seg/` are kept and only the overlays, the card and the mix are redone, about 3.5 minutes.
-- **Camera numbers of a video whose subject is small lights** (video 16): camera moving 86% and picture moving 80%, but a
-  median parallax of 0.17 px, because C1, C2 and C9 (14 s) have a camera made in the edit, which is a zoom with no depth.
-  The same happened on video 15 (five held clips, 0.17 px). The parallax target needs fewer change clips at one position,
-  not more push-ins (7.2: make them start-only).
+- **Camera numbers of a video whose subject is small lights** (video 16, the final): camera moving 84% and picture moving
+  82%, but a median parallax of 0.18 px, because C1, C2 and C9 (14 s) have a camera made in the edit, which is a zoom with
+  no depth. The same happened on video 15 (five held clips, 0.17 px). The parallax target needs fewer change clips at one
+  position, not more push-ins (7.2: make them start-only). `camera_path.py` also read no big move in the last 21 s, though
+  the camera flies to the sign and pulls back from it there: it scores a pull-back that turns to another view as parallax
+  (C12, 8.3 px), not as a move. Read a reported gap against the sheet before acting on it.
 
 ### 7.5 Narration and sound
 - Daniel's raw pace runs 2.9–3.3 words a second by take; pause tightening and `atempo` up to 1.1 bring it to ~3.5. Never speed it
@@ -1539,6 +1584,38 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   `estimate_only` doesn't warn, so send one line that costs more than the last known balance (78 credits for the closing
   line against 34 left). It fails at no cost if the quota is still short, and the failure message gives the balance. Do it
   once at Step 0 and once before the narration, not in a loop.
+- **Harrison's numbers** (video 16, 22 Nov 2026; Higgsfield, `elevenlabs_v4`): take A of 224 words ran 77.56 s raw (2.89
+  words a second), take B 76.04 s, the 41-word audition 3.01. Pauses tightened to 0.15 s and `atempo` 1.1 (the limit)
+  gave 65.69 s, 3.41 words a second: a 66.6 s video before the card, where Daniel's 3.5 would have made 64.9 s. **Write
+  about 210 words for him** (4.3), or plan the clips for 66 s. Both takes read "The bill:" with a rise, like a question;
+  kept, because it works as a question and its answer.
+- **Choose the take from Whisper's transcript** (video 16): `small.en` returned take A word for word, and take B with an
+  extra "it." after "outlet.", which is a stray sound in the audio. An extra or a missing word is the test; then look at
+  the pauses after "So".
+- **A voice with the same name is not the same voice** (22 Nov 2026): the user asked for "Marcus" and Higgsfield lists a
+  preset called Marcus. A voice print (`pipeline/analysis/voiceprint.py`: the CAM++ speaker model from the sherpa-onnx
+  GitHub releases, run with onnxruntime, plus median pitch, pitch range and brightness) scored it 0.59–0.62 against
+  ElevenLabs' Marcus, lower than ElevenLabs' Marcus against ElevenLabs' Todd (0.75–0.81) and than two takes of one voice
+  (0.80), and its pitch was 131 Hz against 144–162. So it was a different voice, the user was told, and chose again from
+  three takes. The print proves a clear miss; it can't tell two similar men apart, and it never replaces the user's ear.
+- **Screening preset voices costs nothing** (22 Nov 2026): Higgsfield's preview files can't be fetched from a session but
+  can inside the Higgsfield sandbox, which has numpy, onnxruntime and ffmpeg and reaches GitHub releases for the model.
+  The 45 male presets were measured there in a few minutes (voice print against a reference, pitch, range, brightness); the
+  three nearest then got a real take of the video's first lines (1.15 credits each) for the user to choose from.
+- **`mirelo_text_to_audio` returns roughly what was asked: measure and cut every file** (video 16; nine sounds, none
+  listened to). Plain single sounds came back right (rain, one click, radio static, a till's bell). "A quick run of soft
+  electric ticks" came back as one click (a run of ten was built from it); "one heavy plastic clunk, then a falling hum"
+  as four clunks (the first is used); "a glassy shimmer" as low thumps at 70–90 Hz (left out); "a muffled thump and a
+  howl" as the thump alone. The 16 s bed stepped 5 dB louder after 10 s, so its first 10 s became a seamless 8.5 s loop
+  (a 1 s cross-fade of its end into its start). `16-sound.py` holds the cuts. Ask for one sound a file, and a 10 s bed.
+- **A new voice needs the mix measured again** (video 16): with the gain that suited Daniel (+2.6 dB after `loudnorm`, a
+  limiter at 0.84) the first mix came out at −12.1 LUFS with true peaks at +1.8 dB after AAC. +0.6 dB and a limiter at
+  0.79 gave −13.9 LUFS and −2.0 dB. `BED_UNDER` 17 put the bed 23 dB under Harrison in the quiet moments; 15 put it 21.
+  Read the loudness and the true peak of the encoded file (`ffmpeg -af ebur128=peak=true`), then remix the audio only.
+- **The picture can be finished before the voice exists** (video 16): `16-timing.py EST` gives word times from the script,
+  and `16-build.py` runs silent when `audio/` holds no narration, so every overlay was placed and checked while the voice
+  waited on credits. The real word times then only changed the clip speeds (0.81–1.07×) and where the labels and the
+  counter's jumps fall; one full build redid it.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master when no still holds the moment; check the arrow lands on what the words name and
@@ -1601,7 +1678,12 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
   the bill that it rests on search summaries, and ask the user to check the biggest lines in a browser.
 - **Higgsfield's voice previews can't be fetched** (21 Nov 2026): `cdn.higgsfield.ai` and `d1xarpci4ikg0w.cloudfront.net`
   are outside the network policy (the proxy refuses them), so a Higgsfield preset voice can only be judged from a take
-  made with it (results come from `d8j0ntlcm91z4.cloudfront.net`, which is reachable).
+  made with it (results come from `d8j0ntlcm91z4.cloudfront.net`, which is reachable). **22 Nov 2026:** the previews can
+  be fetched inside the Higgsfield sandbox, which has ffmpeg, numpy, onnxruntime and faster-whisper and reaches GitHub
+  releases: measure them there (7.5).
+- **Higgsfield makes the voice and the sound when ElevenLabs can't** (22 Nov 2026): `generate_audio_batch` with
+  `elevenlabs_v4` (the same voice model, Higgsfield's own preset voices) and `mirelo_text_to_audio` (6.0). Both spend
+  Higgsfield credits, so they need the user's word unless the approved quote already has lines for them (6.1).
 
 ### 7.8 Things that go wrong, and the fix
 | What goes wrong | Fix |
@@ -1619,6 +1701,9 @@ tracking), `10-thumbnail.py`, `10-flightmap.py`, `10-post-copy.md`; `pipeline/an
 | A label or the counter sits under TikTok's tabs or buttons | Keep overlays inside the safe box (5) and check three frames on a phone-sized sheet |
 | A price can't be sourced | The fix stays in the story, the counter doesn't move for it, and the bill file says so (4.4) |
 | The dog changes between shots | Every still he is in takes the dog key as a reference; everywhere else the prompt says "No animals" (6.3) |
+| A generated sound is not the sound asked for (one click for a run, thumps for a shimmer) | Measure it; cut the part that is the sound, build a run from one hit, or leave it out; never mix a file unmeasured (7.5) |
+| The finished file is louder than −14 LUFS or its true peak is over −1 dB | A new voice needs less gain: lower `POST_GAIN` and `LIMIT`, remix the audio only, measure again (7.5) |
+| The narration makes the video longer than planned | The clips are already made: tighten the pauses, play the take at up to 1.1×, let the clips play slower (down to about 0.8×); next time write for the narrator's measured pace (4.3) |
 
 ---
 
@@ -1785,7 +1870,7 @@ build", and note the bill's total and whether the first "But" landed by 5 s besi
 | 13 | Why Firefighters Drop Frozen Turkeys Into Fryers (V2) | 19 Nov | cutaway, travelling camera | 188.00 (quoted 197.23) | yes: the frosted bird drops into the oil by 0.5–1 s, foam over the rim by 2 s |
 | 14 | Why It Rains Inside a Nuclear Cooling Tower (V3) | 20 Nov | cutaway, travelling camera | 161.50 (quoted 188.60) | yes: a cut line down the whole tower at 0.5 s, the halves part over the rain by 1 s |
 | 15 | Why This NFL Field Is Sitting on 546 Wheels (V6) | 21 Nov | cutaway, travelling camera | 196.25 (quoted 196.94) | yes: the solid face under the field drops from ~0.3 s, the layers by 1 s, the wheels by ~2 s |
-| 16 | How to Turn Your House Into a Christmas Light Show (B3) | picture 21–22 Nov; the sound is still to make | cutaway build, at dusk | 173.75 so far (quoted 199.81); 13 of 13 clips first try | yes, but thin: the string whips up from 0.2 s, the gable is lit by 0.7 s and the roof edge by 1.4 s (RAMP); the first "But" at about 3.9 s (estimated); the bill $2,107 |
+| 16 | How to Turn Your House Into a Christmas Light Show (B3) | 21–22 Nov | cutaway build, at dusk; Harrison's voice; 68.1 s with the street card | 197.99 (quoted 199.81), the voice and the sound included; 13 of 13 clips first try | yes, but thin: the string whips up from 0.2 s, the gable is lit by 0.7 s and the roof edge by 1.4 s (RAMP); the first "But" at 3.73 s; the bill $2,107 |
 
 **The explainer plan's four after posting** (8.4 bars at 72 h: TikTok over ~2K = passed the first test; YouTube over ~1K =
 tested normally). Build videos join this table from video 16, as B1, B2, ….
@@ -1796,6 +1881,7 @@ tested normally). Build videos join this table from video 16, as B1, B2, ….
 | 13 (V2) | 19 Nov, 23:04 UTC (6:04 pm ET) | 183 at 2 h, 333 at 25 h, 629 at 47 h; every tag registered | due after 23:04 UTC, 22 Nov | 2 after a few hours, 21 at 25 h, 27 at 47 h | due 22 Nov |
 | 14 (V3) | 20 Nov, 20:00 UTC (3:00 pm ET) | 48 at 4.5 h, 52 at 26 h; every tag registered; no AI label yet | due after 20:00 UTC, 23 Nov | 2 at 4.5 h, 9 at 26 h | due 23 Nov |
 | 15 (V6) | 21 Nov, 01:45 UTC (8:45 pm ET on 20 Nov), 5 h 45 min after video 14 | 302 at 20 h (16 likes); every tag registered; TikTok's AI label on | due after 01:45 UTC, 24 Nov | 4 at about 20 h | due 24 Nov |
+| 16 (B3) | not posted yet (finished 22 Nov; post by about Sat 5 Dec) | | | | |
 
 **Files kept for re-cuts** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<media_id>.mp4`;
 not reachable from a session, so give the links to the user or read them through the Higgsfield sandbox):
@@ -1830,6 +1916,14 @@ not reachable from a session, so give the links to the user or read them through
   `f9af1d63-cb62-4743-978e-efe65ef6dbd4`; flows: narration `UCxI18VeiuCypyNn3e6Z`, sound `AKioHqCpAkthrmOv0mix`; Higgsfield folder
   `7537e99d-691b-4212-8723-c068ec0f29ba`; build `pipeline/15-build.py`, word timings `pipeline/15-words-takeA.json` (take A x1.08);
   covers in `pipeline/15-covers/`.
+- 16 the Christmas light show (22 Nov 2026; 68.07 s with the 1.5 s street card; picture 82% moving, camera 84% moving, parallax
+  0.18 px, bed 21 dB under the voice, -13.9 LUFS): final `a28f4631-2293-409a-9826-b46a5fe85f65`; voice-only
+  `f50c94df-d6ce-4fba-900f-44619fe452b6`; clean master (full sound; no captions, labels, counter or pointers; the sign's words
+  are part of the picture) `c3b51b0e-9bc0-467f-8bec-5d83142a9a43`. The narration and the sound are Higgsfield jobs, not
+  ElevenLabs flows: take A `4d1e2545-f4d6-4965-82cc-a2657277e13f` (used, x1.1), take B `062cb1fb-50f6-41e8-b6d8-658ed242b21f`,
+  the nine sounds in `pipeline/16-jobs.tsv`; Higgsfield folder `5499c25c-bcd8-441c-9b78-0efb488ac8fe`; build
+  `pipeline/16-build.py`, sound cuts `pipeline/16-sound.py`, word timings `pipeline/16-words-takeA.json`; covers in
+  `pipeline/16-covers/`; street tile `pipeline/street/16.jpg`.
 - Every video's script, beat sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
 ### 9.3 What the ten videos taught (18 Nov 2026)
@@ -1876,7 +1970,9 @@ not reachable from a session, so give the links to the user or read them through
   consistent format are the defence.
 - **Cost side (18 Nov 2026):** at most 200 Higgsfield credits a video (6.1) plus about 1,400–1,540 ElevenLabs credits a narration
   take and ~130 for the sound. **21 Nov 2026:** the build format costs the same (the look and the pipeline didn't change);
-  the ElevenLabs quota ran out that day (7.7), so the narration is now a limit of its own.
+  the ElevenLabs quota ran out that day (7.7), so the narration is now a limit of its own. **22 Nov 2026:** the voice and
+  the sound moved to Higgsfield and inside the 200 cap (6.1): video 16 cost 197.99 Higgsfield credits and no ElevenLabs
+  credits.
 - **How the build accounts earn (21 Nov 2026):** @whatifplus, Hidden By Design and @thewhatifstudio each sell a how-to or a
   kit from the link in their bio, and public kits for code-drawn 3D shorts sell for about $12–49 (search summaries; the
   pages can't be opened from a session). A possible later line for us, not a plan.
@@ -1889,9 +1985,12 @@ not reachable from a session, so give the links to the user or read them through
 
 ### 11.1 Kickoff prompt (renewed 21/11/26: the build format, "If you… you have a…", with the bill)
 Fill in the line in angle brackets and paste the whole block into a new session. The earlier versions are listed in 13.3.
+**Three lines brought up to date on 22/11/26** (the budget, the word count and Gate B), after video 16: the narration and
+the sound are Higgsfield credits inside the 200, and Harrison's pace wants about 210 words. A copy of the 21/11/26 block
+still works: the runbook decides.
 For a style-2 video (photoreal AI build stories, paused on 21 Nov 2026) the kickoff prompt is `strategy2.md` 11.1, not this one.
 ```
-KICKOFF PROMPT (renewed 21/11/26: the build format)
+KICKOFF PROMPT (renewed 21/11/26: the build format; updated 22/11/26)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make the video with the section 6 runbook.
@@ -1899,17 +1998,17 @@ artifact) first, all sections. Then make the video with the section 6 runbook.
 IDEA:   <B1 ... B10 from section 3, or my own "turn your ___ into a ___">
 SOUND:  bed and effects (unless I say voice only)
 
-Budget (6.1): at most 200 Higgsfield credits for this video, the 15% reserve included.
-Check the Higgsfield balance and the ElevenLabs credits first. If the plan prices above
-200, cut it (shorter script, fewer camera positions, shorter clips) before you show me
-the quote. Clips at 720p.
+Budget (6.1): at most 200 Higgsfield credits for this video, the 15% reserve included,
+with the narration and the sound inside it (both are made on Higgsfield). Check the
+Higgsfield balance first. If the plan prices above 200, cut it (shorter script, fewer
+camera positions, shorter clips) before you show me the quote. Clips at 720p.
 
 The format (section 4): the script opens "If you [one naive step], you have a
 [thing]." with that step already happening on frame 1. The premise is done by about
 4.5 s and the first "But" lands by about 5 s. Then five loops: "But [a failure you can
 see]. So you [fix]. This is a [real term]." Then "Add [three finishing touches]." Then
-our closing line: "That's your [thing]. The bill: about [total]." About 220 words
-(62-64 s). Never "Congratulations..."; never a reference account's wording; no spoken
+our closing line: "That's your [thing]. The bill: about [total]." About 210 words
+(62-64 s at Harrison's pace). Never "Congratulations..."; never a reference account's wording; no spoken
 call to action; nothing a child could copy and get hurt.
 
 Ours (4.4, 4.5 and the overlays in section 5): the bill (a price counter that starts
@@ -1937,8 +2036,8 @@ Stop for my approval at:
   has changed by 1 s / the premise line and when the first "But" lands); the loop
   table (problem / fix / term on screen / price and source / camera position); the
   bill's total; where the dog appears; the facts checked; the saturation numbers.
-- Gate B: the quote at 720p, 200 or less with the reserve, the balance after, and
-  the ElevenLabs estimate against the credits left.
+- Gate B: the quote at 720p with the narration and the sound in it, 200 or less
+  with the reserve, and the balance after.
 - Gate C: the stills as a flight map with the build's stages; the set matching from
   every angle; the dog matching his key; the first and last frames from the same
   position.
@@ -2229,5 +2328,11 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   usable on the first try (13 of 13; 173.75 credits spent, the reserve untouched). The picture was assembled silent, with
   estimated word times, because ElevenLabs still had 34 credits on both days: `16-timing.py` (EST), `16-build.py` (LABELS,
   BILL, SIGN, STREET, EASE_FROM, HOLD_START), covers, post copy, the street tile. Waiting for the narration and the sound.
+- **22 Nov (about 15:45–16:20 UTC):** shown the silent preview, the user chose Higgsfield for the voice. Higgsfield's
+  "Marcus" proved not to be ElevenLabs' Marcus (a voice print), so three audition takes went to the user, who chose
+  **Harrison**, and Higgsfield for the sound. Two narration takes (A used, at 1.1×), nine sounds measured and cut
+  (`16-sound.py`), the mix re-levelled for the new voice. **Video 16 finished:** 68.1 s, 197.99 of the 199.81 credits
+  quoted, the final, the voice-only version and the clean master uploaded; not posted. The narrator is locked (5), the
+  standard plan carries the voice and the sound (6.1), and scripts are about 210 words for his pace (4.3).
 - Paste-in prompts before this one: 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26 (`1174f29`),
   18/11/26 v2 (`a9abd35`).
