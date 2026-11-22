@@ -68,3 +68,8 @@ C10	3f4dcaa9-7d88-4f12-9671-86d0fb41cb25	accepted (try A): off the roof 0.6 s, a
 C11	a07a0625-fc07-4fe7-8f09-16348595b65c	accepted (try A): dashboard glows from 0.6 s, glide to the sign 3.4-6.0 s, head tilt 7.2 s; camera 88%, parallax 0.83
 C12	99512e05-6755-4111-9579-04ba5c97469a	accepted (try A): wide by 1.4 s, tree 1.2 s, arches 1.8-2.4 s, snowman 2.4 s, antlers 3.2 s; camera 50%, parallax 3.32
 C13	bb7de469-2413-4ac2-b1ef-365dd65429f9	accepted (try A): the show plays; a real slow push-in (4.9% a second, camera 100%)
+# Gate D approved by the user; narration route chosen on 22 Nov 2026: "Use Higgsfield for the voice", narrator "Marcus" (AskUserQuestion)
+# Higgsfield elevenlabs_v4 auditions (215 characters, 1.15 credits each; 22 Nov 2026): 3.45 credits
+AUD.marcus	72363bc6-2e3e-4b4e-af17-68e175762638	Higgsfield preset Marcus 6f98d3dd-324f-4845-8c28-c1d1647a06cd: 14.4 s, 131 Hz, 0.62 like ElevenLabs Marcus (not the same voice)
+AUD.bram	74eac589-5ab3-427c-a806-05d14927fbce	Higgsfield preset Bram 549ff70a-3ee7-4f04-a4d9-89a24fab7709: 13.5 s, 195 Hz, 0.48
+AUD.harrison	90f02253-d83d-4981-8981-50d9f68fcde7	Higgsfield preset Harrison 573e5163-59b3-4926-aab1-951ef2985f81: 13.6 s, 144 Hz, 0.41
