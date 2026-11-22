@@ -6,6 +6,7 @@
 # Usage: python3 16-build.py            -> out/final.mp4 (+ final_voiceonly.mp4, final_clean.mp4), or, with no narration in
 #                                          audio/, out/preview_silent.mp4 (+ preview_silent_clean.mp4): picture and overlays only
 #        python3 16-build.py C1 C10,C11 -> out/preview.mp4: each argument is a run of consecutive segments
+#        REUSE=1 python3 16-build.py    -> keeps the segments in seg/ and redoes only the overlays, the card and the mix
 # Made from 15-build.py. New for the build format (CLAUDE.md 5): LABELS and BILL (16-overlays.py), SIGN (words put on an
 # object in the scene: its four corners are found in every frame and the words are warped onto it), STREET (the end card),
 # RAMP (a clip's first seconds faster, the rest slower), EASE_FROM (a clip starts at the zoom the clip before it ended on)
@@ -308,6 +309,8 @@ def bill():
 CAPFONT = ImageFont.truetype('fonts/HBXCaption.ttf', round(CAP_FS * 1000 / 1219))
 CAPMAP = {}
 MERGE = []
+CAP_Y_AT = [("B18", 1500)]     # from this beat on the caption sits here (78% down, still inside the safe box): in the closing
+                               # shot kling's push-in brings the dog down onto the usual line, and he is the last shot's payoff
 def cap(w):
     t = re.sub(r"[^A-Za-z0-9'’\-]", "", w).upper(); return CAPMAP.get(t, t)
 def caption_events(t0, t1):
@@ -323,7 +326,8 @@ def caption_events(t0, t1):
         end = nxt if (nxt is not None and nxt - e <= 0.35) else e + 0.18
         end = min(max(end, s + 0.12), t1); prev_end = end
         txt = cap(w); wpx = CAPFONT.getlength(txt); sc = min(100, int(100 * MAXW / max(wpx, 1)))
-        ev.append(f"Dialogue: 2,{ts(s-t0)},{ts(end-t0)},Caption,,0,0,0,,{{\\an5\\pos(540,{CAP_Y})\\fscx{int(sc*0.92)}\\fscy{int(sc*0.92)}"
+        cy = next((y for b, y in reversed(CAP_Y_AT) if s >= BT[b]['start'] - 0.01), CAP_Y)
+        ev.append(f"Dialogue: 2,{ts(s-t0)},{ts(end-t0)},Caption,,0,0,0,,{{\\an5\\pos(540,{cy})\\fscx{int(sc*0.92)}\\fscy{int(sc*0.92)}"
                   f"\\t(0,70,\\fscx{sc}\\fscy{sc})}}{txt}")
     return ev
 
@@ -368,7 +372,7 @@ def street_card(last_frame_png, out, built=1, lots=6):
                 p = min(1.0, max(0.0, (t - 0.15) / 0.35)); e = 1 - (1 - p) ** 3          # drops in from above, 0.15-0.5 s
                 d.rectangle([x0, y0, x0 + tw, y0 + th], outline=(60, 78, 120), width=3)
                 if p > 0:
-                    yy = int(y0 - 140 * (1 - e)); im.paste(tile, (x0, yy)); d.rectangle([x0 - 4, yy - 4, x0 + tw + 3, yy + th + 3], outline=YEL, width=6)
+                    yy = int(y0 - 90 * (1 - e)); im.paste(tile, (x0, yy)); d.rectangle([x0 - 4, yy - 4, x0 + tw + 3, yy + th + 3], outline=YEL, width=6)
             else:
                 step = 26                                                              # an empty lot: a dashed outline
                 for xx in range(x0, x0 + tw, step):
@@ -430,7 +434,9 @@ def mix(t0, t1, out, voice_only=False):
 def render(run_segs, tag, card=False):
     t0 = SEG[run_segs[0]]['start']; t1 = SEG[run_segs[-1]]['end']
     print(f'{tag}: {"+".join(run_segs)}  {t0:.2f}-{t1:.2f}s' + ('  (silent: no narration in audio/)' if SILENT else ''))
-    for name in run_segs: seg_clip(name)
+    for name in run_segs:
+        if os.environ.get('REUSE') and os.path.exists(f'seg/{name}.mp4'): continue     # REUSE=1: only the overlays are redone
+        seg_clip(name)
     with open(f'tmp/{tag}_list.txt', 'w') as f:
         for name in run_segs: f.write(f"file '../seg/{name}.mp4'\n")
     run(['-f','concat','-safe','0','-i',f'tmp/{tag}_list.txt','-c','copy',f'tmp/{tag}_clean.mp4'])

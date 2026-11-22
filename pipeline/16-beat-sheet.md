@@ -5,9 +5,10 @@ Idea B3 (section 3), the first video in the build format (CLAUDE.md 4). **Gate A
 stand-in). The script is `16-script.txt` (224 spoken words, ~64.0 s at 3.5 words a second, plus the 1.5 s street card); the
 bill is `16-bill.md` ($2,107.22, spoken "about two thousand dollars"). The beat table and the quote for Gate B are at the end
 of this file. **Gate B approved by the user on 21 Nov 2026** ("approve": the quote of 199.81). The stills are made and
-logged below. **Gate C approved by the user on 21 Nov 2026** ("aprove": the stills, the dog and the dusk look). The two
-pilots are made and logged at the end of this file; **the video is at Gate D** (the pilots wait for approval; the other
-eleven clips, 130.00 credits, are not rendered).
+logged below. **Gate C approved by the user on 21 Nov 2026** ("aprove": the stills, the dog and the dusk look). **Gate D
+approved on 21 Nov 2026** ("approve": the pilots; the hook kept, with the edit's fix). All 13 clips are made, every one on
+the first try, and the picture is assembled with every overlay as a silent preview (the end of this file). **What is
+left is the sound:** the narration and the bed and effects wait for ElevenLabs credits (34 left) and the voice pick.
 
 ## Gate A
 
@@ -340,3 +341,107 @@ TikTok covers in red; `16-overlays.py`). What the first spec (CLAUDE.md section 
 
 **After Gate D:** the other eleven clips in one batch (C2, C4–C13: 52 s, 130.00); then the narration (credits and the
 voice pick), the sound, the edit.
+
+## Step 8: the other eleven clips (21 Nov 2026)
+
+**Gate D approved** by the user on 21 Nov 2026 at about 23:40 UTC ("approve"); the hook stays, with RAMP and PUSH. The eleven
+clips went out as one batch at about 23:45 UTC (`kling4_0`, 720p, 52 s, 130.00 credits) and were all back within 13 minutes.
+**Every one is usable on the first try: 13 of 13 with the pilots, no re-render.** Clips 152.50 as quoted. **Spent 173.75 of
+the 199.81 quoted** (stills 21.25, clips 152.50); the reserve of 26.06 is untouched. Balance 731.25 (22 Nov 2026).
+
+What changed in four prompts after the pilots (`16-clips.py`): C5 asks for a glow that reads on a phone ("a bright pale blue
+glow … crawls along the green cord … like a slow pulse of light") and for a real push-in, which a start-only clip can do; C11
+drifts sideways in its first half so the parked cars slide across the house; C12 says where the camera ends; and EDGE
+replaces CUTFACE and WHOLE on the four flights where the block's cut edge is in only one of the two views (C6, C7, C8, C12).
+
+| Clip | Stills | s | What happens, and when (clip time) | Camera moving | Parallax |
+|---|---|---|---|---|---|
+| C1 | F0 → F0b | 4 | the string whips up by 1.0 s, the roof edge lit by 2.0 s | 0% (PUSH) | 0.02 px |
+| C2 | F0b → F1 → F1x | 5 | strings snap on 0.8–2.0 s, the blackout in one instant at 3.0 s | 0% (PULL) | 0.01 px |
+| C3 | F1x → GU | 5 | up to the gutter by 3.4 s, the bulbs back on from 4.2 s | 80% | 1.69 px |
+| C4 | GU → OU1 | 4 | rain from 0.4 s, at the outlet by 2.2 s, the strings dark by 3.6 s | 75% | 1.55 px |
+| C5 | OU1 (start only) | 5 | the blue glow crawls 0.2–3.0 s, the spark 3.2–3.8 s, the red button out from 4.0 s | 100% (a real push-in) | 0.59 px |
+| C6 | OU1 → OU2 → F1 | 4 | boxes shut by 0.4 s, lights on 1.0 s, the wide by 2.8 s, the blink 3.2–3.6 s | 75% | 0.68 px |
+| C7 | F1 → PX → HI3 | 6 | at the bulb 1.8 s, pixels red then green 2.2–3.2 s, the high view from 4.4 s | 83% | 1.71 px |
+| C8 | HI3 → RO3 | 4 | at the roof edge 2.2 s, white by 2.0 s, pink at the far end from 3.4 s | 75% | 0.97 px |
+| C9 | RO3 → RO4 | 4 | the cable up 0.2–1.0 s, pink turns white 2.0–3.0 s | 0% (PUSH) | 0.04 px |
+| C10 | RO4 → ST5 | 3 | off the roof at 0.6 s, low on the street by 1.8 s, the dog by the sign | 100% | 0.87 px |
+| C11 | ST5 → SG | 8 | a dashboard glows from 0.6 s, the glide to the sign 3.4–6.0 s, the head tilt at 7.2 s | 88% | 0.83 px |
+| C12 | SG → FR6 | 4 | the wide by 1.4 s, the tree 1.2 s, arches 1.8–2.4 s, the snowman 2.4 s, antlers 3.2 s | 50% | 3.32 px |
+| C13 | FR6 (start only) | 5 | the show plays; a real slow push-in (4.9% a second) | 100% | 0.18 px |
+
+No clip shows a pit, a second house, a person or any text; the sign stays blank in every clip (its words are put on in the
+edit). Two small things, both kept: in C6 a few bulbs light on the cord lying on the paving, and in C9 the cable's lower end
+flicks once before it settles.
+
+## Steps 9 and 10: the picture assembled, silent (22 Nov 2026)
+
+**There is no narration yet.** ElevenLabs still has 34 credits (quota 30,354): a 78-credit test line in Marcus's voice
+failed on 21 Nov at about 23:55 UTC and again on 22 Nov at about 15:35 UTC, and a failed generation costs nothing. So the
+picture was assembled with estimated word times (`16-timing.py EST`: 224 words at 3.5 a second, 64.0 s, plus a 0.9 s tail)
+and no sound: `out/preview_silent.mp4`, 66.4 s with the 1.5 s street card. Every overlay time is tied to a word, so the
+real narration re-times all of it (`16-timing.py A|B`, then `16-build.py`).
+
+**The edit (`16-build.py`):**
+- RAMP on C1 (first 2.0 s at 1.4x: the gable lit at 0.7 s, the roof edge at 1.4 s) and on C8 (first 2.6 s at 1.3x, so the
+  pink arrives while the line is still on it).
+- PUSH on C1 (3.7% a second) and C9; PULL on C2, which starts at C1's zoom and comes back out, so the first nine seconds read
+  as one move in and out; EASE_AFTER on C10.
+- EASE_FROM and HOLD_START on C6, both new: kling's own push-in in C5 ended 2.75x closer than the still C6 starts on, so C6
+  starts at that zoom on the outlet, with its first frame held for 0.3 s, and pulls out in 0.45 s. The cut reads as a fast
+  pull-back instead of a jump.
+- C10 (3 s over a 2 s line) plays whole at 1.5x; C13 plays at 0.78x (a slow push-in on a finished scene).
+- **Overlays:** the five labels (LED waits for the bulb to come into view); the counter with its six jumps ($3 → $308 →
+  $428 → $1,143 → $1,195 → $1,335 → $2,107) and the closing total in the sky; arrows up the injection wire (C9) and from the
+  aerial to the car (C11); no ring on the outlet's button, because the label is on then.
+- **SIGN, new:** "TUNE TO / 88.7 FM" on the yard sign. The sign's four corners are found in every frame and the words are
+  warped onto it in perspective, from the line that posts the station (B16) to the end of C11 (112 frames) and through the
+  pull-back of C12 (42 frames), fading as the sign gets small. In the last wide shots the sign stays blank (about 100 px
+  wide, under TikTok's buttons). The frequency is made up; the pinned replies say so.
+- **STREET, new:** the end card: "OUR STREET", six lots, this video's last frame dropping into the first, "WHAT DO WE BUILD
+  NEXT?" The tile is `pipeline/street/16.jpg`.
+- The caption sits at 78% for the last two beats (B18, B19): kling's push-in brings the dog down onto the usual line there.
+
+**Measured on the silent picture** (the reference: 66%, 0.46 px, a big move one second in four, 5 s):
+
+| | Camera moving | Parallax | Big-move seconds | Longest still camera | Picture moving |
+|---|---|---|---|---|---|
+| Video 16, silent | **86%** | 0.17 px | 16 of 65 (one in four) | 3 s | 80% (78% with the card) |
+
+Two numbers miss their targets and are reported as they are. The median parallax is 0.17 px against 0.3: four clips have a
+camera move made in the edit (C1, C2, C9: about 14 s), which is a zoom with no depth, and C13's push is slow. And the tool
+reads no big move in the last 21 s (target 15): it scores the pull-back from the sign (C12) as parallax, 8.3 px, not as a
+zoom. Captions measure 57 px, 75% down.
+
+**The first two seconds** (`16-first-2s.jpg`; estimated timing): 0 s the string hangs from the gutter to the lawn ("IF");
+0.5 s it is whipping up the wall ("CLIP"); 1.0 s the gable and half the gutter are lit ("STRING"); 2.0 s the whole roof edge
+is lit ("GUTTER"). The premise ends at about 3.9 s and the first "But" lands there.
+
+**Also made:** three covers (`16-covers/`: A "GUESS THE BILL" with the counter showing "$?,???" on the finished show; B the
+one string above and the show below; C a plain frame), the post copy (`16-post-copy.md`) and a sheet of the whole preview
+(`16-preview-sheet.jpg`).
+
+## What is left: the sound
+
+1. **The narration:** one take is 1,161 ElevenLabs credits, the usual two 2,322. The voice: Marcus is the stand-in; Todd and
+   Hope were the other two candidates (CLAUDE.md 5).
+2. **The bed and eight effects,** about 41 s of sound, about 137 ElevenLabs credits by the durations:
+   - bed, 20 s, looped: "Quiet suburban street at dusk in December, soft distant traffic hum, a faint cold breeze, no voices,
+     no music."
+   - fx1, 2 s: "A string of small glass bulbs lighting one after another: quick soft electric ticks, dry and close."
+   - fx2, 1.5 s: "A household circuit breaker tripping: one heavy plastic clunk and a short falling electric hum, dry."
+   - fx3, 7 s: "Light rain starting on a concrete driveway and a wooden wall, a steady patter, close, no thunder."
+   - fx4, 1 s: "One sharp, dry plastic click, like a small button popping out, very close." (the outlet, the boxes, the
+     injection joint and, quieter, the counter's tick)
+   - fx5, 3 s: "A soft glassy shimmer of tiny lights changing colour: an airy sparkle with no melody and no notes."
+   - fx6, 2.5 s: "The muffled bass thump of loud music heard from outside a house, with one small dog howling over it."
+   - fx7, 2.5 s: "A car radio tuning in: a short burst of static sweeping into a clean soft tone, inside a parked car."
+   - fx8, 1.5 s: "An old cash register: one bright bell and the drawer sliding open, close and dry."
+3. **Then, free:** word timings for the take, `16-timing.py A|B`, `16-build.py` (the effect times are already in
+   `fx_list()`), `under_the_voice.py`, the uploads, and the log in CLAUDE.md 9.2.
+
+**Another way to the voice, priced and not used (21 Nov 2026):** Higgsfield offers the same Eleven v4 model for Higgsfield
+credits: 5.52 a take for this script (`estimate_audio_cost`), 1.15 for a short audition line, with Higgsfield's own preset
+voices (a different list from ElevenLabs' library; their previews can't be fetched from a session). Two takes would bring
+the video to 184.79, inside the 199.81 quoted. It is a new line in the quote, so it waits for the user's word. Sound
+effects there (`mirelo_text_to_audio`, 5.00 for 20 s) are marked for the game pipeline and are untested.
