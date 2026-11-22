@@ -73,3 +73,17 @@ C13	bb7de469-2413-4ac2-b1ef-365dd65429f9	accepted (try A): the show plays; a rea
 AUD.marcus	72363bc6-2e3e-4b4e-af17-68e175762638	Higgsfield preset Marcus 6f98d3dd-324f-4845-8c28-c1d1647a06cd: 14.4 s, 131 Hz, 0.62 like ElevenLabs Marcus (not the same voice)
 AUD.bram	74eac589-5ab3-427c-a806-05d14927fbce	Higgsfield preset Bram 549ff70a-3ee7-4f04-a4d9-89a24fab7709: 13.5 s, 195 Hz, 0.48
 AUD.harrison	90f02253-d83d-4981-8981-50d9f68fcde7	Higgsfield preset Harrison 573e5163-59b3-4926-aab1-951ef2985f81: 13.6 s, 144 Hz, 0.41
+# the user picked on 22 Nov 2026: narrator Harrison (Higgsfield preset 573e5163-59b3-4926-aab1-951ef2985f81, model elevenlabs_v4) and Higgsfield sound (mirelo_text_to_audio, 0.25 a second)
+# narration, two takes, 5.52 each = 11.04
+NARR.A	4d1e2545-f4d6-4965-82cc-a2657277e13f	narration take A, Harrison
+NARR.B	062cb1fb-50f6-41e8-b6d8-658ed242b21f	narration take B, Harrison
+# sound, mirelo_text_to_audio, 39 s = 9.75
+SND.bed	1a836764-5ced-44b2-9259-4004b4350ed1	bed 16 s: quiet street at dusk in winter
+SND.fx1	291557b5-6cdc-4489-822a-46fbb3b5bee0	2 s: bulbs ticking on
+SND.fx2	8f3b68c3-2ae1-40c2-8768-9ce54db3bad1	2 s: the breaker
+SND.fx3	ec93933f-ad66-482b-87e1-def11f8b27fe	7 s: rain
+SND.fx4	fb2de184-f6d4-41dc-8151-43700b3b07c5	1 s: a sharp click
+SND.fx5	a4b445c8-ba22-4012-942a-ae1d278fbf80	3 s: the pixels shimmer
+SND.fx6	f24f06be-9ea8-4bf7-9e34-376a67aa52df	3 s: muffled thump and a howl
+SND.fx7	529a804a-ed8d-4bab-b2ff-44ad15606535	3 s: a car radio tuning in
+SND.fx8	87bae831-ad75-4e75-969a-927a8197ec55	2 s: the till
