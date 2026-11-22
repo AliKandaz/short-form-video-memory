@@ -1,0 +1,15 @@
+# Build-steps test, 22 Nov 2026 (approved: about 42 credits with the reserve). Stills and clips are filed in video 16's Higgsfield folder.
+# Higgsfield folder 5499c25c-bcd8-441c-9b78-0efb488ac8fe
+key	job id	note
+S0	80f3d429-4e76-43ea-a6ab-f53ea7263875	the set key: the empty yard, daylight (try A)
+S0.B	fa796ebe-9113-4e64-9e5d-7f73acdbe512	the same yard from higher up, so the lawn is a stage (an edit of S0)
+S1	90a16fde-dd72-457f-84e1-7890a0e01dd6	stage 1: the slab (an edit of S0.B)
+S2	80d17ccd-6915-4106-a1de-83975897b55f	stage 2: the four walls (an edit of S1)
+S3	da1b0e1a-fb36-49e8-8ae4-49dc427f0024	stage 3: the roof (an edit of S2)
+S4	52d02ab5-d2ad-48c6-be26-7a89b1799829	stage 4: painted, door and window fitted (an edit of S3)
+W1	6749957e-60d5-4251-8d7f-9a61418b825e	wan2_7 2 s: S0 -> S1, the slab drops in
+W2	3fc3c63c-b66e-4a70-b872-2b8be0bd17da	wan2_7 3 s: S1 -> S2, the walls rise
+W3	a9918b55-261e-4e17-8166-19eb86fb2197	wan2_7 3 s: S2 -> S3, the roof drops on
+W4	0475b1df-58c0-4740-8bc9-83122ea4070c	wan2_7 2 s: S3 -> S4, paint and the door
+K1	888fb26c-9889-4e48-82fa-123674e6c9e6	kling4_0 5 s: S0 -> S4 with S1, S2, S3 as middle keyframes (all four steps in one clip)
+# Result (22 Nov 2026): 6 stills and 5 clips, every one usable on the first try; 35.00 credits (stills 7.50, wan2_7 15.00, kling4_0 12.50). Log: steps-test.md
