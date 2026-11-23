@@ -1,0 +1,47 @@
+# Video 17 (B12, "How to Keep a T-Rex in Your Back Yard"): Higgsfield job ids. Gate B approved 23 Nov 2026 (quote 188.40).
+# Higgsfield folder 52a00fbc-b926-4a05-b6b5-796fdf17009c
+key	job id	note
+DOG	51460339-c4b8-4537-9078-bd28de9305f8	the dog key (video 16, approved by the user on 21 Nov 2026)
+K0	d399ec57-0ca7-4c7b-8d3c-22747837776e	accepted (try A): the set key came back already in the stage view (lawn 15-58%, cut face 50-78%, a 3/4 view from the front left), so it is also the stage view; no KV made
+KT	6a0dc06f-4380-40c2-95ab-4a191d068f34	accepted (try A): side-on facing right, moss-green fading to grey, cream belly, scales, no stripes or feathers
+S0a	0f2d0d4a-88fb-41f1-8383-a286256cc0a6	accepted (try A): the T-rex side-on in the middle of the lawn, tail tip at the left edge, snout about 70% across; 69% of the frame wide
+S0	62c9b44f-7725-417f-8292-c7380c810076	accepted (try A): an arc of pickets round the left of his feet; the dog barking on the porch, matching his key
+H	3b04a3bc-ee38-4e40-b2d4-6a8f753cd818	accepted (try A): a closed oval ring round his feet, 56% of the frame wide; the dog now sits on the porch
+F1	84e6cefd-de21-4200-af1a-7dd70207a0a5	accepted (try A): the right side of the ring trampled flat, one foot out; he has stepped right and toward the camera (about 20% bigger), his head now over the neighbor's fence; the dog shows inside the open back door
+S1_1	c2bd8447-fb40-4d80-a74a-d2746e8eb7ae	rejected (try A): holes along the front edge too (a fence there would stand between the camera and the T-rex), none along the back; four shafts in the cut face
+S1_1.B	cc0d636f-3b06-4a72-9e10-419faf32fc78	accepted (try B): holes along the back and the right, and down the left curving round the front-left corner; the front open from about 30% across; two shafts in the cut face (about 33% and 55% across); door shut
+S1_2	2699efc7-bd58-45ac-94cb-2d1b86d2e70c	rejected (try A): the posts thin and person-high, some holes left empty (the words say "giant")
+S1_2.B	b7280645-21c1-4b70-b723-dab423453bec	rejected (try B): every hole filled and the posts thick, but stubby and knee-high (a fence he could step over)
+S1_2.C	18133246-9409-4fdc-b30e-ad47f4d89f39	accepted (try C, the instruction rethought after two misses): tall slim grey poles along the back, the left and the front corners, the two front ones down in their shafts; the right-hand holes (from S1_1.B) are on the neighbor's side of his fence and stay empty
+S1_3	c06a80cf-e0b0-4e87-82ba-9877930959a9	accepted (try A): a concrete collar round every pole; the two shafts in the cut face are concrete footings; the stray holes by the pool became concrete discs
+S1_4	561bf180-48cc-422b-a479-458d45d84af0	rejected (try A): cables fine, but the white picket ring vanished
+S1_4.B	ac9a77b4-d6b9-4fcb-be6d-1a0c4908126d	accepted (try B): cables all round, the ring kept; the neighbor's wooden fence became poles and cables (W1_4 has to carry that change)
+F2a	ee61b5f8-4f0e-4b3f-93c7-083329e1ef49	accepted (try A): leaning out over the right-hand cables, feet planted, snout in the pool with ripples; the pool still looks full (FC2b drains it)
+F2	85438f37-2cd1-4448-8e9e-cf73412bde5c	accepted (try A): the neighbor's pool empty, its section in the cut face empty too; him exactly as in S1_4
+S2_1	ffc299cd-a03d-4127-92fd-1557bad342cd	rejected (try A): a canyon through the whole block, steep on both sides; the front-right footing gone
+S2_1.B	6538c8f1-5173-44f7-8661-66ee07b74158	accepted (try B): the ditch between him and the right-hand fence, a notch about 40% down the cut face; both footings kept; the mower and its dock are gone (put back before loop 4)
+S2_2	07701489-6f28-4eab-9a74-33e6415b3ea8	accepted (try A): a black pipe along the bottom of the ditch, its round end in the cut face
+S2_3	59b347f4-31bb-4cf2-aff8-60dcb124e4ba	rejected (try A): the whole front cut face turned into a concrete wall and the ditch filled in
+S2_3.B	3f5df58f-8416-4a8b-9cf0-f7b4bf52316c	accepted (try B, not forced further): a smooth concrete wall lines the ditch on the T-rex's side (not the fence side) and the ditch runs deeper at the front, the drain at its bottom; reads as a walled moat
+S2_4	5cf0acc6-94c5-4f72-a2f3-d863af3725e8	rejected (try A): the ditch filled in with lawn from above (the cut face kept its channel)
+S2_4.B	d692f174-a5cc-485f-bc92-c9823e0846ed	accepted (try B): the ditch open with its wall, the far slope turfed green
+F3	d67b4037-2972-4284-a287-1bd1a607b983	accepted (try A): he faces the camera in the middle of the lawn, tail to the back left; the shed a heap of planks; fence, ditch and ring intact
+S3_1	b9def624-d015-4304-b943-23dd6b7edd74	rejected (try A): two hollows; the picket ring and the front-left poles (with the left footing) removed
+S3_1.B	caab0240-abbc-4c93-978d-c20e5e84c734	accepted (try B, not forced further): one round hollow in front of him; the front of the picket ring and a few front-left poles gone; no bowl in the cut face
+S3_2	308f39ac-521d-44f7-baf5-aaf97fee2775	accepted (try A): the hollow lined smooth grey, a basin; all else held
+S3_3	84137811-aa82-4033-9bdb-22cba113dbc2	accepted (try A): a ring of big grey boulders round the hollow
+S3_4	4bb087bd-9677-466b-b4ae-91c9da9024ca	accepted (try A): the wallow full of cyan water, his head down in it; the light a little warmer and darker (colour shift in the edit)
+F4	1e1413bd-f256-4a7d-8e20-083ab0e43522	accepted (try A): upright, facing the camera, the robot mower crunched in his jaws, dripping
+S4_1	79a9cbd5-fd01-4613-9f65-8e2b08fbd5c4	accepted (try A): a long concrete slab under him running back toward the back right; the back of the picket ring now under it
+S4_2	67618025-ba86-479f-bf01-313c709532a5	rejected (try A): a huge walled box; the T-rex inside shrank by about a third
+S4_2.B	387bc609-1ea7-4170-8dbb-0de053f4c232	accepted (try B): corrugated walls close round him, chest-high; he stands in the front doorway, his size and pose kept
+S4_3	ead30ffc-a6e8-4500-8de6-578974bd91e7	accepted (try A): a corrugated roof over the building and his back; his head and the mower out over the front doorway
+S4_4	b2bbec57-78bc-455b-bbf3-25f6763f1a89	used (try A, after try B came back the same): door shut, mower mowing; the building smaller and further back than S4_3 (W4_4 has to absorb it); the wallow unchanged
+S4_4x	30bb4adf-9fe7-4bcb-bd02-8baccd16f2b8	not used (try B): the same smaller building, and the wallow enlarged
+S5_1	d81c8d2d-8b79-4000-bf6c-3e417d3b613b	accepted (try A): the front opening cut, the panel flat on the grass, his face inside
+S5_2	ccd14018-91a2-4a17-89e9-bc34a696d583	rejected (try A): framed the wallow and the cut face instead of the opening in the building
+S5_2.B	654895e0-f3a7-4f85-9e97-1e957ad5b46c	accepted (try B): a steel frame round the building's opening (subtle); wallow and cut face unchanged
+S5_3	9d9d68ec-dc1c-4daf-842d-3e24f09fa3b3	accepted (try A): a thick glass slab in the frame, his face behind it
+S5_4	08178c64-e087-49a2-b4aa-9ebcdf085a1c	accepted (try A): a red round bed in front of the glass, the dog in it nose to nose with the T-rex; readable from the stage view
+CLOSE_a	6d8aa5bd-dc83-42b3-88c7-e677229df5ec	accepted (try A): a low close view, the dog in his red bed nose to nose with the T-rex through the thick glass; both match their keys
+CLOSE_b	bbde6f42-cb0f-480e-853f-1dae5b31bd1f	both asleep against the glass (try A)

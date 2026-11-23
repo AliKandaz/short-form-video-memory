@@ -4,8 +4,8 @@ Idea B12 (CLAUDE.md 3), chosen by the user for video 17 on 23 Nov 2026 with the 
 the build-steps style (4, 5, 6). **Gate A approved by the user on 23 Nov 2026** ("approve": the title, the script, the
 loops, the bill and the dog as below). The script is `17-script.txt` (207 spoken words, ~64.7 s with the street card); the
 bill is `17-bill.md` ($179,571, spoken "about a hundred and eighty thousand dollars"). Balance at the start: 672.01
-Higgsfield credits (Ultra). **Gate B (the step sheet and the quote, at the end of this file) drafted on 23 Nov 2026,
-waiting for the user.** Nothing has been spent.
+Higgsfield credits (Ultra). **Gate B approved by the user on 23 Nov 2026** ("approve": the quote of 188.40 and the two small changes). **The stage
+pictures are made (23 Nov 2026) and Gate C is waiting for the user** (the section at the end of this file).
 
 ## Gate A
 
@@ -228,3 +228,35 @@ picture; wan2_7 720p 3.00 for 2 s, 4.50 for 3 s, 6.00 for 4 s; elevenlabs_v4 wit
 | **Quote** | | **188.40** |
 
 **Balance after:** 672.01 − 188.40 = **483.61**, two more videos at the cap before the Ultra plan renews (about 11 Dec 2026).
+
+## Step 4 and 5: the pictures (23 Nov 2026; Gate C)
+
+Higgsfield project "HBX – How to Keep a T-Rex in Your Back Yard", folder `52a00fbc-b926-4a05-b6b5-796fdf17009c`. Prompts in
+`17-prompts.py`, job ids and what each try came back as in `17-jobs.tsv`. **32 pictures from 43 tries: 53.75 credits**
+(`transactions`), against 47.50 planned (38 tries); the 6.25 over comes out of the reserve, which leaves 18.32. Balance 618.26.
+
+- **The set key came back already in the stage view** (a high 3/4 view from the front left), so it is the stage view too:
+  no separate stage-view picture.
+- **The T-rex key and the dog's held** in every picture (`17-gateC-keys.jpg`): moss-green fading to grey, cream belly, no
+  stripes; the dog as in video 16. The T-rex grew about 20% when he stepped toward the camera at F1 and kept that size.
+- **Re-made once** (the first try in brackets): S1_1 (holes along the front too), S1_4 (the picket ring vanished), S2_1 (a
+  canyon through the whole block), S3_1 (two hollows, the ring and front poles removed), S4_2 (he shrank by a third), S5_2
+  (framed the wallow instead of the opening). **Twice:** S1_2 (posts thin, then stubby; the third, rethought with sizes in
+  the frame, worked). **Accepted after two tries, not forced:** S2_3 (the ha-ha's concrete wall stands on the T-rex's side),
+  S3_1 (no bowl in the cut face), S4_4 (try A: the building comes out smaller once the door is shut).
+- **Changed from the step sheet, and why:**
+  - **He turns to face the camera at F3:** his tail smashes the shed as he spins round. Side-on he filled two-thirds of the
+    frame, so the wallow, the night house and the window could not fit round him; facing the camera they do, and his face is
+    right behind the glass at the end.
+  - **The cable fence runs on the right too** (at S1_4 it replaced the neighbor's wooden fence), so he leans over the
+    cables to drink the pool.
+  - **The mower and its dock went with the ditch** (S2_1); in FC4 the mower rolls in from the left edge.
+  - **The wallow shows from above only;** the fence footing and the ha-ha carry the cut face.
+- **How well the view holds:** 0.05–6 px from picture to picture at 768×1360 (usually 1–4 px), about 30 px downward over
+  the whole ladder, measured on the house band and the pale ground (phase correlation, `steps-test-check.py`'s method).
+  Each clip runs between two neighbours, so this shows as a slow drift under the push-in.
+- **The colour drifts:** from loop 3 on the pictures come back darker, warmer and grainier (`17-gateC-first-last.jpg`);
+  "the lawn keeps exactly the same bright green" did not stop it. The edit shifts every frame back to frame 0's colours
+  (7.4).
+- Files: `17-stills.jpg` (the ladder in order), `17-gateC-keys.jpg` (the T-rex and the dog against their keys),
+  `17-gateC-first-last.jpg` (frame 0, the last stage view, the last shot).
