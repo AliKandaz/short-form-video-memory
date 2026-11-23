@@ -1,0 +1,27 @@
+How to Keep a T-Rex in Your Back Yard
+(B12 from section 3, video 17, the first in the build-steps style; Gate A draft, 23 Nov 2026; 207 spoken words, ~63.2 s
+at Harrison's 3.41 words a second with the half-second beats kept, plus the 1.5 s street card: ~64.7 s)
+Format (CLAUDE.md 4.1): the premise over the naive step, five loops of "But... So you [four steps]... This is a...", then
+our closing line with the bill. The premise ends at ~4.1 s and the first "But" lands at ~4.6 s.
+Terms on screen (labels, added in the edit): CABLE FENCE, HA-HA, WALLOW, NIGHT HOUSE, LAMINATED GLASS.
+Each step lands on the word in brackets.
+For the voice only: "ha-ha" may need respelling ("hah-hah") so it isn't read as a laugh; the captions keep HA-HA.
+
+If you put a picket fence around your T-rex, you have a pet dinosaur.
+
+But he lifts one foot and steps right over it. So you drill deep holes [holes], drop in giant steel posts [posts], pour in
+concrete [concrete], and string them with thick steel cable [cable]. This is a cable fence.
+
+But he leans over the top and drinks the neighbor's pool dry. So you dig a wide ditch [ditch], lay a drain [drain], wall
+the far side in concrete [concrete], and roll on fresh turf [turf]. This is a ha-ha.
+
+But he's bored, and he swats your shed flat with his tail. So you dig a deep hollow [hollow], line it with clay [clay],
+roll in big boulders [boulders], and flood it with water [water]. This is a wallow.
+
+But the robot mower rolls in to cut his grass, and he eats it. So you pour a slab [slab], raise steel walls [walls], drop
+on a roof [roof], and slide the door shut [shut]. This is a night house.
+
+But he's lonely in there, and roars till the windows rattle. So you cut a hole [hole], bolt in a frame [frame], lower in
+glass as thick as a brick [brick], and pull up the dog's bed [bed]. This is laminated glass.
+
+That's your pet dinosaur. The bill: about a hundred and eighty thousand dollars.
