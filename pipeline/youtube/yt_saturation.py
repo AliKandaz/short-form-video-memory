@@ -4,7 +4,8 @@
     python3 yt_saturation.py <work_dir> "query one" "query two" ...
 
 For each query prints how many Shorts the results page shows, the top Shorts by views, and the top long videos by
-views (with age and channel). Uses yt_search.py's fetch and parsing; needs www.youtube.com on the allowlist.
+views (with age and channel), each with its video id: pass a near one to yt_channels.py as shorts:<id> to see who
+posted it and on what date (the topic rule counts the last 30 days). Uses yt_search.py's fetch and parsing; needs www.youtube.com on the allowlist.
 Pace: one search every ~3 s.
 """
 import json
@@ -47,7 +48,8 @@ def summarise(data):
     for s in walk(data, "shortsLockupViewModel", []):
         om = s.get("overlayMetadata", {})
         v = (om.get("secondaryText") or {}).get("content") or ""
-        shorts.append((views_to_int(v.split("·")[0]), v, (om.get("primaryText") or {}).get("content") or ""))
+        vid = next((x for x in walk(s, "videoId", []) if isinstance(x, str)), "")
+        shorts.append((views_to_int(v.split("·")[0]), v, (om.get("primaryText") or {}).get("content") or "", vid))
     vids = []
     for v in walk(data, "videoRenderer", []):
         views = text_of(v.get("viewCountText")) or ""
@@ -55,9 +57,9 @@ def summarise(data):
         owner = text_of(v.get("ownerText")) or ""
         title = text_of(v.get("title")) or ""
         if is_short(v):
-            shorts.append((views_to_int(views), f"{views} · {age} · {owner}".strip(" ·"), title))
+            shorts.append((views_to_int(views), f"{views} · {age} · {owner}".strip(" ·"), title, v.get("videoId", "")))
         else:
-            vids.append((views_to_int(views), views, age, owner, title))
+            vids.append((views_to_int(views), views, age, owner, title, v.get("videoId", "")))
     seen, uniq = set(), []
     for row in sorted(shorts, reverse=True):
         if row[2] not in seen:
@@ -82,10 +84,10 @@ def main(out_dir, queries):
             continue
         shorts, vids = summarise(json.loads(m.group(1)))
         print(f"\n## {q}  [{len(shorts)} distinct Shorts on page]")
-        for n, v, t in shorts[:8]:
-            print(f"   S {v[:58]:<58} {t[:70]}")
-        for n, v, age, ch, t in vids[:3]:
-            print(f"   V {v[:16]:<16} {age[:12]:<12} {ch[:22]:<22} {t[:60]}")
+        for n, v, t, vid in shorts[:8]:
+            print(f"   S {vid:<11} {v[:46]:<46} {t[:70]}")
+        for n, v, age, ch, t, vid in vids[:3]:
+            print(f"   V {vid:<11} {v[:16]:<16} {age[:10]:<10} {ch[:20]:<20} {t[:60]}")
         time.sleep(3)
 
 

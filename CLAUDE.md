@@ -1,24 +1,30 @@
 # Short-Form 3D Cutaway Builds: Project Memory
 
+**Ideas swapped on 23 Nov 2026**, on the user's word: "I like all 5 ideas, swap out the current video ideas for these new
+ones." Sections 2.3 and 3 now hold five new build ideas, B11 to B15: a flying house, a T-rex in the back yard, a giant robot,
+a giant marble run, and pizza by tube. The ten ideas of 21 Nov 2026 (B1–B10) are whole in the archive, section 3. Nothing
+else changed: the style, the runbook and the paste-in prompt are as revised on 22 Nov 2026.
+
 **Revised on 22 Nov 2026 for the build-steps style**, on the user's word: "I like this a lot, moving forward I want to use
 this animation style, update everything in the claude.md file to achieve this except the video ideas, that will be worked on
 later … remove anything that is unnecessary and causing clutter in the file."
 - **What changed:** how a video is animated and paced (every fix is built on screen in about four steps, each landing on its
   word: 4, 5), the runbook, the budget and the prompt lines (6), the lessons, cut down to what still applies (7), and the
   paste-in prompt (11.1, renewed 22/11/26).
-- **What did not change:** the Cutaway look, the narrator, the bill, the street and the dog, the posting rules, and **the
-  video ideas: 2.3, 3, 13.1 and 13.2 are word for word as they were; the user reworks them later.**
+- **What did not change:** the Cutaway look, the narrator, the bill, the street and the dog, the posting rules, and the
+  parked ideas and topics to avoid (13.1, 13.2). The video ideas (2.3, 3) were left for later, and were swapped on 23 Nov
+  2026 (above).
 - **What was removed as clutter** (the explainer-era evidence in full, the travelling-camera rules, older scripts and
   lessons, old branding options, old file ids, the step-by-step history) is whole in **`archive/CLAUDE-2026-11-22.md`**: this
   file as it stood before the revision (also commit `549e291`). Section numbers are the same there and here. Older still:
   `a9abd35` (before the build format, 21 Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get one with
   `git fetch --depth=1 origin <commit>` and read it with `git show <commit>:CLAUDE.md`.
 
-## 0. Start here (22 Nov 2026)
+## 0. Start here (23 Nov 2026)
 
 **What we make.** Vertical 3D build stories of about 64–68 s in the Cutaway look: a yard, pool, driveway or garage in bright
 daylight, standing on a block of ground sliced open like a cake and seen from above like a stage. A one-step idea ("If you
-roll turf over your pool, you have a hidden pool") is turned into the real thing one problem and one fix at a time, and
+tie a balloon to your chimney, you have a flying house") is turned into the real thing one problem and one fix at a time, and
 **every fix is built on screen in about four steps that each land on the word that names them**: a slab drops in, walls go
 up, a roof comes down, paint sweeps across. Narrated in second person ("you") by an AI voice, with one-word captions, each
 fix's real name on screen, and a price counter that ends on the bill. Nobody stands in for "you": the parts move by
@@ -45,7 +51,7 @@ is completely dead."
   build videos start on a fresh channel waits for the user's check in Studio.
 
 **The plan:** ten build videos in one lane, dream builds on what's yours ("How to turn your yard into a …"), judged at
-checkpoints and not one by one (2). The ideas (3) wait for the user's rework.
+checkpoints and not one by one (2). The first five ideas (3) were chosen by the user on 23 Nov 2026.
 
 **Where things live:**
 - This file, `strategy2.md` (style 2, paused) and `tiktokshop.md` (the TikTok Shop affiliate project) in the GitHub repo
@@ -55,7 +61,7 @@ checkpoints and not one by one (2). The ideas (3) wait for the user's rework.
   action "read"); it carries `strategy2.md`, `tiktokshop.md` and the archive as files. **When this file changes, update both
   copies:** commit and push, then republish the artifact by its url.
 
-**Standing rules (all in force on 22 Nov 2026):**
+**Standing rules (all in force on 23 Nov 2026):**
 1. Never spend Higgsfield credits before the user approves the quote at Gate B (6.1). Script, step sheet and quote are free.
    **At most 200 Higgsfield credits a video, with the reserve, the narration and the sound inside it** (the user, 18 Nov
    2026: "I want at most 200 credits per video").
@@ -71,17 +77,21 @@ checkpoints and not one by one (2). The ideas (3) wait for the user's rework.
    results, status and the lessons of an approved video goes on as before; that split is my reading of the instruction.
 7. The style is the build-steps style in the Cutaway look, and it doesn't change unless the user asks. Labels, the counter,
    stickers and the end card are overlays added in the edit (5); they are never asked of the image or video models.
-8. The video ideas are the user's to rework (22 Nov 2026): don't rewrite 2.3, 3, 13.1 or 13.2 unasked.
+8. The video ideas are the user's: the five in 2.3 and 3 are the ones the user chose on 23 Nov 2026. Don't rewrite 2.3, 3,
+   13.1 or 13.2 unasked; what Gate A finds for an idea being made is logged in its entry as before.
 
-**Status on 22 Nov 2026 (read this first; each bullet carries its own date):**
+**Status on 23 Nov 2026 (read this first; each bullet carries its own date):**
 - **The style is decided** (22 Nov 2026): build-steps, sections 4 to 6. It is proven on one fix (1.9;
   `pipeline/steps-test.md`). **Still to prove on the first video in it, video 17:** a tester that stays the same thing from
   clip to clip; a failure clip; a step that changes the cut ground (a hole dug, a pipe laid); a cut or a whip between the
   stage view and a closer view; and whether the clips' own sounds are good enough to keep.
-- **Next:** the user reworks the ideas (3); then video 17 from the prompt in 11.1.
-- **Video 16** (B3, "How to Turn Your House Into a Christmas Light Show") was finished on 22 Nov 2026 in the earlier way of
-  animating: 68.1 s, 197.99 credits, not posted. The user didn't like it (above). Whether it is posted is the user's call;
-  if it is, by about Sat 5 Dec 2026, with the copy in `pipeline/16-post-copy.md` (its audio was measured, never heard).
+- **The ideas were swapped on 23 Nov 2026:** five new ones, B11–B15 (2.3, 3), chosen by the user from a list checked on 22
+  Nov 2026. **Next:** video 17 from the prompt in 11.1; the user says which idea (my pick: B11, the flying house, then B12,
+  the T-rex).
+- **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show") was finished on 22 Nov 2026 in the
+  earlier way of animating: 68.1 s, 197.99 credits, not posted. The user didn't like it (above). Whether it is posted is the
+  user's call; if it is, by about Sat 5 Dec 2026, with the copy in `pipeline/16-post-copy.md` (its audio was measured, never
+  heard).
 - **The narrator is locked: Harrison** (22 Nov 2026), a Higgsfield preset voice (5).
 - **Higgsfield: 672.01 credits** on 22 Nov 2026 (`balance`): three videos at the cap before the Ultra plan renews (3,000 a
   month since 11 Nov 2026; check the date). ElevenLabs has 34 credits left and is no longer needed (6.0).
@@ -93,10 +103,10 @@ checkpoints and not one by one (2). The ideas (3) wait for the user's rework.
   after 01:45 UTC on 24 Nov.
 - **Profile:** brand set v3 is live on YouTube; its wording is about explainers and wants a refresh for builds (8.3).
 
-**Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style) · 2 the build run · 3 the build ideas
-(unchanged) · 4 writing the script · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile ·
-9 channels, results and the video log · 10 money · 11 the paste-in prompt · 12 reading the platforms from a session ·
-13 parked ideas, topics to avoid (both unchanged) and history.
+**Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style) · 2 the build run · 3 the five build ideas
+(23 Nov 2026) · 4 writing the script · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9
+channels, results and the video log · 10 money · 11 the paste-in prompt · 12 reading the platforms from a session · 13 parked
+ideas, topics to avoid (both unchanged) and history.
 
 ---
 
@@ -224,40 +234,38 @@ per-video numbers are in `research/whatifplus-videos.tsv` and `research/youbuilt
 
 ---
 
-## 2. The build run: ten videos (the plan of 21 Nov 2026, in the style of 22 Nov 2026)
+## 2. The build run: ten videos (the plan of 21 Nov 2026, in the style of 22 Nov 2026; the ideas of 23 Nov 2026)
 
 ### 2.1 The lane
 **Dream builds on what's yours:** "How to turn your [yard, pool, driveway, garage, house] into a [thing you wish you had]",
-built on one sliced-open set, one problem and one fix at a time, every fix in steps (4), with the bill running. One lane and
-one style for all ten, judged at the checkpoints in 2.5 and not after each video: changing direction after almost every
-video is what 9.3 warns about. The ten are counted from video 17, the first in the build-steps style; video 16, if it is
-posted, is read apart.
+or another plain "How to …" title about something that is yours (the five of 23 Nov 2026 use both), built on one sliced-open
+set, one problem and one fix at a time, every fix in steps (4), with the bill running. One lane and one style for all ten,
+judged at the checkpoints in 2.5 and not after each video: changing direction after almost every video is what 9.3 warns
+about. The ten are counted from video 17, the first in the build-steps style; video 16, if it is posted, is read apart.
 
-### 2.2 Before the next video (22 Nov 2026)
-1. **The ideas:** the user reworks section 3 for this style. An idea now also needs a tester that can come back five times,
-   and fixes that can each be built in about four visible steps (4.3). Until then 2.3 and 3 stand as they were written.
+### 2.2 Before the next video (23 Nov 2026)
+1. **The idea for video 17:** the user says which of the five (2.3). My pick is B11, the flying house, then B12, the T-rex.
 2. **Post what is finished:** style 2's s2-01, on a day of its own. Video 16 is the user's call (0).
 3. **The in-app checks** still owed (0). They decide where the build videos go on YouTube (1.6).
 4. **The TikTok handle and the profile wording** (8.3).
 
-Done: the narrator (Harrison), the voice and the sound on Higgsfield (6.0), the dog (4.5).
+Done: the ideas (five, chosen by the user on 23 Nov 2026), the narrator (Harrison), the voice and the sound on Higgsfield
+(6.0), the dog (4.5).
 
-### 2.3 The ten, in order (21 Nov 2026)
-Every idea was checked on 21 Nov 2026 against @whatifplus's 42 and @youbuiltit's 96 videos (none is on either list) and on
-YouTube with both title shapes (12.2). Check again at each Gate A: objects are being taken within days (1.7).
+### 2.3 The first five (chosen by the user on 23 Nov 2026)
+The user chose these five on 23 Nov 2026 ("I like all 5 ideas, swap out the current video ideas for these new ones") from a
+list checked on 22 Nov 2026 against @whatifplus's 42 and @youbuiltit's 100 videos (none is on either list) and on YouTube
+(12.2; what was dropped is in 3.1). They are the first five of the ten; the other five are chosen later, with the user, by
+the same checks. The table is in the order the ideas were shown; the user says which is made first (my pick: B11, then B12).
+Check again at each Gate A: objects are being taken within days (1.7).
 
-| # | Idea (section 3) | The naive step, on frame 0 | Demand, and who is near (21 Nov 2026) | Why this slot |
+| # | Idea (section 3) | The naive step, on frame 0 | Demand, and who is near (22 Nov 2026) | What it brings, and what it has to prove |
 |---|---|---|---|---|
-| B1 | How to Hide a Swimming Pool Under Your Lawn | turf unrolls over a tarp stretched across the pool | real moving-floor pools 17.2M and 1.6M; pools are the format's biggest object (13.4M on TikTok, 9.1M on YouTube); no build video of a hidden pool found | water and a cutaway are what our look does best; the motion is simple |
-| B2 | How to Turn Your Yard Into a Motocross Track | a dirt bike carves a circle in the lawn, turf flying | real backyard tracks 11M, 469K, 249K; racing is the format's steadiest cluster; no build video found | racing, and nothing like B1 |
-| B3 | How to Turn Your House Into a Christmas Light Show → **video 16, the first build video: finished on 22 Nov 2026 (68.1 s, 197.99 credits), not posted yet** | one string of lights is clipped to the gutter and comes on | pixel-light Shorts 13.5M and 559K; one small build copy (1.2K, 11 Nov) | seasonal: post by about Sat 5 Dec 2026 |
-| B4 | How to Turn Your Driveway Into a Soapbox Derby | a wagon rolls down the driveway | the 1973 magnet cheat 4M; soapbox Shorts 96K, 35K; no build video found | racing for kids, with a true story built in |
-| B5 | How to Turn Your House Into a Flood-Proof House | sandbags thump down at the door as water crosses the lawn | real flood Shorts 28M, 9.2M, 4.8M; one build video, The Building Box 874K (4 Nov) | defence and water; the cutaway shows the ground water |
-| B6 | How to Turn Your Yard Into a Railroad | a cart is pushed along two planks | garden railways 7.4M, 744K, 504K; "How a Log Road Becomes a Railroad" 413K; none in a yard | an enthusiast audience (1.6) |
-| B7 | How to Turn a Doghouse Into a Mansion | a door is cut in a cardboard box and the dog walks in | real dog mansions 6.1M, 2.3M; "How a Doghouse Becomes a Secret Hideout" 8.1M (16 Nov, a different build) | the dog's own episode |
-| B8 | How to Turn Your Pool Into an Olympic Diving Pool | a plank is bolted to the pool's edge | diving Shorts 50M, 17M; no build video found | water and sport |
-| B9 | How to Turn Your Yard Into a Demolition Derby | two old cars bump on the lawn | derby Shorts 3.4M, 242K; no build video found | racing; the hardest motion to draw, so late |
-| B10 | How to Turn Your Garage Into a Fire Station | a red truck backs into the garage | weak on the search page (15K); fire trucks carry enthusiast channels (448K–705K, 1.6); no build video found | the set is a building cut open, our look's best case |
+| B11 | How to Make Your House Fly | a bunch of balloons is tied to the chimney and its string snaps tight | balloon-lift Shorts 674.9M and 18.8M, a long video 8.9M; a retelling of a real flight 752K (Jul 2026); no build video found | the biggest proven interest and the simplest motions (things rise and fall); it needs a view with sky above the house |
+| B12 | How to Keep a T-Rex in Your Back Yard | a T-rex steps over a white picket fence | "Could A TRex Live in a Zoo?" 5.06M (May 2026); "How to keep a giant T-rex in captivity" 380K (8 Nov); one small build video, 11K (about 11 Nov) | the strongest first frame; a creature that has to look the same in every clip |
+| B13 | How to Build a Giant Robot in Your Back Yard | cardboard boxes stack themselves as high as the roof | giant-robot videos 17.8M, 13.9M, 1.4M; an AI story 4.7M in two weeks; one build-format video, 1.4K | a machine as tall as the house; walking, the hardest motion of the five |
+| B14 | How to Turn Your Yard Into a Giant Marble Run | a marble as big as a beach ball rolls down the kids' slide | toy marble runs 157M and 152M; "Marble Run in the Garden" 38.3M; no build video found | one unbroken run as the payoff; a ball that has to follow a track, and two fixes in the cut ground |
+| B15 | How to Get Pizza Delivered by Tube to Your Bedroom | a pizza box is pushed into a drainpipe and jams | a pneumatic-tube Short 19M; a café that sends food by tube 2.0M (long); no build video found | a running joke the cut ground shows; the thinnest proof of demand, and most of its action is in the cut ground: make it last |
 
 ### 2.4 Budget and cadence
 - **At most 200 Higgsfield credits a video, everything inside it** (6.1). A video in this style prices at about 185 with the
@@ -282,19 +290,22 @@ Four were made and posted (videos 12–15); none passed either platform's first 
 
 ---
 
-> **22 Nov 2026:** section 3 below is kept word for word as it stood before this revision (rule 8); the user reworks the
-> ideas later. Its draft scripts and ladders follow the earlier script rules (the "That's why…" and "Add…" lines, about
-> 220 words, camera lists for the travelling camera): when an idea is used or reworked, rewrite it to section 4.
+## 3. The five build ideas (chosen by the user on 23 Nov 2026; Gate A settles each)
 
-## 3. The ten build ideas (proposed 21 Nov 2026; the user picks, and Gate A settles each)
+**The brief** (the user, 22 Nov 2026): "give me 5 creative, unique, attention grabbing video ideas. ideas out of the ordinary
+that keeps people watching. for example "how to build a water park in your back yard" just an example, give me ideas that are
+different". **The answer** (23 Nov 2026): "I like all 5 ideas, swap out the current video ideas for these new ones." An idea
+list for this user is out of the ordinary first; the usual dream build (a water park, a go-kart track) is the example of what
+not to bring.
 
-All ten are in the lane of section 2 and the format of section 4. Order and timing are in 2.3. B1–B4 have a full draft script
-(about 220 words, written before the narrator was chosen: trim to about 210 at Gate A, 4.3); B5–B10 have the ladder a
-script is written from. Facts and prices marked ⚠ are unchecked and every one is
-checked before Gate A (rule 4); a bill lists what gets a price, never a made-up figure. No line below comes from a reference
-account.
+All five are in the lane of section 2 and are written for the format of section 4: each has its premise, its tester and five
+loops (what breaks; the fix in about four steps; the term). They are ladders, not scripts: the script is written at Gate A
+(6.2 Step 1). **Every term, fact and price below is from memory, a working name until it is checked** (rule 4); ⚠ marks the
+shakiest, and each idea lists what to check. A bill lists what gets a price, never a made-up figure. No line below comes from
+a reference account. All five were checked on 22 Nov 2026 against @whatifplus's 42 and @youbuiltit's 100 videos (none is on
+either list) and on YouTube (12.2). Count again at each Gate A: objects are being taken within days (1.7, 3.1).
 
-### 3.0 How an idea gets on the list (from 1.7)
+### 3.0 How an idea gets on the list (from 1.7; rules 8 and 9 added on 23 Nov 2026 for the build-steps style)
 1. **The premise fits one line and three seconds:** "If you [one naive step], you have a [thing]." The step must be something
    that can be seen happening from frame 0, and harmless to copy.
 2. **The thing is a wish:** something a teenager, or their dad, would love to have at home. Racing, defence and water did
@@ -302,363 +313,264 @@ account.
 3. **It is yours:** your yard, pool, driveway, garage, house.
 4. **Five failures you can see, five fixes with real names and real prices.** Each failure happens to a thing, not to a
    person.
-5. **The cutaway earns its place:** something under the ground or inside a wall is part of at least two fixes. It is what
-   our look shows and theirs doesn't.
+5. **The cutaway earns its place:** something under the ground or inside a wall is part of at least two fixes. It is what our
+   look shows and theirs doesn't.
 6. **A bright first frame:** grass, water, sky. No opening on snow or at night unless lights are the subject.
 7. **Nobody has built it:** not on the lists in 13.2, and the topic rule of 1.6 and 1.7 on YouTube with both title shapes. If
    more than about three animated build videos of the same object went up in the last 30 days, drop it; don't retitle it.
+8. **One tester:** one thing that uses the build and can come back in all five loops, failing a new way each time (4.3). The
+   simpler the thing, the better it holds from clip to clip.
+9. **Every fix can be built in about four visible steps** on the set, each a part that drops, rises, slides, swings or sweeps
+   into place (4.3). A fix that is only a setting, a rule or something inside a wire is the wrong fix.
 
-**B1. How to Hide a Swimming Pool Under Your Lawn** (a back yard with a pool)
-- **Title** (both platforms): "How to Hide a Swimming Pool Under Your Lawn". **Caption:** the title, "Guess the bill 💸", the
-  four standing tags, #Pool. **Pinned comment:** "Would you swim under your own lawn? And what do we build next?" (the dog is
-  named on video 16, the first build video, 4.5).
-- **Set:** one back yard cut open like a cake through the pool: the lawn and patio on top, the pool's concrete shell and
-  cyan water in the cut face, the floor's steel frame with its floats, the cables and pulleys on the pool bottom, a small
-  plant room with a hydraulic cylinder beside it under the lawn; the back of the house and its door behind.
-- **First second:** frame 0 the open pool with a tarp pulled tight across it, a roll of turf at one end, big in the frame;
-  by 1 s the turf is unrolling across the tarp by itself and the pool is disappearing under lawn. The dog trots after the roll.
-- **Script** (draft, about 221 words with the total):
-  > If you stretch a tarp over your pool and roll turf across it, you have a hidden pool.
-  >
-  > But the first lawn chair you set on it sinks straight to the bottom. So you swap the tarp for a solid deck. But now it
-  > weighs as much as a truck, and nothing can lift it. So you let the pool do the lifting. The deck floats, and cables on
-  > the pool's bottom pull it down. This is a movable floor. But as it rises, a pool's worth of water rides on top. So you
-  > leave a slot along every edge, and the water pours off as the floor comes up. But that slot is just wide enough to
-  > swallow a foot. So a flap swings across it the moment the floor reaches the top. But a floor that floats bobs like a
-  > raft when you walk on it. So spring-loaded pins shoot out of its edges and lock into the walls. These are locking
-  > pins. And with the lid shut, the heat stays in: most of a pool's heat escapes from its surface. That's why a covered
-  > pool is still warm in the morning. Add turf on top, a table and chairs, and one button by the back door. That's your
-  > hidden pool. The bill: about [TOTAL].
-- **Labels:** MOVABLE FLOOR, LOCKING PINS (two so far: name the deck and the edge flap too if Gate A finds their real
-  names). **The bill** (each ⚠ to source): a tarp and a roll of turf (the starting
-  figure); a structural pool deck; the movable floor with its floats, cables and hydraulic drive (the big one); edge flaps;
-  locking pins; artificial turf and patio furniture; the control. The total is said in round words.
-- **The dog:** follows the turf roll in frame 0; in the last shot the floor stops ankle-deep and he paddles across it.
-- **Camera (8):** the pool from the back door, wide (frame 0 and the last shot) → the tarp and the sinking chair, close → down
-  the cut face to the deck's floats → the cables and pulleys on the pool bottom → the plant room under the lawn → the edge
-  slot with water pouring off, close → the flap, extreme close → a pin sliding into the wall, close → the lawn at dusk with
-  steam under the lid's edge → back to the first position.
-- **Sounds:** bed: a quiet back yard in summer, a pool pump's hum; effects: turf unrolling, a splash, a winch whirr under
-  water, water pouring off, a flap's clack, pins thunking home, the counter's tick, the till.
-- **Demand, and who is near (21 Nov 2026):** real footage "A swimming pool that turns into a floor" 17.2M, "Innovative Hidden
-  Swimming Pool with a Movable Floor" 1.6M, "He Built A Secret Swimming Pool Inside His House" 3.3M. Pools as builds:
-  @youbuiltit's swimming pool 13.4M (TikTok), Low Poly Films 9.1M (YouTube), CUTAWAY's "How a Swimming Pool Becomes a Secret
-  Bunker" 556K (18 Nov). No build video of a hidden or moving-floor pool found.
-- **Checked ✔ (a search summary, 21 Nov 2026):** the floor is a stainless frame with foam buoyancy packs, so it floats;
-  steel cables run through pulleys on the pool bottom to a hydraulic cylinder that pulls it down; at the set depth
-  spring-loaded tapered pins lock it (WaterShapes, Building magazine, patent US10072432).
-- **⚠ before Gate A:** how the water passes the floor as it moves (a slot at the edge, or gaps in the deck) and what closes
-  the edge gap; the weight of a deck this size; the load a raised floor carries; "most of a pool's heat escapes from its
-  surface" (the US Department of Energy gives evaporation about 70%: reopen it); every price.
-- **Watch out:** nobody falls in; the chair sinks, not a person; no maker's name on the floor.
+**B11. How to Make Your House Fly** (a small house on its lot, under open sky)
+- **Title** (both platforms): "How to Make Your House Fly", as shown to the user. A YouTube search for those words returns
+  housefly videos (23 Nov 2026), so offer "How to Make Your House Fly With Balloons" at Gate A. **Caption:** the title,
+  "Guess the bill 💸", the four standing tags, #Balloons. **Pinned comment:** "Would you get in? Yes or no. And what do we
+  build next?"
+- **Set:** one small one-storey house on its lot, cut open like a cake through the front of its foundation: lawn on top; in
+  the cut face the concrete foundation with its anchor bolts, the water pipe, the drain and the power cable; open blue sky.
+  **The view is not the usual stage view** (5 Rule 2): the build goes up, so the house sits in the lower middle of the frame
+  with sky in the top half, and the cut face still runs across the bottom. It is locked while a fix is built, like any other;
+  show it at Gate C.
+- **First second:** frame 0 a bunch of red balloons already tied to the chimney, the string snapping tight, big in the frame;
+  by 1 s a second bunch pops up beside it and the house has not moved. The dog sits on the lawn with his head on one side.
+- **Tester:** the lift-off. In every loop the house tries to leave the ground, and fails a new way.
+- **Ladder** (draft). Premise: "If you tie a balloon to your chimney, you have a flying house."
+  - **1.** *Breaks:* the string goes tight and the house doesn't move. *Fix:* roll in a row of gas tanks, blow up hundreds of
+    giant weather balloons, throw a net over them, tie the net to the house. *Term:* CLUSTER BALLOONING.
+  - **2.** *Breaks:* the balloons tear the roof off and float away with it. *Fix:* cut the bolts that hold the house down (in
+    the cut face), slide two steel beams under the floor, loop cables round the walls, hook them to the net. *Term:* LIFTING
+    BEAMS ⚠.
+  - **3.** *Breaks:* it lifts, tips, and the couch slides out of the front door. *Fix:* hang a water tank under each corner,
+    join them with pipes, fit a pump in the middle, move water to the high side until the floor is level. *Term:* BALLAST.
+  - **4.** *Breaks:* now it won't stop climbing. *Fix:* fit a valve to the top balloons, run its cord down through the
+    chimney, hang a handle by the fireplace, let the gas out a puff at a time. *Term:* VENT VALVE ⚠.
+  - **5.** *Breaks:* the wind carries it off down the street. *Fix:* dig a pit in the yard, pour a concrete block, bolt a
+    winch to it, reel the house back on a cable (in the cut ground). *Term:* TETHER.
+  - Close: "That's your flying house. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a bunch of party balloons (the starting figure); weather balloons and helium, worked out from the
+  house's weight (the big one); the net and the rigging; steel beams and a house mover's day; water tanks and a pump; the
+  valves; the winch, the cable and the concrete.
+- **The dog:** head on one side in frame 0; he chases the roof across the lawn as it floats off (loop 2); in the last shot he
+  sits on the porch of the floating house, tail going.
+- **Demand, and who is near (22 Nov 2026):** MrBeast "How Many Balloons To Make A Store Fly?" 674.9M; Matthew Beem "How Many
+  Balloons To Make A Small House Fly?" 18.8M; Unspeakable "How Many Balloons To Make My House Fly?" 8.9M (long). Near:
+  RippleEffect "He Made His House Fly With BALLOONS!" 752K (28 Jul 2026; it retells a real flight); "What If You Could Fly
+  Your House Like a Drone?" 474K (27 Jul 2025); "CAN YOU FLY a house with balloons like in the movie Up?" 218K (a year old).
+  No build video found under either title shape.
+- **⚠ before Gate A:** the real flight (the 752K Short says Jonathan Trappe, over 300 balloons, over 10,000 feet: find the
+  source, the year and how small the house was); the lift of one weather balloon, and how many a real house would need; how
+  cluster balloonists come down (a valve, or balloons cut loose); what house movers call their beams; what holds a house to
+  its foundation; every price, helium above all.
+- **Watch out:** the picture is close to the film Up. After frame 0 the balloons are plain white weather balloons; the house
+  is our own plain modern one; no old man and no boy scout; the film is never named in the title, the caption or the tags.
+  Nobody is in the house when it tips, and nothing falls on anyone.
 
-**B2. How to Turn Your Yard Into a Motocross Track** (a big back yard)
-- **Title:** "How to Turn Your Yard Into a Motocross Track". **Caption:** the title, "Guess the bill 💸", the standing tags,
-  #Motocross #DirtBike. **Pinned comment:** "Would your neighbors survive this? And what do we build next?"
-- **Set:** one large yard cut open like a cake: lawn at first, then a clay track with banked corners, a tabletop jump whose
-  packed core shows in the cut face, a drain pipe under the low spot, a steel starting gate, the house and a fence behind.
-  Riders are small and anonymous, in helmets.
-- **First second:** frame 0 a dirt bike already carving a tight circle on the green lawn, low and close, turf spraying off
-  the back tire; by 1 s the circle is a brown ring and the dog is chasing the bike.
-- **Script** (draft, about 222 words with the total):
-  > If you ride your dirt bike in circles on the lawn, you have a motocross track.
-  >
-  > But the back tire chews the grass into a mud pit, and you slide out on every turn. So you scrape the lawn off, truck in
-  > clay, and pack it into a banked wall around each corner. This is a berm. But a track with no jumps is just a muddy
-  > road. So you build a ramp and a landing. But come up short, and you slam into the face of the landing. So you fill the
-  > gap between them flat. This is a tabletop. But the first storm turns every low spot into a pond. So you bury a pipe
-  > under each one to carry the water away. This is a culvert. But everyone takes off when they feel like it, and it's a
-  > pile-up at the first corner. So a steel gate holds every front wheel and drops them all at once. This is the starting
-  > gate. But a rider goes down behind a jump, where the next one can't see him. So someone stands on every jump with a
-  > yellow flag. These are flaggers. Add a row of bumps called whoops, foam blocks to mark the lanes, and a checkered flag.
-  > That's your motocross track. The bill: about [TOTAL].
-- **Labels:** BERM, TABLETOP, CULVERT, STARTING GATE, FLAGGERS. **The bill** (each ⚠): a tank of gas (the starting figure);
-  clay by the truckload and a day of a small bulldozer; the tabletop's dirt; drain pipe; a starting gate; flags, foam
-  blocks and a water hose.
-- **The dog:** chases the bike in frame 0; in the last shot he sits on the tabletop with the checkered flag in his mouth.
-- **Camera (8):** the lawn low by the bike (frame 0) → up and over the yard as the track appears → a berm, low on the
-  outside → the ramp and the gap from the side → down the cut face through the tabletop's core → the low spot and the pipe
-  under it (the cutaway) → the starting gate from in front, low → a jump's crest with the flag → the first position, wide.
-- **Sounds:** bed: a breezy back yard, a far-off two-stroke; effects: an engine rasp, dirt spraying, a truck tipping, a
-  thump on the landing, water in a pipe, the gate's clang, the counter's tick, the till.
-- **Demand, and who is near (21 Nov 2026):** real builds lead: a backyard pump track 11M, "landscaping, but make it moto"
-  469K, a pit-bike track 308K, "Dream Backyard Motocross Track" 249K, long videos 2.4M and 997K. Racing builds on TikTok:
-  go-karts 1.0M, NASCAR 851K, F1 532K, MotoGP 262K (@whatifplus). No motocross build video found on either list or on
-  YouTube.
-- **⚠ before Gate A:** that a tabletop is the safer jump because a short landing meets flat ground; what tracks are built
-  from (clay or a clay and sand mix); the yellow flag's meaning in the rule book; the starting gate's action (it drops
-  toward the riders); "whoops"; every price.
-- **Watch out:** nobody hurt: the fallen rider sits up; no bike brands, numbers or sponsor colours; don't reuse the
-  go-kart video's "neighbor calls the police" beat.
+**B12. How to Keep a T-Rex in Your Back Yard** (a big back yard)
+- **Title:** "How to Keep a T-Rex in Your Back Yard". **Caption:** the title, "Guess the bill 💸", the standing tags,
+  #Dinosaur #TRex. **Pinned comment:** "Would you keep one? Yes or no. And what do we build next?"
+- **Set:** one big back yard cut open like a cake: lawn, the back of the house across the top, the neighbour's fence and
+  barbecue down one side; in the cut face the deep concrete footings of the posts, and later the dry ditch. The stage view (5
+  Rule 2), a little wider: the T-rex is as tall as the roof edge.
+- **First second:** frame 0 a T-rex standing in the yard behind a white picket fence that reaches his ankle, one foot already
+  lifting over it, big in the frame; by 1 s he has stepped over and the fence lies flat. The dog barks once from the porch.
+- **Tester:** the T-rex, the same animal in every loop, getting out a new way. His key is a reference in every picture he is
+  in (6.3).
+- **Ladder** (draft). Premise: "If you put a T-rex behind your garden fence, you have a pet dinosaur."
+  - **1.** *Breaks:* he steps over it like a doormat. *Fix:* drill deep holes, drop in steel posts as tall as the house, pour
+    concrete round them, string steel cables between (the footings show in the cut face). *Term:* CABLE FENCE (how zoos hold
+    elephants ⚠).
+  - **2.** *Breaks:* he leans over the top and eats the neighbour's barbecue. *Fix:* dig a wide ditch inside the fence, wall
+    its far side with concrete, turf the near slope: he can't reach the fence (in the cut ground). *Term:* HA-HA (the real
+    name of a sunken barrier ⚠).
+  - **3.** *Breaks:* he's bored, and rams the posts all night. *Fix:* plant a steel mast, hang a barrel on a chain, fill it
+    with meat, let him work for his dinner. *Term:* ENRICHMENT ⚠.
+  - **4.** *Breaks:* somebody has to go in and clean up. *Fix:* fence off a second yard, hang a sliding steel door between
+    the two, lure him through with dinner, shut it behind him. *Term:* SHIFT YARD ⚠.
+  - **5.** *Breaks:* now the whole street is at your fence to look. *Fix:* cut a gap in the fence, pour a concrete frame,
+    lower in a slab of glass as thick as a brick, bolt on a handrail. *Term:* LAMINATED GLASS.
+  - Close: "That's your pet T-rex. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a picket fence (the starting figure); steel posts, concrete and cable by the foot; digging and
+  walling the ditch; the feeder; the second yard and its door; the glass. His food by the day, from a published estimate of
+  what a T-rex ate, is said apart from the total, the way video 16 said its power ("and … a day in meat").
+- **The dog:** barks from the porch in frame 0; nose to nose with the T-rex through the glass (loop 5); in the last shot he
+  is asleep against the glass with the T-rex asleep on the other side.
+- **Demand, and who is near (22 Nov 2026):** Spinosnack "Could A TRex Live in a Zoo? Let's Find Out" 5.06M (7 May 2026);
+  Creature History "How to keep a giant T-rex in captivity" 380K (8 Nov 2026); "What Would It Be Like to Raise a T rex as a
+  Pet" 155K; Bryton Myler "T-REX in my Backyard!" 23.6M (long, six years old). Build format: Sliced Open "How a Backyard
+  Becomes a Jurrassic Zoo" 11K (about 11 Nov 2026); "How to build a T-Rex hideout" 52K (21 Nov, a different thing).
+  @whatifplus's "Dinosaur Proof House" has 27.6K (14 Nov), its third "-proof house" in four days. Two videos on keeping a
+  T-rex in the last 30 days: inside the topic rule; count again at Gate A.
+- **⚠ before Gate A:** a T-rex's height, length, weight and reach; how zoos hold elephants (posts and cable, dry moats) and
+  what each costs; "ha-ha"; "enrichment"; what keepers call the second yard; how thick zoo glass is; how much a T-rex ate in
+  a day.
+- **Watch out:** nothing from Jurassic Park or its sequels: no electric fence that fails, no goat, no jeep, no park gate, and
+  no film named in the title, the caption or the tags. The T-rex is never hurt and hurts nobody: the fence, the barbecue and
+  the posts are what suffer. The dog always has something solid between him and the T-rex. Scales, as most viewers expect;
+  the narration says nothing about feathers. A creature that stays the same from clip to clip is still to be proven (0).
 
-**B3. How to Turn Your House Into a Christmas Light Show** (a house on a street at dusk; post by about Sat 5 Dec 2026)
-- **Title:** "How to Turn Your House Into a Christmas Light Show". **Caption:** the title, "Guess the bill 💸", the standing
-  tags, #Christmas #ChristmasLights. **Pinned comment:** "Guess the power bill. And what do we build next?"
-- **Set:** one two-storey house cut open like a cake at dusk: the roof line and gutter, the breaker panel in the garage,
-  the oven in the kitchen, the outlets on the outside wall, a controller box in the attic, the front yard and the street
-  with a few parked cars. The night look is a re-grade of the day still (6.3 NIGHT); the lights are the subject, so this
-  one may open at dusk (3.0 rule 6).
-- **First second:** frame 0 a dark house against a deep blue sky, one string of lights half clipped along the gutter, big
-  in the frame; by 1 s the clips have run to the corner and the string comes on bulb by bulb. The dog is wrapped in a
-  spare string.
-- **Script** (draft, about 225 words with the totals):
-  > If you clip one string of lights to your gutter, you have a Christmas light show.
-  >
-  > But one bulb burns out and the whole string goes dark. So each bulb gets a tiny bypass wire that takes over when it
-  > dies. This is a shunt. But you hang fifty more strings, and the breaker trips and takes the oven with it. So you swap
-  > every bulb for an LED, which sips about a tenth of the power. But the first wet snow gets into the plugs, and the
-  > outlet shuts itself off. This is a ground-fault outlet: it cuts the power before a wet wire can shock you. So every
-  > connection goes in a sealed box. But lights that only switch on and off are boring by the second night. So every bulb
-  > gets its own chip, and a controller plays them like a screen, in time with music. These are pixels. But the music
-  > wakes the whole street. So you send it out from a tiny radio transmitter, and the cars out front tune in. That's why
-  > light-show houses put a radio station on a sign in the yard. Add a tree made of lights, arches over the driveway, and
-  > a snowman that sings. That's your light show. The bill: about [TOTAL], plus [X] a night in power.
-- **Labels:** SHUNT, GROUND-FAULT OUTLET, PIXELS (named in the script); LED and FM TRANSMITTER on the words "LED" and
-  "transmitter". **The bill** (each ⚠): one string of lights (the
-  starting figure); fifty strings of LEDs; weatherproof boxes and outdoor cords; pixel strings, power supplies and a
-  controller; the transmitter; the tree, the arches and the snowman; and the nightly electricity, worked out from the
-  wattage.
-- **The dog:** tangled in a blinking string in frame 0; in the last shot he wears antlers that light in time with the house.
-- **Camera (8):** the gutter and the string, close (frame 0) → along the string to the dead bulb, extreme close (the
-  shunt) → through the wall to the breaker panel and the dark oven → the outside outlet in the snow, close → one pixel,
-  extreme close, then the whole wall changing colour → the attic controller → the street with the cars → the house, wide.
-- **Sounds:** bed: a quiet street on a winter evening; effects: clips clicking, a bulb's pop, a breaker's clunk, a hiss of
-  wet snow, a soft chord as the pixels come on (not a tune), a car radio's static, the counter's tick, the till.
-- **Demand, and who is near (21 Nov 2026):** "Animated Pixel Christmas Lights" 13.5M (a month old), light-kit Shorts 559K and
-  311K, "Use the extra red tip bulbs to make the Christmas lights twinkle" 103K. Build copies: "How One String of Lights
-  Becomes a $2.3 Billion Christmas Display" 1.2K (Sticker Shovel, 11 Nov) and nothing else. Winter topics flopped for
-  @whatifplus on white frames (1.7); this one is dark blue and full of colour.
-- **⚠ before Gate A:** which strings go dark with one dead bulb (old series-wired mini lights) and how the shunt works; LED
-  strings' share of the power (the US Department of Energy says at least 75% less); what trips first with fifty
-  incandescent strings on a 15-amp circuit (do the sum); that a GFCI trips on wet connections; "pixels" and the controller;
-  the low-power FM transmitter that light shows use and its rules; every price and the nightly cost.
-- **Video 16 (`pipeline/16-*`): Gate A approved by the user on 21 Nov 2026.** The user picked B3 as the first build video.
-  What the checks changed in the draft above: **the shunt loop is out** (five small AI Shorts on "one bulb kills the string"
-  and "the hidden wire in every bulb" went up on 8–15 Nov, best 8.5K) and **power injection is in** (halfway along the roof
-  white turns pink as the voltage sags; power is fed into the middle of the line); rain for snow, so the set keeps its
-  colours; "takes the oven with it" became "the porch and the living room go dark" (an oven has its own circuit; living
-  room and porch outlets often share one); the loops' terms are LED, GROUND-FAULT OUTLET, PIXELS, POWER INJECTION and FM
-  TRANSMITTER; the closing line is "The bill: about two thousand dollars, and less than a dollar a night in power" ($2,107.22
-  in `16-bill.md`; $0.19–$0.96 a night). The pinned comment names the dog. The set is at blue dusk: one phrase of the STYLE
-  line changes for this video (proved at Gate C: 6.3 DUSK).
-- **Resolved at Gate A (21 Nov 2026, search summaries; no seller's or agency's page opens from a session, 7.7):** a
-  100-count incandescent mini string draws about 40 W and an LED one 4–7 W; a 15-amp circuit carries 1,800 W (1,440 W
-  continuous), so 51 incandescent strings (about 2,040 W) trip it; a GFCI trips on a 4–6 mA imbalance in a fraction of a
-  second (the "1/40 of a second" often quoted wasn't found, so it isn't said) and rain in the plugs is the usual cause; a
-  smart pixel is an addressable RGB light with its own WS2811 chip; "pinking" at the end of a run is voltage drop and the fix
-  is called power injection (no "every N pixels" rule found, none said); unlicensed FM is limited to 250 microvolts a metre
-  at 3 metres (47 CFR 15.239), about 200 feet, and shows post the frequency on a yard sign. Saturation: neither build account
-  has a Christmas or lights build; on YouTube no animated build under either title shape, one near copy (Sticker Shovel,
-  1.2K); real footage 13.5M, 4.5M, 626K.
-- **Watch out:** no carols or any tune (no music, 5); no brand names; no Santa from a film; the sign carries no words in
-  the generated picture (the frequency is an overlay, 5).
+**B13. How to Build a Giant Robot in Your Back Yard** (a back yard and driveway)
+- **Title:** "How to Build a Giant Robot in Your Back Yard". **Caption:** the title, "Guess the bill 💸", the standing tags,
+  #Robot #Mech. **Pinned comment:** "What's the first job you'd give it? And what do we build next?"
+- **Set:** one back yard and driveway cut open like a cake: lawn, the house and garage across the top, a shed, the fence; in
+  the cut face, later, the concrete path under the turf and the charging pad's cable under the driveway. The robot is as tall
+  as the house and digger-yellow, with black hoses. The stage view, a little wider.
+- **First second:** frame 0 cardboard boxes stacking themselves on the lawn into a figure as tall as the house, a bucket
+  dropping on as its head, big in the frame; by 1 s a face is drawn on and it sways in a gust. The dog sniffs a box foot.
+- **Tester:** the robot's walk across the yard, tried again in every loop.
+- **Ladder** (draft). Premise: "If you stack cardboard boxes and draw on a face, you have a giant robot."
+  - **1.** *Breaks:* the first shower folds it flat. *Fix:* stand up two steel legs, bolt on hips and a spine, hang two arms,
+    lower on a head. *Term:* STEEL FRAME.
+  - **2.** *Breaks:* it can't lift a finger. *Fix:* pin a cylinder across every joint, run hoses down its back, mount a pump
+    on its hips, fill the tank with oil. *Term:* HYDRAULICS (a digger's arm works the same way ⚠).
+  - **3.** *Breaks:* its first step sinks to the knee in the lawn. *Fix:* roll back the turf, lay a steel grid, pour a
+    concrete path, roll the grass back over it (in the cut ground). *Term:* HARDSTANDING ⚠.
+  - **4.** *Breaks:* its second step lands it face down on the shed. *Fix:* fit a spinning sensor in its chest and wire it to
+    every joint: now it leans back before it falls. *Term:* GYROSCOPE ⚠. Only three steps: find a fourth at Gate A, or let
+    this loop run short.
+  - **5.** *Breaks:* ten steps on, the battery is flat and it stops with one foot in the air. *Fix:* bolt a battery pack to
+    its back, bury a charging pad under the driveway, run a cable from the house, park it on the pad at night (in the cut
+    ground). *Term:* CHARGING PAD.
+  - Close: "That's your giant robot. The bill: about [TOTAL]."
+- **The bill** (each ⚠): cardboard boxes (the starting figure); steel by the ton, and the welding; cylinders, a pump and
+  hoses; the concrete path; sensors and a computer; the battery pack and the charger. For scale, what real giant robots sold
+  for (Kuratas, Archax ⚠).
+- **The dog:** sniffs a box foot in frame 0; watches the shed go from the porch (loop 4); in the last shot he rides in the
+  robot's open hand.
+- **Demand, and who is near (22 Nov 2026):** a giant robot carved from a log 17.8M; Hacksmith's walking machine 13.9M (long)
+  and 1.4M (Short); "A real-life robot mech!" 1.2M; an AI story, "They Found a GIANT Robot Buried in Scrap… Then It Woke
+  Up!", 4.7M in two weeks (long). Build format: "How a Stick Hut Turns Into a Giant Robot" 1.4K, and nothing else.
+- **⚠ before Gate A:** what real giant robots are built from and cost (Kuratas, Archax, Hacksmith's); hydraulics on a walking
+  machine; how a walking robot keeps its balance, and the part's name; how much ground a machine of that weight needs under
+  it, and what the paving is called; battery size and charging; every price.
+- **Watch out:** a plain yellow machine, like a digger on legs: nothing that looks like a film, cartoon or toy robot, and no
+  weapons. Walking is the hardest motion of the five for the video model: one or two steps a clip, proven at Gate D before
+  the rest is rendered. Nobody rides in it but the dog, in the last shot.
 
-**B4. How to Turn Your Driveway Into a Soapbox Derby** (a sloping driveway and street)
-- **Title:** "How to Turn Your Driveway Into a Soapbox Derby". **Caption:** the title, "Guess the bill 💸", the standing
-  tags, #SoapboxDerby #Racing. **Pinned comment:** "Would you have used the magnet? Yes or no."
-- **Set:** one sloping driveway and the street below it, cut open like a cake along the hill: the house and garage at the
-  top, a wooden starting ramp with steel paddles, two painted lanes, a finish line with a light beam, hay bales at the
-  bottom; one racer cut open to show the steering cable, the weights bolted to its floor and the brake pad.
-- **First second:** frame 0 a red wagon already rolling down the driveway toward the camera, low and close, the dog
-  sitting in it; by 1 s it is wobbling and he hops out as it tips into the hedge.
-- **Script** (draft, about 223 words with the total):
-  > If you roll down your driveway in a wagon, you have a soapbox derby.
-  >
-  > But the wagon wobbles, swerves, and tips you into the hedge. So you build a long, low car, lie back inside it, and
-  > steer with a cable. But one kid gets a shove and the other doesn't. So both cars lean on steel paddles that drop at
-  > the same instant. This is the starting gate. But the heavier car always wins. So every car goes on a scale with its
-  > driver, and the lighter ones bolt in weights until they match. But one lane is always a little faster. So you race
-  > twice, swap lanes and wheels in between, and add up the times. But two cars cross the line together and everyone
-  > argues. So a beam of light across the finish times each one to a thousandth of a second. But at the bottom you're
-  > doing thirty miles an hour with no engine and no way to stop. So a pedal shoves a rubber pad down onto the road. This
-  > is a drag brake. In 1973, the champion hid a magnet in the nose of his car to pull it off the steel gate. He was
-  > caught. Add hay bales, a finish banner, and a trophy. That's your soapbox derby. The bill: about [TOTAL].
-- **Labels:** STARTING GATE, DRAG BRAKE (named in the script); the year 1973 on the true story; the weights and the timer
-  get labels only if Gate A finds what racers call them. **The bill** (each ⚠): a wagon (the starting figure); a racer
-  kit with wheels; the starting ramp and gate; a scale and weights; the finish-line timer; hay bales, a banner and a
-  trophy.
-- **The dog:** rides the wagon in frame 0 and hops out; in the last shot he sits in the winning car wearing goggles.
-- **Camera (8):** the wagon low on the driveway (frame 0) → the hedge → the racer cut open, close → the gate's paddles, low
-  and in front → the scale → down the lanes with the cars → the finish beam, close → the brake pad on the road, extreme
-  close → the hill, wide.
-- **Sounds:** bed: a suburban street on a summer morning; effects: wagon wheels on concrete, a hedge's rustle, the paddles'
-  clack, a scale's clunk, wheels humming, a beep at the line, rubber dragging, the counter's tick, the till.
-- **Demand, and who is near (21 Nov 2026):** "The Genius Cheat With a Hidden MAGNET" 4M; "Why Soapbox Driver Sit in Such a
-  Tiny Space!" 96K; "85 Year Old Grandpa WINS Soapbox Derby" 35K. No soapbox build video found.
-- **⚠ before Gate A:** the starting gate's paddles; the weight limits by division; the lane and wheel swap and how the
-  times are combined; the finish timer's precision; top speed on a derby hill; how the brake works; the 1973 magnet (how it
-  was switched on, and that the winner was disqualified); what racers call the added weights and the finish timer; every
-  price.
-- **Watch out:** the 1973 racer was a child: never named or shown, one sentence only; no derby logos; the dog is out of
-  the wagon before it tips.
+**B14. How to Turn Your Yard Into a Giant Marble Run** (a back yard with a pool)
+- **Title:** "How to Turn Your Yard Into a Giant Marble Run". **Caption:** the title, "Guess the bill 💸", the standing tags,
+  #MarbleRun #Satisfying. **Pinned comment:** "What would you add to it? And what do we build next?"
+- **Set:** one back yard with a pool, cut open like a cake: a kids' slide on the lawn, the house across the top, a row of
+  garden gnomes by the fence; later a track of twin steel rails on posts, from the roof edge down and round the yard; in the
+  cut face the pit with the foot of the screw, and the clear tunnel under the lawn. The marble is glass with a blue swirl, as
+  big as a beach ball. The stage view.
+- **First second:** frame 0 the giant marble already rolling down the kids' slide, big in the frame; by 1 s it shoots off the
+  end and bowls over the row of gnomes. The dog jumps aside and runs after it.
+- **Tester:** the marble. In every loop it is let go again, gets a little further, and fails at the next place.
+- **Ladder** (draft). Premise: "If you roll a marble down your slide, you have a marble run."
+  - **1.** *Breaks:* it flies off the end and flattens the gnomes. *Fix:* plant a row of posts, hang two steel rails on them,
+    bend the rails round the yard, tilt the bend inward. *Term:* BANKED TURN.
+  - **2.** *Breaks:* at the bottom somebody has to carry it back up, and it is too heavy to lift. *Fix:* dig a pit at the end
+    of the track, stand a giant screw in a tube, bolt a motor on top, join its top to the start of the track: it winds the
+    marble back up to the roof (its foot shows in the cut ground). *Term:* ARCHIMEDES SCREW.
+  - **3.** *Breaks:* the whole run is over in five seconds. *Fix:* set a ring of posts, lower on a giant funnel, feed the
+    track in at its rim, hang the track on again underneath: the marble circles a dozen times before it drops through.
+    *Term:* VORTEX ⚠.
+  - **4.** *Breaks:* the lawn is in the way of the pool. *Fix:* cut a trench across it, lay a clear tube, join the track to
+    both ends, roll the turf back over: the marble goes under the grass (the cut face is its window). *Term:* TUNNEL.
+  - **5.** *Breaks:* now every kid on the street has brought a ball. *Fix:* plant a second row of posts, hang a second track
+    beside the first, fit a rocking gate where they split: it sends one ball left and the next one right, and it's a race.
+    *Term:* FLIP-FLOP ⚠.
+  - Close: "That's your marble run. The bill: about [TOTAL]." The last shot is one unbroken run from the roof to a splash in
+    the pool.
+- **The bill** (each ⚠): a marble (the starting figure); steel rail by the foot, and posts; a screw conveyor and its motor;
+  the funnel (a one-off: if no price can be found it adds nothing to the counter, 4.4); clear tube by the foot and a day's
+  digging; the gate.
+- **The dog:** jumps aside and gives chase in frame 0; waits at the wrong end of the tunnel (loop 4); gets splashed by the
+  pool in the last shot.
+- **Demand, and who is near (22 Nov 2026):** toy marble runs 157M and 152M (Shorts), 44.8M, 10.3M; "Marble Run in the Garden"
+  38.3M (long, eleven years old). Near: "How a Marble Run Becomes a Particle Collider" 508K (a different object); "Building a
+  Backyard Marble Run in 8 Seconds" 1K (17 Nov). No build video of a yard marble run found.
+- **⚠ before Gate A:** the names (banked turn; an Archimedes screw used as a ball lift; what the funnel is called; the
+  alternating gate); what a glass ball that size would weigh, for the "too heavy" line; prices for rail, a screw conveyor and
+  clear tube.
+- **Watch out:** the marble has to read on a phone: about a tenth of the frame's width from the stage view. A ball following
+  a track is fiddly for the video model: one short stretch of track a clip, proven at Gate D. No toy brand's parts or
+  colours. Nobody rides it.
 
-**B5. How to Turn Your House Into a Flood-Proof House** (a house by a river)
-- **Title:** "How to Turn Your House Into a Flood-Proof House". **Tags:** #Flood #Engineering. **Pinned comment:** "Would you
-  let the water in? Yes or no."
-- **Set:** one house with a basement, cut open like a cake down to the ground water, a river behind it; brown flood water
-  that rises stage by stage; the sewer pipe, the floor drain and the toilet in the cut.
-- **First second:** frame 0 brown water creeping across the lawn toward the front door, low and close; by 1 s sandbags are
-  thumping into a wall at the door and the dog is watching from the top step.
-- **Ladder:** premise "If the river's rising and you stack sandbags at the door, you have a flood-proof house." → water
-  seeps between the bags and under the door → a steel barrier that clamps into the door frame on a rubber seal (FLOOD
-  BARRIER) → the flood comes up through the floor drain and the toilet instead → a flap in the sewer pipe that only opens
-  outward (BACKWATER VALVE) → ground water pushes up through the basement floor → a pit in the lowest corner and a pump
-  (SUMP PUMP) → the storm cuts the power and the pump stops → a battery that takes over (BACKUP) → six feet of water
-  outside leans on the walls until they crack → openings that let the water flow through the bottom level so the pressure
-  is the same on both sides (FLOOD VENTS), with everything that matters moved upstairs → the fix beyond all of those: the
-  house floats up on four posts (AMPHIBIOUS FOUNDATION). **Add:** the furnace on a platform, the outlets at chest height, a
-  boat tied to the porch. **Close:** "That's your flood-proof house. The bill: about [TOTAL]."
-- **The bill** (each ⚠): sandbags (the starting figure); a door barrier; a backwater valve fitted; a sump pit and pump; a
-  battery backup; flood vents; raising or floating a house (the big one).
-- **The dog:** on the top step in frame 0; in the last shot on the porch of the floating house, tail going.
-- **Demand, and who is near (21 Nov 2026):** real footage 28M (a door dam), 9.2M, 8.6M, 4.8M, 4.4M. One build video: The
-  Building Box's "How to Protect Your House From A Flood.." 874K (4 Nov); also "How a Tree in Your Yard Becomes a Flood-Proof
-  Treehouse" 22K. One recent build video is inside the topic rule; count again at Gate A.
-- **⚠ before Gate A:** sewer backflow in floods and the valve that stops it; what flood vents are for and where the building
-  code asks for them; amphibious foundations that really exist (the Netherlands, Louisiana); wall failure from water
-  pressure; every price.
-- **Watch out:** nobody in the water; no real town, river or disaster named; water is the enemy here, so mind the user's
-  note about lists that are all water (1.3): B1, B5 and B8 are spaced out.
+**B15. How to Get Pizza Delivered by Tube to Your Bedroom** (a street, cut open along its length)
+- **Title:** "How to Get Pizza Delivered by Tube to Your Bedroom" (50 characters). **Caption:** the title, "Guess the bill
+  💸", the standing tags, #Pizza #PneumaticTube. **Pinned comment:** "What would you send through it first? And what do we
+  build next?"
+- **Set:** one short street cut open like a cake along its length: a plain corner pizza place on the left, your two-storey
+  house on the right with the bedroom wall cut open, the neighbour's house between them; in the cut face the tube under the
+  street, its corner and the branch to the neighbour's. **The view is not the usual stage view** (5 Rule 2): the cut face
+  fills the bottom third of the frame, because that is where the pizza travels; show it at Gate C.
+- **First second:** frame 0 a pizza box being pushed into the open end of a drainpipe in the pizza place's wall, big in the
+  frame; by 1 s it has crumpled and jammed with a corner sticking out. The dog waits under the other end of the pipe, at the
+  bedroom window.
+- **Tester:** the pizza. One is sent in every loop, and it arrives wrecked a new way.
+- **Ladder** (draft). Premise: "If you run a drainpipe from the pizza place to your bedroom, you have pizza on tap."
+  - **1.** *Breaks:* a square box jams in a round pipe. *Fix:* slide the pizza onto a round tray, close two clear half-shells
+    over it, twist a felt ring onto each end, snap the latch. *Term:* CARRIER.
+  - **2.** *Breaks:* it slides a yard and stops. *Fix:* swap the drainpipe for a smooth tube, bolt a fan to the pizza place's
+    end, fit a hatch, seal it behind the carrier: the air pushes it along. *Term:* BLOWER.
+  - **3.** *Breaks:* it wedges in the corner under the street. *Fix:* dig up the corner, cut out the sharp elbow, lay in a
+    long gentle curve, fill the hole (in the cut ground). *Term:* SWEEP BEND ⚠.
+  - **4.** *Breaks:* it comes up in the neighbour's kitchen. *Fix:* open the ground at the branch, drop in a swinging piece
+    of tube, bury it again, wire it to a button by your bed: it points the carrier your way (in the cut ground). *Term:*
+    DIVERTER.
+  - **5.** *Breaks:* it arrives at full speed and paints the bedroom wall with cheese. *Fix:* close the end of the tube so
+    the trapped air slows the carrier, fit a padded cradle under it, hang a little door, add a bell that rings when it lands.
+    *Term:* AIR CUSHION ⚠.
+  - Close: "That's your pizza tube. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a length of drainpipe (the starting figure); carriers; the blower; tube by the foot and a day's
+  trenching under a street; the diverter; the station in the bedroom. For scale, what a bank's drive-up tube or a hospital's
+  system costs ⚠.
+- **The dog:** waits under the pipe in frame 0; licks the cheese off the wall (loop 5); in the last shot a second, small
+  carrier arrives with a bone in it.
+- **Demand, and who is near (22 Nov 2026):** "Why Pneumatic Tubes Were Shut Down" 19M (Short); Tom Scott "This café sends
+  food through pneumatic tubes" 2.0M (long, three years old); bank-tube Shorts 20–90K. Near: "My Pizza Always Takes an Hour,
+  So I Built My Own Pipeline" 1.2K. No build video found. The thinnest proof of demand of the five.
+- **⚠ before Gate A:** the café that sends food by tube (which, where, how fast); the names carrier, blower, sweep bend and
+  diverter, and how each works; how a carrier is slowed as it arrives, and what that is called; what a bank's or a hospital's
+  system costs; whether a pizza would survive the ride.
+- **Watch out:** no pizza brand, box design or logo; a plain corner shop. Most of the action is in small parts and in the cut
+  ground, the kind of step the style has not proven yet (0): make this one after a video that has proven it. Nobody is in the
+  bedroom.
 
-**B6. How to Turn Your Yard Into a Railroad** (a big yard with a slope)
-- **Title:** "How to Turn Your Yard Into a Railroad". **Tags:** #Trains #Railroad. **Pinned comment:** "Steam or diesel? Pick
-  one."
-- **Set:** one yard cut open like a cake along the track: lawn, a bed of crushed stone under wooden ties and steel rails, a
-  shallow cutting through a rise and the dirt piled into the dip beyond it, a side track with a switch, a ride-on train.
-- **First second:** frame 0 a wooden cart on two planks laid across the lawn, the dog sitting in it, low and close; by 1 s
-  it is rolling and the planks are bowing into the grass.
-- **Ladder:** premise "If you lay two planks across the lawn and push a cart along them, you have a railroad." → the cart
-  slides off at the first bend → steel rails, and a lip on the inside of every wheel (FLANGE) → the rails sink into the wet
-  lawn and spread apart → wooden ties on a bed of crushed stone that locks them and lets the rain through (BALLAST) → the
-  yard has a hill and steel wheels just spin on steel rails → dig through the top and pile the dirt into the dip (CUT AND
-  FILL): that's why railways look so flat → a second train is coming the other way → a side track and a moving piece of
-  rail (SWITCH, SIDING) → a loaded train takes the whole yard to stop, and a coupling can break → brakes that air pressure
-  holds off, so a broken hose puts them on (AIR BRAKE). **Add:** a platform, a water tower, a whistle. **Close:** "That's
-  your railroad. The bill: about [TOTAL]."
-- **The bill** (each ⚠): two planks and a cart (the starting figure); rail by the foot; ties and stone; a day of digging; a
-  switch; a ride-on locomotive and cars (the big one); brakes.
-- **The dog:** in the cart in frame 0; in the last shot he rides the locomotive's roof with his ears back.
-- **Demand, and who is near (21 Nov 2026):** garden and backyard railways 7.4M, 744K, 718K, 504K (real footage); "How a Log
-  Road Becomes a Railroad" 413K and "How a Plank on Wheels Becomes a Train" 104K are history builds, not a yard. @youbuiltit
-  has a railroad crossing (617K): leave the crossing out.
-- **⚠ before Gate A:** flanges and why wheels stay on; what ballast does; the steepest grade a train climbs; how a switch
-  works; the fail-safe air brake; every price (ride-on trains run on 7½-inch track: check).
-- **Watch out:** train wheels as cones is crowded on Shorts (13.2): one clause at most; no railway company colours.
+### 3.1 Reserves and what the check ruled out (22 Nov 2026)
+About twenty-five objects were searched on YouTube on 22 Nov 2026 with both title shapes (12.2) and the near videos dated.
+- **Reserves** (open on 22 Nov 2026; each weaker or harder than the five):
+  - your bed into a race car (real builds 11.3M, 9.0M and 5.9M long, 310K as a Short; no build video; but nothing goes in the
+    ground, and a bed on wheels going down a driveway is something a child could copy, 4.3);
+  - a yard your dog can't escape (coyote rollers for an escape-artist dog 4.5M, teaching a dog to stay in the yard 3.6M; no
+    build video; the dog would star and every price is in a shop; a fix more than a wish, 3.0 rule 2);
+  - a giant pinball machine on your driveway (no build video; a camera inside a pinball machine 60M, the world's largest
+    147K, DIY ones 20–107K; too close to B14 to run beside it);
+  - your house into a houseboat (real builds 24M, and 4.5M long; no build video found; too close to B11);
+  - a lawn mower into a hovercraft (real ones 359K, 207K, and 1.2M long; no build video found; nothing in the ground);
+  - a bedroom roof that slides open (product clips 1.4M, 862K; no build video found; nearer to home improvement than to a
+    wish).
+- **Ruled out, already built by others** (YouTube, 22 Nov 2026):
+  - a backyard volcano (The Building Box "How An Active Volcano Turns Into A Lava River In Your Backyard" 5.4M, 3 Nov; copies
+    of 29K on 7 Nov and 28K on 12 Nov; "How a Hole in Your Yard Becomes a Volcano" 9.5K, 14 Nov; two lava walls, 28K and
+    24K);
+  - a sandcastle the sea can't destroy (JoltFilms "How a Sandcastle Becomes a Tsunami Wall" 368K, 6 Nov, and five more,
+    3.7K–96K);
+  - a rotating house ("How a House Becomes a Rotating House" 18K, 21 Nov, among about ten Shorts on rotating houses, several
+    from the last weeks);
+  - your own island (48K, 27K, 24K and more);
+  - a bedroom under the pool or the pond (build videos 50K, 26K, 19K; AI time-lapses 189M, 79M, 11M);
+  - a submarine base or a dry dock ("How a Hole by the Sea Becomes a Dry Dock" 14M; a pool turned submarine base 25K; a
+    kiddie-pool submarine 22K);
+  - a house turned into a skyscraper (40K, 35K, 5.9K);
+  - moving a house (Azi Films 870K, about 18 Nov);
+  - a moat (several crocodile-moat builds in the last weeks; "How a Stream Becomes a Moat" 80K);
+  - a car into a boat (How Things Work 112K, 13 Nov; a second, 21K);
+  - an indoor waterfall ("How a Hole In Your Roof Turns to A Three Story Waterfall In Your House" 1.8M).
+- **Set aside, not ruled out:** a squirrel-proof bird feeder (real ones 13M and 12M; one build copy, 54K; an animal that
+  small is hard to read and to hold steady); a pirate ship in the pool and a yacht harbour at home (little proven demand).
+- **The build accounts on 22 Nov 2026:** @youbuiltit is at 100 videos (new since 21 Nov: charcoal from logs, a deck from a
+  pallet, an ice-fishing shack); @whatifplus is still at 42, the helipad its latest (744K).
 
-**B7. How to Turn a Doghouse Into a Mansion** (a corner of a back yard)
-- **Title:** "How to Turn a Doghouse Into a Mansion". **Tags:** #Dogs #DogHouse. **Pinned comment:** "What would your dog
-  add? And what do we build next?"
-- **Set:** one corner of a yard cut open like a cake through a doghouse: the lawn and cold wet ground below, the house's
-  raised floor and insulation in the cut face, the inner wall behind the door, a heated pad, a flap door, a small porch.
-  The set is small, so every shot is close.
-- **First second:** frame 0 a cardboard box on the lawn with a door half cut in it, a blade finishing the cut, big in the
-  frame; by 1 s the flap falls out and the dog walks in and turns round.
-- **Ladder:** premise "If you cut a door in a cardboard box, you have a doghouse." → the first rain turns it to mush →
-  timber walls and a sloped shingle roof with an overhang → the cold ground pulls the heat out through the floor → the
-  floor raised on legs with insulation under it (RAISED FLOOR) → the wind blows straight in at the door → the door moved
-  to one side with a wall inside it (WINDBREAK) → you build it huge and he still shivers, because his body is the only
-  heater → a snug sleeping room and a pad that warms when he lies on it (HEATED PAD): that's why good doghouses are small →
-  a raccoon moves in and eats his dinner → a door that reads the chip under his skin and opens only for him (MICROCHIP
-  DOOR). **Add:** a porch, a fan for August, a camera that throws him a treat. **Close:** "That's his mansion. The bill:
-  about [TOTAL]."
-- **The bill** (each ⚠): a cardboard box (the starting figure, nothing); timber and shingles; insulation; a heated pad; a
-  microchip door; a porch, a fan and a camera.
-- **The dog:** the client: in every shot, never cold or scared for more than a beat.
-- **Demand, and who is near (21 Nov 2026):** real builds 6.1M ("DOG MANSION?!"), 2.3M, 1.5M, 1.4M. The nearest build video is
-  hole story 3d's "How a Doghouse Becomes a Secret Hideout" 8.1M (16 Nov) and a 22K copy: a hideout for a child under a
-  doghouse, not a house for the dog. Count again at Gate A.
-- **⚠ before Gate A:** that a doghouse should be only a little bigger than the dog; raised and insulated floors; the offset
-  door; pads that heat under the dog's weight; doors that read a microchip; every price.
-- **Watch out:** the raccoon is unhurt; no pet brands.
-
-**B8. How to Turn Your Pool Into an Olympic Diving Pool** (a back-yard pool)
-- **Title:** "How to Turn Your Pool Into an Olympic Diving Pool". **Tags:** #Diving #Olympics. **Pinned comment:** "Would you
-  jump from the top? Yes or no."
-- **Set:** one pool cut open like a cake: shallow at first, then dug to a deep blue well; a springboard on its stand, a
-  concrete tower, sprayers at the surface, a pipe grid in the pool floor that sends up bubbles, a small hot tub at the side.
-  Divers are small and anonymous.
-- **First second:** frame 0 a plank being bolted to the pool's edge, close; by 1 s it springs and a cannonball splash
-  fills the frame (the dog shakes off the spray).
-- **Ladder:** premise "If you bolt a plank to the edge of your pool, you have a diving pool." → the plank barely bends and
-  you belly-flop → a board on a roller that slides to set the bounce (SPRINGBOARD, FULCRUM) → you go in head first and the
-  bottom is five feet down → dig the pool to sixteen feet (the depth under a ten-metre platform) → a tower as high as a
-  three-storey house (PLATFORM) → from up there the water looks like glass and you can't tell where it starts → sprayers
-  ripple the surface so you can see it (SURFACE SPRAYERS) → a new dive gone wrong hits like a slap at thirty miles an
-  hour → a machine in the floor sends up a cushion of bubbles while you learn (BUBBLER) → you wait your turn wet and your
-  muscles go cold → a hot tub and showers by the pool: that's why divers shower between dives. **Add:** judges' chairs, a
-  scoreboard, a tiny towel. **Close:** "That's your diving pool. The bill: about [TOTAL]."
-- **The bill** (each ⚠): a plank and bolts (the starting figure); a competition springboard and stand; digging and lining a
-  deep well (the big one); a concrete tower; sprayers; a bubble machine; a hot tub.
-- **The dog:** shakes off the splash in frame 0; in the last shot he stands at the end of the springboard and thinks about it.
-- **Demand, and who is near (21 Nov 2026):** "Why they make pools 5FT deep…" 50M; extreme high diving 17M; "How To Dive for
-  Swimming" 12M. No diving-pool build video found.
-- **⚠ before Gate A:** the depth the rules ask for under a 10 m platform; the speed at the water from 10 m; surface sprayers
-  and why; the bubble machine's real name and use; why divers shower and use a small towel; every price.
-- **Watch out:** the naive step is a plank at the pool's edge, never a jump from a roof (nothing a child could copy and get
-  hurt, 4.3); nobody hits the bottom on screen.
-
-**B9. How to Turn Your Yard Into a Demolition Derby** (a muddy yard)
-- **Title:** "How to Turn Your Yard Into a Demolition Derby". **Tags:** #DemolitionDerby #Cars. **Pinned comment:** "Which
-  car would you bring? One word."
-- **Set:** one yard cut open like a cake: lawn, then a watered mud arena inside a ring of concrete blocks; old cars, one
-  of them cut open to show the small fuel tank strapped where the back seat was and the battery on the passenger floor.
-- **First second:** frame 0 two old cars nose to nose on the lawn, close; by 1 s one has backed into the other and a
-  bumper is spinning across the grass.
-- **Ladder:** premise "If you bump two old cars together in your yard, you have a demolition derby." → the windows burst and
-  the yard is full of glass → every pane comes out before the start (NO GLASS) → a hit from behind splits the fuel tank →
-  a small steel tank strapped inside the car where the back seat was (FUEL CELL) → one hit in the driver's door and it's
-  over → the door is painted bright and nobody is allowed to hit it (the DRIVER'S DOOR rule) → the cars are too fast on
-  dry ground → a water truck turns the arena to mud: that's why derbies are always muddy → the radiator bursts in the
-  first head-on hit → drivers hit with the back of the car: that's why they drive backwards → a car slides toward the
-  crowd → a ring of concrete blocks (BARRIER). **Add:** a stick on the roof to snap when you give up, a flag man, a trophy
-  for the last car moving. **Close:** "That's your demolition derby. The bill: about [TOTAL]."
-- **The bill** (each ⚠): two old cars (the starting figure); a fuel cell; paint; a water truck for a day; concrete blocks;
-  a trophy.
-- **The dog:** watches from the porch roof in frame 0 and the last shot, in ear muffs.
-- **Demand, and who is near (21 Nov 2026):** "A Demo Derby Secret They Don't Want You To Know!" 3.4M; derby prep 242K; 185K.
-  No derby build video found. Sequels to racing faded on @whatifplus (1.7), so judge it against B2's result first.
-- **⚠ before Gate A:** each rule (glass out, the tank moved, the battery moved, the painted door, hitting with the rear,
-  the watered arena, the stick on the roof, the time limit between hits): they differ by track, so say "most"; every price.
-- **Watch out:** drivers are helmets behind mesh, nobody hurt, no fire on a person; no car makes or badges; this is the
-  hardest motion on the list for the video model (many cars): prove it at Gate D before the batch.
-
-**B10. How to Turn Your Garage Into a Fire Station** (a house with a garage)
-- **Title:** "How to Turn Your Garage Into a Fire Station". **Tags:** #FireTruck #Firefighter. **Pinned comment:** "Pole or
-  stairs? Pick one."
-- **Set:** one two-storey building cut open like a cake: the bunk room upstairs, a brass pole through a hole in the floor,
-  the truck bay below with folding doors, a hose on the truck's exhaust pipe, boots standing inside their trousers by the
-  truck, a hose tower at the back, a traffic light on the street outside.
-- **First second:** frame 0 a red fire truck backing into an ordinary garage with an inch to spare, close; by 1 s the door
-  is rolling down behind its bumper and the dog jumps into the cab.
-- **Ladder:** premise "If you back a red truck into your garage, you have a fire station." → the call comes at three in the
-  morning and the stairs take forever → a hole in the bedroom floor and a brass pole (FIRE POLE; the first one, Chicago,
-  1878) → the garage door takes twenty seconds to roll up → doors that fold open sideways in a few seconds (FOUR-FOLD
-  DOORS) → the engine fills the garage and the bedroom above with exhaust → a hose that clamps on the tailpipe and lets go
-  by itself as the truck pulls out (EXHAUST CAPTURE) → getting dressed takes longer than the drive → boots standing inside
-  the trousers, ready to step into (TURNOUT GEAR) → the truck meets every red light → a signal from the truck turns the
-  lights green ahead of it (PREEMPTION) → wet hoses rot → a tower to hang them in: that's why old fire stations have
-  towers. **Add:** a bell, a kitchen table for the crew, a spot on the truck for the dog. **Close:** "That's your fire
-  station. The bill: about [TOTAL]."
-- **The bill** (each ⚠): nothing for parking (the starting figure); a fire truck (the big one, new or used); a pole; fold
-  doors; an exhaust system; turnout gear; a signal emitter; a tower.
-- **The dog:** in the cab from frame 0; in the last shot he rides up front in a small helmet.
-- **Demand, and who is near (21 Nov 2026):** weak on the search page (15K, 3K); enthusiast channels do well with fire trucks
-  (Tick & Click: a hose popping off a fire truck 448K, 1.6). No fire-station build video found. Unproven demand: make it
-  last, or swap in a reserve.
-- **⚠ before Gate A:** the 1878 pole; fold doors' opening time against a roll-up door's; exhaust hoses that release as the
-  truck leaves; signal preemption; hose towers; every price.
-- **Watch out:** no department names, numbers or badges; firefighters small and anonymous.
-
-### 3.1 Reserves and what the check ruled out (21 Nov 2026)
-- **Reserves** (open on 21 Nov 2026, weaker or harder): a UFC octagon in your garage (real Shorts 1.2M and "How Much A UFC
-  Octagon Cost To Build!" 260K; two fighters are hard for the video model); a music festival in your yard (little proven
-  demand); a rally stage or a lawn-mower race track (racing sequels); a zoo in your yard (animals are hard to hold steady).
-- **Ruled out, already built by others** (YouTube, 21 Nov 2026): a rocket launch pad (seven videos, the best 110K); a skate
-  bowl (4.5M and 600K); an airport or runway (3.0M, 287K, 77K); an NBA arena (Built From Scraps 1.7M, 15 Nov); a zip line
-  (You Build This 149K, 20 Nov); a drive-in cinema (Low Poly Films 253K, 14 Nov); a koi pond (4.0M); a secret room behind a
-  closet or wardrobe (five videos, to 413K); a Mars base (four); a bathtub submarine (six, the best 1.7M); a storm shelter
-  or tornado room (3.4M, 531K, 461K); a hurricane-proof house (two small). The lists of @whatifplus and @youbuiltit are in
-  13.2.
+### 3.2 The ten ideas this list replaced
+The ten ideas of 21 Nov 2026, B1–B10 (a hidden pool, a motocross track, a Christmas light show, a soapbox derby, a
+flood-proof house, a yard railroad, a doghouse mansion, an Olympic diving pool, a demolition derby, a garage fire station),
+were swapped out by the user on 23 Nov 2026. B3 had been made as video 16 (9.2). Their entries, with draft scripts, ladders
+and checked facts, are whole in `archive/CLAUDE-2026-11-22.md`, section 3 (and in this file at commit `63bb0cf`). They are
+not on the lists in 13.2; one comes back only if the user asks.
 
 ---
 
@@ -706,7 +618,7 @@ END CARD (1.5 s)   The street (4.5). No narration.
   walls, lower on a roof, and paint it red"): the part arrives on that word.
 - **Only what can be seen.** No numbers, no "about a tenth of the power", no cause that happens inside a wire. A fix that
   can't be built in steps on the set is the wrong fix, or the wrong idea.
-- **Each fix is a real thing with a real name,** said after it ("This is a berm.") in all five loops; it goes on screen (5).
+- **Each fix is a real thing with a real name,** said after it ("This is a ha-ha.") in all five loops; it goes on screen (5).
 - **The loops are the same length** (about 12–13 s) and escalate: a nuisance → damage → danger → the crowd (now everyone
   wants in). The last "But" starts at about 80% of the video.
 - **Leave the beats:** about half a second of silence after the premise and before each "But", so the last step can land and
@@ -910,10 +822,10 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
   opening rules (4.2) and the writing rules (4.3): about 210 words.
 - Fact-check every term and price with web search (7.7); cut what can't be checked. Write the bill (4.4) as
   `pipeline/NN-bill.md`.
-- Saturation check with both title shapes: `python3 pipeline/youtube/yt_saturation.py <dir> "how to turn your <place> into
-  a <thing>" "how a <humble thing> becomes a <thing>" "<thing> build"` (12.2), and date the near ones with
-  `yt_channels.py <dir> shorts:<id>`. The topic rule (1.6, 1.7): more than about three animated build videos of the same
-  object in the last 30 days, drop the idea; don't retitle it.
+- Saturation check with the idea's own title and both title shapes: `python3 pipeline/youtube/yt_saturation.py <dir> "<the
+  idea's title>" "how to turn your <place> into a <thing>" "how a <humble thing> becomes a <thing>" "<thing> build"` (12.2),
+  and date the near ones with `yt_channels.py <dir> shorts:<id>`. The topic rule (1.6, 1.7): more than about three animated
+  build videos of the same object in the last 30 days, drop the idea; don't retitle it.
 - **Show at Gate A:** the title; the script; the first 5 seconds as three lines (frame 0; what has changed by 1.0 s; the
   premise line and the second its first "But" lands); the loop table (`what breaks, with the tester | the four steps and
   the word each lands on | term on screen | price and its source`); the bill's total; where the dog appears; the facts
@@ -1245,7 +1157,7 @@ copies of the memory.
 ## 8. Posting and profile (approved by the user on 18 Nov 2026 unless marked; build copy 21 Nov 2026)
 
 ### 8.1 TikTok, every video
-- **Caption:** the title as a plain line ("How to hide a swimming pool under your lawn"), then "Guess the bill 💸", then
+- **Caption:** the title as a plain line ("How to make your house fly"), then "Guess the bill 💸", then
   `#HowItWorks #Engineering #LearnOnTikTok #3DAnimation` and one or two topic tags.
 - **The hashtags must turn into links.** Type each tag in the app, or tap it from the suggestion list after typing "#",
   and check that it shows as a link before posting. Afterwards `tt_snapshot.py` shows how many registered (12.1). None did
@@ -1261,8 +1173,8 @@ copies of the memory.
 - Don't delete a video that stalls.
 
 ### 8.2 YouTube Shorts, every video
-- **Title:** the same as TikTok's caption line ("How to Turn Your … Into a …"), under ~60 characters, no hashtags, no call
-  to action.
+- **Title:** the same as TikTok's caption line ("How to Turn Your … Into a …", or the idea's own title in 3), under ~60
+  characters, no hashtags, no call to action.
 - **Description:** two or three sentences that retell the premise with the named problems, one question for the comments,
   "Rough US prices, 2026.", then at most three hashtags.
 - **Audience:** "No, it's not made for kids" on the upload and as the channel default (made-for-kids mode killed video 02
@@ -1325,7 +1237,7 @@ copies of the memory.
 | 13 | Why Firefighters Drop Frozen Turkeys Into Fryers | 19 Nov | cutaway, travelling camera | 188.00 | yes | 629 at 47 h | 27 at 47 h |
 | 14 | Why It Rains Inside a Nuclear Cooling Tower | 20 Nov | cutaway, travelling camera | 161.50 | yes | 52 at 26 h | 9 at 26 h |
 | 15 | Why This NFL Field Is Sitting on 546 Wheels | 21 Nov | cutaway, travelling camera | 196.25 | yes | 302 at 20 h | 4 at 20 h |
-| 16 | How to Turn Your House Into a Christmas Light Show (B3) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | not posted | not posted |
+| 16 | How to Turn Your House Into a Christmas Light Show (B3 of the old list) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | not posted | not posted |
 
 - **Posted on TikTok** (for the 72 h reads still owed): video 13 on 19 Nov at 23:04 UTC, video 14 on 20 Nov at 20:00 UTC,
   video 15 on 21 Nov at 01:45 UTC (5 h 45 min after video 14). Build videos are logged here from video 17, with the bill's
@@ -1472,8 +1384,8 @@ text is in the archive (11.2).
 - **Reachable:** `www.youtube.com` (`/shorts/<id>` and channel pages), `i.ytimg.com`, `yt3.ggpht.com`,
   `yt3.googleusercontent.com`. `/watch?v=` redirects to a blocked bot check: no captions, durations or downloads.
 - **Scripts in `pipeline/youtube/`** (usage in each docstring; pace requests 2–3 s apart): `yt_snapshot.py @handle [dir]`
-  (channel facts, every Short's views, likes and date, comments, a made-for-kids check); `yt_saturation.py <dir> "<query>"
-  …` (the saturation check: how many Shorts, and the top Shorts and long videos, per query); `yt_search.py <dir>
+  (channel facts, every Short's views, likes and date, comments, a made-for-kids check); `yt_saturation.py <dir> "<query>" …`
+  (the saturation check: how many Shorts, and the top Shorts and long videos with their ids, per query); `yt_search.py <dir>
   "<query>"`; `yt_channels.py <dir> handle:@name shorts:<id>` (a channel's latest and most popular Shorts, or who posted a
   Short and when); `handles.py <dir> yt|tt <handle>…` (is a handle taken; try several spellings).
 - `pipeline/branding/live_brand_check.py`: which file in `branding/` is the live picture and banner.
@@ -1602,8 +1514,12 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   set v3; style 2 (`strategy2.md`) and its first video; the reach check (1.6).
 - **21 Nov:** the user asked to shift to @whatifplus's style: both build accounts studied (1.7), the build format, ten build
   ideas, the bill, the street and the dog; the look kept; a new voice asked for.
-- **21–22 Nov:** video 16 (B3) made: Harrison chosen, the voice and the sound moved to Higgsfield, 197.99 credits.
+- **21–22 Nov:** video 16 (the old idea B3) made: Harrison chosen, the voice and the sound moved to Higgsfield, 197.99
+  credits.
 - **22 Nov:** the user didn't like video 16; it was measured against the helipad video (1.9); the build-steps test worked
   (35.00 credits); the user chose the style and asked for this revision, with the ideas left for later.
+- **22–23 Nov:** the user asked for five ideas "out of the ordinary"; about twenty-five objects were checked on YouTube
+  (3.1); the user liked all five and swapped them in for the ten of 21 Nov (B11–B15 in 2.3 and 3; the old ten are in the
+  archive).
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive).
