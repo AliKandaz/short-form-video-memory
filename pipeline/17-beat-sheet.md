@@ -4,8 +4,9 @@ Idea B12 (CLAUDE.md 3), chosen by the user for video 17 on 23 Nov 2026 with the 
 the build-steps style (4, 5, 6). **Gate A approved by the user on 23 Nov 2026** ("approve": the title, the script, the
 loops, the bill and the dog as below). The script is `17-script.txt` (207 spoken words, ~64.7 s with the street card); the
 bill is `17-bill.md` ($179,571, spoken "about a hundred and eighty thousand dollars"). Balance at the start: 672.01
-Higgsfield credits (Ultra). **Gate B approved by the user on 23 Nov 2026** ("approve": the quote of 188.40 and the two small changes). **The stage
-pictures are made (23 Nov 2026) and Gate C is waiting for the user** (the section at the end of this file).
+Higgsfield credits (Ultra). **Gate B approved by the user on 23 Nov 2026** ("approve": the quote of 188.40 and the two small changes). **Gate C
+approved by the user on 23 Nov 2026** ("approve"). **The pilot is made (24 Nov 2026) and Gate D is waiting for the user**
+(the section at the end of this file).
 
 ## Gate A
 
@@ -260,3 +261,45 @@ Higgsfield project "HBX – How to Keep a T-Rex in Your Back Yard", folder `52a0
   (7.4).
 - Files: `17-stills.jpg` (the ladder in order), `17-gateC-keys.jpg` (the T-rex and the dog against their keys),
   `17-gateC-first-last.jpg` (frame 0, the last stage view, the last shot).
+
+## Steps 6, 6b and 7: the narration, the sound and the pilot (23–24 Nov 2026; Gate D)
+
+**The narration:** one take by Harrison (`elevenlabs_v4`, 4.83 credits; "ha-ha" sent as "hah-hah"). Whisper (`small.en`
+in the Higgsfield sandbox) heard the script word for word; 72.67 s raw (`17-words-takeA.json`), so no second take.
+`17-timing.py` tightened its 21 pauses to 0.15 s (0.14 s once sped up), kept the five beats before each "But" at 0.50 s (the
+first padded from 0.39 s raw; it is also the beat after the premise), and sped it up 1.1×: **63.09 s**, 64.6 s with the
+street card. The premise ends at 3.47 s and the first "But" lands at 4.09 s. A word Whisper stretched back over a pause
+("This" before "is a ha-ha") now starts where the pause ends.
+
+**The sound** (`mirelo_text_to_audio`, 18 s, 4.50 credits), measured (7.5): the bed is steady at −20 to −25 dB with no
+tones, made into a seamless loop (its last second crossfaded into its first); the tick is one clean click (5.6–7 kHz,
+0.05 s); the till has hits at 0, 0.15, 0.6 and 1.2–1.5 s (to be cut for the close); the roar is loud for 1.7 s, then a tail
+(the spare for FC5); the stomp came back nearly silent (−40 dB peak) and is left out.
+
+**The pilot clips** (`wan2_7` 720p, 16 s, 24.00 credits; ids in `17-jobs.tsv`): all six start and end on their pictures
+within 0.3 px, all came with sound, none has a person or text, and the steps in the cut ground (W1_1's shafts, W1_3's
+footings) read. When each step happens, and its sound's loudest moment:
+
+| Clip | What happens (source s) | Loudest | Placed (video s) | Lands on |
+|---|---|---|---|---|
+| HOOK | the pickets ring up from 0.13, the ring closes by about 2.1; he looks down; the dog barks | 2.9 | 0.00–4.00, then rests 0.41 s on its last frame | "fence" 0.87–1.09 half the ring is up; "T-rex" 1.55–1.93 it closes |
+| FC1 | he shifts his weight from 0.4, the foot swings over 0.6–1.1 and comes down at 1.2 (the thud, −4 dB raw); the pickets snap flat; the dog bolts in at 1.4 | 1.2–1.4 | 4.41–7.08 | the thud at 5.61, "steps" 5.71 |
+| W1_1 | holes drill in along the back and the left with soil spraying, 0.1–1.1; the shafts open in the cut face | 1.0 | 7.08–9.05 | the last holes at 8.18, "holes" 8.03–8.45 |
+| W1_2 | the posts drop out of the sky 0.27–1.13 and settle (the still first 0.2 s skipped) | 0.7 | 9.05–10.20 | the last post at 9.98, "posts" 9.85–10.30 |
+| W1_3 | concrete collars round every post and the footings in the cut face, 0.37–1.0 | 0.25 | 10.20–12.20, then 0.1 s rest | 11.20, "concrete" 10.97–11.40 |
+| W1_4 | six cables fly in from the bottom left and are strung tight, 0.13–1.0; the neighbor's wooden fence turns into poles and cables, 1.5–2.5 | 1.55 | 12.30–15.30, then 0.39 s rest | the cables at 13.30, "cable" 13.14–13.50; the fence changes under "This is a cable fence." |
+
+**The edit** (`17-build.py pilot`): every clip at its own speed (no clip slowed, no frames blended); the colour shift to
+S0; a push-in of 0.8% a second through each loop, eased back in the beat before the next "But"; the label CABLE FENCE and
+the counter's jump from $148 to $33,970 (+$33,822) on "This is a cable fence." (13.71–15.47); the clips' own sounds where
+their pictures are, 11 dB under the voice by active level; the bed 15 dB under by setting; the tick as the price drops in.
+**Measured:** something moving in 81% of the seconds, the longest still stretch 2 s (2.4–4.4 s: the ring is closed and he
+looks down, through "you have a pet dinosaur" and the beat); captions 57 px tall at 75%; the bed 19 dB under the voice in
+the quietest moments (`under_the_voice.py`); −13.6 LUFS, true peak −2.0 dB.
+
+**Credits so far: 87.08** (balance 584.93 on 24 Nov 2026): pictures 53.75, the pilot 24.00, the narration 4.83, the sound
+4.50. The other 22 clips (55 s) are 82.50, which makes 169.58 and leaves 18.82 of the 188.40 quote for re-renders.
+
+**Shown at Gate D** (in the scratchpad's `v17/gateD/`): `17-pilot.mp4` (the hook and loop 1 as the edit will play it,
+15.7 s), `17-pilot-natural-sound.mp4` (the six clips as they came, with their own sound), `17-pilot-hook.jpg` (0, 0.5, 1
+and 2 s) and `17-pilot-steps.jpg` (each step on its word).
