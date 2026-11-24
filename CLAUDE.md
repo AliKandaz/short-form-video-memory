@@ -1,5 +1,9 @@
 # Short-Form 3D Cutaway Builds: Project Memory
 
+**Video 17 made on 24 Nov 2026** (B12, "How to Keep a T-Rex in Your Back Yard"), the first video in the build-steps style:
+64.7 s, 169.58 credits of a 188.40 quote, all 28 of its clips usable on the first try. Logged in 0, 9.2 and 13.3; its
+lessons are in 7 and its scripts in 6.4. Nothing about the style, the plan or the ideas changed.
+
 **Ideas swapped on 23 Nov 2026**, on the user's word: "I like all 5 ideas, swap out the current video ideas for these new
 ones." Sections 2.3 and 3 now hold five new build ideas, B11 to B15: a flying house, a T-rex in the back yard, a giant robot,
 a giant marble run, and pizza by tube. The ten ideas of 21 Nov 2026 (B1–B10) are whole in the archive, section 3. Nothing
@@ -20,7 +24,7 @@ later … remove anything that is unnecessary and causing clutter in the file."
   `a9abd35` (before the build format, 21 Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get one with
   `git fetch --depth=1 origin <commit>` and read it with `git show <commit>:CLAUDE.md`.
 
-## 0. Start here (23 Nov 2026)
+## 0. Start here (24 Nov 2026)
 
 **What we make.** Vertical 3D build stories of about 64–68 s in the Cutaway look: a yard, pool, driveway or garage in bright
 daylight, standing on a block of ground sliced open like a cake and seen from above like a stage. A one-step idea ("If you
@@ -80,27 +84,32 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 8. The video ideas are the user's: the five in 2.3 and 3 are the ones the user chose on 23 Nov 2026. Don't rewrite 2.3, 3,
    13.1 or 13.2 unasked; what Gate A finds for an idea being made is logged in its entry as before.
 
-**Status on 23 Nov 2026 (read this first; each bullet carries its own date):**
-- **The style is decided** (22 Nov 2026): build-steps, sections 4 to 6. It is proven on one fix (1.9;
-  `pipeline/steps-test.md`). **Still to prove on the first video in it, video 17:** a tester that stays the same thing from
-  clip to clip; a failure clip; a step that changes the cut ground (a hole dug, a pipe laid); a cut or a whip between the
-  stage view and a closer view; and whether the clips' own sounds are good enough to keep.
-- **The ideas were swapped on 23 Nov 2026:** five new ones, B11–B15 (2.3, 3), chosen by the user from a list checked on 22
-  Nov 2026. **Next:** video 17 from the prompt in 11.1; the user says which idea (my pick: B11, the flying house, then B12,
-  the T-rex).
-- **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show") was finished on 22 Nov 2026 in the
-  earlier way of animating: 68.1 s, 197.99 credits, not posted. The user didn't like it (above). Whether it is posted is the
-  user's call; if it is, by about Sat 5 Dec 2026, with the copy in `pipeline/16-post-copy.md` (its audio was measured, never
-  heard).
+**Status on 24 Nov 2026 (read this first; each bullet carries its own date):**
+- **The style is proven on a whole video** (24 Nov 2026). Video 17, the first in it, settled what was still to prove after
+  the test (1.9): the T-rex stayed the same animal in all 30 pictures and 27 clips he is in; the failure clips worked; steps
+  that change the cut ground (holes and shafts, a ditch, footings) and water changing in a clip worked; cuts to a closer
+  view worked, and a 0.3 s whip hid a jump inside a clip; the clips' own sounds were kept (the user heard them at Gate D).
+  All 28 clips were usable on the first try (7.2).
+- **Video 17** (B12, "How to Keep a T-Rex in Your Back Yard") was finished on 24 Nov 2026: 64.7 s, 169.58 credits of a
+  188.40 quote, the bill $179,571; not posted. Its post copy is `pipeline/17-post-copy.md`, its covers `pipeline/17-covers/`,
+  the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2. **Next:** the user posts it (8.1, 8.2), and says
+  which idea is video 18 (my pick: B11, the flying house).
+- **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
+  are left.
+- **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show"), finished on 22 Nov 2026 in the
+  earlier way of animating (68.1 s, 197.99 credits; the user didn't like it, above), **was posted by the user on 22 Nov
+  2026**: on TikTok at 17:00 UTC, and on YouTube the same day. 309 views on TikTok and 8 on YouTube at about 33 h (read 24
+  Nov 2026, 01:55 UTC); the 72 h read is due after 17:00 UTC on 25 Nov.
 - **The narrator is locked: Harrison** (22 Nov 2026), a Higgsfield preset voice (5).
-- **Higgsfield: 672.01 credits** on 22 Nov 2026 (`balance`): three videos at the cap before the Ultra plan renews (3,000 a
+- **Higgsfield: 502.43 credits** on 24 Nov 2026 (`balance`): two videos at the cap before the Ultra plan renews (3,000 a
   month since 11 Nov 2026; check the date). ElevenLabs has 34 credits left and is no longer needed (6.0).
-- **Finished and not posted:** style 2's s2-01 (`pipeline/s2-01-post-copy.md`), on a day of its own.
+- **Finished and not posted:** video 17, and style 2's s2-01 (`pipeline/s2-01-post-copy.md`), each on a day of its own.
 - **Owed by the user, the in-app checks** (asked 21 Nov 2026): YouTube Studio → Content → the Restrictions column, and
   youtube.com/features (strikes); TikTok → Settings and privacy → Account → Account status. A fresh YouTube channel for the
   build videos only if the old one is in good standing, never to get around a strike.
-- **72 h reads still to log** (9.2): video 13 after 23:04 UTC on 22 Nov 2026, video 14 after 20:00 UTC on 23 Nov, video 15
-  after 01:45 UTC on 24 Nov.
+- **The 72 h reads are logged** (9.2, read 24 Nov 2026). **Video 13 climbed late:** the frozen-turkey Short went from 629
+  TikTok views at 47 h to 4,897 at 99 h, past the first-test bar, as Thanksgiving (26 Nov 2026) came near (9.3). Videos 14
+  and 15 stayed under 320. TikTok: 59 followers; YouTube: 315 subscribers.
 - **Profile:** brand set v3 is live on YouTube; its wording is about explainers and wants a refresh for builds (8.3).
 
 **Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style) · 2 the build run · 3 the five build ideas
@@ -241,16 +250,18 @@ per-video numbers are in `research/whatifplus-videos.tsv` and `research/youbuilt
 or another plain "How to …" title about something that is yours (the five of 23 Nov 2026 use both), built on one sliced-open
 set, one problem and one fix at a time, every fix in steps (4), with the bill running. One lane and one style for all ten,
 judged at the checkpoints in 2.5 and not after each video: changing direction after almost every video is what 9.3 warns
-about. The ten are counted from video 17, the first in the build-steps style; video 16, if it is posted, is read apart.
+about. The ten are counted from video 17, the first in the build-steps style; video 16, posted by the user on 22 Nov 2026,
+is read apart.
 
-### 2.2 Before the next video (23 Nov 2026)
-1. **The idea for video 17:** the user says which of the five (2.3). My pick is B11, the flying house, then B12, the T-rex.
-2. **Post what is finished:** style 2's s2-01, on a day of its own. Video 16 is the user's call (0).
+### 2.2 Before the next video (24 Nov 2026)
+1. **Post video 17** (`pipeline/17-post-copy.md`): early evening US Eastern, on both platforms. Then style 2's s2-01, on a
+   day of its own (8.1).
+2. **The idea for video 18:** the user says which of the four left (2.3). My pick is B11, the flying house.
 3. **The in-app checks** still owed (0). They decide where the build videos go on YouTube (1.6).
 4. **The TikTok handle and the profile wording** (8.3).
 
 Done: the ideas (five, chosen by the user on 23 Nov 2026), the narrator (Harrison), the voice and the sound on Higgsfield
-(6.0), the dog (4.5).
+(6.0), the dog (4.5), and the first video in the build-steps style (video 17, 24 Nov 2026).
 
 ### 2.3 The first five (chosen by the user on 23 Nov 2026)
 The user chose these five on 23 Nov 2026 ("I like all 5 ideas, swap out the current video ideas for these new ones") from a
@@ -269,8 +280,8 @@ Check again at each Gate A: objects are being taken within days (1.7).
 
 ### 2.4 Budget and cadence
 - **At most 200 Higgsfield credits a video, everything inside it** (6.1). A video in this style prices at about 185 with the
-  reserve (6.1). The balance was 672.01 on 22 Nov 2026: three videos at the cap before the Ultra plan renews (3,000 a month
-  since 11 Nov 2026; check the date).
+  reserve (6.1); video 17 was quoted at 188.40 and spent 169.58. The balance was 502.43 on 24 Nov 2026: two videos at the
+  cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date).
 - **One video every one to two days** as credits allow; early evening, US Eastern, on both platforms (8).
 
 ### 2.5 How we'll judge (from outside; never ask the user for retention)
@@ -409,6 +420,11 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
   no film named in the title, the caption or the tags. The T-rex is never hurt and hurts nobody: the fence, the barbecue and
   the posts are what suffer. The dog always has something solid between him and the T-rex. Scales, as most viewers expect;
   the narration says nothing about feathers. A creature that stays the same from clip to clip is still to be proven (0).
+- **Made as video 17** (23–24 Nov 2026). Gate A reworked the ladder against the near videos: the loops became the cable
+  fence, a ha-ha (he drinks the neighbor's pool dry), a wallow (he swats the shed flat with his tail), a night house (he
+  eats the robot mower) and laminated glass (he's lonely), with the bill at $179,571; and at loop 3 he turns to face the
+  camera, so the builds fit round him. The script, the bill, the step sheet and the log of every step are
+  `pipeline/17-script.txt`, `17-bill.md` and `17-beat-sheet.md`.
 
 **B13. How to Build a Giant Robot in Your Back Yard** (a back yard and driveway)
 - **Title:** "How to Build a Giant Robot in Your Back Yard". **Caption:** the title, "Guess the bill 💸", the standing tags,
@@ -624,7 +640,7 @@ END CARD (1.5 s)   The street (4.5). No narration.
 - **Leave the beats:** about half a second of silence after the premise and before each "But", so the last step can land and
   the tester can arrive. Those pauses are not tightened (6.2 Step 6).
 - **Under the ground at least twice:** two of the five fixes put something in the ground or inside a wall, where the cut
-  face shows it. (A step that changes the cut ground is still to be proven: 1.9.)
+  face shows it. (Proven on video 17: holes and shafts, a ditch's notch, footings.)
 - **Every term and every price is checked** (rule 4, 4.4).
 - **Length: about 210 words** (205–215): 64–68 s at Harrison's pace with the beats kept (7.5), which is also what the
   200-credit cap buys in clips (6.1). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute).
@@ -792,7 +808,8 @@ Other clip models priced on 20 Nov 2026 and never tested: `veo3_1_lite` 6.00 a 4
 8. After the run, call `transactions` and report the spend against the quote.
 
 **What videos have cost under the cap:** video 12 186.50, 13 188.00, 14 161.50, 15 196.25, 16 197.99 (its voice and sound,
-24.24, came out of a reserve that no re-render had used: luck, not a plan). The build-steps test: 35.00 for one fix made
+24.24, came out of a reserve that no re-render had used: luck, not a plan), 17 169.58 (quoted 188.40: pictures 53.75 for 43
+tries, the clips 106.50 with no re-render, the narration 4.83, the sound 4.50). The build-steps test: 35.00 for one fix made
 both ways.
 
 **The standard plan (22 Nov 2026; an estimate from the test, priced again and approved at each Gate B):**
@@ -874,13 +891,13 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
   Whisper returns the script word for word (an extra word is a stray sound, a missing one a swallowed word) and "So you…"
   reads straight through. The script supplies the caption text, Whisper only the timing.
 - Tighten the pauses to 0.15 s, **except the beats: keep about half a second after the premise and before each "But"**
-  (4.3). Then `atempo` up to 1.1, never more. `16-timing.py` does the tightening (it tightens every pause today: add the
-  beats); its `EST` mode gives word times from the script, for the pilot before the voice exists.
+  (4.3). Then `atempo` up to 1.1, never more. `17-timing.py` does the tightening with the beats kept (`16-timing.py`'s
+  `EST` mode gives word times from the script, for a pilot before the voice exists).
 
 **Step 6b: Sound (after Gate B).**
 - **The steps' sounds come from their clips.** For each step, cut the clip's sound from a little before its loudest moment
   to about half a second after, and place the loud moment on the step's landing in the video. Leave out a clip's sound if
-  it is nearly silent or carries a voice. To prove on video 17.
+  it is nearly silent or carries a voice. Proven on video 17: every clip's own sound was kept, played with its picture.
 - **The rest from `mirelo_text_to_audio`,** one request a sound: a 10 s bed (it is looped), the counter's tick (a short, dry
   click), the till for the final bill, and a spare or two. Prompts name the sound, its texture and the space, with no visual
   words; one plain sound a file. Never submit again to retry (it bills again).
@@ -974,7 +991,8 @@ copies of the memory.
 - **DOG** (ran on video 16; only the pictures and clips the dog is in): the dog key as an image reference, and "The dog is
   the same dog as in the dog reference: a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a
   red collar. He is small in the frame, [where he is and what he is doing]." Everywhere else, "No animals." The **tester**
-  is to be handled the same way, its key as a reference and the same words every time (to prove on video 17).
+  is handled the same way, its key as a reference and the same words every time (proven on video 17: `TREXW` in
+  `17-prompts.py`).
 - **INDOOR** (ran on videos 10–13; a view indoors): "This is an indoor close-up: nothing is cut open, and there is no soil,
   no ground, no pit and nothing buried anywhere in the frame." On a clip of an indoor set: "The floor is solid grey and
   nothing is cut open: no soil, no pit, no steps, no wooden layers."
@@ -995,8 +1013,13 @@ copies of the memory.
   the counter as ASS events), `16-build.py` (captions, words warped onto a sign, the street card, the mix with `on()` to
   place a sound on its picture, `POST_GAIN` and `LIMIT`, `REUSE=1`), `16-sound.py` (cutting generated sounds),
   `16-thumbnail.py`, `16-post-copy.md`, `16-bill.md`, `16-beat-sheet.md` (the log of every step).
-- **Still to write, on video 17:** `17-build.py`, which joins the two: the demo's time map and colour shift with video 16's
-  overlays, card and mix, plus placing each clip's own sound on its landing; and the beats in the timing script.
+- **From video 17** (`pipeline/17-*`; 24 Nov 2026), **the ones to copy for the next video:** `17-prompts.py` (the stage
+  ladder and every clip request; `python3 17-prompts.py still|clip KEY…` prints them), `17-check.py` (each clip against its
+  stills and when its step happens, added to `work/check.json`), `17-timing.py` (the pauses tightened with the beats kept, and
+  every script word's time), `17-build.py` (the whole edit: `place()` puts each clip's landing on its word; nearest frames;
+  the colour shift; the push-in and its ease-back; the whip; the shake; the close view; the captions, labels and counter; the
+  street card; the mix with each clip's own sound; `pilot` and `full` modes, `full-reuse` to redo only the overlays, card and
+  mix, `full-remix` for the audio only), `17-thumbnail.py`, `17-post-copy.md`, `17-bill.md`, `17-beat-sheet.md`.
 - **Tools:** `pipeline/analysis/` (`check_video.py`, `contact_sheet.py`, `under_the_voice.py`, `camera_path.py`,
   `transcribe.py`, `labels.py`, `hooks_sheet.py`, `voiceprint.py`), `pipeline/tiktok/`, `pipeline/youtube/`,
   `pipeline/branding/` (12). Earlier per-video files stay in `pipeline/` for the record.
@@ -1026,6 +1049,14 @@ copies of the memory.
 - `seedream` takes about 8 jobs at once (more are refused with 429, no charge). Pictures took 1.1–1.2 tries each on videos
   12 and 16, s2-01 and the test; 1.6–1.8 before every picture was an edit of a neighbour.
 - Lighting changes are surer in the edit than in a re-drawn picture.
+- **A creature holds** (video 17): the T-rex stayed the same animal in all 30 pictures he is in, with his key (side-on on
+  plain ground) as a reference in every one, and the same words every time.
+- **A big creature side-on fills the stage:** at two-thirds of the frame wide he left no room for the builds. Turned to face
+  the camera (in a failure: his tail smashed the shed as he turned), he left room for a pond, a building and a window.
+- **Shutting a building's door shrank it** (S4_4, twice): an edit that closes or covers a big object can resize it. Compare
+  its size with the stage before; if it shrinks, the clip into it will jump (7.2).
+- **Over 30 chained edits the drift grows:** from loop 3 on the stills came back darker and duller (the sunlit lawn's
+  L 174 → 141 by the last stage), with "the lawn keeps exactly the same bright green" in every prompt.
 
 ### 7.2 Clips (wan2_7 and kling4_0)
 - **`wan2_7` starts and ends on its pictures** (under 0.15 px in the test, 0 px on s2-01), **does its step in the first
@@ -1047,6 +1078,16 @@ copies of the memory.
   middle keyframe on the path stops the model inventing its own route; outdoors, name the ground whole in the prompt; and
   an event at the end of a flight lands late against its words. The cases are in the archive (7.2).
 - Never auto-retry after a transport timeout; check the job id first.
+- **All 28 clips of video 17 were usable on the first try** (24 Nov 2026): each started and ended on its pictures within
+  0.35 px and came with sound. Steps in the cut ground (holes and shafts, a ditch's notch, footings), water draining and
+  filling, and parts arriving from outside the frame (cables and a pipe flying in, a roof and a slab of glass dropping from
+  the sky) all worked.
+- **A clip between pictures that disagree in size jumps:** W4_4, into the shrunken building, snapped to the new size in one
+  frame. Keep the size in the end picture, or hide the jump with a whip in the edit (7.4).
+- **A clip whose start and end are the same picture comes back still:** FC5 (the roar inside the building) gave the roar in
+  its sound and no visible shudder. A camera shake in the edit carried it.
+- **A creature's fast turn can bend him:** in FC3 his tail stood up straight for about 0.3 s as he spun; at speed it reads as
+  a whip.
 
 ### 7.3 Pace
 - **Count what changes on screen:** the helipad about 50 times in 69 s, video 16 about 30 in 68 s (1.9). Aim for 35–40.
@@ -1076,6 +1117,18 @@ copies of the memory.
   has the words too.
 - **`REUSE=1`** keeps the rendered segments and redoes only the overlays, the card and the mix.
 - ffmpeg's xfade slide transitions write junk on their first frame: smear the edge with `fillborders` during a whip.
+- **The colour shift, revised on video 17:** the first version (any green pixel, the full shift) turned the house's mint
+  siding lime and the pale ground yellow. Now (`17-build.py`): the lawn is the green and yellow pixels (Lab a* < 130 and
+  b* > 136), measured on its sunlit half and shifted by 70% of the drift; everything else gets half the pale ground's change
+  in lightness, and no change of hue. The close view, with no pale ground, is left as it came.
+- **Place each clip by its landing:** (clip, source from, source landing, video landing). A clip plays at its own speed from
+  landing − (landing − from) until the next one starts; skip the still head of a clip whose step starts late to fit two
+  landings close together (`place()` in `17-build.py`). Every step of video 17 landed 0.10 s before to 0.23 s after its word.
+- **A small part can be slowed** with nearest frames (the mower at 0.83× and 0.5×) and nothing shows; a big moving part never.
+- **A 0.3 s whip** (the frame flies off to the left and the next comes in from the right, blurred along the move) hides a
+  jump inside a clip and reads as "later".
+- **A camera shake** (9 px, dying away over 1.3 s, under 1.8% more zoom) sells a sound the picture doesn't show.
+- **The "This is a …" sentence can rest on the finished step for up to about 1.7 s:** the label and the counter move there.
 
 ### 7.5 Narration and sound
 - **Harrison's numbers** (video 16): 224 words ran 77.56 s raw (2.89 words a second); pauses tightened to 0.15 s and
@@ -1100,6 +1153,13 @@ copies of the memory.
 - **Place each effect on its picture:** `on(seg, t)` turns a moment read off a clip into video time.
 - **The picture can be finished before the voice exists:** `16-timing.py EST` gives word times from the script, and the
   build runs silent when there is no narration.
+- **Harrison on video 17:** 207 words ran 72.67 s raw; with the five beats kept at 0.5 s and every other pause at 0.15 s,
+  1.1× gave 63.09 s (3.28 words a second), 64.7 s with the card. One take, word for word.
+- **Whisper can stretch a word back over the pause before it** ("This" before "is a ha-ha"): start it where the silence
+  ends (`17-timing.py`).
+- **The mix of video 17 measured:** −14.0 LUFS, true peak −2.0 dB, the bed 19 dB under the voice in the quietest
+  moments, with `BED_UNDER` 15, `FX_UNDER` 11, `POST_GAIN` 0.0 and `LIMIT` 0.79: the full mix with the clips' own sounds
+  came out 0.6 dB louder than video 16's (`POST_GAIN` 0.6 gave −13.4 LUFS), so measure each video's mix.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master; check the picture matches the claim at tile size.
@@ -1218,7 +1278,7 @@ copies of the memory.
   Education" and gave four no category; one mascot video went under "Anime & Comics". The YouTube uploads are not in
   made-for-kids mode.
 
-### 9.2 Video log (views as read on 21 Nov 2026; the per-video notes and older file ids are in the archive, 9.2)
+### 9.2 Video log (views as read on 21 Nov 2026, and on 24 Nov 2026 for 13–16; per-video notes and older file ids: the archive, 9.2)
 
 | # | Title | Made | Look | Credits | Scene changes by 1–2 s? | TikTok views | YouTube views |
 |---|---|---|---|---|---|---|---|
@@ -1234,14 +1294,19 @@ copies of the memory.
 | 10 | Why These People Are Frozen Upside Down | 17 Nov | cutaway, travelling camera | 278.00 | no | 429 | 16 |
 | 11 | Why This Castle Was Built Like a Maze (Himeji) | — | — | quoted 271.69 | stopped by the user at Gate B, 18 Nov | — | — |
 | 12 | Why Some Manhole Covers Are Full of Holes | 18 Nov | cutaway, travelling camera | 186.50 | yes | 209 at 72 h | 10 at 72 h |
-| 13 | Why Firefighters Drop Frozen Turkeys Into Fryers | 19 Nov | cutaway, travelling camera | 188.00 | yes | 629 at 47 h | 27 at 47 h |
-| 14 | Why It Rains Inside a Nuclear Cooling Tower | 20 Nov | cutaway, travelling camera | 161.50 | yes | 52 at 26 h | 9 at 26 h |
-| 15 | Why This NFL Field Is Sitting on 546 Wheels | 21 Nov | cutaway, travelling camera | 196.25 | yes | 302 at 20 h | 4 at 20 h |
-| 16 | How to Turn Your House Into a Christmas Light Show (B3 of the old list) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | not posted | not posted |
+| 13 | Why Firefighters Drop Frozen Turkeys Into Fryers | 19 Nov | cutaway, travelling camera | 188.00 | yes | 629 at 47 h; 4,897 at 99 h | 27 at 47 h; 30 at 99 h |
+| 14 | Why It Rains Inside a Nuclear Cooling Tower | 20 Nov | cutaway, travelling camera | 161.50 | yes | 52 at 26 h; 59 at 78 h | 9 at 26 h; 16 at 78 h |
+| 15 | Why This NFL Field Is Sitting on 546 Wheels | 21 Nov | cutaway, travelling camera | 196.25 | yes | 302 at 20 h; 317 at 72 h | 4 at 20 h; 8 at 72 h |
+| 16 | How to Turn Your House Into a Christmas Light Show (B3 of the old list) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | posted 22 Nov, 17:00 UTC; 309 at 33 h | posted 22 Nov; 8 at about 33 h |
+| 17 | How to Keep a T-Rex in Your Back Yard (B12) | 23–24 Nov | cutaway build-steps, Harrison's voice, 64.7 s | 169.58 (quoted 188.40) | yes: the pickets ring up from 0.13 s, half the ring is up by 1 s; first "But" at 4.09 s; bill $179,571 | not posted | not posted |
 
-- **Posted on TikTok** (for the 72 h reads still owed): video 13 on 19 Nov at 23:04 UTC, video 14 on 20 Nov at 20:00 UTC,
-  video 15 on 21 Nov at 01:45 UTC (5 h 45 min after video 14). Build videos are logged here from video 17, with the bill's
-  total and each read at 24 h and 72 h.
+- **Posted on TikTok:** video 13 on 19 Nov at 23:04 UTC, video 14 on 20 Nov at 20:00 UTC, video 15 on 21 Nov at 01:45 UTC
+  (5 h 45 min after video 14), video 16 on 22 Nov at 17:00 UTC (by the user, about noon US Eastern). Build videos are logged
+  here from video 17, with the bill's total and each read at 24 h and 72 h.
+- **Video 17's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
+  give the links to the user): final `9215ce52-d5c8-43e3-b75e-e7abc2611c67`; voice-only `b49bd844-96ff-454d-8abd-8822f8e51295`; clean master `6f8ea1d6-24e8-4361-ac02-6dd893430977`; Higgsfield folder
+  `52a00fbc-b926-4a05-b6b5-796fdf17009c`; job ids in `pipeline/17-jobs.tsv`; covers in `pipeline/17-covers/`; street tile
+  `pipeline/street/17.jpg` (the street now shows 16 and 17).
 - **Video 16's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
   not reachable from a session, so give the links to the user): final `a28f4631-2293-409a-9826-b46a5fe85f65`; voice-only
   `f50c94df-d6ce-4fba-900f-44619fe452b6`; clean master `c3b51b0e-9bc0-467f-8bec-5d83142a9a43`; Higgsfield folder
@@ -1260,6 +1325,8 @@ copies of the memory.
   Check a name several ways (`handles.py`, with and without the underscore) before saying an audience is unserved.
 - **In the build format, structure and polish don't separate hits from flops; the object does** (1.7). The effort goes
   into the idea and the first five seconds.
+- **A seasonal topic can climb late** (my read, 24 Nov 2026): video 13, the frozen turkeys, sat at 629 TikTok views at 47 h
+  and reached 4,897 by 99 h as Thanksgiving came near. Read a seasonal video again as its date nears before calling it.
 - **Changing direction after almost every video** left each one tested on a different audience (my read). There have been
   seven directions since 6 Nov 2026: mascot builds, cutaway explainers, famous places, matchups, the one-lane explainer
   plan, the build format, and the build-steps style. The build run holds for ten videos (2.5).
@@ -1521,5 +1588,7 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **22–23 Nov:** the user asked for five ideas "out of the ordinary"; about twenty-five objects were checked on YouTube
   (3.1); the user liked all five and swapped them in for the ten of 21 Nov (B11–B15 in 2.3 and 3; the old ten are in the
   archive).
+- **23–24 Nov:** video 17 (B12, the T-rex), the first in the build-steps style: 32 pictures from 43 tries, 28 clips all usable
+  on the first try, 169.58 credits; finished, not posted. The user had posted video 16 on 22 Nov.
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive).
