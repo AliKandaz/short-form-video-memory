@@ -45,3 +45,17 @@ S5_3	9d9d68ec-dc1c-4daf-842d-3e24f09fa3b3	accepted (try A): a thick glass slab i
 S5_4	08178c64-e087-49a2-b4aa-9ebcdf085a1c	accepted (try A): a red round bed in front of the glass, the dog in it nose to nose with the T-rex; readable from the stage view
 CLOSE_a	6d8aa5bd-dc83-42b3-88c7-e677229df5ec	accepted (try A): a low close view, the dog in his red bed nose to nose with the T-rex through the thick glass; both match their keys
 CLOSE_b	bbde6f42-cb0f-480e-853f-1dae5b31bd1f	both asleep against the glass (try A)
+# Gate C approved by the user on 23 Nov 2026 ("approve"). The pilot (Gate D): the hook and loop 1, wan2_7 720p, 16 s = 24.00
+HOOK	1b55c052-0384-41cb-8647-3d02aa454d6c	wan2_7 4 s: S0 -> H, the pickets ring up (try A)
+FC1	698ca1fd-6f61-43a3-b320-c2926a2fa0b2	wan2_7 3 s: H -> F1, he steps over; the dog bolts in (try A)
+W1_1	0a122c33-8063-46d1-8749-c6e4bf739171	wan2_7 2 s: F1 -> S1_1, the holes (try A)
+W1_2	2e2f7f44-c648-4a2f-8153-274a9955d9bb	wan2_7 2 s: S1_1 -> S1_2, the posts (try A)
+W1_3	7c267a27-0375-4a9a-a00b-585730aac5db	wan2_7 2 s: S1_2 -> S1_3, the concrete (try A)
+W1_4	da48ea09-0e2e-41d6-b53b-c2b2e67b873a	wan2_7 3 s: S1_3 -> S1_4, the cables (try A)
+# narration (elevenlabs_v4, Harrison, 4.83) and sound (mirelo_text_to_audio, 18 s = 4.50)
+NARR.A	c890385b-7fdb-4dbe-af14-0a9e12b2d99d	narration take A, Harrison ("ha-ha" sent as "hah-hah")
+SND.bed	919ad4a9-ea5b-44d1-8688-951afb63c7b5	10 s: a quiet back yard in summer
+SND.tick	056c458c-741d-4b07-a082-3ccedcadc5d6	1 s: the counter's click
+SND.till	9d6c9ff8-c5ea-4f1d-b081-6af8bbf7f0d9	2 s: the till
+SND.roar	9097a0ca-2baa-4ae5-bdc0-a9f696a19e86	3 s: a roar inside a steel shed (spare for FC5)
+SND.stomp	b4131908-9e50-4821-9013-00a7e7f6020d	2 s: one huge footstep (spare)

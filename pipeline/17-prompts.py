@@ -216,6 +216,115 @@ REFS = {
 }
 ASPECT = {"KT": "16:9"}
 
+# ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3) ----
+CLOCK = "The camera is locked and never moves."
+SELF = "Nobody is there: the parts move by themselves."
+STAYC = ("The house, the porch, the fences, the lawn and the cut face of the ground stay exactly as they are: no hole, pit or "
+"trench opens anywhere, and no soil appears on the lawn.")
+REXC = ("The T-rex is the same animal from start to end: a Tyrannosaurus rex with scaly moss-green and grey skin and a pale "
+"cream belly; he keeps his shape and size.")
+def tail(animals):
+    who = {"rex": "The only animal is the T-rex.", "rexdog": "The only animals are the T-rex and the dog.",
+           "none": "No animals."}[animals]
+    return f"Real speed. Motion starts on frame 1. No people, no characters. {who} No text, no captions, no letters."
+C = {
+ # key: (start, end, seconds, motion, stay, animals, sound)
+ "HOOK": ("S0", "H", 4, "White wooden pickets shoot up out of the grass one after another in a curve round the T-rex's feet, "
+          "from the left round to the right, and close into a ring within the first second. The T-rex stands still and blinks. "
+          "On the porch the small dog barks twice, then sits down.", STAYC, "rexdog",
+          "Sound: quick hollow wooden taps one after another as the pickets pop up, a small dog barking twice, a deep slow "
+          "breath, quiet birdsong."),
+ "FC1": ("H", "F1", 3, "The T-rex lifts one foot, steps forward over the white picket ring and puts his foot down on the "
+         "right side of it; the pickets under his foot snap and fall flat. At the same moment the small dog on the porch jumps up "
+         "and darts in through the open back door.", STAYC, "rexdog",
+         "Sound: a huge heavy footstep thud, wooden pickets cracking and snapping, a small dog's yelp and paws on wood, quiet "
+         "birdsong."),
+ "W1_1": ("F1", "S1_1", 2, "Round holes drill themselves into the lawn one after another along the back, the left and the "
+          "right edges, each throwing up a little ring of soil, and two deep shafts open straight down in the cut face of the "
+          "ground at the front; the house's back door swings shut. The T-rex stands still.",
+          "Apart from these holes the lawn and the cut face stay exactly as they are.", "rex",
+          "Sound: a quick run of deep drilling thuds and soil spraying, a door clicking shut, quiet birdsong."),
+ "W1_2": ("S1_1", "S1_2", 2, "Tall grey steel poles drop straight down out of the sky into the holes one after another, each "
+          "landing with a thump and a small puff of dust; the two at the front slide down into their shafts in the cut face. The "
+          "T-rex stands still.", STAYC, "rex",
+          "Sound: heavy steel poles clanging down one after another, a low metallic ring, quiet birdsong."),
+ "W1_3": ("S1_2", "S1_3", 2, "Wet grey concrete pours into every hole round the foot of each pole and settles smooth, and in the "
+          "cut face the two shafts fill up with grey concrete round their poles. The T-rex stands still.", STAYC, "rex",
+          "Sound: wet concrete pouring and slapping, a low glug, quiet birdsong."),
+ "W1_4": ("S1_3", "S1_4", 3, "Six thick steel cables zip out from pole to pole one after another, from the bottom up, along the "
+          "back, the left and the right, and pull taut; along the right side the old wooden fence gives way to more steel poles "
+          "and cables. The T-rex stands still.", STAYC, "rex",
+          "Sound: steel cables zipping taut and twanging one after another, quiet birdsong."),
+ "FC2a": ("S1_4", "F2a", 2, "The T-rex leans out over the cables on the right, stretches his neck down and dips his snout into "
+          "the neighbor's pool, gulping; the water ripples.", STAYC, "rex",
+          "Sound: steel cables creaking under weight, deep slurping gulps, water lapping."),
+ "FC2b": ("F2a", "F2", 2, "The water in the neighbor's pool drains away fast as the T-rex slurps it up, until the pool is empty "
+          "and its level has dropped in the cut face too; then he lifts his head back up over the lawn, water dripping from his "
+          "chin.", STAYC, "rex",
+          "Sound: loud slurping and gurgling, a big satisfied snort, water dripping."),
+ "W2_1": ("F2", "S2_1", 3, "The turf along the inside of the right-hand cable fence sinks away into a wide ditch from the back of "
+          "the lawn to the front, and at the front its profile opens in the cut face as a deep notch. The T-rex stands still.",
+          "Apart from this ditch the lawn stays whole and the rest of the cut face does not change.", "rex",
+          "Sound: a deep rumble, soil sliding and settling, quiet birdsong."),
+ "W2_2": ("S2_1", "S2_2", 2, "A black drain pipe drops into the bottom of the ditch and settles, its round end showing in the "
+          "cut face. The T-rex stands still.", "The lawn, the ditch and the rest of the cut face stay as they are.", "rex",
+          "Sound: a hollow plastic pipe thunking down into soil, quiet birdsong."),
+ "W2_3": ("S2_2", "S2_3", 2, "A smooth grey concrete wall rises up out of the ditch along its side nearest the T-rex, the whole "
+          "length of the ditch. The T-rex stands still.", "The lawn and the rest of the cut face stay as they are.", "rex",
+          "Sound: concrete grinding upward, a heavy thud, quiet birdsong."),
+ "W2_4": ("S2_3", "S2_4", 2, "Fresh green turf unrolls down the ditch's far slope, from the back of the lawn to the front. The "
+          "T-rex stands still.", "The ditch stays open; the lawn and the cut face stay as they are.", "rex",
+          "Sound: turf unrolling with a soft swish and a pat, quiet birdsong."),
+ "FC3": ("S2_4", "F3", 3, "The T-rex swings round to face the camera, and as he turns his long tail sweeps across the back left "
+         "of the lawn and smashes the garden shed into a burst of planks and dust.", STAYC, "rex",
+         "Sound: a heavy whoosh, a wooden shed collapsing in a crash of planks, a big snort."),
+ "W3_1": ("F3", "S3_1", 2, "The turf at the front of the lawn, right in front of the T-rex, slumps down into a wide round hollow. "
+          "The T-rex stands still.", "Apart from this hollow the lawn stays whole.", "rex",
+          "Sound: an earthy rumble, a soft thud, quiet birdsong."),
+ "W3_2": ("S3_1", "S3_2", 2, "Smooth grey clay spreads across the inside of the hollow and lines it. The T-rex stands still.",
+          STAYC, "rex", "Sound: a wet, squelchy smear, quiet birdsong."),
+ "W3_3": ("S3_2", "S3_3", 2, "Big grey boulders roll in round the rim of the hollow one after another and settle. The T-rex "
+          "stands still.", STAYC, "rex", "Sound: boulders rolling and knocking into place, quiet birdsong."),
+ "W3_4": ("S3_3", "S3_4", 3, "Translucent cyan water floods into the hollow and fills it to the rim; the T-rex lowers his head "
+          "and dips his snout into the water, splashing.", STAYC, "rex",
+          "Sound: water gushing in, a splash, a happy deep snort."),
+ "FC4": ("S3_4", "F4", 4, "A small grey robot lawn mower rolls in from the left edge of the frame across the grass toward the "
+         "water, humming; the T-rex lifts his head out of the water, swings it down and snaps the mower up in his jaws.",
+         STAYC, "rex", "Sound: the soft electric whirr of a small mower, a crunch of plastic and metal, a big gulp."),
+ "W4_1": ("F4", "S4_1", 2, "Grey concrete spreads out flat round the T-rex's feet, from behind his tail to just behind the "
+          "water, and sets smooth. The T-rex stands still with the mower in his jaws.", STAYC, "rex",
+          "Sound: wet concrete spreading and slapping, quiet birdsong."),
+ "W4_2": ("S4_1", "S4_2", 3, "Grey corrugated steel walls shoot up out of the edges of the concrete one after another round the "
+          "T-rex: the back, the left, the right, then the front with its wide doorway. The T-rex stands still.", STAYC, "rex",
+          "Sound: steel panels clanging up one after another."),
+ "W4_3": ("S4_2", "S4_3", 2, "A grey corrugated steel roof drops down onto the walls and settles over the T-rex's back; his head "
+          "stays out over the front doorway.", STAYC, "rex", "Sound: a booming metal clang, a short rattle."),
+ "W4_4": ("S4_3", "S4_4", 3, "The T-rex ducks his head back inside the building, a big steel door slides across the doorway and "
+          "clunks shut, and a small robot mower rolls out on the left and mows a stripe in the grass.", STAYC, "rex",
+          "Sound: a steel door rumbling along its track and clunking shut, then a small mower's soft whirr."),
+ "FC5": ("S4_4", "S4_4", 3, "The steel building shudders as a huge animal roars inside it: its walls rattle, dust shakes off "
+         "the roof edges, and the windows of the house rattle in their frames. Nothing else moves.", STAYC, "none",
+         "Sound: a deep animal roar muffled by steel walls, metal rattling, window glass buzzing."),
+ "W5_1": ("S4_4", "S5_1", 2, "The steel door panel falls forward out of the building's front wall and lands flat on the grass, "
+          "and the T-rex's face appears in the opening, looking out.", STAYC, "rex",
+          "Sound: a metal screech, a steel panel clanging down flat."),
+ "W5_2": ("S5_1", "S5_2", 2, "A thick steel frame swings into the opening and bolts tight round its edges. The T-rex stays "
+          "still.", STAYC, "rex", "Sound: a steel frame clanking in, bolts ratcheting tight."),
+ "W5_3": ("S5_2", "S5_3", 2, "A thick slab of clear glass lowers down into the frame and settles; the T-rex's face shows through "
+          "it.", STAYC, "rex", "Sound: glass sliding into a frame, a deep soft thunk."),
+ "W5_4": ("S5_3", "S5_4", 3, "A round red dog bed slides across the grass up to the glass, and the small dog trots in from the "
+          "left, hops into the bed and puts his nose to the glass, nose to nose with the T-rex.", STAYC, "rexdog",
+          "Sound: a soft bed sliding on grass, a small dog's paws, a happy little huff."),
+ "CLOSE": ("CLOSE_a", "CLOSE_b", 4, "The dog and the T-rex touch noses through the glass; then the dog yawns, turns round in his "
+           "bed and curls up asleep, and the T-rex slowly lowers his head against the glass and closes his eyes.",
+           "The glass, the steel wall and the grass stay as they are.", "rexdog",
+           "Sound: a soft breath on glass, a small dog's sleepy sigh, quiet birdsong."),
+}
+def clip_prompt(k):
+    a, b, secs, motion, stay, animals, sound = C[k]
+    rex = REXC + " " if animals != "none" else ""
+    return f"{motion} {SELF} {CLOCK} {stay} {rex}{tail(animals)} {sound}"
+
 def jobs():
     J = {}
     try:
@@ -238,7 +347,10 @@ if __name__ == "__main__":
             refs = REFS[key] if key in REFS else REFS[k]
             if refs: prm["medias"] = [{"role": "image_references", "value": J[r]} for r in refs]
         else:
-            raise SystemExit("clips are added before Step 7")
+            a, b, secs = C[k][0], C[k][1], C[k][2]
+            prm = {"model": "wan2_7", "resolution": "720p", "aspect_ratio": "9:16", "duration": secs,
+                   "medias": [{"role": "start_image", "value": J[a]}, {"role": "end_image", "value": J[b]}],
+                   "prompt": clip_prompt(k)}
         if "FOLDER" in J: prm["folder_id"] = J["FOLDER"]
         out.append({"index": i, "params": prm})
     print(json.dumps(out, ensure_ascii=False))
