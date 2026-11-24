@@ -5,8 +5,8 @@ the build-steps style (4, 5, 6). **Gate A approved by the user on 23 Nov 2026** 
 loops, the bill and the dog as below). The script is `17-script.txt` (207 spoken words, ~64.7 s with the street card); the
 bill is `17-bill.md` ($179,571, spoken "about a hundred and eighty thousand dollars"). Balance at the start: 672.01
 Higgsfield credits (Ultra). **Gate B approved by the user on 23 Nov 2026** ("approve": the quote of 188.40 and the two small changes). **Gate C
-approved by the user on 23 Nov 2026** ("approve"). **The pilot is made (24 Nov 2026) and Gate D is waiting for the user**
-(the section at the end of this file).
+approved by the user on 23 Nov 2026** ("approve"). **Gate D approved by the user on 24 Nov 2026** ("approve"). **Finished on
+24 Nov 2026:** 64.65 s, 169.58 credits of the 188.40 quote; not posted (Steps 8–12 at the end of this file).
 
 ## Gate A
 
@@ -303,3 +303,47 @@ the quietest moments (`under_the_voice.py`); −13.6 LUFS, true peak −2.0 dB.
 **Shown at Gate D** (in the scratchpad's `v17/gateD/`): `17-pilot.mp4` (the hook and loop 1 as the edit will play it,
 15.7 s), `17-pilot-natural-sound.mp4` (the six clips as they came, with their own sound), `17-pilot-hook.jpg` (0, 0.5, 1
 and 2 s) and `17-pilot-steps.jpg` (each step on its word).
+
+## Steps 8 to 12: the other 22 clips, the edit and delivery (24 Nov 2026; Gate D approved, "approve")
+
+**The clips** (`wan2_7` 720p, 55 s, 82.50 credits; two batches of 11; ids in `17-jobs.tsv`): **all 22 usable on the first
+try**, so no re-render and no step lost its clip. Every one starts and ends on its pictures within 0.35 px (`17-check.py`)
+and came with sound; none has a person or text. What to know about three of them:
+- **W4_4** (the door slides shut) jumps in one frame at 1.6 s from the bigger building of S4_3 to the smaller one of S4_4
+  (the size the stills already disagreed on, Gate C). The edit hides it with a 0.3 s whip at "shut".
+- **FC5** (the roar, from S4_4 to itself) came back still: the roar is in its sound, nothing shudders. The edit adds a camera
+  shake on "roars".
+- **FC3** (he turns and smashes the shed): his tail stands up straight for about 0.3 s as he spins; at speed it reads as a
+  whip, and was kept.
+
+**The edit** (`17-build.py full`, then `full-remix` for the level): every clip at its own speed except two small stretches
+(the mower's run in FC4 at 0.83×, the mower mowing in W4_4's tail at 0.5×); the colour shift, reworked (the first version
+turned the house's mint siding lime: now only sunlit green-and-yellow lawn pixels, at 70%, and half the pale ground's
+lightness change elsewhere; the close view left as it came); a push-in of 0.8% a second through each loop, eased back over
+the beat before each "But"; the cut to the close on "This is laminated glass.", back to the whole yard on "That's your pet
+dinosaur." with a slow pull back, and to the close again on "The bill"; the five labels and the counter (148 → 33,970 →
+68,371 → 81,871 → 169,371 → 179,571, grown over the sleeping pair on "The bill", with the till); the street card with
+video 16's tile, then this one (video 16 turned out to be posted, read on 24 Nov 2026).
+
+**Each step against its word** (the landing, then the word's start): FC1 5.61/"steps" 5.71 · W1_1 8.18/"holes" 8.03 ·
+W1_2 9.98/"posts" 9.85 · W1_3 11.20/"concrete" 10.97 · W1_4 13.30/"cable" 13.14 · FC2b 18.35/"dry" 18.20 · W2_1 20.30/
+"ditch" 20.10 · W2_2 21.20/"drain" 21.06 · W2_3 22.85/"concrete" 22.72 · W2_4 24.55/"turf" 24.41 · FC3 28.15/"swats" 28.11 ·
+W3_1 31.45/"hollow" 31.30 · W3_2 32.60/"clay" 32.47 · W3_3 34.00/"boulders" 33.79 · W3_4 35.30/"water" 35.19 · FC4 40.22/
+"eats" 40.32 · W4_1 42.15/"slab" 41.99 · W4_2 43.20/"walls" 43.14 · W4_3 44.45/"roof" 44.35 · W4_4 45.85/"shut" 45.70 ·
+FC5 49.47/"roars" 49.47 · W5_1 52.20/"hole" 52.11 · W5_2 53.30/"frame" 53.13 · W5_3 54.33/"glass" 54.13 · W5_4 56.80/"bed"
+56.66. All within −0.10 to +0.23 s.
+
+**Measured on the final:** 64.65 s; something moving in 83% of the seconds, the longest still stretch 3 s (the close's slow
+end and the card); captions 57 px tall, at 75% (78% in the close view, where the dog sits on the 75% line); the bed 19 dB
+under the voice in the quietest moments; −14.0 LUFS, true peak −2.0 dB (the first mix, with `POST_GAIN` 0.6, gave −13.4).
+The first second: the pickets ring up from 0.13 s and half the ring is up by 1.0 s ("fence"); the ring closes on "T-rex";
+the premise ends at 3.47 s and the first "But" lands at 4.09 s.
+
+**Credits:** 169.58 against the quote of 188.40 (`transactions`): pictures 53.75 (43 tries), clips 106.50 (28 clips, 71 s,
+no re-render), narration 4.83, sound 4.50. Balance 502.43 on 24 Nov 2026.
+
+**Delivered** (Higgsfield storage; the links are in `17-post-copy.md`): the final `9215ce52-d5c8-43e3-b75e-e7abc2611c67`,
+the voice-only version `b49bd844-96ff-454d-8abd-8822f8e51295`, the clean master `6f8ea1d6-24e8-4361-ac02-6dd893430977`.
+Covers in `17-covers/` (A: he steps on the pickets, "GUESS THE BILL" and "$???,???"; B: "$148" over the picket ring above
+"$???,???" over the finished yard; C: the plain frame, nose to nose through the glass). Street tile `street/17.jpg`. Post
+copy `17-post-copy.md`.

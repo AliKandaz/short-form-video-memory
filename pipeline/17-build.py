@@ -276,7 +276,7 @@ def ass_file(t1, path, final=None):
 
 # ---- sound ----
 BED_UNDER, FX_UNDER, TICK_OFF = 15.0, 11.0, -6.0    # dB under the voice by active RMS (16-build.py; measure the result)
-POST_GAIN, LIMIT = 0.6, 0.79
+POST_GAIN, LIMIT = 0.0, 0.79                       # 0.6 (video 16's) gave -13.4 LUFS on video 17's full mix; 0.0 gives about -14
 def rms_db(path, ss=None, t=None):
     a = np.frombuffer(subprocess.run(['ffmpeg', '-loglevel', 'error'] + (['-ss', f'{ss:.3f}'] if ss is not None else []) +
                                      ['-i', path] + (['-t', f'{t:.3f}'] if t is not None else []) +
@@ -341,8 +341,8 @@ def mix(segs, fx, t1, out, voice_only=False, final=None):
 
 # ---- the street card (CLAUDE.md 4.5; 16-build.py's): every build so far as a tile, this one dropping into its lot ----
 CARD, INK, YEL = 1.5, (16, 26, 51), (255, 214, 46)
-STREET_BEFORE = []     # the build videos already on the street (pipeline/street/NN.jpg). Video 16 was not posted, and the ten
-                       # build videos are counted from 17 (CLAUDE.md 2.1), so 17 is the first tile.
+STREET_BEFORE = [16]   # the build videos already on the street (pipeline/street/NN.jpg): video 16, the Christmas light show,
+                       # was posted on 22 Nov 2026 (read from TikTok on 24 Nov), so 17 drops into the second lot
 def street_card(tile_png, out, built=1, lots=6):
     os.makedirs('work/street', exist_ok=True)
     F1 = ImageFont.truetype('fonts/HBXCaption.ttf', 76); F2 = ImageFont.truetype('fonts/HBXCaption.ttf', 58)
@@ -477,3 +477,12 @@ if MODE in ('full', 'full-reuse'):
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', 'work/17-final.mp4'],
                                capture_output=True, text=True).stdout)
     print(f'final {dur:.2f} s; loudness (LUFS, true peak dBFS):', loudness('work/17-final.mp4'))
+
+if MODE == 'full-remix':                             # the audio only, onto the finished pictures (7.5)
+    segs, acts, END, mk = map_full(); SEGS[:] = segs; TOTAL = END + CARD; fx = fixes(END)
+    mix(segs, fx, TOTAL, 'work/full_mix.wav', final=mk['final']); mix(segs, fx, TOTAL, 'work/full_voice.wav', voice_only=True)
+    aenc = ['-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest']
+    run(['-i', 'work/full_burn_card.mp4', '-i', 'work/full_mix.wav'] + aenc + ['work/17-final.mp4'])
+    run(['-i', 'work/full_burn_card.mp4', '-i', 'work/full_voice.wav'] + aenc + ['work/17-final-voiceonly.mp4'])
+    run(['-i', 'work/full_clean_card.mp4', '-i', 'work/full_mix.wav'] + aenc + ['work/17-final-clean.mp4'])
+    print('loudness final, voice only (LUFS, true peak dBFS):', loudness('work/17-final.mp4'), loudness('work/17-final-voiceonly.mp4'))

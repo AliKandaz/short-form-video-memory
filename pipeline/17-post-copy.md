@@ -1,8 +1,11 @@
 # 17 How to Keep a T-Rex in Your Back Yard: post copy
 
 The first video in the build-steps style (idea B12; the first of the ten build videos, CLAUDE.md 2.1). Post early evening,
-US Eastern, the same day on both platforms; at most one video a day, and not on the same day as s2-01 or video 16.
-The links to the final files are in `17-beat-sheet.md` (Step 11).
+US Eastern, the same day on both platforms; at most one video a day, and not on the same day as s2-01. Video 16 was
+posted by the user on 22 Nov 2026, so this is the second build video on the street (16, then 17).
+Final (24 Nov 2026, 64.65 s with the street card): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/9215ce52-d5c8-43e3-b75e-e7abc2611c67.mp4
+Voice only: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/b49bd844-96ff-454d-8abd-8822f8e51295.mp4
+Clean master (no captions, labels or counter): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/6f8ea1d6-24e8-4361-ac02-6dd893430977.mp4
 
 ## TikTok (8.1)
 Caption:
@@ -19,6 +22,8 @@ AI-generated content: on. Cover: TikTok Studio on desktop → Edit cover → upl
 the T-rex nose to nose through the glass, `cover_C_3x4.jpg`). YouTube-size versions: `cover_*_9x16.jpg`.
 
 Pinned comment: Name the dog 🐶 Would you keep one? Yes or no. And what do we build next?
+(Video 16's pinned comment asked for the dog's name too: if a name has come in there, use it here instead, "Biscuit
+says hi 🐶" for example, and drop "Name the dog" from the YouTube description as well.)
 
 Replies ready:
 - "What's in the bill?" → A $148 picket fence to start. Then 25 steel posts set in concrete and 1,440 ft of 3/4-inch steel
@@ -48,8 +53,9 @@ the end, and name the dog. Rough US prices, 2026.
 #Dinosaur #TRex #HowItWorks
 
 Audience: No, it's not made for kids. Altered or synthetic content: leave unticked (a yard sliced open like a cake can't be
-taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program); the frames worth
-picking are in `17-beat-sheet.md` (Step 12). Pin the comment question; reply to every comment in the first day.
+taken for real footage; 8.2). Cover: pick the frame at upload (custom covers need the Partner Program), on a caption word
+that names the picture: **57.2–57.4 s, "THIS IS" under LAMINATED GLASS with the dog and the T-rex nose to nose (recommended)**,
+or 5.7–5.9 s, "STEPS" as his foot comes down on the pickets. Pin the comment question; reply to every comment in the first day.
 
 Facts behind the replies: `17-beat-sheet.md` (Facts checked, 23 Nov 2026) and `17-bill.md`, all read through web-search
 summaries; the three biggest lines of the bill (the night house, the ha-ha, the cable fence's posts) are worth a look in a

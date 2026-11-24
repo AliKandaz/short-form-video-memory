@@ -95,7 +95,7 @@ def concept_B():   # before and after, one above the other, inside the 3:4 crop
     cv = Image.new('RGB', (W, H), (16, 26, 51)); cv.paste(top, (0, 0)); cv.paste(bot, (0, 960)); cv = cv.convert('RGBA')
     ImageDraw.Draw(cv).rectangle((0, 952, W, 968), fill=YEL)
     pill(cv, 540, 820, '$148', size=96)
-    pill(cv, 540, 1560, '$???,???', size=96)
+    pill(cv, 540, 1062, '$???,???', size=96)       # over the back of the yard, clear of the dog and the window
     return cv
 def concept_C():   # plain frame, no text: nose to nose through the glass
     cv = grade(place('frames/nose.png', W, H, fx=0.50, fy=0.50, ty=0.50, zoom=1.0), c=1.05, s=1.06)
