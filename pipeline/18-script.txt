@@ -1,5 +1,5 @@
 How to Launch a Ship From Your Back Yard
-(B20 from section 3.3, video 18, the first written to the step rules of 25 Nov 2026; Gate A draft, 25 Nov 2026; 220 spoken
+(B20 from section 3.3, video 18, the first written to the step rules of 25 Nov 2026; approved at Gate A on 25 Nov 2026; 220 spoken
 words, ~67 s at Harrison's 3.28 words a second with the half-second beats kept, plus the 1.5 s street card: ~68.6 s)
 Format (CLAUDE.md 4.1): the premise over the naive step, five loops of "But... So you [steps]... This is a...", then our
 closing line with the bill. The premise ends at ~3.7 s and the first "But" lands at ~4.2 s.

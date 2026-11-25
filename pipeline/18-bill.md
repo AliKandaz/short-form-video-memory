@@ -1,4 +1,4 @@
-# 18 The ship launched from the back yard: the bill (Gate A draft, 25 Nov 2026)
+# 18 The ship launched from the back yard: the bill (approved at Gate A, 25 Nov 2026)
 
 The price counter of CLAUDE.md 4.4 for video 18 ("How to Launch a Ship From Your Back Yard"). US dollars. Every price was
 read on 25 Nov 2026 **from web-search summaries of sellers' listings, cost guides and price reports**: the pages themselves

@@ -110,16 +110,20 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
   it;** whether it is posted as it is, is the user's call. On offer, not asked for: a free re-cut by the new edit rules
   (the same clips), and a new take of the "This is a ha-ha" line under a plain name (0.46 credits quoted on 25 Nov 2026
   for that sentence with the phrase before it; its label and captions are free). Its post copy is `pipeline/17-post-copy.md`,
-  its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2. **Next:** the
-  user says which idea is video 18 (my pick: B11, the flying house).
+  its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2.
+- **Video 18 is B20** ("How to Launch a Ship From Your Back Yard"), chosen by the user on 25 Nov 2026 with the kickoff
+  prompt. **Gate A was approved that day:** 220 words, five loops (slipway, launching trigger, drag chains, iron ballast,
+  boat hoist), 16 steps, the bill $397,150. **Gate B, the quote of 190.66 credits, has been shown and waits for the
+  user;** nothing has been spent. The script, the bill, the step sheet and the log are `pipeline/18-script.txt`,
+  `18-bill.md` and `18-beat-sheet.md`.
 - **The dog** is no longer in every video (25 Nov 2026; 4.5).
 - **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
   are left.
 - **Six more ideas** (25 Nov 2026): B16–B21 (2.3, 3.3), asked for as "construction, infrastructure, blue collar work"
   ideas and added by the user beside the first five: a street that stops speeding cars, a house in one day, a car factory
-  in the garage, a train that stops at your house, a ship launched from the back yard and a 2,000-foot TV tower. Ten
-  ideas are left for video 18 on (B11, B13–B21); of the six my pick is B16, then B17. What the check found already built
-  in that theme is in 3.4.
+  in the garage, a train that stops at your house, a ship launched from the back yard and a 2,000-foot TV tower. B20 is
+  being made as video 18; nine ideas are left after it (B11, B13–B19, B21), and of the six my pick for the next is B16,
+  then B17. What the check found already built in that theme is in 3.4.
 - **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show"), finished on 22 Nov 2026 in the
   earlier way of animating (68.1 s, 197.99 credits; the user didn't like it, above), **was posted by the user on 22 Nov
   2026**: on TikTok at 17:00 UTC, and on YouTube the same day. 309 views on TikTok and 8 on YouTube at about 33 h (read 24
@@ -318,8 +322,9 @@ is read apart.
 ### 2.2 Before the next video (25 Nov 2026)
 1. **Video 17:** whether it is posted as it is, is the user's call (0, 1.10); the copy is `pipeline/17-post-copy.md`. Style
    2's s2-01 still waits for a day of its own (8.1).
-2. **The idea for video 18:** the user says which of the four left (2.3). My pick is B11, the flying house. Since 25 Nov
-   2026 the six added ideas (B16–B21) are in the choice too: ten are left.
+2. **The idea for video 18:** B20, the ship launch, chosen by the user on 25 Nov 2026 from the ten that were left (2.3);
+   its Gate A is approved (3.3, `pipeline/18-beat-sheet.md`). For the video after it my pick is still B11, the flying
+   house, or B16 of the six added.
 3. **The in-app checks** still owed (0). They decide where the build videos go on YouTube (1.6).
 4. **The TikTok handle and the profile wording** (8.3).
 
@@ -937,6 +942,13 @@ each Gate A.
   `--stills`. Getting the hull back up the rails is a step of its own (loop 3), never a jump between two pictures. The
   splash is water changing in a clip (proven on video 17). Nobody is on the hull, the dock or the shore, and the truck's
   driver is never seen. No ship's name, flag or yard.
+- **Being made as video 18** (from 25 Nov 2026). Gate A, approved by the user that day, redrew the ladder: the rope
+  snaps and the truck leaves the frame; a barbecue is what the creeping cradle flattens; the trigger stands on a pile;
+  the dock comes in from the side; the blocks go in through an open hatch in two rows, and the term is said "iron
+  ballast" (alone it can be heard as "a blast"); the hoist runs out on two piers and is yellow; "launching trigger" is
+  Britannica's name. 16 steps, every landing 1.8 s or more from the next; 220 words; the bill $397,150, of which the
+  hoist is $351,000. Loops 2 and 4 are built in closer views. The script, the bill, the step sheet and the log of every
+  step are `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`.
 
 **B21. How to Build a 2,000-Foot TV Tower in Your Back Yard** (a back yard under open sky)
 - **Title:** "How to Build a 2,000-Foot TV Tower in Your Back Yard" (51 characters). **Caption:** the title, "Guess the bill
@@ -1033,7 +1045,9 @@ theme were listed. TikTok's own search can't be read from a session, so beyond t
   lane (2.1) and what the six do.
 - **The build accounts on 25 Nov 2026:** @whatifplus is at 44 videos (new on 24 Nov: a billionaire mansion 9.2K and a
   private runway 4.2K); @youbuiltit is at 105 (new since the 100 of 22 Nov: a basketball hoop 242K, a driftwood kayak 19K,
-  a beehive 16K, salt from seawater 120K, a fish pond 213K).
+  a beehive 16K, salt from seawater 120K, a fish pond 213K). By 22:15 UTC that day @whatifplus was at 46: an ATM in the
+  back yard, and **a hot-air balloon in the yard (3.9K), which sits beside B11**, the flying house: count it at B11's
+  Gate A.
 - **Reserves** (open on 25 Nov 2026; each weaker than the six, or nearer to a taken object):
   - a barn in one day (Amish barn raisings 5.5M and 4.5M as Shorts, 6.8M long; no build video; frames that tilt up are
     crisp steps, but little goes in the ground and a barn is not much of a wish);
@@ -2263,6 +2277,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   ideas" and said to replace nothing without approval. Both build accounts' lists were re-fetched, about ninety title
   searches were run on YouTube and three channels in that theme were listed (3.4). The user added the five and a
   2,000-foot TV tower as B16–B21, beside B11–B15 (2.3, 3.3).
+- **25 Nov (evening):** the user chose B20, the ship launch, for video 18. Gate A was approved (220 words, 16 steps, the
+  bill $397,150); the step sheet and the quote (190.66 credits) were written and Gate B shown. Nothing spent yet.
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
   (`afc98b6`).
