@@ -1,0 +1,19 @@
+# Video 18 (B20, "How to Launch a Ship From Your Back Yard"): Higgsfield job ids. Gate B approved 25 Nov 2026 (quote 190.66).
+# Higgsfield folder 7cd1253a-3814-4416-b605-b7141f4d0b60
+key	job id	note
+K0	039b14f2-893f-4dee-8496-57ad877437ef	submitted (try A): the set key, asked for in the stage view
+KH	38c2d97a-b46a-4def-8c7b-944d6415bccd	submitted (try A): the boat key, broadside from above, 16:9
+NARR_A	2184b18c-b6eb-4453-87a7-82b0d53006e9	submitted: narration take A, Harrison, the whole script in one turn (5.29)
+K0B_unused	bb1201a3-3f2d-4e64-a799-6c46345d3fce	try B: the set key with a deeper lake (try A gave the lake 15% of the frame: no room for the launch to run out)
+K0S	63e1d1ee-3722-4dab-96ec-6b035f8aa6a7	uploaded, no credits: K0 (try A) cropped to 8%..92% across and stretched to full width (1.19x) on this machine: the stage base (BASE)
+S0.A	6aa88b3c-e989-4a34-a6a7-cf4591dbd31b	submitted: the hook start: the boat across the lawn on blocks, the pickup and the tight rope (refs K0S, KH)
+S0.B	919c81f3-4850-4770-9709-8706b877d813	submitted (try B; try A put the boat at an angle, 61% wide, with a toy-sized truck): the boat square to the bank, a bigger pickup (ref K0S only)
+S0C	aacb13b1-e99e-43c0-9b96-0f709a925466	uploaded, no credits: the paste-up for S0 (the boat and truck of S0.B cut out, the boat levelled, both laid on K0S)
+S0.C	db68eb07-048c-480b-a1ce-89105f88298a	try C: the paste-up S0C rendered clean (ref S0C only)
+S0D	db9b6bd6-9be7-4777-94b1-bb0f1bc19076	uploaded, no credits: the second paste-up for S0 (the boat 25-75% across and 1.25x taller, the truck under its middle)
+S0.D	18f06318-6aeb-441a-8527-eb1265053011	try D: the paste-up S0D rendered clean (ref S0D only)
+S0	18f06318-6aeb-441a-8527-eb1265053011	accepted: S0 is try D (the boat level, 27.5-74% across, 16.5-26.5% down; the pickup 39-57% across)
+H	8d4a215e-4e8d-4c12-b045-92237c1b5645	the hook end: the truck slewed, ruts and thrown earth (ref S0)
+F1.A	8bd7767a-dde5-427f-b550-dc62a34b4bcb	try A: the truck and rope gone, but a dust cloud left hanging in the air (ref H)
+F1.B	6048784f-dd42-47d0-9b52-c6881eae9ce0	try B (ref F1.A): the dust cloud gone, but the block's lower left corner redrawn (27% of the frame changed): not used whole
+F1	f676e17e-28eb-43e8-83fc-79ff97fb25ba	uploaded, no credits: failure 1 = try A with only the cleared dust area taken from try B (made on this machine)
