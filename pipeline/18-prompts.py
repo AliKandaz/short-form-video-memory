@@ -178,7 +178,7 @@ P = {
           f"rails yet. The barbecue stays where it is, between the rails. {NOPIT} {GREEN} {KEEP} {NOONE}"),
  "S1_3": (f"{STYLE} {LOCK} {BOATSTAY} Change only this: a long timber cradle now sits across the top end of the two rails, "
           f"just below the boat: a sturdy, flat, open frame of heavy brown timbers, a little longer than the boat, with "
-          f"steel wheels at each end that rest on the two rails. It spans from about 21% to 79% across the frame and from "
+          f"steel wheels at each end that rest on the two rails. It spans from about 21% to 76% across the frame and from "
           f"about 30% to 37% down. It is empty: the boat still sits on its wooden blocks behind it. The barbecue stays "
           f"where it is. {NOPIT} {GREEN} {KEEP} {NOONE}"),
  "S1_4": (f"{STYLE} {PASTE} {BOATIS} It now sits on the long timber cradle, its keel resting in the cradle's timbers; the "
@@ -298,6 +298,35 @@ REFS = {
  "CV4_u": ["CV4P"], "CV4_0": ["CV4_u"], "CV4_1": ["CV4_0"], "CV4_2": ["CV4_1"], "CV4_3": ["CV4_u"],
  "S4_T": ["S3_L"], "F5": ["S4_T"], "S5_1": ["F5"], "S5_2": ["S5_1"], "S5_3": ["S5_2"], "S5_U": ["S5_3"],
 }
+# ---- 25 Nov, later: text edits could not place a dozen small parts (S1_1.T came back with piles as tall as the boat, in
+# clumps, and the ruts erased). From here a step is laid out on this machine (pipeline/18-stage.py: drawn or pasted at its
+# exact place on the picture before), the paste-up is uploaded (key + "P") and one pass renders it clean.
+for k in ("S1_1", "S1_2", "S1_3"): P[k + ".T"] = P[k]; REFS[k + ".T"] = REFS[k]
+P.update({
+ "S1_1": (f"{STYLE} {PASTE} {BOATIS} Twelve round grey steel piles stand in two straight rows of six, running from the lawn "
+          f"below the boat down into the lake, exactly where the reference shows them: thick steel pipes driven into the "
+          f"ground, standing waist-high, each casting a short soft shadow on the grass to its right; the lowest two of "
+          f"each row stand in the water. There are no rails on them. The two brown ruts in the grass stay as they are. "
+          f"The barbecue stays where it is. {NOPIT} {GREEN} {NOONE}"),
+ "S1_2": (f"{STYLE} {PASTE} {BOATIS} Two long, heavy steel rails lie on the heads of the two rows of steel piles, exactly "
+          f"where the reference shows them: two straight, dark steel I-beams, each resting on the tops of its six piles, "
+          f"running from just below the boat down the lawn and over the bank, where their lower ends slope under the "
+          f"water. Each rail casts a soft shadow on the grass to its right. Nothing sits on the rails. The ruts and the "
+          f"barbecue stay as they are. {NOPIT} {GREEN} {NOONE}"),
+ "S1_3": (f"{STYLE} {PASTE} {BOATIS} A long timber cradle sits across the top end of the two steel rails, just below the "
+          f"boat, exactly where the reference shows it: a sturdy, flat, open frame of heavy brown timbers bolted "
+          f"together, with steel wheels at each end resting on the rails. It is empty: the boat still sits on its wooden "
+          f"blocks behind it. The rails, their piles, the ruts and the barbecue stay as they are. {NOPIT} {GREEN} "
+          f"{NOONE}"),
+})
+REFS.update({"S1_1": ["S1_1P"], "S1_2": ["S1_2P"], "S1_3": ["S1_3P"]})
+# ---- the plate (PLATE: the yard with rails, ruts and empty blocks, no boat, no cradle; made on this machine) and what is
+# drawn on it once: the crushed barbecue. The boat and the cradle are then laid on it at each position (18-stage.py).
+P["BBQ"] = (f"{STYLE} {LOCK} Change only this: the black kettle barbecue has been run over and crushed flat. It lies squashed "
+            f"on the grass in exactly the same spot: its black bowl flattened and dented, its three legs splayed out flat on "
+            f"the grass, its domed lid lying beside it. Nothing else changes: the two steel rails, their piles, the wooden "
+            f"blocks, the brown ruts and the dock stay exactly as they are. {GREEN} {KEEP} {NOONE}")
+REFS["BBQ"] = ["PLATE"]
 ASPECT = {"KH": "16:9"}
 
 # ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3); written at Step 7 ----

@@ -17,3 +17,16 @@ H	8d4a215e-4e8d-4c12-b045-92237c1b5645	the hook end: the truck slewed, ruts and 
 F1.A	8bd7767a-dde5-427f-b550-dc62a34b4bcb	try A: the truck and rope gone, but a dust cloud left hanging in the air (ref H)
 F1.B	6048784f-dd42-47d0-9b52-c6881eae9ce0	try B (ref F1.A): the dust cloud gone, but the block's lower left corner redrawn (27% of the frame changed): not used whole
 F1	f676e17e-28eb-43e8-83fc-79ff97fb25ba	uploaded, no credits: failure 1 = try A with only the cleared dust area taken from try B (made on this machine)
+S1_1.T	07a51a78-528a-4e8b-aee5-3d1c01296fe5	the text edit (ref F1): piles as tall as the boat, in clumps, the ruts erased: not used. The submit call timed out; the job was found in the project list, not sent again
+S1_1P	6988fd12-e07c-4138-bc75-62edbfb56948	uploaded, no credits: the piles laid out on F1 (18-stage.py): two rows of six at 24% and 73% across
+S1_1.R	e1061443-dbbd-4279-a0dd-4a07d8264fbc	the paste-up rendered: the piles came back as drawn, and the blocks under the boat and half the ruts were lost: not used
+S1_1	6988fd12-e07c-4138-bc75-62edbfb56948	final, no credits: loop 1 step 1 is the paste-up itself (the piles drawn on F1)
+S1_2.T	2466352b-a9af-412a-8e30-2d1d2b7cfa5b	submitted: the rails as a text edit of S1_1 (the piles anchor them); only the rails' strips are then taken from it
+S1_2	273c2b4e-974f-490e-bc35-a178d9cbde58	uploaded, no credits: loop 1 step 2 final = S1_1 with only the two rails' strips taken from S1_2.T (the render had erased the ruts)
+S1_3.T	3223f663-9f9f-4a50-9c95-4b994ae985a1	submitted: the cradle as a text edit of S1_2 (the rails anchor it); only the cradle is then taken from it
+S1_3	(local)	final, not yet uploaded: S1_2 with only the cradle and its shadow taken from S1_3.T (the ruts kept)
+S1_4P	1575fafa-ea1a-42e3-addf-c847a352c0c7	uploaded, no credits: the hull cut out of S1_2 and laid on the cradle, its old spot cleared
+S1_4.R	4b3776d3-f63d-4867-9df5-3f1777bd76a7	the paste-up S1_4P rendered: for the empty blocks and the lawn the hull left
+PLATE	646c538e-bb35-4ce3-a5bb-f672b865ff1f	uploaded, no credits: the plate = S1_2 with the boat, its shadow and its blocks replaced by the empty spot S1_4.R drew (rails, ruts, seven blocks; no boat, no cradle)
+S1_4	(local)	final, not yet uploaded: the plate + the cradle cut out of S1_3 + the hull cut out of S1_2, 4% bigger for the 118 px it comes down the lawn (18-stage.py compose)
+BBQ	3310d07a-f478-4065-9711-efbfd00f83a6	submitted: the barbecue crushed, as a text edit of the plate; only the barbecue is taken from it
