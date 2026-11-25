@@ -9,7 +9,8 @@
 # Then the take is sped up to TEMPO (never past 1.1).
 #
 #   python3 steps-timing.py <work dir> <script.txt> [--gap 1.6] [--gaps gaps.json] [--out tight]
-#     reads  <work>/audio/narr_A.mp3 and <work>/audio/words_takeA.json (Whisper's words: [start, end, text], raw take)
+#     reads  <work>/audio/narr_A.mp3 and <work>/audio/words_takeA.json (Whisper's words of the raw take: narration-check.py's
+#            output file as it is, or a plain list of [start, end, text])
 #     writes <work>/audio/narr_<out>.wav and <work>/audio/words_<out>.json: [{"w", "a", "b", "land": true if a landing word}]
 #     --gaps: {"<n>": seconds} the gap wanted after landing number n (0-based, counted through the script), where a clip
 #             needs longer to finish than STEP_GAP; the edit (17-build.py, place2) prints what each clip needs.
@@ -55,7 +56,8 @@ def main():
     en = [float(v) for v in re.findall(r'silence_end: ([\d.]+)', log)]
     sil = list(zip(st, en + [dur] * (len(st) - len(en))))
     wh = []
-    for a, b, w in json.load(open(os.path.join(WORK, 'audio/words_takeA.json'))):
+    wj = json.load(open(os.path.join(WORK, 'audio/words_takeA.json')))
+    for a, b, w in (wj['words'] if isinstance(wj, dict) else wj):          # narration-check.py's file, or a plain list
         if wh and w[:1] in '-,': wh[-1] = [wh[-1][0], b, wh[-1][2] + w]         # "T", "-rex," -> "T-rex,"
         else: wh.append([a, b, w])
     for v in wh:                                                                 # a word stretched back over a pause

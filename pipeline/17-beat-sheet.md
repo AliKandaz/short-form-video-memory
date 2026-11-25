@@ -347,3 +347,60 @@ the voice-only version `b49bd844-96ff-454d-8abd-8822f8e51295`, the clean master 
 Covers in `17-covers/` (A: he steps on the pickets, "GUESS THE BILL" and "$???,???"; B: "$148" over the picket ring above
 "$???,???" over the finished yard; C: the plain frame, nose to nose through the glass). Street tile `street/17.jpg`. Post
 copy `17-post-copy.md`.
+
+## The review (24–25 Nov 2026): the user watched the final and found mistakes; the video was not redone
+
+The user, 24 Nov 2026: "don't redo the video but watch it over there are a few mistakes I've noticed. the animations are
+mushed together at times and the audio at 26 seconds doesn't make sense. it says "this is a ahah". moving forward I want the
+prompt and claud.md file adjusted, the animations should be more crisp and lets try to minimize audio mistakes. also make
+sure we aren't using the dog in every video I don't want that."
+
+What was measured, all of it free (`analysis/joins_check.py`, `steps-check.py`, `narration-check.py`); the summary is
+CLAUDE.md 1.10.
+
+**Steps cut into each other.** Ten pairs of landings under 1.6 s apart: posts → concrete 1.23 s, ditch → drain 0.90,
+hollow → clay 1.14, clay → boulders 1.40, boulders → water 1.30, slab → walls 1.05, walls → roof 1.26, roof → shut 1.40,
+hole → frame 1.10, frame → glass 1.03. Eight clips were cut before they had settled: W1_2 by 0.11 s, W2_1 0.48, W3_1 0.08,
+FC4 0.44, W4_2 0.27, W4_3 0.35, W5_1 0.20, W5_2 0.55.
+
+**When each clip has settled** (`steps-check.py`, seconds into the clip): W1_1 1.07 · W1_2 1.47 · W1_3 1.30 · W1_4 2.20 ·
+W2_1 1.73 · W2_2 1.47 · W2_3 0.90 · W2_4 1.40 · W3_1 1.07 · W3_2 1.47 · W3_3 0.97 · W3_4 2.47 · W4_1 1.07 · W4_2 2.23 ·
+W4_3 1.23 · W4_4 1.90 · W5_1 1.30 · W5_2 1.43 · W5_3 1.33 · W5_4 2.33 · HOOK 3.10 · FC1 2.27 · FC2a 1.43 · FC2b 1.47 ·
+FC3 2.17 · FC4 3.37 · CLOSE 3.50. The fourteen 2 s step clips: 0.90–1.47, median 1.30.
+
+**The joins.** 22 of the 26 joins start a clip on its frame 0. A `wan2_7` clip's first four frames fade from the still's
+tone and texture into the clip's own (about 6 levels darker, more contrast), so the picture pulses there: in the still
+parts of the picture the jump is 5.05 grey levels (median) into frame 0, 1.34 into frame 4, 1.17 into frame 8.
+
+**The whip** at "shut" (45.85–46.15 s) is 0.3 s of smear. **The push-in** (0.8% a second) is pulled back 9% in the 0.45 s
+before each "But". **Dead stretches:** 46.2–51.4 s (a small mower rolls out, a label pops, the picture shakes) and
+1.9–3.7 s in the hook (the ring has closed, and nothing moves).
+
+**Stage pictures with a change nobody asked for** (`steps-check.py --stills`; a clean stage: S3_2 → S3_3 4.9% of the frame
+in one blob, S5_2 → S5_3 1.8%): S1_3 → S1_4 5.4% (the neighbor's wooden fence becomes poles), S2_2 → S2_3 10.8% (the ditch
+deepens), F3 → S3_1 10.9% in eight blobs (half the picket ring and the poles in front are gone), S4_3 → S4_4 16.6% (the
+night house shrinks). The clip between each pair melts one into the other.
+
+**One spot, four changes:** the wallow (loop 3) is dug, lined, edged and filled in the same place, and three of its four
+steps are a surface changing where it lies. Loops 1 and 5, solid parts arriving, read crispest.
+
+**The narration** ("This is a ha-ha.", 25.01–26.31 s). The take says it as written ("ha-ha" was sent as "hah-hah"). With
+no prompt, Whisper `small.en` and `medium.en` and Parakeet all return "This is a ha ha!" or "haha"; "ha" scores 0.25–0.37.
+The check of 24 Nov had the terms in `initial_prompt`, so it passed. `narration-check.py` on the same take: eight flags
+(the term in all three lists; "night" unsure for one model; "you" at 34.2 s and 58.1 s of the raw take; a "?" heard on
+"bill"); "cable fence", "wallow" and "laminated glass" come back clean from both models heard alone.
+
+**The clips' own sounds** were each set to one level (−29.3 dB where active): FC1 turned down 24.2 dB, FC2a 23.6, FC5 24.0;
+W3_2 turned up 8.0, W4_1 10.1, CLOSE 12.2, W5_3 5.3. Parakeet hears "Okay." in W1_3's sound and "Yeah." in W4_1's.
+
+**The free re-cut of loop 4** (`17-build.py <dir> recut4`; the same clips, the narration re-timed by `steps-timing.py` with
+step beats): 8.97 s against 7.39 s; each step stands finished for 0.25–0.54 s before the next starts; its joins measure
+0.80 / 1.75 / 3.65 (the roof, already falling) / 1.29 against 7.95 / 2.81 / 7.55 / 5.81 as delivered (`joins_check.py`; a
+resting picture 0.2–0.4); W4_1's own sound left out (−39 dB); −13.9 LUFS, true peak −1.9 dB. The whole narration with
+step beats runs 66.94 s (63.09 s as delivered).
+
+**What changed because of it:** CLAUDE.md, revised 25 Nov 2026: one step at a time; the ear test and a narration check that
+is told nothing; the user hears the whole narration at Gate C; the dog only when the user says so; the paste-in prompt.
+**On offer, not done:** a free re-cut of the whole video by the new edit rules. It would mend the steps cut into each
+other, the pulsing joins, the snap-backs and the sound levels; not the wallow, and not the night house's change of size,
+which are in the pictures and the clips. And a new take of the ha-ha line, which costs credits.

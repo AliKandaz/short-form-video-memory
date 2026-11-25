@@ -553,6 +553,8 @@ if MODE == 'recut4':
         print(f'  {k:5s} {v0 - T0:6.2f} {vl - T0:6.2f}  {vs - T0:6.2f}   {vn - T0:6.2f}      {beat:+5.2f} s' + ('   << the next clip cuts in' if beat < STEP_BEAT - 0.01 else ''))
     for x in segs: x['v0'] -= T0; x['v1'] -= T0
     END = T1 - T0; SEGS[:] = segs
+    json.dump(dict(segs=segs, end=END, steps=[[x['k'], x['at'] - T0, w] for x, w in zip(items, ('slab', 'walls', 'roof', 'shut'))]),
+              open('work/recut4_map.json', 'w'), indent=0)        # for analysis/joins_check.py
     WORDS = [(a - T0, b - T0, w) for a, b, w in WORDS if T0 - 0.01 <= a < T1]
     RATE = 0.006                                    # a slow push-in, never snapped back
     XFADE = 3

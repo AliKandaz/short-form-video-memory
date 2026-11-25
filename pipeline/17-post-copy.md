@@ -3,6 +3,9 @@
 The first video in the build-steps style (idea B12; the first of the ten build videos, CLAUDE.md 2.1). Post early evening,
 US Eastern, the same day on both platforms; at most one video a day, and not on the same day as s2-01. Video 16 was
 posted by the user on 22 Nov 2026, so this is the second build video on the street (16, then 17).
+**Reviewed by the user on 24 Nov 2026** (CLAUDE.md 1.10: steps that run into each other, and "This is a ha-ha" at 25–26 s,
+which by ear is a laugh). The video was not redone; whether it is posted as it is, is the user's call. The dog is in
+this video (it was made before 25 Nov 2026, when he stopped being in every video); the copy no longer asks for his name.
 Final (24 Nov 2026, 64.65 s with the street card): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/9215ce52-d5c8-43e3-b75e-e7abc2611c67.mp4
 Voice only: https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/b49bd844-96ff-454d-8abd-8822f8e51295.mp4
 Clean master (no captions, labels or counter): https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/6f8ea1d6-24e8-4361-ac02-6dd893430977.mp4
@@ -21,9 +24,7 @@ AI-generated content: on. Cover: TikTok Studio on desktop → Edit cover → upl
 (`cover_B_3x4.jpg`: the picket ring at "$148" above the finished yard at "$???,???"). Cover C is the plain frame (the dog and
 the T-rex nose to nose through the glass, `cover_C_3x4.jpg`). YouTube-size versions: `cover_*_9x16.jpg`.
 
-Pinned comment: Name the dog 🐶 Would you keep one? Yes or no. And what do we build next?
-(Video 16's pinned comment asked for the dog's name too: if a name has come in there, use it here instead, "Biscuit
-says hi 🐶" for example, and drop "Name the dog" from the YouTube description as well.)
+Pinned comment: Would you keep one? Yes or no. And what do we build next?
 
 Replies ready:
 - "What's in the bill?" → A $148 picket fence to start. Then 25 steel posts set in concrete and 1,440 ft of 3/4-inch steel
@@ -33,7 +34,7 @@ Replies ready:
 - "How much would he eat?" → About 140 kg, some 300 lb, of meat a day, by one published estimate. That's not in the bill.
 - "How big was a T-rex?" → Sue, one of the biggest skeletons ever found, is about 40 ft long and 12–13 ft tall at the
   hips, and weighed somewhere around 8 to 14 tonnes. A 3 ft picket fence is at his ankle.
-- "Is a ha-ha real?" → Yes. It's an old garden trick, also called a sunk fence: a deep ditch with a wall on one side, so
+- "Is a ha-ha real?" or "What did he say at 0:26?" → A ha-ha. Yes, it's real. It's an old garden trick, also called a sunk fence: a deep ditch with a wall on one side, so
   nothing can cross but the view stays open. Zoos use the same idea as dry moats.
 - "What's a wallow?" → A muddy pool animals cool off in. Zoos build them for elephants and rhinos.
 - "What's a night house?" → What zoos call the indoor quarters animals are shut in at night, which also lets the keepers
@@ -41,7 +42,6 @@ Replies ready:
 - "Would the glass hold?" → Zoo windows for lions and gorillas are laminated glass about 1.5 to 2 inches thick, which is
   about the height of a brick. For a T-rex nobody knows.
 - "Why not an electric fence?" → Zoos do electrify some cable fences. This one is plain steel cable.
-- "What's the dog's name?" → That's up to you. Top comment wins.
 
 ## YouTube Shorts (8.2)
 Title (37 characters): How to Keep a T-Rex in Your Back Yard
@@ -49,7 +49,7 @@ Title (37 characters): How to Keep a T-Rex in Your Back Yard
 Description:
 A picket fence won't hold a T-rex: he steps right over it, drains the neighbor's pool and flattens the shed, so it takes a
 cable fence, a ha-ha, a wallow, a night house and a window of laminated glass. Would you keep one? Guess the bill before
-the end, and name the dog. Rough US prices, 2026.
+the end. Rough US prices, 2026.
 #Dinosaur #TRex #HowItWorks
 
 Audience: No, it's not made for kids. Altered or synthetic content: leave unticked (a yard sliced open like a cake can't be

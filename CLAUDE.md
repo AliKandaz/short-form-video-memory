@@ -1,38 +1,40 @@
 # Short-Form 3D Cutaway Builds: Project Memory
 
-**Video 17 made on 24 Nov 2026** (B12, "How to Keep a T-Rex in Your Back Yard"), the first video in the build-steps style:
-64.7 s, 169.58 credits of a 188.40 quote, all 28 of its clips usable on the first try. Logged in 0, 9.2 and 13.3; its
-lessons are in 7 and its scripts in 6.4. Nothing about the style, the plan or the ideas changed.
+**Revised on 25 Nov 2026 after the user's review of video 17**, on the user's word (24 Nov 2026): "the animations are
+mushed together at times and the audio at 26 seconds doesn't make sense. it says "this is a ahah". moving forward I want the
+prompt and claud.md file adjusted, the animations should be more crisp and lets try to minimize audio mistakes. also make
+sure we aren't using the dog in every video I don't want that. update the file as necessary".
+- **What changed:** one step at a time, each finished before the next begins (4.1, 4.3, 5 Rules 3 to 5, 6.2, 6.3, 7.1 to
+  7.4); the audio checks: the ear test for every term, a narration check that is told nothing, and the user hearing the
+  whole narration at Gate C (4.3, 6.2 Steps 5, 6 and 6b, 7.5); the dog is no longer in every video (4.5); the length
+  (66–70 s, about 215 words); the paste-in prompt (11.1, renewed 25/11/26).
+- **What the review found** is in 1.10, with the numbers. Video 17 was not redone ("don't redo the video").
+- **What did not change:** the build-steps style and the Cutaway look, the narrator, the bill, the street, the four gates,
+  the 200-credit cap, the plan and the ideas.
 
-**Ideas swapped on 23 Nov 2026**, on the user's word: "I like all 5 ideas, swap out the current video ideas for these new
-ones." Sections 2.3 and 3 now hold five new build ideas, B11 to B15: a flying house, a T-rex in the back yard, a giant robot,
-a giant marble run, and pizza by tube. The ten ideas of 21 Nov 2026 (B1–B10) are whole in the archive, section 3. Nothing
-else changed: the style, the runbook and the paste-in prompt are as revised on 22 Nov 2026.
+**Earlier revisions, each on the user's word:**
+- **24 Nov 2026:** video 17 made (B12, "How to Keep a T-Rex in Your Back Yard"), the first in the build-steps style (0, 9.2).
+- **23 Nov 2026:** the ideas swapped ("I like all 5 ideas, swap out the current video ideas for these new ones."): 2.3 and 3
+  hold five build ideas, B11 to B15. The ten of 21 Nov 2026 (B1–B10) are whole in the archive, section 3.
+- **22 Nov 2026:** the build-steps style ("I like this a lot, moving forward I want to use this animation style, update
+  everything in the claude.md file to achieve this except the video ideas, that will be worked on later … remove anything
+  that is unnecessary and causing clutter in the file."). What was removed as clutter (the explainer-era evidence in full,
+  the travelling-camera rules, older scripts and lessons, old branding options, old file ids, the step-by-step history) is
+  whole in **`archive/CLAUDE-2026-11-22.md`**: this file as it stood before that revision (also commit `549e291`), with
+  the same section numbers.
+- **Older copies of this file:** `afc98b6` (before the revision of 25 Nov 2026), `a9abd35` (before the build format, 21
+  Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get one with `git fetch --depth=1 origin <commit>` and read
+  it with `git show <commit>:CLAUDE.md`.
 
-**Revised on 22 Nov 2026 for the build-steps style**, on the user's word: "I like this a lot, moving forward I want to use
-this animation style, update everything in the claude.md file to achieve this except the video ideas, that will be worked on
-later … remove anything that is unnecessary and causing clutter in the file."
-- **What changed:** how a video is animated and paced (every fix is built on screen in about four steps, each landing on its
-  word: 4, 5), the runbook, the budget and the prompt lines (6), the lessons, cut down to what still applies (7), and the
-  paste-in prompt (11.1, renewed 22/11/26).
-- **What did not change:** the Cutaway look, the narrator, the bill, the street and the dog, the posting rules, and the
-  parked ideas and topics to avoid (13.1, 13.2). The video ideas (2.3, 3) were left for later, and were swapped on 23 Nov
-  2026 (above).
-- **What was removed as clutter** (the explainer-era evidence in full, the travelling-camera rules, older scripts and
-  lessons, old branding options, old file ids, the step-by-step history) is whole in **`archive/CLAUDE-2026-11-22.md`**: this
-  file as it stood before the revision (also commit `549e291`). Section numbers are the same there and here. Older still:
-  `a9abd35` (before the build format, 21 Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get one with
-  `git fetch --depth=1 origin <commit>` and read it with `git show <commit>:CLAUDE.md`.
+## 0. Start here (25 Nov 2026)
 
-## 0. Start here (24 Nov 2026)
-
-**What we make.** Vertical 3D build stories of about 64–68 s in the Cutaway look: a yard, pool, driveway or garage in bright
+**What we make.** Vertical 3D build stories of about 66–70 s in the Cutaway look: a yard, pool, driveway or garage in bright
 daylight, standing on a block of ground sliced open like a cake and seen from above like a stage. A one-step idea ("If you
 tie a balloon to your chimney, you have a flying house") is turned into the real thing one problem and one fix at a time, and
-**every fix is built on screen in about four steps that each land on the word that names them**: a slab drops in, walls go
-up, a roof comes down, paint sweeps across. Narrated in second person ("you") by an AI voice, with one-word captions, each
-fix's real name on screen, and a price counter that ends on the bill. Nobody stands in for "you": the parts move by
-themselves. The same small dog is in every video. No music.
+**every fix is built on screen in about four steps that each land on the word that names them, one step at a time: each is
+finished and standing still before the next begins**: a slab drops in, walls go up, a roof comes down, a door slides shut.
+Narrated in second person ("you") by an AI voice, with one-word captions, each fix's real name on screen, and a price
+counter that ends on the bill. Nobody stands in for "you": the parts move by themselves. No music.
 
 **Why this style (22 Nov 2026).** The user on video 16, the first build-format video: "it just looks like the same videos we
 have been creating." On @whatifplus's helipad video: "I like the way the video builds out the helipad, each step is
@@ -40,7 +42,7 @@ entertaining to watch, are we able to follow the videos format while keeping our
 the user: "I like this a lot, moving forward I want to use this animation style."
 
 **What is ours,** so the videos are not a copy of the accounts we studied: the photoreal Cutaway look (5), the bill (4.4),
-the street and the dog (4.5), checked terms and prices, and our own topics and wording (never theirs: rule 5).
+the street (4.5), checked terms and prices, and our own topics and wording (never theirs: rule 5).
 
 **A second style** (`strategy2.md`): photoreal AI build stories with no narration. Paused since 21 Nov 2026 until the ten
 build videos have been judged (2.5); a style-2 video is still made whenever the user asks. Its first video, s2-01 ("From Old
@@ -65,11 +67,11 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
   action "read"); it carries `strategy2.md`, `tiktokshop.md` and the archive as files. **When this file changes, update both
   copies:** commit and push, then republish the artifact by its url.
 
-**Standing rules (all in force on 23 Nov 2026):**
+**Standing rules (all in force on 25 Nov 2026; 9 to 11 were added that day):**
 1. Never spend Higgsfield credits before the user approves the quote at Gate B (6.1). Script, step sheet and quote are free.
    **At most 200 Higgsfield credits a video, with the reserve, the narration and the sound inside it** (the user, 18 Nov
    2026: "I want at most 200 credits per video").
-2. Stop at the four gates: A script, B quote, C stage pictures, D pilot (6.2).
+2. Stop at the four gates: A script, B quote, C stage pictures and the narration to listen to, D pilot (6.2).
 3. Don't ask the user for retention or watch-time figures ("forget about the retention graphs", 15 Nov 2026). Work from what
    can be read from outside (12).
 4. Fact-check every term and every price before Gate A (4.4); cut what can't be checked; never plant a mistake to bait
@@ -83,17 +85,28 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
    stickers and the end card are overlays added in the edit (5); they are never asked of the image or video models.
 8. The video ideas are the user's: the five in 2.3 and 3 are the ones the user chose on 23 Nov 2026. Don't rewrite 2.3, 3,
    13.1 or 13.2 unasked; what Gate A finds for an idea being made is logged in its entry as before.
+9. **One step at a time.** A step is one solid part making one move; it has finished and stands still for a beat before
+   the next step starts. No clip is cut while its part is moving, and no blur or whip hides a jump (4.3, 5 Rules 3 to 5,
+   7.4).
+10. **Every term passes the ear test** (understood on first hearing, with no caption: 4.3), the narration check is told
+    nothing, and **the user hears the whole narration at Gate C**, before any clip is rendered (6.2 Steps 5 and 6).
+11. **The dog is not in every video** (the user, 24 Nov 2026): a video has no dog unless the user says yes to him for that
+    video (4.5).
 
-**Status on 24 Nov 2026 (read this first; each bullet carries its own date):**
-- **The style is proven on a whole video** (24 Nov 2026). Video 17, the first in it, settled what was still to prove after
-  the test (1.9): the T-rex stayed the same animal in all 30 pictures and 27 clips he is in; the failure clips worked; steps
-  that change the cut ground (holes and shafts, a ditch, footings) and water changing in a clip worked; cuts to a closer
-  view worked, and a 0.3 s whip hid a jump inside a clip; the clips' own sounds were kept (the user heard them at Gate D).
-  All 28 clips were usable on the first try (7.2).
+**Status on 25 Nov 2026 (read this first; each bullet carries its own date):**
+- **The style stands, and was tightened on 25 Nov 2026** after the user's review of video 17 (1.10): its steps ran into
+  each other, and one term made no sense by ear. What video 17 did settle: a tester that stays the same animal (30
+  pictures, 27 clips), failure clips, steps in the cut ground, water changing in a clip, a cut to a closer view, and the
+  clips' own sounds. **To prove on video 18's pilot (Gate D):** the new clip wording (one clean move, then still: 6.3);
+  steps at least 1.6 s apart with every clip shown until it has settled; joins that don't jump. The edit side of this is
+  measured, on a free re-cut of video 17's loop 4 (1.10, 7.4).
 - **Video 17** (B12, "How to Keep a T-Rex in Your Back Yard") was finished on 24 Nov 2026: 64.7 s, 169.58 credits of a
-  188.40 quote, the bill $179,571; not posted. Its post copy is `pipeline/17-post-copy.md`, its covers `pipeline/17-covers/`,
-  the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2. **Next:** the user posts it (8.1, 8.2), and says
-  which idea is video 18 (my pick: B11, the flying house).
+  188.40 quote, the bill $179,571; not posted. **The user reviewed it that day, found mistakes (1.10) and said not to redo
+  it;** whether it is posted as it is, is the user's call. On offer, not asked for: a free re-cut by the new edit rules
+  (the same clips), and a new line for "This is a ha-ha" (about 1 credit). Its post copy is `pipeline/17-post-copy.md`,
+  its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2. **Next:** the
+  user says which idea is video 18 (my pick: B11, the flying house).
+- **The dog** is no longer in every video (25 Nov 2026; 4.5).
 - **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
   are left.
 - **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show"), finished on 22 Nov 2026 in the
@@ -112,10 +125,10 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
   and 15 stayed under 320. TikTok: 59 followers; YouTube: 315 subscribers.
 - **Profile:** brand set v3 is live on YouTube; its wording is about explainers and wants a refresh for builds (8.3).
 
-**Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style) · 2 the build run · 3 the five build ideas
-(23 Nov 2026) · 4 writing the script · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9
-channels, results and the video log · 10 money · 11 the paste-in prompt · 12 reading the platforms from a session · 13 parked
-ideas, topics to avoid (both unchanged) and history.
+**Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style, 1.10 the review of video 17) · 2 the
+build run · 3 the five build ideas (23 Nov 2026) · 4 writing the script · 5 the look · 6 production runbook · 7 production
+lessons · 8 posting and profile · 9 channels, results and the video log · 10 money · 11 the paste-in prompt · 12 reading
+the platforms from a session · 13 parked ideas, topics to avoid (both unchanged) and history.
 
 ---
 
@@ -241,6 +254,42 @@ per-video numbers are in `research/whatifplus-videos.tsv` and `research/youbuilt
 - **Where it still falls short of the helipad:** the camera holds one view while a fix is built (a slow push-in is added);
   30 frames a second, not 60; and a video costs about 185 credits, where code-drawn 3D would cost about 15–20.
 
+### 1.10 Video 17, reviewed (the user, 24 Nov 2026; measured on 24 and 25 Nov)
+The user: "the animations are mushed together at times and the audio at 26 seconds doesn't make sense. it says "this is a
+ahah"." The video was watched over on strips at 10 frames a second and measured (`pipeline/analysis/joins_check.py`,
+`steps-check.py`, `narration-check.py`); it was not redone.
+- **Steps ran into each other.** Where the narration named two steps less than about 1.5 s apart, the edit cut one clip
+  into the next: ten pairs of steps landed 0.9–1.4 s apart, and eight clips were cut 0.1–0.55 s before they had finished.
+  Loop 4 was the worst (slab, walls, roof and door in 3.7 s). A one-part step takes `wan2_7` about 1.3 s to do and settle
+  (0.9–1.5 s over the 14 two-second step clips); a part in several pieces, four walls or six cables, about 2.2 s.
+- **Every join pulsed.** A `wan2_7` clip's first four frames fade from its start picture's tone into the clip's own (about
+  6 levels darker, more contrast). 22 of the 26 joins started a clip on frame 0: in the still parts of the picture the
+  jump across such a join is about 5 grey levels, against 1.3 when the clip starts on its fifth frame.
+- **The whip was mush.** The whip that hid the night house changing size is 0.3 s of smear, at 46.0 s.
+- **One spot, four changes.** The wallow was dug, lined, edged and filled in the same place, each step a surface changing
+  where it lay (sinking, spreading, fading in): it read as one long melt. The steps that read crisp were solid parts
+  arriving from somewhere: posts and a roof dropping, a panel falling out, glass lowering, a bed sliding in.
+- **Changes nobody asked for became morphs.** Four stage pictures were accepted with something changed besides their step
+  (the neighbor's fence turned into poles, the ditch deepened, half the picket ring vanished, the night house shrank), and
+  the clip between two such pictures has to melt one into the other. `steps-check.py --stills` paints what changed: for
+  the picture where only a door should shut, 16.6% of the frame.
+- **Two dead stretches.** From 46.2 to 51.4 s nothing is built and nothing big moves: a small mower rolls out, a label
+  pops and the picture shakes. And in the hook the ring has closed by 1.9 s, and nothing moves again until 3.7 s.
+- **"This is a ha-ha"** (25.0–26.3 s). The voice said it as written, and the check passed it word for word, because
+  Whisper had been given the term in its prompt. Told nothing, two Whisper models and a second recogniser all hear "This
+  is a ha ha!", and "ha" is the least certain word of the take (0.25–0.37, against 0.9 and more). The fault was the term:
+  by ear it is a laugh. The script file had flagged it, and it went ahead with a respelling. And nobody had heard the
+  line: the Gate D pilot was the first 15.7 s.
+- **The clips' own sounds were all set to one level:** the T-rex's footfall was turned down 24 dB, three nearly silent
+  clips were turned up 8–12 dB, and a recogniser hears a word in two of them ("Okay." in W1_3, "Yeah." in W4_1).
+- **What a free re-cut showed** (loop 4, the same clips: `17-build.py recut4`, measured with `joins_check.py`). With a
+  pause let into the narration after each step's phrase, every clip played until it had settled, each clip started on
+  its fifth frame and three frames mixed at the join, the loop's four joins measure 0.8, 1.75, 3.65 (the roof itself,
+  already falling) and 1.3, against 7.95, 2.81, 7.55 and 5.81 as delivered (a resting picture: 0.2–0.4), and each step
+  stands finished for 0.25–0.54 s before the next begins. The loop runs 9.0 s instead of 7.4 s. **What an edit can't
+  mend:** the night house still changes size in its last clip (the re-cut stops that clip before the jump), and the
+  wallow is still one spot changed four times. Those are in the pictures and the clips.
+
 ---
 
 ## 2. The build run: ten videos (the plan of 21 Nov 2026, in the style of 22 Nov 2026; the ideas of 23 Nov 2026)
@@ -253,15 +302,15 @@ judged at the checkpoints in 2.5 and not after each video: changing direction af
 about. The ten are counted from video 17, the first in the build-steps style; video 16, posted by the user on 22 Nov 2026,
 is read apart.
 
-### 2.2 Before the next video (24 Nov 2026)
-1. **Post video 17** (`pipeline/17-post-copy.md`): early evening US Eastern, on both platforms. Then style 2's s2-01, on a
-   day of its own (8.1).
+### 2.2 Before the next video (25 Nov 2026)
+1. **Video 17:** whether it is posted as it is, is the user's call (0, 1.10); the copy is `pipeline/17-post-copy.md`. Style
+   2's s2-01 still waits for a day of its own (8.1).
 2. **The idea for video 18:** the user says which of the four left (2.3). My pick is B11, the flying house.
 3. **The in-app checks** still owed (0). They decide where the build videos go on YouTube (1.6).
 4. **The TikTok handle and the profile wording** (8.3).
 
 Done: the ideas (five, chosen by the user on 23 Nov 2026), the narrator (Harrison), the voice and the sound on Higgsfield
-(6.0), the dog (4.5), and the first video in the build-steps style (video 17, 24 Nov 2026).
+(6.0), the first video in the build-steps style (video 17, 24 Nov 2026) and the user's review of it (1.10).
 
 ### 2.3 The first five (chosen by the user on 23 Nov 2026)
 The user chose these five on 23 Nov 2026 ("I like all 5 ideas, swap out the current video ideas for these new ones") from a
@@ -279,7 +328,7 @@ Check again at each Gate A: objects are being taken within days (1.7).
 | B15 | How to Get Pizza Delivered by Tube to Your Bedroom | a pizza box is pushed into a drainpipe and jams | a pneumatic-tube Short 19M; a café that sends food by tube 2.0M (long); no build video found | a running joke the cut ground shows; the thinnest proof of demand, and most of its action is in the cut ground: make it last |
 
 ### 2.4 Budget and cadence
-- **At most 200 Higgsfield credits a video, everything inside it** (6.1). A video in this style prices at about 185 with the
+- **At most 200 Higgsfield credits a video, everything inside it** (6.1). A video in this style prices at about 192 with the
   reserve (6.1); video 17 was quoted at 188.40 and spent 169.58. The balance was 502.43 on 24 Nov 2026: two videos at the
   cap before the Ultra plan renews (3,000 a month since 11 Nov 2026; check the date).
 - **One video every one to two days** as credits allow; early evening, US Eastern, on both platforms (8).
@@ -316,6 +365,11 @@ shakiest, and each idea lists what to check. A bill lists what gets a price, nev
 a reference account. All five were checked on 22 Nov 2026 against @whatifplus's 42 and @youbuiltit's 100 videos (none is on
 either list) and on YouTube (12.2). Count again at each Gate A: objects are being taken within days (1.7, 3.1).
 
+**Since 25 Nov 2026** (the user's review of video 17): **the dog lines below are optional** (4.5): he is left out of an
+idea's first second, its ladder and its last shot unless the user says yes to him for that video. And each ladder is
+redrawn at Gate A to the rules of 4.3: one solid part and one move a step, no two steps on one spot, terms that pass the
+ear test.
+
 ### 3.0 How an idea gets on the list (from 1.7; rules 8 and 9 added on 23 Nov 2026 for the build-steps style)
 1. **The premise fits one line and three seconds:** "If you [one naive step], you have a [thing]." The step must be something
    that can be seen happening from frame 0, and harmless to copy.
@@ -323,7 +377,7 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
    best for the accounts we studied; chores, snow-white scenes, shops and famous landmarks did worst.
 3. **It is yours:** your yard, pool, driveway, garage, house.
 4. **Five failures you can see, five fixes with real names and real prices.** Each failure happens to a thing, not to a
-   person.
+   person. Each name is one a listener understands at once (the ear test, 4.3).
 5. **The cutaway earns its place:** something under the ground or inside a wall is part of at least two fixes. It is what our
    look shows and theirs doesn't.
 6. **A bright first frame:** grass, water, sky. No opening on snow or at night unless lights are the subject.
@@ -331,8 +385,9 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
    more than about three animated build videos of the same object went up in the last 30 days, drop it; don't retitle it.
 8. **One tester:** one thing that uses the build and can come back in all five loops, failing a new way each time (4.3). The
    simpler the thing, the better it holds from clip to clip.
-9. **Every fix can be built in about four visible steps** on the set, each a part that drops, rises, slides, swings or sweeps
-   into place (4.3). A fix that is only a setting, a rule or something inside a wire is the wrong fix.
+9. **Every fix can be built in about four visible steps** on the set, each a solid part that drops, rises, slides, swings
+   or rolls into place and stops, each in a spot of its own (4.3). A fix that is only a setting, a rule or something
+   inside a wire is the wrong fix, and so is one surface changed four times (dug, lined, edged, filled).
 
 **B11. How to Make Your House Fly** (a small house on its lot, under open sky)
 - **Title** (both platforms): "How to Make Your House Fly", as shown to the user. A YouTube search for those words returns
@@ -363,8 +418,8 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 - **The bill** (each ⚠): a bunch of party balloons (the starting figure); weather balloons and helium, worked out from the
   house's weight (the big one); the net and the rigging; steel beams and a house mover's day; water tanks and a pump; the
   valves; the winch, the cable and the concrete.
-- **The dog:** head on one side in frame 0; he chases the roof across the lawn as it floats off (loop 2); in the last shot he
-  sits on the porch of the floating house, tail going.
+- **The dog** (only if the user says yes to him for this video: 4.5): head on one side in frame 0; he chases the roof across
+  the lawn as it floats off (loop 2); in the last shot he sits on the porch of the floating house, tail going.
 - **Demand, and who is near (22 Nov 2026):** MrBeast "How Many Balloons To Make A Store Fly?" 674.9M; Matthew Beem "How Many
   Balloons To Make A Small House Fly?" 18.8M; Unspeakable "How Many Balloons To Make My House Fly?" 8.9M (long). Near:
   RippleEffect "He Made His House Fly With BALLOONS!" 752K (28 Jul 2026; it retells a real flight); "What If You Could Fly
@@ -405,8 +460,8 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 - **The bill** (each ⚠): a picket fence (the starting figure); steel posts, concrete and cable by the foot; digging and
   walling the ditch; the feeder; the second yard and its door; the glass. His food by the day, from a published estimate of
   what a T-rex ate, is said apart from the total, the way video 16 said its power ("and … a day in meat").
-- **The dog:** barks from the porch in frame 0; nose to nose with the T-rex through the glass (loop 5); in the last shot he
-  is asleep against the glass with the T-rex asleep on the other side.
+- **The dog** (only if the user says yes to him for this video: 4.5): barks from the porch in frame 0; nose to nose with the
+  T-rex through the glass (loop 5); in the last shot he is asleep against the glass with the T-rex asleep on the other side.
 - **Demand, and who is near (22 Nov 2026):** Spinosnack "Could A TRex Live in a Zoo? Let's Find Out" 5.06M (7 May 2026);
   Creature History "How to keep a giant T-rex in captivity" 380K (8 Nov 2026); "What Would It Be Like to Raise a T rex as a
   Pet" 155K; Bryton Myler "T-REX in my Backyard!" 23.6M (long, six years old). Build format: Sliced Open "How a Backyard
@@ -424,7 +479,7 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
   fence, a ha-ha (he drinks the neighbor's pool dry), a wallow (he swats the shed flat with his tail), a night house (he
   eats the robot mower) and laminated glass (he's lonely), with the bill at $179,571; and at loop 3 he turns to face the
   camera, so the builds fit round him. The script, the bill, the step sheet and the log of every step are
-  `pipeline/17-script.txt`, `17-bill.md` and `17-beat-sheet.md`.
+  `pipeline/17-script.txt`, `17-bill.md` and `17-beat-sheet.md`. Reviewed by the user on 24 Nov 2026 (1.10).
 
 **B13. How to Build a Giant Robot in Your Back Yard** (a back yard and driveway)
 - **Title:** "How to Build a Giant Robot in Your Back Yard". **Caption:** the title, "Guess the bill 💸", the standing tags,
@@ -452,8 +507,8 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 - **The bill** (each ⚠): cardboard boxes (the starting figure); steel by the ton, and the welding; cylinders, a pump and
   hoses; the concrete path; sensors and a computer; the battery pack and the charger. For scale, what real giant robots sold
   for (Kuratas, Archax ⚠).
-- **The dog:** sniffs a box foot in frame 0; watches the shed go from the porch (loop 4); in the last shot he rides in the
-  robot's open hand.
+- **The dog** (only if the user says yes to him for this video: 4.5): sniffs a box foot in frame 0; watches the shed go from
+  the porch (loop 4); in the last shot he rides in the robot's open hand.
 - **Demand, and who is near (22 Nov 2026):** a giant robot carved from a log 17.8M; Hacksmith's walking machine 13.9M (long)
   and 1.4M (Short); "A real-life robot mech!" 1.2M; an AI story, "They Found a GIANT Robot Buried in Scrap… Then It Woke
   Up!", 4.7M in two weeks (long). Build format: "How a Stick Hut Turns Into a Giant Robot" 1.4K, and nothing else.
@@ -493,8 +548,8 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 - **The bill** (each ⚠): a marble (the starting figure); steel rail by the foot, and posts; a screw conveyor and its motor;
   the funnel (a one-off: if no price can be found it adds nothing to the counter, 4.4); clear tube by the foot and a day's
   digging; the gate.
-- **The dog:** jumps aside and gives chase in frame 0; waits at the wrong end of the tunnel (loop 4); gets splashed by the
-  pool in the last shot.
+- **The dog** (only if the user says yes to him for this video: 4.5): jumps aside and gives chase in frame 0; waits at the
+  wrong end of the tunnel (loop 4); gets splashed by the pool in the last shot.
 - **Demand, and who is near (22 Nov 2026):** toy marble runs 157M and 152M (Shorts), 44.8M, 10.3M; "Marble Run in the Garden"
   38.3M (long, eleven years old). Near: "How a Marble Run Becomes a Particle Collider" 508K (a different object); "Building a
   Backyard Marble Run in 8 Seconds" 1K (17 Nov). No build video of a yard marble run found.
@@ -534,8 +589,8 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 - **The bill** (each ⚠): a length of drainpipe (the starting figure); carriers; the blower; tube by the foot and a day's
   trenching under a street; the diverter; the station in the bedroom. For scale, what a bank's drive-up tube or a hospital's
   system costs ⚠.
-- **The dog:** waits under the pipe in frame 0; licks the cheese off the wall (loop 5); in the last shot a second, small
-  carrier arrives with a bone in it.
+- **The dog** (only if the user says yes to him for this video: 4.5): waits under the pipe in frame 0; licks the cheese off
+  the wall (loop 5); in the last shot a second, small carrier arrives with a bone in it.
 - **Demand, and who is near (22 Nov 2026):** "Why Pneumatic Tubes Were Shut Down" 19M (Short); Tom Scott "This café sends
   food through pneumatic tubes" 2.0M (long, three years old); bank-tube Shorts 20–90K. Near: "My Pizza Always Takes an Hour,
   So I Built My Own Pipeline" 1.2K. No build video found. The thinnest proof of demand of the five.
@@ -590,19 +645,22 @@ not on the lists in 13.2; one comes back only if the user asks.
 
 ---
 
-## 4. Writing the script: the build-steps format (22 Nov 2026)
+## 4. Writing the script: the build-steps format (22 Nov 2026; tightened 25 Nov 2026)
 
 The "If you…, you have a…" format the user asked for on 21 Nov 2026, tightened on 22 Nov 2026 to the way the helipad video
 builds (measured against video 16 in 1.9). Video 16's script, the last under the older rules, is `pipeline/16-script.txt`.
+Tightened again on 25 Nov 2026 after the user's review of video 17 (1.10): one step at a time, and the ear test. Video
+17's script, `pipeline/17-script.txt`, was written before those two rules.
 
 ### 4.1 The formula
 ```
 PREMISE (0-4 s)    "If you [one naive step], you have a [THING]."
                    The step is being done on frame 0, by a tool or a part moving by itself. The counter shows what it costs.
-LOOP x5            BUT   one sentence: the tester arrives and something breaks, in plain sight.
-(12-13 s each,     SO    one sentence: "So you [step], [step], [step] and [step]." About four building steps; each part
- all the same            drops, rises, slides, swings or sweeps into place on the word that names it.
- length)           NAME  "This is a [REAL TERM]." The term goes on screen, its price lands on the counter, and the tester
+LOOP x5            BUT   one short sentence: the tester starts on the word and something breaks, in plain sight.
+(about 12 s each,  SO    one sentence: "So you [step], [step], [step] and [step]." About four building steps, one at a
+ all the same            time: each is a phrase of five to seven words that ends on its part, and the part drops,
+ length)                 rises, slides, swings or rolls into place on that word and stops before the next is named.
+                   NAME  "This is a [REAL TERM]." The term goes on screen, its price lands on the counter, and the tester
                          tries again: this time it works.
 CLOSE (about 3 s)  "That's your [THING]. The bill: about [TOTAL]." Over the finished build.
 END CARD (1.5 s)   The street (4.5). No narration.
@@ -615,7 +673,9 @@ END CARD (1.5 s)   The street (4.5). No narration.
 ### 4.2 The opening rules (the evidence is 1.2 and 1.7)
 1. **Frame 1 is the naive step being done:** the "before", with its first verb already moving. Never an establishing shot
    and never the finished build.
-2. **The scene changes by 1.0 s**, not just the camera: something unrolls, pours, drops, rolls or lights up, big in the frame.
+2. **The scene changes by 1.0 s**, not just the camera: something unrolls, pours, drops, rolls or lights up, big in the
+   frame. **And it goes on changing until the premise has been said** (video 17's ring had closed by 1.9 s; nothing
+   moved again until 3.7 s).
 3. **The first word is "If", and the line names what the picture is doing.** Never "If you want…", never a remark.
 4. **The subject fills at least a third of the frame** in the first second, readable on a phone.
 5. **The premise is finished by about 4 s and the first "But" lands by about 5 s** (the helipad: 4.0 s), with the tester
@@ -624,26 +684,43 @@ END CARD (1.5 s)   The street (4.5). No narration.
 7. **It is checked twice:** at Gate A as three lines (frame 0; what has changed by 1.0 s; the premise line and when the
    first "But" lands), and at Gate D on the hook's frames at 0, 0.5, 1 and 2 s (6.2).
 
-### 4.3 Writing rules (22 Nov 2026)
-- **Second person, present tense:** "you" build it. The cast is you, your family, your friends, the neighbours and the dog,
-  named in the words and shown small and anonymous, or by their things (a lawn chair, a parked car).
+### 4.3 Writing rules (22 Nov 2026; the step rules and the ear test: 25 Nov 2026)
+- **Second person, present tense:** "you" build it. The cast is you, your family, your friends and the neighbours, named
+  in the words and shown small and anonymous, or by their things (a lawn chair, a parked car).
 - **One tester.** One thing that uses the build (their helicopter on the helipad) comes back in every loop. Each "But" is
   that thing failing in a new way you can watch: physical, a little funny, and it happens to a thing. Nobody is hurt.
-- **Every "So" is about four building steps.** Each step is one physical change, big in the frame, that adds to the one
-  before, so the fix grows in place. Write them as short verb phrases that end on the part ("pour a slab, stand up four
-  walls, lower on a roof, and paint it red"): the part arrives on that word.
+  **The picture is never still for more than about two seconds:** the tester tries the fix while it is named, and starts
+  to break it on the word "But" (in video 17 nothing big moved from 46.2 to 51.4 s).
+- **Every "So" is about four building steps, one at a time** (25 Nov 2026; why: 1.10).
+  - **One step is one solid part making one move:** it drops in, slides in, swings shut, rises out of the ground or rolls
+    in, and stops. Not a surface changing where it lies (sinking, spreading, smearing, filling, fading in): at most one
+    such step in a fix, never two running. To try: digging as a block of earth lifting out, not a lawn that sags.
+  - **Each step has a spot of its own.** No two steps of a fix change the same place.
+  - **Each step has its time.** A step phrase is five to seven words and ends on its part ("lower a ribbed steel roof
+    onto the walls"), so the landing words fall at least 1.6 s apart: a step takes about a second to happen and a third
+    of a second to settle, and then stands for a beat. A part that comes in several pieces (four walls, a row of posts)
+    takes over two seconds: give it the longest phrase, or let the pieces move together. Gate A shows the estimated time
+    from each landing word to the next (the words between them ÷ 3.3); a pair under 1.6 s is rewritten, or the fix gets
+    three steps.
 - **Only what can be seen.** No numbers, no "about a tenth of the power", no cause that happens inside a wire. A fix that
   can't be built in steps on the set is the wrong fix, or the wrong idea.
-- **Each fix is a real thing with a real name,** said after it ("This is a ha-ha.") in all five loops; it goes on screen (5).
-- **The loops are the same length** (about 12–13 s) and escalate: a nuisance → damage → danger → the crowd (now everyone
+- **Each fix is a real thing with a real name,** said after it ("This is a cable fence.") in all five loops; it goes on
+  screen (5). **The name must pass the ear test:** understood on first hearing, with no caption to help. Not a word that
+  sounds like another word or like a noise ("This is a ha-ha" was heard as a laugh: 1.10), not a name that needs
+  respelling to be said right, not initials. If the real name fails, say the thing's plain name (a sunk fence) and keep
+  the odd one for the comments. A doubtful name goes to the user at Gate A as a question, not into the take.
+- **The loops are the same length** (about 12 s) and escalate: a nuisance → damage → danger → the crowd (now everyone
   wants in). The last "But" starts at about 80% of the video.
 - **Leave the beats:** about half a second of silence after the premise and before each "But", so the last step can land and
-  the tester can arrive. Those pauses are not tightened (6.2 Step 6).
+  the tester can arrive. Those pauses are not tightened (6.2 Step 6), and nor are the pauses between the steps of a "So"
+  sentence, where they keep the landing words 1.6 s apart.
 - **Under the ground at least twice:** two of the five fixes put something in the ground or inside a wall, where the cut
   face shows it. (Proven on video 17: holes and shafts, a ditch's notch, footings.)
 - **Every term and every price is checked** (rule 4, 4.4).
-- **Length: about 210 words** (205–215): 64–68 s at Harrison's pace with the beats kept (7.5), which is also what the
-  200-credit cap buys in clips (6.1). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute).
+- **Length: about 215 words** (210–220), most of them in the step phrases and few in the "But" lines (eight to ten words):
+  66–70 s at Harrison's pace with the beats and the step beats kept (7.5; video 17's 207 words make 68.4 s that way, with
+  ten step beats that longer phrases would not need). The clips come to about 66 s, which is what the 200-credit cap
+  buys (6.1). Never under 61 s (TikTok's Creator Rewards pays only on videos over a minute).
 - **Nothing a child could copy and get hurt:** the naive step is harmless or plainly make-believe, and a danger is shown as
   the "But", never as the instruction. TikTok keeps "activities that may lead to moderate physical harm" off the For You feed.
 - **Real people:** one sentence, never named if a child, nobody shown hurt; no faces, brand names, logos or team colours.
@@ -669,25 +746,28 @@ gives people a number to argue about, uses the fact-checking the copies don't do
 
 How it looks on screen is in 5. Judged after ten videos (2.5): comments per 1,000 views (ours 0.23, theirs 0.26).
 
-### 4.5 The street and the dog (ours; accepted 21 Nov 2026)
+### 4.5 The street (ours; accepted 21 Nov 2026), and the dog (no longer in every video: 25 Nov 2026)
 - **The street.** An end card of 1.5 s after the closing line: every build so far as a tile (each video's last clean frame,
   `pipeline/street/NN.jpg`), the new one dropping into its place, empty lots for what is still to come, and "WHAT DO WE
   BUILD NEXT?" under them, in our navy and yellow. Made in the edit with no credits (`street_card()` in `16-build.py`). The
   pinned comment asks what to build next (8.1); an idea taken from a comment gets credit in that video's caption.
-- **The dog.** The same small dog in every video: in the first shot and the last, and reacting to one failure in between.
-  He is never hurt, and never frightened for more than a beat. His words: "a small scruffy tan terrier with a cream chest
-  and muzzle, soft folded ears and a red collar". His key is Higgsfield job `51460339-c4b8-4537-9078-bd28de9305f8`
-  (`pipeline/16-dog.jpg`), approved by the user on 21 Nov 2026, and it is a reference in every picture he is in (6.3). The
-  first build video that is posted asks viewers to name him (8.1).
+- **The dog** (changed 25 Nov 2026, on the user's word: "make sure we aren't using the dog in every video I don't want
+  that"). He was in videos 16 and 17 and is no longer a fixture. **A video has no dog unless the user says yes to him for
+  that video.** Gate A may say in one line that an idea would gain from him (now and then at most, never two videos
+  running); without a yes he is left out of the pictures, the script and the copy. Nothing asks viewers to name him.
+  When he is in: the same small dog, in the first shot and the last and reacting to one failure in between, never hurt
+  and never frightened for more than a beat. His words: "a small scruffy tan terrier with a cream chest and muzzle, soft
+  folded ears and a red collar". His key is Higgsfield job `51460339-c4b8-4537-9078-bd28de9305f8`
+  (`pipeline/16-dog.jpg`), a reference in every picture he is in (6.3).
 
 ---
 
-## 5. The look: Cutaway in daylight, built in steps (the look locked 15 Nov 2026 and kept; the stage and the steps 22 Nov 2026)
+## 5. The look: Cutaway in daylight, built one step at a time (locked 15 Nov 2026; the steps 22 and 25 Nov 2026)
 
 **What it is.** A bright, clean, photoreal 3D render of one place standing on a block of ground sliced open like a cake, in
 soft daylight, with translucent cyan water where there is water. "You" is the viewer and nobody stands in for them: parts
-and tools move by themselves, and small anonymous workers or machines appear only where a step needs them. The same dog
-every time (4.5). The user locked the look on 15 Nov 2026, after the two videos without the mascot took 90% of our TikTok
+and tools move by themselves, and small anonymous workers or machines appear only where a step needs them. The user
+locked the look on 15 Nov 2026, after the two videos without the mascot took 90% of our TikTok
 views, and kept it on 21 and 22 Nov 2026 ("while keeping our visual style").
 
 **Rule 0. The first second.** The scene changes by 1.0 s, big in the frame, on the first word (4.2). The hook is planned,
@@ -701,18 +781,23 @@ down at about 45 degrees, so the yard fills the middle of the frame like a stage
 face of the ground runs across the bottom fifth with plain ground under it (the caption sits there). What is built is big:
 about a third of the frame wide or more. In the test the lawn ran from 13% to 70% of the frame and the shed was 62% wide.
 
-**Rule 3. Built in steps.** Every fix is a stage ladder: the same view, one picture a step, each an edit of the one before.
-Each step is its own short clip between two neighbouring pictures, in which the part drops, rises, slides, swings or sweeps
-into place by itself, with dust or a bounce where it lands (6.2). One thing changes at a time.
+**Rule 3. Built in steps, one at a time** (tightened 25 Nov 2026; 1.10). Every fix is a stage ladder: the same view, one
+picture a step, each an edit of the one before in which nothing but the step has changed. Each step is its own short clip
+between two neighbouring pictures: one solid part drops, rises, slides, swings or rolls into place by itself, lands with
+dust or a bounce, and stops (6.2). **The step is finished and stands still for a beat (0.2–0.5 s) before the next one
+starts.** A clip is never cut while its part is moving, and nothing else in the picture moves during a step.
 
 **Rule 4. Something happens about every two seconds.** A build step, the tester failing, a label, the counter's jump: about
 35–40 visible changes in a video (the helipad about 50, video 16 about 30), with something moving in 80% or more of the
 seconds (`check_video.py`). No frozen pictures: a rest between steps lasts about a second at most, on a finished step,
-under the push-in.
+under the push-in, and the picture is never still for more than about two seconds (the tester moves on "But": 4.3).
 
-**Rule 5. The camera.** Locked while a fix is built, with a slow push-in added in the edit (about 1% a second) so the view
-is never dead. Between views (the stage, a closer view of a failure, the last shot) it cuts on the word or takes a 0.3 s
-whip; a flight clip only where it earns its cost (`kling4_0`, 6.0). A view inside the ground or a wall is its own picture.
+**Rule 5. The camera.** Locked while a fix is built, with a slow push-in added in the edit (0.6–0.8% a second) so the view
+is never dead. The push is never snapped back: it runs on, eases out as slowly through the next loop, or starts again at
+a cut (video 17 pulled back 9% in under half a second before every "But", a move as big as a step). Between two different
+views (the stage, a closer view, the last shot) it cuts on the word. **No whip and no blur inside one view:** they don't
+hide a jump, they smear it (1.10). A flight clip only where it earns its cost (`kling4_0`, 6.0). A view inside the ground
+or a wall is its own picture.
 
 **Rule 6. Hold the look steady.** Every picture is an edit of the set key or of the stage before it, so the set keeps its
 parts, colours and materials. The shared style line names no objects and no place.
@@ -735,7 +820,7 @@ Besides the caption and the counter, one at a time. The code is `16-overlays.py`
   tall (`Fontsize` 88) on ink (#101A33) with a 3 px yellow rim. It shows the running total from frame 0. At a jump the
   fix's price ("+$305", white with the caption's black stroke) slides in at the pill's right over 0.15 s, waits 0.5 s and
   slides into the pill, and the total rolls up over 0.4 s with a tick and a small pop. On the closing line the total grows
-  where the last shot is calm, usually the sky above the build, never over the build or the dog (video 16: digits about
+  where the last shot is calm, usually the sky above the build, never over the build (video 16: digits about
   92 px tall, `Fontsize` 184, centred 14.5% down), and holds until the card.
 - **Stickers** (22 Nov 2026): flat signs for what can't be built, such as a clock for time passing, a dial or wind arrows.
   One at a time, for a sentence, in ink and yellow, inside the safe box.
@@ -743,13 +828,15 @@ Besides the caption and the counter, one at a time. The code is `16-overlays.py`
 - **The safe box:** overlays stay between 9% and 80% of the height and left of x = 940 below y ≈ 950 (TikTok's buttons).
 - **Words inside the scene** (a frequency on a yard sign, a scoreboard, a painted letter that must be exact) are overlays
   warped onto the object in perspective, frame by frame (`sign_pass()` in `16-build.py`), never generated text.
-- **The caption may sit lower for one shot** (78% down) when the dog or the subject ends up on its line (`CAP_Y_AT`).
+- **The caption may sit lower for one shot** (78% down) when the subject ends up on its line (`CAP_Y_AT`).
 
 **Sound.** A quiet, steady bed that fits the place, with no tune, 18–22 dB under the voice in the quiet moments
 (`under_the_voice.py`). **The steps bring their own sounds:** every `wan2_7` clip comes with sound, and in the test its
-loudest moment sat on the impact, so that moment is placed on the step's landing (6.2 Step 6b). Plus the counter's tick and
-the till on the final bill. No music, never a copyrighted or trending track. Keep a voice-only master. Claude measures sound
-and cannot hear it: the user is the ear, at Gate D.
+loudest moment sat on the impact, so that moment is placed on the step's landing (6.2 Step 6b). **A quiet sound stays
+quiet:** none is raised by more than 3 dB, and one that is nearly silent or has a voice-like sound in it is left out
+(1.10). Plus the counter's tick and the till on the final bill. No music, never a copyrighted or
+trending track. Keep a voice-only master. Claude measures sound and cannot hear it: **the user is the ear, for the whole
+narration at Gate C and for the clips' sounds at Gate D.**
 
 **Narrator (locked 22 Nov 2026): Harrison.** The user chose him from three audition takes. He is a Higgsfield preset voice,
 voice_id `573e5163-59b3-4926-aab1-951ef2985f81`, read by the model `elevenlabs_v4` through Higgsfield (6.0), so the narration
@@ -766,26 +853,28 @@ moving in 65% of seconds, parallax 0.3 px; `camera_path.py` still measures a fli
 
 ---
 
-## 6. Production runbook (for Claude: follow it when asked to make a video; rewritten 22 Nov 2026 for the build-steps style)
+## 6. Production runbook (for Claude: follow it when asked to make a video; rewritten 22 Nov 2026, tightened 25 Nov 2026)
 
 > Trigger phrases: "make video #N", "run the runbook on [idea]", or the paste-in prompt (11.1).
 > **Never generate anything (pictures, clips, audio) before Gate B is approved.** Script, step sheet and quote are free.
-> The method is proven on one fix (1.9). What is marked "to prove" is settled at the first video's Gates C and D; write what
+> The method has run on one whole video (17), and the user's review of it (1.10) is why the steps, the checks and their
+> order were tightened on 25 Nov 2026. What is marked NEW or "to prove" is settled at video 18's Gate D; write what
 > happens into section 7.
 
-### 6.0 Tools and prices (checked 22 Nov 2026; re-check on the day, prices change)
+### 6.0 Tools and prices (as charged on video 17, 23–24 Nov 2026; re-check on the day, prices change)
 | Job | Tool | Settings | Cost |
 |---|---|---|---|
 | Pictures (set key, stage view, stages, keys) | Higgsfield `generate_image_batch`, `seedream_v5_pro` | `resolution:"1k"`, `aspect_ratio:"9:16"`; references as `medias` with role `image_references` (job ids) | **1.25 a picture** |
-| Step clips, failures, the hook (the standard since 22 Nov 2026) | `generate_video_batch`, **`wan2_7`** | `resolution:"720p"`, `aspect_ratio:"9:16"`, `duration` 2–15 s, `start_image` + `end_image`; it makes its own sound, so the prompt ends with a "Sound: …" line | **1.50 a second: 3.00 a 2 s clip, 4.50 a 3 s** |
+| Step clips, failures, the hook (the standard since 22 Nov 2026) | `generate_video_batch`, **`wan2_7`** | `resolution:"720p"`, `aspect_ratio:"9:16"`, `duration` 2–15 s, `start_image` + `end_image`; it makes its own sound, so the prompt ends with a "Sound: …" line | **1.50 a second: 3.00 a 2 s clip, 4.50 a 3 s.** At 1080p 2.50 a second (priced 24 Nov 2026): a whole video does not fit under the cap |
 | All the steps of a fix in one clip, or a camera flight | `generate_video_batch`, `kling4_0` | `mode:"image-to-video"`, `resolution:"720p"`, `aspect_ratio:"9:16"`, `duration` 3–30 s, `start_image` + `end_image`, the middle stages in order as `image_references` | 2.50 a second (12.50 for 5 s); it bills at least 3 s |
 | Narration | `generate_audio_batch`, `elevenlabs_v4`: `dialogue` = one turn with the whole script, `voice_type:"preset"`, `voice_id` Harrison's (5), `batch_size:1`; one request a take | `estimate_audio_cost` first | 5.52 a take of 1,161 characters |
 | Bed, tick, till and spare effects | `generate_audio_batch`, `mirelo_text_to_audio`: a `prompt` and a `duration` in seconds | `estimate_audio_cost` first | 0.25 a second; measure and cut every file (7.5) |
 | Price checks | `estimate_image_cost`, `estimate_video_cost`, `estimate_audio_cost` | one call per model, resolution and duration | free |
-| Word timings | Higgsfield `sandbox_exec`, faster-whisper `small.en` | `background:true` (foreground calls time out at ~60 s) | free |
-| Word timings on this machine | `pipeline/analysis/transcribe.py` (sherpa-onnx with the Parakeet model from GitHub releases) | word starts only | free |
+| The narration check, and word timings | `pipeline/narration-check.py` in the Higgsfield sandbox (`sandbox_exec`): faster-whisper `small.en` and `medium.en`, **told nothing** (no `initial_prompt`) | `background:true` (foreground calls time out at ~60 s) | free |
+| A second ear, on this machine | `pipeline/analysis/transcribe.py` (sherpa-onnx with the Parakeet model from GitHub releases): the narration again, and every clip's own sound | word starts only | free |
+| The narration's timing | `pipeline/steps-timing.py`: pauses tightened, the beats and the step beats kept | it reads the check's words | free |
 | Assembly, captions, mix | local ffmpeg with libass, Python with OpenCV | — | free |
-| Checks | `pipeline/steps-test-check.py` (a clip against its pictures, and when its step happens), `pipeline/analysis/check_video.py`, `under_the_voice.py`, `contact_sheet.py`; `camera_path.py` for a flight | `pip install numpy opencv-python-headless` | free |
+| Checks | `pipeline/steps-check.py` (a clip against its pictures, when its step happens and when it has **settled**; with `--stills`, what changed between two stage pictures), `pipeline/analysis/joins_check.py` (every join of the finished picture), `check_video.py`, `under_the_voice.py`, `contact_sheet.py`; `camera_path.py` for a flight | `pip install numpy opencv-python-headless` | free |
 | Upload | `media_upload` → PUT (headers `Content-Type`, `If-None-Match: *`) → `media_confirm` | — | free |
 | Not used | ElevenLabs (34 credits left since 21 Nov 2026, and Harrison is not in its library; how its speech and sound flows were called is in the archive, 6.0 and 6.2); `minimax_h3` (every queued job failed); `use_unlim` unless the user asks; `virality_predictor` and `tiktok_prepare_publish` only if asked | | |
 
@@ -798,12 +887,14 @@ Other clip models priced on 20 Nov 2026 and never tested: `veo3_1_lite` 6.00 a 4
 1. Script, step sheet, prompts and the quote are free; do them first.
 2. Before Gate B, price the exact plan (one estimate per model, resolution and duration), add a **15% reserve**, show the
    total and the balance after it, and wait for approval. Stop and ask if a run will go more than 10% over its quote.
-3. Pictures before clips: fix the look, the view and the layout in pictures (1.25), never by re-rolling clips.
+3. Pictures before clips: fix the look, the view and the layout in pictures (1.25), never by re-rolling clips. **A stage
+   picture in which anything changed besides its step is repaired or re-made before the next is built on it** (6.2 Step
+   5): the clip between two pictures that disagree has to melt one into the other, and no edit hides that.
 4. Pilot first: the hook and one whole fix, shown before the rest (Gate D).
 5. One generation per request (no variants). Re-render a bad clip **once**, with a corrected prompt; if it fails again, cut
    the step or rest on the last good frame (a second at most), and tell the user which step lost its clip.
-6. Clip length: 2 s for a step that is one simple part, 3 s for a step with several parts or for a failure. The clips in
-   total come to about the length of the video.
+6. Clip length: 2 s for a step that is one solid part (it moves and settles in about 1.3 s), 3 s for a part in several
+   pieces or for a failure. The clips in total come to about the length of the video.
 7. Never auto-retry after a transport timeout; check the job id first.
 8. After the run, call `transactions` and report the spend against the quote.
 
@@ -812,23 +903,23 @@ Other clip models priced on 20 Nov 2026 and never tested: `veo3_1_lite` 6.00 a 4
 tries, the clips 106.50 with no re-render, the narration 4.83, the sound 4.50). The build-steps test: 35.00 for one fix made
 both ways.
 
-**The standard plan (22 Nov 2026; an estimate from the test, priced again and approved at each Gate B):**
+**The standard plan (25 Nov 2026; from video 17's spend and its review; priced again and approved at each Gate B):**
 
 | Item | Plan | Credits |
 |---|---|---|
-| Clips (`wan2_7`, 720p) | about 68 s: 20 build steps (2 s or 3 s each, about 48 s), five failures of 3 s, the hook 3 s, the last shot 2 s | 102.00 |
-| Pictures | the set key, the stage view, the hook's two, five failures, 20 stages, the tester key, one or two closer views: about 32, at most 38 tries | 47.50 |
-| Narration | one take of the whole script (about 210 words) | 5.52 |
+| Clips (`wan2_7`, 720p) | 66 s: 20 build steps (fifteen of 2 s, five of 3 s: 45 s), five failures of 3 s, the hook 3 s, the last shot 3 s | 99.00 |
+| Pictures | the set key, the stage view, the tester key, the hook's, five failures, 20 stages, one or two closer views: about 32, with up to 46 tries (video 17 took 43 and let four flawed stages through: rule 3) | 57.50 |
+| Narration | one take of the whole script (about 215 words) | 5.52 |
 | Sound | a 10 s bed, the tick, the till and two or three spares, about 20 s; the steps' sounds come with their clips | 5.00 |
-| Base | | 160.02 |
-| Reserve (15%) | a second narration take, three or four step re-renders, a few picture retries | 24.00 |
-| **Quote** | | **184.02** |
+| Base | | 167.02 |
+| Reserve (15%) | a second narration take (a term that fails by ear means a new take), three or four step re-renders, a few more picture retries | 25.05 |
+| **Quote** | | **192.07** |
 
 - Spend the reserve only on what breaks; a run that has used it stops and asks before going further.
 - If the plan has to shrink, take a step out of the weakest fix before touching the hook or the first two loops.
 - `kling4_0` only where the quote has room: on that model alone a video in this style does not fit under 200.
 
-### 6.2 Step by step (22 Nov 2026)
+### 6.2 Step by step (22 Nov 2026; tightened 25 Nov 2026: the narration is made before Gate C, and Gate C plays it)
 
 **Step 0: Start.** `balance` (and the plan's renewal date if the balance is low). Read the idea and its ⚠ items. Re-fetch
 the two build accounts' lists (`PYTHONPATH=<dir> python3 -m yt_dlp --flat-playlist -J https://www.tiktok.com/@whatifplus`,
@@ -836,7 +927,15 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
 
 **Step 1: Script (free). GATE A.**
 - Choose the tester first; then five failures and five fixes of about four steps each. Write to the formula (4.1), the
-  opening rules (4.2) and the writing rules (4.3): about 210 words.
+  opening rules (4.2) and the writing rules (4.3): about 215 words.
+- **Draw each step before writing its phrase** (4.3): the one solid part, its one move, where it comes from and the spot
+  it lands on. A step that is a surface changing where it lies, a second step on the same spot, or a part too small to
+  read from the stage view is redrawn here, not at Gate C.
+- **Time the steps:** in each "So" sentence, the estimated seconds from each landing word to the next (the words between
+  them ÷ 3.3). Under 1.6 s: lengthen the phrase, or give the fix three steps.
+- **The ear test, for every term** (4.3): read each "This is a …" line as someone with no caption would hear it. A term
+  that could be heard as another word or as a noise, or that needs respelling, is swapped for the thing's plain name or
+  put to the user as a question at this gate.
 - Fact-check every term and price with web search (7.7); cut what can't be checked. Write the bill (4.4) as
   `pipeline/NN-bill.md`.
 - Saturation check with the idea's own title and both title shapes: `python3 pipeline/youtube/yt_saturation.py <dir> "<the
@@ -844,21 +943,27 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
   and date the near ones with `yt_channels.py <dir> shorts:<id>`. The topic rule (1.6, 1.7): more than about three animated
   build videos of the same object in the last 30 days, drop the idea; don't retitle it.
 - **Show at Gate A:** the title; the script; the first 5 seconds as three lines (frame 0; what has changed by 1.0 s; the
-  premise line and the second its first "But" lands); the loop table (`what breaks, with the tester | the four steps and
-  the word each lands on | term on screen | price and its source`); the bill's total; where the dog appears; the facts
-  checked; the saturation numbers and the two lists' verdict.
+  premise line and the second its first "But" lands); the loop table (`what breaks, with the tester | the four steps: each
+  one's part, its move, the word it lands on and the seconds to the next landing | term on screen, and how it fares in
+  the ear test | price and its source`); the bill's total; the facts checked; the saturation numbers and the two lists'
+  verdict. The dog is not in the video unless the user has said so (4.5).
 
 **Step 2: Step sheet (free).**
-- One row a clip: `clip | the words it covers | est. s (words ÷ 3.3) | view | start picture → end picture | what moves, in
-  the order it moves | the word each step lands on | label | counter | its "Sound:" line`.
+- One row a clip: `clip | the words it covers | est. s (words ÷ 3.3) | view | start picture → end picture | the one part
+  and its one move | where the tester stands, still | the word the step lands on | label | counter | its "Sound:" line`.
+- **Plan where the tester stands for the whole ladder:** in a spot and a pose that leave the builds room (video 17's
+  T-rex, side-on, filled the stage until he was turned at loop 3), and the same through every stage of a fix. He moves
+  in the failure clips and in the last step of a fix, where he uses it.
 - **The stage ladder is the build:** S0 the yard before; H the naive step done (the hook ends on it); then for each loop F,
   the tester having failed, and the stages of the fix, about four, the last one with the tester using it; the last stage of
   the last loop is the finished build.
 - **The clips:** the hook (S0 → H, 3 s); for each loop a failure clip (3 s) and one step clip a stage (2 s or 3 s: 6.1
-  rule 6); the last shot (2 s). About 68 s in all.
+  rule 6); the last shot (3 s). About 66 s in all.
 - **The views:** the stage view for every fix (5). A closer view, one extra picture, only where a failure is too small to
   read from the stage.
-- **The dog:** the first picture, the last, and one reaction; every other prompt says "No animals".
+- **The dog** only if the user said yes to him for this video (4.5): then the first picture, the last, and one reaction.
+  Every other prompt, and every prompt of a video without him, says "No animals" (or, where the tester is an animal,
+  "The only animal is the …").
 
 **Step 3: Quote (free). GATE B.**
 - `balance`; an estimate for every picture, every clip length, the narration (the script's characters) and the sound (by
@@ -873,31 +978,52 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
   CAMERA line with the layout in % of the frame: 6.3), empty of everything that will be built.
 - **The stage view:** an edit of the set key that raises the camera (STAGE, 6.3). Check it before going on: the yard fills
   the middle of the frame, the cut face is in the bottom fifth, and nothing on the yard is cut open.
-- **The keys:** the dog's exists (4.5). The tester's is one picture of it alone on plain ground, made here and used as a
-  reference in every picture it is in.
+- **The keys:** the tester's is one picture of it alone on plain ground, made here and used as a reference in every
+  picture it is in. (The dog's exists, for a video he is in: 4.5.)
 
-**Step 5: The stage pictures. GATE C.**
+**Step 5: The stage pictures, and the narration to listen to. GATE C.**
 - Each stage is a LOCK edit of the one before (6.3): one change, with its size and place in % of the frame, WHOLE and "No
-  people" (and, to try against the colour drift, "the lawn keeps exactly the same bright green": 7.1). Make them one at a
-  time and look at each before the next: a wrong stage carries into every later one.
+  people" (and "the lawn keeps exactly the same bright green": 7.1). Make them one at a time and look at each before the
+  next: a wrong stage carries into every later one.
+- **Check each stage against the one before: `steps-check.py <dir> --stills A:B`.** It paints what changed red, and the
+  only red is the step. Red on the tester, a fence, the house or an earlier build is a change nobody asked for: repair
+  it with one edit that names only the swap, or re-make the stage, before the next is built on it. Video 17 let four
+  such stages through, and each became a morph (1.10).
 - Re-make a wrong stage once. A stage that fails twice is rethought (a simpler step, or two stages), not forced.
-- **Show at Gate C:** the ladder in order as a strip; how well the view holds from stage to stage (the shift in px, as
-  `steps-test-check.py` measures it); the tester and the dog against their keys; frame 0 and the last frame.
+- **The narration is made while the pictures are** (Step 6), so that the gate can play it.
+- **Show at Gate C:** the ladder in order as a strip; for each stage how much of the frame changed and where
+  (`--stills`), and the view's shift in px; the tester against its key (and the dog, if he is in); frame 0 and the last
+  frame; **and the whole narration as an audio file to listen to**, timed as the video will play it, with what the check
+  flagged and at what second (Step 6). The user's ear decides: a line that sounds wrong is rewritten and voiced again
+  before any clip is rendered.
 
-**Step 6: Narration (after Gate B).**
+**Step 6: Narration (right after Gate B, while the stage pictures are made: Gate C plays it).**
 - Harrison, the whole script as one continuous take (6.0). Order one take, check it, and order a second only if it fails.
-- **The check and the word timings are one job:** faster-whisper `small.en` in the Higgsfield sandbox (a background job of
-  about a minute; it reads the take's result URL directly), with the rare words in `initial_prompt`. A take passes when
-  Whisper returns the script word for word (an extra word is a stray sound, a missing one a swallowed word) and "So you…"
-  reads straight through. The script supplies the caption text, Whisper only the timing.
-- Tighten the pauses to 0.15 s, **except the beats: keep about half a second after the premise and before each "But"**
-  (4.3). Then `atempo` up to 1.1, never more. `17-timing.py` does the tightening with the beats kept (`16-timing.py`'s
-  `EST` mode gives word times from the script, for a pilot before the voice exists).
+- **The check is told nothing** (`pipeline/narration-check.py`, a background job of a few minutes in the Higgsfield
+  sandbox; it reads the take's result URL directly). No `initial_prompt`: video 17's check gave Whisper the rare words,
+  and Whisper duly heard them (1.10). It prints three things: the script against what was heard; every word the
+  recogniser was unsure of (under 0.6), and every "!" or "?" it heard that the script doesn't have; and each "This is a
+  …" sentence cut out and heard alone by two models, as a viewer who missed the caption would hear it.
+- **A take passes** when it comes back word for word (an extra word is a stray sound, a missing one a swallowed word), no
+  term and no landing word is flagged, and "So you…" reads straight through. **A flagged term is a fault in the script,
+  not in the voice:** change the term (the ear test, 4.3) and voice it again; respelling it only makes the take match.
+  Untried: voicing that one sentence again and splicing it in at the pauses round it, for the user's ear to accept.
+  Every other flag (a common word the recogniser was unsure of, a rise on "The bill:") is listed for the user with its
+  time.
+- **A second ear on this machine:** `transcribe.py` on the same take. Where the two recognisers disagree, list it.
+- **Timing (`pipeline/steps-timing.py`):** pauses tightened to 0.15 s, **except the beats** (about half a second after the
+  premise and before each "But") **and the step beats:** silence is let in after a step's phrase, 0.6 s at most, so that
+  the landing words of a "So" sentence are at least 1.6 s apart, or as far apart as their clips turn out to need
+  (`--gaps`, Step 8). A gap it prints as "STILL SHORT" is a fault in the script: lengthen the phrase. Then `atempo` up
+  to 1.1, never more. The script supplies the caption text, Whisper only the timing. (`16-timing.py`'s `EST` mode gives
+  word times from the script, for planning before the voice exists.)
 
 **Step 6b: Sound (after Gate B).**
-- **The steps' sounds come from their clips.** For each step, cut the clip's sound from a little before its loudest moment
-  to about half a second after, and place the loud moment on the step's landing in the video. Leave out a clip's sound if
-  it is nearly silent or carries a voice. Proven on video 17: every clip's own sound was kept, played with its picture.
+- **The steps' sounds come from their clips,** each played with its picture, its loud moment on the step's landing.
+  **A quiet sound stays quiet** (25 Nov 2026; 1.10): no clip's sound is raised by more than 3 dB (`MAXBOOST`), one that
+  is nearly silent (under about −35 dB where it is active: `QUIET`) is left out, and the loud ones are brought down to
+  11 dB under the voice as before. **Run `transcribe.py` over every clip's sound:** one in which it hears a word (video
+  17: "Okay." and "Yeah.") is left out (`MUTE`) or cut down to its impact. Tell the user which sounds were left out.
 - **The rest from `mirelo_text_to_audio`,** one request a sound: a 10 s bed (it is looped), the counter's tick (a short, dry
   click), the till for the final bill, and a spare or two. Prompts name the sound, its texture and the space, with no visual
   words; one plain sound a file. Never submit again to retry (it bills again).
@@ -908,31 +1034,47 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
   (18–22 dB), and the encoded file's loudness and true peak (about −14 LUFS, under −1 dB).
 
 **Step 7: The pilot. GATE D.**
-- Render the hook and one whole fix: its failure clip and its step clips. If a `kling4_0` clip is planned (a flight, or a
-  fix in one clip), render one of those too.
-- Check each clip (`steps-test-check.py`): it starts and ends on its pictures (under half a pixel), the step happens and
-  when, and there is no pit, person or text.
-- **Show at Gate D, as the edit will play it** (`steps-test-demo.py` is the pattern): the fix with every step on its word,
-  with captions, its label and the counter; the hook's frames at 0, 0.5, 1 and 2 s; and the same clips at natural speed
-  with their own sound, for the user's ear.
+- Render the hook and one whole fix: its failure clip and its step clips. **Take the fix with the hardest steps** (the
+  most pieces, or the one change in place), not the easiest: video 17's pilot was its crispest loop. If a `kling4_0`
+  clip is planned (a flight), render one of those too.
+- Check each clip (`steps-check.py`): it starts and ends on its pictures (under half a pixel); the step happens, and
+  **when it has settled** (a one-part step by about 1.3 s); and there is no pit, person or text. Then look at every clip
+  on its sheet at 8 frames a second: a part that melts, smears or grows out of nothing instead of arriving, or a tester
+  or an earlier build that moves when it should stand, is a failed clip, whatever the numbers say.
+- **If a step's clip needs longer than the narration gives it** (its settle time plus a beat of 0.2 s, against the time
+  from its landing word to the next), widen that step beat (`steps-timing.py --gaps`). The clip is never cut short.
+- **Show at Gate D, as the edit will play it** (`17-build.py`'s `pilot` mode is the pattern, with `place2()`): the fix
+  with every step on its word and at rest before the next, with captions, its label and the counter; the hook's frames
+  at 0, 0.5, 1 and 2 s; the joins' numbers (`joins_check.py`); and the same clips at natural speed with their own sound,
+  for the user's ear.
 - Don't render the rest until the pilot passes. Fix a failing clip's prompt or its pictures and render it once more.
 
 **Step 8: The rest of the clips.** Batches of up to 12, `jobs_wait`, one `show_generation_by_ids`. Write each job id into
-`NN-jobs.tsv` as it is submitted. Check every clip on a sheet at 8 frames a second, as in Step 7.
+`NN-jobs.tsv` as it is submitted. Check every clip as in Step 7, with its sheet at 8 frames a second. Then give
+`steps-timing.py` the gaps the clips turned out to need (`--gaps`) and time the narration again: where the two disagree,
+the narration waits for the clip.
 
 **Step 9: Assembly (free).**
-- **The time map.** For each clip, read when each step lands (the check's numbers and sheet) and place that moment on the
-  word that names it (the narration's word times). Between steps the picture rests on the finished step, for a second at
-  most. Speed a clip's tail up rather than cutting dust in mid-air.
-- Take the nearest source frame, never a blend of two (7.4).
+- **The time map** (`place2()` in `17-build.py`). For each clip, read when its step lands and when it has settled (the
+  check's numbers and sheet), and place the landing on the word that names it (the narration's word times). **Every clip
+  plays until it has settled; then the picture rests on the finished step for a beat (0.2 s or more, a second at most)
+  before the next clip starts.** If the next word comes too soon for that, the narration gets a wider step beat (Step
+  8); a clip in several pieces may play up to 1.25× from start to finish. No clip is cut while its part is moving, and
+  none starts over another.
+- **Start every clip on its fifth frame or later** (`MINSTART`) **and mix three frames across the join** (`XFADE = 3`): a
+  `wan2_7` clip's first four frames fade from the still's tone into its own, and a join into frame 0 makes the picture
+  pulse (7.2, 7.4).
+- Take the nearest source frame, never a blend of two, when re-timing (7.4).
 - Shift every frame's colours back to the first picture's (7.4).
-- A slow push-in on each locked view, about 1% a second, eased back at a cut. Between views, a cut on the word or a 0.3 s
-  whip.
+- A slow push-in on each locked view, 0.6–0.8% a second, never snapped back (5 Rule 5). Between two different views, a
+  cut on the word. **No whip and no blur inside a view:** a jump there means a stage picture is wrong (Step 5).
 - Upscale the 720p clips to 1080×1920 with a light sharpen (`unsharp=5:5:0.6`).
 - Narration at full level, sound under it (Step 6b). Keep a voice-only mix and a clean master (no captions, labels, counter
   or stickers).
-- **Check the master:** something moving in 80% or more of the seconds (`check_video.py`); every step within about 0.2 s of
-  its word; the bed 18–22 dB under the voice; a sheet of the first 2 s.
+- **Check the master:** `joins_check.py` on the clean picture (no clip cut before it had settled, none started on its
+  first four frames, no two landings under 1.6 s apart, no stretch of 2 s where nothing moves), and a strip of its three
+  worst joins at 10 frames a second, looked at; something moving in 80% or more of the seconds (`check_video.py`); every
+  step within about 0.2 s of its word; the bed 18–22 dB under the voice; a sheet of the first 2 s.
 
 **Step 10: Captions, labels, the counter, stickers and the end card (free).** To section 5's spec: one caption cue a word
 from the word timings, with the text from the script; a label for the length of its "This is a …" sentence, and the
@@ -942,14 +1084,15 @@ the safe box.
 
 **Step 11: Delivery.** Upload the final, the voice-only version and the clean master (`media_upload` → PUT →
 `media_confirm`) and give the links. Report the length, credits quoted against spent (`transactions`), the first-second
-check, each step against its word, and any step that lost its clip.
+check, each step against its word, the joins check, what the narration check flagged and what was done about each flag,
+any clip's sound that was left out, and any step that lost its clip.
 
 **Step 12: Covers and post copy (free).** Three covers (`16-thumbnail.py`), one of them a plain frame; a build cover can
 pair the naive step with the finished build, or carry the counter's pill. TikTok and YouTube copy per 8.1 and 8.2. Save the
 last clean frame as the street tile (`pipeline/street/NN.jpg`). Log the video in 9.2, add its lessons to 7, and update both
 copies of the memory.
 
-### 6.3 Prompt lines (22 Nov 2026; the stage and clip lines ran in the test and are whole in `steps-test-prompts.py`)
+### 6.3 Prompt lines (as run on video 17: `17-prompts.py`; NEW marks the lines of 25 Nov 2026, to prove at video 18's Gate D)
 - **STYLE** (every picture, and every `kling4_0` clip): "Photoreal 3D cutaway render: the ground is sliced open like a cake
   toward the camera, showing clean layers and what is buried in them. Bright soft daylight, warm tones, soft shadows, mild
   depth of field, clean realistic materials, translucent cyan water, tidy and uncluttered. No text, no letters, no numbers,
@@ -971,24 +1114,40 @@ copies of the memory.
   Nothing in view changes: the lawn is empty …"
 - **LOCK** (a stage: an edit of the stage before): "Same scene as the reference image. Keep exactly the same camera position,
   zoom and framing as that image: [the house, the hedge, the fence, the lawn and the cut face of the ground] stay exactly
-  where they are and the same size. [What is already built] stays exactly where it is. Change only this: [the one change,
-  with its size and its place in % of the frame]. [WHOLE] Everything else identical. No people. No animals."
+  where they are and the same size. [What is already built] stays exactly where it is, the same size and the same shape.
+  [The tester] stays exactly where it is, in the same pose and at the same size. Change only this: [the one part, with
+  its size, its place in % of the frame and what it stands on]. [WHOLE] Everything else identical. No people. No
+  animals." NEW: "the same size and the same shape", and the sentence about the tester. Whatever the prompt says, check
+  the stage with `steps-check.py --stills` (6.2 Step 5).
 - **WHOLE:** "The lawn stays whole around it: no hole, pit or trench is dug anywhere, and the cut face of the ground at the
   front does not change." For a fix that is buried, name the one opening that is wanted and keep the rest whole.
-- **A step clip** (`wan2_7`; from the stage before to the stage after): "[The part and its motion, in the order things move.]
-  Nobody is there: the parts move by themselves. The camera is locked and never moves. [STAY] Real speed. Motion starts on
-  frame 1. No people, no characters. No animals. No text, no captions, no letters. Sound: [the sounds, in order]." Motions
-  that worked as written: "drops straight down out of the sky and lands flat … with a heavy thud: it bounces once, very
-  slightly, and a small ring of dust puffs out from under its edges"; "shoot up out of the edges of the slab one after
-  another, the back wall first, then the left, the right and the front"; "a wave of barn-red paint sweeps across … from
-  left to right"; "swings into the empty doorway and clicks shut".
+- **A step clip** (`wan2_7`; from the stage before to the stage after): "[The one part, where it comes from, its one move
+  and where it stops.] [ONE] Nobody is there: the parts move by themselves. The camera is locked and never moves. [STAY]
+  Real speed. Motion starts on frame 1. No people, no characters. No animals. No text, no captions, no letters. Sound:
+  [the one sound of its landing]."
+  - **ONE** (NEW): "It is one solid object: it arrives whole, lands within the first second and then stays perfectly
+    still. It does not melt, stretch, fade in or grow out of the ground. Nothing else in the picture moves or changes:
+    [the tester] stands perfectly still, and [what is already built] stays exactly as it is." In the last step of a
+    fix, where the tester tries it, say what the tester does in place of "stands perfectly still".
+  - **Motions that read crisp** (the test and video 17): "drops straight down out of the sky and lands flat … with a heavy
+    thud: it bounces once, very slightly, and a small ring of dust puffs out from under its edges"; "swings into the
+    empty doorway and clicks shut"; "falls forward out of the building's front wall and lands flat on the grass"; "a
+    thick slab of clear glass lowers down into the frame and settles"; "slides across the grass up to the glass".
+  - **Motions that read as mush** (video 17, 1.10; avoid them, or keep to one a fix): "the turf … sinks away into a wide
+    ditch"; "slumps down into a wide round hollow"; "clay spreads across the inside of the hollow and lines it";
+    "concrete spreads out flat"; "water floods into the hollow and fills it"; and many parts "one after another" in one
+    2 s clip (holes, poles, cables, walls).
+  - A part in several pieces gets a 3 s clip and the words "all at the same moment", or each piece is a step of its own.
 - **STAY:** "The house, the hedge, the fence, the lawn and the cut face of the ground stay exactly as they are: no hole, pit
   or trench opens anywhere, and no soil appears on the lawn."
 - **A whole fix in one clip** (`kling4_0`, 5 s; from the stage before the fix to the fix finished, with the middle stages in
   order as `image_references`): "[STYLE] [The thing] builds itself on the lawn in four quick steps of about one second each.
   First, … Second, … Third, … Fourth, … Nobody is there: the parts move by themselves. The camera is locked and never
   moves. [STAY] Real speed. Motion starts on frame 1. No people, no characters. No animals. No text, no captions, no letters."
-- **DOG** (ran on video 16; only the pictures and clips the dog is in): the dog key as an image reference, and "The dog is
+  Its four steps take about half a second each and run together: since 25 Nov 2026 it is not for a fix whose steps the
+  narration names one by one.
+- **DOG** (ran on videos 16 and 17; only in a video the user said yes to him for (4.5), and there only in the pictures
+  and clips he is in): the dog key as an image reference, and "The dog is
   the same dog as in the dog reference: a small scruffy tan terrier with a cream chest and muzzle, soft folded ears and a
   red collar. He is small in the frame, [where he is and what he is doing]." Everywhere else, "No animals." The **tester**
   is handled the same way, its key as a reference and the same words every time (proven on video 17: `TREXW` in
@@ -1013,20 +1172,27 @@ copies of the memory.
   the counter as ASS events), `16-build.py` (captions, words warped onto a sign, the street card, the mix with `on()` to
   place a sound on its picture, `POST_GAIN` and `LIMIT`, `REUSE=1`), `16-sound.py` (cutting generated sounds),
   `16-thumbnail.py`, `16-post-copy.md`, `16-bill.md`, `16-beat-sheet.md` (the log of every step).
-- **From video 17** (`pipeline/17-*`; 24 Nov 2026), **the ones to copy for the next video:** `17-prompts.py` (the stage
-  ladder and every clip request; `python3 17-prompts.py still|clip KEY…` prints them), `17-check.py` (each clip against its
-  stills and when its step happens, added to `work/check.json`), `17-timing.py` (the pauses tightened with the beats kept, and
-  every script word's time), `17-build.py` (the whole edit: `place()` puts each clip's landing on its word; nearest frames;
-  the colour shift; the push-in and its ease-back; the whip; the shake; the close view; the captions, labels and counter; the
-  street card; the mix with each clip's own sound; `pilot` and `full` modes, `full-reuse` to redo only the overlays, card and
-  mix, `full-remix` for the audio only), `17-thumbnail.py`, `17-post-copy.md`, `17-bill.md`, `17-beat-sheet.md`.
+- **From video 17** (`pipeline/17-*`; 24 Nov 2026): `17-prompts.py` (the stage ladder and every clip request; `python3
+  17-prompts.py still|clip KEY…` prints them), `17-build.py` (the whole edit: nearest frames; the colour shift; the close
+  view; the captions, labels and counter; the street card; the mix with each clip's own sound; `pilot` and `full` modes,
+  `full-reuse` to redo only the overlays, card and mix, `full-remix` for the audio only), `17-thumbnail.py`,
+  `17-post-copy.md`, `17-bill.md`, `17-beat-sheet.md` (its last section is the review). **As delivered, and not to copy:**
+  `map_full()` and `place()` (clips cut into each other), the push-in's ease-back, the whip, `17-timing.py` (no step
+  beats) and `17-check.py` (no settle time). What replaces them is in the next bullet.
+- **Written on 24–25 Nov 2026 after the review of video 17, for video 18 on:** `steps-check.py` (each clip against its
+  stills, when its step happens and when it has settled; `--stills A:B` paints what changed between two stage pictures),
+  `narration-check.py` (the narration check that is told nothing; it runs in the Higgsfield sandbox), `steps-timing.py`
+  (pauses tightened with the beats and the step beats kept; `--gaps`), `analysis/joins_check.py` (every join of a
+  finished picture, the landings under 1.6 s apart, the stretches where nothing moves), and in `17-build.py` `place2()`
+  (every clip plays until it has settled and then rests a beat), `MINSTART` and `XFADE` (the joins), `MAXBOOST`, `QUIET`
+  and `MUTE` (the clips' sounds), and the mode `recut4`: the free re-cut of video 17's loop 4 behind 1.10.
 - **Tools:** `pipeline/analysis/` (`check_video.py`, `contact_sheet.py`, `under_the_voice.py`, `camera_path.py`,
   `transcribe.py`, `labels.py`, `hooks_sheet.py`, `voiceprint.py`), `pipeline/tiktok/`, `pipeline/youtube/`,
   `pipeline/branding/` (12). Earlier per-video files stay in `pipeline/` for the record.
 
 ---
 
-## 7. Production lessons that still apply (cut down on 22 Nov 2026; the full lists from videos 01–16 are in the archive)
+## 7. Production lessons that still apply (cut down on 22 Nov 2026; video 17's review added 25 Nov 2026; older lists: the archive)
 
 ### 7.1 Pictures (seedream)
 - **A stage ladder holds the view.** In the test every stage was usable on the first try and the view moved 0.35 px over
@@ -1053,15 +1219,23 @@ copies of the memory.
   plain ground) as a reference in every one, and the same words every time.
 - **A big creature side-on fills the stage:** at two-thirds of the frame wide he left no room for the builds. Turned to face
   the camera (in a failure: his tail smashed the shed as he turned), he left room for a pond, a building and a window.
-- **Shutting a building's door shrank it** (S4_4, twice): an edit that closes or covers a big object can resize it. Compare
-  its size with the stage before; if it shrinks, the clip into it will jump (7.2).
+- **Shutting a building's door shrank it** (S4_4, twice): an edit that closes or covers a big object can resize it. If it
+  does, the clip into it will jump (7.2): re-make the picture, or drop the step.
+- **Accept no stage with a change nobody asked for:** video 17 let four through (S1_4, S2_3, S3_1, S4_4), and each became
+  a morph in its clip (1.10). `steps-check.py --stills A:B` paints what changed: a clean stage showed 1.8–4.9% of the
+  frame in one blob, its step; the flawed ones 5.4–16.6%, in up to eight.
 - **Over 30 chained edits the drift grows:** from loop 3 on the stills came back darker and duller (the sunlit lawn's
   L 174 → 141 by the last stage), with "the lawn keeps exactly the same bright green" in every prompt.
 
 ### 7.2 Clips (wan2_7 and kling4_0)
 - **`wan2_7` starts and ends on its pictures** (under 0.15 px in the test, 0 px on s2-01), **does its step in the first
-  second** and then holds or settles for 0.5–1.5 s: speed up or cut the tail. 2 s is enough for one simple part, 3 s for a
-  step with several. It returns 720×1276 at 30 frames a second, in a few minutes.
+  second and then needs time to settle** (dust, a bounce, a wobble). Measured on video 17 (`steps-check.py`): the 2 s
+  step clips have settled by 0.90–1.47 s (about 1.3); the 3 s ones by 1.7–2.5 s (four walls 2.23, six cables 2.20, water
+  filling 2.47); failures by 1.4–3.4 s. Cut a clip's tail only after that. It returns 720×1276 at 30 frames a second,
+  in a few minutes.
+- **Its first four frames are not its own** (all 28 clips of video 17): they fade from the start picture's tone and
+  texture into the clip's own rendering, about 6 levels darker with more contrast. From the fifth frame on the tone is
+  steady, and the same from clip to clip within about 1 level. A clip joined on frame 0 makes the picture pulse (7.4).
 - **Its sound follows the picture:** the loudest moment sat on the impact in all four test clips. Quiet prompts come back
   nearly silent (s2-01).
 - **Name the motion and the order, and say the parts move by themselves:** both models then did what the words said, and no
@@ -1078,21 +1252,27 @@ copies of the memory.
   middle keyframe on the path stops the model inventing its own route; outdoors, name the ground whole in the prompt; and
   an event at the end of a flight lands late against its words. The cases are in the archive (7.2).
 - Never auto-retry after a transport timeout; check the job id first.
-- **All 28 clips of video 17 were usable on the first try** (24 Nov 2026): each started and ended on its pictures within
-  0.35 px and came with sound. Steps in the cut ground (holes and shafts, a ditch's notch, footings), water draining and
-  filling, and parts arriving from outside the frame (cables and a pipe flying in, a roof and a slab of glass dropping from
-  the sky) all worked.
+- **All 28 clips of video 17 passed their checks on the first try** (24 Nov 2026): each started and ended on its pictures
+  within 0.35 px and came with sound, and steps in the cut ground (holes and shafts, a ditch's notch, footings), water
+  draining and filling, and parts arriving from outside the frame all did what was asked. **Passing the checks was not
+  the same as reading crisp:** solid parts that arrive read crisp, surfaces that change where they lie read as mush
+  (1.10; the wordings are in 6.3). Look at every clip on its sheet.
 - **A clip between pictures that disagree in size jumps:** W4_4, into the shrunken building, snapped to the new size in one
-  frame. Keep the size in the end picture, or hide the jump with a whip in the edit (7.4).
+  frame. Keep the size in the end picture: re-make it. Video 17 hid the jump with a whip, and the user saw mush (1.10).
 - **A clip whose start and end are the same picture comes back still:** FC5 (the roar inside the building) gave the roar in
-  its sound and no visible shudder. A camera shake in the edit carried it.
+  its sound and no visible shudder; a camera shake in the edit stood in for it, in five seconds where nothing was built.
+  A failure has to be one the picture shows (4.3).
 - **A creature's fast turn can bend him:** in FC3 his tail stood up straight for about 0.3 s as he spun; at speed it reads as
   a whip.
 
 ### 7.3 Pace
 - **Count what changes on screen:** the helipad about 50 times in 69 s, video 16 about 30 in 68 s (1.9). Aim for 35–40.
-- **A step should take about a second on screen.** Both models do one in 0.3–1 s; the walls took 1.7 s and still read.
-- **Judge the pilot as the edit will play it,** not as the clips came: steps on their words, with captions.
+- **A step needs about 1.6 s from its landing to the next:** about a second to happen, a third of a second to settle, a
+  beat at rest. A part in several pieces needs about 2.3 s. Video 17 gave ten pairs of steps 0.9–1.4 s, and they ran
+  into each other (1.10).
+- **Fewer clean changes beat more blurred ones:** a step that can't have its time is cut from the script, not squeezed in.
+- **Judge the pilot as the edit will play it,** not as the clips came: steps on their words, with captions; and on the
+  hardest fix, not the easiest (video 17's pilot was loop 1, its crispest).
 
 ### 7.4 Edit, captions and overlays
 - **The time map:** a list of (clip, source from, source to, video from, video to), so each step's landing sits on its word
@@ -1101,7 +1281,9 @@ copies of the memory.
   rest, never a moving part.
 - **Take the colour drift out:** shift each frame back to the first picture, read from two patches the build never covers
   (the lawn patch for green pixels, the pale ground for the rest).
-- **A push of about 1% a second** keeps a locked view alive; about 3.5% a second reads as a camera move.
+- **A push of 0.6–0.8% a second** keeps a locked view alive; about 3.5% a second reads as a camera move. Don't snap it
+  back: video 17 pushed 0.8% a second through each loop and pulled all of it back, 9%, in the 0.45 s before each "But": a
+  change as big as a step.
 - **RAMP** (`16-build.py`): play a clip's first seconds faster and the rest slower so its event lands earlier (video 16's
   lit roof edge moved from 2.0 s to 1.4 s). Slow only a near-still tail.
 - **A still made into a segment needs `-framerate 30` on its input,** or zoompan gets 25 frames a second and the segment
@@ -1116,28 +1298,41 @@ copies of the memory.
   followed from the frame where it is biggest, the words warped onto them. It runs before the overlays, so the clean master
   has the words too.
 - **`REUSE=1`** keeps the rendered segments and redoes only the overlays, the card and the mix.
-- ffmpeg's xfade slide transitions write junk on their first frame: smear the edge with `fillborders` during a whip.
 - **The colour shift, revised on video 17:** the first version (any green pixel, the full shift) turned the house's mint
   siding lime and the pale ground yellow. Now (`17-build.py`): the lawn is the green and yellow pixels (Lab a* < 130 and
   b* > 136), measured on its sunlit half and shifted by 70% of the drift; everything else gets half the pale ground's change
   in lightness, and no change of hue. The close view, with no pale ground, is left as it came.
-- **Place each clip by its landing:** (clip, source from, source landing, video landing). A clip plays at its own speed from
-  landing − (landing − from) until the next one starts; skip the still head of a clip whose step starts late to fit two
-  landings close together (`place()` in `17-build.py`). Every step of video 17 landed 0.10 s before to 0.23 s after its word.
+- **Place each clip by its landing, and let it finish** (`place2()` in `17-build.py`, 25 Nov 2026): (clip, source landing,
+  source settle, video landing). A clip plays at its own speed with its landing on its word, runs until it has settled,
+  and rests for a beat before the next starts. The time for that comes from the narration (the step beats: 6.2 Step 6),
+  never out of the clip. Video 17's `place()` started the next clip whenever its word came: every step landed within
+  0.23 s of its word, and eight clips were cut 0.1–0.55 s before they had settled (1.10).
+- **Join on the fifth frame, with three frames mixed** (`MINSTART`, `XFADE`; why: 7.2). Over video 17's 26 joins the jump
+  in the still parts of the picture was 5.05 grey levels (the median) into a clip's frame 0, 1.34 into its frame 4 and
+  1.17 into its frame 8. Matching the tone by percentiles or by bands did not take it out; skipping the frames did.
 - **A small part can be slowed** with nearest frames (the mower at 0.83× and 0.5×) and nothing shows; a big moving part never.
-- **A 0.3 s whip** (the frame flies off to the left and the next comes in from the right, blurred along the move) hides a
-  jump inside a clip and reads as "later".
-- **A camera shake** (9 px, dying away over 1.3 s, under 1.8% more zoom) sells a sound the picture doesn't show.
+- **A whip does not hide a jump inside a view.** Video 17's (the frame flies off to the left, blurred along the move) was
+  0.3 s of smear at 46.0 s, and the user saw mush. Fix the picture (7.1); between two different views, cut on the word.
+- **A camera shake** (9 px, dying away over 1.3 s, under 1.8% more zoom) can stand in once for a sound the picture doesn't
+  show. It is a patch for a failure that should have been visible (7.2).
 - **The "This is a …" sentence can rest on the finished step for up to about 1.7 s:** the label and the counter move there.
 
 ### 7.5 Narration and sound
 - **Harrison's numbers** (video 16): 224 words ran 77.56 s raw (2.89 words a second); pauses tightened to 0.15 s and
-  `atempo` 1.1 gave 65.69 s, 3.41 words a second. With the beats kept (4.3) about 210 words make 64–68 s. Both takes read
+  `atempo` 1.1 gave 65.69 s, 3.41 words a second. With the beats and the step beats kept (4.3) about 215 words make
+  66–70 s. Both takes read
   "The bill:" with a rise, like a question; kept.
-- **Never speed a take past 1.1×;** cut words instead. To fix a pronunciation, respell it in the text sent to the voice;
-  the captions keep the real word.
-- **Choose the take from Whisper's transcript:** an extra word is a stray sound in the audio (take B of video 16), a missing
-  one a swallowed word.
+- **Never speed a take past 1.1×;** cut words instead. To fix how a number or a common word is said, respell it in the
+  text sent to the voice (the captions keep the real word). **A term that needs respelling fails the ear test** (4.3):
+  video 17 sent "ha-ha" as "hah-hah", the take then matched the script, and the listener still heard a laugh.
+- **Choose the take from Whisper's transcript, and give Whisper no hints:** an extra word is a stray sound in the audio
+  (take B of video 16), a missing one a swallowed word. With the terms in `initial_prompt`, video 17's take passed word
+  for word; told nothing, two Whisper models and Parakeet all return "This is a ha ha!", with "ha" at 0.25–0.37 where
+  sure words score 0.9 and more. `narration-check.py`, run on that take, raises eight flags: the term in all three of its
+  lists, "night" (one model unsure), "you" twice, and a "?" heard on "bill"; the other four terms come back clean.
+- **A check against the script proves the voice said the script, not that a listener can follow it.** The term has to
+  pass the ear test before it is voiced, and the user has to hear the whole take before clips are rendered (Gate C). On
+  video 17 the user had heard 15.7 s of 63 before the final.
 - **A voice with the same name is not the same voice:** Higgsfield's preset "Marcus" scored 0.59–0.62 against ElevenLabs'
   Marcus on a voice print (`pipeline/analysis/voiceprint.py`), under what two different ElevenLabs men score against each
   other. The print proves a clear miss; it can't tell two similar voices apart, and it never replaces the user's ear.
@@ -1154,12 +1349,18 @@ copies of the memory.
 - **The picture can be finished before the voice exists:** `16-timing.py EST` gives word times from the script, and the
   build runs silent when there is no narration.
 - **Harrison on video 17:** 207 words ran 72.67 s raw; with the five beats kept at 0.5 s and every other pause at 0.15 s,
-  1.1× gave 63.09 s (3.28 words a second), 64.7 s with the card. One take, word for word.
+  1.1× gave 63.09 s (3.28 words a second), 64.7 s with the card. One take. With the step beats let in as well
+  (`steps-timing.py`: landings 1.6 s apart, ten pauses of 0.19–0.60 s) the same take runs 66.94 s, 68.4 s with the card.
 - **Whisper can stretch a word back over the pause before it** ("This" before "is a ha-ha"): start it where the silence
-  ends (`17-timing.py`).
+  ends (`steps-timing.py`).
 - **The mix of video 17 measured:** −14.0 LUFS, true peak −2.0 dB, the bed 19 dB under the voice in the quietest
   moments, with `BED_UNDER` 15, `FX_UNDER` 11, `POST_GAIN` 0.0 and `LIMIT` 0.79: the full mix with the clips' own sounds
   came out 0.6 dB louder than video 16's (`POST_GAIN` 0.6 gave −13.4 LUFS), so measure each video's mix.
+- **Setting every clip's own sound to one level was wrong** (video 17, 1.10): it turned three nearly silent clips up
+  8–12 dB and the T-rex's footfall down 24 dB, and two clips carry a voice-like noise (a recogniser hears "Okay." in
+  W1_3 and "Yeah." in W4_1). Now no clip is raised by more than 3 dB, none under −35 dB is used, and every clip's sound
+  goes through `transcribe.py` (6.2 Step 6b). Untried: letting a big impact sit a few dB above the rest (`FX_OFF`), for
+  the user's ear to judge.
 
 ### 7.6 Covers
 - Build covers from frames of the clean master; check the picture matches the claim at tile size.
@@ -1202,7 +1403,13 @@ copies of the memory.
 | A pit, a trench or soil appears where the ground should be whole | WHOLE on the picture, STAY on the clip (6.3) |
 | A person appears | "Nobody is there: the parts move by themselves" and "No people, no characters" |
 | A step lands off its word | Read its landing off the clip and move it in the time map; never stretch a moving part (7.4) |
-| The picture rests for more than about a second | Speed the clip's tail, bring the next step forward, or add the tester, a sticker or a cut to a closer view |
+| Two steps run into each other | Their landing words are under 1.6 s apart: lengthen the phrase, widen the step beat (`steps-timing.py --gaps`) or cut a step. Never cut a clip before it has settled (7.4) |
+| The picture pulses at a join | The clip starts on its first four frames: start it on the fifth and mix three frames (7.4) |
+| Something changes that the step didn't name | The two stage pictures disagree (`steps-check.py --stills`): repair or re-make the later one. No whip (7.1) |
+| A part melts, spreads or grows instead of arriving | The step is a surface changing in place: redraw it as a solid part that drops, slides or swings in (4.3), then one new picture and one new clip |
+| The picture stands still for more than about two seconds | Have the tester try the fix during "This is a …" and fail on "But" (4.3); or a sticker, or a cut to a closer view. Never bring the next step forward over a clip that hasn't settled |
+| A term can't be understood by ear | Use the thing's plain name and voice it again; a respelling is not a fix (4.3) |
+| A clip's own sound is nearly silent, or has a voice-like noise in it | Leave it out, or cut it down to its impact; never turn it up (6.2 Step 6b) |
 | The tester or the dog changes between clips | Its key as a reference in every picture it is in, with the same words every time (6.3) |
 | The narration makes the video longer than planned | Cut words; never past 1.1×; write for the narrator's measured pace (4.3) |
 | The premise runs past 5 s | Cut words from the premise or shorten the naive step |
@@ -1225,8 +1432,7 @@ copies of the memory.
 - **AI label:** turn on "AI-generated content" when posting. TikTok adds its own label to most of our videos anyway, and
   it didn't stop seawater.
 - **Cover:** TikTok Studio on desktop → Edit cover → upload the 1080×1440 crop (7.6).
-- **Pin a comment:** "What do we build next?" with the idea's own question. The first build video posted also asks for the
-  dog's name (4.5). Reply to every comment in the first day.
+- **Pin a comment:** "What do we build next?" with the idea's own question. Reply to every comment in the first day.
 - **When:** early evening, US Eastern (our two best went out at about 6–7 pm ET). One video a day as a rule, and never two
   a few hours apart (videos 08 and 09 went out 2.4 h apart and split their first tests). @whatifplus posted two or three a
   day on ten days with no visible harm (1.7), so two in a day are allowed if two are ever ready.
@@ -1298,7 +1504,7 @@ copies of the memory.
 | 14 | Why It Rains Inside a Nuclear Cooling Tower | 20 Nov | cutaway, travelling camera | 161.50 | yes | 52 at 26 h; 59 at 78 h | 9 at 26 h; 16 at 78 h |
 | 15 | Why This NFL Field Is Sitting on 546 Wheels | 21 Nov | cutaway, travelling camera | 196.25 | yes | 302 at 20 h; 317 at 72 h | 4 at 20 h; 8 at 72 h |
 | 16 | How to Turn Your House Into a Christmas Light Show (B3 of the old list) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | posted 22 Nov, 17:00 UTC; 309 at 33 h | posted 22 Nov; 8 at about 33 h |
-| 17 | How to Keep a T-Rex in Your Back Yard (B12) | 23–24 Nov | cutaway build-steps, Harrison's voice, 64.7 s | 169.58 (quoted 188.40) | yes: the pickets ring up from 0.13 s, half the ring is up by 1 s; first "But" at 4.09 s; bill $179,571 | not posted | not posted |
+| 17 | How to Keep a T-Rex in Your Back Yard (B12) | 23–24 Nov | cutaway build-steps, Harrison's voice, 64.7 s; reviewed by the user on 24 Nov (1.10), not redone | 169.58 (quoted 188.40) | yes: the pickets ring up from 0.13 s, half the ring is up by 1 s and all of it by 1.9 s, then nothing moves until 3.7 s; first "But" at 4.09 s; bill $179,571 | not posted | not posted |
 
 - **Posted on TikTok:** video 13 on 19 Nov at 23:04 UTC, video 14 on 20 Nov at 20:00 UTC, video 15 on 21 Nov at 01:45 UTC
   (5 h 45 min after video 14), video 16 on 22 Nov at 17:00 UTC (by the user, about noon US Eastern). Build videos are logged
@@ -1314,7 +1520,7 @@ copies of the memory.
   `pipeline/steps-test-jobs.tsv`; covers in `pipeline/16-covers/`; street tile `pipeline/street/16.jpg`.
 - Every video's script, sheet, prompts, job ids and build script are in `pipeline/NN-*`.
 
-### 9.3 What the results taught (to 22 Nov 2026)
+### 9.3 What the results taught (to 25 Nov 2026)
 - **Our two hits were our two cheapest videos** (the hydrant 123.25, seawater 111.75), and our three most expensive
   (203–278) stalled at about 350 views on TikTok. Spending more on the middle didn't buy reach. Hence the 200-credit cap.
 - **The mascot videos did worst;** the topic and the look changed at the same time, so the mascot alone is not proven to be
@@ -1327,6 +1533,11 @@ copies of the memory.
   into the idea and the first five seconds.
 - **A seasonal topic can climb late** (my read, 24 Nov 2026): video 13, the frozen turkeys, sat at 629 TikTok views at 47 h
   and reached 4,897 by 99 h as Thanksgiving came near. Read a seasonal video again as its date nears before calling it.
+- **A check that passes is not a viewer** (video 17, 24 Nov 2026). Every clip passed its checks, every step landed within
+  0.23 s of its word and the narration matched its script word for word; the user, watching it once, saw steps mushed
+  together and heard a term that made no sense. The checks asked whether each piece matched the plan; nobody had
+  watched or heard the plan play. So the user hears the whole narration before clips are rendered, the pilot is the
+  hardest fix, and the master's joins are measured and looked at (6.2).
 - **Changing direction after almost every video** left each one tested on a different audience (my read). There have been
   seven directions since 6 Nov 2026: mascot builds, cutaway explainers, famous places, matchups, the one-lane explainer
   plan, the build format, and the build-steps style. The build run holds for ten videos (2.5).
@@ -1355,17 +1566,18 @@ copies of the memory.
 
 ## 11. The paste-in prompt
 
-### 11.1 Kickoff prompt (renewed 22/11/26: the build-steps style)
+### 11.1 Kickoff prompt (renewed 25/11/26: one step at a time, the audio checks, no dog unless asked)
 Fill in the line in angle brackets and paste the whole block into a new session. Earlier versions are listed in 13.3. For a
 style-2 video (paused) the kickoff prompt is `strategy2.md` 11.1, not this one.
 ```
-KICKOFF PROMPT (renewed 22/11/26: the build-steps style)
+KICKOFF PROMPT (renewed 25/11/26: crisp steps, audio checks, no dog unless asked)
 
 Read CLAUDE.md in AliKandaz/short-form-video-memory (or the "Short-Form Video Memory"
 artifact) first, all sections. Then make the video with the section 6 runbook.
 
 IDEA:   <the idea: "turn your ___ into a ___">
 SOUND:  bed and effects (unless I say voice only)
+DOG:    no (unless I say yes for this video)
 
 Budget (6.1): at most 200 Higgsfield credits for this video, with the 15% reserve,
 the narration and the sound inside it. Check the balance first. If the plan prices
@@ -1377,20 +1589,35 @@ above like a stage. The script opens "If you [one naive step], you have a [thing
 with that step being done on frame 1, and the first "But" by about 5 s. Then five
 loops of the same length: "But [something breaks, in plain sight]. So you [about four
 building steps in one sentence]. This is a [real term]." Then the close: "That's your
-[thing]. The bill: about [total]." About 210 words, 64-68 s.
+[thing]. The bill: about [total]." About 215 words, 66-70 s.
 
-Every fix is built on screen in about four steps. Each step is its own short clip
-from one fixed view, the part moves into place by itself, and it lands on the word
-that names it. One "tester" comes back in every loop and breaks the build a new way.
-Only what can be seen: no numbers and no explanations in the narration. Never
+Crisp steps (4.3, section 5): every fix is built on screen in about four steps, ONE
+AT A TIME. A step is one solid part making one move (it drops in, slides in, swings
+shut, rises or rolls in) and then it stops: it is finished and standing still before
+the next step starts. Not a surface that sinks, spreads, fills or fades in where it
+lies, and no two steps of a fix on the same spot. Write each step as a phrase of five
+to seven words that ends on its part, so the landing words fall at least 1.6 s apart.
+Each step is its own short clip from one fixed view and lands on the word that names
+it. In the edit no clip is cut while its part is moving, and nothing is hidden with a
+blur or a whip: if two stage pictures disagree, fix the picture. One "tester" comes
+back in every loop and breaks the build a new way; while a fix is built it stands
+still. Only what can be seen: no numbers and no explanations in the narration. Never
 "Congratulations..."; never a reference account's wording; no spoken call to action;
 nothing a child could copy and get hurt.
 
+Audio (4.3, 6.2): every term must pass the ear test: someone listening with no
+caption understands it the first time. If a real name could be heard as another word
+or as a noise, or needs respelling, use the thing's plain name or ask me at Gate A.
+Check the narration with a recogniser that is given no word hints, list every word it
+was unsure of, and let me hear the WHOLE narration at Gate C, before any clip is
+rendered. The clips' own sounds stay at their natural weight: none turned up, and any
+with a voice-like noise in it left out.
+
 Ours: the price counter and the final bill (every price sourced), each real term on
-screen for 1-2 s, the street end card, and the dog in the first and last shots and in
-one reaction. One-word ALL CAPS captions, 75% down. Narrator: the voice named in
-section 5. Step clips on wan2_7 at 720p. Labels, the counter and the end card are
-added in the edit, never asked of the image or video models.
+screen for 1-2 s, and the street end card. One-word ALL CAPS captions, 75% down.
+Narrator: the voice named in section 5. Step clips on wan2_7 at 720p. Labels, the
+counter and the end card are added in the edit, never asked of the image or video
+models. No dog in this video unless the DOG line above says yes.
 
 Before Gate A: re-fetch @whatifplus's and @youbuiltit's video lists and drop the idea
 if either has made it; run the YouTube saturation check with both title shapes ("how
@@ -1401,23 +1628,27 @@ don't retitle it. Fact-check every term and every price.
 Stop for my approval at:
 - Gate A: the title; the script; the first 5 seconds as three lines (frame 0 / what
   has changed by 1 s / the premise line and when the first "But" lands); the loop
-  table (what breaks, with the tester / the four steps and the word each lands on /
-  term on screen / price and source); the bill's total; where the dog appears; the
-  facts checked; the saturation numbers.
+  table (what breaks, with the tester / the four steps: each one's part, its move,
+  the word it lands on and the seconds to the next landing / term on screen and how
+  it fares in the ear test / price and source); the bill's total; the facts checked;
+  the saturation numbers.
 - Gate B: the quote (pictures, clips by the second, narration, sound), 200 or less
   with the reserve, and the balance after.
-- Gate C: the stage pictures in order as a strip; how well the view holds from stage
-  to stage; the tester and the dog against their reference pictures; the first and
-  last frames.
+- Gate C: the stage pictures in order as a strip, with what changed from each to the
+  next (only the step may change); how well the view holds; the tester against its
+  reference picture; the first and last frames; and the whole narration to listen
+  to, with what the check flagged and at what second.
 - Gate D: the pilot as the edit will play it: the hook's frames at 0, 0.5, 1 and
-  2 s; one whole fix built on its words, with captions, its label and the counter;
-  and the same clips at natural speed with their own sound, for me to hear.
+  2 s; the hardest fix built on its words, each step at rest before the next, with
+  captions, its label and the counter; the joins check; and the same clips at natural
+  speed with their own sound, for me to hear.
 Spend nothing before Gate B, and don't render the rest until the pilot passes.
 
 When it's done, give me: the final MP4 link and the voice-only version; the
-first-second check and each step against its word; credits quoted against spent; any
-step that lost its clip; 3 covers (one a plain frame); TikTok copy (the title, "Guess
-the bill", the hashtags for me to type in the app, and the pinned comment) and
+first-second check, each step against its word and the joins check; what the
+narration check flagged and what was done about it; credits quoted against spent;
+any step that lost its clip; 3 covers (one a plain frame); TikTok copy (the title,
+"Guess the bill", the hashtags for me to type in the app, and the pinned comment) and
 YouTube copy (the same title under ~60 characters, a 2-3 sentence description with
 "Rough US prices, 2026", not made for kids, altered content unticked). Then log the
 video in 9.2, save its street tile, add any new lessons to section 7, and update both
@@ -1588,7 +1819,11 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **22–23 Nov:** the user asked for five ideas "out of the ordinary"; about twenty-five objects were checked on YouTube
   (3.1); the user liked all five and swapped them in for the ten of 21 Nov (B11–B15 in 2.3 and 3; the old ten are in the
   archive).
-- **23–24 Nov:** video 17 (B12, the T-rex), the first in the build-steps style: 32 pictures from 43 tries, 28 clips all usable
-  on the first try, 169.58 credits; finished, not posted. The user had posted video 16 on 22 Nov.
+- **23–24 Nov:** video 17 (B12, the T-rex), the first in the build-steps style: 32 pictures from 43 tries, 28 clips that all
+  passed their checks on the first try, 169.58 credits; finished, not posted. The user had posted video 16 on 22 Nov.
+- **24–25 Nov:** the user reviewed video 17 ("the animations are mushed together at times", "this is a ahah") and asked for
+  crisper animation, fewer audio mistakes and no dog in every video. The video was measured, not redone (1.10); the
+  rules, the runbook and the paste-in prompt were tightened, and the checks written (6.4).
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
-  (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive).
+  (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
+  (`afc98b6`).

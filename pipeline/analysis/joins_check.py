@@ -13,7 +13,9 @@ For every join from one clip to the next it prints
   2; video 17's bad joins measured 4-10;
 - whether the outgoing clip was cut before it had settled (its source time at the cut against its `settle`), and whether the
   incoming clip starts on its first four frames (wan2_7's first frames fade from the still's tone: start at frame 4);
-- and, from the landings, every pair of steps that land less than 1.6 s apart.
+- from the landings, every pair of steps that land less than 1.6 s apart;
+- and every stretch of 2 s or more in which nothing moves but the push-in (video 17 stood still from 46.2 to 51.4 s
+  but for a label and a shake).
 It measures; the eye still has to look at a strip of the worst joins (10 frames a second).
 Needs: pip install numpy opencv-python-headless
 """
@@ -54,3 +56,9 @@ if m.get('steps'):
     st = sorted(m['steps'], key=lambda x: x[1]); print('landings closer than 1.6 s:')
     for p, q in zip(st, st[1:]):
         if q[1] - p[1] < 1.6: print(f'  {p[1]:6.2f} {p[0]:5s} "{p[2]}"  ->  {q[1]:6.2f} {q[0]:5s} "{q[2]}"   {q[1] - p[1]:.2f} s')
+still = step < max(0.6, 2.2 * rest); i = 1; print('the picture stands still (nothing moves but the push-in) for 2 s or more:')
+while i < len(step):
+    j = i
+    while j < len(step) and still[j]: j += 1
+    if (j - i) / FPS >= 2.0: print(f'  {i / FPS:6.2f} - {j / FPS:6.2f} s   {(j - i) / FPS:.1f} s')
+    i = j + 1
