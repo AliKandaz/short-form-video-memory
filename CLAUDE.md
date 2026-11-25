@@ -11,6 +11,8 @@ sure we aren't using the dog in every video I don't want that. update the file a
 - **What the review found** is in 1.10, with the numbers. Video 17 was not redone ("don't redo the video").
 - **What did not change:** the build-steps style and the Cutaway look, the narrator, the bill, the street, the four gates,
   the 200-credit cap, the plan and the ideas.
+- **Added later on 25 Nov 2026,** on the user's word ("yes add these in including the 2000 foot tv tower"): six more build
+  ideas, B16 to B21, beside B11 to B15 (2.3, 3.3), with the check behind them (3.4). Nothing was replaced.
 
 **Earlier revisions, each on the user's word:**
 - **24 Nov 2026:** video 17 made (B12, "How to Keep a T-Rex in Your Back Yard"), the first in the build-steps style (0, 9.2).
@@ -22,9 +24,9 @@ sure we aren't using the dog in every video I don't want that. update the file a
   the travelling-camera rules, older scripts and lessons, old branding options, old file ids, the step-by-step history) is
   whole in **`archive/CLAUDE-2026-11-22.md`**: this file as it stood before that revision (also commit `549e291`), with
   the same section numbers.
-- **Older copies of this file:** `afc98b6` (before the revision of 25 Nov 2026), `a9abd35` (before the build format, 21
-  Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get one with `git fetch --depth=1 origin <commit>` and read
-  it with `git show <commit>:CLAUDE.md`.
+- **Older copies of this file:** `6bb8e57` (before the six ideas were added on 25 Nov 2026), `afc98b6` (before the revision
+  of 25 Nov 2026), `a9abd35` (before the build format, 21 Nov 2026) and `1174f29` (before the rewrite of 18 Nov 2026); get
+  one with `git fetch --depth=1 origin <commit>` and read it with `git show <commit>:CLAUDE.md`.
 
 ## 0. Start here (25 Nov 2026)
 
@@ -57,7 +59,8 @@ is completely dead."
   build videos start on a fresh channel waits for the user's check in Studio.
 
 **The plan:** ten build videos in one lane, dream builds on what's yours ("How to turn your yard into a …"), judged at
-checkpoints and not one by one (2). The first five ideas (3) were chosen by the user on 23 Nov 2026.
+checkpoints and not one by one (2). The first five ideas (3) were chosen by the user on 23 Nov 2026. Six more (B16–B21:
+3.3) were added by the user on 25 Nov 2026.
 
 **Where things live:**
 - This file, `strategy2.md` (style 2, paused) and `tiktokshop.md` (the TikTok Shop affiliate project) in the GitHub repo
@@ -84,7 +87,9 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 7. The style is the build-steps style in the Cutaway look, and it doesn't change unless the user asks. Labels, the counter,
    stickers and the end card are overlays added in the edit (5); they are never asked of the image or video models.
 8. The video ideas are the user's: the five in 2.3 and 3 are the ones the user chose on 23 Nov 2026. Don't rewrite 2.3, 3,
-   13.1 or 13.2 unasked; what Gate A finds for an idea being made is logged in its entry as before.
+   13.1 or 13.2 unasked; what Gate A finds for an idea being made is logged in its entry as before. Six more, B16–B21
+   (2.3, 3.3), were added by the user on 25 Nov 2026 ("yes add these in including the 2000 foot tv tower"); the same
+   holds for them.
 9. **One step at a time.** A step is one solid part making one move; it has finished and stands still for a beat before
    the next step starts. No clip is cut while its part is moving, and no blur or whip hides a jump (4.3, 5 Rules 3 to 5,
    7.4).
@@ -110,6 +115,11 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 - **The dog** is no longer in every video (25 Nov 2026; 4.5).
 - **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
   are left.
+- **Six more ideas** (25 Nov 2026): B16–B21 (2.3, 3.3), asked for as "construction, infrastructure, blue collar work"
+  ideas and added by the user beside the first five: a street that stops speeding cars, a house in one day, a car factory
+  in the garage, a train that stops at your house, a ship launched from the back yard and a 2,000-foot TV tower. Ten
+  ideas are left for video 18 on (B11, B13–B21); of the six my pick is B16, then B17. What the check found already built
+  in that theme is in 3.4.
 - **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show"), finished on 22 Nov 2026 in the
   earlier way of animating (68.1 s, 197.99 credits; the user didn't like it, above), **was posted by the user on 22 Nov
   2026**: on TikTok at 17:00 UTC, and on YouTube the same day. 309 views on TikTok and 8 on YouTube at about 33 h (read 24
@@ -127,9 +137,10 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 - **Profile:** brand set v3 is live on YouTube; its wording is about explainers and wants a refresh for builds (8.3).
 
 **Map of this file:** 1 what we know (evidence; 1.9 is the test behind the style, 1.10 the review of video 17) · 2 the
-build run · 3 the five build ideas (23 Nov 2026) · 4 writing the script · 5 the look · 6 production runbook · 7 production
-lessons · 8 posting and profile · 9 channels, results and the video log · 10 money · 11 the paste-in prompt · 12 reading
-the platforms from a session · 13 parked ideas, topics to avoid (both unchanged) and history.
+build run · 3 the build ideas (five of 23 Nov 2026; six more in 3.3 and their check in 3.4, 25 Nov 2026) · 4 writing the
+script · 5 the look · 6 production runbook · 7 production lessons · 8 posting and profile · 9 channels, results and the
+video log · 10 money · 11 the paste-in prompt · 12 reading the platforms from a session · 13 parked ideas, topics to avoid
+(both unchanged) and history.
 
 ---
 
@@ -294,7 +305,7 @@ ahah"." The video was watched over on strips at 10 frames a second and measured 
 
 ---
 
-## 2. The build run: ten videos (the plan of 21 Nov 2026, in the style of 22 Nov 2026; the ideas of 23 Nov 2026)
+## 2. The build run: ten videos (the plan of 21 Nov 2026, in the style of 22 Nov 2026; the ideas of 23 and 25 Nov 2026)
 
 ### 2.1 The lane
 **Dream builds on what's yours:** "How to turn your [yard, pool, driveway, garage, house] into a [thing you wish you had]",
@@ -307,7 +318,8 @@ is read apart.
 ### 2.2 Before the next video (25 Nov 2026)
 1. **Video 17:** whether it is posted as it is, is the user's call (0, 1.10); the copy is `pipeline/17-post-copy.md`. Style
    2's s2-01 still waits for a day of its own (8.1).
-2. **The idea for video 18:** the user says which of the four left (2.3). My pick is B11, the flying house.
+2. **The idea for video 18:** the user says which of the four left (2.3). My pick is B11, the flying house. Since 25 Nov
+   2026 the six added ideas (B16–B21) are in the choice too: ten are left.
 3. **The in-app checks** still owed (0). They decide where the build videos go on YouTube (1.6).
 4. **The TikTok handle and the profile wording** (8.3).
 
@@ -328,6 +340,24 @@ Check again at each Gate A: objects are being taken within days (1.7).
 | B13 | How to Build a Giant Robot in Your Back Yard | cardboard boxes stack themselves as high as the roof | giant-robot videos 17.8M, 13.9M, 1.4M; an AI story 4.7M in two weeks; one build-format video, 1.4K | a machine as tall as the house; walking, the hardest motion of the five |
 | B14 | How to Turn Your Yard Into a Giant Marble Run | a marble as big as a beach ball rolls down the kids' slide | toy marble runs 157M and 152M; "Marble Run in the Garden" 38.3M; no build video found | one unbroken run as the payoff; a ball that has to follow a track, and two fixes in the cut ground |
 | B15 | How to Get Pizza Delivered by Tube to Your Bedroom | a pizza box is pushed into a drainpipe and jams | a pneumatic-tube Short 19M; a café that sends food by tube 2.0M (long); no build video found | a running joke the cut ground shows; the thinnest proof of demand, and most of its action is in the cut ground: make it last |
+
+**Six more, added by the user on 25 Nov 2026.** The brief: "give me 5 interesting and unique construction, infrastructure,
+blue collar work video ideas. don't replace anything in the file without my approval"; the answer: "yes add these in
+including the 2000 foot tv tower" (the tower had been shown as a reserve). All six keep the lane: each brings a piece of
+real infrastructure, a building job or a workplace home to what is yours. Checked on 25 Nov 2026 against @whatifplus's 44
+and @youbuiltit's 105 videos (none is on either list) and on YouTube (12.2; what was dropped is in 3.4). Nothing was
+replaced: with B11–B15 that is eleven ideas for the ten videos of the run, so "the other five" are found, with one to
+spare, and the user says which are made and in what order (of these six my pick is B16, then B17). Check again at each
+Gate A.
+
+| # | Idea (3.3) | The naive step, on frame 0 | Demand, and who is near (25 Nov 2026) | What it brings, and what it has to prove |
+|---|---|---|---|---|
+| B16 | How to Stop Cars Speeding Down Your Street | a SLOW sign hammers itself into the lawn as a red sports car rips past and spins it flat | speed-bump Shorts 112M, 44M, 17M and 16M; "How to STOP speeding Lego Cars" 37.2M (long); no build video found | the biggest proven interest of the six and the simplest tester, one car; a fix more than a wish, so the car has to be a villain worth watching |
+| B17 | How to Build a House in One Day | a crane sets a steel box on the lawn and its walls fold down | "They Bought A FOLDABLE HOUSE From Amazon For $19,000" 38M; an unfolding house 11M; "I Bought a House on Amazon" 19.8M (long); no build video found | the bill is the story (a box of about $20,000, and what the ground and the hookups add), and panels that swing are the crispest steps there are; it has no single returning tester |
+| B18 | How to Turn Your Garage Into a Car Factory | a bare car body lowers itself onto four wheels in a garage with no roof | a production line 34.1M and factory robots 12.4M (long); a car built every 76 seconds 2.6M; one build video, 1.7K (22 Nov) | cars, and a build that is all solid parts; a roofless garage as the stage, robot arms, and one car that looks the same in every clip |
+| B19 | How to Make the Train Stop at Your House | a STATION sign swings onto the back fence as a train tears past and takes it off | a station platform rebuilt 7.8M; a LEGO train round a house 29.3M and a backyard railroad 3.7M (long); one build video, 2.8K (11 Nov) | the train vertical (1.6) and an underpass the cut ground shows; a view along the track, and a long train that stops on its mark |
+| B20 | How to Launch a Ship From Your Back Yard | a hull as long as the house sits on the lawn while a pickup's wheels spin on the tow rope | ship launches 156M and 139M; a launch stuck on its slipway 10.1M (long); no build video found; the dry dock (14M, 3.1) is the near object | one big splash as the payoff, and water in the cut; a hull that keeps its size, and getting it back up the rails between tries |
+| B21 | How to Build a 2,000-Foot TV Tower in Your Back Yard | a pole with a TV antenna on top rises out of the lawn and the first gust tips it | "Radio Tower Held Up By Rusty Pin?" 33M; a 1,999 ft tower climbed 30.2M (long); its base explained 4.2M (long); no build video found; two cell-tower builds, 25K and 17K | a fact people argue about (the whole tower stands on a pin) and three fixes in the cut ground; a build that leaves the top of the frame, thin cables, and the weakest wish of the six |
 
 ### 2.4 Budget and cadence
 - **At most 200 Higgsfield credits a video, everything inside it** (6.1). A video in this style prices at about 192 with the
@@ -352,7 +382,7 @@ Four were made and posted (videos 12–15); none passed either platform's first 
 
 ---
 
-## 3. The five build ideas (chosen by the user on 23 Nov 2026; Gate A settles each)
+## 3. The build ideas (five chosen by the user on 23 Nov 2026, six added on 25 Nov 2026; Gate A settles each)
 
 **The brief** (the user, 22 Nov 2026): "give me 5 creative, unique, attention grabbing video ideas. ideas out of the ordinary
 that keeps people watching. for example "how to build a water park in your back yard" just an example, give me ideas that are
@@ -371,6 +401,9 @@ either list) and on YouTube (12.2). Count again at each Gate A: objects are bein
 idea's first second, its ladder and its last shot unless the user says yes to him for that video. And each ladder is
 redrawn at Gate A to the rules of 4.3: one solid part and one move a step, no two steps on one spot, terms that pass the
 ear test.
+
+**Six more ideas, B16 to B21, were added by the user on 25 Nov 2026.** Their entries are in 3.3, after the first five and
+their check; what their own check found and ruled out is in 3.4.
 
 ### 3.0 How an idea gets on the list (from 1.7; rules 8 and 9 added on 23 Nov 2026 for the build-steps style)
 1. **The premise fits one line and three seconds:** "If you [one naive step], you have a [thing]." The step must be something
@@ -644,6 +677,403 @@ flood-proof house, a yard railroad, a doghouse mansion, an Olympic diving pool, 
 were swapped out by the user on 23 Nov 2026. B3 had been made as video 16 (9.2). Their entries, with draft scripts, ladders
 and checked facts, are whole in `archive/CLAUDE-2026-11-22.md`, section 3 (and in this file at commit `63bb0cf`). They are
 not on the lists in 13.2; one comes back only if the user asks.
+
+### 3.3 Six more ideas: construction, infrastructure, blue-collar work (added by the user on 25 Nov 2026)
+**The brief** (the user, 25 Nov 2026): "give me 5 interesting and unique construction, infrastructure, blue collar work
+video ideas. don't replace anything in the file without my approval". Five were shown with their checks, and a 2,000-foot
+TV tower among the reserves. **The answer:** "yes add these in including the 2000 foot tv tower". So B16 to B21 stand
+beside B11 to B15, and nothing was replaced.
+
+**What the theme asked of the lane** (my read of the check, 3.4): the plain objects of this theme (trucks, machines,
+roadside things) are mostly built already, by three YouTube channels among others; what was open on 25 Nov 2026 was the
+thing brought home. So each of the six takes a piece of infrastructure, a building job or a workplace and puts it on what
+is yours: your street, your lawn, your garage, your back fence, your shore, your yard.
+
+All six are written for the format of section 4 and, as far as a ladder can be before Gate A, to the step rules of 25 Nov
+2026 (4.3): a step is one solid part and one move, in a spot of its own; a failure may be a surface changing (rust, a
+splash), because it is in the failure clip and is not a step. They are ladders, not scripts. **Every term, fact and price
+is from memory, a working name until it is checked** (rule 4); ⚠ marks the shakiest. No line comes from a reference
+account. No idea has dog lines (rule 11). The demand numbers were read on YouTube on 25 Nov 2026 (12.2); count again at
+each Gate A.
+
+**B16. How to Stop Cars Speeding Down Your Street** (a street, cut open along its length)
+- **Title:** "How to Stop Cars Speeding Down Your Street" (42 characters). **Caption:** the title, "Guess the bill 💸", the
+  standing tags, #SpeedBump #Cars. **Pinned comment:** "Which one would stop you? And what do we build next?"
+- **Set:** one straight residential street cut open like a cake along its length: your house and lawn across the top, the
+  sidewalk and the curb, two lanes of asphalt across the middle; in the cut face the road's layers, and later the feet of
+  the guardrail posts, the pit of the hatch and the housings of the rising posts. The stage view (5 Rule 2), with the
+  street where the lawn usually is.
+- **First second:** frame 0 a red sports car already streaking across the frame, big, as a SLOW sign hammers itself into the
+  lawn (the word is an overlay warped onto the board: 5); by 1 s the car's wind has spun the sign round and laid it flat.
+- **Tester:** the red sports car, the same car in every loop, beating the fix a new way. Its key is a reference in every
+  picture it is in (6.3). No driver is seen.
+- **Ladder** (draft). Premise: "If you plant a SLOW sign on your lawn, you have a quiet street."
+  - **1.** *Breaks:* it goes by without lifting off, and the sign blows flat. *Fix:* drop a black-and-yellow rubber hump
+    across the near lane, a second across the far lane, a second pair further down the street, and stand a warning sign
+    at the curb. *Term:* SPEED HUMP.
+  - **2.** *Breaks:* it swerves round the end of the hump, over the curb and across your lawn: two stripes in the grass, and
+    the mailbox goes over. *Fix:* drive a row of steel posts into the verge (their feet show in the cut ground), bolt a
+    steel rail along them, bend its ends down to the ground. *Term:* GUARDRAIL.
+  - **3.** *Breaks:* between the humps it is flat out again. *Fix:* lower a planted island into the near lane, a second into
+    the far lane further on, so the road bends twice, and stand a striped post on each. *Term:* CHICANE ⚠ (the ear test:
+    if it fails, "traffic island").
+  - **4.** *Breaks:* it comes back as a lifted truck on giant tires and floats over the humps. *Fix:* lift a slab out of the
+    road, lower a steel box into the pit (in the cut ground), hinge a steel lid on it level with the asphalt, stand a
+    radar post beside it: the lid drops a hand's width under anything too fast. *Term:* ACTIVE SPEED BUMP ⚠.
+  - **5.** *Breaks:* now it has brought its friends, and your street is a race track. *Fix:* sink three steel housings
+    across the road (in the cut ground), slide a steel post into each, stand a card reader at the curb: the posts rise
+    out of the road and sink only for the neighbors. *Term:* RISING BOLLARDS.
+  - Close: "That's your quiet street. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a board and a pot of paint (the starting figure); rubber speed humps, each; guardrail by the foot,
+  fitted; two islands; the hatch (a one-off with a maker's price: if none can be found it adds nothing, 4.4); rising
+  bollards, each, fitted.
+- **Demand, and who is near (25 Nov 2026):** "Genius Speed Bump System" 112M; "Three Most Genius Speed Bumps in the World"
+  44M; "Why Smart Speed Bumps Are Helpful" 17M; "Combining Speed Bumps and Non-Newtonian Fluid" 16M (all Shorts); Brick
+  Technology "How to STOP speeding Lego Cars" 37.2M (long, two years old), the same escalation with toys; "Colorfull Cars
+  Vs Hydraulic Rising Bollard" 5.6M. Build format: none found for a speed bump or a calmed street under four title
+  shapes. Near objects: "How a Cop Behind a Billboard Becomes a Speed Camera" 92K (about a month old); Build Labs 3D "How
+  a Tree Becomes a Roundabout" 346K and "How a Rope Becomes a Parking Gate" 200K (8 Nov); Mildly Informed's movable
+  concrete barrier 35K.
+- **⚠ before Gate A:** speed hump against speed bump (which is which, and whether the rubber ones are bolted down); what
+  road engineers call the bending islands; the generic name of the hatch that drops under speeders (the product is
+  Swedish and has a brand name), how it works and what it costs; rising or retractable bollards; every price fitted, from
+  a city's or a maker's page.
+- **Watch out:** it is a fix more than a wish (3.0 rule 2): what carries it is the car, so each failure is funny and
+  happens to the car, the sign, the lawn or the mailbox, never to a person. Nobody walks or stands in the road. Every
+  device is a real one, fitted the way a city fits it: no spikes, nothing that reads as a trap, nothing a child could lay
+  in a road. The speed camera is left out: beating one would mean hiding a plate. No car brand, badge or number plate. A
+  car has not been animated in this style: its pass is one simple move across the frame, proven at Gate D.
+
+**B17. How to Build a House in One Day** (a back yard)
+- **Title:** "How to Build a House in One Day" (31 characters); offer "How to Unbox a House in Your Back Yard" at Gate A.
+  **Caption:** the title, "Guess the bill 💸", the standing tags, #TinyHouse #Prefab. **Pinned comment:** "Would you live
+  in it? Yes or no. And what do we build next?"
+- **Set:** one big back yard cut open like a cake: lawn, the back of the family house across the top, a fence, the street
+  along one side (the hookups run to it); in the cut face, later, the screw piles, the anchors and the trench with its
+  three lines. The stage view (5 Rule 2).
+- **First second:** frame 0 a plain steel box as big as a shipping container already hanging from a crane hook a hand above
+  the lawn, big in the frame; by 1 s it has landed and one long side is swinging down to make a floor. It goes on
+  unfolding (a wall, the roof) until the premise has been said (4.2).
+- **Tester:** the house on its first day: in every loop it is used a little more (the door, the wind, the first flush, the
+  night's rain, the family) and fails a new way. A clock sticker (5) marks the hour. It has no single returning object
+  like the helipad's helicopter: say so at Gate A, and if it reads thin, make one storm cloud the tester of loops 1, 2
+  and 4.
+- **Ladder** (draft). Premise: "If you order a folding house in a box, you have a home by tonight."
+  - **1.** *Breaks:* the lawn gives way under one corner, the floor tilts and the door jams. *Fix:* lift the house on the
+    crane, twist four steel screw piles into the ground (in the cut ground), lower a steel frame onto them, set the house
+    back down on the frame. *Term:* SCREW PILES ⚠.
+  - **2.** *Breaks:* the first gust shoves it half off its frame. *Fix:* screw an anchor into the ground beside each corner
+    (in the cut ground), hook a steel strap from each anchor over the frame, bolt the corners down. *Term:* TIE-DOWNS ⚠.
+  - **3.** *Breaks:* the first flush lands on the lawn under the floor. *Fix:* lift a strip of lawn out as far as the
+    street, lay a sewer pipe in the trench, lay a water line and a power cable beside it, drop the strip back (the three
+    lines show in the cut ground). *Term:* SEWER LINE.
+  - **4.** *Breaks:* that night the rain pools on the flat roof and pours in at the fold. *Fix:* crane a row of roof trusses
+    onto the walls, slide steel sheets up each side, cap the ridge, hang a gutter. *Term:* ROOF TRUSS.
+  - **5.** *Breaks:* by morning the whole family wants a room: suitcases, a crib and a drum kit pile up at the door. *Fix:*
+    crane a second box onto the first, swing its sides out, hang a steel stair on the end. *Term:* MODULAR HOME ⚠.
+  - Close: "That's your house. The bill: about [TOTAL]."
+- **The bill** is the story of this one: the box sells for about $20,000 ⚠ (the starting figure), and the counter shows
+  what the ground, the hookups and the crane make of it. Each ⚠: a crane by the day; screw piles, each, fitted; anchors
+  and straps; the trench and the three connections (the big one: sewer and water fees differ by city); trusses and a
+  steel roof; the second box and the stair.
+- **Demand, and who is near (25 Nov 2026):** "They Bought A FOLDABLE HOUSE From Amazon For $19,000" 38M; "FOLDABLE HOUSE:
+  Watch This Building Unfold In Minutes" 11M; "For just $150,000, you can own a foldable house" 5.6M; prefab-house Shorts
+  18M and 9.2M; Unspeakable "I Bought a House on Amazon" 19.8M (long, two years old); "China Expandable container house:
+  10 minutes one house!" 41.4M and "Inexpensive house in 10 days" 42.7M (both long). Build format: none found under five
+  title shapes; three small clips of a folding house (17K, 1.3K, 1.2K) that are not builds. Near: "How to build a
+  foundation in one day" 1.49M (real footage, a month old); @youbuiltit's foundation (239K), roof (2.2M) and front door
+  (242K) are parts of a house, not this object.
+- **⚠ before Gate A:** what the folding houses sell for now, their size, how they unfold and what comes fitted; screw piles
+  (screw or helical: the name, how they go in, the price each); how a light building is tied down, and the name; what a
+  sewer, water and power connection costs (a named city's fees or a national guide); whether these houses take a second
+  storey (if not, loop 5 is a second box beside the first, joined); a crane's day rate. Permits are said in the
+  description, not built.
+- **Watch out:** no shop, seller or maker is named or shown, and the box has no logo (the 38M Short names a shop: we
+  don't). @scapemagicc's tiny houses in containers (13.2) are the nearest look: ours is a build with a narrator and a
+  bill, the box is plain and it unfolds, and nobody decorates the inside. Keep every step to one panel or one part: the
+  unfolding is the best fit there is for 4.3. Nobody is in the house when it tilts or slides. The flush is a splash under
+  the floor, seen from the stage view and never close.
+
+**B18. How to Turn Your Garage Into a Car Factory** (a garage and its driveway)
+- **Title:** "How to Turn Your Garage Into a Car Factory" (42 characters). **Caption:** the title, "Guess the bill 💸", the
+  standing tags, #CarFactory #Cars. **Pinned comment:** "What would you build first? And what do we build next?"
+- **Set:** one two-car garage and its driveway, cut open like a cake: the garage has no roof and is seen from above like a
+  stage, its door open onto the driveway, the house beside it across the top; in the cut face the garage's concrete
+  floor, and later the pit of the dip tank and the slot of the conveyor. The stage view (5 Rule 2), with the garage floor
+  where the lawn usually is.
+- **First second:** frame 0 a bare steel car body already coming down onto four wheels in the middle of the garage, big in
+  the frame; by 1 s one door has swung onto it and a second is on its way.
+- **Tester:** the car that rolls out of the garage door at the end of every loop: the same plain car, our own shape in one
+  color, failing a new way each time. Its key is a reference in every picture it is in (6.3).
+- **Ladder** (draft). Premise: "If you bolt a car together in your garage, you have a car factory."
+  - **1.** *Breaks:* it rolls out, meets the curb, and its doors and hood drop off. *Fix:* bolt four robot arms to the floor
+    in two rows, roll a steel jig in between them to hold the body, swing the arms in: sparks. *Term:* WELDING ROBOT.
+  - **2.** *Breaks:* the first shower turns it orange with rust. *Fix:* lift a slab out of the floor, lower a steel tank into
+    the pit (in the cut ground), hang a rail over it that dips the body, stand a glass booth beside it where arms spray
+    the color. *Term:* PAINT BOOTH.
+  - **3.** *Breaks:* the engine, lowered in through the hood on a chain, swings and stoves in a fender. *Fix:* stand a steel
+    gantry over the floor, hang the body from it, roll the engine and both axles in underneath on a cart, lower the body
+    onto them. *Term:* THE MARRIAGE ⚠ (the plants' own word for it).
+  - **4.** *Breaks:* three cars are being built at once now, and they jam nose to tail in the doorway. *Fix:* lift a strip
+    out of the floor from the back wall to the door, lower a chain conveyor into the slot (in the cut ground), set a row
+    of steel skids on it, bolt a motor at its end. *Term:* ASSEMBLY LINE.
+  - **5.** *Breaks:* now every neighbor has ordered one, and the first rain ends up inside them. *Fix:* stand three steel
+    arches over the end of the line, lay a drain grate under them, bolt a blower after the last. *Term:* WATER TEST ⚠.
+  - Close: "That's your car factory. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a socket set (the starting figure); robot arms, each (used and new: keep the range); the dip tank
+  and a spray booth; the gantry and its hoist; conveyor by the foot; the arches. For scale, what a real car plant costs to
+  build, said in the description and not on the counter.
+- **Demand, and who is near (25 Nov 2026):** "Skoda Octavia Production Line" 34.1M and "BMW Car Factory ROBOTS" 12.4M (both
+  long); "How a Phone Company Builds a Car Every 76 Seconds" 2.6M (Short); National Geographic "Largest Car Factory in the
+  World" 2.5M and HTX Studio "We Built an Assembly Line…" 1.7M (both long). Build format: Car Decoded "How One Garage
+  Becomes the World's Biggest Car Factory" 1.7K (22 Nov), and nothing else found under four title shapes. Near objects:
+  Build Labs 3D's car carrier (209K) and car crusher (40K, 20 Nov); The CarMakers builds roads, not plants (3.4).
+- **⚠ before Gate A:** the order of a real plant (body, paint, assembly) and the names: what holds a body while robots weld
+  it; the dip (its name is initials, so it is not said: 4.3); "the marriage"; the water test, also called a shower or
+  monsoon test; what small robot arms, a booth, a hoist and a conveyor cost; and the first seconds of Car Decoded's video
+  (12.3), in case it tells the same loops.
+- **Watch out:** no car brand, badge or grille, and no plant named: our own plain car in one color. The garage is the stage
+  and has no roof, so parts come down out of the sky as in every other video, and INDOOR (6.3) is not needed; WHOLE is:
+  the floor stays whole except the one pit or slot a fix names. Robot arms are a motion the style has not tried: they
+  move only in the last step of their fix and in failure clips, never while a part arrives. Sparks, not fire. Nobody is
+  in the garage.
+
+**B19. How to Make the Train Stop at Your House** (a back yard beside a railway line)
+- **Title:** "How to Make the Train Stop at Your House" (40 characters). **Caption:** the title, "Guess the bill 💸", the
+  standing tags, #Trains #TrainStation. **Pinned comment:** "Where would yours take you? And what do we build next?"
+- **Set:** one back yard that ends at a railway line, cut open like a cake across the track: the house and the lawn on the
+  left, the back fence, and one track on its bed of stones running up the right-hand third of the frame; in the cut face
+  the track bed in section (rails, ties, stones), and later the platform's posts and the underpass. **The view is not the
+  usual stage view** (5 Rule 2): it looks along the track, so a stopped train stands beside the platform and hides
+  nothing; show it at Gate C.
+- **First second:** frame 0 the train already rushing down the frame past the back fence, big, as a STATION sign swings
+  onto the fence (the word is an overlay warped onto the board: 5); by 1 s the train's wind has torn the sign off and
+  sent it cartwheeling over the lawn.
+- **Tester:** the train: the same three-car train in every loop, plain silver with one blue stripe, failing you a new way.
+  Its key is a reference in every picture it is in (6.3).
+- **Ladder** (draft). Premise: "If you hang a STATION sign on your back fence, you have a train station."
+  - **1.** *Breaks:* the train goes through without slowing, and takes the sign with it. *Fix:* stand a steel mast beside the
+    track, swing a signal head onto its arm, set a grey steel cabinet at its foot. *Term:* SIGNAL.
+  - **2.** *Breaks:* it stops, the doors open, and the step is as high as your fence above the stones: a suitcase put out
+    of the door drops and bursts. *Fix:* twist a row of steel posts into the bank (in the cut ground), lower a long
+    concrete deck onto them, lay a yellow strip along its edge, lower a glass shelter on top. *Term:* PLATFORM.
+  - **3.** *Breaks:* while it stands at your platform, the express behind it is stuck, horn going. *Fix:* slide a second
+    track in beside the first, ready-made in panels, swing a switch in at the far end, a second at the near end, and
+    stand a second signal. *Term:* SIDING ⚠ (the ear test: it can be heard as the boards on a house; "passing track").
+  - **4.** *Breaks:* the rest of the street lives across the line, and a worn path now runs over the rails through a gap in
+    the far fence. *Fix:* push a concrete box under the track from the side (in the cut ground), lower a stair into each
+    end, mend the fence with a steel panel. *Term:* UNDERPASS.
+  - **5.** *Breaks:* now half the town rides from your platform every morning, and nobody has paid. *Fix:* stand a row of
+    ticket gates at the top of the stair, a ticket machine beside them, a steel fence along the back of the platform.
+    *Term:* TURNSTILE.
+  - Close: "That's your train station. The bill: about [TOTAL]."
+- **The bill** (each ⚠): a board and a pot of paint (the starting figure); a signal and its cabinet; a platform by the foot;
+  track by the foot and two switches (the big ones); the underpass (if no figure can be found it adds nothing, 4.4);
+  gates and a ticket machine. For scale, what a small new station cost a US commuter line.
+- **Demand, and who is near (25 Nov 2026):** "How We Rebuilt This Entire Train Station Platform" 7.8M (Short); TD BRICKS "I
+  built a LEGO TRAIN around MY HOUSE" 29.3M and "The Livi B. Railroad: tiny backyard railroad around a house" 3.7M (both
+  long); Mildly Informed "Trains used to fall out of train stations" 444K; and small channels in the train vertical get
+  reach (1.6). Build format: Built From Nothing "How A Hole In The Ground Becomes A Train Station.." 2.8K (11 Nov), and
+  nothing else found under five title shapes. Near objects, none of them a station at a house: three subway builds
+  (@youbuiltit 243K on 9 Nov, "How a Tunnel Becomes a Subway" 889K about three weeks old, Build Labs 3D 50K),
+  @youbuiltit's railroad crossing (618K), Build Labs 3D's rail yard (14K) and freight train (31K).
+- **⚠ before Gate A:** what makes a train stop where it isn't booked to (a signal; and the flag stop, where a rider waves
+  the train down: find whether US lines still have them, because then the naive step is nearer the truth than it looks);
+  how high a train's floor is above the stones; ready-made platforms on screw piles (who makes them, the price by the
+  foot); track panels and switches, the names and prices; how an underpass is put under a working line (a box pushed
+  through: the name); what a small station cost.
+- **Watch out:** nobody stands on or beside the track, ever, and nothing shows a way onto it: the worn path of loop 4 is the
+  danger shown as the "But" (4.3), a path and a gap with no one on it. No real railway's name, colors or logo. The train
+  is long: it stops on the same mark in every picture, its nose against a fixed post. The express is a second train to
+  hold: keep it small, far up the line. The old list's yard railroad (B6, in the archive) was a toy line round the yard;
+  this is the real line stopping for you.
+
+**B20. How to Launch a Ship From Your Back Yard** (a back yard on a lake)
+- **Title:** "How to Launch a Ship From Your Back Yard" (40 characters). **Caption:** the title, "Guess the bill 💸", the
+  standing tags, #ShipLaunch #Boats. **Pinned comment:** "Would you stand on the dock? Yes or no. And what do we build
+  next?"
+- **Set:** one back yard that runs down to a lake, cut open like a cake through the water: the house across the top, the
+  lawn sloping to the shore, the neighbor's small dock at one side, the lake across the lower part of the frame; in the
+  cut face the bank, the lake bed and the water in section (translucent cyan: 5), and later the slipway's footings, the
+  catch's block and the inside of the hull. The stage view (5 Rule 2), a little wider: the hull is as long as the house.
+- **First second:** frame 0 a bare steel hull as long as the house sitting on wooden blocks on the lawn, big in the frame, a
+  tow rope from its bow already tight to a pickup truck whose wheels are spinning; by 1 s the wheels have torn two brown
+  stripes down the lawn and the hull has not moved. The rope does not snap.
+- **Tester:** the hull: in every loop it tries to reach the water, and fails a new way.
+- **Ladder** (draft). Premise: "If you build a boat on your lawn, you have a shipyard."
+  - **1.** *Breaks:* the truck digs itself in and the hull doesn't move an inch. *Fix:* drive two rows of concrete footings
+    into the bank and the lake bed (in the cut ground), lay two long steel rails on them from the lawn down under the
+    water, set a wooden cradle on the rails, lift the hull onto the cradle. *Term:* SLIPWAY.
+  - **2.** *Breaks:* now it wants to go: the cradle creeps, and a garden bench is all that stops it, until it splinters.
+    *Fix:* sink a concrete block in the lawn behind the cradle (in the cut ground), bolt a steel catch to it that hooks
+    the cradle, fit a long lever to the catch. *Term:* LAUNCH TRIGGER ⚠.
+  - **3.** *Breaks:* let go, it hits the water flat out, crosses the bay and flattens the neighbor's dock. *Fix:* winch it
+    back up the rails, lay a heap of anchor chain each side of them, a second pair further down, shackle each heap to
+    the hull: they drag behind it, pair after pair. *Term:* DRAG CHAINS.
+  - **4.** *Breaks:* this time it slides in gently, floats, and leans until one rail is under water. *Fix:* lower a row of
+    iron blocks into the bottom of the hull (the cut shows its inside), drop a steel deck over them, and it sits level.
+    *Term:* BALLAST (B11's term too: if both are made, one of them changes).
+  - **5.** *Breaks:* now every boat on the lake is in a line at your rails, waiting to be hauled out. *Fix:* roll in a tall
+    crane on four wheels that straddles a boat, lower two slings from it, set a row of steel stands on the lawn: it lifts
+    each boat out and parks it. *Term:* BOAT HOIST ⚠.
+  - Close: "That's your shipyard. The bill: about [TOTAL]." The payoff is the launch that works, when loop 3's fix is
+    tried: give its splash a 3 s clip of its own.
+- **The bill** (each ⚠): a tow rope (the starting figure); the slipway (footings, rail and a cradle: what a boatyard calls a
+  marine railway); the catch and its block; anchor chain by the ton; iron ballast by the ton; the hoist (the big one). The
+  hull is not on the bill: the description says so.
+- **Demand, and who is near (25 Nov 2026):** "Ship launching ceremony" 156M and "How big ships are launched into the ocean
+  part 4" 139M (Shorts); "Ship Launch Gone Wrong: SYMPHONY PROVIDER stuck on slipway" 10.1M (long, nine years old);
+  "Genius Ship Launch! Gravity Slide for Controlled Water Entry" 2.2M; "Ship launch fail" 685K; and boats are among
+  @youbuiltit's best (a dugout canoe 5.3M, a reed boat 4.5M, a Viking ship 2.8M). Build format: none found for a launch,
+  a slipway or a shipyard under four title shapes. Near objects: the dry dock, which 3.1 ruled out ("How a Hole by the Sea
+  Becomes a Dry Dock" 14M, and copies at 22K and 13K); Building It Now "How a Plank on a Rock Becomes a Pier" 15.6K
+  (30 Oct).
+- **⚠ before Gate A:** how a small yard launches a hull (a marine railway and its cradle; end-on against sideways); what
+  holds a ship on the ways until the moment, and its name; drag chains (how heavy, how they are rigged: there is footage);
+  why a new hull leans or rolls, and what goes into it; the generic name of the straddling crane (the yards' usual name
+  is a trademark) and its price; rail, chain and iron by the ton.
+- **Watch out:** the dry dock is taken (3.1), so nothing here is a dock: no basin, no gate, no pump. The hull must keep its
+  size from picture to picture (video 17's night house shrank when its door shut: 7.1): check every stage with
+  `--stills`. Getting the hull back up the rails is a step of its own (loop 3), never a jump between two pictures. The
+  splash is water changing in a clip (proven on video 17). Nobody is on the hull, the dock or the shore, and the truck's
+  driver is never seen. No ship's name, flag or yard.
+
+**B21. How to Build a 2,000-Foot TV Tower in Your Back Yard** (a back yard under open sky)
+- **Title:** "How to Build a 2,000-Foot TV Tower in Your Back Yard" (51 characters). **Caption:** the title, "Guess the bill
+  💸", the standing tags, #RadioTower #TVTower. **Pinned comment:** "Would you want it next door? Yes or no. And what do we
+  build next?"
+- **Set:** one big back yard cut open like a cake, under open sky: the house at one side, lawn, a shed, the fence; in the cut
+  face, later, the three anchor blocks, the base pier and the ground rods. **The view is not the usual stage view** (5
+  Rule 2): the build goes up, so the yard sits in the lower half of the frame with sky above it, as for B11, and from
+  loop 2 the tower leaves the top of the frame. Two more pictures: a closer view of the tower's foot (loop 3), and a view
+  from its top, above the clouds, for the last fix and the last shot. Show all three at Gate C.
+- **First second:** frame 0 a steel pole already rising out of the lawn, a rooftop TV antenna on its tip, big in the frame;
+  by 1 s it is taller than the house and swaying, and a dark cloud is sliding in over the fence.
+- **Tester:** the storm: one dark cloud that comes back in every loop and goes for the tower a new way.
+- **Ladder** (draft). Premise: "If you stand a pole in your yard with an antenna on top, you have a TV tower."
+  - **1.** *Breaks:* the cloud's first gust lays it flat across the shed. *Fix:* lift three plugs of earth out of the lawn,
+    drop a concrete block into each pit (in the cut ground), run a steel cable from each block to the pole's top, and
+    haul the pole upright on them. *Term:* GUY WIRES.
+  - **2.** *Breaks:* you want the whole state to get the picture, and a taller pole folds in the middle like a fishing rod.
+    *Fix:* bolt a three-sided steel lattice section on the base, clamp a lifting arm to its side, hoist the next section
+    onto the first, slide the arm up to the new top: and again, out of the frame. *Term:* GIN POLE ⚠ (the ear test: if it
+    fails, "lattice mast", for the tower itself).
+  - **3.** *Breaks:* it sways in the storm, and its stiff foot cracks the concrete under it (the closer view; the crack runs
+    down the cut face). *Fix:* lower a new concrete pier into the ground, set a steel pin as big as a fire hydrant on top
+    of it, swing a tapered foot onto the tower's bottom section, and sit its point on the pin: now it can rock. *Term:*
+    PIVOT BASE ⚠.
+  - **4.** *Breaks:* the cloud's lightning finds the tallest thing in the county, comes down it and blows the TV out of the
+    living-room window. *Fix:* drive a ring of copper rods deep into the ground round the foot (in the cut ground), lay a
+    copper strap from rod to rod, clamp it to the tower and to each anchor. *Term:* GROUND RODS.
+  - **5.** *Breaks:* now every station in the state wants its antenna on your tower. *Fix:* (the view from the top) lower a
+    three-armed steel frame onto the tip, stand an antenna on each arm, lower a red beacon onto the middle. *Term:*
+    CANDELABRA ⚠.
+  - Close: "That's your TV tower. The bill: about [TOTAL]." The last shot is from the top, the beacon above the clouds.
+- **The bill** (each ⚠): a pole and a rooftop antenna (the starting figure); anchor blocks and guy cable by the foot; lattice
+  steel by the ton and a tower crew by the day (the big one); the pier and the pin; copper rod and strap; the top frame,
+  the antennas and the beacon. For scale, what a real 2,000-foot tower cost to put up.
+- **Demand, and who is near (25 Nov 2026):** "Radio Tower Held Up By Rusty Pin?" 33M (Short); "KDLT-TV 1999ft tower being
+  climbed" 30.2M (long, eleven years old); Practical Engineering "The Bizarre Bases of Antenna Towers" 4.2M (long, a year
+  old); "Giant radio antenna falls to the ground" 2.8M; "Climbing worlds tallest radio tower" 171K; "Installing a TV
+  antenna on a 1,000' tall tower" 110K. Build format: none found for a guyed TV or radio tower under three title shapes.
+  Near objects: two cell-tower builds (Build Labs 3D "How a Walkie-Talkie on a Pole Becomes a Cell Tower" 25K, "How a
+  Pole Becomes a Cell Tower" 17K) and Build Labs 3D's control tower (21K): different things, and small numbers.
+- **⚠ before Gate A:** how tall the tallest US towers are, what limits them at about 2,000 feet, and the Empire State
+  Building's height beside them; how far out the guy anchors of such a tower sit (far beyond any yard: the ladder may
+  want a "But" for it); the pin or pivot base (what it is called, why it is used, which towers have one); the gin pole
+  (the name, how it climbs); how a tower is earthed against lightning; what the top frame for several antennas is
+  called; red lights and paint for aircraft (the rule); what a tall tower cost.
+- **Watch out:** nobody climbs it and no ladder is shown: climbing towers is a thing people copy and die of (4.3), and the
+  footage that proves the demand is of climbers. The parts go up by themselves, and the caption and the pinned comment
+  never dare anyone. No station's name, letters or logo. No aircraft comes near the tower. The height can't be seen from
+  the yard: it is carried by the tower leaving the frame and by the last view above the clouds. Cables are thin: they
+  must read from the stage (thick, pale against the lawn), proven at Gate C. It is the weakest wish of the six (3.0 rule
+  2): what carries it is the storm, and the fact that a tower this tall stands on a pin. It was shown as a reserve and
+  added on the user's word.
+
+### 3.4 Reserves and what the check of 25 Nov 2026 ruled out
+Both build accounts' lists were re-fetched on 25 Nov 2026, about ninety title searches were run on YouTube with both title
+shapes (`yt_saturation.py`, 12.2), the nearest videos were dated (`yt_channels.py`), and three channels that work this
+theme were listed. TikTok's own search can't be read from a session, so beyond the two accounts the check is YouTube's.
+- **The theme has proven demand in the build format.** On @youbuiltit (TikTok, read 25 Nov 2026) a road has 3.4M, a septic
+  tank 2.9M, a gas station 2.6M, a roof 2.2M, a traffic light 2.0M, a garbage truck 1.9M, an ATM 1.8M, a garage door 1.7M,
+  a water tower 1.6M, a dam 1.4M and an elevator 1.2M. All but the dam are from October; since mid-November it posts
+  mostly crafts, boats and home builds.
+- **Three YouTube channels work it in the same title shape** (read 25 Nov 2026; about ninety "How a … Becomes a …" Shorts
+  between them). Everything on these lists is taken:
+  - **The CarMakers** (@TheCarMakersTV; 58K subscribers, 57 videos): roads at giant scale. A 5-level interchange from a
+    4-way stop 12.3M (2 Nov), a 120-pump gas station 10M, a 26-lane highway 10M, the Golden Gate Bridge from a log 8.2M, a
+    highway from a two-lane road 5.7M, a 10-lane bridge 2.5M, a ferry that becomes a bridge 2.4M, a 13,000-car garage
+    2.0M, America's busiest highway 1.8M, the biggest animal bridge 1.8M, "How One Toll Booth Becomes the 18-Lane Squeeze"
+    1.56M (12 Nov), a highway inside a highway 1.3M, an interstate in Hawaii 1.1M, a floating highway 1.0M, the biggest
+    truck stop 581K, the busiest interchange 478K, an $800 million intersection 382K, a roundabout capital 364K, Route 66
+    312K, an airport's double-decker loop 224K, an interchange with a train 218K, a 12-lane highway from a driveway 183K,
+    a stadium for 105,000 132K, Thanksgiving traffic 130K, a road under a runway 52K. **At least two lead with a price**
+    ("$261 million" in the 12.3M video's description; "How a $50 Stop Sign Becomes an $800 Million Intersection"): beside
+    this channel the bill is less of a difference than beside the two TikTok accounts (my read).
+  - **Build Labs 3D** (@BuildLabs3D; 8.9K subscribers, 44 Shorts): a jet bridge 744K, a roundabout 346K, a fire truck
+    217K, a car carrier 209K, a parking gate 200K (8 Nov), a weigh station 187K, a tow truck 102K, an excavator 95K, a
+    drive-thru 88K, a city bus 88K, an EV fast charger 82K, an airport runway 64K, parking garages 59K, a streetlight 55K,
+    a storm drain 53K, a runaway truck ramp 51K (16 Nov), a subway 50K, a school bus 45K, a street sweeper 45K, a bucket
+    truck 40K, a car crusher 40K (20 Nov), a revolving door 34K, a de-icing truck 32K, a highway guardrail 32K, a freight
+    train 31K, a stadium 31K, a container crane 27K, a suspension bridge 27K, a shopping cart 27K, a pumpjack 26K, a fire
+    sprinkler 26K, a road tunnel 25K, a cell tower 25K, a drawbridge 23K, a control tower 21K, a Ferris wheel 20K, a power
+    line 15K, a rail yard 14K, a snow groomer 14K, a city Christmas tree 9.3K, a canal lock 7.7K, a power plant 5K,
+    avalanche control 4K, a bobsled track 1.9K.
+  - **Mildly Informed** (@mildlyinformed3d; 5.8K subscribers, 65 videos; "We build every scene in Blender"): an amphibious
+    bus 678K, an excavator 314K (21 Nov), a monster truck 205K, a tree mover 181K, a mine-proof truck 123K, a snowplow
+    113K, a mountain-climbing train 87K, a camper 74K, a garbage truck 50K, an aerial ladder truck 44K, a stadium roof
+    37K, a movable concrete barrier 35K, a shipping container 30K, an earthquake-proof home 26K, a helicopter rescue
+    basket 25K, an icebreaker 25K, a car wash 25K, a WWI trench 24K, a combine harvester 22K, a bowling alley 19K, a stair
+    climber 18K, a secret underground garage 9.5K, a Murphy bed 7.5K, a water bomber 1.4K.
+  - Found by search, their channels not read: a semi truck 40K, a bulldozer 47K (a week old), a wind turbine 398K and 34K,
+    a parking garage 32K twice, a garbage truck from a wheelbarrow 62K.
+- **What that means** (my read): in this theme the plain objects are mostly gone on YouTube, and a small channel gets
+  20–200K for one. What was open on 25 Nov 2026 was the thing brought home to a yard, a garage or a street, which is our
+  lane (2.1) and what the six do.
+- **The build accounts on 25 Nov 2026:** @whatifplus is at 44 videos (new on 24 Nov: a billionaire mansion 9.2K and a
+  private runway 4.2K); @youbuiltit is at 105 (new since the 100 of 22 Nov: a basketball hoop 242K, a driftwood kayak 19K,
+  a beehive 16K, salt from seawater 120K, a fish pond 213K).
+- **Reserves** (open on 25 Nov 2026; each weaker than the six, or nearer to a taken object):
+  - a barn in one day (Amish barn raisings 5.5M and 4.5M as Shorts, 6.8M long; no build video; frames that tilt up are
+    crisp steps, but little goes in the ground and a barn is not much of a wish);
+  - your own toll road (the real story as a Short 10.3M, 28 Apr 2026, and Tom Scott's 6.2M long; two builds already: The
+    CarMakers 1.56M on 12 Nov and "How a Tin Cup on Your Bridge Becomes a Toll Plaza" 158K on 27 Oct; too close to B16 to
+    run beside it);
+  - a house on a swamp, on driven piles ("Sinking Millennium Skyscraper" 5.6M, a house built in a swamp 4.3M, a pile driver
+    5.8M; the best use of the cut ground of anything checked; but four "How a Swamp Becomes Venice" builds, the biggest
+    54K on 5 Nov, tell the same fact);
+  - a dock at your lake house, built with a pile driver (dock-building footage 41.4M; one pier build, 15.6K on 30 Oct; too
+    close to B20);
+  - a monorail in your back yard (no build video; but Zack D. Films told the real one, "He Built His Own Monorail At Home"
+    7.8M, 26 Jul 2026, and his topics are on the list to avoid: 13.2);
+  - a field watered by a center pivot (footage 11M, SmarterEveryDay 6.2M long; no build video; a chore, and a farm more
+    than a yard);
+  - machines with no build video found: a dump truck, a forklift, a pile driver, a jackhammer, a concrete pump truck, a
+    mobile crane, a road-striping truck. They are the three channels' kind of object, nothing goes in the ground and
+    none is yours;
+  - also open and not developed: a railway turntable (footage 761K), a skyscraper's window-washing rig (BBC 7.6M long),
+    scaffolding (footage 14M), a sawmill (7.9M long), the jaws of life (Donut 1.6M long).
+- **Ruled out, already built by others** (YouTube, 25 Nov 2026; ages as read that day):
+  - a gold mine in your yard ("How a Hole 2.5 Miles Deep Becomes a Gold Mine" 7.8M, ten days old; Made Clear 75K, twelve
+    days; You Build Different 55K and Actually I built this 24.5K, about three weeks; and How Building Explained's coal
+    mine 33.6K, five days);
+  - your own highway exit or interchange (The CarMakers, above; "How a Crossroads Becomes a Highway Interchange" 1.3M; "How
+    a Road Becomes an Interstate" 32K; one more, 21K);
+  - a parking tower in the driveway ("How A Driveway Becomes A Secret Garage" 790K, two weeks old; four more parking or
+    hidden-garage builds in three weeks, 9.5K–58K; The CarMakers' 13,000-car garage);
+  - a canal lock (Tested & True 18K, 2 Nov; two more, 10K and 3.4K; Build Labs 3D 7.7K; three Panama Canal builds);
+  - a cable car ("How a Laundry Basket Becomes a Cable Car" 1.1M; two more, 58K and 21K; a zip line 28K);
+  - a cliff house (149K twelve days old, 21K two days, 2.3K five days);
+  - a basement dug under the house ("How a Hole Under Your House Becomes a Basement" 3.6M; a second, 39K);
+  - a retaining wall ("How a Hill in Your Yard Becomes a Retaining Wall" 2.6M; a second, 42K);
+  - a runaway truck ramp (Build Labs 3D, above, and half a dozen small explainers of its gravel);
+  - an excavator (Mildly Informed and Build Labs 3D, above; a giant one 22K; Bagger 293 7.8K) and a tunnel boring machine
+    (43K);
+  - a car crusher or scrapyard (Build Labs 3D, above: one video, but it tells the press, the fluids, the magnet and the
+    shredder, the whole ladder);
+  - a demolition (You Built A... "How a Sledgehammer Becomes a Building Implosion" 390K, about three weeks old);
+  - a wind turbine (398K and 34K), a grain silo (399K, 349K, 45K), a recycling plant (27K, 6.9K), a pier (15.6K).
 
 ---
 
@@ -1723,7 +2153,8 @@ rule. Write what was measured, what is "my read", and what couldn't be checked.
 
 ## 13. Parked ideas, topics to avoid, and history
 
-13.1 and 13.2 are unchanged since 21 Nov 2026 (rule 8).
+13.1 and 13.2 are unchanged since 21 Nov 2026 (rule 8). What the check of 25 Nov 2026 found already built in construction,
+infrastructure and blue-collar work, three YouTube channels' lists among it, is in 3.4: read it beside 13.2.
 
 ### 13.1 Parked ideas (X and F ideas: approved 16–18 Nov 2026, parked 18 Nov; the explainer plan's: parked 21 Nov 2026)
 Their full entries (draft scripts or story beats, sets, camera positions, checked facts, sources) are in section 2 of the file at
@@ -1828,6 +2259,10 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **24–25 Nov:** the user reviewed video 17 ("the animations are mushed together at times", "this is a ahah") and asked for
   crisper animation, fewer audio mistakes and no dog in every video. The video was measured, not redone (1.10); the
   rules, the runbook and the paste-in prompt were tightened, and the checks written (6.4).
+- **25 Nov (later):** the user asked for "5 interesting and unique construction, infrastructure, blue collar work video
+  ideas" and said to replace nothing without approval. Both build accounts' lists were re-fetched, about ninety title
+  searches were run on YouTube and three channels in that theme were listed (3.4). The user added the five and a
+  2,000-foot TV tower as B16–B21, beside B11–B15 (2.3, 3.3).
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
   (`afc98b6`).
