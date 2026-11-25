@@ -397,10 +397,14 @@ W3_2 turned up 8.0, W4_1 10.1, CLOSE 12.2, W5_3 5.3. Parakeet hears "Okay." in W
 step beats): 8.97 s against 7.39 s; each step stands finished for 0.25–0.54 s before the next starts; its joins measure
 0.80 / 1.75 / 3.65 (the roof, already falling) / 1.29 against 7.95 / 2.81 / 7.55 / 5.81 as delivered (`joins_check.py`; a
 resting picture 0.2–0.4); W4_1's own sound left out (−39 dB); −13.9 LUFS, true peak −1.9 dB. The whole narration with
-step beats runs 66.94 s (63.09 s as delivered).
+step beats runs 66.94 s (63.09 s as delivered). The loop as delivered and then re-cut, in one file of 16.4 s:
+https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/3157abe8-4295-4ab8-8b60-57ff47fd1711.mp4
 
 **What changed because of it:** CLAUDE.md, revised 25 Nov 2026: one step at a time; the ear test and a narration check that
 is told nothing; the user hears the whole narration at Gate C; the dog only when the user says so; the paste-in prompt.
 **On offer, not done:** a free re-cut of the whole video by the new edit rules. It would mend the steps cut into each
 other, the pulsing joins, the snap-backs and the sound levels; not the wallow, and not the night house's change of size,
-which are in the pictures and the clips. And a new take of the ha-ha line, which costs credits.
+which are in the pictures and the clips (the loop 4 re-cut stops W4_4 at 1.47 s, just before the building jumps, so it
+rests on a frame where the roof is still open above the door). And a new take of the ha-ha line under a plain name:
+0.46 credits quoted on 25 Nov 2026 for "Wall the far side in concrete, and roll on fresh turf. This is a sunk fence."
+(`estimate_audio_cost`, `elevenlabs_v4`, Harrison); the label and the captions would be redone in the edit, free.

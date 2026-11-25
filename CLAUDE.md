@@ -103,7 +103,8 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 - **Video 17** (B12, "How to Keep a T-Rex in Your Back Yard") was finished on 24 Nov 2026: 64.7 s, 169.58 credits of a
   188.40 quote, the bill $179,571; not posted. **The user reviewed it that day, found mistakes (1.10) and said not to redo
   it;** whether it is posted as it is, is the user's call. On offer, not asked for: a free re-cut by the new edit rules
-  (the same clips), and a new line for "This is a ha-ha" (about 1 credit). Its post copy is `pipeline/17-post-copy.md`,
+  (the same clips), and a new take of the "This is a ha-ha" line under a plain name (0.46 credits quoted on 25 Nov 2026
+  for that sentence with the phrase before it; its label and captions are free). Its post copy is `pipeline/17-post-copy.md`,
   its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2. **Next:** the
   user says which idea is video 18 (my pick: B11, the flying house).
 - **The dog** is no longer in every video (25 Nov 2026; 4.5).
@@ -287,8 +288,9 @@ ahah"." The video was watched over on strips at 10 frames a second and measured 
   its fifth frame and three frames mixed at the join, the loop's four joins measure 0.8, 1.75, 3.65 (the roof itself,
   already falling) and 1.3, against 7.95, 2.81, 7.55 and 5.81 as delivered (a resting picture: 0.2–0.4), and each step
   stands finished for 0.25–0.54 s before the next begins. The loop runs 9.0 s instead of 7.4 s. **What an edit can't
-  mend:** the night house still changes size in its last clip (the re-cut stops that clip before the jump), and the
-  wallow is still one spot changed four times. Those are in the pictures and the clips.
+  mend:** the night house still changes size in its last clip (the re-cut stops that clip just before the jump, on a
+  frame where the roof is still open above the door), and the wallow is still one spot changed four times. Those are in
+  the pictures and the clips.
 
 ---
 
@@ -1007,7 +1009,8 @@ and the same for `@youbuiltit`; 12.1) and drop the idea if either has made it.
 - **A take passes** when it comes back word for word (an extra word is a stray sound, a missing one a swallowed word), no
   term and no landing word is flagged, and "So you…" reads straight through. **A flagged term is a fault in the script,
   not in the voice:** change the term (the ear test, 4.3) and voice it again; respelling it only makes the take match.
-  Untried: voicing that one sentence again and splicing it in at the pauses round it, for the user's ear to accept.
+  Untried: voicing that one sentence again with the phrase before it (0.46 credits quoted for 75 characters) and
+  splicing it in at the pauses round it, for the user's ear to accept.
   Every other flag (a common word the recogniser was unsure of, a rise on "The bill:") is listed for the user with its
   time.
 - **A second ear on this machine:** `transcribe.py` on the same take. Where the two recognisers disagree, list it.
@@ -1510,7 +1513,8 @@ copies of the memory.
   (5 h 45 min after video 14), video 16 on 22 Nov at 17:00 UTC (by the user, about noon US Eastern). Build videos are logged
   here from video 17, with the bill's total and each read at 24 h and 72 h.
 - **Video 17's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
-  give the links to the user): final `9215ce52-d5c8-43e3-b75e-e7abc2611c67`; voice-only `b49bd844-96ff-454d-8abd-8822f8e51295`; clean master `6f8ea1d6-24e8-4361-ac02-6dd893430977`; Higgsfield folder
+  give the links to the user): final `9215ce52-d5c8-43e3-b75e-e7abc2611c67`; voice-only `b49bd844-96ff-454d-8abd-8822f8e51295`; clean master `6f8ea1d6-24e8-4361-ac02-6dd893430977`;
+  loop 4 as delivered and then re-cut by the new edit rules (16.4 s; 1.10) `3157abe8-4295-4ab8-8b60-57ff47fd1711`; Higgsfield folder
   `52a00fbc-b926-4a05-b6b5-796fdf17009c`; job ids in `pipeline/17-jobs.tsv`; covers in `pipeline/17-covers/`; street tile
   `pipeline/street/17.jpg` (the street now shows 16 and 17).
 - **Video 16's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
