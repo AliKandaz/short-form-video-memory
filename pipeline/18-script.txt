@@ -1,0 +1,29 @@
+How to Launch a Ship From Your Back Yard
+(B20 from section 3.3, video 18, the first written to the step rules of 25 Nov 2026; Gate A draft, 25 Nov 2026; 220 spoken
+words, ~67 s at Harrison's 3.28 words a second with the half-second beats kept, plus the 1.5 s street card: ~68.6 s)
+Format (CLAUDE.md 4.1): the premise over the naive step, five loops of "But... So you [steps]... This is a...", then our
+closing line with the bill. The premise ends at ~3.7 s and the first "But" lands at ~4.2 s.
+Terms on screen (labels, added in the edit): SLIPWAY, LAUNCHING TRIGGER, DRAG CHAINS, BALLAST, BOAT HOIST.
+Each step lands on the word in brackets: its phrase ends on its part, and no two landing words in a sentence are closer
+than six words (1.8 s at 3.3 words a second), so no step beat should be needed (4.3).
+Nothing is respelled for the voice. "Ballast" is said as "iron ballast": alone it can be heard as "a blast" (the ear test).
+No dog (rule 11).
+
+If you build a boat in your back yard, you have a shipyard.
+
+But it won't move an inch, and the tow rope snaps. So you sink two rows of steel piles [piles], top them with two long
+rails [rails], then lower in a timber cradle [cradle], and on top you set the hull [hull]. This is a slipway.
+
+But now nothing holds it. It flattens your barbecue. So behind it you sink one more steel pile [pile], clamp the cradle
+with a heavy iron hook [hook], and beside it stand a tall release lever [lever]. This is a launching trigger.
+
+But set free, it rams through your neighbor's dock. So you winch the hull back up the rails [rails], tie it to two heaps
+of heavy anchor chain [chain], and further down, to two more heaps [heaps]. These are drag chains.
+
+But once afloat, it leans until the deck floods. So you lower into the hold a row of iron blocks [blocks], then behind
+them a second row [row], and over the top a steel hatch cover [cover]. This is iron ballast.
+
+But now every boat on the lake wants a lift. So out over the water you set two concrete piers [piers], roll onto them a
+tall yellow crane [crane], and between its legs hang two wide slings [slings]. This is a boat hoist.
+
+That's your shipyard. The bill: about four hundred thousand dollars.
