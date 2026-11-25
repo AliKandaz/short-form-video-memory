@@ -167,8 +167,9 @@ def zoom(t, acts):
     return 1.0
 def shake(t, t0):
     """FC5's roar: the frame jolts and settles (px offsets) under a little extra zoom so no edge shows."""
+    if t0 is None: return 0.0, 0.0, 1.0
     u = t - t0
-    if t0 is None or u < 0 or u > SHAKE_D: return 0.0, 0.0, 1.0
+    if u < 0 or u > SHAKE_D: return 0.0, 0.0, 1.0
     a = SHAKE_A * np.exp(-u / 0.45) * min(1.0, u / 0.05)
     return (a * np.sin(2 * np.pi * 9.3 * u + 0.7), 0.8 * a * np.sin(2 * np.pi * 12.1 * u + 2.1),
             1 + 0.018 * min(1.0, u / 0.1) * (1 - u / SHAKE_D))
@@ -179,6 +180,7 @@ def whip_frame(g, p, n):
     g = cv2.warpAffine(g, np.float32([[1, 0, x], [0, 1, 0]]), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
     return cv2.blur(g, (L, 1)) if L > 1 else g
 
+XFADE = 0                               # frames of cross-fade at a join (0 here: 'full' reproduces video 17 as delivered)
 class Clip:
     """Reads a clip's frames in order (the time map only ever goes forward in a clip), keeping the last one read."""
     def __init__(self, k): self.cap = cv2.VideoCapture(f'clips/{k}.mp4'); self.i = -1; self.f = None
@@ -207,6 +209,7 @@ def render(segs, end, acts, out, shake_t=None):
         z = BASE * zoom(t, acts) * zs; sc = (W / SW) * z; cx, cy = FOCUS[0] * SW, FOCUS[1] * SH
         M = np.float32([[sc, 0, W * FOCUS[0] - cx * sc + dx], [0, sc, H * FOCUS[1] - cy * sc + dy]])
         return cv2.warpAffine(f, M, (W, H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REPLICATE)
+    prev, hold, xf = None, None, 0
     for i in range(n):
         t = i / FPS; s = next((x for x in segs if x['v0'] <= t < x['v1']), segs[-1])
         if s.get('whip'):
@@ -214,6 +217,14 @@ def render(segs, end, acts, out, shake_t=None):
             g = whip_frame(g, q, max(1, round((s['v1'] - s['v0']) * FPS)))
         else:
             g = picture(s['k'], s['s0'] + (s['s1'] - s['s0']) * (t - s['v0']) / max(s['v1'] - s['v0'], 1e-9), t)
+        # a join from one clip's resting frame into the next clip (same view): two renderings of one picture differ in
+        # their fine texture, so the first XFADE frames are mixed with the resting frame (nothing is moving yet)
+        if XFADE and prev is not None and s['k'] != prev['k'] and not s.get('whip') and not prev.get('whip') \
+                and s.get('view') == prev.get('view'):
+            hold, xf = last, XFADE
+        if xf and hold is not None:
+            w = (XFADE - xf + 1) / (XFADE + 1); g = cv2.addWeighted(hold, 1 - w, g, w, 0); xf -= 1
+        prev, last = s, g
         p.stdin.write(g.tobytes())
     p.stdin.close(); p.wait()
 
@@ -300,6 +311,11 @@ def clip_level(k):
     return rms_db(f'clips/{k}.mp4')
 FX_OFF = {}                                          # per-clip level offsets in dB, if the user's ear asks for them
 TILL_OFF = 0.0
+# Since 24 Nov 2026 (the review of video 17): setting every clip's sound to one level turned the T-rex's footfall down 24 dB
+# and turned three nearly silent clips up 8-12 dB. A new video sets MAXBOOST = 3 (never raise a clip's sound by more than
+# 3 dB), QUIET = -35 (leave out a clip whose active level is below this) and MUTE (clips whose sound a recogniser heard a
+# word in, or the user's ear turned down). They are off here so that 'full' still reproduces video 17 as delivered.
+MAXBOOST, QUIET, MUTE = None, None, set()
 def mix(segs, fx, t1, out, voice_only=False, final=None):
     """The voice; the bed; each clip's own sound where its picture is (at the speed it plays); the counter's tick at each jump
     and the till as the final bill grows. t1 includes the street card."""
@@ -317,7 +333,10 @@ def mix(segs, fx, t1, out, voice_only=False, final=None):
             k, s0, s1, v0, v1 = x['k'], x['s0'], x['s1'], x['v0'], x['v1']
             if s1 - s0 < 0.05 or x.get('whip'): continue
             if k not in lv: lv[k] = clip_level(k)
-            g = v_db - FX_UNDER - lv[k] + FX_OFF.get(k, 0.0); d = int(round(v0 * 1000)); L = s1 - s0; sp = L / (v1 - v0)
+            if k in MUTE or (QUIET is not None and lv[k] < QUIET): continue
+            g = v_db - FX_UNDER - lv[k]
+            if MAXBOOST is not None: g = min(g, MAXBOOST)
+            g += FX_OFF.get(k, 0.0); d = int(round(v0 * 1000)); L = s1 - s0; sp = L / (v1 - v0)
             tempo = f"atempo={sp:.4f}," if abs(sp - 1) > 0.01 else ""
             inputs += ['-ss', f'{s0:.3f}', '-t', f'{L:.3f}', '-i', f'clips/{k}.mp4']
             fc.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,{tempo}afade=t=in:d=0.03,"
@@ -486,3 +505,92 @@ if MODE == 'full-remix':                             # the audio only, onto the 
     run(['-i', 'work/full_burn_card.mp4', '-i', 'work/full_voice.wav'] + aenc + ['work/17-final-voiceonly.mp4'])
     run(['-i', 'work/full_clean_card.mp4', '-i', 'work/full_mix.wav'] + aenc + ['work/17-final-clean.mp4'])
     print('loudness final, voice only (LUFS, true peak dBFS):', loudness('work/17-final.mp4'), loudness('work/17-final-voiceonly.mp4'))
+
+# ---- since 24 Nov 2026 (the review of video 17, CLAUDE.md 7.4): the edit rules that keep the steps crisp ----
+# 1. A clip is never cut before its step has settled, and the finished step is shown still for a beat before the next clip
+#    starts. If the words leave no room, the narration gets a step beat (steps-timing.py --gaps) or the clip plays faster
+#    (frames are dropped; a moving part is never slowed and never cut off).
+# 2. Every clip starts at its fifth frame or later (MINSTART). wan2_7's first frames fade from the start picture's tone and
+#    texture into the clip's own (about 6 levels darker): a join into frame 0 jumps by about 5 grey levels in the parts of
+#    the picture where nothing moves; into frame 4 by about 1.3 (measured on video 17's 26 joins).
+# 3. No whip and no blur to hide a jump, and no fast zoom: the push-in is slow and is never snapped back.
+MINSTART, STEP_BEAT = 4 / FPS, 0.20      # and XFADE = 3 (set where a video is built: see 'recut4')
+def place2(items, end):
+    """items: dicts with k (clip), land (source time of the landing), at (video time the landing must fall on), settle
+    (source time by which the step is finished and still) and optionally s0 (first source time shown; at least MINSTART),
+    speed (1.0; more plays the clip faster) and to (last source time shown; default: settle). Each clip plays from
+    at - (land - s0) / speed to `to`, then rests on that frame until the next clip starts. Returns (segments, report);
+    report rows are (clip, starts, lands, settled at, next starts, beat): a beat under STEP_BEAT means the next clip would
+    cut into this step, and STEP_BEAT - beat is the silence to add after this step's phrase (steps-timing.py --gaps)."""
+    out, rep = [], []
+    it = [{'s0': MINSTART, 'speed': 1.0, **x} for x in items]
+    for x in it: x['s0'] = max(x['s0'], MINSTART); x['v0'] = x['at'] - (x['land'] - x['s0']) / x['speed']
+    for i, x in enumerate(it):
+        vn = it[i + 1]['v0'] if i + 1 < len(it) else end
+        to = x.get('to', x['settle']); v_done = x['v0'] + (to - x['s0']) / x['speed']
+        v_settled = x['v0'] + (x['settle'] - x['s0']) / x['speed']
+        v1 = min(v_done, vn); out.append(seg(x['k'], x['s0'], x['s0'] + (v1 - x['v0']) * x['speed'], x['v0'], v1))
+        if v1 < vn - 1e-6: out.append(seg(x['k'], to, to, v1, vn))
+        rep.append((x['k'], x['v0'], x['at'], v_settled, vn, vn - v_settled))
+    return out, rep
+
+if MODE == 'recut4':
+    # A test of the rules above on loop 4 of video 17 (the night house: slab, walls, roof, door), where the delivered
+    # edit cut every clip into the next. Same clips; the narration re-timed with step beats (steps-timing.py --out steps).
+    # -> work/recut4.mp4: the loop as delivered, then the loop under the new rules.
+    WORDS = [(d['a'], d['b'], d['w']) for d in json.load(open('audio/words_steps.json'))]
+    BUTS = [a for a, b, w in WORDS if norm(w) == 'but']
+    so = at('so', after=BUTS[3]); T0 = so - 0.30; T1 = at('house', after=so, end=True) + 0.60
+    items = [dict(k='W4_1', land=1.10, settle=1.30, at=at('slab', after=so) + 0.16),
+             dict(k='W4_2', s0=0.35, land=1.30, settle=2.40, speed=1.25, at=at('walls', after=so) + 0.06),   # four walls, one by one
+             dict(k='W4_3', land=0.75, settle=1.30, at=at('roof', after=so) + 0.10),
+             dict(k='W4_4', s0=0.35, land=1.47, settle=1.47, at=at('shut', after=so) + 0.15)]   # 1.47: before the building jumps
+    segs, rep = place2(items, T1)
+    head = segs[0]['v0'] - T0                       # before the slab: the end of FC4, to its last frame
+    segs = [seg('FC4', lastf('FC4') - head, lastf('FC4'), T0, segs[0]['v0'])] + segs
+    print('clip   starts  lands   settled  next starts  beat on the finished step')
+    for k, v0, vl, vs, vn, beat in rep:
+        print(f'  {k:5s} {v0 - T0:6.2f} {vl - T0:6.2f}  {vs - T0:6.2f}   {vn - T0:6.2f}      {beat:+5.2f} s' + ('   << the next clip cuts in' if beat < STEP_BEAT - 0.01 else ''))
+    for x in segs: x['v0'] -= T0; x['v1'] -= T0
+    END = T1 - T0; SEGS[:] = segs
+    WORDS = [(a - T0, b - T0, w) for a, b, w in WORDS if T0 - 0.01 <= a < T1]
+    RATE = 0.006                                    # a slow push-in, never snapped back
+    XFADE = 3
+    render(segs, END, [(0.0, END + 1, 'push')], 'work/recut4_raw.mp4')
+    this = at('this'); ev = caption_events(0, END)
+    ev += ov.label_events([('NIGHT HOUSE', this, min(at('house', end=True) + 0.35, END))], 0, END)
+    ev += ov.bill_events({'start': 81871, 'steps': [(this, 87500)], 'final': None, 'end': END}, 0, END)
+    open('work/recut4.ass', 'w').write(ASS_HEAD + '\n'.join(ev) + '\n')
+    # the sound: the voice from T0, the bed, each clip's own sound where its picture is, never boosted by more than 3 dB
+    MAXBOOST, QUIET = 3.0, -35.0
+    run(['-ss', f'{T0:.3f}', '-t', f'{END:.3f}', '-i', 'audio/narr_steps.wav', 'work/recut4_voice_in.wav'])
+    _mix_voice = 'work/recut4_voice_in.wav'
+    v_db = rms_db('audio/narr_steps.wav'); bed = bed_loop(); inputs = ['-i', _mix_voice, '-stream_loop', '-1', '-i', bed]
+    fc = [f"[0:a]aresample=48000,pan=stereo|c0=c0|c1=c0,apad=whole_dur={END:.3f},atrim=0:{END:.3f}[v]",
+          f"[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,atrim=0:{END:.3f},volume={v_db - BED_UNDER - rms_db(bed):.2f}dB,afade=t=in:d=0.3,afade=t=out:st={END - 0.5:.3f}:d=0.5[bed]"]
+    parts = ['[v]', '[bed]']; n = 2
+    for x in segs:
+        if x['s1'] - x['s0'] < 0.05: continue
+        lvl = clip_level(x['k'])
+        if lvl < QUIET: print(f"  {x['k']}: its own sound is left out (active level {lvl:.0f} dB)"); continue
+        g = min(v_db - FX_UNDER - lvl, MAXBOOST); L = x['s1'] - x['s0']; sp = L / (x['v1'] - x['v0']); d = int(round(x['v0'] * 1000))
+        tempo = f"atempo={sp:.4f}," if abs(sp - 1) > 0.01 else ""
+        inputs += ['-ss', f"{x['s0']:.3f}", '-t', f'{L:.3f}', '-i', f"clips/{x['k']}.mp4"]
+        fc.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,{tempo}afade=t=in:d=0.03,afade=t=out:st={max(0, x['v1'] - x['v0'] - 0.06):.3f}:d=0.06,volume={g:.2f}dB,adelay={d}|{d}[c{n}]")
+        parts.append(f'[c{n}]'); n += 1
+    d = int(round((this + ov.CHIP_IN + ov.CHIP_HOLD) * 1000)); inputs += ['-i', 'audio/tick.mp3']
+    fc.append(f"[{n}:a]aresample=48000,pan=stereo|c0=c0|c1=c0,atrim=0:0.12,volume={v_db - FX_UNDER - rms_db('audio/tick.mp3') + TICK_OFF:.2f}dB,adelay={d}|{d}[c{n}]"); parts.append(f'[c{n}]')
+    fc.append(''.join(parts) + f"amix=inputs={len(parts)}:normalize=0:duration=first,atrim=0:{END:.3f},loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit={LIMIT}:level=false,aresample=48000[a]")
+    run(inputs + ['-filter_complex', ';'.join(fc), '-map', '[a]', '-ac', '2', '-c:a', 'pcm_s16le', 'work/recut4_mix.wav'])
+    tag = "drawtext=fontfile=fonts/HBXCaption.ttf:text='{}':fontsize=46:fontcolor=0xFFD62E:borderw=5:bordercolor=black:x=(w-text_w)/2:y=112"
+    run(['-i', 'work/recut4_raw.mp4', '-i', 'work/recut4_mix.wav', '-vf', 'ass=work/recut4.ass:fontsdir=fonts,' + tag.format('SAME CLIPS, NEW EDIT RULES'),
+         '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', 'work/recut4_new.mp4'])
+    # the same words as delivered (video 17's own timing), cut from the final
+    WT = [(d['a'], d['b'], d['w']) for d in json.load(open('audio/words_tight.json'))]
+    o_so = [a for a, b, w in WT if norm(w) == 'so'][3]; o_end = [b for a, b, w in WT if norm(w) == 'house.' or w == 'house.'][0]
+    run(['-ss', f'{o_so - 0.30:.3f}', '-t', f'{o_end + 0.60 - (o_so - 0.30):.3f}', '-i', 'work/17-final.mp4', '-vf', tag.format('LOOP 4 AS IT IS IN VIDEO 17'),
+         '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', str(FPS), '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', 'work/recut4_old.mp4'])
+    run(['-i', 'work/recut4_old.mp4', '-i', 'work/recut4_new.mp4', '-filter_complex',
+         '[0:v]setsar=1[a];[1:v]setsar=1[b];[0:a]aresample=48000[x];[1:a]aresample=48000[y];[a][x][b][y]concat=n=2:v=1:a=1[v][o]',
+         '-map', '[v]', '-map', '[o]', '-c:v', 'libx264', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', 'work/recut4.mp4'])
+    print('recut4: old', round(o_end + 0.60 - (o_so - 0.30), 2), 's, new', round(END, 2), 's; loudness of the new half:', loudness('work/recut4_new.mp4'))
