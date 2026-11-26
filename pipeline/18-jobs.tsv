@@ -81,3 +81,18 @@ S5_3	(local)	final: S5_2 with only the two dark slings taken from S5_3.T
 CV4_1	(local)	final, revised: CV4_0 with only the front pair of blocks from CV4_1.T (it rendered two rows of two)
 CV4_2	(local)	final: CV4_0 with all four blocks from CV4_1.T; CV4_2.T (it put the second row on the deck) not used
 S5_U.T	2477056d-a97d-4db3-a155-7d83e6e3fd83	the sailboat lifted, a text edit of S5_3.T
+S0.U	29f39151-9685-40b2-a551-4a455c817277	uploaded, no credits: S0 as shown at Gate C (rebuilt on H, so the hook clip changes only the truck and the lawn it tears)
+S2_T.U	828baa85-a2b9-4c06-bc37-06e09b4fd702	uploaded, no credits: S2_T as shown at Gate C (the boat on its cradle, held by the trigger)
+F3.U	08c3e364-d281-4dab-b6f0-5e4dde3d9b87	uploaded, no credits: F3 as shown at Gate C (through the dock)
+S3_1.U	cd029b21-0d1a-4280-ad64-2d2583051646	uploaded, no credits: S3_1 as shown at Gate C (winched back up)
+S3_2.U	e315e515-c812-4291-bc11-81ee516f23e1	uploaded, no credits: S3_2 as shown at Gate C (the first pair of heaps)
+S3_3.U	179c2121-3bbb-4460-a1d6-11e4e1370476	uploaded, no credits: S3_3 as shown at Gate C (the second pair of heaps)
+HOOK	0dd2d714-fb6f-4ac8-80ce-a8a1ebda6ce5	clip (wan2_7 720p, 4 s, 6.00): S0 -> H, the pickup's wheels spin, it slews and lifts (pilot)
+FC3	617edf92-fcf1-47f1-bce5-3cbcd132e408	clip (3 s, 4.50): S2_T -> F3, set free, through the dock (pilot)
+W3_1	c8619521-7b49-47b4-bb3b-bd925add8d0d	clip (3 s, 4.50): F3 -> S3_1, winched back up the rails (pilot)
+W3_2	7e0983b3-d22f-41da-b4c0-2dade4863e1f	clip (2 s, 3.00): S3_1 -> S3_2, the first pair of heaps drops (pilot)
+W3_3	aeaa4952-5252-4401-a5d1-5f089c67faa1	clip (2 s, 3.00): S3_2 -> S3_3, the second pair drops (pilot)
+W3_L	3fa3058b-28d9-4f71-9555-4c53ce6e1e51	clip (3 s, 4.50): S3_3 -> S3_L, the launch that works (pilot)
+BED	151e5a53-7aaa-4356-804b-4fdbf774f57e	sound (mirelo_text_to_audio, 10 s, 2.50): the lakeside bed
+TICK17	056c458c-741d-4b07-a082-3ccedcadc5d6	video 17's tick, reused (no credits)
+TILL17	9d6c9ff8-c5ea-4f1d-b081-6af8bbf7f0d9	video 17's till, reused (no credits)

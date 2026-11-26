@@ -114,12 +114,14 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 - **Video 18 is B20** ("How to Launch a Ship From Your Back Yard"), chosen by the user on 25 Nov 2026 with the kickoff
   prompt. **Gate A was approved that day:** 220 words, five loops (slipway, launching trigger, drag chains, iron ballast,
   boat hoist), 16 steps, the bill $397,150. **Gate B, the quote of 190.66 credits, was approved that day.** **Gate C
-  was shown on 26 Nov 2026** (the 29 stage pictures, the boat against its key, and the narration to listen to); it waits
-  for the user. Spent so far 50.29 (36 picture tries, one narration take). The boat lies across the lawn and is launched
+  was approved on 26 Nov 2026** (the 29 stage pictures, the boat against its key, and the narration to listen to), and
+  **the Gate D pilot was shown that day** (the opening and loop 3: six clips, all usable on the first render, each step
+  on its word and at rest before the next); it waits for the user. Spent so far 78.29 (36 picture tries, one narration
+  take, six pilot clips, the bed). The boat lies across the lawn and is launched
   sideways, toward the camera: the set's lake came out 15% of the frame deep, and an end-on hull would have been 17% of
   the frame wide; the user said "approve" after seeing frame 0. The script, the bill, the step sheet and the log are
   `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`; the pictures' prompts and job ids `18-prompts.py` and
-  `18-jobs.tsv`; the layouts `18-stage.py`.
+  `18-jobs.tsv`; the layouts `18-stage.py`; the edit `18-build.py`.
 - **The dog** is no longer in every video (25 Nov 2026; 4.5).
 - **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
   are left.
@@ -953,7 +955,7 @@ each Gate A.
   Britannica's name. 16 steps, every landing 1.8 s or more from the next; 220 words; the bill $397,150, of which the
   hoist is $351,000. Loops 2 and 4 are built in closer views. The script, the bill, the step sheet and the log of every
   step are `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`. Gate B approved the same day; staged sideways
-  (the boat across the lawn, launched toward the camera); Gate C shown on 26 Nov 2026.
+  (the boat across the lawn, launched toward the camera); Gate C approved and the Gate D pilot shown on 26 Nov 2026.
 
 **B21. How to Build a 2,000-Foot TV Tower in Your Back Yard** (a back yard under open sky)
 - **Title:** "How to Build a 2,000-Foot TV Tower in Your Back Yard" (51 characters). **Caption:** the title, "Guess the bill
@@ -1731,6 +1733,15 @@ copies of the memory.
   A failure has to be one the picture shows (4.3).
 - **A creature's fast turn can bend him:** in FC3 his tail stood up straight for about 0.3 s as he spun; at speed it reads as
   a whip.
+- **Video 18's pilot (26 Nov 2026): all six clips usable on the first render,** among them a launch down rails into a
+  splash that smashes a dock, a cradle surfacing under a floating hull, and a hull rolling into the water dragging four
+  chain heaps. The heaps flew out from the hull's ends and landed, where the prompt asked them to drop from the sky: a
+  solid part arriving, so it passed. **Read a small part's timing in its own box:** for heaps 0.5% of the frame,
+  `steps-check.py`'s whole-frame `settle` (0.5 s, 0.1 s) saw only the fade-in; in their boxes they land at 0.6 s and settle
+  by 0.8 s.
+- **wan2_7's frame 0 is 8.6–10 grey levels off its start picture** in the parts that don't move, frames 2–5 about 3.8, and
+  its last frames 3.8–4.7 off its end picture (video 18, 26 Nov 2026): the tail stays in the clip's own tone and does not
+  return to the picture. A tail joined to the next clip's frame 4 differs by 2.5 there; to its frame 0, by 11.
 
 ### 7.3 Pace
 - **Count what changes on screen:** the helipad about 50 times in 69 s, video 16 about 30 in 68 s (1.9). Aim for 35–40.
@@ -1777,6 +1788,12 @@ copies of the memory.
 - **Join on the fifth frame, with three frames mixed** (`MINSTART`, `XFADE`; why: 7.2). Over video 17's 26 joins the jump
   in the still parts of the picture was 5.05 grey levels (the median) into a clip's frame 0, 1.34 into its frame 4 and
   1.17 into its frame 8. Matching the tone by percentiles or by bands did not take it out; skipping the frames did.
+- **Mix a join only where the incoming clip is still** (`render()` in `18-build.py`, 26 Nov 2026). Where the incoming
+  clip's part moves at once (video 18's cradle surfacing, its hull rolling), a plain three-frame mix showed the hull twice
+  for two frames; a mask on the difference between the two frames switched the floating hull's shading in one frame. The
+  mix is now masked by the incoming clip's own motion over the frames mixed, read from its frame 4 on: what moves is taken
+  whole, the rest is mixed. `joins_check.py` prints that own motion beside each join: a change within it plus 1 is the
+  step moving, not a jump; look at the strip either way.
 - **A small part can be slowed** with nearest frames (the mower at 0.83× and 0.5×) and nothing shows; a big moving part never.
 - **A whip does not hide a jump inside a view.** Video 17's (the frame flies off to the left, blurred along the move) was
   0.3 s of smear at 46.0 s, and the user saw mush. Fix the picture (7.1); between two different views, cut on the word.
@@ -2301,6 +2318,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   bill $397,150); the step sheet and the quote (190.66 credits) were written and Gate B shown. Nothing spent yet.
 - **25–26 Nov:** Gate B approved; video 18's 29 stage pictures (36 tries) and its narration made, the boat staged
   sideways; most pictures laid out on this machine and only the step taken from a render (7.1). Gate C shown.
+- **26 Nov:** Gate C approved; video 18's pilot (the opening and loop 3, six clips, 28.00 credits with the bed) made and
+  shown at Gate D; the join's mix masked by the incoming clip's motion (7.4).
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
   (`afc98b6`).

@@ -37,20 +37,39 @@ while True:
 step = np.array([0.0] + [float(np.abs(G[i] - G[i - 1]).mean()) for i in range(1, len(G))])
 rest = float(np.percentile(step[1:], 20))
 print(f'{len(G)} frames; a resting picture changes by about {rest:.2f} a frame')
-print('  t(s)   join             kind      change   out clip cut at (settles at)        in clip starts at')
+def own_motion(k, s0, n=6):
+    """The incoming clip's own frame-to-frame change over its first n frames shown, measured the same way (26 Nov 2026):
+    a clip whose step starts at once (video 18's W3_1 and W3_L) moves by 3-4 a frame there, and that is its step, not a
+    jump at the join. None if the clip file is not in <work dir>/clips."""
+    p = f'{D}/clips/{k}.mp4'
+    if not os.path.exists(p): return None
+    c = cv2.VideoCapture(p); j0 = int(round(s0 * FPS)); out, prev, j = [], None, 0
+    while j <= j0 + n:
+        ok, f = c.read()
+        if not ok: break
+        if j >= j0 - 1:
+            g = cv2.GaussianBlur(cv2.cvtColor(cv2.resize(f, (270, 480), interpolation=cv2.INTER_AREA), cv2.COLOR_BGR2GRAY), (0, 0), 1.2).astype(np.float32)
+            if prev is not None: out.append(float(np.abs(g - prev).mean()))
+            prev = g
+        j += 1
+    return max(out) if out else None
+print('  t(s)   join             kind      change  (in clip\'s own)  out clip cut at (settles at)   in clip starts at')
 bad = 0
 for a, b in zip(segs, segs[1:]):
     if a['k'] == b['k'] and abs(a['s1'] - b['s0']) < 0.05: continue
     kind = 'whip' if (a.get('whip') or b.get('whip')) else 'view cut' if a.get('view') != b.get('view') else 'join'
     i = int(round(a['v1'] * FPS)); ch = float(step[max(1, i - 1):i + 5].max()) if i < len(step) else 0.0
-    st = chk.get(a['k'], {}).get('settle'); notes = []
+    st = chk.get(a['k'], {}).get('settle'); notes = []; own = own_motion(b['k'], b['s0']) if kind == 'join' else None
     if kind == 'join':
         if st is not None and a['s1'] < st - 0.04: notes.append(f"CUT {st - a['s1']:.2f} s BEFORE IT SETTLED")
         if b['s0'] < 4 / FPS - 1e-3: notes.append('starts on frame 0-3 (tone pop)')
-        if ch > 2.5: notes.append('JUMP')
+        if ch > 2.5:
+            if own is not None and ch <= own + 1.0: notes.append('its step moves from the first frame shown (look at the strip)')
+            else: notes.append('JUMP')
         bad += bool(notes)
-    print(f"{a['v1']:6.2f}  {a['k']:5s} -> {b['k']:5s}  {kind:8s} {ch:6.2f}   {a['s1']:4.2f} ({'%.2f' % st if st is not None else '  ? '})"
-          f"                      {b['s0']:4.2f}   {'  '.join(notes)}")
+    ch = f'{ch:6.2f}' + (f'  ({own:5.2f})       ' if own is not None else '                 ')
+    print(f"{a['v1']:6.2f}  {a['k']:5s} -> {b['k']:5s}  {kind:8s} {ch}  {a['s1']:4.2f} ({'%.2f' % st if st is not None else '  ? '})"
+          f"                {b['s0']:4.2f}   {'  '.join(notes)}")
 print(f'{bad} joins to look at')
 if m.get('steps'):
     st = sorted(m['steps'], key=lambda x: x[1]); print('landings closer than 1.6 s:')

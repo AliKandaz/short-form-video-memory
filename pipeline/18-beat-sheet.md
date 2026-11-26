@@ -5,7 +5,7 @@ effects; no dog). The first video written to the step rules of 25 Nov 2026 (4.3)
 2026** ("approve": the title, the script, the loops and the bill as below, with "iron ballast" and the sizes behind the
 bill). The script is `18-script.txt` (220 spoken words, ~68.6 s with the street card); the bill is `18-bill.md` ($397,150,
 spoken "about four hundred thousand dollars"). Balance at the start: 502.43 Higgsfield credits (Ultra). **Gate B approved
-by the user on 25 Nov 2026** ("approve": the quote of 190.66). **Gate C shown on 26 Nov 2026** (the last section).
+by the user on 25 Nov 2026** ("approve": the quote of 190.66). **Gate C approved by the user on 26 Nov 2026** ("approve": the 29 stage pictures and the narration). **The Gate D pilot shown on 26 Nov 2026** (the last section).
 
 ## Gate A
 
@@ -300,3 +300,77 @@ down the rails, bigger again afloat nearer the camera), never in a clip that doe
 ### Spend to Gate C
 36 picture tries (45.00) and one narration take (5.29): **50.29** of the 190.66 quote (pictures were planned at up to 44
 tries, 55.00). Balance about 452.14.
+
+## Step 7: the pilot (26 Nov 2026), shown at Gate D
+
+**What was rendered:** the hook and loop 3, the hardest fix (a launch through the dock, the winch back, two drops of chain
+heaps, the launch that works), as planned at Gate C: six `wan2_7` clips at 720p (25.50) and the 10 s lakeside bed from
+`mirelo_text_to_audio` (2.50). The tick and the till are video 17's (`TICK17`, `TILL17` in `18-jobs.tsv`; no credits).
+The six stage pictures the clips run between were uploaded as shown at Gate C (`S0.U` … `S3_3.U`; H and S3_L as before).
+Prompts: `18-prompts.py` (`C`; 6.3's lines, with ONE and STAY for the heaps). **All six were usable on the first render;
+nothing was re-rendered.**
+
+### The clips (`steps-check.py`; each one's start and end within 0.2 px of its pictures; read on their sheets at 8 frames
+a second and on close strips)
+| Clip | From → to | What it does | Lands | Settled |
+|---|---|---|---|---|
+| HOOK (4 s) | S0 → H | the pickup strains; it slews left from 0.6 s, earth flies from 0.9 s, its nose lifts by 2 s; the spray runs to the end; the boat never moves | (the opening) | 3.1 s |
+| FC3 (3 s) | S2_T → F3 | the hook opens at 0.15 s; boat and cradle roll down the rails; it hits the dock's T-end at 1.07 s; planks fly, the splash peaks 1.3–1.5 s; it floats in foam and rings | 1.07 s | 2.53 s |
+| W3_1 (3 s) | F3 → S3_1 | the cradle surfaces under the floating hull at 0.25 s and lifts it; both roll back up the rails and stop at the top at 1.6 s; drips and ripples | 1.60 s | 2.30 s |
+| W3_2 (2 s) | S3_1 → S3_2 | two heaps of chain fly out from the hull's ends from 0.2 s (the prompt asked for them to drop from the sky) and land at 0.6 s with dust, their wires to the hull | 0.60 s | 0.80 s* |
+| W3_3 (2 s) | S3_2 → S3_3 | two more heaps, further down, the same way | 0.60 s | 0.80 s* |
+| W3_L (3 s) | S3_3 → S3_L | the hook opens at 0.3 s; the boat rolls down dragging the four heaps with puffs of dust; in the water at 1.5 s; afloat and level at 1.73 s; ripples | 1.73 s | 2.07 s |
+
+\* The heaps are 0.5% of the frame: `steps-check.py`'s whole-frame `settle` (0.5 s and 0.1 s) saw only the first frames'
+fade, so their settle was read in their own boxes (motion back to the noise floor by 0.8 s) and written into `check.json`.
+Small parts that move are read in their own box.
+
+### The time map (`18-build.py pilot`; `place2()`; every clip from its fifth frame, played to its end unless the next
+step starts first)
+| Clip | Starts | Lands | On the word | Settled | Next starts | Beat at rest |
+|---|---|---|---|---|---|---|
+| FC3 | 28.96 | 29.90 | "rams" 29.90 (the hook opens on "set free") | 31.36 | 31.99 | 0.63 s |
+| W3_1 | 31.99 | 33.45 | "rails" 33.35 | 34.15 | 35.22 | 1.07 s |
+| W3_2 | 35.22 | 35.69 | "chain" 35.59 | 35.89 | 37.33 | 1.44 s |
+| W3_3 | 37.33 | 37.80 | "heaps" 37.70 | 38.00 | 38.24 | 0.24 s |
+| W3_L | 38.24 | 39.84 | rolls from "These" 38.28, afloat 0.25 s after "chains." | 40.18 | 41.76 ("But") | 1.58 s |
+
+The hook plays from its fifth frame at frame 0 at its own speed to the first "But" (3.45 s). No step beat had to be added
+to the narration: every clip fits the words as the user heard them at Gate C.
+
+### The joins (`analysis/joins_check.py` on loop 3's clean picture; a resting picture changes by 0.29 a frame)
+- W3_1 → W3_2 1.19 and W3_2 → W3_3 1.18: clean.
+- FC3 → W3_1 3.18 against W3_1's own motion 2.26, and W3_3 → W3_L 2.53 against W3_L's own 2.72: both incoming clips move
+  from their first frame shown (the cradle surfaces; the hull rolls). `joins_check.py` now prints that own motion beside
+  each join (26 Nov 2026), so the step starting is not taken for a jump.
+- **The mix at a join, three tries.** A plain three-frame mix showed the hull twice for two frames at both of those
+  joins (the incoming part already moving). A mask on the difference between the two frames switched the floating hull's
+  shading in one frame. Now (`render()`): the mix is masked by the incoming clip's own motion over the frames mixed, read
+  from its frame 4 on: what moves is taken whole, the rest is mixed. What remains at 31.99 s is the foam: the two clips
+  draw the water round the floating hull differently, and it changes as the cradle starts to rise (`pilot_joins.jpg`).
+- **wan2_7's frame 0 is 8.6–10 grey levels off its start picture** in the parts that don't move, its frames 2–5 about
+  3.8, and its last frames 3.8–4.7 off its end picture: the tail stays in the clip's own tone. A tail joined to the next
+  clip's frame 4 differs by 2.5 there, to its frame 0 by 11.
+
+### Sound
+- Every clip's own sound was put through Parakeet: no words heard in any. None left out; active levels: HOOK −15.7,
+  FC3 −12.5, W3_1 −33.4, W3_2 −18.8, W3_3 −10.5, W3_L −33.6 dB (the two quiet ones raised at most 3 dB).
+- The HOOK's engine and tires sound for its first 1.8 s and then die away while the spray goes on; in the opening they
+  sit about 9 dB under the voice in its quiet moments (`under_the_voice.py`): an effect, not the bed. In loop 3 the bed
+  sits 19 dB under the voice. The bed: steady at −29 to −20 dB, most of its energy under 1 kHz, a low rumble at 80–96 Hz
+  (cut below 70 Hz in the mix).
+- The pilot: −14.4 LUFS, true peak −2.0 dB.
+
+### Motion
+Loop 3 moves in 71% of its seconds (`check_video.py`; the longest still stretch 2 s): the rests after the heaps (1.44 s)
+and before the next "But" are the step rule's beats. The opening: by 1.0 s the truck has slewed and earth is flying
+(`pilot_hook.jpg`); `check_video.py` can't read the spray, as 1.2 warns.
+
+### Files
+In the scratchpad's `v18/work/` (sent to the user in the app; not uploaded): `pilot.mp4` (the opening, then loop 3 from
+28.5 s, tagged at the top), `pilot_voiceonly.mp4`, `pilot_natural.mp4` (the six clips as they came, with their own
+sound). In the repo: `18-pilot-hook.jpg` (0, 0.5, 1 and 2 s), `18-pilot-steps.jpg` (each step on its word),
+`18-pilot-joins.jpg` (three joins frame by frame).
+
+### Spend to Gate D
+Six clips (25.50) and the bed (2.50): **78.29** of the 190.66 quote so far. Balance 424.14.

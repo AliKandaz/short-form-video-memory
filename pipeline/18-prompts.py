@@ -429,7 +429,56 @@ REFS.update({"S5_1": ["S5_1P"], "HOISTKEY": []}); ASPECT["HOISTKEY"] = "3:4"
 # ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3); written at Step 7 ----
 CLOCK = "The camera is locked and never moves."
 SELF = "Nobody is there: the parts move by themselves."
-C = {}
+TAIL = "Real speed. Motion starts on frame 1. No people, no characters. No animals. No text, no captions, no letters."
+STAYC = ("The house, the porch, the lawn, the grassy bank, the lake, the cut face of the block and everything already "
+"standing on the lawn or in the water stay exactly as they are: no hole, pit or trench opens anywhere.")
+ONEH = ("It is one solid heap of chain: it arrives whole, lands within the first second and then stays perfectly still. It "
+"does not melt, stretch, fade in or grow out of the ground.")
+STILLB = ("Nothing else in the picture moves or changes: the boat stands perfectly still on its wooden cradle, the cradle "
+"stays on the rails, and the black hook, the red lever, the rails and the heaps already there stay exactly as they are.")
+# key -> (start still, end still, seconds, prompt). The pilot (Gate D): HOOK and loop 3.
+C = {
+ "HOOK": ("S0", "H", 4,
+    "The red pickup truck strains forward against the tight rope tied to the boat behind it: its back wheels spin "
+    "furiously, tearing two dark ruts into the lawn and throwing a spray of brown earth and torn grass up behind it to "
+    "the right, and the truck slews round to the left with its front end lifting off the grass. The rope stays tight "
+    "and does not snap. The boat on its wooden blocks does not move at all. The truck's windows are dark: nobody is "
+    "seen in it. The barbecue, the dock and the lake stay exactly as they are. " + CLOCK + " " + TAIL +
+    " Sound: an engine revving hard, tires spinning and tearing on grass."),
+ "FC3": ("S2_T", "F3", 3,
+    "The black hook at the left swings open and lets go of the wooden cradle. At once the boat, on its cradle, rolls "
+    "down the two steel rails toward the camera, faster and faster, and runs into the lake with a big white splash; "
+    "its right end smashes through the T-shaped end of the wooden dock, which bursts into loose planks that scatter on "
+    "the water. The cradle sinks under the water at the end of the rails, and the boat ends floating in the lake close "
+    "to the camera, rocking in white foam with rings spreading round it. The red lever, the rails, the dock's root at "
+    "the bank and the overturned barbecue on the lawn stay where they are. " + SELF + " " + CLOCK + " " + TAIL +
+    " Sound: steel wheels rumbling on rails, a huge splash, wood splintering."),
+ "W3_1": ("F3", "S3_1", 3,
+    "The wooden cradle rises out of the water under the floating boat and lifts it, and boat and cradle are pulled "
+    "slowly back up the two steel rails, out of the lake and up the lawn, water streaming off the hull, until the black "
+    "hook at the left closes on the cradle and they stop at the top of the rails, exactly where they started. The lake "
+    "calms; the broken planks of the dock stay floating where they are. " + SELF + " " + CLOCK + " " + TAIL +
+    " Sound: a winch cable creaking, wheels rolling slowly up steel rails."),
+ "W3_2": ("S3_1", "S3_2", 2,
+    "Two heaps of heavy rusty anchor chain drop straight down out of the sky at the same moment and land on the lawn "
+    "with a heavy thud and a small puff of dust: one at the far left, beside the black hook, and one at the right, "
+    "beside the right rail. A thin steel wire runs from each heap to the nearest end of the boat. " + ONEH + " " +
+    STILLB + " " + SELF + " " + CLOCK + " " + STAYC + " " + TAIL +
+    " Sound: heavy chain dumped in a heap, a rattling crash."),
+ "W3_3": ("S3_2", "S3_3", 2,
+    "Two more heaps of heavy rusty anchor chain drop straight down out of the sky at the same moment and land on the "
+    "lawn just below the first two, with a heavy thud and a small puff of dust: one at the far left and one at the "
+    "right. A thin steel wire runs from each new heap to the nearest end of the boat. " + ONEH + " " + STILLB + " " +
+    SELF + " " + CLOCK + " " + STAYC + " " + TAIL +
+    " Sound: heavy chain dumped in a heap, a rattling crash."),
+ "W3_L": ("S3_3", "S3_L", 3,
+    "The black hook at the left swings open. The boat, on its wooden cradle, rolls down the two steel rails toward the "
+    "camera, slowly and steadily, dragging the four heaps of chain down the lawn behind it on their wires, the heaps "
+    "scraping the grass and raising small puffs of dust. The heaps stop at the top of the grassy bank; the cradle slides "
+    "under the water and the boat floats gently off it, level and calm, close to the bank, with small ripples round "
+    "it. The broken dock, its floating planks and the overturned barbecue stay where they are. " + SELF + " " + CLOCK +
+    " " + TAIL + " Sound: a low rumble, chain dragging over grass, a soft splash."),
+}
 
 def jobs():
     J = {}
