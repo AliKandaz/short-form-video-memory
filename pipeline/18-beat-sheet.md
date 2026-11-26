@@ -5,7 +5,7 @@ effects; no dog). The first video written to the step rules of 25 Nov 2026 (4.3)
 2026** ("approve": the title, the script, the loops and the bill as below, with "iron ballast" and the sizes behind the
 bill). The script is `18-script.txt` (220 spoken words, ~68.6 s with the street card); the bill is `18-bill.md` ($397,150,
 spoken "about four hundred thousand dollars"). Balance at the start: 502.43 Higgsfield credits (Ultra). **Gate B approved
-by the user on 25 Nov 2026** ("approve": the quote of 190.66). **Gate C approved by the user on 26 Nov 2026** ("approve": the 29 stage pictures and the narration). **The Gate D pilot shown on 26 Nov 2026** (the last section).
+by the user on 25 Nov 2026** ("approve": the quote of 190.66). **Gate C approved by the user on 26 Nov 2026** ("approve": the 29 stage pictures and the narration). **Gate D approved by the user on 26 Nov 2026** ("approve": the pilot). The rest of the clips, the repair of loop 5's end and the edit: Steps 8 and 9 (the last sections).
 
 ## Gate A
 
@@ -374,3 +374,122 @@ sound). In the repo: `18-pilot-hook.jpg` (0, 0.5, 1 and 2 s), `18-pilot-steps.jp
 
 ### Spend to Gate D
 Six clips (25.50) and the bed (2.50): **78.29** of the 190.66 quote so far. Balance 424.14.
+
+## Step 8: the rest of the clips (26 Nov 2026)
+
+**Rendered:** the other 19 clips in two batches (75.00), from 21 more of the Gate C pictures, uploaded unchanged (`*.U` in
+`18-jobs.tsv`). Every one starts and ends within 0.16 px of its pictures. Read on their sheets at 8 frames a second, on close
+strips and by the motion inside each part's own box:
+
+| Clip | What it does | Lands | Settled |
+|---|---|---|---|
+| FC1 (3 s) | the rope parts at 0.4 s; the truck races off left and is out of the frame by 1.27 s | 0.40 s | 1.90 s |
+| W1_1 (3 s) | ten piles fall and drive in together, with splash rings in the water | 0.75 s | 1.40 s |
+| W1_2 (2 s) | two rails come down, slightly tilted, and settle onto the piles | 0.45 s | 0.70 s |
+| W1_3 (2 s) | the cradle drops out of the sky onto the rails | 0.50 s | 0.73 s |
+| W1_4 (3 s) | still for 0.9 s (skipped in the edit), then the boat lifts off its blocks and settles on the cradle | 1.95 s | 2.30 s |
+| FC2 (3 s) | the cradle creeps from 0.2 s and flattens the barbecue | 1.60 s | 1.83 s |
+| W2_1 (2 s) | the trigger's pile drives in with a puff of dust (close view) | 0.50 s | 1.10 s |
+| W2_2 (2 s) | the hook swings in from above and clamps the cradle | 0.75 s | 0.90 s |
+| W2_3 (2 s) | the lever drops into its socket; its rod to the hook | 0.50 s | 0.70 s |
+| FC4 (3 s) | the boat leans from 0.9 s until the deck is under water (close view) | 2.00 s | 2.27 s |
+| W4_1 (3 s) | still to 0.8 s (skipped), then two blocks drop through the hatch | 1.15 s | 1.35 s |
+| W4_2 (3 s) | still to 0.55 s (skipped), then two more blocks come in from above | 0.95 s | 1.50 s |
+| W4_3 (3 s) | the hatch cover swings in and shuts; the boat rights itself by 1.63 s | 1.37 s | 2.00 s |
+| FC5 (3 s) | three small boats glide in from both sides and stop | from 0.2 s | 1.70 s |
+| W5_1 (3 s) | two piers drop in; their legs reach the lake bed | 0.80 s | 1.00 s |
+| W5_2 (2 s) | the yellow hoist arrives from the upper left and stands on the piers | 0.55 s | 0.70 s |
+
+**Loop 5's end failed, and was repaired** (13.00 of the reserve). W5_3 came back with the slings' tops vanishing: in S5_3
+they hung loose, their tops not on the beam, and ran down through the cut face. W5_U cross-faded a second sailboat in: the
+render that made S5_U had redrawn the boat turned about 25 degrees, 25% bigger and moved right. And LAST, started from
+S5_U alone, lifted the boat on up through the hoist. So:
+- **S5_3B** (`18-stage.py`, `slings2` and `S5_3B.M`): S5_2 with the slings of one render (S5_3B_T, 1.25) taken back alone,
+  hanging from the beam down both sides of the floating boat, their tails trimmed just under the water. The render had
+  redrawn the sailboat 25% smaller, so only the slings were taken.
+- **S5_UB** (`lifted` and `S5_UB.M`): the same boat raised 22 px on this machine, then the hoist's slot (only) taken from
+  a close render of that paste-up enlarged 5x (S5_UBC_T, 1.25), which kept the boat within 4 px and drew its red bottom,
+  keel, drips and the slings pulled tight. The render's wider pier edge was given back to open water.
+- **W5_3B** (2 s, 3.00): the slings lower from the beam and hang still by 0.93 s. **W5_UB** (5 s, 7.50): the slings lift the
+  boat clear by 1.33 s and it hangs, dripping, until 4.0 s; after that it sinks back toward the end picture, so the edit
+  stops it at 4.0 s. It is also the last shot: W5_U and LAST are not used.
+
+**The clips' own sounds** (Parakeet heard no word in any of the 25): W5_3B's is nearly silent (−38.8 dB) and is left out;
+W5_1's is a steady roar near full scale from 0.5 to 2.0 s, cut down to its impact (to 1.1 s). The rest play as they came,
+none raised more than 3 dB.
+
+## Step 9: the edit (26 Nov 2026; `18-build.py full`)
+
+**The time map:** every clip placed by `place2()` with its landing on the word that names it, played until it has settled
+and then resting on its last frame shown until the next starts; every join at the clip's fifth frame or later with three
+frames mixed, the mix masked by the incoming clip's own motion (7.4). The narration is the take the user heard at Gate C,
+unchanged: every step fits the words as they are, so no step beat was added. The views: the stage (0–20.52 s), the close
+view of the trigger (20.52–28.47, cut in on "you" of "So behind it you sink"), the stage (28.47–41.78), the close view of
+the hull (41.78–54.25, cut on "But once afloat"), the stage (54.25–69.76); each pushes in at 0.6% a second from its cut,
+never snapped back. The close views are not colour-shifted (they have no pale ground to measure).
+
+**Each step against its word** (video time, s):
+
+| Step | Lands | Word | | Rest after it settles |
+|---|---|---|---|---|
+| FC1 the rope parts | 4.54 | "inch" 4.49 | +0.05 | 1.76 |
+| W1_1 piles | 8.41 | "piles" 8.41 | 0.00 | 0.74 |
+| W1_2 rails | 10.12 | "rails" 10.12 | 0.00 | 1.35 |
+| W1_3 cradle | 12.09 | "cradle" 12.09 | 0.00 | 0.21 |
+| W1_4 hull (1.25x) | 13.98 | "hull" 13.98 | 0.00 | 2.03 (under "This is a slipway.") |
+| FC2 the barbecue | 17.85 | "flattens" 17.95 | −0.10 | 2.44 (to the cut) |
+| W2_1 pile | 21.74 | "pile" 21.74 | 0.00 | 1.00 |
+| W2_2 hook | 23.96 | "hook" 23.96 | 0.00 | 1.79 |
+| W2_3 lever | 26.27 | "lever" 26.27 | 0.00 | 2.01 (under "This is a launching trigger.") |
+| FC3 through the dock | 29.90 | "rams" 29.90 | 0.00 | 0.63 |
+| W3_1 winched back | 33.45 | "rails" 33.35 | +0.10 | 1.07 |
+| W3_2 chain | 35.69 | "chain" 35.59 | +0.10 | 1.44 |
+| W3_3 heaps | 37.80 | "heaps" 37.70 | +0.10 | 0.24 |
+| W3_L the launch that works | 39.84 | rolls from "These" 38.28 | | 1.60 (the long beat) |
+| FC4 it leans, the deck floods | 44.38 | "floods" 44.11–44.38 | +0.27 | 2.27 |
+| W4_1 blocks | 47.27 | "blocks" 47.27 | 0.00 | 1.46 |
+| W4_2 a second row | 49.32 | "row" 49.32 | 0.00 | 0.49 |
+| W4_3 hatch cover, level | 51.60 | "cover" 51.60 | 0.00 | 2.03 (under "This is iron ballast.") |
+| FC5 the boats come in | from 54.25 | "But" 54.25 | 0.00 | 2.67 |
+| W5_1 piers | 59.16 | "piers" 59.16 | 0.00 | 1.57 |
+| W5_2 crane | 61.34 | "crane" 61.34 | 0.00 | 1.95 |
+| W5_3B slings | 64.05 | "slings" 63.95 | +0.10 | 1.59 |
+| W5_UB the lift (and the last shot) | 67.06 | under "That's your shipyard." | | hangs, dripping, to the end |
+
+Rests are the time the finished step stands, part of it on the clip's own still tail. **Two changes after the first full
+render:** the rope now parts on "inch" (on "snaps", nothing moved for 1.5 s after the hook settled, 3.1–5.3 s, right after
+the first "But"); and the last shot pushes in, eased, from the start of the lift (65.90 s) to 1.35x toward the hoist at
+the end, so the lift reads at phone size (it happens in the left fifth of the frame). **Joins:** W1_4 is joined on its
+frame 4 (its boat glides from 0.37 s; joined at 0.9 s it snapped 16 px) and plays at 1.25x to land on "hull"; FC2 is joined
+on its frame 1 with a plain mix (its cradle creeps from frame 1). `joins_check.py` on the clean picture: 0.68 and 1.79 at
+those two joins (4.78 and 3.81 before; a resting picture 0.23). The labels and the counter's jumps
+fall on "This is a …": SLIPWAY 14.40, LAUNCHING TRIGGER 26.82, DRAG CHAINS 38.28, BALLAST 52.04, BOAT HOIST 64.71; the total
+grows on "The bill" at 67.43. The street card follows at 69.76 (16, 17 and 18 in its lots).
+
+## Steps 10–12: the finished video (26 Nov 2026)
+
+**Files** (Higgsfield storage; 12 Mbit/s copies of the 24 Mbit/s masters, which stay in the scratchpad):
+final https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/c30cbdda-b1f7-4682-8a32-b0674f61448d.mp4 ·
+voice only https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/4bd904bd-c230-417a-921c-df28d3f32249.mp4 ·
+clean master https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/975114f6-5742-487f-ab39-070c0fe52428.mp4.
+Covers `18-covers/` (A: the hull through the dock with "GUESS THE BILL"; B: the hull on its blocks at $50 above the
+finished yard at $???,???; C: the plain frame of the splash), the post copy `18-post-copy.md`, the street tile
+`street/18.jpg`.
+
+**Measured on the finished video:** 71.26 s (69.76 s of picture and 1.5 s of street card); −14.2 LUFS, true peak −1.9 dB;
+the bed 20 dB under the voice in its quietest moments (`under_the_voice.py`). `joins_check.py`: no two landings under
+1.6 s apart and no stretch of 2 s where nothing moves; the joins into a clip that starts still measure 0.7–2.2 (a resting
+picture 0.23); five joins go into a part that moves from the first frame shown (the rails 9.81 s, the cradle surfacing
+31.99 s, the launch 38.24 s, the blocks 46.92 and 48.92 s): there the change is that motion, and W1_2 draws its rails in
+mid-air in its own frame 2 (they fall and slam down in 0.3 s). `check_video.py`: something moving in 59% of the seconds,
+the longest still stretch 3 s; it counts the rests between steps (by rule) and the small parts (the hoist is in the left
+fifth of the frame) as still. The first second: frame 0 the pickup already straining on the tight rope, earth flying by
+1.0 s, slewed nose-up by 2.0 s; the first "But" at 3.47 s.
+
+**The narration** is the take the user heard at Gate C; what its check flagged is in the narration section above (all
+five naming sentences come back word for word; "back yard" is heard as "backyard"; a "look," after "hook" at 24.2 s is a
+recogniser artifact over near-silence). Nothing was changed after Gate C.
+
+**Spend:** 166.29 of the 190.66 quote (24.37 under): 38 picture tries 47.50 (two of them for loop 5's repair), one
+narration take 5.29, the bed 2.50, 27 clips 111.00 (25 used: W5_3, W5_U and LAST were replaced by W5_3B and W5_UB, which
+cost 10.50). The reserve paid 13.00 (the repair). Balance after: 336.14. No step lost its clip.

@@ -98,26 +98,26 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 11. **The dog is not in every video** (the user, 24 Nov 2026): a video has no dog unless the user says yes to him for that
     video (4.5).
 
-**Status on 25 Nov 2026 (read this first; each bullet carries its own date):**
+**Status on 26 Nov 2026 (read this first; each bullet carries its own date):**
 - **The style stands, and was tightened on 25 Nov 2026** after the user's review of video 17 (1.10): its steps ran into
   each other, and one term made no sense by ear. What video 17 did settle: a tester that stays the same animal (30
   pictures, 27 clips), failure clips, steps in the cut ground, water changing in a clip, a cut to a closer view, and the
-  clips' own sounds. **To prove on video 18's pilot (Gate D):** the new clip wording (one clean move, then still: 6.3);
-  steps at least 1.6 s apart with every clip shown until it has settled; joins that don't jump. The edit side of this is
-  measured, on a free re-cut of video 17's loop 4 (1.10, 7.4).
+  clips' own sounds. **Proven on video 18 (26 Nov 2026):** the new clip wording (one clean move, then still: 6.3) held in
+  22 of 25 clips at the first render; a script written with its landing words 1.8 s apart needed no step beat in the
+  narration; every clip plays until it has settled. The joins measure 0.7–2.2 where the next clip starts still (a resting
+  picture 0.23); at the five where its part moves from the first frame shown (the rails, the cradle surfacing, the
+  launch, the blocks) the change is that motion, and one clip draws its rails in mid-air (7.2, 7.4).
 - **Video 17** (B12, "How to Keep a T-Rex in Your Back Yard") was finished on 24 Nov 2026: 64.7 s, 169.58 credits of a
   188.40 quote, the bill $179,571; not posted. **The user reviewed it that day, found mistakes (1.10) and said not to redo
   it;** whether it is posted as it is, is the user's call. On offer, not asked for: a free re-cut by the new edit rules
   (the same clips), and a new take of the "This is a ha-ha" line under a plain name (0.46 credits quoted on 25 Nov 2026
   for that sentence with the phrase before it; its label and captions are free). Its post copy is `pipeline/17-post-copy.md`,
   its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2.
-- **Video 18 is B20** ("How to Launch a Ship From Your Back Yard"), chosen by the user on 25 Nov 2026 with the kickoff
-  prompt. **Gate A was approved that day:** 220 words, five loops (slipway, launching trigger, drag chains, iron ballast,
-  boat hoist), 16 steps, the bill $397,150. **Gate B, the quote of 190.66 credits, was approved that day.** **Gate C
-  was approved on 26 Nov 2026** (the 29 stage pictures, the boat against its key, and the narration to listen to), and
-  **the Gate D pilot was shown that day** (the opening and loop 3: six clips, all usable on the first render, each step
-  on its word and at rest before the next); it waits for the user. Spent so far 78.29 (36 picture tries, one narration
-  take, six pilot clips, the bed). The boat lies across the lawn and is launched
+- **Video 18** (B20, "How to Launch a Ship From Your Back Yard") **was finished on 26 Nov 2026:** 71.3 s with the street
+  card, **166.29 credits of a 190.66 quote** (38 picture tries 47.50, one narration take 5.29, the bed 2.50, 27 clips
+  111.00), the bill $397,150; not posted. All four gates were approved by the user (A and B on 25 Nov, C and D on 26 Nov).
+  Loop 5's end was rebuilt after its clips (7.1, 7.2: 13.00 of the reserve). Its post copy is `pipeline/18-post-copy.md`,
+  its covers `pipeline/18-covers/`, the log of every step `pipeline/18-beat-sheet.md`, the links in 9.2. The boat lies across the lawn and is launched
   sideways, toward the camera: the set's lake came out 15% of the frame deep, and an end-on hull would have been 17% of
   the frame wide; the user said "approve" after seeing frame 0. The script, the bill, the step sheet and the log are
   `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`; the pictures' prompts and job ids `18-prompts.py` and
@@ -128,16 +128,15 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
 - **Six more ideas** (25 Nov 2026): B16–B21 (2.3, 3.3), asked for as "construction, infrastructure, blue collar work"
   ideas and added by the user beside the first five: a street that stops speeding cars, a house in one day, a car factory
   in the garage, a train that stops at your house, a ship launched from the back yard and a 2,000-foot TV tower. B20 is
-  being made as video 18; nine ideas are left after it (B11, B13–B19, B21), and of the six my pick for the next is B16,
-  then B17. What the check found already built in that theme is in 3.4.
+  made (video 18); nine ideas are left (B11, B13–B19, B21), and of the six my pick for the next is B16, then B17. What the check found already built in that theme is in 3.4.
 - **Video 16** (the old idea B3, "How to Turn Your House Into a Christmas Light Show"), finished on 22 Nov 2026 in the
   earlier way of animating (68.1 s, 197.99 credits; the user didn't like it, above), **was posted by the user on 22 Nov
   2026**: on TikTok at 17:00 UTC, and on YouTube the same day. 309 views on TikTok and 8 on YouTube at about 33 h (read 24
   Nov 2026, 01:55 UTC); the 72 h read is due after 17:00 UTC on 25 Nov.
 - **The narrator is locked: Harrison** (22 Nov 2026), a Higgsfield preset voice (5).
-- **Higgsfield: 502.43 credits** on 24 Nov 2026 (`balance`): two videos at the cap before the Ultra plan renews (3,000 a
+- **Higgsfield: 336.14 credits** on 26 Nov 2026 (`balance`): one video at the cap before the Ultra plan renews (3,000 a
   month since 11 Nov 2026; check the date). ElevenLabs has 34 credits left and is no longer needed (6.0).
-- **Finished and not posted:** video 17, and style 2's s2-01 (`pipeline/s2-01-post-copy.md`), each on a day of its own.
+- **Finished and not posted:** videos 17 and 18, and style 2's s2-01 (`pipeline/s2-01-post-copy.md`), each on a day of its own.
 - **Owed by the user, the in-app checks** (asked 21 Nov 2026): YouTube Studio → Content → the Restrictions column, and
   youtube.com/features (strikes); TikTok → Settings and privacy → Account → Account status. A fresh YouTube channel for the
   build videos only if the old one is in good standing, never to get around a strike.
@@ -1695,6 +1694,13 @@ copies of the memory.
   with the cut face in it came back re-framed at 1.14x, a jump cut (CV4): cropped again on this machine instead.
 - **A render's own drift lands in the next clip.** Frame 0 was rebuilt on the hook's end picture so the hook clip changes
   only the truck and the lawn it tears (the render had moved the roof edge a pixel).
+- **A render can redraw a small object at another size, and that shows only in the clip** (video 18, 26 Nov 2026). Loop
+  5's lifted sailboat had been rendered turned about 25 degrees and 25% bigger, and the clip into it cross-faded a second
+  boat in; two later renders drew the same boat 25% smaller. The fix: move the object on this machine (the boat raised
+  22 px), and take from a render only what is new (the slings; the hull's red bottom from a close render of the 5x
+  enlarged paste-up, which kept the boat's size to 4 px). Check a small object's size between a picture and the next.
+- **What hangs or is held must touch what holds it** in both pictures: S5_3's slings hung loose, their tops short of the
+  beam, and the clip made their tops vanish.
 
 ### 7.2 Clips (wan2_7 and kling4_0)
 - **`wan2_7` starts and ends on its pictures** (under 0.15 px in the test, 0 px on s2-01), **does its step in the first
@@ -1742,6 +1748,13 @@ copies of the memory.
 - **wan2_7's frame 0 is 8.6–10 grey levels off its start picture** in the parts that don't move, frames 2–5 about 3.8, and
   its last frames 3.8–4.7 off its end picture (video 18, 26 Nov 2026): the tail stays in the clip's own tone and does not
   return to the picture. A tail joined to the next clip's frame 4 differs by 2.5 there; to its frame 0, by 11.
+- **Video 18's other 19 clips** (26 Nov 2026): 16 usable on the first render; the three of loop 5's end were not (7.1). Some
+  steps start late in their clip (the boat onto its cradle at 0.9 s, the blocks at 0.55–0.8 s): the edit skips the still
+  opening (`s0`), so the step still lands on its word with no rest before it.
+- **A start-only clip drifts on:** the last shot, started from the finished picture with nothing to end on, lifted the
+  sailboat on up through the hoist. One 5 s clip with both pictures did the lift and then held the boat hanging for 2.7 s;
+  only its last second sank back toward the end picture, and the edit stops before it. A last shot can be the tail of the
+  last step's clip.
 
 ### 7.3 Pace
 - **Count what changes on screen:** the helipad about 50 times in 69 s, video 16 about 30 in 68 s (1.9). Aim for 35–40.
@@ -1794,6 +1807,12 @@ copies of the memory.
   mix is now masked by the incoming clip's own motion over the frames mixed, read from its frame 4 on: what moves is taken
   whole, the rest is mixed. `joins_check.py` prints that own motion beside each join: a change within it plus 1 is the
   step moving, not a jump; look at the strip either way.
+- **Read where a step starts, not only where it lands** (video 18, 26 Nov 2026). Joined at 0.9 s, where its sheet looked
+  still, W1_4's boat had already glided 16 px: the join snapped it. Measure the moving part's own shift from the clip's
+  frame 4 (`phaseCorrelate` in its box); join while it is still, and if the narration leaves no room, play the clip up to
+  1.25x from that frame (W1_4: on "hull", 0.21 s after the cradle settled).
+- **A part that creeps from frame 1** (FC2's cradle) is 6 px on by frame 4: join it on frame 1 with a plain three-frame
+  mix (`PLAIN_JOIN`), which blurs a slow creep; the motion mask would snap it.
 - **A small part can be slowed** with nearest frames (the mower at 0.83× and 0.5×) and nothing shows; a big moving part never.
 - **A whip does not hide a jump inside a view.** Video 17's (the frame flies off to the left, blurred along the move) was
   0.3 s of smear at 46.0 s, and the user saw mush. Fix the picture (7.1); between two different views, cut on the word.
@@ -1840,6 +1859,8 @@ copies of the memory.
 - **The mix of video 17 measured:** −14.0 LUFS, true peak −2.0 dB, the bed 19 dB under the voice in the quietest
   moments, with `BED_UNDER` 15, `FX_UNDER` 11, `POST_GAIN` 0.0 and `LIMIT` 0.79: the full mix with the clips' own sounds
   came out 0.6 dB louder than video 16's (`POST_GAIN` 0.6 gave −13.4 LUFS), so measure each video's mix.
+- **A clip's own sound can be a steady roar:** W5_1's two piers came with a sound near full scale from 0.5 to 2.0 s, not
+  one impact. Cut it down to its impact (`SND_CUT` in `18-build.py`) rather than lower the whole clip.
 - **Setting every clip's own sound to one level was wrong** (video 17, 1.10): it turned three nearly silent clips up
   8–12 dB and the T-rex's footfall down 24 dB, and two clips carry a voice-like noise (a recogniser hears "Okay." in
   W1_3 and "Yeah." in W4_1). Now no clip is raised by more than 3 dB, none under −35 dB is used, and every clip's sound
@@ -1989,10 +2010,16 @@ copies of the memory.
 | 15 | Why This NFL Field Is Sitting on 546 Wheels | 21 Nov | cutaway, travelling camera | 196.25 | yes | 302 at 20 h; 317 at 72 h | 4 at 20 h; 8 at 72 h |
 | 16 | How to Turn Your House Into a Christmas Light Show (B3 of the old list) | 21–22 Nov | cutaway build at dusk, Harrison's voice, 68.1 s | 197.99 (quoted 199.81) | yes, but thin; first "But" at 3.73 s; bill $2,107 | posted 22 Nov, 17:00 UTC; 309 at 33 h | posted 22 Nov; 8 at about 33 h |
 | 17 | How to Keep a T-Rex in Your Back Yard (B12) | 23–24 Nov | cutaway build-steps, Harrison's voice, 64.7 s; reviewed by the user on 24 Nov (1.10), not redone | 169.58 (quoted 188.40) | yes: the pickets ring up from 0.13 s, half the ring is up by 1 s and all of it by 1.9 s, then nothing moves until 3.7 s; first "But" at 4.09 s; bill $179,571 | not posted | not posted |
+| 18 | How to Launch a Ship From Your Back Yard (B20) | 25–26 Nov | cutaway build-steps, the rules of 25 Nov, Harrison's voice, 71.3 s with the card | 166.29 (quoted 190.66) | yes: the pickup strains from frame 0, earth flies by 1 s, it slews nose-up by 2 s; first "But" at 3.47 s; the rope parts on "inch" (4.5 s); bill $397,150 | not posted | not posted |
 
 - **Posted on TikTok:** video 13 on 19 Nov at 23:04 UTC, video 14 on 20 Nov at 20:00 UTC, video 15 on 21 Nov at 01:45 UTC
   (5 h 45 min after video 14), video 16 on 22 Nov at 17:00 UTC (by the user, about noon US Eastern). Build videos are logged
   here from video 17, with the bill's total and each read at 24 h and 72 h.
+- **Video 18's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
+  give the links to the user; 12 Mbit/s copies of the 24 Mbit/s masters): final `c30cbdda-b1f7-4682-8a32-b0674f61448d`;
+  voice-only `4bd904bd-c230-417a-921c-df28d3f32249`; clean master `975114f6-5742-487f-ab39-070c0fe52428`; Higgsfield
+  folder `7cd1253a-3814-4416-b605-b7141f4d0b60`; job ids in `pipeline/18-jobs.tsv`; covers in `pipeline/18-covers/`;
+  street tile `pipeline/street/18.jpg` (the street now shows 16, 17 and 18).
 - **Video 17's files** (Higgsfield storage, `https://d2ol7oe51mr4n9.cloudfront.net/user_3F8W7HJSSs1Z3chuyNCs9igUdIk/<id>.mp4`;
   give the links to the user): final `9215ce52-d5c8-43e3-b75e-e7abc2611c67`; voice-only `b49bd844-96ff-454d-8abd-8822f8e51295`; clean master `6f8ea1d6-24e8-4361-ac02-6dd893430977`;
   loop 4 as delivered and then re-cut by the new edit rules (16.4 s; 1.10) `3157abe8-4295-4ab8-8b60-57ff47fd1711`; Higgsfield folder
@@ -2319,7 +2346,9 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
 - **25–26 Nov:** Gate B approved; video 18's 29 stage pictures (36 tries) and its narration made, the boat staged
   sideways; most pictures laid out on this machine and only the step taken from a render (7.1). Gate C shown.
 - **26 Nov:** Gate C approved; video 18's pilot (the opening and loop 3, six clips, 28.00 credits with the bed) made and
-  shown at Gate D; the join's mix masked by the incoming clip's motion (7.4).
+  shown at Gate D; the join's mix masked by the incoming clip's motion (7.4). Gate D approved; the other 19 clips (16
+  usable at once), loop 5's end rebuilt and two clips re-rendered, the edit rendered three times (two joins fixed, the
+  rope moved onto "inch", a push-in on the lift); **video 18 finished: 71.3 s, 166.29 credits**; not posted.
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
   (`afc98b6`).

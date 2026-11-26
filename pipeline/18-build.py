@@ -61,6 +61,7 @@ READ = {  # clip: (source time of the landing, what lands)
 }
 
 MINSTART, STEP_BEAT, XFADE = 4 / FPS, 0.20, 3
+PLAIN_JOIN = {'FC2'}   # joins mixed whole: the incoming part creeps slowly from frame 1, so a mask would snap it
 XMASK = 8.0                              # grey levels a frame: more than this, the incoming clip is moving there (not mixed)
 def place2(items, end):
     """17-build.py's: items are dicts with k, land (source time of the landing), at (video time the landing falls on),
@@ -69,7 +70,7 @@ def place2(items, end):
     Returns (segments, report); report rows are (clip, starts, lands, settled at, next starts, beat on the finished step)."""
     out, rep = [], []
     it = [{'s0': MINSTART, 'speed': 1.0, **x} for x in items]
-    for x in it: x['s0'] = max(x['s0'], MINSTART); x['v0'] = x['at'] - (x['land'] - x['s0']) / x['speed']
+    for x in it: x['s0'] = max(x['s0'], x.get('minstart', MINSTART)); x['v0'] = x['at'] - (x['land'] - x['s0']) / x['speed']
     for i, x in enumerate(it):
         vn = it[i + 1]['v0'] if i + 1 < len(it) else end
         to = x.get('to', x['settle']); v_done = x['v0'] + (to - x['s0']) / x['speed']
@@ -112,15 +113,27 @@ def colour_fix(f, dl, dg):
 # ---- the camera in the edit: a slow push-in through a loop, never snapped back (5 Rule 5) ----
 RATE, BASE = 0.006, 1.004               # BASE: 720x1276 x 1.5 is 6 px short of 1920
 FOCUS = (0.50, 0.46)                    # the lawn's foot, where the hull goes in: it stays where it is
+END_PUSH = None                         # (t0, t1, zoom at t1): the last shot pushes in on the lift (set in map_full)
 def zoom(t, acts):
     for a0, a1, mode in acts:
-        if a0 <= t < a1 + 1e-6 and mode == 'push': return 1 + RATE * (t - a0)
+        if a0 <= t < a1 + 1e-6 and mode == 'push':
+            z = 1 + RATE * (t - a0)
+            if END_PUSH and t >= END_PUSH[0]:             # eased (smoothstep) from the running push to END_PUSH[2]
+                t0, t1, z1 = END_PUSH; z0 = 1 + RATE * (t0 - a0); p = min(1.0, (t - t0) / (t1 - t0))
+                z = z0 + (z1 - z0) * p * p * (3 - 2 * p)
+            return z
     return 1.0
 
+VIEWS = []                              # (from, to, view) in video time; each view pushes in toward its own point
+def focus_at(t):
+    for a, b, v in VIEWS:
+        if a <= t < b: return FOCUS_AT.get(v, FOCUS)
+    return FOCUS
 def M_at(t, acts):
     """The affine map from a 720p clip frame to the edit's 1080x1920 frame at video time t: the upscale and the push-in."""
-    z = BASE * zoom(t, acts); sc = (W / SW) * z; cx, cy = FOCUS[0] * SW, FOCUS[1] * SH
-    return np.float32([[sc, 0, W * FOCUS[0] - cx * sc], [0, sc, H * FOCUS[1] - cy * sc]])
+    fx, fy = focus_at(t)
+    z = BASE * zoom(t, acts); sc = (W / SW) * z; cx, cy = fx * SW, fy * SH
+    return np.float32([[sc, 0, W * fx - cx * sc], [0, sc, H * fy - cy * sc]])
 
 class Clip:
     """Reads a clip's frames in order (the time map only ever goes forward in a clip), keeping the last one read."""
@@ -176,7 +189,8 @@ def render(segs, t0, t1, acts, out):
         if XFADE and prev is not None and s['k'] != prev['k'] and s.get('view') == prev.get('view'):
             hold, xf = last, XFADE; mask = moving(s['k'], min(nframes(s['k']) - 1, int(round(ts * FPS))), t)
         if xf and hold is not None:
-            w = (XFADE - xf + 1) / (XFADE + 1); a = (w + (1 - w) * np.clip(mask, 0, 1))[..., None]
+            w = (XFADE - xf + 1) / (XFADE + 1)
+            a = np.full(mask.shape + (1,), w, np.float32) if s['k'] in PLAIN_JOIN else (w + (1 - w) * np.clip(mask, 0, 1))[..., None]
             g = np.clip(hold.astype(np.float32) * (1 - a) + g.astype(np.float32) * a, 0, 255).astype(np.uint8); xf -= 1
         prev, last = s, g
         p.stdin.write(g.tobytes())
@@ -245,6 +259,7 @@ def ass_file(t0, t1, path, final=None):
 BED_UNDER, FX_UNDER, TICK_OFF = 15.0, 11.0, -6.0    # dB under the voice by active RMS (measure the result)
 POST_GAIN, LIMIT = 0.0, 0.79
 MAXBOOST, QUIET, MUTE, FX_OFF = 3.0, -35.0, set(), {}
+SND_CUT = {'W5_1': 1.10}            # W5_1's sound is a steady roar near full scale from 0.5 to 2.0 s: its impact only
 def rms_db(path, ss=None, t=None):
     a = np.frombuffer(subprocess.run(['ffmpeg', '-loglevel', 'error'] + (['-ss', f'{ss:.3f}'] if ss is not None else []) +
                                      ['-i', path] + (['-t', f'{t:.3f}'] if t is not None else []) +
@@ -287,6 +302,8 @@ def mix(segs, fx, t0, t1, out, voice_only=False, final=None, tail=0.0):
             if k not in lv: lv[k] = rms_db(f'clips/{k}.mp4')
             if k in MUTE or lv[k] < QUIET: LEFT_OUT[k] = round(lv[k], 1); continue
             g = min(v_db - FX_UNDER - lv[k], MAXBOOST) + FX_OFF.get(k, 0.0)
+            if k in SND_CUT and s0 >= SND_CUT[k]: continue
+            if k in SND_CUT and s1 > SND_CUT[k]: v1 = v0 + (SND_CUT[k] - s0) * (v1 - v0) / (s1 - s0); s1 = SND_CUT[k]
             d = int(round((v0 - t0) * 1000)); L = s1 - s0; sp = L / (v1 - v0)
             tempo = f"atempo={sp:.4f}," if abs(sp - 1) > 0.01 else ""
             inputs += ['-ss', f'{s0:.3f}', '-t', f'{L:.3f}', '-i', f'clips/{k}.mp4']
@@ -397,3 +414,164 @@ if MODE == 'pilot':
     print('fixes in loop 3:', [(l, round(a, 2), round(b, 2), add) for l, a, b, add in lab])
     print('clip sounds left out (active level, dB):', LEFT_OUT or 'none')
     print('loudness pilot (LUFS, true peak dBFS):', loudness('work/pilot.mp4'))
+
+# ---- the whole video (Step 9, 26 Nov 2026) ----
+# Each clip's landing and settle, read off its sheet at 8 frames a second and close strips, and its motion inside its own
+# part's box (steps-check.py's whole-frame `settle` is kept in check.json; these are the times used). s0 skips a clip's
+# opening frames where nothing moves yet (W1_4's boat sits still for 0.9 s; W4_1's and W4_2's blocks come late).
+READ.update({
+    'FC1':  (0.40, 'the rope parts at 0.4 s and the truck races off left, out of the frame by 1.27 s; its dust is gone by 1.9 s'),
+    'W1_1': (0.75, 'ten piles fall and drive in: down by 0.75 s, splash rings in the water, short stubs by 1.4 s'),
+    'W1_2': (0.45, 'two rails come down tilted and settle onto the piles by 0.45 s'),
+    'W1_3': (0.50, 'the cradle falls out of the sky and lands on the rails at 0.5 s'),
+    'W1_4': (1.95, 'the boat sits still to 0.37 s, glides down the lawn, lifts and settles onto the cradle at 1.95 s'),
+    'FC2':  (1.60, 'the cradle creeps from frame 1 and rolls onto the barbecue, flattening it at 1.6 s'),
+    'W2_1': (0.50, 'the pile falls and drives in at 0.5 s with a puff of dust, gone by 1.1 s'),
+    'W2_2': (0.75, 'the hook swings in from above and clamps the cradle at 0.75 s'),
+    'W2_3': (0.50, 'the lever drops into its socket at 0.5 s; its rod to the hook by 0.63 s'),
+    'FC4':  (2.00, 'the boat leans from 0.9 s; the deck is under water by 2.0 s'),
+    'W4_1': (1.15, 'nothing moves until 0.8 s; two blocks drop through the hatch and land at 1.15 s'),
+    'W4_2': (0.95, 'nothing moves until 0.55 s; two more blocks come in from above, hit at 0.7-0.95 s (its thud at 0.7 s) and sit by 1.5 s'),
+    'W4_3': (1.37, 'the hatch cover swings in from 0.27 s and shuts at 1.37 s; the boat rights itself by 1.63 s'),
+    'FC5':  (0.13, 'three small boats glide in from both sides from 0.2 s and stop by 1.7 s'),
+    'W5_1': (0.80, 'two piers drop in at 0.23 s and their legs reach the lake bed at 0.8 s'),
+    'W5_2': (0.55, 'the yellow hoist arrives from the upper left and stands on the piers at 0.55 s'),
+    'W5_3B': (0.75, 'two brown slings lower from the beam and reach into the water at 0.75 s; still by 1.0 s'),
+    'W5_UB': (1.30, 'the slings lift the boat clear of the water by 1.3 s; it hangs, dripping, to 4.0 s, then sinks back (not used)'),
+})
+SETTLE = {'FC1': 1.90, 'W1_1': 1.40, 'W1_2': 0.70, 'W1_3': 0.73, 'W1_4': 2.30, 'FC2': 1.83, 'W2_1': 1.10, 'W2_2': 0.90,
+          'W2_3': 0.70, 'FC4': 2.27, 'W4_1': 1.35, 'W4_2': 1.50, 'W4_3': 2.00, 'FC5': 1.70, 'W5_1': 1.00, 'W5_2': 0.70,
+          'W5_3B': 1.00, 'W5_UB': 1.45}
+W5UB_TO = 4.00                    # W5_UB's last usable frame: after it the boat sinks back toward the end picture
+def item2(k, at_, s0=None, to=None, speed=None, minstart=None):
+    x = dict(k=k, land=READ[k][0], settle=SETTLE.get(k, CHECK[k]['settle']), at=at_, to=lastf(k) if to is None else to)
+    if s0 is not None: x['s0'] = s0
+    if speed is not None: x['speed'] = speed
+    if minstart is not None: x['minstart'] = minstart
+    return x
+FOCUS_AT = {'stage': (0.50, 0.46), 'cv2': (0.50, 0.50), 'cv4': (0.50, 0.50), 'stage5': (0.25, 0.55)}
+CARD = 1.5
+INK_, YEL_ = (16, 26, 51), (255, 214, 46)
+STREET_BEFORE = [16, 17]          # the build videos already on the street (pipeline/street/NN.jpg); 18 drops into lot 3
+def street_card(tile_png, out, built=3, lots=6):
+    """17-build.py's street card: every build so far as a tile, this one dropping into its lot."""
+    os.makedirs('work/street', exist_ok=True)
+    F1 = ImageFont.truetype('fonts/HBXCaption.ttf', 76); F2 = ImageFont.truetype('fonts/HBXCaption.ttf', 58)
+    cols = 3; tw, th, gap = 270, 480, 36; rows = -(-lots // cols)
+    gx = (W - cols * tw - (cols - 1) * gap) // 2; gy = 430
+    tile = Image.open(tile_png).convert('RGB').resize((tw, th), Image.LANCZOS)
+    prev = [Image.open(f'{HERE}/street/{n:02d}.jpg').convert('RGB').resize((tw, th), Image.LANCZOS) for n in STREET_BEFORE]
+    for i in range(round(CARD * FPS)):
+        t = i / FPS; im = Image.new('RGB', (W, H), INK_); d = ImageDraw.Draw(im)
+        for x in range(0, W, 90): d.line([(x, 0), (x, H)], fill=(22, 34, 64), width=1)
+        for y in range(0, H, 90): d.line([(0, y), (W, y)], fill=(22, 34, 64), width=1)
+        d.text((W // 2, 300), "OUR STREET", font=F1, fill=(255, 255, 255), anchor='mm')
+        for k in range(lots):
+            x0 = gx + (k % cols) * (tw + gap); y0 = gy + (k // cols) * (th + gap)
+            if k < len(prev):
+                im.paste(prev[k], (x0, y0)); d.rectangle([x0 - 4, y0 - 4, x0 + tw + 3, y0 + th + 3], outline=YEL_, width=5)
+            elif k == built - 1:
+                p = min(1.0, max(0.0, (t - 0.15) / 0.35)); e = 1 - (1 - p) ** 3
+                d.rectangle([x0, y0, x0 + tw, y0 + th], outline=(60, 78, 120), width=3)
+                if p > 0:
+                    yy = int(y0 - 90 * (1 - e)); im.paste(tile, (x0, yy)); d.rectangle([x0 - 4, yy - 4, x0 + tw + 3, yy + th + 3], outline=YEL_, width=6)
+            else:
+                for xx in range(x0, x0 + tw, 26):
+                    d.line([(xx, y0), (min(xx + 13, x0 + tw), y0)], fill=(90, 110, 160), width=3)
+                    d.line([(xx, y0 + th), (min(xx + 13, x0 + tw), y0 + th)], fill=(90, 110, 160), width=3)
+                for yy in range(y0, y0 + th, 26):
+                    d.line([(x0, yy), (x0, min(yy + 13, y0 + th))], fill=(90, 110, 160), width=3)
+                    d.line([(x0 + tw, yy), (x0 + tw, min(yy + 13, y0 + th))], fill=(90, 110, 160), width=3)
+                d.text((x0 + tw // 2, y0 + th // 2), "?", font=F1, fill=(60, 78, 120), anchor='mm')
+        d.text((W // 2, gy + rows * (th + gap) + 40), "WHAT DO WE BUILD NEXT?", font=F2, fill=YEL_, anchor='mm')
+        im.save(f'work/street/{i:03d}.png')
+    run(['-framerate', str(FPS), '-i', 'work/street/%03d.png', '-vf', 'fade=t=in:st=0:d=0.12,setsar=1', '-c:v', 'libx264',
+         '-crf', '16', '-pix_fmt', 'yuv420p', '-r', str(FPS), out])
+def map_full():
+    B = BUTS; C1 = at('you', after=at('so', after=B[1])); C2 = B[2] - 0.30; C3 = B[3]; C4 = B[4]
+    END = WORDS[-1][1] + 0.30
+    T, rep = [], []
+    def stretch(items, t0, t1, view, head=None):
+        s, r = place2(items, t1)
+        first = items[0]; s0 = max(first.get('s0', MINSTART), MINSTART)
+        if s[0]['v0'] > t0 + 1e-6:                              # the first clip's opening frame, at rest from the cut
+            s = [seg(first['k'], s0, s0, t0, s[0]['v0'])] + s
+        for x in s: x['view'] = view
+        T.extend(s); rep.extend(r)
+    # stage view: the hook, loop 1, loop 2's failure
+    hook_end = lastf('HOOK') - MINSTART
+    T.append(dict(seg('HOOK', MINSTART, lastf('HOOK'), 0.0, hook_end), view='stage'))
+    stretch([item2('FC1', at('inch') + 0.05),          # the rope parts on "inch": the truck races off under "and the
+                                                       # tow rope snaps" (on "snaps", 1.5 s stood still after the hook)
+             item2('W1_1', at('piles')), item2('W1_2', at('rails')), item2('W1_3', at('cradle')),
+             item2('W1_4', at('hull'), speed=1.25),             # the boat glides from 0.37 s: joined on its still frame 4,
+                                                                 # played at 1.25x so it lands on "hull" with a beat before it
+             item2('FC2', at('flattens') - 0.10, s0=1 / FPS, minstart=1 / FPS)], hook_end, C1, 'stage')   # creeps from frame 1
+    # close view CV2: the trigger
+    stretch([item2('W2_1', at('pile', after=C1)), item2('W2_2', at('hook', after=C1)), item2('W2_3', at('lever', after=C1))], C1, C2, 'cv2')
+    # stage view: loop 3 (the pilot's placings)
+    stretch([item('FC3', at('rams', after=B[2])), item('W3_1', at('rails', after=B[2]) + 0.10),
+             item('W3_2', at('chain', after=B[2]) + 0.10), item('W3_3', at('heaps', after=at('more', after=B[2])) + 0.10),
+             item('W3_L', at('chains', after=B[2], end=True) + 0.25)], C2, C3, 'stage')
+    # close view CV4: the lean and the ballast
+    stretch([item2('FC4', at('floods', after=C3, end=True)), item2('W4_1', at('blocks', after=C3), s0=0.80),
+             item2('W4_2', at('row', after=at('second', after=C3)), s0=0.55), item2('W4_3', at('cover', after=C3))], C3, C4, 'cv4')
+    # stage view: loop 5, the lift and the last shot: one clip that ends on its last usable frame at END, so the boat
+    # comes up out of the water under "That's your shipyard." and hangs, dripping, through the bill
+    stretch([item2('FC5', C4), item2('W5_1', at('piers', after=C4)), item2('W5_2', at('crane', after=C4)),
+             item2('W5_3B', at('slings', after=C4) + 0.10),
+             item2('W5_UB', END - (W5UB_TO - READ['W5_UB'][0]), to=W5UB_TO)], C4, END, 'stage5')
+    acts = [(0.0, C1, 'push'), (C1, C2, 'push'), (C2, C3, 'push'), (C3, C4, 'push'), (C4, END + 1, 'push')]
+    global END_PUSH; END_PUSH = (next(x['v0'] for x in T if x['k'] == 'W5_UB'), END, 1.35)   # the lift, big: from its start
+    views = [(0.0, C1, 'stage'), (C1, C2, 'cv2'), (C2, C3, 'stage'), (C3, C4, 'cv4'), (C4, END + 1, 'stage5')]
+    return T, rep, acts, views, END, dict(C1=C1, C2=C2, C3=C3, C4=C4, final=at('the', after=at("that's")))
+if MODE in ('full', 'full-map'):
+    segs, rep, acts, views, END, mk = map_full()
+    print('each clip (video time):  starts  lands   settled  next starts  beat on the finished step')
+    for k, v0, vl, vs, vn, beat in rep:
+        print(f'  {k:6s} {v0:6.2f}  {vl:6.2f}  {vs:6.2f}   {vn:6.2f}      {beat:+5.2f} s' + ('   << cuts in' if beat < STEP_BEAT - 0.01 else ''))
+    print('cuts', {k: round(v, 2) for k, v in mk.items()}, 'end', round(END, 2))
+    json.dump(dict(segs=segs, end=END, steps=[[k, vl, ''] for k, v0, vl, vs, vn, beat in rep]), open('work/full_map.json', 'w'), indent=0)
+
+WORD = {'FC1': 'inch', 'W1_1': 'piles', 'W1_2': 'rails', 'W1_3': 'cradle', 'W1_4': 'hull', 'FC2': 'flattens', 'W2_1': 'pile',
+        'W2_2': 'hook', 'W2_3': 'lever', 'FC3': 'rams', 'W3_1': 'rails', 'W3_2': 'chain', 'W3_3': 'heaps', 'W3_L': 'chains',
+        'FC4': 'floods', 'W4_1': 'blocks', 'W4_2': 'row', 'W4_3': 'cover', 'FC5': 'but', 'W5_1': 'piers', 'W5_2': 'crane',
+        'W5_3B': 'slings', 'W5_UB': "that's"}
+if MODE == 'full':
+    VIEWS[:] = views
+    NOFIX.update({'W2_1', 'W2_2', 'W2_3', 'FC4', 'W4_1', 'W4_2', 'W4_3'})   # the close views: no pale ground to measure
+    rows = []
+    for k, v0, vl, vs, vn, beat in rep:                   # each step against the word it was placed on
+        hits = [x for x in WORDS if norm(x[2]) == WORD[k]]; a_, b_, w_ = min(hits, key=lambda x: abs(x[0] - vl))
+        rows.append((k, round(vl, 2), w_.strip('.,?:'), round(a_, 2), round(vl - a_, 2), round(beat, 2)))
+    json.dump(dict(segs=segs, end=END, steps=[[r[0], r[1], r[2]] for r in rows], marks=mk), open('work/full_map.json', 'w'), indent=0)
+    render(segs, 0.0, END, acts, 'work/full_raw.mp4')
+    fx = ass_file(0.0, END, 'work/full.ass', final=mk['final'])
+    run(['-sseof', '-0.1', '-i', 'work/full_raw.mp4', '-update', '1', '-frames:v', '1', 'work/last_clean.png'])
+    street_card('work/last_clean.png', 'work/card.mp4', built=len(STREET_BEFORE) + 1)
+    venc = ['-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', str(FPS)]
+    run(['-i', 'work/full_raw.mp4', '-i', 'work/card.mp4', '-filter_complex',
+         '[0:v]ass=work/full.ass:fontsdir=fonts,setsar=1[a];[1:v]setsar=1[b];[a][b]concat=n=2:v=1:a=0[v]', '-map', '[v]'] + venc +
+        ['work/full_burn_card.mp4'])
+    run(['-i', 'work/full_raw.mp4', '-i', 'work/card.mp4', '-filter_complex',
+         '[0:v]setsar=1[a];[1:v]setsar=1[b];[a][b]concat=n=2:v=1:a=0[v]', '-map', '[v]'] + venc + ['work/full_clean_card.mp4'])
+    mix(segs, fx, 0.0, END, 'work/full_mix.wav', final=mk['final'], tail=CARD)
+    mix(segs, fx, 0.0, END, 'work/full_voice.wav', voice_only=True, tail=CARD)
+    aenc = ['-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', '-shortest']
+    run(['-i', 'work/full_burn_card.mp4', '-i', 'work/full_mix.wav'] + aenc + ['work/18-final.mp4'])
+    run(['-i', 'work/full_burn_card.mp4', '-i', 'work/full_voice.wav'] + aenc + ['work/18-final-voiceonly.mp4'])
+    run(['-i', 'work/full_clean_card.mp4', '-i', 'work/full_mix.wav'] + aenc + ['work/18-final-clean.mp4'])
+    sheet('work/18-final.mp4', [(0.0, 'frame 0'), (0.5, ''), (1.0, ''), (2.0, '')], 'work/final_hook.jpg')
+    sheet('work/18-final.mp4', [(r[1] + 0.05, f'{r[0]}: "{r[2].upper()}"') for r in rows], 'work/final_steps.jpg', cols=6, tw=180, th=320)
+    print('each step against its word:'); [print(f'  {r[0]:6s} lands {r[1]:6.2f}  "{r[2]}" {r[3]:6.2f}  ({r[4]:+.2f} s)  beat after {r[5]:+.2f} s') for r in rows]
+    print('fixes:', [(l, round(a, 2), round(b, 2), add) for l, a, b, add in fx])
+    print('clip sounds left out (active level, dB):', LEFT_OUT or 'none')
+    dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', 'work/18-final.mp4'],
+                               capture_output=True, text=True).stdout)
+    print(f'final {dur:.2f} s; loudness (LUFS, true peak dBFS):', loudness('work/18-final.mp4'))
+if MODE == 'covers':                                  # frames of the clean master for 18-thumbnail.py, and the street tile
+    os.makedirs('frames', exist_ok=True)
+    for name, t in (('start', 0.20), ('splash', 30.10), ('finished', 68.80), ('lifted', 69.60)):
+        run(['-ss', f'{t:.2f}', '-i', 'work/18-final-clean.mp4', '-frames:v', '1', f'frames/{name}.png'])
+    run(['-i', 'work/last_clean.png', '-q:v', '3', f'{HERE}/street/18.jpg'])
+    subprocess.run([sys.executable, f'{HERE}/18-thumbnail.py'], check=True)
