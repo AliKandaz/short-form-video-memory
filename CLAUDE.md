@@ -113,9 +113,13 @@ checkpoints and not one by one (2). The first five ideas (3) were chosen by the 
   its covers `pipeline/17-covers/`, the log of every step `pipeline/17-beat-sheet.md`, the links in 9.2.
 - **Video 18 is B20** ("How to Launch a Ship From Your Back Yard"), chosen by the user on 25 Nov 2026 with the kickoff
   prompt. **Gate A was approved that day:** 220 words, five loops (slipway, launching trigger, drag chains, iron ballast,
-  boat hoist), 16 steps, the bill $397,150. **Gate B, the quote of 190.66 credits, has been shown and waits for the
-  user;** nothing has been spent. The script, the bill, the step sheet and the log are `pipeline/18-script.txt`,
-  `18-bill.md` and `18-beat-sheet.md`.
+  boat hoist), 16 steps, the bill $397,150. **Gate B, the quote of 190.66 credits, was approved that day.** **Gate C
+  was shown on 26 Nov 2026** (the 29 stage pictures, the boat against its key, and the narration to listen to); it waits
+  for the user. Spent so far 50.29 (36 picture tries, one narration take). The boat lies across the lawn and is launched
+  sideways, toward the camera: the set's lake came out 15% of the frame deep, and an end-on hull would have been 17% of
+  the frame wide; the user said "approve" after seeing frame 0. The script, the bill, the step sheet and the log are
+  `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`; the pictures' prompts and job ids `18-prompts.py` and
+  `18-jobs.tsv`; the layouts `18-stage.py`.
 - **The dog** is no longer in every video (25 Nov 2026; 4.5).
 - **The ideas** (23 Nov 2026): five, B11–B15 (2.3, 3), chosen by the user. B12 is made (video 17); B11, B13, B14 and B15
   are left.
@@ -948,7 +952,8 @@ each Gate A.
   ballast" (alone it can be heard as "a blast"); the hoist runs out on two piers and is yellow; "launching trigger" is
   Britannica's name. 16 steps, every landing 1.8 s or more from the next; 220 words; the bill $397,150, of which the
   hoist is $351,000. Loops 2 and 4 are built in closer views. The script, the bill, the step sheet and the log of every
-  step are `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`.
+  step are `pipeline/18-script.txt`, `18-bill.md` and `18-beat-sheet.md`. Gate B approved the same day; staged sideways
+  (the boat across the lawn, launched toward the camera); Gate C shown on 26 Nov 2026.
 
 **B21. How to Build a 2,000-Foot TV Tower in Your Back Yard** (a back yard under open sky)
 - **Title:** "How to Build a 2,000-Foot TV Tower in Your Back Yard" (51 characters). **Caption:** the title, "Guess the bill
@@ -1674,6 +1679,21 @@ copies of the memory.
 - **Over 30 chained edits the drift grows:** from loop 3 on the stills came back darker and duller (the sunlit lawn's
   L 174 → 141 by the last stage), with "the lawn keeps exactly the same bright green" in every prompt.
 
+- **Lay a step out, then take only the step from a render** (video 18, 25–26 Nov 2026). Text edits put a dozen piles in
+  clumps as tall as the boat, ran two piers up the lawn three times too wide, put a second row of blocks on the deck and
+  redrew things nobody asked for (ruts turfed over, a rowing boat that had been left out). What held: (1) the step drawn
+  or pasted at its exact place on the picture before (`18-stage.py`: piles, rails, a lever, piers and a hoist drawn; the
+  boat cut out once and moved, so it keeps its size to the pixel); (2) one render of that paste-up ("the reference is a
+  rough paste-up: render it as one clean photoreal picture") or a plain text edit; (3) only the step's own pixels taken
+  back from the render (`18-cutlib.py merge`: the changed pixels inside a box, tone-matched on a ring round it). Every
+  stage then differs from the one before by its step alone (0.2–8% of the frame) and the view holds to 0.0 px.
+- **A clean plate pays for itself:** the yard with rails and ruts and no boat (`PLATE`), with the cradle and the hull as
+  layers, gave the creep, the winch-back, the hold, the launch and the float as free composites.
+- **A close view: crop, render, check the framing.** A soft 2.6x crop rendered sharp kept its framing (CV2); a 1.75x crop
+  with the cut face in it came back re-framed at 1.14x, a jump cut (CV4): cropped again on this machine instead.
+- **A render's own drift lands in the next clip.** Frame 0 was rebuilt on the hook's end picture so the hook clip changes
+  only the truck and the lawn it tears (the render had moved the roof edge a pixel).
+
 ### 7.2 Clips (wan2_7 and kling4_0)
 - **`wan2_7` starts and ends on its pictures** (under 0.15 px in the test, 0 px on s2-01), **does its step in the first
   second and then needs time to settle** (dust, a bounce, a wobble). Measured on video 17 (`steps-check.py`): the 2 s
@@ -2279,6 +2299,8 @@ commit `1174f29`. If one comes back, rewrite its opening to Rule 0 first: frame 
   2,000-foot TV tower as B16–B21, beside B11–B15 (2.3, 3.3).
 - **25 Nov (evening):** the user chose B20, the ship launch, for video 18. Gate A was approved (220 words, 16 steps, the
   bill $397,150); the step sheet and the quote (190.66 credits) were written and Gate B shown. Nothing spent yet.
+- **25–26 Nov:** Gate B approved; video 18's 29 stage pictures (36 tries) and its narration made, the boat staged
+  sideways; most pictures laid out on this machine and only the step taken from a render (7.1). Gate C shown.
 - **Paste-in prompts before this one:** 11/11/26 (`f8bf298`), 15/11/26 (`db03adc`), 15/11/26 v2 (`309d785`), 18/11/26
   (`1174f29`), 18/11/26 v2 (`a9abd35`), 21/11/26 with its update of 22/11/26 (`549e291`, and the archive), 22/11/26
   (`afc98b6`).

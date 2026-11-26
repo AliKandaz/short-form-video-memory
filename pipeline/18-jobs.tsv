@@ -54,3 +54,30 @@ S3_L	2e50594c-25aa-4c87-8844-f7af0c39868f	uploaded, no credits: the launch that 
 F3.R	8e0cd1ef-4e94-401e-a6bb-a82178b78f9e	submitted: the paste-up F3P rendered, for the foam and spray
 CV4_u	b6b14ca5-c129-4450-aefd-59b17c759f2e	submitted: the close view rendered sharp (ref CV4P)
 F5.T	1d361ca0-7211-447e-827a-b330a4d5fc1e	submitted: the small boats, a text edit of S3_L; only the boats are taken from it
+F3	(local)	final: F3P with the splash and the rings of waves taken from F3.R (the dock stub and the planks kept from F3P)
+CV4_u	b6b14ca5-c129-4450-aefd-59b17c759f2e	the close view rendered: sharp, but framed only 1.14x closer than the stage view (a jump cut): cropped
+CV4U	04bc9333-84b9-403f-abac-537a09fd4a0e	uploaded, no credits: CV4_u cropped 1.25x round the boat (x 12.5-92.5%, y 7.5-87.5%), lightly sharpened: the close view for loop 4
+S4_T	(local)	final: S3_L with the hull cut-out given a grey hatch cover (drawn)
+F5.T	1d361ca0-7211-447e-827a-b330a4d5fc1e	the small boats rendered
+F5	0aebfce3-cea4-4556-aa77-bda38ccf30db	uploaded, no credits: S4_T + the red motorboat, the kayak and the sailboat (moved 2.5% right) from F5.T; the rowing boat left out
+CV4_0.T	54aad24d-3c5a-49b3-819e-5f6647045b0e	the heel, a text edit of CV4U
+CV4_3.T	3793a90c-80b1-4a89-a776-5842092d0c4e	the hatch cover, a text edit of CV4U
+S5_1.T	841293a8-8938-4f75-8b34-6579d2afb94d	the piers, a text edit of F5
+CV4_0	(local)	final: CV4U with the boat and its reflection taken from CV4_0.T (the heel)
+CV4_3	(local)	final: CV4U with only the hatch cover taken from CV4_3.T
+S5_1.T	841293a8-8938-4f75-8b34-6579d2afb94d	not used: the piers came back three times too wide and ran up the lawn
+S5_1P	db2a3df2-aecd-4f2e-871b-b0dc13052552	uploaded, no credits: the two piers drawn on F5 (18-stage.py piers)
+CV4_1.T	6929c511-48f7-495a-bda5-c4cbb3642e48	the first row of blocks, a text edit of CV4_0.T
+HOISTKEY	a8051f1e-30ac-498f-b686-03d084aac89c	the hoist alone on plain ground (3:4)
+S5_1.R	9baa6272-2629-49e7-b42c-80ad22dc91d4	the drawn piers rendered clean (ref S5_1P)
+CV4_1	(local)	final: CV4_0 with only the hatch area taken from CV4_1.T
+S5_1	(local)	final: F5 with only the piers (and their piles in the cut face) taken from S5_1.R
+S5_2P	51ad4c6e-e416-4fbc-a1e1-480731521868	uploaded, no credits: the hoist drawn on S5_1 (18-stage.py hoist): the key HOISTKEY came back at a three-quarter angle
+CV4_2.T	07f3f489-f1d8-49e1-9b29-1eb21164b659	the second row, a text edit of CV4_1.T
+S5_2.R	ab773894-d5a2-4c07-a61b-8d863400b2a2	the drawn hoist rendered clean (ref S5_2P)
+S5_3.T	d39e58b6-d760-416f-89a1-b3512f67e0d9	the slings, a text edit of S5_2.R
+S5_2	(local)	final: S5_1 with the hoist taken from S5_2.R (below the beams everything new; above them only the yellow steel)
+S5_3	(local)	final: S5_2 with only the two dark slings taken from S5_3.T
+CV4_1	(local)	final, revised: CV4_0 with only the front pair of blocks from CV4_1.T (it rendered two rows of two)
+CV4_2	(local)	final: CV4_0 with all four blocks from CV4_1.T; CV4_2.T (it put the second row on the deck) not used
+S5_U.T	2477056d-a97d-4db3-a155-7d83e6e3fd83	the sailboat lifted, a text edit of S5_3.T

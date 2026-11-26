@@ -63,7 +63,7 @@ def cradle(img, dy=0.0):
     a = cv2.GaussianBlur(al, (0, 0), 0.6)[..., None]
     return np.clip(out * (1 - a) + lay * a, 0, 255).astype(np.uint8)
 # ---- layers (free): the plate (the yard with rails, ruts, blocks: no boat, no cradle), the cradle, the hull ----
-def layers():
+def layers(cover=False):
     """Cut the cradle (and its shadow) out of S1_3 and load the hull: everything compose() needs, at the top-of-rails position."""
     S2, S3, R = rd('S1_2'), rd('S1_3'), rd('S1_4_R'); plate = cv2.imread(D + 'work/plate_rails.png')
     ch = C.changed(S3, S2, 11); bx = C.boxes(S3.shape, [(0.185, 0.80, 0.285, 0.40)]) > 0
@@ -85,7 +85,7 @@ def layers():
     hb = C.boxes(R.shape, [(0.74, 1.0, 0.315, 0.43)]) > 0
     hs = np.ones((H, W), np.float32); m = hb & (lr < lp - 8) & C.lawnlike_any(R)
     hs[m] = np.clip(lr[m] / np.maximum(lp[m], 1), 0.35, 1.0); hs = cv2.GaussianBlur(hs, (0, 0), 1.5)
-    hull = cv2.imread(D + 'work/hull_cut.png', cv2.IMREAD_UNCHANGED); sc, cx, y = np.load(D + 'work/hull_scale_S1_4.npy')
+    hull = cv2.imread(D + ('work/hull_cut_cover.png' if cover else 'work/hull_cut.png'), cv2.IMREAD_UNCHANGED); sc, cx, y = np.load(D + 'work/hull_scale_S1_4.npy')
     return dict(plate=plate, cradle=cradle, cb=cb, cshadow=ratio, hshadow=hs, hull=hull, hsc=float(sc), hcx=float(cx), hy=float(y))
 YTOP = 472.0                             # the row of the hull's keel when the cradle is at the top of the rails
 def shift_map(m, dy, f, fill=1.0):
@@ -213,6 +213,86 @@ def launched(L, base, calm=True):
                 cx = HX[side] + (0.03 if side == 0 else -0.03); out = heap(out, side, y1, cx=cx)
                 out = wire(out, (cx * W + (12 if side == 0 else -12), y1 - 0.02 * H), ends[side])
     return out
+# ---- loop 5: the small boats, taken from the render F5_T (the sailboat moved 2.5% right, into the slot between the piers to come;
+# the rowing boat left out: it stood where the right-hand pier goes) ----
+def small_boats(base):
+    S, G = rd('S3_L'), rd('F5_T')
+    out, share, off = C.merge(base, G, C.boxes(base.shape, [(0.775, 1.0, 0.585, 0.668)]), thr=10, grow=9, feather=2.5)
+    ch = C.changed(G, S, 10) & (C.boxes(G.shape, [(0.0, 0.135, 0.515, 0.69)]) > 0) & ~(C.boxes(G.shape, [(0.108, 0.23, 0.545, 0.612)]) > 0)
+    ch = cv2.morphologyEx(ch.astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(ch, 8); keep = np.zeros_like(ch)
+    for i in range(1, n):
+        if st[i, cv2.CC_STAT_AREA] > 40: keep[lab == i] = 1
+    m = cv2.GaussianBlur(cv2.dilate(keep, np.ones((9, 9), np.uint8)).astype(np.float32), (0, 0), 3.0)
+    dx = int(round(0.025 * W)); M = np.float32([[1, 0, dx], [0, 1, 0]])
+    Gs = cv2.warpAffine(G, M, (W, H), borderMode=cv2.BORDER_REPLICATE); ms = cv2.warpAffine(m, M, (W, H))[..., None]
+    ring = (cv2.dilate((ms[..., 0] > 0.05).astype(np.uint8), np.ones((31, 31), np.uint8)) > 0) & ~(ms[..., 0] > 0.05)
+    offs = np.median(out.astype(np.float32)[ring] - Gs.astype(np.float32)[ring], axis=0)
+    out = np.clip(out.astype(np.float32) * (1 - ms) + np.clip(Gs.astype(np.float32) + offs, 0, 255) * ms, 0, 255).astype(np.uint8)
+    return out
+# ---- loop 5's piers, drawn (the render S5_1.T ran them up the lawn, three times too wide) ----
+PIERS = ((0.012, 0.045), (0.150, 0.183))   # each pier's sides where it meets the bank, as a share of the width
+PY0, PY1 = 0.546, 0.682                     # the piers run from the bank to near the front edge of the water
+def piers(img):
+    out = img.astype(np.float32); rng = np.random.default_rng(12)
+    y0, y1 = PY0 * H, PY1 * H; lift = lambda y: 7 * C.depth_s(y)
+    deck = np.zeros((H, W), np.float32); face = np.zeros((H, W), np.float32); side = np.zeros((H, W), np.float32)
+    shade = np.zeros((H, W), np.float32); pil = np.zeros((H, W), np.float32)
+    for xa, xb in PIERS:
+        X0 = lambda y: C.depth_x(xa * W, y); X1 = lambda y: C.depth_x(xb * W, y)
+        cv2.fillPoly(shade, [np.int32([(X1(y0), y0), (X1(y0) + 10 * C.depth_s(y0), y0 + 2), (X1(y1) + 12 * C.depth_s(y1), y1 + 2), (X1(y1), y1)])], 1.0)
+        cv2.fillPoly(deck, [np.int32([(X0(y0), y0 - lift(y0)), (X1(y0), y0 - lift(y0)), (X1(y1), y1 - lift(y1)), (X0(y1), y1 - lift(y1))])], 1.0)
+        cv2.fillPoly(side, [np.int32([(X1(y0), y0 - lift(y0)), (X1(y0) + 3, y0 - lift(y0) + 2), (X1(y1) + 3, y1 + 1), (X1(y1), y1)])], 1.0)
+        cv2.fillPoly(face, [np.int32([(X0(y1), y1 - lift(y1)), (X1(y1), y1 - lift(y1)), (X1(y1), y1 + 1), (X0(y1), y1 + 1)])], 1.0)
+        for fx in (0.22, 0.78):                                            # two piles at the near end, seen in the water and the cut face
+            px = X0(y1) + fx * (X1(y1) - X0(y1)); pw = 0.30 * (X1(y1) - X0(y1))
+            cv2.rectangle(pil, (int(px - pw / 2), int(y1 + 1)), (int(px + pw / 2), int(0.792 * H)), 1.0, -1)
+    shade = cv2.GaussianBlur(shade, (0, 0), 2.0) * 0.35
+    out *= (1 - shade[..., None])
+    water = out.copy(); pcol = np.array([150, 156, 154], np.float32)
+    t = np.clip((np.arange(H) - PY1 * H) / (0.10 * H), 0, 1)[:, None, None]
+    pile_c = pcol * (1 - 0.55 - 0.25 * t) + water * (0.55 + 0.25 * t)
+    pm = cv2.GaussianBlur(pil, (0, 0), 0.7)[..., None]; out = out * (1 - pm) + pile_c * pm
+    for m, col in ((deck, (186, 190, 188)), (side, (150, 154, 152)), (face, (128, 132, 130))):
+        n = rng.normal(0, 4.0, (H, W, 1)).astype(np.float32)
+        mm = cv2.GaussianBlur(m, (0, 0), 0.6)[..., None]; out = out * (1 - mm) + (np.array(col, np.float32) + n) * mm
+    # a faint seam where each deck slab meets the next, and a lit edge along each deck's left side
+    for xa, xb in PIERS:
+        for yy in np.linspace(PY0 * H, PY1 * H, 5)[1:-1]:
+            cv2.line(out, (int(C.depth_x(xa * W, yy)), int(yy - lift(yy))), (int(C.depth_x(xb * W, yy)), int(yy - lift(yy))), (150, 154, 152), 1, cv2.LINE_AA)
+        cv2.line(out, (int(C.depth_x(xa * W, y0)), int(y0 - lift(y0))), (int(C.depth_x(xa * W, y1)), int(y1 - lift(y1))), (214, 218, 216), 1, cv2.LINE_AA)
+    return np.clip(out, 0, 255).astype(np.uint8)
+# ---- loop 5's hoist, drawn on S5_1 at its place (the key HOISTKEY came back at a three-quarter angle), then rendered clean ----
+def hoist(img):
+    out = img.astype(np.float32); Y0, Y1 = 0.565 * H, 0.668 * H; XC_ = [sum(p) / 2 for p in PIERS]
+    lift = lambda y: 7 * C.depth_s(y); legh = lambda y: 0.095 * H * C.depth_s(y)
+    YEL, YEL_D, YEL_L, TIRE = (40, 196, 236), (24, 140, 186), (110, 228, 250), (34, 34, 36)
+    def box(img_, pts, col):
+        cv2.fillPoly(img_, [np.int32(pts)], col, cv2.LINE_AA)
+    lay = out.copy()
+    legs = {}
+    for side, xc in enumerate(XC_):
+        for end, y in (('r', Y0), ('f', Y1)):
+            s = C.depth_s(y); x = C.depth_x(xc * W, y); yb = y - lift(y); top = yb - legh(y); lw = 0.013 * W * s
+            cv2.ellipse(lay, (int(x), int(yb)), (int(0.012 * W * s), int(0.011 * H * s)), 0, 0, 360, TIRE, -1, cv2.LINE_AA)   # the tire
+            box(lay, [(x - lw / 2, yb - 0.008 * H * s), (x + lw / 2, yb - 0.008 * H * s), (x + lw / 2, top), (x - lw / 2, top)], YEL)
+            box(lay, [(x - lw / 2, yb - 0.008 * H * s), (x - lw / 2 + lw * 0.35, yb - 0.008 * H * s), (x - lw / 2 + lw * 0.35, top), (x - lw / 2, top)], YEL_L)
+            box(lay, [(x + lw / 2 - lw * 0.25, yb - 0.008 * H * s), (x + lw / 2, yb - 0.008 * H * s), (x + lw / 2, top), (x + lw / 2 - lw * 0.25, top)], YEL_D)
+            legs[(side, end)] = (x, top, s)
+    for side in (0, 1):                                                         # the side beams, along the piers
+        (xr, tr, sr), (xf, tf, sf) = legs[(side, 'r')], legs[(side, 'f')]; bw = 0.016 * W
+        box(lay, [(xr - bw * sr / 2, tr - bw * sr * 0.6), (xr + bw * sr / 2, tr - bw * sr * 0.6), (xf + bw * sf / 2, tf), (xf - bw * sf / 2, tf)], YEL)
+        box(lay, [(xr - bw * sr / 2, tr - bw * sr * 0.6), (xr - bw * sr / 2 + 3, tr - bw * sr * 0.6), (xf - bw * sf / 2 + 3, tf), (xf - bw * sf / 2, tf)], YEL_L)
+        mx, my, ms = (xr + xf) / 2, (tr + tf) / 2, (sr + sf) / 2                 # a motor box on each side beam
+        box(lay, [(mx - 9 * ms, my - 16 * ms), (mx + 9 * ms, my - 16 * ms), (mx + 9 * ms, my - 2), (mx - 9 * ms, my - 2)], YEL_D)
+        box(lay, [(mx - 9 * ms, my - 16 * ms), (mx + 9 * ms, my - 16 * ms), (mx + 9 * ms, my - 12 * ms), (mx - 9 * ms, my - 12 * ms)], YEL_L)
+    (x0, t0, s0), (x1, t1, s1) = legs[(0, 'r')], legs[(1, 'r')]; bw = 0.016 * W * s0     # the cross beam at the bank end
+    box(lay, [(x0, t0 - bw * 0.9), (x1, t1 - bw * 0.9), (x1, t1 + bw * 0.3), (x0, t0 + bw * 0.3)], YEL)
+    box(lay, [(x0, t0 + bw * 0.05), (x1, t1 + bw * 0.05), (x1, t1 + bw * 0.3), (x0, t0 + bw * 0.3)], YEL_D)
+    diff = (np.abs(lay - out).sum(2) > 0)
+    lay = lay + np.random.default_rng(21).normal(0, 3.0, lay.shape) * diff[..., None]
+    m = cv2.GaussianBlur(diff.astype(np.float32), (0, 0), 0.6)[..., None]
+    return np.clip(out * (1 - m) + lay * m, 0, 255).astype(np.uint8)
 if __name__ == '__main__':
     k = sys.argv[1]
     if k == 'S1_1': wr('S1_1P', piles(rd('F1')))
@@ -231,4 +311,8 @@ if __name__ == '__main__':
         wr(k, held(L, base, heaps={'S2_T': 0, 'S3_1': 0, 'S3_2': 1, 'S3_3': 2}[k]))
     if k == 'S3_L': wr('S3_L', launched(layers(), cv2.imread(D + 'work/plate_wreck.png'), calm=True))
     if k == 'F3': wr('F3P', launched(layers(), cv2.imread(D + 'work/plate_wreck.png'), calm=False))
+    if k == 'S4_T': wr('S4_T', launched(layers(cover=True), cv2.imread(D + 'work/plate_wreck.png'), calm=True))
+    if k == 'F5': wr('F5', small_boats(rd('S4_T')))
+    if k == 'S5_1': wr('S5_1P', piers(rd('F5')))
+    if k == 'S5_2': wr('S5_2P', hoist(rd('S5_1')))
     print('wrote', k + 'P')

@@ -4,8 +4,8 @@ Idea B20 (CLAUDE.md 3.3), chosen by the user for video 18 on 25 Nov 2026 with th
 effects; no dog). The first video written to the step rules of 25 Nov 2026 (4.3). **Gate A approved by the user on 25 Nov
 2026** ("approve": the title, the script, the loops and the bill as below, with "iron ballast" and the sizes behind the
 bill). The script is `18-script.txt` (220 spoken words, ~68.6 s with the street card); the bill is `18-bill.md` ($397,150,
-spoken "about four hundred thousand dollars"). Balance at the start: 502.43 Higgsfield credits (Ultra). **Gate B (the quote
-of 190.66) shown on 25 Nov 2026; not yet approved.** Nothing has been spent.
+spoken "about four hundred thousand dollars"). Balance at the start: 502.43 Higgsfield credits (Ultra). **Gate B approved
+by the user on 25 Nov 2026** ("approve": the quote of 190.66). **Gate C shown on 26 Nov 2026** (the last section).
 
 ## Gate A
 
@@ -218,3 +218,85 @@ picture; `wan2_7` 720p 3.00 for 2 s, 4.50 for 3 s, 6.00 for 4 s; `elevenlabs_v4`
 
 Balance 502.43; after the quote 311.77 if the reserve is used, 336.64 if it is not. Before Gate C the spend is the pictures
 and the narration only (60.29 at most without the reserve); the clips wait for Gate C, and all but the pilot for Gate D.
+
+## Steps 4–6: the pictures and the narration (25–26 Nov 2026), shown at Gate C
+
+### What changed from the step sheet
+- **The staging.** The set key came back with the lake only 15% of the frame deep (its front edge 69.5% down): an end-on
+  hull would have been 17% of the frame wide, with no water to run into. So the boat lies across the lawn, parallel to the
+  bank, bow to the right, and is launched sideways, toward the camera (side launches are a real method where the water is
+  narrow). The user saw frame 0 and said "approve". Measured layout, in % of the frame: the hull on its blocks 27.5–74%
+  across, 16.5–26.5% down; the rails at 24% and 73% across where they meet the bank, 30–60% down, under water from 55%;
+  the cradle 21–76% across; crept 9% of the height down the rails onto the barbecue; afloat at the foot of the rails
+  21–79% across with its waterline 65.5% down; the piers 1–4.5% and 15–18.5% across; the hoist on them, 2–21% across.
+- **The base:** the set key K0 cropped to 8–92% of its width and stretched back (free), so the lawn and the lake run off
+  both sides of the frame.
+- **The method** (CLAUDE.md 7.1, 25–26 Nov 2026): a step is drawn or pasted at its exact place on the picture before
+  (`18-stage.py`), one render cleans it up or a plain text edit draws it, and only the step's own pixels are taken back
+  (`18-cutlib.py merge`). The boat is frame 0's boat, cut out once (levelled by a shear of 11.5°) and moved; the cradle and
+  the hull are layers on a plate of the yard with no boat.
+- **Close views:** CV2 is F2 cut at 4.5–43% across and 21.5–60% down (2.6x), rendered sharp. CV4 is the render CV4_u
+  (asked for at 1.75x, it came back re-framed at 1.14x) cropped 1.25x round the boat on this machine.
+- **Loop 3:** F3 is the hull afloat against the wrecked dock in its splash; S3_1 the hull winched back onto its cradle at
+  the held position, the trigger hooked again.
+- **Loop 4:** the block render drew two rows of two: CV4_1 is the front pair, CV4_2 all four (the render of CV4_2 put a
+  row on the deck and is not used). CV4_3 has the cover on and the hull level again: the clip does both, the cover first.
+- **Loop 5:** three small boats (a sailboat, a red motorboat, a yellow kayak); a rowing boat the render added stood where
+  the right pier goes and was left out. The slings came back as two wide straps hanging between the hoist's legs into the
+  water; in the last frame the sailboat hangs in them, its red keel clear of the water.
+
+### The ladder: what changed from each picture to the next (`steps-check.py --stills`)
+Cuts between views (F2 → CV2_0, CV2_3 → S2_T, S3_L → CV4U, CV4_3 → S4_T) are not clips and are not measured.
+
+| Step | Changed | View shift (px) |
+|---|---|---|
+| S0 → H | 5.4% | -0.0,+0.0 |
+| H → F1 | 5.2% | +0.1,-0.1 |
+| F1 → S1_1 | 1.3% | +0.0,+0.0 |
+| S1_1 → S1_2 | 5.7% | +0.0,-0.0 |
+| S1_2 → S1_3 | 4.9% | +0.0,+0.0 |
+| S1_3 → S1_4 | 8.3% | +0.0,+0.0 |
+| S1_4 → F2 | 13.7% | +0.0,+0.0 |
+| CV2_0 → CV2_1 | 1.6% | +0.0,+0.0 |
+| CV2_1 → CV2_2 | 3.7% | +0.0,+0.0 |
+| CV2_2 → CV2_3 | 1.6% | +0.0,+0.0 |
+| S2_T → F3 | 17.6% | +0.0,-0.0 |
+| F3 → S3_1 | 15.6% | +0.0,+0.0 |
+| S3_1 → S3_2 | 0.5% | +0.0,+0.0 |
+| S3_2 → S3_3 | 0.4% | +0.0,+0.0 |
+| S3_3 → S3_L | 13.5% | +0.0,+0.0 |
+| CV4U → CV4_0 | 12.8% | -0.0,-0.0 |
+| CV4_0 → CV4_1 | 0.2% | -0.0,-0.0 |
+| CV4_1 → CV4_2 | 0.2% | -0.0,-0.0 |
+| CV4_2 → CV4_3 | 12.9% | -0.0,-0.0 |
+| S4_T → F5 | 1.4% | +0.0,+0.0 |
+| F5 → S5_1 | 4.3% | +0.0,-0.0 |
+| S5_1 → S5_2 | 1.8% | +0.0,+0.0 |
+| S5_2 → S5_3 | 0.8% | +0.0,-0.0 |
+| S5_3 → S5_U | 2.1% | +0.0,-0.0 |
+
+### The tester
+The boat against its key (KH, `sheets/18-gateC-tester.jpg` at Gate C): the same navy hull, red band, white wheelhouse at
+the bow and open hatch in every picture. Its size changes only with its place (4% bigger on the cradle, 4.2% bigger crept
+down the rails, bigger again afloat nearer the camera), never in a clip that doesn't move it.
+
+### The narration (take A, 5.29; Harrison, one turn)
+- Raw 78.03 s; timed (pauses 0.15 s, the five beats 0.5 s, 1.1x) 68.16 s; with the planned extra 1.5 s before "But once
+  afloat", where the launch that works plays, 69.66 s (`18-words-gateC.json`); with the card about 71.2 s. Landing words
+  1.71–2.62 s apart: no step beat needed yet (Step 8 widens them where a clip needs it).
+- **The check, told nothing** (faster-whisper small.en and medium.en in the Higgsfield sandbox; Parakeet on this machine
+  as the second ear). Times are in the timed take the user hears:
+  - "back yard" heard as "backyard" (the same sounds).
+  - a "look," after "hook" (raw 27.30 s, p 0.02) over near-silence (−36 to −66 dB); not there when the sentence is cut out
+    and heard alone by both models: a recogniser artifact. Listen at 24.2 s.
+  - "and over the top a steel hatch cover" skipped by the whole-take pass (raw 57.28 s) but heard word for word by both
+    models when cut out. Listen at 49.9–51.9 s.
+  - unsure words (p < 0.6): "you" 6.94 s and 31.81 s, "every" 54.60 s, "out" 57.03 s: common words.
+  - "The bill?": a rise at 67.58 s (Harrison does it; kept on videos 16 and 17).
+  - the five naming sentences heard alone by two models: slipway, launching trigger, drag chains, iron ballast (both
+    write "Iron Ballast") and boat hoist (small.en unsure of "boat"; medium.en and Parakeet clean) all come back word for
+    word. Parakeet on the whole take: word for word but "backyard", "boathoist" and "$400,000".
+
+### Spend to Gate C
+36 picture tries (45.00) and one narration take (5.29): **50.29** of the 190.66 quote (pictures were planned at up to 44
+tries, 55.00). Balance about 452.14.

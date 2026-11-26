@@ -380,7 +380,51 @@ P["F5"] = (f"{STYLE} {LOCK} {BOATSTAY} Change only this: four small boats have c
            f"barbecue is wide twice over. Nobody is in them. Each casts a soft reflection on the water. {GREEN} {KEEP} "
            f"{NOONE}")
 REFS["F3"] = ["F3P"]; REFS["CV4_u"] = ["CV4P"]; REFS["F5"] = ["S3_L"]
+# ---- loop 4 on CV4U (the close-view render CV4_u, which came back framed only 1.14x closer than the stage view, cropped 1.25x
+# round the boat on this machine and lightly sharpened), and loop 5's piers on F5 (the small boats taken from F5_T) ----
+P["CV4_0"] = (f"{STYLE} {LOCKC} Change only this: the boat heels over toward the camera. It has rolled about 15 degrees onto "
+              f"its near side: its near deck edge dips under the water, and water washes over the near side of the deck "
+              f"toward the open hatch; its far side is lifted, and the wheelhouse leans toward the camera. It floats in "
+              f"the same place, at the same size, and the wires at its two ends stay attached. {KEEP} {NOONE}")
+P["CV4_3"] = (f"{STYLE} {LOCKC} Change only this: the big rectangular hatch in the middle of the boat's deck is now closed "
+              f"by a flat grey steel hatch cover with a raised rim and a row of bolts along its edges: the opening is "
+              f"covered and the hold can no longer be seen. The boat floats level, exactly as it is. {KEEP} {NOONE}")
+P["S5_1"] = (f"{STYLE} {LOCK} {BOATSTAY} Change only this: two long, narrow concrete piers now stand in the lake at the far "
+             f"left of the frame, side by side and parallel, each running straight out from the bank toward the camera: "
+             f"flat grey concrete decks standing just above the water on thick round concrete piles. The left pier is "
+             f"about 1% to 4.5% across the frame and the right pier about 15% to 18.5% across; both run from the bank, "
+             f"about 54% down the frame, out to about 68% down, close to the front edge of the water. The small white "
+             f"sailboat floats in the slot of water between them, exactly as it is. The piers' piles show through the "
+             f"water in the cut face at the front. The other small boats, the wires and everything on the lawn stay "
+             f"where they are. {GREEN} {KEEP} {NOONE}")
+REFS.update({"CV4_0": ["CV4U"], "CV4_3": ["CV4U"], "S5_1": ["F5"]})
 ASPECT = {"KH": "16:9"}
+P["S5_2"] = (f"{STYLE} {PASTE} {BOATIS} A tall boat hoist stands on the two concrete piers at the far left, exactly where the "
+             f"reference shows it, straddling the slot of water between them: an open steel gantry painted bright yellow, "
+             f"with four tall legs on big black rubber tires, two legs standing on each pier, one pair at the bank end and "
+             f"one pair at the near end; a long yellow beam runs along the top of each side, the two back legs are joined "
+             f"at the top by a yellow cross beam, and the near end is open. A small motor box sits on each side beam. "
+             f"Nothing hangs from it yet. It casts a soft shadow on the water to its right. The small white sailboat "
+             f"floats in the slot of water between its legs. Everything else stays exactly as it is. {GREEN} {NOONE}")
+REFS["S5_2"] = ["S5_2P"]
+# ---- the piers, drawn on F5 (S5_1P) and rendered clean; the hoist's key, alone on plain ground, to be cut out and laid on them ----
+P["S5_1"] = (f"{STYLE} {PASTE} {BOATIS} Two long, narrow concrete piers stand in the lake at the far left, exactly where the "
+             f"reference shows them: flat grey concrete decks standing just above the water, each on a row of thick round "
+             f"concrete piles, running from the bank straight out toward the camera. Their piles show through the water "
+             f"in the cut face at the front. Each pier casts a soft shadow on the water to its right. The small white "
+             f"sailboat floats in the water between them. Everything else stays exactly as it is. {GREEN} {NOONE}")
+P["HOISTKEY"] = ("Photoreal 3D render of a mobile boat hoist standing alone on plain, pale, flat ground in bright soft daylight "
+                 "with soft shadows, like a reference picture. It is a tall open steel gantry painted bright yellow: four tall "
+                 "straight steel legs, each standing on one big black rubber tire; along the top, a long straight yellow "
+                 "steel beam runs from the front leg to the back leg on each side, and the two back legs are joined at the "
+                 "top by one yellow cross beam, so the front end is open like a tall arch with no beam across it. A small "
+                 "motor box sits on top of each side beam. No slings, nothing hanging, no boat, no people. The camera looks "
+                 "at it from its open front end and from above at about 50 degrees, looking along its length: the two "
+                 "front legs stand nearest the camera at the left and right, the two side beams run away from the camera "
+                 "to the two back legs, which are joined by the cross beam. The whole hoist is in frame, with plain ground "
+                 "all round it. Clean realistic materials, mild depth of field. No text, no letters, no numbers, no "
+                 "captions, no logos, no watermark.")
+REFS.update({"S5_1": ["S5_1P"], "HOISTKEY": []}); ASPECT["HOISTKEY"] = "3:4"
 
 # ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3); written at Step 7 ----
 CLOCK = "The camera is locked and never moves."
