@@ -136,3 +136,11 @@ W5_2	c2ded01d-3f63-4931-b8c0-7b773db4a0df	clip (2 s, 3.00): S5_1 -> S5_2, the ye
 W5_3	8acb6608-dba6-455e-9c38-ca83fe1f9158	clip (2 s, 3.00): S5_2 -> S5_3, two slings
 W5_U	febd5c0b-7325-480e-b4f0-38a9a892a234	clip (3 s, 4.50): S5_3 -> S5_U, the sailboat lifted
 LAST	81e362ab-cbcb-4f1b-b86d-e844b791933c	clip (3 s, 4.50, start only): S5_U, the last shot
+S5_3BP	309b72a5-6248-49e2-a558-c3c2cb157680	uploaded, no credits: the paste-up of S5_3B (the slings hung from the beam beside the floating sailboat)
+S5_3B.T	b80992e0-14bf-4585-8af1-bf75338598da	submitted (1.25): the paste-up S5_3BP rendered clean (the slings from the beam)
+S5_UBC	c0b2429a-ff85-4a31-bcee-58025513a1ea	uploaded, no credits: the lifted boat's corner of S5_UB enlarged 5x, for a close render of its underbody
+S5_UBC.T	08201898-891c-417e-a4bf-c29321d8e31a	submitted (1.25): the close crop S5_UBC rendered sharp, for the lifted boat's underside
+S5_3B	0fc0227a-ea14-4f53-a173-e3e72a552dd2	uploaded, no credits: S5_3B, the slings hung from the beam beside the floating boat (S5_2 + the slings of S5_3B_T, tails trimmed under the water)
+S5_UB	fca08cdb-b35d-452f-b6f0-80d6b91c7c02	uploaded, no credits: S5_UB, the same boat lifted in the slings (S5_3B + the hoist's slot from the close render S5_UBC_T): the finished build
+W5_3B	ebb6d6ce-57c4-44b8-84c8-d51f5127d2cc	clip (2 s, 3.00): S5_2 -> S5_3B, the slings lower from the beam (replaces W5_3)
+W5_UB	2d941654-4beb-4a3b-9c32-9a419c7c37ee	clip (5 s, 7.50): S5_3B -> S5_UB, the lift and the last shot (replaces W5_U and LAST)

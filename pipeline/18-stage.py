@@ -293,8 +293,155 @@ def hoist(img):
     lay = lay + np.random.default_rng(21).normal(0, 3.0, lay.shape) * diff[..., None]
     m = cv2.GaussianBlur(diff.astype(np.float32), (0, 0), 0.6)[..., None]
     return np.clip(out * (1 - m) + lay * m, 0, 255).astype(np.uint8)
+# ---- loop 5's end, rebuilt after the clips (26 Nov 2026). In S5_3 the slings hung loose (their tops not on the crane) and
+# down through the cut face, and S5_U's lifted boat was a new rendering (turned about 25 degrees, 25% bigger, moved right):
+# W5_3 had to make the slings' tops vanish, and W5_U cross-faded a second boat in. Now the slings hang from the crane's back
+# beam down both sides of the floating boat into the water (S5_3B), and S5_UB is the same boat lifted straight up ----
+SL = ((0.090, 0.150), (0.052, 0.140))       # the slings' tops at the beam (x), and where they meet the water beside the hull (x)
+SL_Y0, SL_W = 0.519, 9.0                    # the beam's underside (share of the height), the slings' width in px
+HULL = [(0.046, 0.609), (0.112, 0.613), (0.147, 0.633), (0.143, 0.669), (0.119, 0.668), (0.047, 0.647)]   # the floating hull
+LIFT = 22                                   # px: the boat rises this much on screen (about S5_U's 18 px, and a little clear)
+def _band(img, p0, p1, w0, w1, col, shade=0.0):
+    """A strap: a flat dark band from p0 to p1 (px), w0 to w1 wide, one edge lit."""
+    lay = img.astype(np.float32).copy(); (x0, y0), (x1, y1) = p0, p1
+    L = np.hypot(x1 - x0, y1 - y0); nx, ny = -(y1 - y0) / L, (x1 - x0) / L
+    poly = np.float32([(x0 - nx * w0 / 2, y0 - ny * w0 / 2), (x0 + nx * w0 / 2, y0 + ny * w0 / 2),
+                       (x1 + nx * w1 / 2, y1 + ny * w1 / 2), (x1 - nx * w1 / 2, y1 - ny * w1 / 2)])
+    m = np.zeros(img.shape[:2], np.float32); cv2.fillPoly(m, [np.int32(poly)], 1.0, cv2.LINE_AA)
+    lit = np.zeros_like(m); cv2.line(lit, (int(x0 - nx * w0 / 2), int(y0)), (int(x1 - nx * w1 / 2), int(y1)), 1.0, 2, cv2.LINE_AA)
+    c = np.array(col, np.float32); n = np.random.default_rng(5).normal(0, 3.0, img.shape).astype(np.float32)
+    band = c + n + lit[..., None] * 40
+    m = cv2.GaussianBlur(m, (0, 0), 0.6)[..., None]
+    return np.clip(lay * (1 - m) + band * m, 0, 255).astype(np.uint8)
+STRAP = (32, 38, 48)                        # dark brown-black (BGR), as S5_U's slings
+def slings2(img):
+    """S5_3B's paste-up: the two slings from the beam down both sides of the floating hull into the water."""
+    out = img.copy(); y0 = SL_Y0 * H
+    for (xt, xw), yw in zip(zip(SL[0], SL[1]), (0.628, 0.650)):
+        out = _band(out, (xt * W, y0), (xw * W, yw * H), SL_W, SL_W * 1.15, STRAP)
+        # under the water: the strap goes on down under the hull, seen faintly through the water
+        under = _band(out, (xw * W, yw * H), (xw * W + (8 if xw < 0.1 else -6), (yw + 0.022) * H), SL_W * 1.15, SL_W, STRAP)
+        out = cv2.addWeighted(out, 0.55, under, 0.45, 0)
+    return out
+def lifted(img, s52, s4t):
+    """S5_UB, drawn here and not rendered (the renders redrew this sailboat 25% smaller): the boat of S5_2 raised LIFT px in
+    the slings of S5_3B, its white topsides and red bottom showing along its lower edge, a keel, its shadow on the water,
+    drips. img is S5_3B."""
+    lab = lambda im: cv2.cvtColor(im, cv2.COLOR_BGR2LAB).astype(np.float32)
+    up = lambda m, d: cv2.warpAffine(m, np.float32([[1, 0, 0], [0, 1, -d]]), (W, H))
+    # the hull from F5, where the boat is and the piers are not yet; its convex outline takes in the shaded lower side
+    f5 = rd('F5'); ch = (np.sqrt(((lab(f5) - lab(s4t)) ** 2).sum(2)) > 14).astype(np.uint8)
+    box = np.zeros((H, W), bool); box[int(0.605 * H):int(0.667 * H), int(0.045 * W):int(0.150 * W)] = True
+    hsv = cv2.cvtColor(f5, cv2.COLOR_BGR2HSV)
+    bright = ((hsv[..., 2] > 165) & (hsv[..., 1] < 80) & box & (ch > 0)).astype(np.uint8)
+    bright = cv2.morphologyEx(bright, cv2.MORPH_CLOSE, np.ones((7, 7), np.uint8))
+    n, lb, st, _ = cv2.connectedComponentsWithStats(bright, 8); core = (lb == 1 + np.argmax(st[1:, 4])).astype(np.uint8)
+    hull = np.zeros((H, W), np.uint8); cv2.fillPoly(hull, [cv2.convexHull(cv2.findNonZero(core))], 1)
+    hull = cv2.dilate(hull, np.ones((3, 3), np.uint8))
+    rig = np.zeros((H, W), np.uint8)
+    for (xa, ya), (xb, yb) in (((0.120, 0.528), (0.107, 0.630)), ((0.120, 0.528), (0.052, 0.612)), ((0.120, 0.528), (0.142, 0.640))):
+        cv2.line(rig, (int(xa * W), int(ya * H)), (int(xb * W), int(yb * H)), 1, 7)
+    boat = (hull | (rig & ch)).astype(np.uint8)
+    refl = np.zeros((H, W), np.uint8); refl[int(0.620 * H):int(0.700 * H), int(0.035 * W):int(0.160 * W)] = 1
+    refl = refl & ch & (1 - hull)
+    pier = (np.abs(rd('S5_1').astype(np.int16) - f5.astype(np.int16)).sum(2) > 40).astype(np.uint8)   # what the piers added
+    straps = (np.abs(img.astype(np.int16) - s52.astype(np.int16)).sum(2) > 30).astype(np.uint8)
+    straps = cv2.morphologyEx(straps, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+    # 1. no slings, no boat: S5_2 where the slings were, S4_T's water and bank where the boat and its reflection were
+    out = img.astype(np.float32); sm = cv2.GaussianBlur(cv2.dilate(straps, np.ones((3, 3), np.uint8)).astype(np.float32), (0, 0), 0.8)[..., None]
+    out = out * (1 - sm) + s52.astype(np.float32) * sm
+    gone = cv2.dilate(boat | refl, np.ones((5, 5), np.uint8)) & (1 - pier)
+    g = cv2.GaussianBlur(gone.astype(np.float32), (0, 0), 1.2)[..., None]; out = out * (1 - g) + s4t.astype(np.float32) * g
+    # 2. the lifted hull's shadow on the water, a little to the right and below
+    sh = cv2.GaussianBlur(cv2.warpAffine(up(hull, LIFT).astype(np.float32), np.float32([[1, 0, 7], [0, 1, 16]]), (W, H)), (0, 0), 5)
+    out = out * (1 - 0.30 * sh[..., None] * (1 - pier[..., None]))
+    # 3. the underbody, 11 px deep along the lifted hull's lower edge: white topsides, then red bottom paint in its own shade
+    lifted_hull = up(hull, LIFT)
+    strip = up(hull, LIFT - 11) & (1 - lifted_hull) & (np.arange(H)[:, None] > 0.600 * H).astype(np.uint8)
+    dist = cv2.distanceTransform((1 - lifted_hull).astype(np.uint8), cv2.DIST_L2, 3)   # px below the lifted hull's edge
+    t = np.clip((dist - 3.0) / 8.0, 0, 1)[..., None]
+    col = np.where(dist[..., None] < 3.0, np.array((214, 220, 222), np.float32),
+                   np.array((42, 46, 156), np.float32) * (1 - 0.35 * t))                   # red, darker toward the keel
+    col = col + np.random.default_rng(9).normal(0, 2.5, col.shape).astype(np.float32)
+    stm = cv2.GaussianBlur(strip.astype(np.float32), (0, 0), 0.7)[..., None]; out = out * (1 - stm) + col * stm
+    ys, xs = np.nonzero(strip); cx = int(np.median(xs)) - 4
+    yb = int(np.max(ys[np.abs(xs - cx) < 3]))
+    keel = np.int32([(cx - 4, yb - 3), (cx + 3, yb - 3), (cx + 1, yb + 12), (cx - 3, yb + 12)])
+    km = np.zeros((H, W), np.float32); cv2.fillPoly(km, [keel], 1.0, cv2.LINE_AA); km = cv2.GaussianBlur(km, (0, 0), 0.6)[..., None]
+    out = out * (1 - km) + np.array((30, 32, 112), np.float32) * km
+    # 4. the boat itself, LIFT px higher
+    bs = up(s52, LIFT).astype(np.float32); bm = up(cv2.GaussianBlur(boat.astype(np.float32), (0, 0), 0.7), LIFT)[..., None]
+    out = out * (1 - bm) + bs * bm
+    # 5. the slings: S5_3B's, from the beam down to the lifted hull's lower edge, where they pass under it (in front of it)
+    ys_h, xs_h = np.nonzero(lifted_hull); y_low = np.zeros(W, np.float32)
+    for x in range(W):
+        sel = ys_h[xs_h == x]; y_low[x] = sel.max() + 2 if len(sel) else 0.655 * H
+    keep = straps.copy()
+    for x in range(W): keep[int(y_low[x]):, x] = 0
+    km2 = cv2.GaussianBlur(keep.astype(np.float32), (0, 0), 0.7)[..., None]
+    out = out * (1 - km2) + img.astype(np.float32) * km2
+    # 6. drips from the keel and the hull's lower edge, and the rings where they land
+    out = np.clip(out, 0, 255).astype(np.uint8)
+    for dx, y_from, L in ((-1, yb + 12, 16), (-12, yb + 1, 12), (11, yb - 1, 13), (-25, yb - 7, 12)):
+        cv2.line(out, (cx + dx, int(y_from)), (cx + dx, int(y_from + L)), (232, 238, 236), 1, cv2.LINE_AA)
+        cv2.ellipse(out, (cx + dx, int(y_from + L + 2)), (4, 1), 0, 0, 360, (214, 224, 222), 1, cv2.LINE_AA)
+    print('keel at', round(cx / W, 3), round(yb / H, 3))
+    return out
+def straps_from(render, prev):
+    """The slings' own pixels in a render of S5_3BP: dark brown fabric above the water and the darker green bands where they
+    go on under it, inside the hoist's slot. The render redrew the sailboat 25% smaller, so only these are taken back."""
+    hsv = cv2.cvtColor(render, cv2.COLOR_BGR2HSV).astype(np.float32); box = np.zeros((H, W), np.uint8)
+    box[int(0.495 * H):int(0.760 * H), int(0.040 * W):int(0.160 * W)] = 1
+    brown = (((hsv[..., 0] < 25) | (hsv[..., 0] > 165)) & (hsv[..., 1] > 60) & (hsv[..., 2] < 120)).astype(np.uint8)
+    wat = cv2.cvtColor(prev, cv2.COLOR_BGR2HSV).astype(np.float32)
+    under = ((hsv[..., 2] < wat[..., 2] - 35) & (np.arange(H)[:, None] > 0.640 * H)).astype(np.uint8)   # darker than the water was
+    m = (brown | under) & box
+    m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)); m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+    n, lb, st, _ = cv2.connectedComponentsWithStats(m, 8); keep = np.zeros_like(m)
+    for i in range(1, n):
+        if st[i, 4] > 150: keep[lb == i] = 1
+    return keep
+UBC = (0.0, 0.490, 0.200, 0.690)            # the close crop round the lifted boat (x0, y0, x1, y1): 154 x 272 px, 9:16
+def ub_close(img):
+    """The lifted boat's corner of S5_UB enlarged 5x (soft), for a close render whose underbody is taken back."""
+    x0, y0, x1, y1 = UBC; c = img[int(y0 * H):int(y1 * H), int(x0 * W):int(x1 * W)]
+    return cv2.resize(c, (W, H), interpolation=cv2.INTER_CUBIC)
+def ub_from_close(prev, close):
+    """S5_UB: S5_3B with the hoist's slot (between the piers, under the beam) taken from the close render S5_UBC_T, shrunk
+    back to its place: the lifted boat, its red bottom and keel, the tight slings, drips and shadow. The render kept the boat
+    within 4 px of the drawn one, at the same size and angle; its slings sit a little further in."""
+    x0, y0, x1, y1 = UBC; cw, chh = int(x1 * W) - int(x0 * W), int(y1 * H) - int(y0 * H)
+    gen = prev.copy(); gen[int(y0 * H):int(y0 * H) + chh, int(x0 * W):int(x0 * W) + cw] = cv2.resize(close, (cw, chh), interpolation=cv2.INTER_AREA)
+    allow = np.zeros((H, W), np.uint8); allow[int(0.523 * H):int(0.690 * H), int(0.051 * W):int(0.168 * W)] = 1
+    pier = (np.abs(rd('S5_1').astype(np.int16) - rd('F5').astype(np.int16)).sum(2) > 40).astype(np.uint8)
+    crane = (np.abs(rd('S5_2').astype(np.int16) - rd('S5_1').astype(np.int16)).sum(2) > 40).astype(np.uint8)
+    allow = allow & (1 - cv2.dilate(pier | crane, np.ones((3, 3), np.uint8)))
+    hsv = cv2.cvtColor(gen, cv2.COLOR_BGR2HSV)                               # where the slings cross the beam, take them too
+    strap = (((hsv[..., 0] < 25) | (hsv[..., 0] > 165)) & (hsv[..., 1] > 50) & (hsv[..., 2] < 120)).astype(np.uint8)
+    band = np.zeros((H, W), np.uint8); band[int(0.495 * H):int(0.530 * H), int(0.060 * W):int(0.160 * W)] = 1
+    allow = allow | (cv2.dilate(strap & band, np.ones((3, 3), np.uint8)))
+    old = (np.abs(prev.astype(np.int16) - rd('S5_2').astype(np.int16)).sum(2) > 30).astype(np.uint8)   # S5_3B's slings, all
+    old = cv2.dilate(old, np.ones((5, 5), np.uint8))                         # of them: back to S5_2 first
+    out = prev.astype(np.float32); om = cv2.GaussianBlur(old.astype(np.float32), (0, 0), 0.8)[..., None]
+    out = np.clip(out * (1 - om) + rd('S5_2').astype(np.float32) * om, 0, 255).astype(np.uint8)
+    res, share, off = C.merge(out, gen, allow, use_changed=False, feather=1.2)
+    # the render drew the left pier about 5 px wider: between our pier's edge and the boat, open water from S4_T
+    strip = np.zeros((H, W), np.uint8); strip[int(0.523 * H):int(0.690 * H), int(0.045 * W):int(0.0585 * W)] = 1
+    strip = strip & (1 - cv2.dilate(pier, np.ones((3, 3), np.uint8)))
+    sm = cv2.GaussianBlur(strip.astype(np.float32), (0, 0), 1.0)[..., None]
+    res = np.clip(res.astype(np.float32) * (1 - sm) + rd('S4_T').astype(np.float32) * sm, 0, 255).astype(np.uint8)
+    print('taken from the close render:', round(100 * share, 2), '% of the frame')
+    return res
 if __name__ == '__main__':
     k = sys.argv[1]
+    if k == 'S5_3B': wr('S5_3BP', slings2(rd('S5_2')))
+    if k == 'S5_3B.M':                                       # the render's slings onto S5_2
+        prev, gen = rd('S5_2'), rd('S5_3B_T'); m = straps_from(gen, prev)
+        m[int(0.680 * H):] = 0                               # the tails stop just under the water: a sling hanging on
+        out, share, off = C.merge(prev, gen, m, grow=3, feather=1.0, use_changed=False)   # down through the cut face is
+        print('slings taken back:', round(100 * share, 2), '% of the frame'); wr('S5_3B', out)  # what drew a second boat
+    if k == 'S5_UB': wr('S5_UBD', lifted(rd('S5_3B'), rd('S5_2'), rd('S4_T'))); wr('S5_UBC', ub_close(rd('S5_UBD')))
+    if k == 'S5_UB.M': wr('S5_UB', ub_from_close(rd('S5_3B'), rd('S5_UBC_T')))
     if k == 'S1_1': wr('S1_1P', piles(rd('F1')))
     if k == 'S1_2': wr('S1_2P', rails(rd('S1_1'), rd('S1_1')))
     if k == 'S1_3': wr('S1_3P', cradle(rd('S1_2')))

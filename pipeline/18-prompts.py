@@ -426,6 +426,29 @@ P["HOISTKEY"] = ("Photoreal 3D render of a mobile boat hoist standing alone on p
                  "captions, no logos, no watermark.")
 REFS.update({"S5_1": ["S5_1P"], "HOISTKEY": []}); ASPECT["HOISTKEY"] = "3:4"
 
+# ---- loop 5's end, rebuilt after the clips (26 Nov 2026; 18-stage.py slings2, lifted): paste-ups rendered clean ----
+SAIL = ("The small white sailboat between the two concrete piers keeps exactly the same size, shape and angle as in the "
+"reference: its pointed bow toward the camera and a little to the right, its mast standing straight up.")
+P["S5_3B"] = (f"{STYLE} {PASTE} {SAIL} The two dark bars that hang from the yellow hoist's top beam are two wide, flat, "
+"dark brown fabric lifting slings: each hangs from the beam straight down to the water beside the sailboat, one past its "
+"stern and one past its bow, and goes on down into the water to pass under its hull. The sailboat still floats in the water "
+"exactly as it is. The hoist, the piers, the other boats and everything else stay exactly as they are. No people. No animals.")
+REFS["S5_3B"] = ["S5_3BP"]
+P["S5_UB"] = (f"{STYLE} {PASTE} {SAIL} The hoist has lifted the sailboat a little way straight up out of the water: it hangs "
+"in the two wide, flat, dark brown fabric slings that run from the hoist's top beam down both sides of its hull and under it, "
+"pulled tight. Below its white hull its dark red bottom and a short red keel are now out of the water, and thin streams of "
+"water drip from it into the lake. The hoist, the piers, the other boats and everything else stay exactly as they are. "
+"No people. No animals.")
+REFS["S5_UB"] = ["S5_UBP"]
+P["S5_UBC"] = (f"{STYLE} {CLOSE} A small white sailboat hangs in two wide, flat, dark brown fabric slings under a yellow "
+"steel hoist, lifted a little way straight up out of the water between two pale concrete piers. Keep the sailboat exactly the "
+"same size, shape and angle as in the reference: its pointed bow toward the bottom right, its mast straight up. Below its "
+"white hull, where it has just left the water, its curved underside shows: a narrow band of white topsides, then smooth dark "
+"red bottom paint curving in under the hull, and a short dark red keel under the middle. Thin streams of water drip from the "
+"keel and the hull into the lake, with small rings where they land, and the boat's soft shadow lies on the water below it. "
+"No people. No animals.")
+REFS["S5_UBC"] = ["S5_UBC"]
+
 # ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3); written at Step 7 ----
 CLOCK = "The camera is locked and never moves."
 SELF = "Nobody is there: the parts move by themselves."
@@ -600,6 +623,24 @@ C.update({
     "dripping, until its red keel hangs clear above the surface; it sways once and stops. Nothing else moves: the yellow "
     "crane, the piers, the big workboat, the other small boats and the lawn stay exactly where they are.", SELF, CLOCK,
     TAIL, "Sound: a hoist motor whirring, water pouring off a hull.")),
+ # loop 5's end again (26 Nov 2026): W5_3 and W5_U came back morphing (the slings' tops vanished; a second sailboat faded in
+ # down in the cut face) and LAST lifted the boat on up through the hoist. S5_3 and S5_U were rebuilt as S5_3B and S5_UB
+ # (18-stage.py), and the lift and the last shot are one 5 s clip.
+ "W5_3B": ("S5_2", "S5_3B", 2, JN(
+    "Two wide, flat, dark brown fabric slings lower at the same moment from the yellow hoist's top beam straight down "
+    "into the water, one on each side of the small white sailboat, and hang still, reaching into the water. They are "
+    "solid straps: they arrive whole, settle within the first second and then hang perfectly still. They do not melt, "
+    "stretch or fade in. Nothing else in the picture moves or changes: the sailboat floats perfectly still, and the hoist, "
+    "the piers and the other boats stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: wide straps dropping into water with two soft splashes.")),
+ "W5_UB": ("S5_3B", "S5_UB", 5, JN(
+    "Within the first second and a half the two brown slings tighten under the small white sailboat and lift it a "
+    "little way straight up out of the water: its red bottom and keel come up out of the lake with water pouring off "
+    "them. Then for the rest of the clip it hangs there in the slings, swaying very gently, water dripping from its keel "
+    "into the lake below with small ripples. It is the same boat the whole time, the same size and shape, and it rises "
+    "only once. Nothing else moves: the yellow hoist, the piers, the big workboat, the other small boats and the lawn "
+    "stay exactly where they are.", SELF, CLOCK, TAIL,
+    "Sound: a hoist motor whirring, water pouring off a hull, then dripping.")),
  "LAST": ("S5_U", None, 3, JN(
     "The small white sailboat sways gently in the straps under the yellow crane, water dripping from its keel; the small "
     "boats bob on the ripples and the lake moves gently. Nothing new appears and nothing is built: everything else stays "
