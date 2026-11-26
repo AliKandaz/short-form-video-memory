@@ -96,3 +96,43 @@ W3_L	3fa3058b-28d9-4f71-9555-4c53ce6e1e51	clip (3 s, 4.50): S3_3 -> S3_L, the la
 BED	151e5a53-7aaa-4356-804b-4fdbf774f57e	sound (mirelo_text_to_audio, 10 s, 2.50): the lakeside bed
 TICK17	056c458c-741d-4b07-a082-3ccedcadc5d6	video 17's tick, reused (no credits)
 TILL17	9d6c9ff8-c5ea-4f1d-b081-6af8bbf7f0d9	video 17's till, reused (no credits)
+F1.U	8a343a12-3b61-4bfd-9e37-7da0a5779775	uploaded, no credits: F1 as shown at Gate C, for the clips (h01)
+S1_1.U	94018d25-c03b-4289-ae26-1f106af3676c	uploaded, no credits: S1_1 as shown at Gate C, for the clips (h02)
+S1_2.U	b82660a7-f931-4e30-85c9-66f1c874ba60	uploaded, no credits: S1_2 as shown at Gate C, for the clips (h03)
+S1_3.U	04f2baf1-72ef-4451-bcf7-945242cb8217	uploaded, no credits: S1_3 as shown at Gate C, for the clips (h04)
+S1_4.U	3afbd885-9a5a-405b-95c8-1fd051e9c2e2	uploaded, no credits: S1_4 as shown at Gate C, for the clips (h05)
+F2.U	8381252d-4ac3-40a9-9112-ed95f28ba9ee	uploaded, no credits: F2 as shown at Gate C, for the clips (h06)
+CV2_0.U	303a4ce0-456c-4ee0-85e6-26f02e093d85	uploaded, no credits: CV2_0 as shown at Gate C, for the clips (h07)
+CV2_1.U	464a567c-eaa6-426a-82ca-3812c5084850	uploaded, no credits: CV2_1 as shown at Gate C, for the clips (h08)
+CV2_2.U	66a74dae-dced-49e1-a361-33056324c9fa	uploaded, no credits: CV2_2 as shown at Gate C, for the clips (h09)
+CV2_3.U	156fd100-9d43-4445-9484-25e1dfc85e7c	uploaded, no credits: CV2_3 as shown at Gate C, for the clips (h10)
+CV4U.U	f1eb0375-e162-449f-9dd8-9c03f107f062	uploaded, no credits: CV4U as shown at Gate C, for the clips (h11)
+CV4_0.U	81fbf366-a5d5-4335-a4a4-90fb0ac8cb5e	uploaded, no credits: CV4_0 as shown at Gate C, for the clips (h12)
+CV4_1.U	4afed715-fd74-4c56-8784-16cf6154a493	uploaded, no credits: CV4_1 as shown at Gate C, for the clips (h13)
+CV4_2.U	9fc78199-7220-43fd-bab9-05b144e10527	uploaded, no credits: CV4_2 as shown at Gate C, for the clips (h14)
+CV4_3.U	54d78e66-99d5-4aad-8881-ede434039e61	uploaded, no credits: CV4_3 as shown at Gate C, for the clips (h15)
+S4_T.U	0cfe92ad-adb9-4438-a1d8-e5b8053247e3	uploaded, no credits: S4_T as shown at Gate C, for the clips (h16)
+F5.U	73977f84-81a9-47db-9e3d-f0b97e904d05	uploaded, no credits: F5 as shown at Gate C, for the clips (h17)
+S5_1.U	e1a1d804-1378-404b-8a44-adad8389f3f1	uploaded, no credits: S5_1 as shown at Gate C, for the clips (h18)
+S5_2.U	3af3e391-e294-4107-a584-ce9766428ddf	uploaded, no credits: S5_2 as shown at Gate C, for the clips (h19)
+S5_3.U	9d153a48-0615-4a94-9cac-70562ef02e99	uploaded, no credits: S5_3 as shown at Gate C, for the clips (h20)
+S5_U.U	ab1801b3-9cc6-48f3-94c2-2d0036eb5ca8	uploaded, no credits: S5_U as shown at Gate C, for the clips (h21)
+FC1	3173e6a0-04d6-4c6a-bb66-78f2eaa17786	clip (3 s, 4.50): H -> F1, the rope snaps, the truck races off
+W1_1	a4eddc55-d4ff-4cf4-a7cc-42639afdd0e9	clip (3 s, 4.50): F1 -> S1_1, ten piles drop in
+W1_2	21cf16c2-8429-4395-aa62-9264eae8e549	clip (2 s, 3.00): S1_1 -> S1_2, two rails lower onto the piles
+W1_3	35ce0a93-9a43-4de4-99ac-de8fd7f81208	clip (2 s, 3.00): S1_2 -> S1_3, the cradle lowers onto the rails
+W1_4	27a09807-7b8a-42eb-9527-ff7d1f4b68ad	clip (3 s, 4.50): S1_3 -> S1_4, the hull onto the cradle
+FC2	03b851fc-6e9f-4582-8c93-a876b22168cf	clip (3 s, 4.50): S1_4 -> F2, it creeps onto the barbecue
+W2_1	e513794a-7cc3-4692-9455-644a8dff3e33	clip (2 s, 3.00): CV2_0 -> CV2_1, one more pile
+W2_2	ec246230-c63c-4a90-8ee8-377e54176e72	clip (2 s, 3.00): CV2_1 -> CV2_2, the iron hook
+W2_3	dd02e307-dd40-4e50-8149-df54198269b7	clip (2 s, 3.00): CV2_2 -> CV2_3, the release lever
+FC4	5f79d6e1-b36b-45ed-9a5a-96fe2206e1b5	clip (3 s, 4.50): CV4U -> CV4_0, it leans and the deck floods
+W4_1	dbfc3cd5-9b6b-49c3-8436-8143253a8797	clip (3 s, 4.50): CV4_0 -> CV4_1, a row of iron blocks
+W4_2	a02d8063-2e2d-4d02-877c-9c72acd204ab	clip (3 s, 4.50): CV4_1 -> CV4_2, a second row
+W4_3	34d020d0-8282-42a0-902f-b01efad4fe28	clip (3 s, 4.50): CV4_2 -> CV4_3, the hatch cover, and it rights itself
+FC5	9d93a9e0-aefc-4bf1-9266-aab0648aae34	clip (3 s, 4.50): S4_T -> F5, three small boats come in
+W5_1	5ca29eaa-ad8a-4b87-b636-62248a1bcd00	clip (3 s, 4.50): F5 -> S5_1, two concrete piers
+W5_2	c2ded01d-3f63-4931-b8c0-7b773db4a0df	clip (2 s, 3.00): S5_1 -> S5_2, the yellow hoist rolls in
+W5_3	8acb6608-dba6-455e-9c38-ca83fe1f9158	clip (2 s, 3.00): S5_2 -> S5_3, two slings
+W5_U	febd5c0b-7325-480e-b4f0-38a9a892a234	clip (3 s, 4.50): S5_3 -> S5_U, the sailboat lifted
+LAST	81e362ab-cbcb-4f1b-b86d-e844b791933c	clip (3 s, 4.50, start only): S5_U, the last shot

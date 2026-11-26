@@ -479,6 +479,132 @@ C = {
     "it. The broken dock, its floating planks and the overturned barbecue stay where they are. " + SELF + " " + CLOCK +
     " " + TAIL + " Sound: a low rumble, chain dragging over grass, a soft splash."),
 }
+# The rest (after Gate D, approved 26 Nov 2026). ONES: a step of several identical pieces, all at once.
+ONES = ("They are solid objects: they arrive whole, all at the same moment, land within the first second and then stay "
+"perfectly still. They do not melt, stretch, fade in or grow out of the ground.")
+ONE1 = ("It is one solid object: it arrives whole, lands within the first second and then stays perfectly still. It does "
+"not melt, stretch, fade in or grow out of the ground.")
+ONBLOCKS = "the boat stays perfectly still on its wooden blocks"
+STAYCV2 = ("The lawn, the rails, the small wooden blocks and the water stay exactly as they are: no hole, pit or trench opens "
+"anywhere.")
+def JN(*parts): return " ".join(p for p in parts if p)
+C.update({
+ "FC1": ("H", "F1", 3, JN(
+    "The tow rope snaps at the boat with a crack and whips away. The red pickup truck drops back onto all four wheels and "
+    "races off to the left, out of the frame, throwing up a last spray of earth. The two torn stripes stay in the lawn. "
+    "The boat on its wooden blocks does not move at all. The truck's windows are dark: nobody is seen in it. The "
+    "barbecue, the dock and the lake stay exactly as they are.", CLOCK, TAIL,
+    "Sound: a rope snapping with a crack, an engine racing away.")),
+ "W1_1": ("F1", "S1_1", 3, JN(
+    "Ten grey steel piles drop straight down out of the sky at the same moment and drive into the ground with heavy "
+    "thuds and small puffs of dust: a row of four down the left side of the lawn and a row of four down the right side, "
+    "from the middle of the lawn to the grassy bank, and one more at the foot of each row that splashes into the "
+    "shallow water.", ONES, f"Nothing else in the picture moves or changes: {ONBLOCKS}, and the torn stripes in the "
+    "lawn, the barbecue and the dock stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: steel posts thudding into earth and splashing into water.")),
+ "W1_2": ("S1_1", "S1_2", 2, JN(
+    "Two long dark steel rails lower straight down out of the sky at the same moment, one onto each row of pile heads, "
+    "and settle with a clang: each runs from the middle of the lawn down over the grassy bank and on under the water.",
+    ONES, f"Nothing else in the picture moves or changes: {ONBLOCKS}, and the piles, the torn stripes in the lawn, the "
+    "barbecue and the dock stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: two long steel rails clanging down onto steel.")),
+ "W1_3": ("S1_2", "S1_3", 2, JN(
+    "A wide timber cradle on four steel wheels lowers straight down out of the sky onto the top end of the two rails and "
+    "settles with a heavy thump: a flat frame of thick wooden beams spanning both rails, just below the boat.", ONE1,
+    f"Nothing else in the picture moves or changes: {ONBLOCKS}, and the rails, the piles, the torn stripes, the "
+    "barbecue and the dock stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: a heavy wooden frame landing on steel rails.")),
+ "W1_4": ("S1_3", "S1_4", 3, JN(
+    "The boat lifts straight up off its wooden blocks, glides a short way down the lawn toward the camera and lowers onto "
+    "the timber cradle, settling with a deep creak; the small wooden blocks stay behind on the grass in a row. It moves "
+    "as one solid boat, the same size and shape the whole time, and once it has settled on the cradle it stays perfectly "
+    "still. Nothing else in the picture moves or changes: the cradle, the rails, the piles, the barbecue and the dock "
+    "stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: a deep creak of timber taking a great weight.")),
+ "FC2": ("S1_4", "F2", 3, JN(
+    "The timber cradle, with the boat on it, starts to roll slowly down the two rails toward the camera by itself, creeps "
+    "a short way, rolls over the small black kettle barbecue and flattens it under its front beam with a metal crunch, "
+    "then stops. The boat stays on the cradle, the same size and shape. The rails, the piles, the row of small wooden "
+    "blocks and the dock stay exactly where they are.", SELF, CLOCK, TAIL,
+    "Sound: steel wheels grinding slowly on rails, then a metal crunch.")),
+ "W2_1": ("CV2_0", "CV2_1", 2, JN(
+    "A short, thick grey steel pile drops straight down out of the sky and drives into the lawn just behind the back "
+    "corner of the wooden cradle, with a heavy thud and a small puff of dust.", ONE1,
+    "Nothing else in the picture moves or changes: the boat and its cradle stay perfectly still on the rails.",
+    SELF, CLOCK, STAYCV2, TAIL, "Sound: one steel post driven into the ground with a thud.")),
+ "W2_2": ("CV2_1", "CV2_2", 2, JN(
+    "A heavy black iron hook swings down from the top of the steel pile and clamps over the back corner beam of the "
+    "wooden cradle with a clank. It is one solid hook: it arrives whole, swings once, locks within the first second and "
+    "then stays perfectly still. It does not melt, stretch or fade in. Nothing else in the picture moves or changes: the "
+    "boat and its cradle stay perfectly still on the rails, and the pile stays where it is.", SELF, CLOCK, STAYCV2, TAIL,
+    "Sound: a heavy iron hook swinging down and clanking shut.")),
+ "W2_3": ("CV2_2", "CV2_3", 2, JN(
+    "A tall grey steel release lever with a red handle drops straight down out of the sky into a socket in the lawn "
+    "beside the hook and stands upright, joined to the hook by a thin rod, with a clack. The lever is one solid part: it "
+    "arrives whole, stands within the first second and then stays perfectly still. Then the boat and its cradle strain "
+    "against the hook with one small jolt and stay where they are: the hook holds. Nothing else moves: the pile, the hook "
+    "and the rails stay exactly as they are.", SELF, CLOCK, STAYCV2, TAIL,
+    "Sound: a steel lever dropping into its socket with a clack.")),
+ "FC4": ("CV4U", "CV4_0", 3, JN(
+    "The boat floating in the lake slowly rolls toward the camera, leaning further and further until its near side dips "
+    "under the water and water pours over the near edge of its deck into the open hatch; then it stays leaning like "
+    "that. It is the same boat, the same size, the whole time. Nothing else moves: the rails, the grassy bank, the lawn "
+    "and the barbecue stay exactly as they are.", CLOCK, TAIL,
+    "Sound: a slow creak, water sloshing over a steel deck.")),
+ "W4_1": ("CV4_0", "CV4_1", 3, JN(
+    "Two dark iron blocks, each the size of a suitcase, lower straight down out of the sky through the open hatch into "
+    "the front of the hold at the same moment and land with one heavy thud.", ONES,
+    "Nothing else in the picture moves or changes: the boat stays leaning exactly as it is, and the water, the rails and "
+    "the bank stay as they are.", SELF, CLOCK, TAIL,
+    "Sound: iron blocks landing on a steel floor with one heavy thud.")),
+ "W4_2": ("CV4_1", "CV4_2", 3, JN(
+    "Two more dark iron blocks, each the size of a suitcase, lower straight down out of the sky through the open hatch "
+    "into the back of the hold, behind the first two, at the same moment, and land with one heavy thud.", ONES,
+    "Nothing else in the picture moves or changes: the boat stays leaning exactly as it is, the first two blocks stay "
+    "where they are, and the water, the rails and the bank stay as they are.", SELF, CLOCK, TAIL,
+    "Sound: iron blocks landing on a steel floor with one heavy thud.")),
+ "W4_3": ("CV4_2", "CV4_3", 3, JN(
+    "A flat grey steel hatch cover drops straight down out of the sky onto the open hatch and clangs shut over the hold. "
+    "Then the boat slowly rocks back upright and settles level in the water, water running off its deck. The cover is "
+    "one solid part: it arrives whole and stays shut. The boat is the same boat, the same size, the whole time. Nothing "
+    "else moves: the rails, the bank and the lawn stay exactly as they are.", SELF, CLOCK, TAIL,
+    "Sound: a steel hatch cover clanging down, water lapping.")),
+ "FC5": ("S4_T", "F5", 3, JN(
+    "Three small boats come gliding in across the lake by themselves and stop near the foot of the rails, bumping gently: "
+    "a small white sailboat from the left edge, and a little red motorboat and a yellow kayak from the right edge, among "
+    "the floating planks. Nobody is aboard any of them. The big workboat floats perfectly still where it is. The rails, "
+    "the broken dock, the lawn and everything on it stay exactly as they are.", CLOCK, TAIL,
+    "Sound: small boats bumping hull to hull, water lapping.")),
+ "W5_1": ("F5", "S5_1", 3, JN(
+    "Two long pale concrete piers drop straight down out of the sky at the same moment, one on each side of the small "
+    "white sailboat at the left, and land with deep thuds and a splash: each runs from the grassy bank straight out over "
+    "the water on tall concrete legs that stand on the lake bed.", ONES,
+    "Nothing else in the picture moves or changes: the boats float perfectly still, and the rails, the chain heaps, the "
+    "dock and the lawn stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: two concrete slabs landing with deep thuds, a splash.")),
+ "W5_2": ("S5_1", "S5_2", 2, JN(
+    "A tall yellow steel gantry crane on four big wheels rolls in from the left edge of the frame along the two concrete "
+    "piers, straddling the small white sailboat, and stops with a short brake hiss: two yellow legs stand on each pier, "
+    "joined at the top by yellow beams with small motor boxes on top. It is one solid machine: it arrives whole, stops "
+    "within the first second and a half and then stays perfectly still. Nothing else in the picture moves or changes: "
+    "the boats float perfectly still, and the piers, the rails, the chain heaps and the lawn stay exactly as they are.",
+    SELF, CLOCK, STAYC, TAIL, "Sound: big rubber tires rolling on concrete, a diesel hum, a brake hiss.")),
+ "W5_3": ("S5_2", "S5_3", 2, JN(
+    "Two wide black straps lower at the same moment from the yellow crane's top beams down into the water, one on each "
+    "side of the small white sailboat, and hang still. They are solid straps: they arrive whole, settle within the first "
+    "second and then hang perfectly still. They do not melt, stretch or fade in. Nothing else in the picture moves or "
+    "changes: the crane, the piers and the boats stay exactly as they are.", SELF, CLOCK, STAYC, TAIL,
+    "Sound: wide straps dropping into water with two splashes.")),
+ "W5_U": ("S5_3", "S5_U", 3, JN(
+    "The two black straps tighten under the small white sailboat and lift it slowly straight up out of the water, "
+    "dripping, until its red keel hangs clear above the surface; it sways once and stops. Nothing else moves: the yellow "
+    "crane, the piers, the big workboat, the other small boats and the lawn stay exactly where they are.", SELF, CLOCK,
+    TAIL, "Sound: a hoist motor whirring, water pouring off a hull.")),
+ "LAST": ("S5_U", None, 3, JN(
+    "The small white sailboat sways gently in the straps under the yellow crane, water dripping from its keel; the small "
+    "boats bob on the ripples and the lake moves gently. Nothing new appears and nothing is built: everything else stays "
+    "exactly where it is.", CLOCK, TAIL, "Sound: quiet lakeside air, water lapping.")),
+})
 
 def jobs():
     J = {}
@@ -504,7 +630,7 @@ if __name__ == "__main__":
         else:
             a, b, secs = C[k][0], C[k][1], C[k][2]
             prm = {"model": "wan2_7", "resolution": "720p", "aspect_ratio": "9:16", "duration": secs,
-                   "medias": [{"role": "start_image", "value": J[a]}, {"role": "end_image", "value": J[b]}],
+                   "medias": [{"role": "start_image", "value": J[a]}] + ([{"role": "end_image", "value": J[b]}] if b else []),
                    "prompt": C[k][3]}
         if "FOLDER" in J: prm["folder_id"] = J["FOLDER"]
         out.append({"index": i, "params": prm})
