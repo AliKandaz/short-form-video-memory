@@ -154,9 +154,13 @@ def merge(prev, gen, allow, thr=12, grow=9, feather=4.0, use_changed=True):
     h, w = prev.shape[:2]; P = prev.astype(np.float32); G = gen.astype(np.float32)
     allow = (allow > 0)
     ring = cv2.dilate(allow.astype(np.uint8), np.ones((41, 41), np.uint8)).astype(bool) & ~allow
-    same = ring & (np.abs(P - G).sum(2) < 40)
-    off = np.median((P - G)[same], axis=0) if same.sum() > 500 else np.zeros(3, np.float32)
-    Gm = np.clip(G + off, 0, 255)
+    # tone: gen is matched to prev on the ring round the allowed region (median and spread per channel, in Lab)
+    pl = cv2.cvtColor(prev, cv2.COLOR_BGR2LAB).astype(np.float32); gl = cv2.cvtColor(gen, cv2.COLOR_BGR2LAB).astype(np.float32)
+    def st(a):
+        med = np.median(a, axis=0); return med, np.median(np.abs(a - med), axis=0) * 1.4826 + 1e-3
+    (mp, sp), (mg, sg) = st(pl[ring]), st(gl[ring]); gain = np.clip(sp / sg, 0.8, 1.25)
+    Gm = cv2.cvtColor(np.clip((gl - mg) * gain + mp, 0, 255).astype(np.uint8), cv2.COLOR_LAB2BGR).astype(np.float32)
+    off = (mp - mg)
     if use_changed:
         a = cv2.cvtColor(prev, cv2.COLOR_BGR2LAB).astype(np.float32); b = cv2.cvtColor(Gm.astype(np.uint8), cv2.COLOR_BGR2LAB).astype(np.float32)
         ch = (np.sqrt(((a - b) ** 2).sum(2)) > thr) & allow
@@ -179,7 +183,7 @@ def rutlike(img):
 def merge_keep(prev, gen, allow, keep, lit_v=150.0, **kw):
     """merge(), but where `keep` is set in prev (ruts) and gen shows only grass there, prev stays, darkened if gen put a shadow on it."""
     out, share, off = merge(prev, gen, allow, **kw)
-    G = np.clip(gen.astype(np.float32) + off, 0, 255).astype(np.uint8)
+    G = gen
     k = (keep > 0) & lawnlike_any(G) & (allow > 0)
     v = cv2.cvtColor(G, cv2.COLOR_BGR2HSV)[..., 2].astype(np.float32)
     f = np.clip(cv2.GaussianBlur(v, (0, 0), 3) / lit_v, 0.5, 1.0)
@@ -190,3 +194,17 @@ def merge_keep(prev, gen, allow, keep, lit_v=150.0, **kw):
 def lawnlike_any(img):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV).astype(int); H, S, V = hsv[..., 0], hsv[..., 1], hsv[..., 2]
     return (H >= 22) & (H <= 95) & (S >= 45)
+
+def merge_obj(prev, gen, allow, thr=12, grow=3, feather=1.2):
+    """merge(), but only the new OBJECT is taken (gen's pixels that are not grass): what stands behind it in prev stays."""
+    h, w = prev.shape[:2]; allow = allow > 0
+    ring = cv2.dilate(allow.astype(np.uint8), np.ones((41, 41), np.uint8)).astype(bool) & ~allow
+    pl = cv2.cvtColor(prev, cv2.COLOR_BGR2LAB).astype(np.float32); gl = cv2.cvtColor(gen, cv2.COLOR_BGR2LAB).astype(np.float32)
+    def st(a):
+        med = np.median(a, axis=0); return med, np.median(np.abs(a - med), axis=0) * 1.4826 + 1e-3
+    (mp, sp), (mg, sg) = st(pl[ring]), st(gl[ring]); gain = np.clip(sp / sg, 0.8, 1.25)
+    Gm = cv2.cvtColor(np.clip((gl - mg) * gain + mp, 0, 255).astype(np.uint8), cv2.COLOR_LAB2BGR)
+    ch = (np.sqrt(((pl - cv2.cvtColor(Gm, cv2.COLOR_BGR2LAB).astype(np.float32)) ** 2).sum(2)) > thr) & allow & ~lawnlike_any(Gm)
+    ch = cv2.morphologyEx(ch.astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
+    m = cv2.GaussianBlur(cv2.dilate(ch, np.ones((grow, grow), np.uint8)).astype(np.float32), (0, 0), feather)[..., None]
+    return np.clip(prev.astype(np.float32) * (1 - m) + Gm.astype(np.float32) * m, 0, 255).astype(np.uint8), float((m > 0.5).mean())

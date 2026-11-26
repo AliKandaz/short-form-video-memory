@@ -30,3 +30,27 @@ S1_4.R	4b3776d3-f63d-4867-9df5-3f1777bd76a7	the paste-up S1_4P rendered: for the
 PLATE	646c538e-bb35-4ce3-a5bb-f672b865ff1f	uploaded, no credits: the plate = S1_2 with the boat, its shadow and its blocks replaced by the empty spot S1_4.R drew (rails, ruts, seven blocks; no boat, no cradle)
 S1_4	(local)	final, not yet uploaded: the plate + the cradle cut out of S1_3 + the hull cut out of S1_2, 4% bigger for the 118 px it comes down the lawn (18-stage.py compose)
 BBQ	3310d07a-f478-4065-9711-efbfd00f83a6	submitted: the barbecue crushed, as a text edit of the plate; only the barbecue is taken from it
+F2	(local)	final, not yet uploaded: the plate with the crushed barbecue + the cradle and the hull 123 px (9% of the height) further down the rails, 4.2% bigger
+PLATEC	5d4213f7-56fe-4bfa-bfbf-cf9f32ccd3bf	uploaded, no credits: the plate with only the barbecue taken from BBQ
+CV2P	72ac559e-6d25-4f7e-827f-15e1588e61db	uploaded, no credits: the close view for loop 2: F2 cut at x 4.5-43%, y 21.5-60% and enlarged 2.6x
+CV2_0	09f38ec4-4ec0-4577-967b-8128e37d5b53	the close view rendered sharp (ref CV2P)
+WRECK	6d9686f9-64ab-4993-983a-98d2b5cb8def	submitted: the dock wrecked, a text edit of PLATEC; only the dock is taken from it
+HEAPS	f2e01a8a-6b89-4f3c-b710-d5d38ac3cc84	submitted: two heaps of anchor chain, a text edit of PLATEC; the heaps are cut out of it
+CV2_1.T	41e5ec64-8549-4a75-9196-3c76429a0db8	submitted: loop 2 step 1 in the close view: the trigger pile, a text edit of CV2_0
+CV2_2.T	85d48fdc-a562-4d7f-a08e-ac4bea4b8b87	loop 2 step 2 in the close view: the hook, a text edit of CV2_1.T
+WRECK2	16f57a3c-6c44-4139-bb28-07e7234d15ab	submitted: the stub of the wrecked dock shortened (ref WRECK), so the boat floats in clear water
+CV2_3.T	bf887298-6d5c-4f58-b121-880924f10110	loop 2 step 3 in the close view: the lever, a text edit of CV2_2.T
+CV2_1	(local)	final: CV2_0 with only the pile taken from CV2_1.T
+CV2_2	(local)	final: CV2_1 with only the hook taken from CV2_2.T
+CV2_3	(local)	final, no credits: the lever drawn on CV2_2 (18-stage.py lever): CV2_3.T had added a second bar and slimmed the hook
+PLATEW	(local)	the plate with the dock wrecked: PLATEC with only the dock's part of the lake taken from WRECK2
+S2_T	(local)	final: F2 + the trigger brought back from the close view (CV2_3 against CV2_0, 1/2.6)
+S3_1	(local)	final: the same on the wrecked-dock plate
+S3_2	(local)	final: + the first pair of chain heaps (cut out of HEAPS) and their wires
+S3_3	(local)	final: + the second pair
+F3P	48abdddf-c192-4d4a-8265-217820f2241b	uploaded, no credits: the paste-up for failure 3: the hull afloat at the foot of the rails on the wrecked-dock plate
+CV4P	d86f9e41-c4f6-48dc-9402-65a27441c167	uploaded, no credits: the close view for loop 4: S3_L cut at x 21.4-78.6%, y 31.2-88.4% and enlarged 1.75x
+S3_L	2e50594c-25aa-4c87-8844-f7af0c39868f	uploaded, no credits: the launch that worked: the hull afloat, the four heaps dragged to the bank with their marks and wires
+F3.R	8e0cd1ef-4e94-401e-a6bb-a82178b78f9e	submitted: the paste-up F3P rendered, for the foam and spray
+CV4_u	b6b14ca5-c129-4450-aefd-59b17c759f2e	submitted: the close view rendered sharp (ref CV4P)
+F5.T	1d361ca0-7211-447e-827a-b330a4d5fc1e	submitted: the small boats, a text edit of S3_L; only the boats are taken from it

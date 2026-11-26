@@ -327,6 +327,59 @@ P["BBQ"] = (f"{STYLE} {LOCK} Change only this: the black kettle barbecue has bee
             f"the grass, its domed lid lying beside it. Nothing else changes: the two steel rails, their piles, the wooden "
             f"blocks, the brown ruts and the dock stay exactly as they are. {GREEN} {KEEP} {NOONE}")
 REFS["BBQ"] = ["PLATE"]
+# ---- drawn once on the plate with the crushed barbecue (PLATEC), then cut out and laid at their places ----
+P["WRECK"] = (f"{STYLE} {LOCK} Change only this: the wooden dock is wrecked. Its wide T-shaped end platform is smashed away "
+              f"and gone, posts and all: only the first short stretch of the dock is left, running from the bank at the "
+              f"right-hand side out to a broken, splintered end about 84% across the frame and 58% down. A few broken "
+              f"planks float on the water close to the right-hand edge of the frame. The water in the middle of the lake "
+              f"is open and clear. Everything on the lawn stays exactly as it is. {GREEN} {KEEP} {NOONE}")
+P["HEAPS"] = (f"{STYLE} {LOCK} Change only this: two heaps of heavy, rusty anchor chain now lie on the lawn: one on the "
+              f"grass a little to the left of the left steel rail, the other a little to the right of the right steel "
+              f"rail, both about level with the crushed barbecue. Each heap is a knee-high pile of big dark rusty chain "
+              f"links, about as wide as the crushed barbecue, casting a short soft shadow to its right. Nothing is "
+              f"attached to them. Everything else on the lawn stays exactly as it is. {NOPIT} {GREEN} {KEEP} {NOONE}")
+REFS["WRECK"] = ["PLATEC"]; REFS["HEAPS"] = ["PLATEC"]
+
+# ---- loop 2 in the close view, as placed on CV2_0 (the rail's own piles stand in line behind the cradle; the trigger's pile
+# goes on the grass left of the rail, at the cradle's back left corner) ----
+P["CV2_1"] = (f"{STYLE} {LOCKC} Change only this: one more steel pile now stands on the grass just to the left of the steel "
+              f"rail, right behind the left-hand back corner of the timber cradle, about 37% across the frame and 45% "
+              f"down: a thick round grey steel pipe driven into the ground, thicker and taller than the rail's own piles, "
+              f"its flat top about level with the boat's deck. It casts a short soft shadow to its right. Nothing is "
+              f"attached to it yet. The lawn stays whole around it: no hole, pit or trench. {KEEP} {NOONE}")
+P["CV2_2"] = (f"{STYLE} {LOCKC} Change only this: a heavy black iron hook, as long as an arm, is now hinged on the head of "
+              f"the tall steel pile that stands left of the rail, and reaches forward and down to clamp over the back "
+              f"timber of the cradle's left end, gripping it. {KEEP} {NOONE}")
+P["CV2_3"] = (f"{STYLE} {LOCKC} Change only this: a tall steel release lever with a bright red handle now stands on the "
+              f"grass just to the left of the tall steel pile, linked by a short rod to the hook at the pile's head: a "
+              f"straight steel bar, half as tall again as the pile. {KEEP} {NOONE}")
+# the stub WRECK left reached to 69% across, into the water the boat floats in: shortened, with the right-hand rail as the mark
+P["WRECK2"] = (f"{STYLE} {LOCK} Change only this: the broken stub of the wooden dock is much shorter. It now ends just to "
+               f"the right of the right-hand steel rail, about 80% across the frame, in the same splintered, broken way. "
+               f"The part of the stub that reached out over and past that rail is gone: there is open water there now, "
+               f"with the right-hand rail running on under the surface as the left-hand rail does. The floating planks "
+               f"near the right-hand edge stay. Everything on the lawn stays exactly as it is. {GREEN} {KEEP} {NOONE}")
+REFS["WRECK2"] = ["WRECK"]
+
+# ---- the launches and the lake's later guests, as laid out (the boat afloat is 57% of the frame wide: it is nearer) ----
+P["F3"] = (f"{STYLE} {PASTE} {BOATIS} The boat has just slid sideways into the lake and floats there, low in the water. White "
+           f"foam and spray surge all along its near side and round both its ends, and rings of waves spread out across "
+           f"the lake from it. It lies against the splintered stub of the wrecked wooden dock at the right; broken planks "
+           f"float beside it. On the lawn the two steel rails are empty; the trigger's pile, hook and lever stand beside "
+           f"the left rail; the crushed barbecue lies on the grass. {GREEN} {NOONE}")
+P["CV4_u"] = (f"{STYLE} {CLOSE} It shows the boat afloat in the lake, seen from above and from its side: {BOATW}. It "
+              f"floats level and low in the calm translucent cyan water, exactly broadside to the camera, bow at the "
+              f"right, with a soft reflection under it. Through the big open hatch the empty steel floor of its hold "
+              f"shows, far below. Behind it are the grassy bank, the lower edge of the lawn and the foot of the two steel "
+              f"rails; in front of it the front edge of the water and the cut face of the block. {NOONE}")
+P["F5"] = (f"{STYLE} {LOCK} {BOATSTAY} Change only this: four small boats have come into the lake and wait round the big "
+           f"boat. At the far left, in the open water between the left edge of the frame and the big boat's stern, floats "
+           f"a small white sailboat with a bare mast, pointing toward the bank; just to its right, close under the big "
+           f"boat's stern, a little white rowing boat. At the right, in the water in front of the wrecked dock, float a "
+           f"small red motorboat and a yellow kayak. Each is far smaller than the big boat, no longer than the crushed "
+           f"barbecue is wide twice over. Nobody is in them. Each casts a soft reflection on the water. {GREEN} {KEEP} "
+           f"{NOONE}")
+REFS["F3"] = ["F3P"]; REFS["CV4_u"] = ["CV4P"]; REFS["F5"] = ["S3_L"]
 ASPECT = {"KH": "16:9"}
 
 # ---- clips (wan2_7, 720p, 9:16): from the stage before to the stage after (CLAUDE.md 6.3); written at Step 7 ----
